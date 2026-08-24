@@ -1,0 +1,5142 @@
+################################################################################
+# meta-info :: sent_id = S000001
+# :: snt1
+Index: 1 2      3   4      5     6  7 8         9       10 11 12      13     14   15  16          17 18 19        20       21 22    23  24 25 26 27 28       29   30       31 32         33       34 35    36 37 38  39         40 41 42   43 44 45 46            47
+Words: “ Embora uma grande parte de a transição digital em os Estados Unidos seja sem precedentes ,  a  transição pacífica de poder não o  é  ,  ”  escreveu Kori Schulman ,  assistente especial de Obama ,  em uma publicação em o  blog ,  em a  segunda-feira .
+Sentence: “ Embora uma grande parte da transição digital nos Estados Unidos seja sem precedentes, a transição pacífica de poder não o é, ” escreveu Kori Schulman, assistente especial de Obama, numa publicação no blog, na segunda-feira.
+
+# sentence level graph:
+(s1escrever / escrever
+    :ARG0 (s1pessoa / person
+        :name (s1nome1 / name
+            :op1 "Kori"
+            :op2 "Schulman")
+        :ARG1-of (s1papel / have-role-91
+            :ARG2 (s1pessoa2 / person
+                :wiki "Q76"
+                :name (s1nome2 / name
+                    :op1 "Obama"))
+            :ARG3 (s1assistente / assistente
+                :mod (s1especial / especial)
+                :refer-number singular)
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG1 (s1contraste / contrast-91
+        :ARG1 (s1termod1 / have-mod-91
+            :ARG1 (s1transicao1 / transição
+                :mod (s1pacifico / pacífico)
+                :mod (s1poder / poder
+                    :refer-number singular))
+            :ARG2 (s1precedente / precedente
+                :polarity -
+                :place (s1pais / country
+                    :wiki "Q30"
+                    :name (s1nome3 / name
+                        :op1 "Estados"
+                        :op2 "Unidos")))
+            :aspect state
+            :modal-strength full-negative)
+        :ARG2 (s1termod2 / have-mod-91
+            :ARG1 (s1transicao2 / transição
+                :refer-number singular
+                :mod (s1digital / digital)
+                :quant (s1parte / parte
+                    :refer-number singular
+                    :mod (s1grande / grande)))
+            :ARG2 s1precedente
+            :aspect state
+            :modal-strength full-affirmative)
+        :quote s1escrever)
+    :medium (s1publicacao / publicação
+        :place (s1blog / blog
+            :refer-number singular)
+        :refer-number singular)
+    :temporal (s1data / date-entity
+        :weekday (s1segunda / segunda-feira))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s1escrever: 28-28
+s1pessoa: 29-30
+s1nome1: 29-30
+s1papel: 32-35
+s1assistente: 32-32
+s1especial: 33-33
+s1pessoa2: 35-35
+s1nome2: 35-35
+s1contraste: 2-25
+s1termod1: 24-25
+s1transicao1: 18-19
+s1pacifico: 20-20
+s1poder: 21-22
+s1precedente: 15-16
+s1pais: 10-12
+s1nome3: 10-12
+s1termod2: 14-16
+s1transicao2: 6-8
+s1digital: 9-9
+s1parte: 3-5
+s1grande: 4-4
+s1publicacao: 37-39
+s1blog: 40-42
+s1data: 44-46
+s1segunda: 46-46
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000002
+# :: snt2
+Index: 1 2    3 4 5     6     7        8 9        10     11    12   13 14 15  16 17       18
+Words: “ Hoje a a noite vamos proceder a punições usando farol alto ”  ,  diz a  mensagem .
+Sentence: “ Hoje à noite vamos proceder a punições usando farol alto ” , diz a mensagem.
+
+# sentence level graph:
+(s2dizer / dizer
+    :ARG0 (s2mensagem / mensagem
+        :refer-number singular)
+    :ARG1 (s2punir / punir
+        :ARG0 (s2pessoa / person
+            :refer-person 1st
+            :refer-number plural)
+        :ARG3 (s2farol / farol
+            :mod (s2alto / alto)
+            :refer-number singular)
+        :temporal (s2data / date-entity
+            :dayperiod (s2noite / noite)
+            :mod (s2hoje / hoje))
+        :quote s2dizer
+        :modal-strength partial-affirmative
+        :aspect activity)
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s2hoje: 2-2
+s2noite: 3-5
+s2data: 2-5
+s2pessoa: 6-6
+s2punir: 6-12
+s2farol: 11-11
+s2alto: 12-12
+s2dizer: 15-15
+s2mensagem: 16-17
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000003
+# :: snt3
+Index: 1  2        3        4  5    6 7 8     9  10 11      12 13 14    15 16 17  18 19    20 21 22     23  24 25    26 27 28        29 30       31 32  33
+Words: Os detritos formaram um anel a o redor de o  equador de a  Terra e  ,  com o  tempo ,  se uniram por a  força de a  gravidade ,  formando a  lua .
+Sentence: Os detritos formaram um anel ao redor do equador da Terra e, com o tempo, se uniram pela força da gravidade, formando a lua.
+
+# sentence level graph:
+(s3conj / and
+    :op1 (s3formar1 / formar
+        :ARG0 (s3detritos / detrito
+            :refer-number plural)
+        :ARG1 (s3anel / anel
+            :place (s3redor / redor
+                :op1 (s3equador / equador
+                    :part-of (s3terra / planeta
+                        :name (s3nome1 / name
+                            :op1 "Terra"))))
+            :refer-number singular)
+        :modal-strength full-affirmative
+        :aspect performance)
+    :op2 (s3unir / unir
+        :ARG1 s3detritos
+        :temporal (s3tempo / tempo
+            :refer-number singular)
+        :cause (s3forca / força
+            :mod (s3gravidade / gravidade)
+            :refer-number singular)
+        :result (s3formar2 / formar
+            :ARG0 s3detritos
+            :ARG1 (s3lua / lua
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect performance)
+        :modal-strength full-affirmative
+        :aspect performance))
+
+# alignment:
+s3detritos: 1-2
+s3formar1: 3-3
+s3anel: 4-5
+s3redor: 6-8
+s3equador: 9-11
+s3terra: 12-14
+s3nome1: 12-14
+s3conj: 15-15
+s3tempo: 17-19
+s3unir: 21-22
+s3forca: 23-25
+s3gravidade: 26-28
+s3formar2: 30-30
+s3lua: 31-32
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000004
+# :: snt4
+Index: 1   2     3          4  5        6  7     8    9     10 11           12        13
+Words: Von Beust justificou os aumentos de custo como falta de planejamento detalhado .
+Sentence: Von Beust justificou os aumentos de custo como falta de planejamento detalhado.
+
+# sentence level graph:
+(s4justificar / justificar
+    :ARG0 (s4pessoa / person
+        :name (s4nome / name
+            :op1 "Von"
+            :op2 "Beust"))
+    :ARG1 (s4aumento / aumento
+        :mod (s4custo / custo)
+        :refer-number plural)
+    :ARG2 (s4falta / falta
+        :ARG1 (s4planejamento / planejamento
+            :mod (s4detalhado / detalhado)
+            :refer-number singular)
+        :refer-number singular)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s4pessoa: 1-2
+s4nome: 1-2
+s4justificar: 3-3
+s4aumento: 4-5
+s4custo: 6-7
+s4falta: 8-9
+s4planejamento: 10-11
+s4detalhado: 12-12
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000005
+# :: snt5
+Index: 1 2       3  4  5           6       7  8          9 10 11  12     13 14 15 16   17 18 19 20     21      22 23  24 25       26   27     28       29  30        31 32      33
+Words: A geração de os smartphones recebeu um aplicativo a a  sua altura ,  em o  qual ,  em o  melhor cenário ,  até a  situação mais idiota alcançou uma audiência de milhões .
+Sentence: A geração dos smartphones recebeu um aplicativo à sua altura, no qual, no melhor cenário, até a situação mais idiota alcançou uma audiência de milhões.
+
+# sentence level graph:
+(s5receber / receber
+    :ARG0 (s5geracao / geração
+        :mod (s5smartphone / smartphone
+            :refer-number plural)
+        :refer-number singular)
+    :ARG1 (s5aplicativo / aplicativo
+        :mod (s5altura / altura
+            :possessor s5geracao)
+        :refer-number singular
+        :place-of (s5alcancar / alcançar
+            :ARG0 (s5situacao / situação
+                :mod (s5idiota / idiota
+                    :degree (s5mais / mais))
+                :mod (s5ate / até)
+                :refer-number singular)
+            :ARG1 (s5audiencia / audiência
+                :quant (s5milhao / milhão
+                    :refer-number plural)
+                :refer-number singular)
+            :condition (s5cenario / cenário
+                :mod (s5melhor / melhor)
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect performance))
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s5geracao: 1-2
+s5smartphone: 3-5
+s5receber: 6-6
+s5aplicativo: 7-8
+s5altura: 9-12
+s5alcancar: 28-28
+s5situacao: 24-25
+s5ate: 23-23
+s5mais: 26-26
+s5idiota: 27-27
+s5audiencia: 29-30
+s5milhao: 31-32
+s5cenario: 18-21
+s5melhor: 20-20
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000006
+# :: snt6
+Index: 1      2       3 4      5     6 7     8  9          10    11          12 13      14 15 16       17 18      19
+Words: Dündar alertou a Europa sobre o risco de demonstrar muita compreensão em relação a  a  política de Erdogan .
+Sentence: Dündar alertou a Europa sobre o risco de demonstrar muita compreensão em relação à política de Erdogan.
+
+# sentence level graph:
+(s6alertar / alertar
+    :ARG0 (s6pessoa / person
+        :name (s6nome1 / name
+            :op1 "Dündar"))
+    :ARG1 (s6continente / continent
+        :name (s6nome2 / name
+            :op1 "Europa"))
+    :ARG2 (s6risco / risco
+        :ARG1 (s6demonstrar / demonstrar
+            :ARG0 s6continente
+            :ARG1 (s6compreensao / compreensão
+                :degree (s6muito / muito)
+                :topic (s6politica / política
+                    :possessor (s6pessoa2 / person
+                        :name (s6nome3 / name
+                            :op1 "Erdogan")))
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect process)
+        :refer-number singular)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s6pessoa: 1-1
+s6nome1: 1-1
+s6alertar: 2-2
+s6continente: 3-4
+s6nome2: 3-4
+s6risco: 5-7
+s6demonstrar: 9-9
+s6muito: 10-10
+s6compreensao: 11-11
+s6politica: 14-16
+s6pessoa2: 17-18
+s6nome3: 17-18
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000007
+# :: snt7
+Index: 1  2      3   4 5        6 7   8      9 10 11    12
+Words: De acordo com o programa , ela falará a as 23:45 .
+Sentence: De acordo com o programa, ela falará às 23:45.
+
+# sentence level graph:
+(s7dizer / say-91
+    :ARG1 (s7programa / programa
+        :refer-number singular)
+    :ARG2 (s7falar / falar
+        :ARG0 (s7pessoa / person
+            :refer-person 3rd
+            :refer-number singular)
+        :temporal (s7hora / date-entity
+            :time "23:45")
+        :aspect performance
+        :modal-strength full-affirmative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s7dizer: 1-2
+s7programa: 3-5
+s7pessoa: 7-7
+s7falar: 8-8
+s7hora: 9-11
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000008
+# :: snt8
+Index: 1   2      3        4   5 6 7          8  9   10        11      12    13            14  15  16    17        18     19           20 21
+Words: Ele também observou que “ a existência de tal documento poderia gerar consequências que são tanto prováveis quanto inaceitáveis ”  .
+Sentence: Ele também observou que “ a existência de tal documento poderia gerar consequências que são tanto prováveis quanto inaceitáveis ” .
+
+# sentence level graph:
+(s8observar / observar
+    :ARG0 (s8pessoa / person
+        :refer-person 3rd
+        :refer-number singular)
+    :mod (s8tambem / também)
+    :ARG1 (s8gerar / gerar
+        :ARG0 (s8existir / exist-91
+            :ARG1 (s8documento / documento
+                :refer-number singular
+                :mod (s8tal / tal))
+            :aspect state
+            :modal-strength full-affirmative)
+        :ARG1 (s8consequencia / consequência
+            :refer-number plural
+            :mod (s8provavel / provável
+                :aspect state
+                :modal-strength partial-affirmative
+                :ARG2-of (s8grau / have-degree-91
+                    :ARG1 s8consequencia
+                    :ARG3 (s8igual / equal)
+                    :ARG4 (s8termod / have-mod-91
+                        :ARG1 s8consequencia
+                        :ARG2 (s8aceitar / aceitar
+                            :aspect state
+                            :modal-strength neutral-negative)
+                        :aspect state
+                        :modal-strength full-affirmative)
+                    :aspect state
+                    :modal-strength full-affirmative)))
+        :quote s8observar
+        :aspect process
+        :modal-strength neutral-affirmative)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s8pessoa: 1-1
+s8tambem: 2-2
+s8observar: 3-3
+s8existir: 6-7
+s8documento: 8-10
+s8tal: 9-9
+s8gerar: 11-12
+s8consequencia: 13-13
+s8grau: 15-15, 17-17
+s8provavel: 16-16
+s8igual: 0-0
+s8termod: 0-0
+s8aceitar: 18-18
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000009
+# :: snt9
+Index: 1  2      3   4 5  6      7 8    9     10 11 12      13     14      15  16 17      18 19    20 21 22 23    24   25      26    27           28 29 30        31
+Words: De acordo com o Le Figaro , este plano de o  governo poderá liberar até 42 milhões de Euros ,  de os quais 15.5 milhões serão direcionados a  a  segurança .
+Sentence: De acordo com o Le Figaro, este plano do governo poderá liberar até 42 milhões de Euros, dos quais 15.5 milhões serão direcionados à segurança.
+
+# sentence level graph:
+(s9dizer / say-91
+    :ARG1 (s9jornal / news-media
+        :name (s9nome / name
+            :op1 "Le"
+            :op2 "Figaro")
+        :wiki "Q216047")
+    :ARG2 (s9liberar / liberar
+        :ARG0 (s9plano / plano
+            :refer-number singular
+            :mod (s9este / este)
+            :possessor (s9governo / governo
+                :refer-number singular))
+        :ARG1 (s9quantia / monetary-quantity
+            :quant 42000000
+            :unit (s9euro / euro)
+            :ARG2-of (s9incluir / include-91
+                :ARG1 (s9quantia2 / monetary-quantity
+                    :quant 15500000
+                    :unit (s9euro2 / euro)
+                    :ARG1-of (s9direcionar / direcionar
+                        :ARG2 (s9seguranca / segurança)
+                        :aspect process
+                        :modal-strength neutral-affirmative))
+                :aspect state
+                :modal-strength full-affirmative))
+        :aspect process
+        :modal-strength neutral-affirmative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s9dizer: 1-2
+s9jornal: 3-5
+s9nome: 3-5
+s9este: 8-8
+s9plano: 9-9
+s9governo: 10-12
+s9liberar: 13-14
+s9quantia: 15-19
+s9euro: 18-19
+s9incluir: 21-22
+s9quantia2: 24-25
+s9euro2: 18-19
+s9direcionar: 26-27
+s9seguranca: 28-30
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000010
+# :: snt10
+Index: 1   2         3   4   5   6       7  8     9      10        11  12      13  14  15         16     17 18     19
+Words: Foi reiterado que nós não podemos de forma alguma continuar com aqueles que são totalmente contra a  Itália .
+Sentence: Foi reiterado que nós não podemos de forma alguma continuar com aqueles que são totalmente contra a Itália.
+
+# sentence level graph:
+(s10r / reiterar
+    :ARG1 (s10c / continuar
+        :ARG0 (s10p / person
+            :refer-person 1st
+            :refer-number plural)
+        :ARG1 (s10p2 / person
+            :refer-number plural
+            :ARG0-of (s10op / opor-se
+                :ARG1 (s10it / country
+                    :name (s10itn / name
+                        :op1 "Itália")
+                    :wiki "Q38")
+                :degree (s10tot / totalmente)
+                :modal-strength full-affirmative
+                :aspect state))
+        :manner (s10forma / forma
+            :mod (s10alg / algum)
+            :polarity -
+            :refer-number singular)
+        :quote s10r
+        :modal-strength full-negative
+        :aspect activity)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s10r: 1-2
+s10p: 4-4
+s10c: 5-6, 10-10
+s10forma: 7-8
+s10alg: 9-9
+s10p2: 11-12
+s10op: 14-16
+s10tot: 15-15
+s10it: 17-18
+s10itn: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000011
+# :: snt11
+Index: 1  2     3    4        5       6  7 8  9  10      11 12 13  14      15 16      17  18    19     20    21    22   23  24    25 26       27 28    29 30 31   32 33 34   35 36 37    38   39  40    41
+Words: Os dados mais recentes referem se a 24 de outubro de o  ano passado e  indicam que nosso diesel custa 1,335 euro por litro ,  enquanto a  média de a  zona de o  euro é  de 1,165 euro por litro .
+Sentence: Os dados mais recentes referem-se a 24 de outubro do ano passado e indicam que nosso diesel custa 1,335 euro por litro, enquanto a média da zona do euro é de 1,165 euro por litro.
+
+# sentence level graph:
+(s11conj / and
+    :op1 (s11referir / referir
+        :ARG0 (s11dados / dado
+            :refer-number plural
+            :mod (s11recente / recente
+                :degree (s11mais / mais)))
+        :ARG1 (s11data / date-entity
+            :day 24
+            :month (s11outubro / outubro)
+            :year (s11ano / ano
+                :mod (s11passado / passado)))
+        :aspect state
+        :modal-strength full-affirmative)
+    :op2 (s11indicar / indicar
+        :ARG0 s11dados
+        :ARG1 (s11contraste / contrast-91
+            :ARG1 (s11custar1 / custar
+                :ARG1 (s11diesel / diesel
+                    :refer-number singular
+                    :possessor (s11pessoa / person
+                        :refer-person 1st
+                        :refer-number plural))
+                :ARG2 (s11quantia1 / monetary-quantity
+                    :quant 1.335
+                    :unit (s11euro1 / euro)
+                    :frequency (s11volume1 / volume-quantity
+                        :quant 1
+                        :unit (s11litro1 / litro)))
+                :aspect state
+                :modal-strength full-affirmative)
+            :ARG2 (s11custar2 / custar
+                :ARG1 s11diesel
+                :ARG2 (s11quantia2 / monetary-quantity
+                    :quant 1.165
+                    :unit (s11euro2 / euro)
+                    :frequency (s11volume2 / volume-quantity
+                        :quant 1
+                        :unit (s11litro2 / litro)))
+                :place (s11eurozona / eurozona
+                    :refer-number singular)
+                :manner (s11media / média
+                    :refer-number singular)
+                :aspect state
+                :modal-strength full-affirmative))
+        :aspect performance
+        :modal-strength full-affirmative))
+
+# alignment:
+s11dados: 1-2
+s11mais: 3-3
+s11recente: 4-4
+s11referir: 5-6
+s11data: 7-14
+s11outubro: 9-10
+s11ano: 11-13
+s11passado: 14-14
+s11conj: 15-15
+s11indicar: 16-16
+s11contraste: 25-25
+s11custar1: 20-20
+s11diesel: 19-19
+s11pessoa: 18-18
+s11quantia1: 21-24
+s11euro1: 22-22
+s11volume1: 23-24
+s11litro1: 24-24
+s11custar2: 35-35
+s11media: 27-28
+s11eurozona: 29-34
+s11quantia2: 36-40
+s11euro2: 38-38
+s11volume2: 39-40
+s11litro2: 40-40
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000012
+# :: snt12
+Index: 1          2  3 4            5     6     7          8  9 10       11 12 13       14  15        16 17   18
+Words: Estudantes de a Universidade LUISS foram informados em o decorrer de um encontro que aconteceu em Roma .
+Sentence: Estudantes da Universidade LUISS foram informados no decorrer de um encontro que aconteceu em Roma.
+
+# sentence level graph:
+(s12informar / informar
+    :ARG1 (s12estudante / estudante
+        :refer-number plural
+        :mod (s12universidade / university
+            :name (s12nome1 / name
+                :op1 "Universidade"
+                :op2 "LUISS")))
+    :temporal (s12encontro / encontro
+        :refer-number singular
+        :ARG1-of (s12acontecer / acontecer
+            :place (s12cidade / city
+                :name (s12nome2 / name
+                    :op1 "Roma"))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s12estudante: 1-1
+s12universidade: 2-4
+s12nome1: 2-4
+s12informar: 6-7
+s12encontro: 11-13
+s12acontecer: 15-15
+s12cidade: 16-17
+s12nome2: 16-17
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000013
+# :: snt13
+Index: 1   2      3 4  5 6       7 8   9   10     11     12 13       14
+Words: Sua gestão , em o entanto , não tem estado isenta de críticas .
+Sentence: Sua gestão, no entanto, não tem estado isenta de críticas.
+
+# sentence level graph:
+(s13termod / have-mod-91
+    :ARG1 (s13gestir / gerir
+        :ARG0 (s13pessoa / person
+            :refer-person 3rd
+            :refer-number singular)
+        :aspect activity
+        :modal-strength full-affirmative)
+    :ARG2 (s13criticar / criticar
+        :ARG1 s13gestir
+        :aspect performance
+        :modal-strength full-negative)
+    :mod (s13entanto / entanto)
+    :aspect state
+    :modal-strength full-negative)
+
+# alignment:
+s13termod: 8-11
+s13gestir: 1-2
+s13pessoa: 1-1
+s13entanto: 4-6
+s13criticar: 12-13
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000014
+# :: snt14
+Index: 1 2    3     4   5        6   7        8      9 10    11     12 13   14     15 16   17      18 19     20 21        22
+Words: E eles devem ser saudados com espírito aberto e mente lúcida ,  pois formam a  nova geração de beleza e  esperança .
+Sentence: E eles devem ser saudados com espírito aberto e mente lúcida, pois formam a nova geração de beleza e esperança.
+
+# sentence level graph:
+(s14saudar / saudar
+    :ARG1 (s14pessoa / person
+        :refer-person 3rd
+        :refer-number plural)
+    :ARG2 (s14coord1 / and
+        :op1 (s14espirito / espírito
+            :refer-number singular
+            :mod (s14aberto / aberto))
+        :op2 (s14mente / mente
+            :refer-number singular
+            :mod (s14lucido / lúcido)))
+    :reason (s14formar / formar
+        :ARG0 s14pessoa
+        :ARG1 (s14geracao / geração
+            :refer-number singular
+            :mod (s14novo / novo)
+            :mod (s14coord2 / and
+                :op1 (s14beleza / beleza
+                    :refer-number singular)
+                :op2 (s14esperanca / esperança
+                    :refer-number singular)))
+        :aspect process
+        :modal-strength full-affirmative)
+    :aspect performance
+    :modal-strength partial-affirmative)
+
+# alignment:
+s14saudar: 3-5
+s14pessoa: 2-2
+s14coord1: 9-9
+s14espirito: 6-7
+s14aberto: 8-8
+s14mente: 10-10
+s14lucido: 11-11
+s14formar: 13-14
+s14geracao: 15-15, 17-17
+s14novo: 16-16
+s14beleza: 18-19
+s14coord2: 20-20
+s14esperanca: 21-21
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000015
+# :: snt15
+Index: 1 2       3          4      5   6 7  8    9   10 11 12                13    14         15 16    17     18 19 20    21 22  23    24  25   26    27 28   29      30   31      32
+Words: A votação antecipada indica que , de esta vez ,  os latino-americanos devem comparecer em maior número a  as urnas ,  mas ainda não está claro se esse aumento terá impacto .
+Sentence: A votação antecipada indica que, desta vez, os latino-americanos devem comparecer em maior número às urnas, mas ainda não está claro se esse aumento terá impacto.
+
+# sentence level graph:
+(s15mas / but-91
+    :ARG1 (s15indicar / indicar
+        :ARG0 (s15votacao / votar
+            :manner (s15antecipado / antecipado)
+            :aspect performance
+            :modal-strength full-affirmative)
+        :ARG1 (s15comparecer / comparecer
+            :ARG0 (s15pessoa / person
+                :mod (s15regiao / world-region
+                    :name (s15nome / name
+                        :op1 "América"
+                        :op2 "Latina")
+                    :wiki "Q12585")
+                :refer-number plural
+                :quant (s15numero / número
+                    :mod (s15maior / maior)))
+            :ARG1 (s15urna / urna
+                :refer-number plural)
+            :temporal (s15vez / vez
+                :refer-number singular
+                :mod (s15este / este))
+            :aspect performance
+            :modal-strength partial-affirmative)
+        :aspect process
+        :modal-strength full-affirmative)
+    :ARG2 (s15termod / have-mod-91
+        :ARG1 (s15resultado / have-result-91
+            :ARG1 (s15aumentar / aumentar
+                :ARG1 s15numero
+                :mod (s15esse / esse)
+                :aspect process
+                :modal-strength full-affirmative)
+            :ARG2 (s15impacto / impacto
+                :refer-number singular)
+            :aspect state
+            :modal-strength neutral-affirmative)
+        :ARG2 (s15claro / claro)
+        :mod (s15ainda / ainda)
+        :aspect state
+        :modal-strength full-negative))
+
+# alignment:
+s15votacao: 1-2
+s15antecipado: 3-3
+s15indicar: 4-4
+s15vez: 7-9
+s15este: 8-8
+s15pessoa: 11-12
+s15regiao: 11-12
+s15nome: 11-12
+s15comparecer: 13-14
+s15numero: 15-15, 17-17
+s15maior: 16-16
+s15urna: 18-20
+s15mas: 22-22
+s15ainda: 23-23
+s15termod: 24-26
+s15claro: 26-26
+s15resultado: 27-30
+s15esse: 28-28
+s15aumentar: 29-29
+s15impacto: 31-31
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000016
+# :: snt16
+Index: 1 2   3           4      5  6    7     8
+Words: A sua importância reside em dois fatos .
+Sentence: A sua importância reside em dois fatos.
+
+# sentence level graph:
+(s16residir / residir
+    :ARG1 (s16importancia / importância
+        :refer-number singular
+        :possessor (s16coisa / thing
+            :refer-person 3rd
+            :refer-number singular))
+    :ARG2 (s16fato / fato
+        :refer-number plural
+        :quant 2)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s16coisa: 2-2
+s16importancia: 1-3
+s16residir: 4-4
+s16fato: 5-7
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000017
+# :: snt17
+Index: 1   2     3  4 5      6   7 8 9         10       11       12  13   14      15 16  17    18  19    20    21
+Words: Por volta de o século III , o imperador Caracala promoveu uma nova divisão ,  que durou por pouco tempo .
+Sentence: Por volta do século III, o imperador Caracala promoveu uma nova divisão, que durou por pouco tempo.
+
+# sentence level graph:
+(s17promover / promover
+    :ARG0 (s17pessoa / person
+        :name (s17nome / name
+            :op1 "Caracala")
+        :ARG1-of (s17papel / have-role-91
+            :ARG3 (s17imperador / imperador
+                :refer-number singular)
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG1 (s17divisao / divisão
+        :refer-number singular
+        :mod (s17novo / novo)
+        :ARG1-of (s17durar / durar
+            :duration (s17tempo / tempo
+                :quant (s17pouco / pouco))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :temporal (s17aprox / cerca-de
+        :op1 (s17data / date-entity
+            :century (s17seculo / século
+                  :quant 3)))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s17aprox: 1-2
+s17data: 3-6
+s17imperador: 8-9
+s17pessoa: 10-10
+s17nome: 10-10
+s17promover: 11-11
+s17divisao: 12-12, 14-14
+s17novo: 13-13
+s17durar: 17-17
+s17tempo: 18-20
+s17pouco: 19-19
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000018
+# :: snt18
+Index: 1  2    3 4       5       6 7        8          9 10 11  12     13 14      15 16  17   18      19  20     21 22  23  24           25  26 27      28 29   30 31  32   33
+Words: Em 1955 , Mishima começou a praticar musculação , e  sua rotina de treinos ,  com três sessões por semana ,  não foi interrompida por os últimos 15 anos de sua vida .
+Sentence: Em 1955, Mishima começou a praticar musculação, e sua rotina de treinos, com três sessões por semana, não foi interrompida pelos últimos 15 anos de sua vida.
+
+# sentence level graph:
+(s18conj / and
+    :op1 (s18praticar / praticar
+        :ARG0 (s18pessoa / person
+            :name (s18nome / name
+                :op1 "Mishima"))
+        :ARG1 (s18musculacao / musculação
+            :refer-number singular)
+        :temporal (s18data / date-entity
+            :year 1955)
+        :aspect activity
+        :modal-strength full-affirmative)
+    :op2 (s18interromper / interromper
+        :ARG1 (s18rotina / rotina
+            :refer-number singular
+            :possessor s18pessoa
+            :mod (s18treinar / treinar
+                :ARG0 s18pessoa
+                :aspect activity
+                :modal-strength full-affirmative)
+            :mod (s18sessao / sessão
+                :quant 3
+                :frequency (s18taxa / rate-entity-91
+                    :ARG4 (s18semana / semana))))
+        :duration (s18duracao / temporal-quantity
+            :quant 15
+            :unit (s18ano / ano)
+            :mod (s18ultimo / último)
+            :mod (s18vida / vida
+                :possessor s18pessoa))
+        :aspect performance
+        :modal-strength full-negative))
+
+# alignment:
+s18data: 1-2
+s18pessoa: 4-4
+s18nome: 4-4
+s18praticar: 5-7
+s18musculacao: 8-8
+s18conj: 10-10
+s18rotina: 12-12
+s18treinar: 13-14
+s18sessao: 16-18
+s18taxa: 19-20
+s18semana: 20-20
+s18interromper: 22-24
+s18duracao: 25-32
+s18ultimo: 27-27
+s18ano: 29-29
+s18vida: 30-32
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000019
+# :: snt19
+Index: 1  2    3 4 5      6        7   8       9   10 11     12 13          14 15 16         17    18          19 20  21 22       23 24  25  26    27        28  29      30 31      32
+Words: Em 1832 , o antigo claustro foi vendido por o  Estado de Württemberg a  o  industrial Georg Reichenbach ,  com a  condição de que ali fosse instalada uma fábrica de algodão .
+Sentence: Em 1832, o antigo claustro foi vendido pelo Estado de Württemberg ao industrial Georg Reichenbach, com a condição de que ali fosse instalada uma fábrica de algodão.
+
+# sentence level graph:
+(s19vender / vender
+    :ARG0 (s19estado / State
+        :name (s19nome1 / name
+            :op1 "Württemberg"))
+    :ARG1 (s19claustro / claustro
+        :refer-number singular
+        :mod (s19antigo / antigo))
+    :ARG2 (s19pessoa / person
+        :name (s19nome2 / name
+            :op1 "Georg"
+            :op2 "Reichenbach")
+        :ARG1-of (s19papel / have-role-91
+            :ARG3 (s19industrial / industrial
+                :refer-number singular)
+            :aspect state
+            :modal-strength full-affirmative))
+    :temporal (s19data / date-entity
+        :year 1832)
+    :condition (s19instalar / instalar
+        :ARG1 (s19fabrica / fábrica
+            :refer-number singular
+            :mod (s19algodao / algodão))
+        :place (s19ali / ali)
+        :aspect performance
+        :modal-strength partial-affirmative)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s19data: 1-2
+s19claustro: 4-6
+s19antigo: 5-5
+s19vender: 7-8
+s19estado: 9-13
+s19nome1: 12-13
+s19pessoa: 17-18
+s19nome2: 17-18
+s19papel: 14-18
+s19industrial: 14-16
+s19instalar: 20-27
+s19ali: 25-25
+s19fabrica: 28-29
+s19algodao: 30-31
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000020
+# :: snt20
+Index: 1      2  3         4        5 6      7      8    9  10
+Words: Abriga um monumento dedicado a Martin Luther King Jr .
+Sentence: Abriga um monumento dedicado a Martin Luther King Jr .
+
+# sentence level graph:
+(s20a / abrigar
+    :ARG1 (s20m / monumento
+        :refer-number singular
+        :ARG1-of (s20d / dedicar
+            :ARG2 (s20p / person
+                :name (s20n / name
+                    :op1 "Martin"
+                    :op2 "Luther"
+                    :op3 "King"
+                    :op4 "Jr"))
+            :modal-strength full-affirmative
+            :aspect state))
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s20a: 1-1
+s20m: 2-3
+s20d: 4-4
+s20p: 5-9
+s20n: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000021
+# :: snt21
+Index: 1     2   3           4   5       6          7          8   9  10      11 12      13 14     15
+Words: Weiss foi homenageado com prêmios literários concedidos por as cidades de Colônia e  Bremen .
+Sentence: Weiss foi homenageado com prêmios literários concedidos pelas cidades de Colônia e Bremen.
+
+# sentence level graph:
+(s21homenagear / homenagear
+    :ARG1 (s21pessoa / person
+        :name (s21nome1 / name
+            :op1 "Weiss"))
+    :ARG2 (s21premio / prêmio
+        :refer-number plural
+        :mod (s21literario / literário)
+        :ARG1-of (s21conceder / conceder
+            :ARG0 (s21coord / and
+                :op1 (s21cidade1 / human-settlement
+                    :name (s21nome2 / name
+                        :op1 "Colônia")
+                    :wiki "Q365")
+                :op2 (s21cidade2 / human-settlement
+                    :name (s21nome3 / name
+                        :op1 "Bremen")
+                    :wiki "Q24879"))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect process
+    :modal-strength full-affirmative)
+
+# alignment:
+s21pessoa: 1-1
+s21nome1: 1-1
+s21homenagear: 2-3
+s21premio: 4-5
+s21literario: 6-6
+s21conceder: 7-7
+s21coord: 13-13
+s21cidade1: 8-12
+s21nome2: 11-12
+s21cidade2: 14-14
+s21nome3: 14-14
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000022
+# :: snt22
+Index: 1 2      3  4 5      6  7    8 9  10        11     12     13        14 15     16
+Words: A partir de o século IX a.C. , os primeiros textos gregos começaram a  surgir .
+Sentence: A partir do século IX a.C. , os primeiros textos gregos começaram a surgir.
+
+# sentence level graph:
+(s22surgir / surgir
+    :ARG1 (s22texto / texto
+        :refer-number plural
+        :ord (s22ordinal / ordinal-entity
+            :value 1)
+        :mod (s22grego / ethnic-group
+            :name (s22nome / name
+                :op1 "Gregos")
+            :wiki "Q25688688"))
+    :temporal (s22depois / after
+        :op1 (s22data / date-entity
+            :century (s22seculo / século
+                  :quant 9)
+            :era (s22ac / a.C.)))
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s22depois: 1-2
+s22data: 3-7
+s22ac: 7-7
+s22texto: 9-9, 11-11
+s22ordinal: 10-10
+s22grego: 12-12
+s22nome: 12-12
+s22surgir: 13-15
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000023
+# :: snt23
+Index: 1 2      3   4        5  6      7        8           9         10 11  12           13 14     15    16          17  18 19        20 21 22   23 24   25   26 27   28 29       30 31       32 33 34      35       36  37 38  39 40  41      42 43        44
+Words: A Grécia era dividida em muitas pequenas comunidades autônomas ,  uma configuração em grande parte determinada por a  geografia de o  país :  cada ilha ,  vale e  planície é  separado de os lugares vizinhos por o  mar ou por cadeias de montanhas .
+Sentence: A Grécia era dividida em muitas pequenas comunidades autônomas, uma configuração em grande parte determinada pela geografia do país: cada ilha, vale e planície é separado dos lugares vizinhos pelo mar ou por cadeias de montanhas.
+
+# sentence level graph:
+(s23dividir / dividir
+    :ARG1 (s23pais1 / country
+        :name (s23nome1 / name
+            :op1 "Grécia"))
+    :result (s23comunidade / comunidade
+        :refer-number plural
+        :quant (s23muito / muito)
+        :mod (s23pequeno / pequeno)
+        :mod (s23autonomo / autônomo)
+        :ARG1-of (s23identidade1 / identity-91
+            :ARG2 (s23configuracao / configuração
+                :refer-number singular
+                :ARG1-of (s23causa / have-cause-91
+                    :ARG2 (s23geografia / geografia
+                        :refer-number singular
+                        :mod (s23pais2 / país
+                            :refer-number singular)
+                        :ARG1-of (s23identidade2 / identity-91
+                            :ARG2 (s23separar / separar
+                                :ARG1 (s23coord1 / and
+                                    :op1 (s23ilha / ilha
+                                        :refer-number singular
+                                        :quant (s23cada1 / cada))
+                                    :op2 (s23vale / vale
+                                        :refer-number singular
+                                        :quant (s23cada2 / cada))
+                                    :op3 (s23planicie / planície
+                                        :refer-number singular
+                                        :quant (s23cada3 / cada)))
+                                :ARG2 (s23lugar / lugar
+                                    :refer-number plural
+                                    :mod (s23vizinho / vizinho))
+                                :cause (s23coord2 / or
+                                    :op1 (s23mar / mar
+                                        :refer-number singular)
+                                    :op2 (s23cadeia / cadeia
+                                        :refer-number plural
+                                        :mod (s23montanha / montanha)))
+                                :aspect state
+                                :modal-strength full-affirmative)
+                            :aspect state
+                            :modal-strength full-affirmative))
+                    :extent (s23parte / parte
+                        :refer-number singular
+                        :mod (s23grande / grande))
+                    :aspect state
+                    :modal-strength full-affirmative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s23pais1: 1-2
+s23nome1: 1-2
+s23dividir: 3-4
+s23comunidade: 5-5, 8-8
+s23muito: 6-6
+s23pequeno: 7-7
+s23autonomo: 9-9
+s23identidade1: 0-0
+s23configuracao: 11-12
+s23causa: 16-16
+s23parte: 13-15
+s23grande: 14-14
+s23geografia: 17-19
+s23pais2: 20-22
+s23identidade2: 23-23
+s23cada1: 24-24
+s23ilha: 25-25
+s23cada2: 24-24
+s23vale: 27-27
+s23coord1: 26-26, 28-28
+s23cada3: 24-24
+s23planicie: 29-29
+s23separar: 30-31
+s23lugar: 32-34
+s23vizinho: 35-35
+s23mar: 36-38
+s23coord2: 39-39
+s23cadeia: 40-41
+s23montanha: 42-43
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000024
+# :: snt24
+Index: 1 2        3  4           5   6    7  8 9               10 11          12         13  14   15 16           17 18  19      20  21  22    23   24        25  26 27
+Words: O comércio se desenvolveu por meio de o estabelecimento de entrepostos comerciais por todo o  Mediterrâneo ,  uma prática que não havia sido utilizada até então .
+Sentence: O comércio se desenvolveu por meio do estabelecimento de entrepostos comerciais por todo o Mediterrâneo, uma prática que não havia sido utilizada até então.
+
+# sentence level graph:
+(s24desenvolver / desenvolver-se
+    :ARG1 (s24comercio / comércio
+        :refer-number singular)
+    :ARG2 (s24estabelecer / estabelecer
+        :ARG1 (s24entreposto / entreposto
+            :refer-number plural
+            :mod (s24comercial / comercial))
+        :goal (s24mar / sea
+            :name (s24nome / name
+                :op1 "Mediterrâneo")
+            :wiki "Q4918"
+            :quant (s24todo / todo))
+        :aspect performance
+        :modal-strength full-affirmative
+        :ARG1-of (s24identidade / identity-91
+            :ARG2 (s24pratica / prática
+                :refer-number singular
+                :ARG1-of (s24utilizar / utilizar
+                    :temporal (s24ate / until
+                        :op1 (s24entao / então))
+                    :aspect process
+                    :modal-strength full-negative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s24comercio: 1-2
+s24desenvolver: 3-4
+s24estabelecer: 5-9
+s24entreposto: 10-11
+s24comercial: 12-12
+s24mar: 13-16
+s24todo: 14-14
+s24nome: 16-16
+s24identidade: 0-0
+s24pratica: 18-19
+s24utilizar: 21-24
+s24ate: 25-25
+s24entao: 26-26
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000025
+# :: snt25
+Index: 1  2    3 4 5         6      7  8   9         10 11 12   13 14 15       16       17 18  19      20 21 22            23 24      25 26  27   28    29    30        31         32  33 34        35
+Words: Em 1976 , o hipódromo deixou de ser utilizado ;  em 1990 ,  um incêndio destruiu o  que restava de as arquibancadas de madeira ,  que mais tarde foram demolidas juntamente com os estábulos .
+Sentence: Em 1976, o hipódromo deixou de ser utilizado; em 1990, um incêndio destruiu o que restava das arquibancadas de madeira, que mais tarde foram demolidas juntamente com os estábulos.
+
+# sentence level graph:
+(s25consecutivo / consecutive
+    :op1 (s25utilizar / utilizar
+        :ARG1 (s25hipodromo / hipódromo
+            :refer-number singular)
+        :temporal (s25data1 / date-entity
+            :year 1976)
+        :aspect endeavor
+        :modal-strength full-affirmative)
+    :op2 (s25destruir / destruir
+        :ARG0 (s25incendio / incêndio
+            :refer-number singular)
+        :ARG1 (s25coisa / thing
+            :ARG1-of (s25restar / restar
+                :ARG2 (s25arquibancada / arquibancada
+                    :refer-number plural
+                    :material (s25madeira / madeira))
+                :aspect state
+                :modal-strength full-affirmative))
+        :temporal (s25data2 / date-entity
+            :year 1990)
+        :aspect performance
+        :modal-strength full-affirmative)
+    :op3 (s25demolir / demolir
+        :ARG1 (s25coord / and
+            :op1 s25arquibancada
+            :op2 (s25estabulo / estábulo
+                :refer-number plural))
+        :temporal (s25tarde / tarde
+            :mod (s25mais / mais))
+        :aspect performance
+        :modal-strength full-affirmative))
+
+# alignment:
+s25data1: 1-2
+s25hipodromo: 4-5
+s25utilizar: 6-9
+s25consecutivo: 10-10
+s25data2: 11-12
+s25incendio: 14-15
+s25destruir: 16-16
+s25coisa: 17-17
+s25restar: 19-19
+s25arquibancada: 20-22
+s25madeira: 23-24
+s25mais: 27-27
+s25tarde: 28-28
+s25demolir: 29-30
+s25coord: 31-31
+s25estabulo: 32-34
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000026
+# :: snt26
+Index: 1 2       3  4      5 6                 7  8        9           10 11  12 13       14 15    16       17             18 19             20
+Words: A emissão de moedas é predominantemente de natureza numismática ,  com o  objetivo de serem vendidas principalmente a  colecionadores .
+Sentence: A emissão de moedas é predominantemente de natureza numismática, com o objetivo de serem vendidas principalmente a colecionadores.
+
+# sentence level graph:
+(s26and / and
+    :op1 (s26termod / have-mod-91
+        :ARG1 (s26emitir / emitir
+            :ARG1 (s26moeda / moeda
+                :refer-number plural)
+            :aspect performance
+            :modal-strength full-affirmative)
+        :ARG2 (s26numismatico / numismático)
+        :manner (s26predominantemente / predominantemente)
+        :aspect state
+        :modal-strength full-affirmative)
+    :op2 (s26proposito / have-purpose-91
+        :ARG1 s26emitir
+        :ARG2 (s26vender / vender
+            :ARG1 s26emitir
+            :ARG2 (s26colecionador / colecionador
+                :refer-number plural)
+            :manner (s26principalmente / principalmente)
+            :aspect performance
+            :modal-strength full-affirmative)
+        :aspect state
+        :modal-strength full-affirmative))
+
+# alignment:
+s26emitir: 1-2
+s26moeda: 3-4
+s26termod: 5-8
+s26predominantemente: 6-6
+s26numismatico: 9-9
+s26and: 10-10
+s26proposito: 11-13
+s26vender: 15-16
+s26principalmente: 17-17
+s26colecionador: 18-19
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000027
+# :: snt27
+Index: 1 2     3   4     5   6   7      8     9  10   11        12 13       14 15   16  17 18     19     20       21 22 23  24   25    26  27     28 29    30     31 32  33       34    35      36
+Words: O homem lhe disse que uma guerra entre os dois universos se aproxima ,  como ele e  Walter haviam previsto ;  é  por essa razão que Olivia ,  entre outros ,  foi treinada desde criança .
+Sentence: O homem lhe disse que uma guerra entre os dois universos se aproxima, como ele e Walter haviam previsto; é por essa razão que Olivia, entre outros, foi treinada desde criança.
+
+# sentence level graph:
+(s27dizer / dizer
+    :ARG0 (s27homem / homem
+        :refer-number singular)
+    :ARG2 (s27dest / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG1 (s27and / and
+        :op1 (s27aprox / aproximar-se
+            :ARG1 (s27guerra / guerra
+                :refer-number singular
+                :mod (s27universo / universo
+                    :quant 2
+                    :refer-number plural))
+            :manner (s27prever / prever
+                :ARG0 (s27and2 / and
+                    :op1 (s27ele / person
+                        :refer-person 3rd
+                        :refer-number singular)
+                    :op2 (s27walter / person
+                        :name (s27waltern / name
+                            :op1 "Walter")))
+                :ARG1 s27aprox
+                :modal-strength full-affirmative
+                :aspect performance)
+            :quote s27dizer
+            :modal-strength full-affirmative
+            :aspect activity)
+        :op2 (s27treinar / treinar
+            :ARG1 (s27olivia / person
+                :name (s27olivian / name
+                    :op1 "Olivia"))
+            :reason s27aprox
+            :temporal (s27desde / since
+                :op1 (s27crianca / criança
+                    :refer-number singular))
+            :ARG1-of (s27include / include-91
+                :ARG2 (s27outros / person
+                    :refer-number plural
+                    :mod (s27outro / outro))
+                :modal-strength full-affirmative
+                :aspect state)
+            :quote s27dizer
+            :modal-strength full-affirmative
+            :aspect performance))
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s27homem: 1-2
+s27dest: 3-3
+s27dizer: 4-4
+s27and: 5-5, 22-22
+s27aprox: 5-5, 13-13
+s27guerra: 6-7
+s27universo: 8-11
+s27prever: 15-15, 19-20
+s27ele: 16-16
+s27and2: 17-17
+s27walter: 18-18
+s27waltern: 0-0
+s27treinar: 32-33
+s27olivia: 27-27
+s27olivian: 0-0
+s27include: 29-30
+s27outros: 29-30
+s27outro: 30-30
+s27desde: 34-34
+s27crianca: 35-35
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000028
+# :: snt28
+Index: 1     2  3 4        5  6  7     8 9 10     11        12 13 14      15 16 17  18 19    20   21    22 23     24        25
+Words: Antes de a formação de os Andes , a margem ocidental de a  América de o  Sul já havia sido palco de várias orogenias .
+Sentence: Antes da formação dos Andes, a margem ocidental da América do Sul já havia sido palco de várias orogenias.
+
+# sentence level graph:
+(s28identidade / identity-91
+    :ARG1 (s28margem / margem
+        :refer-number singular
+        :mod (s28ocidental / ocidental)
+        :mod (s28regiao / world-region
+            :name (s28nome1 / name
+                :op1 "América"
+                :op2 "do"
+                :op3 "Sul")
+            :wiki "Q18"))
+    :ARG2 (s28palco / palco
+        :refer-number singular
+        :mod (s28orogenia / orogenia
+            :refer-number plural
+            :quant (s28varios / vários)))
+    :manner (s28ja / já)
+    :temporal (s28antes / before
+        :op1 (s28formar / formar
+            :ARG1 (s28cordilheira / mountain-range
+                :name (s28nome2 / name
+                    :op1 "Andes")
+                :wiki "Q5456")
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s28antes: 1-1
+s28formar: 2-4
+s28cordilheira: 5-7
+s28nome2: 5-7
+s28margem: 9-10
+s28ocidental: 11-11
+s28regiao: 12-16
+s28nome1: 12-16
+s28ja: 18-18
+s28identidade: 19-21
+s28palco: 19-21
+s28orogenia: 22-24
+s28varios: 23-23
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000029
+# :: snt29
+Index: 1  2    3 4   5  6         7   8   9     10  11         12  13  14        15 16 17  18     19     20      21 22   23  24 25   26     27 28  29    30   31 32     33      34   35  36
+Words: Em 1976 , ele se encontrou com uma amiga que trabalhava com sua gravadora ,  a  The Rocket Record Company ,  Kiki Dee ,  para gravar o  que seria mais um grande sucesso para ele :
+Sentence: Em 1976, ele se encontrou com uma amiga que trabalhava com sua gravadora, a The Rocket Record Company, Kiki Dee, para gravar o que seria mais um grande sucesso para ele:
+
+# sentence level graph:
+(s29encontrar / encontrar
+    :ARG0 (s29pessoa1 / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG2 (s29pessoa2 / person
+        :name (s29nome1 / name
+            :op1 "Kiki"
+            :op2 "Dee")
+        :ARG1-of (s29identidade1 / identity-91
+            :ARG2 (s29amiga / amiga
+                :refer-number singular
+                :ARG0-of (s29trabalhar / trabalhar
+                    :ARG2 (s29gravadora / company
+                        :name (s29nome2 / name
+                            :op1 "The"
+                            :op2 "Rocket"
+                            :op3 "Record"
+                            :op4 "Company")
+                        :ARG1-of (s29papel / have-role-91
+                            :ARG2 s29pessoa1
+                            :ARG3 (s29gravadora2 / gravadora
+                                :refer-number singular)
+                            :aspect state
+                            :modal-strength full-affirmative))
+                    :purpose (s29gravar / gravar
+                        :ARG0 s29pessoa1
+                        :ARG1 (s29coisa / thing
+                            :ARG1-of (s29identidade2 / identity-91
+                                :ARG2 (s29sucesso / sucesso
+                                    :refer-number singular
+                                    :mod (s29outro / outro)
+                                    :mod (s29grande / grande)
+                                    :beneficiary s29pessoa1)
+                                :aspect state
+                                :modal-strength neutral-affirmative))
+                        :aspect process
+                        :modal-strength full-affirmative)
+                    :aspect activity
+                    :modal-strength full-affirmative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :temporal (s29data / date-entity
+        :year 1976)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s29data: 1-2
+s29pessoa1: 4-4
+s29encontrar: 6-6
+s29amiga: 7-9
+s29trabalhar: 11-11
+s29gravadora: 12-17
+s29gravadora2: 12-14
+s29nome2: 16-17
+s29pessoa2: 22-22
+s29nome1: 22-22
+s29gravar: 26-26
+s29coisa: 27-27
+s29identidade2: 29-29
+s29outro: 31-31
+s29grande: 32-32
+s29sucesso: 33-33
+s29identidade1: 0-0
+s29papel: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000030
+# :: snt30
+Index: 1  2  3  4       5  6  7    8 9     10      11  12  13         14 15    16 17 18 19   20 21        22 23        24 25    26 27 28  29
+Words: Em 1º de janeiro de 49 a.C. , Marco Antônio leu uma declaração de César ,  em a  qual o  procônsul se declarava um amigo de a  paz .
+Sentence: Em 1º de janeiro de 49 a.C. , Marco Antônio leu uma declaração de César, na qual o procônsul se declarava um amigo da paz.
+
+# sentence level graph:
+(s30ler / ler
+    :ARG0 (s30pessoa1 / person
+        :name (s30nome1 / name
+            :op1 "Marco"
+            :op2 "Antônio")
+        :wiki "Q51673")
+    :ARG1 (s30declaracao / declaração
+        :refer-number singular
+        :ARG0 (s30pessoa2 / person
+            :name (s30nome2 / name
+                :op1 "César")
+            :wiki "Q1048")
+        :place (s30declarar / declarar
+            :ARG0 (s30pessoa3 / person
+                :ARG1-of (s30papel / have-role-91
+                    :ARG3 (s30proconsul / procônsul
+                        :refer-number singular)
+                    :aspect state
+                    :modal-strength full-affirmative))
+            :ARG1 s30pessoa3
+            :result (s30papel2 / have-role-91
+                :ARG1 s30pessoa3
+                :ARG2 (s30paz / paz)
+                :ARG3 (s30amigo / amigo
+                    :refer-number singular)
+                :aspect state
+                :modal-strength full-affirmative)
+            :aspect performance
+            :modal-strength full-affirmative))
+    :temporal (s30data / date-entity
+        :day 1
+        :month 1
+        :year 49
+        :era (s30ac / a.C.))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s30data: 1-7
+s30ac: 7-7
+s30pessoa1: 9-10
+s30nome1: 9-10
+s30ler: 11-11
+s30declaracao: 12-13
+s30pessoa2: 14-15
+s30nome2: 14-15
+s30declarar: 17-23
+s30pessoa3: 20-21
+s30papel: 20-21
+s30proconsul: 20-21
+s30papel2: 22-28
+s30amigo: 24-25
+s30paz: 26-28
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000031
+# :: snt31
+Index: 1  2 3     4 5 6      7 8           9         10 11 12    13      14   15      16            17 18       19 20      21    22
+Words: Em a China , o cabelo é normalmente submetido a  um banho químico para remover completamente a  cutícula ,  explica Tarlo .
+Sentence: Na China, o cabelo é normalmente submetido a um banho químico para remover completamente a cutícula, explica Tarlo.
+
+# sentence level graph:
+(s31explicar / explicar
+    :ARG0 (s31pessoa / person
+        :name (s31nome1 / name
+            :op1 "Tarlo"))
+    :ARG1 (s31banhar / banhar
+        :ARG1 (s31cabelo / cabelo
+            :refer-number singular)
+        :manner (s31quimico / químico)
+        :purpose (s31remover / remover
+            :ARG1 (s31cuticula / cutícula
+                :refer-number singular)
+            :manner (s31completamente / completamente)
+            :aspect process
+            :modal-strength full-affirmative)
+        :place (s31pais / country
+            :name (s31nome2 / name
+                :op1 "China"))
+        :manner (s31normalmente / normalmente)
+        :aspect habitual
+        :modal-strength full-affirmative)
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s31pais: 1-3
+s31nome2: 1-3
+s31cabelo: 5-6
+s31banhar: 7-13
+s31normalmente: 8-8
+s31quimico: 13-13
+s31remover: 15-15
+s31completamente: 16-16
+s31cuticula: 17-18
+s31explicar: 20-20
+s31pessoa: 21-21
+s31nome1: 21-21
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000032
+# :: snt32
+Index: 1   2     3      4   5     6   7  8          9 10  11        12 13 14       15 16    17 18 19    20     21 22 23       24   25         26 27 28  29        30
+Words: Ele disse também que Klein não se comunicava , não cooperava e  se recusava a  subir de as celas abaixo de o  tribunal para comparecer a  a  sua audiência .
+Sentence: Ele disse também que Klein não se comunicava, não cooperava e se recusava a subir das celas abaixo do tribunal para comparecer à sua audiência.
+
+# sentence level graph:
+(s32dizer / dizer
+    :ARG0 (s32pessoa1 / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG1 (s32coord / and
+        :op1 (s32comunicar / comunicar
+            :ARG0 (s32pessoa2 / person
+                :name (s32nome / name
+                    :op1 "Klein"))
+            :aspect activity
+            :modal-strength full-negative)
+        :op2 (s32cooperar / cooperar
+            :ARG0 s32pessoa2
+            :aspect activity
+            :modal-strength full-negative)
+        :op3 (s32recusar / recusar
+            :ARG0 s32pessoa2
+            :ARG1 (s32subir / subir
+                :ARG0 s32pessoa2
+                :source (s32cela / cela
+                    :refer-number plural
+                    :ARG1-of (s32lugar / have-place-91
+                        :ARG2 (s32abaixo / abaixo
+                            :mod (s32tribunal / tribunal
+                                :refer-number singular))
+                        :aspect state
+                        :modal-strength full-affirmative))
+                :purpose (s32comparecer / comparecer
+                    :ARG0 s32pessoa2
+                    :ARG1 (s32audiencia / audiência
+                        :refer-number singular
+                        :possessor s32pessoa2)
+                    :aspect activity
+                    :modal-strength full-affirmative)
+                :aspect activity
+                :modal-strength full-affirmative)
+            :aspect state
+            :modal-strength full-affirmative))
+    :mod (s32tambem / também)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s32pessoa1: 1-1
+s32dizer: 2-2
+s32tambem: 3-3
+s32coord: 9-9, 12-13
+s32pessoa2: 5-5
+s32nome: 5-5
+s32comunicar: 6-8
+s32cooperar: 10-11
+s32recusar: 14-14
+s32subir: 16-16
+s32cela: 17-19
+s32abaixo: 20-20
+s32tribunal: 21-23
+s32comparecer: 25-25
+s32audiencia: 26-29
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000033
+# :: snt33
+Index: 1    2   3 4 5   6          7  8 9     10   11 12      13
+Words: Isso não é o que precisamos em o nosso país ,  pessoal .
+Sentence: Isso não é o que precisamos no nosso país, pessoal.
+
+# sentence level graph:
+(s33identidade / identity-91
+    :ARG1 (s33coisa1 / thing
+        :refer-number singular)
+    :ARG2 (s33coisa2 / thing
+        :refer-number singular
+        :ARG1-of (s33precisar / precisar
+            :ARG0 (s33pessoa / person
+                :refer-person 1st
+                :refer-number plural)
+            :place (s33pais / país
+                :refer-number singular
+                :possessor s33pessoa)
+            :aspect state
+            :modal-strength full-affirmative))
+    :vocative (s33pessoal / pessoal
+        :refer-number singular)
+    :aspect state
+    :modal-strength full-negative)
+
+# alignment:
+s33coisa1: 1-1
+s33identidade: 2-4
+s33coisa2: 5-5
+s33precisar: 6-6
+s33pessoa: 6-6
+s33pais: 7-10
+s33pessoal: 12-12
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000034
+# :: snt34
+Index: 1   2          3  4     5         6    7  8             9    10    11    12
+Words: Sua habilidade em obter respostas para os contribuintes fará muita falta .
+Sentence: Sua habilidade em obter respostas para os contribuintes fará muita falta.
+
+# sentence level graph:
+(s34faltar / faltar
+    :ARG1 (s34habilidade / habilidade
+        :refer-number singular
+        :possessor (s34pessoa / person
+            :refer-person 3rd
+            :refer-number singular)
+        :mod (s34obter / obter
+            :ARG0 s34pessoa
+            :ARG1 (s34resposta / resposta
+                :refer-number plural
+                :recipient (s34contribuinte / contribuinte
+                    :refer-number plural))
+            :aspect activity
+            :modal-strength full-affirmative))
+    :quant (s34muito / muito)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s34pessoa: 1-1
+s34habilidade: 2-2
+s34obter: 4-4
+s34resposta: 5-5
+s34contribuinte: 6-8
+s34faltar: 9-11
+s34muito: 10-10
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000035
+# :: snt35
+Index: 1   2     3  4       5 6      7  8        9 10 11      12 13    14 15      16 17     18  19 20   21 22         23  24 25        26 27     28 29 30     31
+Words: Uma usina de energia a carvão em Badarpur , a  sudeste de Délhi ,  deixará de operar por 10 dias ,  juntamente com os geradores a  diesel em a  cidade .
+Sentence: Uma usina de energia a carvão em Badarpur, a sudeste de Délhi, deixará de operar por 10 dias, juntamente com os geradores a diesel na cidade.
+
+# sentence level graph:
+(s35operar / operar
+    :ARG0 (s35coord / and
+        :op1 (s35usina / usina
+            :refer-number singular
+            :mod (s35energia / energia
+                :mod (s35carvao / carvão))
+            :ARG1-of (s35lugar1 / have-place-91
+                :ARG2 (s35badarpur / human-settlement
+                    :name (s35nome1 / name
+                        :op1 "Badarpur")
+                    :wiki "Q4840627"
+                    :ARG1-of (s35lugar2 / have-place-91
+                        :ARG2 (s35posicao / relative-position
+                            :op1 (s35delhi / human-settlement
+                                :name (s35nome2 / name
+                                    :op1 "Délhi")
+                                :wiki "Q1353")
+                            :direction (s35direcao / and
+                                :op1 (s35sul / sul)
+                                :op2 (s35leste / leste)))
+                        :aspect state
+                        :modal-strength full-affirmative))
+                :aspect state
+                :modal-strength full-affirmative))
+        :op2 (s35gerador / gerador
+            :refer-number plural
+            :mod (s35diesel / diesel)
+            :ARG1-of (s35lugar3 / have-place-91
+                :ARG2 (s35cidade / cidade
+                    :refer-number singular)
+                :aspect state
+                :modal-strength full-affirmative)))
+    :duration (s35dia / dia
+        :refer-number plural
+        :quant 10)
+    :aspect endeavor
+    :modal-strength full-affirmative)
+
+# alignment:
+s35usina: 1-2
+s35energia: 3-4
+s35carvao: 5-6
+s35badarpur: 7-8
+s35nome1: 7-8
+s35posicao: 10-13
+s35sul: 10-11
+s35leste: 10-11
+s35delhi: 12-13
+s35nome2: 12-13
+s35operar: 15-17
+s35dia: 18-20
+s35coord: 22-22
+s35gerador: 23-25
+s35diesel: 26-27
+s35cidade: 28-30
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000036
+# :: snt36
+Index: 1     2       3   4    5 6     7      8 9 10      11 12    13  14 15       16 17   18     19 20     21 22    23           24          25  26      27     28       29  30 31   32
+Words: Adoro brincar com isso e estou sempre a a procura de musas que se encaixem em esse perfil ,  porque é  muito interessante desenvolver uma coleção quando encontro uma de elas .
+Sentence: Adoro brincar com isso e estou sempre à procura de musas que se encaixem nesse perfil, porque é muito interessante desenvolver uma coleção quando encontro uma delas .
+
+# sentence level graph:
+(s36coord / and
+    :op1 (s36adorar / adorar
+        :ARG0 (s36pessoa / person
+            :refer-person 1st
+            :refer-number singular)
+        :ARG1 (s36brincar / brincar
+            :ARG0 s36pessoa
+            :ARG2 (s36coisa / thing)
+            :aspect activity
+            :modal-strength full-affirmative)
+        :aspect state
+        :modal-strength full-affirmative)
+    :op2 (s36procurar / procurar
+        :ARG0 s36pessoa
+        :ARG1 (s36musa / musa
+            :refer-number plural
+            :ARG1-of (s36encaixar / encaixar
+                :ARG2 (s36perfil / perfil
+                    :refer-number singular
+                    :mod (s36esse / esse))
+                :aspect state
+                :modal-strength full-affirmative))
+        :manner (s36sempre / sempre)
+        :reason (s36termod / have-mod-91
+            :ARG1 (s36desenvolver / desenvolver
+                :ARG0 s36pessoa
+                :ARG1 (s36colecao / coleção
+                    :refer-number singular)
+                :temporal (s36encontrar / encontrar
+                    :ARG0 s36pessoa
+                    :ARG1 (s36uma / um
+                        :ARG1-of (s36partitivo / have-part-91
+                            :ARG2 s36musa
+                            :aspect state
+                            :modal-strength full-affirmative))
+                    :aspect performance
+                    :modal-strength full-affirmative)
+                :aspect activity
+                :modal-strength full-affirmative)
+            :ARG2 (s36interessante / interessante)
+            :degree (s36muito / muito)
+            :aspect state
+            :modal-strength full-affirmative)
+        :aspect activity
+        :modal-strength full-affirmative))
+
+# alignment:
+s36adorar: 1-1
+s36pessoa: 1-1
+s36brincar: 2-2
+s36coisa: 3-4
+s36coord: 5-5
+s36procurar: 6-10
+s36sempre: 7-7
+s36musa: 11-12
+s36encaixar: 15-15
+s36perfil: 16-18
+s36esse: 17-17
+s36termod: 20-23
+s36interessante: 23-23
+s36muito: 22-22
+s36desenvolver: 24-24
+s36colecao: 25-26
+s36encontrar: 27-28
+s36uma: 29-31
+s36partitivo: 30-31
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000037
+# :: snt37
+Index: 1   2  3       4 5     6     7
+Words: Não há desfile e nunca houve .
+Sentence: Não há desfile e nunca houve.
+
+# sentence level graph:
+(s37coord / and
+    :op1 (s37existir1 / exist-91
+        :ARG1 (s37desfile / desfile
+            :refer-number singular)
+        :aspect state
+        :modal-strength full-negative)
+    :op2 (s37existir2 / exist-91
+        :ARG1 s37desfile
+        :temporal (s37nunca / nunca)
+        :aspect state
+        :modal-strength full-negative))
+
+# alignment:
+s37existir1: 1-2
+s37desfile: 3-3
+s37coord: 4-4
+s37nunca: 5-5
+s37existir2: 6-6
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000038
+# :: snt38
+Index: 1   2  3    4  5   6        7 8   9      10 11     12      13 14   15   16 17        18    19 20      21
+Words: Com 71 gols em 137 partidas , ele marcou um número recorde de gols para a  Federação Alemã de Futebol .
+Sentence: Com 71 gols em 137 partidas, ele marcou um número recorde de gols para a Federação Alemã de Futebol.
+
+# sentence level graph:
+(s38marcar / marcar
+    :ARG0 (s38pessoa / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG1 (s38numero / número
+        :refer-number singular
+        :mod (s38recorde / recorde)
+        :mod (s38gol2 / gol
+            :refer-number plural)
+        :beneficiary (s38organizacao / sports-organization
+            :name (s38nome / name
+                :op1 "Federação"
+                :op2 "Alemã"
+                :op3 "de"
+                :op4 "Futebol")))
+    :instrument (s38gol1 / gol
+        :refer-number plural
+        :quant 71
+        :duration (s38partida / partida
+            :quant 137))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s38gol1: 1-3
+s38partida: 4-6
+s38pessoa: 8-8
+s38marcar: 9-9
+s38numero: 10-11
+s38recorde: 12-12
+s38gol2: 13-14
+s38organizacao: 15-20
+s38nome: 16-20
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000039
+# :: snt39
+Index: 1 2    3      4 5          6 7 8    9     10 11    12    13 14 15      16 17  18    19   20         21 22 23      24
+Words: A foto mostra , claramente , a fina barra de toque acima de o  teclado ,  que havia sido antecipada em os rumores .
+Sentence: A foto mostra, claramente, a fina barra de toque acima do teclado, que havia sido antecipada nos rumores.
+
+# sentence level graph:
+(s39mostrar / mostrar
+    :ARG0 (s39foto / foto
+        :refer-number singular)
+    :ARG1 (s39barra / barra
+        :refer-number singular
+        :mod (s39fino / fino)
+        :mod (s39toque / toque)
+        :place (s39posicao / relative-position
+            :op1 (s39teclado / teclado
+                :refer-number singular)
+            :direction (s39acima / acima))
+        :ARG1-of (s39antecipar / antecipar
+            :ARG0 (s39rumor / rumor
+                :refer-number plural)
+            :aspect performance
+            :modal-strength full-affirmative))
+    :manner (s39claro / claro)
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s39foto: 1-2
+s39mostrar: 3-3
+s39claro: 5-5
+s39barra: 7-7, 9-9
+s39fino: 8-8
+s39toque: 10-11
+s39posicao: 12-15
+s39acima: 12-12
+s39teclado: 13-15
+s39antecipar: 18-20
+s39rumor: 21-23
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000040
+# :: snt40
+Index: 1 2      3        4 5         6  7 8        9  10 11     12 13      14
+Words: A Rússia anunciou a suspensão de o contrato em o  início de outubro .
+Sentence: A Rússia anunciou a suspensão do contrato no início de outubro.
+
+# sentence level graph:
+(s40anunciar / anunciar
+    :ARG0 (s40pais / country
+        :name (s40nome / name
+            :op1 "Rússia")
+        :wiki "Q159")
+    :ARG1 (s40suspender / suspender
+        :ARG0 s40pais
+        :ARG1 (s40contrato / contrato
+            :refer-number singular)
+        :temporal (s40inicio / iniciar
+            :ARG1 (s40data / date-entity
+                :month 10))
+        :aspect performance
+        :modal-strength full-affirmative)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s40pais: 1-2
+s40nome: 1-2
+s40anunciar: 3-3
+s40suspender: 4-5
+s40contrato: 6-8
+s40inicio: 9-11
+s40data: 12-13
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000041
+# :: snt41
+Index: 1 2     3   4      5 6       7       8
+Words: E agora ele também é campeão mundial .
+Sentence: E agora ele também é campeão mundial.
+
+# sentence level graph:
+(s41identidade / identity-91
+    :ARG1 (s41pessoa / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG2 (s41campeao / campeão
+        :refer-number singular
+        :mod (s41tambem / também)
+        :mod (s41mundial / mundial))
+    :temporal (s41agora / agora)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s41agora: 2-2
+s41pessoa: 3-3
+s41tambem: 4-4
+s41identidade: 5-5
+s41campeao: 6-6
+s41mundial: 7-7
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000042
+# :: snt42
+Index: 1 2    3    4   5     6         7    8       9
+Words: O caso pode não estar encerrado para Barroso .
+Sentence: O caso pode não estar encerrado para Barroso.
+
+# sentence level graph:
+(s42dizer / say-91
+    :ARG0 (s42pessoa / person
+        :name (s42nome / name
+            :op1 "Barroso"))
+    :ARG1 (s42encerrar / encerrar
+        :ARG1 (s42caso / caso
+            :refer-number singular)
+        :aspect state
+        :modal-strength partial-negative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s42caso: 1-2
+s42encerrar: 3-6
+s42pessoa: 7-8
+s42nome: 7-8
+s42dizer: 7-8
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000043
+# :: snt43
+Index: 1 2      3  4 5     6         7 8 9    10     11 12      13      14 15       16     17 18     19      20 21        22     23   24 25 26 27     28  29 30  31      32 33 34 35 36      37 38   39
+Words: O marido de a atual candidata a a Casa Branca ,  Hillary Clinton ,  concedeu perdão a  várias pessoas —  incluindo também Rich —  em o  último dia de seu mandato ,  em 20 de janeiro de 2001 .
+Sentence: O marido da atual candidata à Casa Branca, Hillary Clinton, concedeu perdão a várias pessoas — incluindo também Rich — no último dia de seu mandato, em 20 de janeiro de 2001.
+
+# sentence level graph:
+(s43conceder / conceder
+    :ARG0 (s43pessoa1 / person
+        :ARG1-of (s43relacao / have-rel-role-92
+            :ARG3 (s43marido / marido
+                :refer-number singular)
+            :ARG2 (s43pessoa2 / person
+                :name (s43nome1 / name
+                    :op1 "Hillary"
+                    :op2 "Clinton")
+                :wiki "Q6294"
+                :ARG1-of (s43papel / have-role-91
+                    :ARG3 (s43candidatar / candidatar
+                        :ARG2 (s43organizacao / government-organization
+                            :name (s43nome2 / name
+                                :op1 "Casa"
+                                :op2 "Branca")
+                            :wiki "Q35525")
+                        :aspect performance
+                        :modal-strength full-affirmative)
+                    :temporal (s43atual / atual)
+                    :aspect state
+                    :modal-strength full-affirmative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG1 (s43perdao / perdão
+        :refer-number singular)
+    :ARG2 (s43pessoa3 / pessoa
+        :refer-number plural
+        :quant (s43varios / vários)
+        :ARG2-of (s43incluir / include-91
+            :ARG1 (s43pessoa4 / person
+                :name (s43nome3 / name
+                    :op1 "Rich"))
+            :mod (s43tambem / também)
+            :aspect state
+            :modal-strength full-affirmative))
+    :temporal (s43dia / dia
+        :refer-number singular
+        :mod (s43ultimo / último)
+        :temporal-of (s43mandato / mandato
+            :possessor s43pessoa1
+            :aspect state
+            :modal-strength full-affirmative)
+        :ARG1-of (s43identidade / identity-91
+            :ARG2 (s43data / date-entity
+                :day 20
+                :month 1
+                :year 2001)
+            :aspect state
+            :modal-strength full-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s43pessoa1: 1-2
+s43relacao: 1-2
+s43marido: 1-2
+s43pessoa2: 12-13
+s43nome1: 12-13
+s43papel: 3-9
+s43candidatar: 3-6
+s43atual: 5-5
+s43organizacao: 7-9
+s43nome2: 7-9
+s43conceder: 15-15
+s43perdao: 16-16
+s43pessoa3: 17-19
+s43varios: 18-18
+s43incluir: 21-21
+s43tambem: 22-22
+s43pessoa4: 23-23
+s43nome3: 23-23
+s43dia: 25-28
+s43ultimo: 27-27
+s43mandato: 29-31
+s43identidade: 32-32
+s43data: 33-38
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000044
+# :: snt44
+Index: 1   2 3  4           5   6  7        8       9 10        11     12           13 14         15      16       17   18  19         20       21 22     23         24 25 26     27         28 29 30 31   32 33 34 35     36 37       38
+Words: Não é de surpreender que os governos federal e estaduais tenham classificado o  Patrimônio Natural Nacional como uma iniciativa nacional de máxima prioridade e  a  tenham registrado ,  já em 2005 ,  em um acordo de coalizão .
+Sentence: Não é de surpreender que os governos federal e estaduais tenham classificado o Patrimônio Natural Nacional como uma iniciativa nacional de máxima prioridade e a tenham registrado, já em 2005, em um acordo de coalizão.
+
+# sentence level graph:
+(s44surpreender / surpreender
+    :ARG1 (s44coord / and
+        :op1 (s44classificar / classificar
+            :ARG0 (s44governo / governo
+                :refer-number plural
+                :mod (s44coord2 / and
+                    :op1 (s44federal / federal)
+                    :op2 (s44estadual / estadual)))
+            :ARG1 (s44patrimonio / thing
+                :name (s44nome / name
+                    :op1 "Patrimônio"
+                    :op2 "Natural"
+                    :op3 "Nacional"))
+            :ARG2 (s44iniciativa / iniciativa
+                :refer-number singular
+                :mod (s44nacional / nacional)
+                :mod (s44prioridade / prioridade
+                    :ARG1-of (s44grau / have-degree-91
+                        :ARG2 (s44alto / alto)
+                        :ARG3 (s44maximo / maximum)
+                        :aspect state
+                        :modal-strength full-affirmative)))
+            :aspect performance
+            :modal-strength full-affirmative)
+        :op2 (s44registrar / registrar
+            :ARG0 s44governo
+            :ARG1 s44patrimonio
+            :temporal (s44ja / já
+                :op1 (s44data / date-entity
+                    :year 2005))
+            :place (s44acordo / acordo
+                :refer-number singular
+                :mod (s44coalizao / coalizão))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect state
+    :modal-strength full-negative)
+
+# alignment:
+s44surpreender: 1-4
+s44governo: 5-7
+s44coord2: 8-8
+s44federal: 7-7
+s44estadual: 9-9
+s44classificar: 10-11
+s44patrimonio: 12-14
+s44nome: 12-14
+s44iniciativa: 16-17
+s44nacional: 18-18
+s44prioridade: 20-21
+s44grau: 19-21
+s44alto: 20-21
+s44maximo: 20-21
+s44coord: 22-22
+s44registrar: 25-26
+s44ja: 28-28
+s44data: 29-31
+s44acordo: 33-35
+s44coalizao: 36-37
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000045
+# :: snt45
+Index: 1   2        3   4 5  6   7        8         9      10 11  12     13 14  15      16 17  18           19  20   21 22
+Words: Ele garantiu que , se sua oponente democrata viesse a  ser eleita ,  ela ficaria “  sob investigação por anos ”  .
+Sentence: Ele garantiu que, se sua oponente democrata viesse a ser eleita, ela ficaria “ sob investigação por anos ” .
+
+# sentence level graph:
+(s45garantir / garantir
+    :ARG0 (s45pessoa1 / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG1 (s45investigar / investigar
+        :ARG1 (s45pessoa2 / person
+            :ARG1-of (s45papel / have-role-91
+                :ARG2 s45pessoa1
+                :ARG3 (s45oponente / oponente
+                    :refer-number singular
+                    :mod (s45democrata / democrata))
+                :aspect state
+                :modal-strength full-affirmative))
+        :duration (s45ano / ano
+            :refer-number plural)
+        :condition (s45eleger / eleger
+            :ARG1 s45pessoa2
+            :aspect performance
+            :modal-strength full-affirmative)
+        :quote s45garantir
+        :aspect activity
+        :modal-strength full-affirmative)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s45pessoa1: 1-1
+s45garantir: 2-2
+s45eleger: 5-5, 9-9, 11-12
+s45pessoa2: 7-7, 14-14
+s45papel: 7-8
+s45oponente: 7-7
+s45democrata: 8-8
+s45investigar: 15-18
+s45ano: 19-20
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000046
+# :: snt46
+Index: 1  2             3         4  5 6   7            8    9      10   11            12   13 14              15
+Words: Os conservadores islâmicos de o AKP consideraram essa recusa como justificativa para os questionamentos .
+Sentence: Os conservadores islâmicos do AKP consideraram essa recusa como justificativa para os questionamentos.
+
+# sentence level graph:
+(s46considerar / considerar
+    :ARG0 (s46conservador / conservador
+        :refer-number plural
+        :mod (s46islamico / islâmico)
+        :mod (s46organizacao / political-organization
+            :name (s46nome / name
+                :op1 "AKP")
+            :wiki "Q19077"))
+    :ARG1 (s46recusa / recusa
+        :refer-number singular
+        :mod (s46essa / essa))
+    :ARG2 (s46justificativa / justificativa
+        :refer-number singular
+        :mod (s46questionamento / questionamento
+            :refer-number plural))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s46conservador: 1-2
+s46islamico: 3-3
+s46organizacao: 4-6
+s46nome: 4-6
+s46considerar: 7-7
+s46essa: 8-8
+s46recusa: 9-9
+s46justificativa: 10-11
+s46questionamento: 12-14
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000047
+# :: snt47
+Index: 1     2   3  4       5   6     7          8 9            10 11      12         13 14       15       16
+Words: Quais são os limites que podem restringir a manifestação de crenças religiosas em empresas privadas ?
+Sentence: Quais são os limites que podem restringir a manifestação de crenças religiosas em empresas privadas?
+
+# sentence level graph:
+(s47identidade / identity-91
+    :ARG1 (s47limite / limite
+        :refer-number plural
+        :cause-of (s47restringir / restringir
+            :ARG1 (s47manifestar / manifestar
+                :ARG1 (s47crenca / crença
+                    :refer-number plural
+                    :mod (s47religioso / religioso))
+                :place (s47empresa / empresa
+                    :refer-number plural
+                    :mod (s47privado / privado))
+                :aspect activity
+                :modal-strength full-affirmative)
+            :aspect activity
+            :modal-strength neutral-affirmative))
+    :ARG2 (s47u / umr-unknown)
+    :mode interrogative
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s47u: 1-1
+s47identidade: 2-2
+s47limite: 3-4
+s47restringir: 6-7
+s47manifestar: 8-9
+s47crenca: 10-11
+s47religioso: 12-12
+s47empresa: 13-14
+s47privado: 15-15
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000048
+# :: snt48
+Index: 1     2   3 4       5  6  7         8   9      10 11 12       13 14       15    16  17        18  19       20
+Words: Mesmo que a maioria de as situações que surgem em o  ambiente de trabalho possa ser resolvida sem conflito .
+Sentence: Mesmo que a maioria das situações que surgem no ambiente de trabalho possa ser resolvida sem conflito.
+
+# sentence level graph:
+(s48concessao / have-concessive-condition-91
+    :ARG1 (s48evento / event)
+    :ARG2 (s48resolver / resolver
+        :ARG1 (s48situacao / situação
+            :refer-number plural
+            :quant (s48parte / parte
+                :mod (s48grande / grande
+                    :degree (s48mais / most)))
+            :ARG1-of (s48surgir / surgir
+                :place (s48ambiente / ambiente
+                    :refer-number singular
+                    :mod (s48trabalho / trabalho))
+                :aspect activity
+                :modal-strength full-affirmative))
+        :manner (s48conflito / conflito
+            :refer-number singular
+            :polarity -)
+        :aspect process
+        :modal-strength neutral-affirmative))
+
+# alignment:
+s48concessao: 1-2
+s48evento: 0-0
+s48parte: 3-4
+s48grande: 3-4
+s48mais: 0-0
+s48situacao: 5-7
+s48surgir: 9-9
+s48ambiente: 10-12
+s48trabalho: 13-14
+s48resolver: 15-17
+s48conflito: 18-19
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000049
+# :: snt49
+Index: 1    2     3  4     5 6     7  8            9      10 11     12 13 14 15    16           17          18 19  20  21   22    23 24    25 26    27   28 29           30
+Words: Visa levar em conta o tempo de deslocamento depois de deduzi lo de as horas efetivamente trabalhadas ,  sem que seja capaz de medir o  tempo real de deslocamento .
+Sentence: Visa levar em conta o tempo de deslocamento depois de deduzi-lo das horas efetivamente trabalhadas, sem que seja capaz de medir o tempo real de deslocamento.
+
+# sentence level graph:
+(s49visar / visar
+    :ARG0 (s49pessoa / person
+        :refer-person 3rd
+        :refer-number singular)
+    :ARG1 (s49levar / levar
+        :ARG1 (s49tempo1 / tempo
+            :refer-number singular
+            :mod (s49deslocamento1 / deslocamento))
+        :ARG2 (s49conta / conta
+            :refer-number singular)
+        :temporal (s49depois / after
+            :op1 (s49deduzir / deduzir
+                :ARG0 s49pessoa
+                :ARG1 s49tempo1
+                :ARG2 (s49hora / hora
+                    :refer-number plural
+                    :ARG1-of (s49trabalhar / trabalhar
+                        :manner (s49efetivamente / efetivamente)
+                        :aspect performance
+                        :modal-strength full-affirmative))
+                :aspect performance
+                :modal-strength full-affirmative))
+        :manner (s49medir / medir
+            :ARG0 s49pessoa
+            :ARG1 (s49tempo2 / tempo
+                :refer-number singular
+                :mod (s49real / real)
+                :mod (s49deslocamento2 / deslocamento))
+            :aspect activity
+            :modal-strength neutral-negative)
+        :aspect activity
+        :modal-strength full-affirmative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s49pessoa: 0-0
+s49visar: 1-1
+s49levar: 2-2
+s49conta: 3-4
+s49tempo1: 5-6
+s49deslocamento1: 7-8
+s49depois: 9-9
+s49deduzir: 11-12
+s49hora: 13-15
+s49efetivamente: 16-16
+s49trabalhar: 17-17
+s49medir: 18-24
+s49tempo2: 25-26
+s49real: 27-27
+s49deslocamento2: 28-29
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000050
+# :: snt50
+Index: 1 2      3   4   5   6   7         8
+Words: A França não tem uma boa reputação .
+Sentence: A França não tem uma boa reputação.
+
+# sentence level graph:
+(s50ter / have-91
+    :ARG1 (s50pais / country
+        :name (s50nome / name
+            :op1 "França")
+        :wiki "Q142")
+    :ARG2 (s50reputacao / reputação
+        :refer-number singular
+        :mod (s50bom / bom))
+    :aspect state
+    :modal-strength full-negative)
+
+# alignment:
+s50pais: 1-2
+s50nome: 1-2
+s50ter: 3-4
+s50reputacao: 5-7
+s50bom: 6-6
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000051
+# :: snt51
+Index: 1  2       3 4      5 6    7   8     9  10 11  12         13 14          15 16 17    18
+Words: Um voucher é gerado e pode ser salvo em o  seu smartphone ou apresentado em o  caixa .
+Sentence: Um voucher é gerado e pode ser salvo no seu smartphone ou apresentado no caixa.
+
+# sentence level graph:
+(s51coord / and
+    :op1 (s51gerar / gerar
+        :ARG1 (s51voucher / voucher
+            :refer-number singular)
+        :aspect performance
+        :modal-strength full-affirmative)
+    :op2 (s51ou / or
+        :op1 (s51salvar / salvar
+            :ARG1 s51voucher
+            :place (s51smartphone / smartphone
+                :refer-number singular
+                :possessor (s51pessoa / person
+                    :refer-person 3rd
+                    :refer-number singular))
+            :aspect performance
+            :modal-strength neutral-affirmative)
+        :op2 (s51apresentar / apresentar
+            :ARG1 s51voucher
+            :place (s51caixa / caixa
+                :refer-number singular)
+            :aspect performance
+            :modal-strength neutral-affirmative)))
+
+# alignment:
+s51voucher: 1-2
+s51gerar: 3-4
+s51coord: 5-5
+s51salvar: 6-8
+s51smartphone: 9-12
+s51pessoa: 11-11
+s51ou: 13-13
+s51apresentar: 14-14
+s51caixa: 15-17
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000052
+# :: snt52
+Index: 1 2      3  4  5  6       7 8      9       10 11 12       13 14 15 16     17
+Words: A partir de 1º de janeiro , haverá aumento em a  gasolina e  em o  diesel .
+Sentence: A partir de 1º de janeiro, haverá aumento na gasolina e no diesel.
+
+# sentence level graph:
+(s52aumentar / aumentar
+    :ARG1 (s52coord / and
+        :op1 (s52gasolina / gasolina
+            :refer-number singular)
+        :op2 (s52diesel / diesel
+            :refer-number singular))
+    :temporal (s52depois / after
+        :op1 (s52data / date-entity
+            :day 1
+            :month 1))
+    :aspect process
+    :modal-strength full-affirmative)
+
+# alignment:
+s52depois: 1-2
+s52data: 3-6
+s52aumentar: 8-9
+s52gasolina: 10-12
+s52coord: 13-13
+s52diesel: 14-16
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000053
+# :: snt53
+Index: 1    2        3 4 5       6 7            8  9 10  11 12        13           14  15 16    17 18           19 20  21   22 23        24 25            26 27         28     29           30
+Words: Como afirmado , a decisão é prerrogativa de o BCE e  pareceria inapropriado que o  Banco se pronunciasse em seu nome ,  excluindo a  possibilidade de considerar outras alternativas .
+Sentence: Como afirmado, a decisão é prerrogativa do BCE e pareceria inapropriado que o Banco se pronunciasse em seu nome, excluindo a possibilidade de considerar outras alternativas.
+
+# sentence level graph:
+(s53coord / and
+    :op1 (s53identidade / identity-91
+        :ARG1 (s53decisao / decisão
+            :refer-number singular)
+        :ARG2 (s53prerrogativa / prerrogativa
+            :refer-number singular
+            :possessor (s53bce / international-organization
+                :name (s53nome1 / name
+                    :op1 "BCE")
+                :wiki "Q8901"))
+        :aspect state
+        :modal-strength full-affirmative)
+    :op2 (s53termod / have-mod-91
+        :ARG1 (s53pronunciar / pronunciar
+            :ARG0 (s53banco / organization
+                :name (s53nome2 / name
+                    :op1 "Banco"))
+            :manner (s53nome / nome
+                :refer-number singular
+                :possessor s53bce)
+            :manner (s53excluir / excluir
+                :ARG1 (s53possibilidade / possibilidade
+                    :refer-number singular
+                    :ARG1 (s53considerar / considerar
+                        :ARG1 (s53alternativa / alternativa
+                            :refer-number plural
+                            :mod (s53outro / outro))
+                        :aspect activity
+                        :modal-strength neutral-affirmative))
+                :aspect activity
+                :modal-strength full-affirmative)
+            :aspect activity
+            :modal-strength full-affirmative)
+        :ARG2 (s53inapropriado / inapropriado)
+        :aspect state
+        :modal-strength neutral-affirmative)
+    :ARG1-of (s53semelhanca / resemble-91
+        :ARG2 (s53afirmar / afirmar
+            :aspect performance
+            :modal-strength full-affirmative)
+        :aspect state
+        :modal-strength full-affirmative))
+
+# alignment:
+s53semelhanca: 1-1
+s53afirmar: 2-2
+s53decisao: 4-5
+s53identidade: 6-6
+s53prerrogativa: 7-7
+s53bce: 8-10
+s53nome1: 8-10
+s53coord: 11-11
+s53termod: 12-13
+s53inapropriado: 13-13
+s53banco: 15-16
+s53nome2: 15-16
+s53pronunciar: 17-18
+s53nome: 19-21
+s53excluir: 23-23
+s53possibilidade: 24-25
+s53considerar: 26-27
+s53outro: 28-28
+s53alternativa: 29-29
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000054
+# :: snt54
+Index: 1 2    3   4   5       6  7   8    9 10 11      12 13 14         15   16 17      18 19 20          21 22     23 24      25
+Words: É isso que foi escrito em uma nota a os membros de o  Parlamento após a  decisão de o  ex-ministro de deixar o  partido .
+Sentence: É isso que foi escrito em uma nota aos membros do Parlamento após a decisão do ex-ministro de deixar o partido.
+
+# sentence level graph:
+(s54identidade / identity-91
+    :ARG1 (s54coisa1 / thing)
+    :ARG2 (s54coisa2 / thing
+        :ARG1-of (s54escrever / escrever
+            :ARG2 (s54membro / membro
+                :refer-number plural
+                :mod (s54parlamento / government-organization
+                    :name (s54nome1 / name
+                        :op1 "Parlamento")))
+            :place (s54nota / nota
+                :refer-number singular)
+            :temporal (s54depois / after
+                :op1 (s54decidir / decidir
+                    :ARG0 (s54pessoa / person
+                        :refer-number singular
+                        :ARG1-of (s54papel / have-org-role-91
+                            :ARG3 (s54ministro / ministro
+                                :mod (s54ex / ex))
+                            :aspect state
+                            :modal-strength full-affirmative))
+                    :ARG1 (s54deixar / deixar
+                        :ARG0 s54pessoa
+                        :ARG1 (s54partido / partido
+                            :refer-number singular)
+                        :aspect performance
+                        :modal-strength full-affirmative)
+                    :aspect performance
+                    :modal-strength full-affirmative))
+            :aspect process
+            :modal-strength full-affirmative))
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s54identidade: 1-1
+s54coisa1: 2-2
+s54coisa2: 3-3
+s54escrever: 4-5
+s54nota: 6-8
+s54membro: 9-11
+s54parlamento: 12-14
+s54nome1: 12-14
+s54depois: 15-15
+s54decidir: 16-17
+s54pessoa: 18-20
+s54papel: 18-20
+s54ministro: 19-20
+s54ex: 18-18
+s54deixar: 22-22
+s54partido: 23-24
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000055
+# :: snt55
+Index: 1      2          3  4 5            6    7   8             9  10       11 12   13    14 15 16  17          18 19 20       21 22        23 24    25 26 27         28
+Words: Quatro estudantes de a Universidade Roma Tre desenvolveram um capacete de moto capaz de “  ler pensamentos ”  ,  ajudando a  antecipar as ações de os motoristas .
+Sentence: Quatro estudantes da Universidade Roma Tre desenvolveram um capacete de moto capaz de “ ler pensamentos ” , ajudando a antecipar as ações dos motoristas.
+
+# sentence level graph:
+(s55desenvolver / desenvolver
+    :ARG0 (s55estudante / estudante
+        :refer-number plural
+        :quant 4
+        :mod (s55universidade / academic-organization
+            :name (s55nome1 / name
+                :op1 "Universidade"
+                :op2 "Roma"
+                :op3 "Tre")
+            :wiki "Q2297486"))
+    :ARG1 (s55capacete / capacete
+        :refer-number singular
+        :mod (s55moto / moto)
+        :ARG0-of (s55coord / and
+            :op1 (s55ler / ler
+                :ARG1 (s55pensamento / pensamento
+                    :refer-number plural)
+                :aspect activity
+                :modal-strength full-affirmative)
+            :op2 (s55ajudar / ajudar
+                :purpose (s55antecipar / antecipar
+                    :ARG1 (s55acao / ação
+                        :refer-number plural
+                        :mod (s55motorista / motorista
+                            :refer-number plural))
+                    :aspect activity
+                    :modal-strength full-affirmative)
+                :aspect activity
+                :modal-strength full-affirmative)))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s55estudante: 1-2
+s55universidade: 3-5
+s55nome1: 3-5
+s55desenvolver: 8-8
+s55capacete: 9-10
+s55moto: 11-12
+s55coord: 19-20
+s55ler: 16-16
+s55pensamento: 17-17
+s55ajudar: 20-20
+s55antecipar: 22-22
+s55acao: 23-24
+s55motorista: 25-27
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000056
+# :: snt56
+Index: 1    2 3    4        5  6          7   8       9  10     11 12   13 14 15  16    17    18 19 20   21     22 23   24 25        26 27 28 29  30 31 32   33 34 35      36
+Words: Mais e mais empresas de tecnologia vêm ditando as regras ,  mais de o  que nunca antes ,  em Wall Street ,  mais ,  inclusive ,  de o  que em o  Vale de o  Silício .
+Sentence: Mais e mais empresas de tecnologia vêm ditando as regras, mais do que nunca antes, em Wall Street, mais, inclusive, do que no Vale do Silício.
+
+# sentence level graph:
+(s56ditar / ditar
+    :ARG0 (s56empresa / empresa
+        :refer-number plural
+        :mod (s56tecnologia / tecnologia)
+        :quant (s56mais1 / more
+            :mod (s56mais2 / more)))
+    :ARG1 (s56regra / regra
+        :refer-number plural)
+    :place (s56lugar / place
+        :name (s56nome1 / name
+            :op1 "Wall"
+            :op2 "Street")
+        :wiki "Q11690")
+    :ARG1-of (s56quant1 / have-quant-91
+        :ARG3 (s56mais3 / more)
+        :ARG4 (s56antes / antes
+            :mod (s56nunca / nunca))
+        :aspect state
+        :modal-strength full-affirmative)
+    :ARG1-of (s56quant2 / have-quant-91
+        :ARG3 (s56mais4 / more)
+        :ARG4 (s56regiao / region
+            :name (s56nome2 / name
+                :op1 "Vale"
+                :op2 "do"
+                :op3 "Silício")
+            :wiki "Q163820")
+        :manner (s56inclusive / inclusive)
+        :aspect state
+        :modal-strength full-affirmative)
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s56empresa: 1-4
+s56mais1: 1-1
+s56mais2: 3-3
+s56tecnologia: 5-6
+s56ditar: 7-8
+s56regra: 9-10
+s56quant1: 12-17
+s56mais3: 12-12
+s56antes: 17-17
+s56nunca: 16-16
+s56lugar: 19-20
+s56nome1: 19-20
+s56quant2: 23-35
+s56mais4: 23-23
+s56inclusive: 25-25
+s56regiao: 30-35
+s56nome2: 30-35
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000057
+# :: snt57
+Index: 1       2  3        4    5       6 7     8 9    10 11       12           13 14 15     16      17 18   19 20 21       22   23     24
+Words: Líderes de empresas como Spotify , Tesla , Uber e  Snapchat participarão de um evento privado ,  além de a  Mountain View Summit .
+Sentence: Líderes de empresas como Spotify, Tesla, Uber e Snapchat participarão de um evento privado, além da Mountain View Summit.
+
+# sentence level graph:
+(s57participar / participar
+    :ARG0 (s57pessoa / person
+        :refer-number plural
+        :ARG1-of (s57papel / have-org-role-91
+            :ARG2 (s57empresa / empresa
+                :refer-number plural
+                :example (s57coord1 / and
+                    :op1 (s57empresa1 / company
+                        :name (s57nome1 / name
+                            :op1 "Spotify")
+                        :wiki "Q689141")
+                    :op2 (s57empresa2 / company
+                        :name (s57nome2 / name
+                            :op1 "Tesla")
+                        :wiki "Q478214")
+                    :op3 (s57empresa3 / company
+                        :name (s57nome3 / name
+                            :op1 "Uber")
+                        :wiki "Q780442")
+                    :op4 (s57empresa4 / company
+                        :name (s57nome4 / name
+                            :op1 "Snapchat")
+                        :wiki "Q333618")))
+            :ARG3 (s57lider / líder
+                :refer-number plural)
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG1 (s57coord2 / and
+        :op1 (s57evento / evento
+            :refer-number singular
+            :mod (s57privado / privado))
+        :op2 (s57summit / summit
+            :refer-number singular
+            :name (s57nome5 / name
+                :op1 "Mountain"
+                :op2 "View"
+                :op3 "Summit")))
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s57pessoa: 1-1
+s57lider: 1-1
+s57empresa: 2-3
+s57empresa1: 4-5
+s57nome1: 4-5
+s57coord1: 6-6, 10-10
+s57empresa2: 7-7
+s57nome2: 7-7
+s57empresa3: 9-9
+s57nome3: 9-9
+s57empresa4: 11-11
+s57nome4: 11-11
+s57participar: 12-12
+s57evento: 13-15
+s57privado: 16-16
+s57coord2: 18-18
+s57summit: 19-21
+s57nome5: 19-21
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000058
+# :: snt58
+Index: 1    2            3     4      5     6        7
+Words: Este departamento agora encara novos desafios .
+Sentence: Este departamento agora encara novos desafios.
+
+# sentence level graph:
+(s58encarar / encarar
+    :ARG0 (s58departamento / departamento
+        :refer-number singular
+        :mod (s58este / este))
+    :ARG1 (s58desafio / desafio
+        :refer-number plural
+        :mod (s58novo / novo))
+    :temporal (s58agora / agora)
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s58este: 1-1
+s58departamento: 2-2
+s58agora: 3-3
+s58encarar: 4-4
+s58novo: 5-5
+s58desafio: 6-6
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000059
+# :: snt59
+Index: 1    2  3    4 5 6       7    8   9     10  11    12 13     14     15 16
+Words: Além de isso , o governo terá que lidar com outra “  batata quente ”  .
+Sentence: Além disso, o governo terá que lidar com outra “ batata quente ” .
+
+# sentence level graph:
+(s59lidar / lidar
+    :ARG0 (s59governo / government-organization
+        :name (s59nome / name
+            :op1 "Governo"))
+    :ARG1 (s59batata / batata
+        :refer-number singular
+        :mod (s59outro / outro)
+        :mod (s59quente / quente))
+    :aspect activity
+    :modal-strength partial-affirmative)
+
+# alignment:
+s59governo: 5-6
+s59nome: 5-6
+s59lidar: 7-9
+s59batata: 10-14
+s59outro: 11-11
+s59quente: 14-14
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000060
+# :: snt60
+Index: 1  2      3           4         5   6 7 8   9 10       11 12
+Words: As fontes consultadas afirmaram que é “ 100 % Cospedal ”  .
+Sentence: As fontes consultadas afirmaram que é “ 100% Cospedal ” .
+
+# sentence level graph:
+(s60afirmar / afirmar
+    :ARG0 (s60fonte / fonte
+        :refer-number plural
+        :ARG1-of (s60consultar / consultar
+            :aspect performance
+            :modal-strength full-affirmative))
+    :ARG1 (s60identidade / identity-91
+        :ARG1 (s60coisa / thing
+            :refer-number singular)
+        :ARG2 (s60pessoa / person
+            :name (s60nome / name
+                :op1 "Cospedal"))
+        :extent (s60porcentagem / percentage-entity
+            :value 100)
+        :quote s60afirmar
+        :aspect state
+        :modal-strength full-affirmative)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s60fonte: 1-2
+s60consultar: 3-3
+s60afirmar: 4-4
+s60identidade: 6-6
+s60coisa: 0-0
+s60porcentagem: 7-9
+s60pessoa: 10-10
+s60nome: 10-10
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000061
+# :: snt61
+Index: 1     2       3 4    5      6      7           8 9       10 11 12       13    14  15 16      17 18  19    20 21     22
+Words: Pedro Sánchez , como muitos outros socialistas , afirmou em o  programa Évole que a  Espanha é  uma nação de nações .
+Sentence: Pedro Sánchez, como muitos outros socialistas, afirmou no programa Évole que a Espanha é uma nação de nações.
+
+# sentence level graph:
+(s61afirmar / afirmar
+    :ARG0 (s61pessoa / person
+        :name (s61nome1 / name
+            :op1 "Pedro"
+            :op2 "Sánchez")
+        :wiki "Q6070218")
+    :ARG1 (s61identidade / identity-91
+        :ARG1 (s61pais / country
+            :name (s61nome2 / name
+                :op1 "Espanha")
+            :wiki "Q29")
+        :ARG2 (s61nacao1 / nação
+            :refer-number singular
+            :mod (s61nacao2 / nação
+                :refer-number plural))
+        :aspect state
+        :modal-strength full-affirmative)
+    :ARG1-of (s61semelhanca / resemble-91
+        :ARG2 (s61afirmar2 / afirmar
+            :ARG0 (s61socialista / socialista
+                :refer-number plural
+                :mod (s61outro / outro)
+                :quant (s61muito / muito))
+            :aspect performance
+            :modal-strength full-affirmative)
+        :aspect state
+        :modal-strength full-affirmative)
+    :place (s61programa / broadcast-program
+        :name (s61nome3 / name
+            :op1 "Évole"))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s61pessoa: 1-2
+s61nome1: 1-2
+s61semelhanca: 4-4
+s61muito: 5-5
+s61outro: 6-6
+s61socialista: 7-7
+s61afirmar: 9-9
+s61programa: 10-13
+s61nome3: 13-13
+s61identidade: 14-17
+s61pais: 15-16
+s61nome2: 15-16
+s61nacao1: 18-19
+s61nacao2: 20-21
+s61afirmar2: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000062
+# :: snt62
+Index: 1        2       3     4   5     6 7 8 9       10   11   12 13         14    15   16 17     18   19   20 21    22 23
+Words: Federico Fellini certa vez disse : “ O palhaço está para a  humanidade assim como a  sombra está para o  homem ”  .
+Sentence: Federico Fellini certa vez disse: “ O palhaço está para a humanidade assim como a sombra está para o homem ” .
+
+# sentence level graph:
+(s62dizer / dizer
+    :ARG0 (s62pessoa / person
+        :name (s62nome / name
+            :op1 "Federico"
+            :op2 "Fellini")
+        :wiki "Q7371")
+    :ARG1 (s62relacao1 / relacionar
+        :ARG1 (s62palhaco / palhaço
+            :refer-number singular)
+        :ARG2 (s62humanidade / humanidade
+            :refer-number singular)
+        :ARG1-of (s62grau / have-degree-91
+            :ARG3 (s62igual / equal)
+            :ARG4 (s62relacao2 / relacionar
+                :ARG1 (s62sombra / sombra
+                    :refer-number singular)
+                :ARG2 (s62homem / homem
+                    :refer-number singular)
+                :aspect generic
+                :modal-strength full-affirmative)
+            :aspect state
+            :modal-strength full-affirmative)
+        :quote s62dizer
+        :aspect generic
+        :modal-strength full-affirmative)
+    :temporal (s62vez / vez
+        :refer-number singular
+        :mod (s62certa / certo))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s62pessoa: 1-2
+s62nome: 1-2
+s62certa: 3-3
+s62vez: 4-4
+s62dizer: 5-5
+s62palhaco: 8-9
+s62relacao1: 10-10
+s62humanidade: 11-13
+s62grau: 14-15
+s62igual: 14-15
+s62sombra: 16-17
+s62relacao2: 18-18
+s62homem: 19-21
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000063
+# :: snt63
+Index: 1       2  3          4  5 6    7  8     9           10 11      12 13 14    15 16  17        18
+Words: Dezenas de seguidores de a FSLN já estão comemorando a  vitória em a  Plaza de las Victorias .
+Sentence: Dezenas de seguidores da FSLN já estão comemorando a vitória na Plaza de las Victorias.
+
+# sentence level graph:
+(s63comemorar / comemorar
+    :ARG0 (s63seguidor / seguidor
+        :refer-number plural
+        :mod (s63organizacao / political-organization
+            :name (s63nome1 / name
+                :op1 "FSLN")
+            :wiki "Q27389")
+        :quant (s63dezena / dezena
+            :refer-number plural))
+    :ARG1 (s63vitoria / vitória
+        :refer-number singular)
+    :place (s63praca / city-square
+        :name (s63nome2 / name
+            :op1 "Plaza"
+            :op2 "de"
+            :op3 "las"
+            :op4 "Victorias"))
+    :temporal (s63ja / já)
+    :aspect activity
+    :modal-strength full-affirmative)
+
+# alignment:
+s63dezena: 1-1
+s63seguidor: 2-3
+s63organizacao: 4-6
+s63nome1: 4-6
+s63ja: 7-7
+s63comemorar: 8-9
+s63vitoria: 10-11
+s63praca: 12-17
+s63nome2: 12-17
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000064
+# :: snt64
+Index: 1 2        3           4          5       6   7      8        9            10 11 12     13
+Words: O exército multiétnico aquemênida contava com muitos soldados provenientes de os Bálcãs .
+Sentence: O exército multiétnico aquemênida contava com muitos soldados provenientes dos Bálcãs.
+
+# sentence level graph:
+(s64contar / contar
+    :ARG1 (s64exercito / exército
+        :refer-number singular
+        :mod (s64multietnico / multiétnico)
+        :mod (s64aquemenida / ethnic-group
+            :name (s64nome1 / name
+                :op1 "Aquemênida")))
+    :ARG2 (s64soldado / soldado
+        :refer-number plural
+        :quant (s64muito / muito)
+        :ARG1-of (s64provir / provir
+            :source (s64regiao / geo-political-entity
+                :name (s64nome2 / name
+                    :op1 "Bálcãs"))
+            :aspect state
+            :modal-strength full-affirmative))
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s64exercito: 1-2
+s64multietnico: 3-3
+s64aquemenida: 4-4
+s64nome1: 4-4
+s64contar: 5-5
+s64soldado: 6-8
+s64muito: 7-7
+s64provir: 9-9
+s64regiao: 10-12
+s64nome2: 10-12
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000065
+# :: snt65
+Index: 1  2   3      4    5          6      7 8      9  10      11 12    13   14     15
+Words: Em sua pressa para conquistar Kadesh , Ramsés II cometeu um grave erro tático .
+Sentence: Em sua pressa para conquistar Kadesh, Ramsés II cometeu um grave erro tático.
+
+# sentence level graph:
+(s65cometer / cometer
+    :ARG0 (s65pessoa / person
+        :name (s65nome1 / name
+            :op1 "Ramsés"
+            :op2 "II")
+        :wiki "Q1523")
+    :ARG1 (s65erro / erro
+        :refer-number singular
+        :mod (s65grave / grave)
+        :mod (s65tatico / tático))
+    :reason (s65pressa / pressa
+        :refer-number singular
+        :possessor s65pessoa
+        :mod (s65conquistar / conquistar
+            :ARG0 s65pessoa
+            :ARG1 (s65cidade / human-settlement
+                :name (s65nome2 / name
+                    :op1 "Kadesh")
+                :wiki "Q690035")
+            :aspect process
+            :modal-strength neutral-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s65pressa: 1-3
+s65conquistar: 5-5
+s65cidade: 6-6
+s65nome2: 6-6
+s65pessoa: 8-9
+s65nome1: 8-9
+s65cometer: 10-10
+s65erro: 11-13
+s65grave: 12-12
+s65tatico: 14-14
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000066
+# :: snt66
+Index: 1    2       3   4              5   6 7      8  9 10     11 12 13   14      15  16 17     18  19       20    21     22 23      24         25 26  27 28 29  30  31 32   33
+Words: Eles ficaram tão impressionados com a beleza de a região de o  Lago Rudyard que ,  quando seu primeiro filho nasceu ,  fizeram referência a  ela a  o  dar lhe o  nome .
+Sentence: Eles ficaram tão impressionados com a beleza da região do Lago Rudyard que, quando seu primeiro filho nasceu, fizeram referência a ela ao dar-lhe o nome.
+
+# sentence level graph:
+(s66impressionar / impressionar
+    :ARG0 (s66beleza / beleza
+        :refer-number singular
+        :mod (s66regiao / região
+            :refer-number singular
+            :mod (s66lago / lake
+                :name (s66nome1 / name
+                    :op1 "Rudyard")
+                :wiki "Q7332702")))
+    :ARG1 (s66pessoa / person
+        :refer-person 3rd
+        :refer-number plural)
+    :extent (s66tao / tão)
+    :ARG1-of (s66resultado / have-result-91
+        :ARG2 (s66referir / referir
+            :ARG0 s66pessoa
+            :ARG1 s66lago
+            :temporal (s66nascer / nascer
+                :ARG1 (s66filho / filho
+                    :refer-number singular
+                    :possessor s66pessoa
+                    :ord (s66ordinal / ordinal-entity
+                        :value 1))
+                :aspect performance
+                :modal-strength full-affirmative)
+            :manner (s66dar / dar
+                :ARG0 s66pessoa
+                :ARG1 (s66nome2 / nome
+                    :refer-number singular)
+                :ARG2 s66filho
+                :aspect performance
+                :modal-strength full-affirmative)
+            :aspect performance
+            :modal-strength full-affirmative)
+        :aspect state
+        :modal-strength full-affirmative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s66pessoa: 1-1
+s66impressionar: 2-4
+s66tao: 3-3
+s66beleza: 5-7
+s66regiao: 8-10
+s66lago: 11-13
+s66nome1: 11-13
+s66resultado: 14-14
+s66nascer: 17-17, 21-21
+s66ordinal: 19-19
+s66filho: 20-20
+s66referir: 23-26
+s66dar: 29-29
+s66nome2: 31-32
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000067
+# :: snt67
+Index: 1  2      3     4        5   6   7        8             9          10 11    12      13 14      15 16        17 18      19       20      21  22  23          24     25
+Words: De Gaulle havia ordenado que não houvesse demonstrações excessivas de afeto público em relação a  Churchill e  nenhuma honraria oficial sem sua autorização prévia .
+Sentence: De Gaulle havia ordenado que não houvesse demonstrações excessivas de afeto público em relação a Churchill e nenhuma honraria oficial sem sua autorização prévia.
+
+# sentence level graph:
+(s67ordenar / ordenar
+    :ARG0 (s67pessoa1 / person
+        :name (s67nome1 / name
+            :op1 "De"
+            :op2 "Gaulle")
+        :wiki "Q2042")
+    :ARG1 (s67coord / and
+        :op1 (s67demonstrar / demonstrar
+            :ARG1 (s67afeto / afeto
+                :refer-number singular
+                :mod (s67excessivo / excessivo)
+                :mod (s67publico / público))
+            :ARG2 (s67pessoa2 / person
+                :name (s67nome2 / name
+                    :op1 "Churchill")
+                :wiki "Q8016")
+            :aspect activity
+            :modal-strength partial-negative)
+        :op2 (s67dar / dar
+            :ARG1 (s67honraria / honraria
+                :refer-number singular
+                :mod (s67oficial / oficial))
+            :manner (s67autorizacao / autorização
+                :refer-number singular
+                :possessor s67pessoa1
+                :mod (s67previo / prévio)
+                :polarity -)
+            :aspect activity
+            :modal-strength partial-negative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s67pessoa1: 1-2
+s67nome1: 1-2
+s67ordenar: 3-4
+s67demonstrar: 5-8
+s67excessivo: 9-9
+s67afeto: 10-11
+s67publico: 12-12
+s67pessoa2: 15-16
+s67nome2: 15-16
+s67coord: 17-17
+s67honraria: 18-19
+s67oficial: 20-20
+s67autorizacao: 21-23
+s67previo: 24-24
+s67dar: 18-23
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000068
+# :: snt68
+Index: 1 2       3   4       5 6      7 8          9   10 11    12  13      14  15          16     17
+Words: O sistema era simples , direto e funcionava bem ,  mesmo com pilotos sem treinamento prévio .
+Sentence: O sistema era simples, direto e funcionava bem, mesmo com pilotos sem treinamento prévio.
+
+# sentence level graph:
+(s68coord / and
+    :op1 (s68termod1 / have-mod-91
+        :ARG1 (s68sistema / sistema
+            :refer-number singular)
+        :ARG2 (s68simples / simples)
+        :aspect state
+        :modal-strength full-affirmative)
+    :op2 (s68termod2 / have-mod-91
+        :ARG1 s68sistema
+        :ARG2 (s68direto / direto)
+        :aspect state
+        :modal-strength full-affirmative)
+    :op3 (s68funcionar / funcionar
+        :ARG1 s68sistema
+        :manner (s68bem / bem)
+        :condition (s68treinar / treinar
+            :ARG1 (s68piloto / piloto
+                :refer-number plural)
+            :manner (s68mesmo / mesmo)
+            :mod (s68previo / prévio)
+            :aspect performance
+            :modal-strength full-negative)
+        :aspect activity
+        :modal-strength full-affirmative))
+
+# alignment:
+s68sistema: 1-2
+s68termod1: 3-3
+s68simples: 4-4
+s68coord: 5-5, 7-7
+s68termod2: 0-0
+s68direto: 6-6
+s68funcionar: 8-8
+s68bem: 9-9
+s68mesmo: 11-11
+s68piloto: 12-13
+s68treinar: 14-15
+s68previo: 16-16
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000069
+# :: snt69
+Index: 1   2      3         4 5        6     7        8            9  10   11 12     13       14           15 16   17
+Words: Ele também construiu e reformou cinco mercados tradicionais em 2013 e  quatro mercados tradicionais em 2014 .
+Sentence: Ele também construiu e reformou cinco mercados tradicionais em 2013 e quatro mercados tradicionais em 2014.
+
+# sentence level graph:
+(s69coord1 / and
+    :op1 (s69coord2 / and
+        :op1 (s69construir1 / construir
+            :ARG0 (s69pessoa / person
+                :refer-person 3rd
+                :refer-number singular)
+            :ARG1 (s69mercado1 / mercado
+                :refer-number plural
+                :quant 5
+                :mod (s69tradicional1 / tradicional))
+            :aspect performance
+            :modal-strength full-affirmative)
+        :op2 (s69reformar1 / reformar
+            :ARG0 s69pessoa
+            :ARG1 s69mercado1
+            :aspect performance
+            :modal-strength full-affirmative)
+        :temporal (s69data1 / date-entity
+            :year 2013))
+    :op2 (s69coord3 / and
+        :op1 (s69construir2 / construir
+            :ARG0 s69pessoa
+            :ARG1 (s69mercado2 / mercado
+                :refer-number plural
+                :quant 4
+                :mod (s69tradicional2 / tradicional))
+            :aspect performance
+            :modal-strength full-affirmative)
+        :op2 (s69reformar2 / reformar
+            :ARG0 s69pessoa
+            :ARG1 s69mercado2
+            :aspect performance
+            :modal-strength full-affirmative)
+        :temporal (s69data2 / date-entity
+            :year 2014))
+    :mod (s69tambem / também))
+
+# alignment:
+s69pessoa: 1-1
+s69tambem: 2-2
+s69construir1: 3-3
+s69coord2: 4-4
+s69reformar1: 5-5
+s69mercado1: 6-7
+s69tradicional1: 8-8
+s69data1: 9-10
+s69coord1: 11-11
+s69mercado2: 12-13
+s69tradicional2: 14-14
+s69data2: 15-16
+s69construir2: 0-0
+s69reformar2: 0-0
+s69coord3: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000070
+# :: snt70
+Index: 1    2     3 4       5    6         7 8  9 10     11 12 13        14 15 16   17 18   19       20 21   22       23 24         25   26   27          28
+Words: Pebe mudou a família para Nashville , em o estado de o  Tennessee ,  em 1991 ,  após garantir um novo contrato de publicação para suas composições .
+Sentence: Pebe mudou a família para Nashville, no estado do Tennessee, em 1991, após garantir um novo contrato de publicação para suas composições.
+
+# sentence level graph:
+(s70mudar / mudar
+    :ARG0 (s70pessoa / person
+        :name (s70nome1 / name
+            :op1 "Pebe"))
+    :ARG1 (s70familia / família
+        :refer-number singular
+        :possessor s70pessoa)
+    :ARG2 (s70cidade / human-settlement
+        :name (s70nome2 / name
+            :op1 "Nashville")
+        :wiki "Q23197"
+        :place (s70estado / country-partition
+            :name (s70nome3 / name
+                :op1 "Tennessee")
+            :wiki "Q1509"))
+    :temporal (s70data / date-entity
+        :year 1991)
+    :temporal (s70depois / after
+        :op1 (s70garantir / garantir
+            :ARG0 s70pessoa
+            :ARG1 (s70contrato / contrato
+                :refer-number singular
+                :mod (s70novo / novo)
+                :mod (s70publicacao / publicação)
+                :mod (s70composicao / composição
+                    :refer-number plural
+                    :possessor s70pessoa))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s70pessoa: 1-1
+s70nome1: 1-1
+s70mudar: 2-2
+s70familia: 3-4
+s70cidade: 5-6
+s70nome2: 5-6
+s70estado: 8-13
+s70nome3: 11-13
+s70data: 15-16
+s70depois: 18-18
+s70garantir: 19-19
+s70contrato: 20-22
+s70novo: 21-21
+s70publicacao: 23-24
+s70composicao: 25-27
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000071
+# :: snt71
+Index: 1  2        3          4   5  6             7     8 9      10 11 12     13 14   15        16             17 18 19      20
+Words: Os cidadãos muçulmanos que se estabeleceram desde o início de a  década de 1960 imigraram principalmente de a  Turquia .
+Sentence: Os cidadãos muçulmanos que se estabeleceram desde o início da década de 1960 imigraram principalmente da Turquia.
+
+# sentence level graph:
+(s71imigrar / imigrar
+    :ARG0 (s71cidadao / cidadão
+        :refer-number plural
+        :mod (s71religiao / religion
+            :name (s71nome1 / name
+                :op1 "Islã")
+            :wiki "Q432")
+        :ARG0-of (s71estabelecer / estabelecer
+            :ARG1 s71cidadao
+            :temporal (s71inicio / iniciar
+                :ARG1 (s71data / date-entity
+                    :decade 1960)
+                :aspect performance
+                :modal-strength full-affirmative)
+            :aspect performance
+            :modal-strength full-affirmative))
+    :start (s71pais / country
+        :name (s71nome2 / name
+            :op1 "Turquia")
+        :wiki "Q43")
+    :manner (s71principalmente / principalmente)
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s71cidadao: 1-2
+s71religiao: 3-3
+s71nome1: 3-3
+s71estabelecer: 6-6
+s71inicio: 7-9
+s71data: 10-14
+s71imigrar: 15-15
+s71principalmente: 16-16
+s71pais: 17-19
+s71nome2: 17-19
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000072
+# :: snt72
+Index: 1       2  3        4      5  6    7 8 9       10          11        12     13 14    15 16   17        18         19
+Words: Durante as eleições gerais de 2010 , o Partido Trabalhista conseguiu vencer em todos os sete distritos eleitorais .
+Sentence: Durante as eleições gerais de 2010, o Partido Trabalhista conseguiu vencer em todos os sete distritos eleitorais.
+
+# sentence level graph:
+(s72vencer / vencer
+    :ARG0 (s72partido / political-organization
+        :name (s72nome / name
+            :op1 "Partido"
+            :op2 "Trabalhista"))
+    :place (s72distrito / distrito
+        :mod (s72todo / todo)
+        :quant 7
+        :mod (s72eleitoral / eleitoral))
+    :temporal (s72eleicao / eleição
+        :refer-number plural
+        :mod (s72geral / geral)
+        :temporal (s72data / date-entity
+            :year 2010))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s72eleicao: 1-3
+s72geral: 4-4
+s72data: 5-6
+s72partido: 8-9
+s72nome: 8-9
+s72vencer: 11-12
+s72distrito: 13-17
+s72todo: 14-14
+s72eleitoral: 18-18
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000073
+# :: snt73
+Index: 1 2         3          4    5     6  7 8            9     10  11 12       13    14   15
+Words: A Revolução Industrial teve lugar em a Grã-Bretanha antes que em qualquer outro país .
+Sentence: A Revolução Industrial teve lugar na Grã-Bretanha antes que em qualquer outro país.
+
+# sentence level graph:
+(s73terlugar / ter-lugar
+    :ARG1 (s73evento / event
+        :name (s73nome1 / name
+            :op1 "Revolução"
+            :op2 "Industrial")
+        :wiki "Q2269")
+    :place (s73pais1 / country
+        :name (s73nome2 / name
+            :op1 "Grã-Bretanha")
+        :wiki "Q145")
+    :temporal (s73antes / before
+        :op1 (s73terlugar2 / ter-lugar
+            :ARG1 s73evento
+            :place (s73pais2 / país
+                :mod (s73outro / outro)
+                :quant (s73qualquer / qualquer))
+            :aspect performance
+            :modal-strength full-affirmative))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s73evento: 1-3
+s73nome1: 1-3
+s73terlugar: 4-5
+s73pais1: 6-8
+s73nome2: 6-8
+s73antes: 9-10
+s73pais2: 11-14
+s73qualquer: 12-12
+s73outro: 13-13
+s73terlugar2: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000074
+# :: snt74
+Index: 1    2 3         4     5  6    7 8      9      10 11   12 13        14 15 16      17 18 19      20       21 22           23  24            25
+Words: Após a Revolução Russa de 1917 , alguns países ,  como a  Finlândia ,  a  Polônia e  os Estados Bálticos ,  conquistaram sua independência .
+Sentence: Após a Revolução Russa de 1917, alguns países, como a Finlândia, a Polônia e os Estados Bálticos, conquistaram sua independência.
+
+# sentence level graph:
+(s74conquistar / conquistar
+    :ARG0 (s74pais / país
+        :refer-number plural
+        :mod (s74algum / algum)
+        :example (s74coord / and
+            :op1 (s74finlandia / country
+                :name (s74nome2 / name
+                    :op1 "Finlândia")
+                :wiki "Q33")
+            :op2 (s74polonia / country
+                :name (s74nome3 / name
+                    :op1 "Polônia")
+                :wiki "Q36")
+            :op3 (s74balticos / geo-political-entity
+                :refer-number plural
+                :name (s74nome4 / name
+                    :op1 "Estados"
+                    :op2 "Bálticos")
+                :wiki "Q39731")))
+    :ARG1 (s74independencia / independência
+        :refer-number singular
+        :possessor s74pais)
+    :temporal (s74apos / after
+        :op1 (s74evento / event
+            :name (s74nome1 / name
+                :op1 "Revolução"
+                :op2 "Russa")
+            :wiki "Q8729"
+            :temporal (s74data / date-entity
+                :year 1917)))
+    :aspect performance
+    :modal-strength full-affirmative)
+
+# alignment:
+s74apos: 1-1
+s74evento: 2-4
+s74nome1: 2-4
+s74data: 5-6
+s74algum: 8-8
+s74pais: 9-9
+s74coord: 10-10, 14-14, 17-17
+s74finlandia: 11-13
+s74nome2: 13-13
+s74polonia: 15-16
+s74nome3: 16-16
+s74balticos: 18-20
+s74nome4: 18-20
+s74conquistar: 22-22
+s74independencia: 23-24
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000075
+# :: snt75
+Index: 1   2  3    4       5        6  7          8 9       10  11 12     13 14    15       16     17 18     19
+Words: Uma de suas últimas maneiras de pressionar a Hungria foi a  ameaça de impor eleições gerais e  livres .
+Sentence: Uma de suas últimas maneiras de pressionar a Hungria foi a ameaça de impor eleições gerais e livres.
+
+# sentence level graph:
+(s75identidade / identity-91
+    :ARG1 (s75maneira1 / maneira
+        :quant 1
+        :ARG1-of (s75incluir / include-91
+            :ARG2 (s75maneira2 / maneira
+                :refer-number plural
+                :mod (s75ultimo / último)
+                :possessor (s75pessoa / person
+                    :refer-person 3rd
+                    :refer-number plural)
+                :manner-of (s75pressionar / pressionar
+                    :ARG0 s75pessoa
+                    :ARG1 (s75pais / country
+                        :name (s75nome / name
+                            :op1 "Hungria")
+                        :wiki "Q28")
+                    :aspect process
+                    :modal-strength full-affirmative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG2 (s75ameacar / ameaçar
+        :ARG0 s75pessoa
+        :ARG1 (s75impor / impor
+            :ARG0 s75pessoa
+            :ARG1 (s75eleicao / eleição
+                :refer-number plural
+                :mod (s75coord / and
+                    :op1 (s75geral / geral)
+                    :op2 (s75livre / livre)))
+            :aspect activity
+            :modal-strength partial-affirmative)
+        :aspect performance
+        :modal-strength full-affirmative)
+    :aspect state
+    :modal-strength full-affirmative)
+
+# alignment:
+s75maneira1: 1-1
+s75incluir: 2-2
+s75pessoa: 3-3
+s75ultimo: 4-4
+s75maneira2: 2-5
+s75pressionar: 7-7
+s75pais: 8-9
+s75nome: 8-9
+s75identidade: 10-10
+s75ameacar: 11-12
+s75impor: 14-14
+s75eleicao: 15-15
+s75geral: 16-16
+s75coord: 17-17
+s75livre: 18-18
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000076
+# :: snt76
+Index: 1 2        3  4             5   6          7 8    9  10     11   12        13 14 15      16
+Words: O mosteiro de Disibodenberg foi dissolvido e caiu em ruínas como resultado de a  Reforma .
+Sentence: O mosteiro de Disibodenberg foi dissolvido e caiu em ruínas como resultado da Reforma.
+
+# sentence level graph:
+(s76coord / and
+    :op1 (s76dissolver / dissolver
+        :ARG1 (s76mosteiro / worship-place
+            :name (s76nome1 / name
+                :op1 "Mosteiro"
+                :op2 "de"
+                :op3 "Disibodenberg")
+            :wiki "Q565067")
+        :aspect performance
+        :modal-strength full-affirmative)
+    :op2 (s76cair / cair
+        :ARG1 s76mosteiro
+        :ARG2 (s76ruina / ruína
+            :refer-number plural)
+        :aspect performance
+        :modal-strength full-affirmative)
+    :cause (s76reforma / event
+        :name (s76nome2 / name
+            :op1 "Reforma")
+        :wiki "Q12562"))
+
+# alignment:
+s76mosteiro: 1-4
+s76nome1: 1-4
+s76dissolver: 5-6
+s76coord: 7-7
+s76cair: 8-8
+s76ruina: 9-10
+s76reforma: 11-15
+s76nome2: 13-15
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000077
+# :: snt77
+Index: 1    2     3        4 5   6       7  8        9   10 11   12      13 14  15    16  17 18       19 20        21 22 23       24 25   26    27  28   29
+Words: Após esses sucessos , ele assinou um contrato com a  Team Telekom e  foi morar com a  namorada em Merdingen ,  em Südbaden ,  onde viveu até 2002 .
+Sentence: Após esses sucessos, ele assinou um contrato com a Team Telekom e foi morar com a namorada em Merdingen, em Südbaden, onde viveu até 2002.
+
+# sentence level graph:
+(s77a / and
+    :op1 (s77ass / assinar
+        :ARG0 (s77p / person
+            :refer-person 3rd
+            :refer-number singular)
+        :ARG1 (s77c / contrato
+            :refer-number singular)
+        :ARG2 (s77org / sports-organization
+            :name (s77orgn / name
+                :op1 "Team"
+                :op2 "Telekom"))
+        :modal-strength full-affirmative
+        :aspect performance)
+    :op2 (s77m / morar
+        :ARG0 s77p
+        :ARG1 (s77mer / human-settlement
+            :name (s77mern / name
+                :op1 "Merdingen")
+            :wiki "Q142169"
+            :place (s77sud / region
+                :name (s77sudn / name
+                    :op1 "Südbaden")
+                :wiki "Q261407")
+            :ARG1-of (s77v / viver
+                :ARG0 s77p
+                :duration (s77u / until
+                    :op1 (s77d / date-entity
+                        :year 2002))
+                :companion (s77nam / person
+                    :refer-person 3rd
+                    :refer-number singular
+                    :ARG1-of (s77rel / have-rel-role-92
+                        :ARG2 s77p
+                        :ARG3 (s77nr / namorada)
+                        :aspect state
+                        :modal-strength full-affirmative))
+                :modal-strength full-affirmative
+                :aspect performance))
+        :companion s77nam
+        :modal-strength full-affirmative
+        :aspect activity)
+    :temporal (s77ap / after
+        :op1 (s77s / sucesso
+            :mod (s77e / esse)
+            :refer-number plural)))
+
+# alignment:
+s77ap: 1-1
+s77e: 2-2
+s77s: 3-3
+s77p: 5-5
+s77ass: 6-6
+s77c: 7-8
+s77org: 9-11
+s77a: 13-13
+s77m: 14-15
+s77nam: 16-18
+s77nr: 18-18
+s77mer: 19-20
+s77sud: 22-23
+s77v: 26-26
+s77u: 27-27
+s77d: 28-28
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000078
+# :: snt78
+Index: 1  2       3       4 5  6     7          8 9     10    11 12 13        14            15 16 17     18 19   20 21        22 23               24       25  26         27 28      29 30     31        32
+Words: Os bairros Viguier e La Conte concentram a maior parte de os conjuntos habitacionais de a  cidade ,  onde a  população é  majoritariamente composta por imigrantes ou pessoas de origem imigrante .
+Sentence: Os bairros Viguier e La Conte concentram a maior parte dos conjuntos habitacionais da cidade, onde a população é majoritariamente composta por imigrantes ou pessoas de origem imigrante.
+
+# sentence level graph:
+(s78c / concentrar
+    :ARG0 (s78a / and
+        :op1 (s78b1 / country-partition
+            :name (s78n1 / name
+                :op1 "Viguier"))
+        :op2 (s78b2 / country-partition
+            :name (s78n2 / name
+                :op1 "La"
+                :op2 "Conte")))
+    :ARG1 (s78cj / conjunto
+        :refer-number plural
+        :mod (s78h / habitacional)
+        :place (s78cid / cidade
+            :refer-number singular
+            :place-of (s78comp / compor
+                :ARG1 (s78pop / população
+                    :refer-number singular)
+                :ARG2 (s78or / or
+                    :op1 (s78i / imigrante
+                        :refer-number plural)
+                    :op2 (s78pess / person
+                        :refer-number plural
+                        :ARG1-of (s78desc / descender
+                            :ARG2 (s78i2 / imigrante
+                                :refer-number plural)
+                            :aspect state
+                            :modal-strength full-affirmative)))
+                :manner (s78maj / majoritariamente)
+                :modal-strength full-affirmative
+                :aspect state))
+        :quant (s78p / parte
+            :mod (s78m / grande
+                :degree (s78most / most))))
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s78b1: 1-3
+s78n1: 3-3
+s78a: 4-4
+s78b2: 1-2, 5-6
+s78n2: 5-6
+s78c: 7-7
+s78p: 8-10
+s78m: 9-9
+s78most: 0-0
+s78cj: 11-13
+s78h: 14-14
+s78cid: 15-17
+s78pop: 20-21
+s78comp: 22-24
+s78maj: 23-23
+s78i: 25-26
+s78or: 27-27
+s78pess: 28-28
+s78desc: 29-30
+s78i2: 31-31
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000079
+# :: snt79
+Index: 1  2 3      4  5  6    7    8 9     10    11      12   13   14      15         16
+Words: Em o início de os anos 2000 , havia cinco médicos para cada 100.000 habitantes .
+Sentence: No início dos anos 2000, havia cinco médicos para cada 100.000 habitantes.
+
+# sentence level graph:
+(s79e / exist-91
+    :ARG1 (s79m / médico
+        :refer-number plural
+        :quant 5)
+    :frequency (s79r / rate-entity-91
+        :ARG1 100000
+        :ARG2 (s79h / habitante
+            :refer-number plural))
+    :temporal (s79d / date-entity
+        :decade 2000
+        :mod (s79i / início))
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s79d: 1-7
+s79i: 1-3
+s79e: 9-9
+s79m: 10-11
+s79r: 12-15
+s79h: 15-15
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000080
+# :: snt80
+Index: 1 2             3     4  5       6 7 8       9        10    11   12        13 14  15 16     17       18 19       20      21 22        23 24   25    26 27       28    29
+Words: A alfabetização havia se perdido e a escrita micênica havia sido esquecida ,  mas os gregos adotaram o  alfabeto fenício ,  adaptando o  para criar o  alfabeto grego .
+Sentence: A alfabetização havia se perdido e a escrita micênica havia sido esquecida, mas os gregos adotaram o alfabeto fenício, adaptando-o para criar o alfabeto grego.
+
+# sentence level graph:
+(s80b / but-91
+    :ARG1 (s80a / and
+        :op1 (s80p / perder
+            :ARG1 (s80alf / alfabetização
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect performance)
+        :op2 (s80e / esquecer
+            :ARG1 (s80esc / escrita
+                :mod (s80mic / human-settlement
+                    :name (s80micn / name
+                        :op1 "Micenas")
+                    :wiki "Q132564")
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect performance))
+    :ARG2 (s80ad / adotar
+        :ARG0 (s80greg / ethnic-group
+            :name (s80gregn / name
+                :op1 "grego")
+            :wiki "Q25688688"
+            :refer-number plural)
+        :ARG1 (s80alf2 / alfabeto
+            :mod (s80fen / ethnic-group
+                :name (s80fenn / name
+                    :op1 "fenício")
+                :wiki "Q1048468")
+            :refer-number singular)
+        :manner (s80adapt / adaptar
+            :ARG0 s80greg
+            :ARG1 s80alf2
+            :purpose (s80cr / criar
+                :ARG0 s80greg
+                :ARG1 (s80alf3 / alfabeto
+                    :mod s80greg
+                    :refer-number singular)
+                :modal-strength full-affirmative
+                :aspect process)
+            :modal-strength full-affirmative
+            :aspect process)
+        :modal-strength full-affirmative
+        :aspect performance))
+
+# alignment:
+s80alf: 1-2
+s80p: 3-5
+s80a: 6-6
+s80esc: 7-8
+s80mic: 9-9
+s80e: 10-12
+s80b: 14-14
+s80greg: 15-16
+s80ad: 17-17
+s80alf2: 18-19
+s80fen: 20-20
+s80adapt: 22-22
+s80cr: 25-25
+s80alf3: 26-27
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000081
+# :: snt81
+Index: 1   2     3  4 5      6    7    8 9         10 11     12 13             14 15       16          17        18 19  20   21       22       23        24
+Words: Por volta de o século VIII a.C. , começaram a  surgir as cidades-Estado :  pequenos territórios autônomos ,  com seus próprios sistemas políticos .
+Sentence: Por volta do século VIII a.C. , começaram a surgir as cidades-Estado: pequenos territórios autônomos, com seus próprios sistemas políticos.
+
+# sentence level graph:
+(s81s / surgir
+    :ARG1 (s81c / cidade
+        :mod (s81e / estado)
+        :refer-number plural
+        :ARG1-of (s81i / identity-91
+            :ARG2 (s81t / território
+                :refer-number plural
+                :mod (s81p / pequeno)
+                :mod (s81a / autônomo)
+                :ARG1-of (s81h / have-91
+                    :ARG2 (s81sis / sistema
+                        :refer-number plural
+                        :mod (s81pol / político)
+                        :mod (s81prop / próprio)
+                        :possessor s81t)
+                    :aspect state
+                    :modal-strength full-affirmative))
+            :aspect state
+            :modal-strength full-affirmative))
+    :temporal (s81ap / approximately
+        :op1 (s81d / date-entity
+            :century (s81seculo / século
+                  :quant 8)
+            :era (s81bc / a.C.)))
+    :modal-strength full-affirmative
+    :aspect activity)
+
+# alignment:
+s81ap: 1-2
+s81d: 3-6
+s81bc: 7-7
+s81s: 9-11
+s81c: 12-13
+s81e: 13-13
+s81i: 14-14
+s81p: 15-15
+s81t: 16-16
+s81a: 17-17
+s81h: 18-18
+s81prop: 21-21
+s81sis: 19-20, 22-22
+s81pol: 23-23
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000082
+# :: snt82
+Index: 1    2    3    4   5     6    7 8     9  10      11   12  13       14 15             16      17
+Words: Esse caso pode ser visto como o ponto de partida para sua carreira de revolucionário radical .
+Sentence: Esse caso pode ser visto como o ponto de partida para sua carreira de revolucionário radical.
+
+# sentence level graph:
+(s82v / ver
+    :ARG1 (s82c / caso
+        :mod (s82e / esse)
+        :refer-number singular)
+    :ARG2 (s82p / ponto
+        :temporal-of (s82part / partir
+            :ARG1 (s82car / carreira
+                :possessor (s82pessoa / person
+                    :refer-person 3rd
+                    :refer-number singular)
+                :mod (s82rev / revolucionário
+                    :mod (s82rad / radical))
+                :refer-number singular))
+        :refer-number singular)
+    :modal-strength neutral-affirmative
+    :aspect state)
+
+# alignment:
+s82e: 1-1
+s82c: 2-2
+s82v: 3-5
+s82p: 6-8
+s82part: 9-10
+s82pessoa: 12-12
+s82car: 11-11, 13-13
+s82rev: 14-15
+s82rad: 16-16
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000083
+# :: snt83
+Index: 1  2 3     4 5       6 7   8      9        10   11 12    13 14           15 16     17 18  19    20 21 22   23  24  25    26 27  28 29 30     31 32       33
+Words: Em o verão , Georges e sua esposa voltaram para a  Suíça ,  acompanhados de Rosane ,  uma jovem de 18 anos que era filha de uma de as amigas de Germaine .
+Sentence: No verão, Georges e sua esposa voltaram para a Suíça, acompanhados de Rosane, uma jovem de 18 anos que era filha de uma das amigas de Germaine.
+
+# sentence level graph:
+(s83v / voltar
+    :ARG0 (s83a / and
+        :op1 (s83p / person
+            :name (s83n / name
+                :op1 "Georges"))
+        :op2 (s83p2 / person
+            :ARG1-of (s83rel / have-rel-role-92
+                :ARG2 s83p
+                :ARG3 (s83esp / esposa)
+                :aspect state
+                :modal-strength full-affirmative)))
+    :temporal (s83ver / verão
+        :refer-number singular)
+    :goal (s83sui / country
+        :name (s83suin / name
+            :op1 "Suíça")
+        :wiki "Q39")
+    :manner (s83acom / acompanhar
+        :ARG0 (s83ros / person
+            :name (s83rosn / name
+                :op1 "Rosane")
+            :ARG1-of (s83id / identity-91
+                :ARG2 (s83j / jovem
+                    :age (s83age / temporal-quantity
+                        :quant 18
+                        :unit (s83ano / ano))
+                    :refer-number singular)
+                :aspect state
+                :modal-strength full-affirmative)
+            :ARG1-of (s83filha / have-rel-role-91
+                :ARG2 (s83uma / person
+                    :quant 1
+                    :ARG1-of (s83inc / include-91
+                        :ARG2 (s83amigas / person
+                            :refer-number plural
+                            :ARG1-of (s83rel2 / have-rel-role-92
+                                :ARG2 (s83ger / person
+                                    :name (s83gern / name
+                                        :op1 "Germaine"))
+                                :ARG3 (s83amiga / amiga)
+                                :aspect state
+                                :modal-strength full-affirmative))
+                        :aspect state
+                        :modal-strength full-affirmative))
+                :ARG3 (s83f / filha)
+                :aspect state
+                :modal-strength full-affirmative))
+        :ARG1 s83a
+        :modal-strength full-affirmative
+        :aspect performance)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s83ver: 1-3
+s83p: 5-5
+s83n: 0-0
+s83a: 6-6
+s83p2: 8-8
+s83rel: 0-0
+s83esp: 8-8
+s83v: 9-9
+s83sui: 10-12
+s83suin: 0-0
+s83acom: 14-14
+s83ros: 15-16
+s83rosn: 0-0
+s83id: 0-0
+s83j: 18-19
+s83age: 20-22
+s83ano: 22-22
+s83filha: 24-25
+s83f: 25-25
+s83uma: 26-27
+s83inc: 27-27
+s83amigas: 28-30
+s83rel2: 0-0
+s83amiga: 30-30
+s83ger: 31-32
+s83gern: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000084
+# :: snt84
+Index: 1       2  3      4 5   6       7  8              9             10  11 12    13 14 15   16  17      18    19     20
+Words: Durante as férias , ele iniciou um relacionamento extraconjugal com a  jovem ,  o  qual ele admitiu pouco depois .
+Sentence: Durante as férias, ele iniciou um relacionamento extraconjugal com a jovem, o qual ele admitiu pouco depois.
+
+# sentence level graph:
+(s84a / and
+    :op1 (s84rel / relacionar-se
+        :ARG0 (s84p / person
+            :refer-person 3rd
+            :refer-number singular)
+        :ARG1 (s84j / jovem
+            :refer-number singular)
+        :mod (s84e / extraconjugal)
+        :temporal (s84f / férias
+            :refer-number plural)
+        :modal-strength full-affirmative
+        :aspect activity)
+    :op2 (s84ad / admitir
+        :ARG0 s84p
+        :ARG1 s84rel
+        :temporal (s84d / depois
+            :quant (s84pouco / pouco))
+        :modal-strength full-affirmative
+        :aspect performance))
+
+# alignment:
+s84f: 1-3
+s84p: 5-5
+s84rel: 6-8
+s84e: 9-9
+s84j: 10-12
+s84a: 14-15
+s84ad: 17-17
+s84pouco: 18-18
+s84d: 19-19
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000085
+# :: snt85
+Index: 1    2  3    4 5 6        7 8          9  10       11 12 13   14      15 16    17
+Words: Além de isso , é possível a ocorrência de furacões em a  ilha durante o  verão .
+Sentence: Além disso, é possível a ocorrência de furacões na ilha durante o verão.
+
+# sentence level graph:
+(s85o / ocorrer
+    :ARG1 (s85f / furacão
+        :refer-number plural)
+    :place (s85i / ilha
+        :refer-number singular)
+    :temporal (s85v / verão
+        :refer-number singular)
+    :mod (s85a / além-disso)
+    :modal-strength neutral-affirmative
+    :aspect activity)
+
+# alignment:
+s85a: 1-3
+s85o: 5-8
+s85f: 9-10
+s85i: 11-13
+s85v: 14-16
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000086
+# :: snt86
+Index: 1  2        3   4        5    6        7     8 9       10      11 12      13    14  15    16    17 18 19    20      21 22 23    24  25       26
+Words: Um elemento que sustenta essa hipótese seria a intensa criação de cavalos reais que tinha lugar em a  Villa Pelucca ,  em Sesto San Giovanni .
+Sentence: Um elemento que sustenta essa hipótese seria a intensa criação de cavalos reais que tinha lugar na Villa Pelucca, em Sesto San Giovanni.
+
+# sentence level graph:
+(s86i / identity-91
+    :ARG1 (s86e / elemento
+        :refer-number singular
+        :ARG0-of (s86s / sustentar
+            :ARG1 (s86h / hipótese
+                :mod (s86esse / esse)
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect state))
+    :ARG2 (s86c / criação
+        :refer-number singular
+        :mod (s86int / intenso)
+        :ARG1 (s86cav / cavalo
+            :refer-number plural
+            :mod (s86real / real))
+        :place (s86v / building
+            :name (s86vn / name
+                :op1 "Villa"
+                :op2 "Pelucca")
+            :place (s86sesto / human-settlement
+                :name (s86seston / name
+                    :op1 "Sesto"
+                    :op2 "San"
+                    :op3 "Giovanni"))))
+    :modal-strength neutral-affirmative
+    :aspect state)
+
+# alignment:
+s86e: 1-2
+s86s: 4-4
+s86esse: 5-5
+s86h: 6-6
+s86i: 7-7
+s86c: 8-8, 10-10
+s86int: 9-9
+s86cav: 11-12
+s86real: 13-13
+s86v: 17-19
+s86vn: 0-0
+s86sesto: 22-24
+s86seston: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000087
+# :: snt87
+Index: 1       2 3      4    5 6 7    8      9   10    11  12     13      14   15       16 17    18  19 20 21        22      23
+Words: Durante o século XIII , o nome Apúlia foi usado por alguns autores para designar a  parte sul de a  península Itálica .
+Sentence: Durante o século XIII, o nome Apúlia foi usado por alguns autores para designar a parte sul da península Itálica.
+
+# sentence level graph:
+(s87u / usar
+    :ARG0 (s87a / autor
+        :quant (s87alg / algum)
+        :refer-number plural)
+    :ARG1 (s87n / nome
+        :name (s87ap / name
+            :op1 "Apúlia")
+        :wiki "Q1447")
+    :purpose (s87d / designar
+        :ARG0 s87a
+        :ARG1 s87n
+        :ARG2 (s87p / parte
+            :mod (s87sul / sul)
+            :mod (s87pen / peninsula
+                :name (s87it / name
+                    :op1 "Itálica")
+                :wiki "Q145694")
+            :refer-number singular)
+        :modal-strength full-affirmative
+        :aspect activity)
+    :temporal (s87date / date-entity
+        :century (s87seculo / século
+                  :quant 13))
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s87date: 1-4
+s87n: 6-7
+s87ap: 8-8
+s87u: 9-10
+s87a: 11-11, 13-13
+s87alg: 12-12
+s87d: 15-15
+s87p: 16-17
+s87sul: 18-18
+s87pen: 19-22
+s87it: 22-22
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000088
+# :: snt88
+Index: 1 2           3     4      5      6   7       8         9 10      11  12    13 14   15    16   17 18         19 20     21       22
+Words: O historiador David Crouch sugere que Stephen abandonou a disputa por volta de essa época para se concentrar em outras questões .
+Sentence: O historiador David Crouch sugere que Stephen abandonou a disputa por volta dessa época para se concentrar em outras questões.
+
+# sentence level graph:
+(s88s / sugerir
+    :ARG0 (s88p / person
+        :name (s88n / name
+            :op1 "David"
+            :op2 "Crouch")
+        :wiki "Q5232685"
+        :ARG1-of (s88hr / have-role-91
+            :ARG3 (s88hist / historiador)
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG1 (s88a / abandonar
+        :ARG0 (s88st / person
+            :name (s88stn / name
+                :op1 "Stephen"))
+        :ARG1 (s88d / disputa
+            :refer-number singular)
+        :quote s88s
+        :temporal (s88ep / época
+            :mod (s88e / esse)
+            :refer-number singular)
+        :purpose (s88c / concentrar
+            :ARG0 s88st
+            :ARG1 s88st
+            :topic (s88q / questão
+                :mod (s88o / outro)
+                :refer-number plural)
+            :modal-strength full-affirmative
+            :aspect activity)
+        :modal-strength full-affirmative
+        :aspect performance)
+    :modal-strength full-affirmative
+    :aspect activity)
+
+# alignment:
+s88hist: 1-2
+s88p: 3-4
+s88n: 0-0
+s88s: 5-5
+s88a: 6-6, 8-8
+s88st: 7-7
+s88stn: 0-0
+s88d: 9-10
+s88ep: 11-15
+s88e: 14-14
+s88c: 18-18
+s88q: 19-19, 21-21
+s88o: 20-20
+s88hr: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000089
+# :: snt89
+Index: 1      2   3     4         5 6        7 8 9       10       11 12 13      14 15      16     17 18         19 20    21  22 23 24     25  26 27      28  29
+Words: Embora não tenha resolvido o conflito , a vitória francesa em a  Batalha de Marengo forçou os austríacos a  abrir mão de a  Itália por a  segunda vez .
+Sentence: Embora não tenha resolvido o conflito, a vitória francesa na Batalha de Marengo forçou os austríacos a abrir mão da Itália pela segunda vez.
+
+# sentence level graph:
+(s89f / forçar
+    :ARG0 (s89v / vencer
+        :ARG0 (s89fr / person
+            :refer-number plural
+            :mod (s89fra / country
+                :name (s89fran / name
+                    :op1 "França")
+                :wiki "Q142"))
+        :temporal (s89bat / event
+            :name (s89batn / name
+                :op1 "Batalha"
+                :op2 "de"
+                :op3 "Marengo")
+            :wiki "Q273011")
+        :modal-strength full-affirmative
+        :aspect performance)
+    :ARG1 (s89aus / person
+        :refer-number plural
+        :mod (s89aut / country
+            :name (s89autn / name
+                :op1 "Áustria")
+            :wiki "Q40"))
+    :ARG2 (s89abr / abrir-mão
+        :ARG0 s89aus
+        :ARG1 (s89ita / country
+            :name (s89itan / name
+                :op1 "Itália")
+            :wiki "Q38")
+        :ord (s89ord / ordinal-entity
+            :value 2)
+        :modal-strength full-affirmative
+        :aspect performance)
+    :concession (s89res / resolver
+        :ARG0 s89v
+        :ARG1 (s89conf / conflito
+            :refer-number singular)
+        :polarity -
+        :modal-strength full-negative
+        :aspect performance)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s89res: 1-1, 3-4
+s89conf: 5-6
+s89v: 8-9
+s89fr: 10-10
+s89fra: 10-10
+s89bat: 11-15
+s89batn: 0-0
+s89f: 16-16
+s89aus: 17-18
+s89aut: 17-18
+s89abr: 20-21
+s89ita: 22-24
+s89itan: 0-0
+s89ord: 25-29
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000090
+# :: snt90
+Index: 1      2 3  4        5          6 7        8   9       10 11 12     13        14 15         16   17     18 19 20     21          22      23   24  25   26
+Words: Quanto a as práticas religiosas , Fiorello foi educado em a  Igreja Episcopal e  permaneceu como membro de a  Igreja Protestante durante toda sua vida .
+Sentence: Quanto às práticas religiosas, Fiorello foi educado na Igreja Episcopal e permaneceu como membro da Igreja Protestante durante toda sua vida.
+
+# sentence level graph:
+(s90a / and
+    :op1 (s90e / educar
+        :ARG1 (s90pessoa / person
+            :name (s90nome / name
+                :op1 "Fiorello"))
+        :place (s90igreja1 / religious-organization
+            :name (s90nome2 / name
+                :op1 "Igreja"
+                :op2 "Episcopal")
+            :wiki "Q682443")
+        :modal-strength full-affirmative
+        :aspect performance)
+    :op2 (s90perm / permanecer
+        :ARG1 s90pessoa
+        :ARG2 (s90m / membro
+            :mod (s90igreja2 / religious-organization
+                :name (s90nome3 / name
+                    :op1 "Igreja"
+                    :op2 "Protestante")
+                :wiki "Q346575"))
+        :duration (s90v / vida
+            :possessor s90pessoa
+            :quant (s90t / todo))
+        :modal-strength full-affirmative
+        :aspect state)
+    :topic (s90prat / prática
+        :mod (s90rel / religioso)
+        :refer-number plural))
+
+# alignment:
+s90prat: 1-4
+s90rel: 5-5
+s90pessoa: 7-7
+s90nome: 0-0
+s90e: 8-9
+s90igreja1: 10-12
+s90nome2: 0-0
+s90a: 14-14
+s90perm: 15-15
+s90m: 16-17
+s90igreja2: 18-20
+s90nome3: 0-0
+s90v: 22-22, 25-25
+s90t: 23-23
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000091
+# :: snt91
+Index: 1       2 3        4 5 6    7   8         9               10     11 12 13     14     15 16     17          18  19     20 21    22
+Words: Segundo a tradição , o tema foi escolhido deliberadamente devido a  o  grande número de judeus convertidos que viviam em Palma .
+Sentence: Segundo a tradição, o tema foi escolhido deliberadamente devido ao grande número de judeus convertidos que viviam em Palma.
+
+# sentence level graph:
+(s91s / say-91
+    :ARG0 (s91t / tradição
+        :refer-number singular)
+    :ARG1 (s91e / escolher
+        :ARG1 (s91tema / tema
+            :refer-number singular)
+        :manner (s91d / deliberadamente)
+        :reason (s91n / número
+            :mod (s91g / grande)
+            :mod (s91j / ethnic-group
+                :name (s91jn / name
+                    :op1 "judeu")
+                :wiki "Q7325"
+                :refer-number plural
+                :ARG1-of (s91c / converter
+                    :modal-strength full-affirmative
+                    :aspect performance)
+                :ARG0-of (s91v / viver
+                    :place (s91p / human-settlement
+                        :name (s91pn / name
+                            :op1 "Palma")
+                        :wiki "Q8826")
+                    :modal-strength full-affirmative
+                    :aspect state))
+            :refer-number singular)
+        :quote s91s
+        :modal-strength full-affirmative
+        :aspect performance)
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s91t: 1-3
+s91s: 1-3
+s91tema: 5-6
+s91e: 7-8
+s91d: 9-9
+s91n: 10-12, 14-14
+s91g: 13-13
+s91j: 15-16
+s91jn: 0-0
+s91c: 17-17
+s91v: 19-19
+s91p: 20-21
+s91pn: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000092
+# :: snt92
+Index: 1  2 3       4 5 6          7     8   9 10      11 12 13          14 15 16    17           18         19 20        21             22 23  24 25       26 27   28
+Words: Em o entanto , o rompimento entre ele e Linares e  a  interrupção de a  linha progressista provocaram a  Revolução Reivindicadora ,  que o  derrubou em 1879 .
+Sentence: No entanto, o rompimento entre ele e Linares e a interrupção da linha progressista provocaram a Revolução Reivindicadora, que o derrubou em 1879.
+
+# sentence level graph:
+(s92p / provocar
+    :ARG0 (s92a / and
+        :op1 (s92r / romper
+            :ARG1 (s92rel / relacionar-se
+                :ARG0 (s92pessoa / person
+                    :refer-person 3rd
+                    :refer-number singular)
+                :ARG1 (s92lin / person
+                    :name (s92linn / name
+                        :op1 "Linares"))
+                :modal-strength full-affirmative
+                :aspect state)
+            :modal-strength full-affirmative
+            :aspect performance)
+        :op2 (s92i / interromper
+            :ARG1 (s92linha / linha
+                :mod (s92prog / progressista)
+                :refer-number singular)
+            :modal-strength full-affirmative
+            :aspect performance))
+    :ARG1 (s92rev / event
+        :name (s92revn / name
+            :op1 "Revolução"
+            :op2 "Reivindicadora")
+        :ARG0-of (s92d / derrubar
+            :ARG1 s92pessoa
+            :temporal (s92date / date-entity
+                :year 1879)
+            :modal-strength full-affirmative
+            :aspect performance))
+    :mod (s92ent / no-entanto)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s92ent: 1-3
+s92r: 5-6
+s92pessoa: 7-8
+s92a: 9-9, 11-11
+s92lin: 10-10
+s92linn: 0-0
+s92i: 12-13
+s92linha: 14-16
+s92prog: 17-17
+s92p: 18-18
+s92rev: 19-20
+s92revn: 0-0
+s92d: 23-23
+s92date: 25-27
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000093
+# :: snt93
+Index: 1 2       3 4 5           6  7       8  9      10         11 12  13   14 15       16 17      18       19 20 21       22
+Words: O colapso e a intervenção em dezenas de bancos resultaram em uma fuga de capitais ,  levando empresas a  a  falência .
+Sentence: O colapso e a intervenção em dezenas de bancos resultaram em uma fuga de capitais, levando empresas à falência.
+
+# sentence level graph:
+(s93r / resultar
+    :ARG0 (s93a / and
+        :op1 (s93c / colapsar
+            :modal-strength full-affirmative
+            :aspect performance)
+        :op2 (s93i / intervir
+            :ARG1 (s93b / banco
+                :quant (s93d / dezena
+                    :refer-number plural)
+                :refer-number plural)
+            :modal-strength full-affirmative
+            :aspect performance))
+    :ARG1 (s93f / fugir
+        :ARG1 (s93cap / capital
+            :refer-number plural)
+        :modal-strength full-affirmative
+        :aspect performance)
+    :ARG2-of (s93hc / have-cause-91
+        :ARG1 (s93fal / falir
+            :ARG1 (s93emp / empresa
+                :refer-number plural)
+            :modal-strength full-affirmative
+            :aspect performance)
+        :modal-strength full-affirmative
+        :aspect state)
+    :modal-strength full-affirmative
+    :aspect performance)
+
+# alignment:
+s93c: 1-2
+s93a: 3-3
+s93i: 4-5
+s93d: 6-7
+s93b: 8-9
+s93r: 10-10
+s93f: 11-13
+s93cap: 14-15
+s93hc: 17-17
+s93emp: 18-18
+s93fal: 19-21
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000094
+# :: snt94
+Index: 1    2   3 4     5  6            7 8 9       10  11 12      13         14   15         16  17            18
+Words: Esse foi o golpe de misericórdia e o impulso que os colonos precisavam para conquistar sua independência .
+Sentence: Esse foi o golpe de misericórdia e o impulso que os colonos precisavam para conquistar sua independência.
+
+# sentence level graph:
+(s94i / identity-91
+    :ARG1 (s94e / event)
+    :ARG2 (s94a / and
+        :op1 (s94g / golpe
+            :refer-number singular
+            :mod (s94m / misericórdia))
+        :op2 (s94imp / impulso
+            :refer-number singular
+            :ARG1-of (s94p / precisar
+                :ARG0 (s94c / colono
+                    :refer-number plural)
+                :purpose (s94conq / conquistar
+                    :ARG0 s94c
+                    :ARG1 (s94ind / independência
+                        :refer-number singular
+                        :possessor s94c)
+                    :modal-strength full-affirmative
+                    :aspect activity)
+                :modal-strength full-affirmative
+                :aspect state)))
+    :modal-strength full-affirmative
+    :aspect state)
+
+# alignment:
+s94e: 1-1
+s94i: 2-2
+s94g: 3-4
+s94m: 5-6
+s94a: 7-7
+s94imp: 8-9
+s94c: 11-12
+s94p: 13-13
+s94conq: 15-15
+s94ind: 17-17
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000095
+# :: snt95
+Index: 1     2     3 4  5 6   7       8       9    10     11 12 13     14 15   16 17 18     19 20 21     22 23     24   25 26      27    28 29 30    31 32 33 34     35 36 37  38 39   40 41     42 43 44     45
+Words: Ainda assim , se a lei inglesa tivesse sido aceita ,  as filhas de Luís X  ,  Felipe V  e  Carlos IV teriam tido um direito maior a  o  trono ,  a  a  frente de a  tia de elas ,  Isabel de a  França .
+Sentence: Ainda assim, se a lei inglesa tivesse sido aceita, as filhas de Luís X, Felipe V e Carlos IV teriam tido um direito maior ao trono, à frente da tia delas, Isabel da França.
+
+# sentence level graph:
+(s95h / have-91
+    :ARG1 (s95filhas / person
+        :refer-number plural
+        :ARG1-of (s95rel / have-rel-role-92
+            :ARG2 (s95pais / and
+                :op1 (s95luis / person
+                    :name (s95luisn / name
+                        :op1 "Luís"
+                        :op2 "X")
+                    :wiki "Q8384")
+                :op2 (s95felipe / person
+                    :name (s95felipen / name
+                        :op1 "Felipe"
+                        :op2 "V")
+                    :wiki "Q8433")
+                :op3 (s95carlos / person
+                    :name (s95carlosn / name
+                        :op1 "Carlos"
+                        :op2 "IV")
+                    :wiki "Q174964"))
+            :ARG3 (s95filho / filha)
+            :aspect state
+            :modal-strength full-affirmative))
+    :ARG2 (s95dir / direito
+        :mod (s95trono / trono
+            :refer-number singular)
+        :quant (s95more / more-than
+            :op1 (s95dir2 / direito
+                :possessor (s95tia / person
+                    :name (s95isabeln / name
+                        :op1 "Isabel"
+                        :op2 "da"
+                        :op3 "França")
+                    :wiki "Q228642"
+                    :ARG1-of (s95rel2 / have-rel-role-92
+                        :ARG2 s95filhas
+                        :ARG3 (s95tiarel / tia)
+                        :aspect state
+                        :modal-strength full-affirmative)))))
+    :condition (s95acc / aceitar
+        :ARG1 (s95lei / lei
+            :mod (s95ing / country
+                :name (s95ingn / name
+                    :op1 "Inglaterra"))
+            :refer-number singular)
+        :modal-strength full-negative
+        :aspect performance)
+    :mod (s95assim / ainda-assim)
+    :modal-strength neutral-affirmative
+    :aspect state)
+
+# alignment:
+s95assim: 1-3
+s95acc: 4-4, 8-10
+s95lei: 5-6
+s95ing: 7-7
+s95ingn: 0-0
+s95filhas: 12-13
+s95rel: 0-0
+s95filho: 13-13
+s95pais: 19-19, 22-22
+s95luis: 14-15
+s95luisn: 0-0
+s95felipe: 17-18
+s95felipen: 0-0
+s95carlos: 20-21
+s95carlosn: 0-0
+s95h: 23-24
+s95dir: 25-26
+s95more: 27-27
+s95trono: 28-30
+s95dir2: 0-0
+s95tia: 35-41
+s95rel2: 0-0
+s95tiarel: 35-37
+s95isabeln: 0-0
+
+# document level annotation:
+
+
+################################################################################
+# meta-info :: sent_id = S000096
+# :: snt96
+Index: 1  2          3  4   5          6          7  8 9         10 11   12 13 14       15      16       17  18    19 20  21      22 23   24 25    26 27 28     29
+Words: As tentativas de paz finalmente terminaram em a primavera de 1415 ,  e  Henrique decidiu executar seu plano :  uma invasão de todo o  Reino de a  França .
+Sentence: As tentativas de paz finalmente terminaram na primavera de 1415, e Henrique decidiu executar seu plano: uma invasão de todo o Reino da França.
+
+# sentence level graph:
+(s96a / and
+    :op1 (s96t / terminar
+        :ARG1 (s96tent / tentativa
+            :mod (s96paz / paz)
+            :refer-number plural)
+        :temporal (s96date / date-entity
+            :season (s96prim / primavera)
+            :year 1415)
+        :manner (s96fin / finalmente)
+        :modal-strength full-affirmative
+        :aspect performance)
+    :op2 (s96d / decidir
+        :ARG0 (s96hen / person
+            :name (s96henn / name
+                :op1 "Henrique"))
+        :ARG1 (s96exec / executar
+            :ARG0 s96hen
+            :ARG1 (s96plano / plano
+                :refer-number singular
+                :possessor s96hen
+                :ARG1-of (s96id / identity-91
+                    :ARG2 (s96inv / invadir
+                        :ARG1 (s96rei / geo-political-entity
+                            :mod (s96todo / todo)
+                            :name (s96rein / name
+                                :op1 "Reino"
+                                :op2 "da"
+                                :op3 "França")))
+                    :modal-strength full-affirmative
+                    :aspect state))
+            :modal-predicate s96d
+            :modal-strength full-affirmative
+            :aspect activity)
+        :modal-strength full-affirmative
+        :aspect performance))
+
+# alignment:
+s96tent: 1-2
+s96paz: 3-4
+s96fin: 5-5
+s96t: 6-6
+s96date: 7-11
+s96prim: 8-9
+s96a: 13-13
+s96hen: 14-14
+s96henn: 0-0
+s96d: 15-15
+s96exec: 16-16
+s96plano: 18-18
+s96id: 19-19
+s96inv: 20-21
+s96todo: 23-23
+s96rei: 22-28
+s96rein: 0-0
+
+# document level annotation:
+
+
