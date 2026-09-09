@@ -420,7 +420,7 @@ Words: 冬至   广州   温  3.3 °C 至  12 °C 。
 
 # sentence level graph:
 (s7i2 / identity-91
-	:op2 (s7d / degree-entity
+	:op1 (s7d / degree-entity
 		:value 12
 		:unit "MISSING-VALUE")
 	:ARG1 (s7x2 / 温

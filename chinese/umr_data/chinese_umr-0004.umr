@@ -331,7 +331,7 @@ Words: 上集 提到 博士 和 琼斯 到 1930 年 的 纽约 以  见证 帝�
             :op1 (s5i3 / individual-person
                 :name (s5n2 / name
                     :op1 "琼斯"))
-            :op1 (s5x7 / 博士))
+            :op2 (s5x7 / 博士))
         :ARG1 (s5c / city
             :name (s5n3 / name
                 :op1 "纽约")
@@ -1409,7 +1409,7 @@ Words: 原来 ， 其余 的 戴 立克 已 对 格拉斯 产生 怀疑 ，  认
                 :aspect state)
             :op3 (s19x5 / 格格不入-01
                 :ARG0 (s19a2 / and
-                    :op2 (s19x6 / 作风
+                    :op1 (s19x6 / 作风
                         :temporal (s19x7 / 过去)))
                 :aspect state))))
 
@@ -1521,7 +1521,7 @@ Words: 另一边 厢 ， 琼斯 终于 明白 到 博士 此前 在  胡佛 村 
             :temporal (s21x4 / 终于))
         :op2 (s21x / 走到-01
             :ARG0 (s21a / and
-                :op2 (s21i2 / individual-person
+                :op1 (s21i2 / individual-person
                     :name (s21n2 / name
                         :op1 "塔罗"
                         :op2 "拉")))

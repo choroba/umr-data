@@ -412,7 +412,7 @@ Words: 警方 声称 23 人 在 爆炸 中 身亡 ， 另有 包括 儿童 在�
                 :quant 23)
             :reason (s7x5 / 爆炸-01)
             :aspect performance)
-        :op3 (s7x6 / 受伤-01
+        :op2 (s7x6 / 受伤-01
             :ARG0 (s7x7 / 人
                 :quant 59
                 :ARG0-of (s7x8 / 包括-01
@@ -1153,7 +1153,7 @@ Words: 阿贝迪 在 法尔洛菲德 的 住处 成为 警察 调查 的 重点 
                 :ARG0 (s18x7 / 警察)
                 :aspect activity))
         :aspect performance)
-    :op1 (s18c2 / consecutive
+    :op2 (s18c2 / consecutive
         :op1 (s18x2 / 破-02
             :ARG0 (s18x8 / 警察
                 :mod (s18x12 / 武装))
@@ -4628,7 +4628,7 @@ Words: 唱片 公司 也 宣布 部分 欧洲 国家 的 演唱会 及  亚洲 �
 
 # sentence level graph:
 (s57a / and
-    :op2 (s57x / 宣布-01
+    :op1 (s57x / 宣布-01
         :ARG0 (s57x2 / 公司
             :mod (s57x3 / 唱片))
         :ARG1 (s57x4 / 照常-01

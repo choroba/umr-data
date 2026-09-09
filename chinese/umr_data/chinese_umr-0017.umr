@@ -839,7 +839,7 @@ Words: 2023 年  10 月  ，  缅军   开始   面临   人力   问题   ，  
 						:name (s13n4 / name
 							:op1 "人民"
 							:op2 "防卫军"
-							:op4 "PDF"))
+							:op3 "PDF"))
 					:op2 (s13m2 / military
 						:name (s13n3 / name
 							:op1 "三兄弟"
@@ -984,8 +984,8 @@ Words: 2023 年  10 月  和  11 月  发生   了  一系列    反攻   ，  �
 	:temporal (s14d / date-entity
 		:year 2023
 		:month (s14a4 / and
-			:month 10
-			:month 11)))
+			:op1 10
+			:op2 11)))
 
 # alignment:
 s14a: 11-11
