@@ -1021,7 +1021,7 @@ Translation(English):	These whites will trick you.
         :mod (s30n3 / nuhu'))
     :affectee (s30p / person 
         :refer-person 2nd
-        :refer-person plural)
+        :refer-number plural)
     :aspect habitual
     :modal-strength full-affirmative)
 
@@ -1476,7 +1476,7 @@ Translation(English):	The Arapaho tribe, it, they are the councilmen/chiefs.
 # sentence level graph:
 (s44h / have-role-91
     :ARG1 (s44p / person 
-        :refer-person plural
+        :refer-number plural
         :mod (s44c / clan 
             :name (s44n2 / name :op1 "hinono'eiteen")
         :mod (s44n3 / nuhu')))
