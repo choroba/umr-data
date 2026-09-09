@@ -79,14 +79,13 @@ Translation(Spanish):	No sabían contestar
 		:recipient (s2p3 / person)
 		:aspect performance)
 	:aspect state)
-# alignment:-: -1--1
+
+# alignment:
 s2e: 2-2
 s2e2: 2-2
 s2p: -1--1
 s2e3: 2-2
 s2p2: 0-0
-
-# alignment:
 
 # document level annotation:
 (s2s0 / sentence
@@ -2280,7 +2279,7 @@ Translation(Spanish):	Era doloroso el sufrimiento de nuestros abuelos
 # alignment:
 s64a: 1-1
 s64e: 2-2
-s64e2: 3-33
+s64e2: 3-3
 s64p: 0-0
 s64p2: 0-0
 s64e3: 0-0
