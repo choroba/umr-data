@@ -18,6 +18,7 @@ Words: Only       so         long       as         they       have       no     
                 :ARG0-of (s1r / redeem-01))
             :polarity -)
         :mod (s1o / only)))
+
 # alignment:
 
 # document level annotation:
@@ -40,6 +41,7 @@ Words: It       is       always   wrong    to       kill     anybody, whatever t
             :refer-person 3rd
             :refer-number singular))
     :temporal (s2a / always))
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +76,7 @@ Words: I         heard     it        costs     upwards   of        one       mil
         :ARG0 (s3i / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:

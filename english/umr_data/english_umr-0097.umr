@@ -11,6 +11,7 @@ Words: Regarding the       comment:  "Rape     the       Rich"     from      the
                            :mod (s1m / mindless))
                 :ARG1 (s1r2 / rape-01
                             :ARG1 (s1r3 / rich))))
+
 # alignment:
 
 # document level annotation:
@@ -38,6 +39,7 @@ Words: Let        me         see        if         I          understand your   
                 :ARG1 (s2h / have-point-of-view-08
                     :ARG0 s2y))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +61,7 @@ Words: Wealth       and          power        are          in           fact    
                 :op1 (s3w / wealth)
                 :op2 (s3p2 / power))
      :mod (s3i / in-fact))
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +77,7 @@ Words: Not     really.
 # sentence level graph:
 (s4r / real-04
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +117,7 @@ Words: The        the        population in         the        top        1%,    
                  :temporal (s5s3 / since
                                  :op1 (s5d / date-entity
                                            :year 1990))))
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +136,7 @@ Words: Yes,        I           oppose      corruption.
         :refer-person 1st
         :refer-number singular)
     :ARG1 (s6c / corrupt-01))
+
 # alignment:
 
 # document level annotation:
@@ -150,6 +156,7 @@ Words: I       have    no      issue   with    wealth.
         :refer-person 1st
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -171,6 +178,7 @@ Words: The      more     wealth   created, the      better.
       :ARG2 (s8m / more
                  :ARG3-of (s8h2 / have-degree-91
                                 :ARG2 (s8g / good-02))))
+
 # alignment:
 
 # document level annotation:
@@ -193,6 +201,7 @@ Words: I           support     wealth      and         oppose      corruption.
     :op2 (s9o / oppose-01
         :ARG0 s9i
         :ARG1 (s9c / corrupt-01)))
+
 # alignment:
 
 # document level annotation:
@@ -223,6 +232,7 @@ Words: I'm         the         opposite    of          the         democrats,  I
                 :ARG1 (s10w / wealth))
             :ARG0-of (s10f / favor-01
                 :ARG1 (s10c / corrupt-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -266,6 +276,7 @@ Words: HOWEVER,      you           find          it            inanely       abs
                 :ARG3 (s11t3 / to-the-point)
                 :ARG6 (s11m2 / mindless
                     :domain s11t2)))))
+
 # alignment:
 
 # document level annotation:
@@ -283,6 +294,7 @@ Words: Is        that      accurate?
       :polarity (s12a2 / umr-unknown)
       :domain (s12t / that)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +311,7 @@ Words: Again,      the         issue       is          one         of          c
 (s13i3 / issue-02
        :ARG0 (s13c / corrupt-01)
        :mod (s13a / again))
+
 # alignment:
 
 # document level annotation:
@@ -318,6 +331,7 @@ Words: Equal      justice    under      the        law        is         the    
       :ARG2 (s14j / justice
                   :ARG1-of (s14e / equal-01)
                   :mod (s14l / law)))
+
 # alignment:
 
 # document level annotation:
@@ -351,6 +365,7 @@ Words: We         have       lost       that,      we         have       distinc
                 :ARG1 (s15l3 / law
                     :affectee (s15p2 / person
                         :mod (s15c2 / common)))))))
+
 # alignment:
 
 # document level annotation:
@@ -382,6 +397,7 @@ Words: Wealth     and        power      often      go         hand       in     
                                                      :name (s16n / name
                                                                  :op1 "Clinton")
                                                      :wiki -)))))
+
 # alignment:
 
 # document level annotation:
@@ -403,6 +419,7 @@ Words: It          is          the         connections that        pervert     t
                     :ARG0 (s17w / wealth)
                     :ARG1 s17l
                     :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -454,6 +471,7 @@ Words: Simply     put,       I          believe    that       Barack     Obama  
             :ARG1 s18h
             :modal-strength neutral-affirmative
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -495,6 +513,7 @@ Words: I        take     offense  when     you      call     people   mindless w
                         :mod (s19a3 / all)
                         :ARG1-of s19e)))
             :polarity (s19a4 / umr-unknown))))
+
 # alignment:
 
 # document level annotation:
@@ -510,6 +529,7 @@ Words: The    answer is     no.
 # sentence level graph:
 (s20a / answer-01
       :ARG2 (s20n / no))
+
 # alignment:
 
 # document level annotation:
@@ -537,6 +557,7 @@ Words: People  love    the     Bill    Gates   of      this    country and     h
         :ARG1 s21p2
         :ARG2 s21p
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -570,6 +591,7 @@ Words: Coincidentally, most            wealthy         people          who      
             :ARG1-of (s22f / fair-01))
         :polarity -)
     :ARG1-of (s22c3 / coincide-01))
+
 # alignment:
 
 # document level annotation:
@@ -599,6 +621,7 @@ Words: The           point         of            those         "mindless"    peo
                 :ARG0 (s23y / person
                     :refer-person 2nd
                     :refer-number singular)))))
+
 # alignment:
 
 # document level annotation:
@@ -631,6 +654,7 @@ Words: Two              concepts         that             led              our  
                         :polarity -))
                 :mode imperative)))
     :quant 2)
+
 # alignment:
 
 # document level annotation:
@@ -666,6 +690,7 @@ Words: The        same       thing      is         happening  now        on     
                     :refer-number plural))))
     :aspect activity
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -691,6 +716,7 @@ Words: Your      logic     is        somewhat  confusing to        me        is 
         :ARG0 s26i
         :ARG3 (s26a / all))
     :degree (s26s / somewhat))
+
 # alignment:
 
 # document level annotation:
@@ -717,6 +743,7 @@ Words: I         don't     think     Americans HATE      rich.
         :ARG1 (s27p2 / person
             :mod (s27r / rich))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -744,6 +771,7 @@ Words: They       just       don't      like       being      lied       to,    
         :op4 (s28e / exploit-01
             :ARG1 s28t))
     :mod (s28j / just))
+
 # alignment:
 
 # document level annotation:
@@ -767,6 +795,7 @@ Words: In      the     very    same    way     that    takes   place   in      o
         :possessor (s29w / person
             :refer-person 1st
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -794,6 +823,7 @@ Words: Who      wouldn't want     to       be       rich     beyond   their    w
                     :ARG3 (s30m / most)))))
     :polarity -
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -817,6 +847,7 @@ Words: The           conservative  misconception is            that          lib
                    :ARG1 (s31m / money))
        :aspect state
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -835,6 +866,7 @@ Words: It's     not      the      money    liberals hate....
                   :ARG1-of (s32l / liberal-02))
       :ARG1 (s32m / money)
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -858,6 +890,7 @@ Words: it's    the     devious means   in      which   some    of      the     r
                                        :quant (s33s / some))
                            :ARG1 (s33w / wealth
                                        :possessor s33p)))
+
 # alignment:
 
 # document level annotation:

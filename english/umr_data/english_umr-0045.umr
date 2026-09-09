@@ -17,6 +17,7 @@ Words: Given     theat     the       current   lending   and       borrowing sia
                            :ARG1 (s1m2 / mortgage))
                 :ARG2 (s1d / difficult)
                 :ARG3 (s1m / more)))
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +43,7 @@ Words: I          understand that       Martgage   broker     is         to     
             :ARG0-of (s2p4 / provide-01)
             :quant (s2l / lot))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -70,6 +72,7 @@ Words: But       for       people    are       dififcult to        get       mor
                     :temporal (s3t3 / today)))
             :refer-number plural)
         :mode interrogative))
+
 # alignment:
 
 # document level annotation:
@@ -110,6 +113,7 @@ Words: Say         for         instance    they        say         it          i
     :polarity (s4a2 / umr-unknown)
     :ARG1-of (s4h2 / have-example-91)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +145,7 @@ Words: Is        not       that      it        is        better    to        sti
     :ARG3 (s5m / more)
     :polarity -
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -165,6 +170,7 @@ Words: I          undesratnd that       some       mortgage   adviser    are    
             :quant (s6s / some))
         :ARG2 (s6c / charge-01
             :ARG3 s6p)))
+
 # alignment:
 
 # document level annotation:
@@ -200,6 +206,7 @@ Words: I           am          asking      here        because     once        y
             :refer-number singular)
         :place (s7h / here))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -223,6 +230,7 @@ Words: Opinions        and             expereince      from            people   
                  :op2 (s8e / experience-01
                            :ARG0 s8p))
      :degree (s8r / really))
+
 # alignment:
 
 # document level annotation:
@@ -263,6 +271,7 @@ Words: First               of                  all                 I            
             :ARG2 (s9l / lend-01
                 :ARG2 s9p3
                 :quant (s9p2 / plenty)))))
+
 # alignment:
 
 # document level annotation:
@@ -314,6 +323,7 @@ Words: Obviously   I           am          biased      as          I           a
                 :ARG2 (s10m2 / market
                     :quant (s10w2 / whole))
                 :modal-strength neutral-affirmative))))
+
 # alignment:
 
 # document level annotation:
@@ -360,6 +370,7 @@ Words: I          used       to         work       for        a          bank   
                     :ARG2 (s11e2 / elsewhere)))
             :polarity -)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -390,6 +401,7 @@ Words: Now         I           am          comfortable doing       things      f
                     :ARG3 (s12m / member)))))
     :ARG1 s12i
     :temporal (s12n / now))
+
 # alignment:
 
 # document level annotation:
@@ -429,6 +441,7 @@ Words: Banks    will     want     you      to       think    that     you      h
         :ARG1 s13c2
         :mod (s13s / simple)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -459,6 +472,7 @@ Words: If                          you                         get              
     :op3 (s14s / score
         :mod (s14c / credit))
     :op4 (s14e / et-cetera))
+
 # alignment:
 
 # document level annotation:

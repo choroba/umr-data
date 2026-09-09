@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -97,6 +103,7 @@ Words: I      don't  know   what   God    thinks about  it     and    will   not
             :ARG2 (s7y2 / person
                 :refer-person 2nd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +139,7 @@ Words: I       think   that    birth   control should  remain  legal   as      e
             :concession (s8e / even-if
                 :op1 (s8w / wrong-02
                     :ARG1 s8c)))))
+
 # alignment:
 
 # document level annotation:
@@ -164,6 +172,7 @@ Words: I        am       not      for      it       or       against, I        a
             :ARG0 s9i
             :ARG1 s9i2
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -213,6 +222,7 @@ Words: I          do         believe    that       abortion   is         a      
                             :modal-strength neutral-affirmative)))))
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -238,6 +248,7 @@ Words: Where   if      they    had     been    taking  birth   control they    n
             :ARG0 s11t)
         :modal-strength partial-affirmative
         :polarity -))
+
 # alignment:
 
 # document level annotation:

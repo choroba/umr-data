@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Builder> hello
 
 # sentence level graph:
 (s2h / hello)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +37,7 @@ Words: <Architect> Hi!
 
 # sentence level graph:
 (s3h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -57,6 +60,7 @@ Words: <Architect> Today       we're       bulding     a           structure   w
         :color (s4b2 / blue)
         :quant 3)
     :temporal (s4t / today))
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +75,7 @@ Words: <Builder> ok
 
 # sentence level graph:
 (s5o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +114,7 @@ Words: <Architect> First,      please      place       two         of          t
     :mode imperative
     :polite +
     :list-item 1)
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +137,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                             :x 1
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -153,6 +160,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                             :x 1
                             :y 1
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -181,6 +189,7 @@ Words: <Architect> Great!      Now         put         one         more        o
                     :ARG1 (s9b / build-space))))
         :temporal (s9n / now)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -203,6 +212,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                                :x 1
                                :y 2
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -224,6 +234,7 @@ Words: <Architect> I           think       we're       done!
         :ARG0 (s11w / person
             :refer-person 1st
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -242,6 +253,7 @@ Words: <Architect>  You're       fast         at           minecrafting
         :ARG0 (s12y / person
             :refer-person 2nd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:

@@ -6,6 +6,7 @@ Words: Okay .
 
 # sentence level graph:
 (s1o / okay-04)
+
 # alignment:
 s1o: 1-1
 
@@ -30,6 +31,7 @@ Words: U—m   the   s     the   scene opens up    with  um    you   see   a    
                                 :refer-number singular)
                     :aspect state)
       :aspect performance)
+
 # alignment:
 s2o2: 6-7
 s2p2: 10-10
@@ -50,6 +52,7 @@ Words: k   kay ?
 (s3r / request-confirmation-91
      :ARG1 (s3e / event)
      :mode interrogative)
+
 # alignment:
 s3r: 2-2
 s3e: 0-0
@@ -70,6 +73,7 @@ Words: And     there's a       ladder  coming  out     .       .       o       o
      :ARG3 (s4t / tree
                 :refer-number singular)
      :aspect state)
+
 # alignment:
 s4c: 5-5
 s4l: 4-4
@@ -93,6 +97,7 @@ Words: and     there's a       man     at      the     top     of      the     l
                               :ARG2 (s5l / ladder
                                          :refer-number singular)))
      :aspect state)
+
 # alignment:
 s5h: 1-1
 s5m: 4-4
@@ -119,6 +124,7 @@ Words: you   can't see   him   yet   .
                  :refer-number singular)
      :temporal (s6y / yet)
      :aspect state)
+
 # alignment:
 s6p: 1-1
 s6p2: 4-4
@@ -141,6 +147,7 @@ Words: A-nd   then   .      .      it     shifts
                 :refer-number singular)
      :temporal (s7t2 / then)
      :aspect performance)
+
 # alignment:
 s7t: 5-5
 s7s: 6-6
@@ -164,6 +171,7 @@ Words: and you see him ,
                  :refer-person 3rd
                  :refer-number singular)
      :aspect state)
+
 # alignment:
 s8s: 3-3
 s8p: 2-2
@@ -186,6 +194,7 @@ Words: plucking a        pear     from     the      tree     .
      :ARG2 (s9t / tree
                 :refer-number singular)
      :aspect activity)
+
 # alignment:
 s9p: 1-1
 s9p2: 0-0
@@ -214,6 +223,7 @@ Words: And   you   watch him   pluck a     few   pears ,
                                 :quant (s10a / a-few))
                    :aspect activity)
       :aspect state)
+
 # alignment:
 s10a: 6-7
 s10p: 2-2
@@ -242,6 +252,7 @@ Words: and   he'd  drop  them  into  his   thing
                    :refer-number singular
                    :possessor s11p)
       :aspect habitual)
+
 # alignment:
 s11d: 3-3
 s11p: 2-2
@@ -270,6 +281,7 @@ Words: but     I       don't   .       .       he's    wearing like    an      a
                                :refer-number plural
                                :ARG1-of (s12h / huge-01)))
       :aspect state)
+
 # alignment:
 s12a: 10-10
 s12h: 12-12
@@ -306,6 +318,7 @@ Words: But   I     don't think you   see   the   apron at    first .
                               :aspect state
                               :modal-predicate s13t))
       :aspect state)
+
 # alignment:
 s13a: 8-8
 s13a2: 9-10
@@ -339,6 +352,7 @@ Words: I         don't     know      if        that's    important or        not
                                       :aspect state
                                       :modal-predicate s14k))
       :aspect state)
+
 # alignment:
 s14k: 3-3
 s14p: 1-1
@@ -366,6 +380,7 @@ Words: A-nd u-h  and  then he   gets down out  of   the  tree ,
                     :refer-number singular)
       :temporal (s15t2 / then)
       :aspect performance)
+
 # alignment:
 s15g: 6-6
 s15d: 7-7
@@ -393,6 +408,7 @@ Words: and    he     dumps  all    his    pears  into   the    basket
       :goal (s16b / basket
                   :refer-number singular)
       :aspect performance)
+
 # alignment:
 s16a: 4-4
 s16b: 9-9
@@ -415,6 +431,7 @@ Words: and      the      basket's full     ,
                   :refer-number singular)
       :ARG2 (s17t / thing)
       :aspect state)
+
 # alignment:
 s17b: 3-3
 s17f: 4-4
@@ -440,6 +457,7 @@ Words: and   one   of    the   pears drops down  to    the   floor ,
                   :refer-number singular)
       :direction (s18d2 / down-03)
       :aspect performance)
+
 # alignment:
 s18d: 6-6
 s18d2: 7-7
@@ -466,6 +484,7 @@ Words: and   he    picks it    up    ,
                   :refer-person 3rd
                   :refer-number singular)
       :aspect performance)
+
 # alignment:
 s19p: 3-5
 s19p2: 2-2
@@ -489,6 +508,7 @@ Words: and      he       takes    his      kerchief off      ,
                   :possessor s20p
                   :refer-number singular)
       :aspect performance)
+
 # alignment:
 s20k: 5-5
 s20p: 2-2
@@ -513,6 +533,7 @@ Words: and   he    wipes it    off   ,
                   :refer-number singular)
       :instrument (s21t2 / thing)
       :aspect endeavor)
+
 # alignment:
 s21p: 2-2
 s21t: 4-4
@@ -541,6 +562,7 @@ Words: and    places it     in     in     the    basket which  is     very   ful
                                  :degree intensifier
                                  :aspect state))
       :aspect performance)
+
 # alignment:
 s22b: 7-7
 s22f: 11-11
@@ -570,6 +592,7 @@ Words: That's why    it     fell   off    in     the    first  place  .
                   :mod (s23t2 / that))
       :mod (s23i2 / in-the-first-place)
       :aspect state)
+
 # alignment:
 s23e: 0-0
 s23f: 4-4
@@ -602,6 +625,7 @@ Words: A--nd  u--m   then   he     climbs back   up     the    ladder ,
                                 :ARG1 s24p
                                 :ARG2 s24l))
       :aspect performance)
+
 # alignment:
 s24b: 6-6
 s24c: 5-5
@@ -631,6 +655,7 @@ Words: and     he      and     he      .       .       starts  picking pears   a
                   :mod (s25a / again)
                   :aspect activity)
       :aspect performance)
+
 # alignment:
 s25a: 10-10
 s25p: 8-8
@@ -659,6 +684,7 @@ Words: And     then    while   he's    up      in      the     ladder,
                                                :ARG2 (s26l / ladder
                                                            :refer-number singular)))
                    :aspect state))
+
 # alignment:
 s26e: 0-0
 s26h: 3-3
@@ -697,6 +723,7 @@ Words: let's  see    is     it     while  he's   up     in     the    ladder ?
                   :mode interrogative)
       :mode imperative
       :aspect state)
+
 # alignment:
 s27s: 2-2
 s27p: 0-0
@@ -721,6 +748,7 @@ Words: Or     .      .      or     before .
 (s28e / event
       :temporal (s28b2 / before
                        :op1 (s28e2 / event)))
+
 # alignment:
 s28e: 0-0
 s28b2: 5-5
@@ -737,6 +765,7 @@ Words: U—m    anyway ,
 
 # sentence level graph:
 (s29a / anyway)
+
 # alignment:
 s29a: 2-2
 
@@ -760,6 +789,7 @@ Words: a       guy     comes   by      leading a       goat    .
                                  :refer-number singular)
                     :aspect activity)
       :aspect endeavor)
+
 # alignment:
 s30b: 4-4
 s30c: 3-3
@@ -791,6 +821,7 @@ Words: And    the    goat's aaarrr but    .      .      and    they   don't  tal
                               :refer-number plural)
                   :ARG2 s31p
                   :aspect activity))
+
 # alignment:
 s31c: 5-5
 s31s: 0-0
@@ -823,6 +854,7 @@ Words: they  don't e     .     .     I     don't think they  even  look  at    e
                   :aspect performance
                   :modal-predicate s32t)
       :aspect state)
+
 # alignment:
 s32t: 8-8
 s32p3: 6-6
@@ -845,6 +877,7 @@ Words: and   .     .     the   guy   .     .     walks by    .
                   :refer-number singular)
       :ARG2 (s33b / by)
       :aspect endeavor)
+
 # alignment:
 s33b: 9-9
 s33g: 5-5
@@ -867,6 +900,7 @@ Words: And   you   watch the   goat  ,
       :ARG1 (s34g / goat
                   :refer-number singular)
       :aspect state)
+
 # alignment:
 s34g: 5-5
 s34p: 2-2
@@ -886,6 +920,7 @@ Words: disappearing all          the          way          ,
       :ARG1 (s35a / animal)
       :extent (s35a2 / all-the-way)
       :aspect performance)
+
 # alignment:
 s35a: 0-0
 s35a2: 2-4
@@ -910,6 +945,7 @@ Words: ?      and    then   then   you're back   to     the    man    in     the
                                :refer-number singular))
       :temporal (s36t2 / then)
       :aspect state)
+
 # alignment:
 s36b: 6-6
 s36p: 5-5
@@ -936,6 +972,7 @@ Words: And   he's  up    there in    the   tree  .
                                   :ARG2 (s37t / tree
                                               :refer-number singular)))
       :aspect state)
+
 # alignment:
 s37h: 0-0
 s37p: 2-2
@@ -962,6 +999,7 @@ Words: And        then       definitely when       he's       up         there  
                    :ARG2 (s38t / there)
                    :aspect state)
        :ARG1-of (s38d / definite-01))
+
 # alignment:
 s38h2: 4-4
 s38e: 0-0
@@ -987,6 +1025,7 @@ Words: .       .       a       kid     comes   by      on      a       bicycle .
       :instrument (s39b2 / bicycle
                          :refer-number singular)
       :aspect endeavor)
+
 # alignment:
 s39b: 6-6
 s39b2: 9-9
@@ -1012,6 +1051,7 @@ Words: From      the       direction where     the       goat      man       lef
                                              :possessor-of (s40g / goat
                                                                  :refer-number singular))
                                  :aspect performance)))
+
 # alignment:
 s40h: 1-1
 s40e: 0-0
@@ -1033,6 +1073,7 @@ Words: okay ?
 (s41r / request-confirmation-91
       :ARG1 (s41e / event)
       :mode interrogative)
+
 # alignment:
 s41r: 0-0
 s41e: 0-0
@@ -1056,6 +1097,7 @@ Words: A--nd     .         .         u--m      the       bicycle's way       too
       :ARG4 (s42k / kid
                   :refer-number singular)
       :aspect state)
+
 # alignment:
 s42b: 6-6
 s42b2: 9-9
@@ -1085,6 +1127,7 @@ Words: I'm     giving  you     all     these   details .
                    :refer-person 2nd
                    :refer-number singular)
       :aspect activity)
+
 # alignment:
 s43a: 4-4
 s43d: 6-6
@@ -1118,6 +1161,7 @@ Words: I     don't know  if    you   want  them.
                                      :aspect state))
       :polarity -
       :aspect state)
+
 # alignment:
 s44k: 3-3
 s44p: 1-1
@@ -1155,6 +1199,7 @@ Words: U—m     the     .       .       the     reason  I'm     giving  you    
                                :aspect state)
                   :polarity -
                   :aspect state))
+
 # alignment:
 s45h: 13-13
 s45g: 8-8
@@ -1177,6 +1222,7 @@ Words: Okay?
 # sentence level graph:
 (s46o / okay-04
       :mode interrogative)
+
 # alignment:
 s46o: 1-1
 
@@ -1205,6 +1251,7 @@ Words: So        maybe     you       can       see       {laugh    begins}   som
                                   :polarity -
                                   :aspect state))
       :aspect state)
+
 # alignment:
 s47s: 5-5
 s47p: 3-3
@@ -1225,6 +1272,7 @@ Words: Okay?
 # sentence level graph:
 (s48o / okay-04
       :mode interrogative)
+
 # alignment:
 s48o: 1-1
 
@@ -1245,6 +1293,7 @@ Words: U--m    g       a       kid     comes   by      on      a       bicycle ,
       :instrument (s49b2 / bicycle
                          :refer-number singular)
       :aspect endeavor)
+
 # alignment:
 s49b: 6-6
 s49b2: 9-9
@@ -1266,6 +1315,7 @@ Words: .     .     he    stops ,
                   :refer-person 3rd
                   :refer-number singular)
       :aspect performance)
+
 # alignment:
 s50p: 3-3
 s50s: 4-4
@@ -1289,6 +1339,7 @@ Words: he   gets off  his  bike ,
                     :refer-number singular)
       :direction (s51o / off-07)
       :aspect performance)
+
 # alignment:
 s51b: 5-5
 s51g: 2-2
@@ -1310,6 +1361,7 @@ Words: u--m  the   movie was   in    color .
                    :refer-number singular)
       :ARG2 (s52c2 / color)
       :aspect state)
+
 # alignment:
 s52c2: 6-6
 s52h: 0-0
@@ -1331,6 +1383,7 @@ Words: And   the   movie had   sound track .
       :ARG2 (s53s / sound-track
                   :refer-number singular)
       :aspect state)
+
 # alignment:
 s53h: 4-4
 s53m: 3-3
@@ -1351,6 +1404,7 @@ Words: It's      important .
                    :refer-person 3rd
                    :refer-number singular)
        :aspect state)
+
 # alignment:
 s54e: 1-1
 s54i2: 2-2
@@ -1375,6 +1429,7 @@ Words: And      then     the      mo       the      whole    movie    started  w
                   :aspect activity)
       :temporal (s55t / then)
       :aspect performance)
+
 # alignment:
 s55c: 13-13
 s55c2: 12-12
@@ -1399,6 +1454,7 @@ Words: And  then you  see  /?/  .
                   :refer-definiteness class)
       :temporal (s56t / then)
       :aspect state)
+
 # alignment:
 s56p: 3-3
 s56s: 4-4
@@ -1415,6 +1471,7 @@ Words: Anyway .
 
 # sentence level graph:
 (s57a / anyway)
+
 # alignment:
 s57a: 1-1
 
@@ -1436,6 +1493,7 @@ Words: I          just       remembered that       .
                   :mod (s58t / that))
       :temporal (s58j / just)
       :aspect performance)
+
 # alignment:
 s58e: 0-0
 s58p: 1-1
@@ -1454,6 +1512,7 @@ Words: Anyway ,
 
 # sentence level graph:
 (s59a / anyway)
+
 # alignment:
 s59a: 1-1
 
@@ -1471,6 +1530,7 @@ Words: so      u--m    the     kid     on      the     bicycle ,
       :refer-number singular
       :place (s60b / bicycle
                    :refer-number singular))
+
 # alignment:
 s60b: 7-7
 s60k: 4-4
@@ -1491,6 +1551,7 @@ Words: .       .       gets    off     the     bicycle ,
                     :refer-number singular)
       :direction (s61o / off-07)
       :aspect performance)
+
 # alignment:
 s61b: 6-6
 s61g: 3-3
@@ -1521,6 +1582,7 @@ Words: I       think   he      he      picks   up      the     b—asket of     
                   :aspect performance
                   :modal-predicate s62t)
       :aspect state)
+
 # alignment:
 s62t: 2-2
 s62p4: 1-1
@@ -1550,6 +1612,7 @@ Words: and     he      puts    it      on      his     bicycle ,
                   :refer-number singular
                   :possessor s63p2)
       :aspect performance)
+
 # alignment:
 s63b: 7-7
 s63p: 3-3
@@ -1574,6 +1637,7 @@ Words: .     .     on    the   front ?
                    :refer-number singular)
       :ARG1-of (s64r / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 s64h: 3-3
 s64t3: 0-0
@@ -1598,6 +1662,7 @@ Words: And   he    rides off   .
                   :refer-number singular)
       :direction (s65o / off-06)
       :aspect endeavor)
+
 # alignment:
 s65o: 4-4
 s65p: 1-1
@@ -1621,6 +1686,7 @@ Words: A--nd you   see   him   ,
                    :refer-person 3rd
                    :refer-number singular)
       :aspect state)
+
 # alignment:
 s66s: 3-3
 s66p: 2-2
@@ -1651,6 +1717,7 @@ Words: riding off    and    the    next   scene  you    see    him    ,
                  :temporal (s67s2 / scene
                                   :mod (s67n / next))
                  :aspect state))
+
 # alignment:
 s67a: 3-3
 s67r: 1-1
@@ -1677,6 +1744,7 @@ Words: like     at       a        at       a        distance ,
                   :ARG1 (s68p / person)
                   :ARG2 (s68p2 / person)
                   :aspect state))
+
 # alignment:
 s68h: 0-0
 s68e: 0-0
@@ -1699,6 +1767,7 @@ Words: a    pan  shot .
       :ARG2 (s69t / thing
                   :ARG2-of (s69s / shoot-03)
                   :ARG2-of (s69p / pan-03)))
+
 # alignment:
 s69h: 0-0
 s69e: 0-0
@@ -1723,6 +1792,7 @@ Words: And    he's   riding on     a      lane   ,
       :path (s70l / lane
                   :refer-number singular)
       :aspect activity)
+
 # alignment:
 s70l: 6-6
 s70p: 0-0
@@ -1749,6 +1819,7 @@ Words: riding  on      a       bicycle and     they    cro     you     know    .
                               :refer-person 3rd
                               :refer-number plural)
                  :aspect performance))
+
 # alignment:
 s71a: 0-0
 s71r: 1-1
@@ -1771,6 +1842,7 @@ Words: Cross  paths.
       :ARG1 (s72p2 / path
                    :refer-number plural)
       :aspect performance)
+
 # alignment:
 s72c: 1-1
 s72p2: 2-2
@@ -1797,6 +1869,7 @@ Words: And     he      kind    of      watches her     go      by      .
                   :aspect activity)
       :degree downtoner
       :aspect state)
+
 # alignment:
 s73w: 5-5
 s73p: 2-2
@@ -1824,6 +1897,7 @@ Words: And      .        .        because  he's     watching her      ,
                                :refer-person 3rd
                                :refer-number singular)
                   :aspect state))
+
 # alignment:
 s74h: 4-4
 s74w: 6-6
@@ -1855,6 +1929,7 @@ Words: he     when   he     turns  around his    hat    flies  off    .
                       :ARG1 s75p
                       :aspect performance)
       :aspect performance)
+
 # alignment:
 s75f: 8-8
 s75h: 7-7
@@ -1874,6 +1949,7 @@ Words: Okay ?
 # sentence level graph:
 (s76o / okay-04
       :mode interrogative)
+
 # alignment:
 s76o: 1-1
 
@@ -1895,6 +1971,7 @@ Words: And   then  he    bumps into  a     rock  .
                   :refer-number singular)
       :temporal (s77t / then)
       :aspect performance)
+
 # alignment:
 s77b: 4-4
 s77p: 3-3
@@ -1916,6 +1993,7 @@ Words: A--nd .     .     u--m  falls down  ,
       :ARG4 (s78d / down-01
                   :ARG1 s78p)
       :aspect performance)
+
 # alignment:
 s78d: 6-6
 s78f: 5-5
@@ -1937,6 +2015,7 @@ Words: and     .       .       the     .       .       pears   all     s--pray a
       :ARG2 (s79p2 / place
                    :mod (s79a2 / all-over))
       :aspect performance)
+
 # alignment:
 s79a: 8-8
 s79a2: 10-11
@@ -1967,6 +2046,7 @@ Words: ?    and  and  then .    .    you  see  him  fall down ,
                   :aspect performance)
       :temporal (s80t / then)
       :aspect state)
+
 # alignment:
 s80d: 11-11
 s80f: 10-10
@@ -1990,6 +2070,7 @@ Words: and  he   gets up   ,
                   :refer-person 3rd
                   :refer-number singular)
       :aspect performance)
+
 # alignment:
 s81g: 3-3
 s81p: 2-2
@@ -2010,6 +2091,7 @@ Words: and     brushes himself off     ,
                   :refer-number singular)
       :ARG1 s82p
       :aspect endeavor)
+
 # alignment:
 s82b: 2-2
 s82p: 3-3
@@ -2048,6 +2130,7 @@ Words: .         .         and       he        goes      .         .         you
                                                                                      :ARG1 s83p)))))
                  :aspect state
                  :temporal (s83t3 / then)))
+
 # alignment:
 s83a: 0-0
 s83a2: 19-19
@@ -2078,6 +2161,7 @@ Words: He's  like  maybe .     .     what  ,
                   :refer-number singular)
       :ARG2 (s84t / temporal-quantity)
       :aspect state)
+
 # alignment:
 s84p: 1-1
 s84t: 0-0
@@ -2101,6 +2185,7 @@ Words: ten       or        something ?
                   :refer-person 3rd
                   :refer-number singular)
        :mode interrogative)
+
 # alignment:
 s85o2: 2-2
 s85t4: 1-1
@@ -2122,6 +2207,7 @@ Words: .      .      Twelve ?
       :unit (s86y / year)
       :quant 12
       :mode interrogative)
+
 # alignment:
 s86t: 3-3
 s86y: 0-0
@@ -2143,6 +2229,7 @@ Words: I     don't know  .
       :ARG1 (s87t / thing)
       :polarity -
       :aspect state)
+
 # alignment:
 s87k: 3-3
 s87p: 1-1
@@ -2166,6 +2253,7 @@ Words: A--nd and   you   look  at    them  ,
                    :refer-person 3rd
                    :refer-number plural)
       :aspect state)
+
 # alignment:
 s88l: 4-4
 s88p: 3-3
@@ -2189,6 +2277,7 @@ Words: and  and  they see  him  ,
                    :refer-person 3rd
                    :refer-number singular)
       :aspect state)
+
 # alignment:
 s89p: 3-3
 s89p2: 5-5
@@ -2210,6 +2299,7 @@ Words: and  they come up   ,
                   :refer-number plural)
       :direction (s90u / up-09)
       :aspect endeavor)
+
 # alignment:
 s90c: 3-3
 s90p: 2-2
@@ -2233,6 +2323,7 @@ Words: a-nd     without  saying   anything ,
                   :ARG1 (s91t / thing
                               :mod (s91a / any))
                   :aspect performance))
+
 # alignment:
 s91h: 0-0
 s91e: 0-0
@@ -2258,6 +2349,7 @@ Words: there's no      speech  in      the     whole   movie   .
                   :refer-number singular
                   :extent (s92w / whole))
       :aspect state)
+
 # alignment:
 s92h: 0-0
 s92m: 7-7
@@ -2282,6 +2374,7 @@ Words: Without  saying   anything ,
                   :ARG1 (s93t / thing
                               :mod (s93a / any))
                   :aspect performance))
+
 # alignment:
 s93h: 0-0
 s93e: 0-0
@@ -2317,6 +2410,7 @@ Words: they    .       .       u--m    .       .       help    him     .       .
                    :aspect performance)
       :ARG2 s94p3
       :aspect performance)
+
 # alignment:
 s94h: 7-7
 s94p: 1-1
@@ -2349,6 +2443,7 @@ Words: Only  they  don't wipe  them  off   first .
                   :ord (s95o / ordinal-entity
                              :value "1")
                   :aspect performance))
+
 # alignment:
 s95h: 1-1
 s95e: 0-0
@@ -2374,6 +2469,7 @@ Words: Just pick them up   ,
                   :refer-number plural)
       :mod (s96j / just)
       :aspect performance)
+
 # alignment:
 s96p: 2-4
 s96p2: 0-0
@@ -2399,6 +2495,7 @@ Words: .    .    and  pour them in   .
                              :refer-number plural)
                  :ARG3 (s97t2 / thing)
                  :aspect performance))
+
 # alignment:
 s97a: 3-3
 s97e: 0-0
@@ -2431,6 +2528,7 @@ Words: And    they-- help   him    get    his    bike   u--p   ,
                   :aspect performance)
       :ARG2 s98p2
       :aspect endeavor)
+
 # alignment:
 s98h: 3-3
 s98p: 2-2
@@ -2469,6 +2567,7 @@ Words: and     one     kid     takes   the     rock    that    he      tripped o
                                               :refer-number singular))
                   :direction (s99o / off-07)
                   :aspect performance))
+
 # alignment:
 s99c: 11-11
 s99t: 4-4
@@ -2500,6 +2599,7 @@ Words: ?       and     and     they    set     him     upright ,
                      :refer-number singular)
        :ARG2 (s100u / upright-08)
        :aspect performance)
+
 # alignment:
 s100p: 4-4
 s100p2: 6-6
@@ -2529,6 +2629,7 @@ Words: .     .     and   they  .     .     and   then  he    .     .     you   k
                     :aspect state
                     :quote s101s)
        :aspect performance)
+
 # alignment:
 s101s: 19-19
 s101p: 17-17
@@ -2551,6 +2652,7 @@ Words: he     just   splits .
                     :refer-number singular)
        :mod (s102j / just)
        :aspect performance)
+
 # alignment:
 s102s: 3-3
 s102p: 1-1
@@ -2581,6 +2683,7 @@ Words: And   then  .     .     they  walk  .     .     the   three boys  walk  d
                                 :possessor (s103k / kid
                                                   :refer-number singular))
                    :aspect state))
+
 # alignment:
 s103a: 16-16
 s103w: 12-12
@@ -2611,6 +2714,7 @@ Words: And      so       one      of       them     whistles .
                                                   :refer-number plural)))
        :reason (s104e / event)
        :aspect endeavor)
+
 # alignment:
 s104w: 6-6
 s104p: 3-3
@@ -2636,6 +2740,7 @@ Words: And    the    kid    on     the    bike   turns  around ,
        :ARG1 s105k
        :reason (s105e / event)
        :aspect performance)
+
 # alignment:
 s105t: 7-8
 s105k: 3-3
@@ -2664,6 +2769,7 @@ Words: and    then   he     brings his    hat    to     him    ,
        :ARG2 s106p2
        :temporal (s106t / then)
        :aspect performance)
+
 # alignment:
 s106b: 4-4
 s106p: 3-3
@@ -2706,6 +2812,7 @@ Words: and      the      g        guy      on       the      bike     gives    t
                                      :refer-number plural)
                        :aspect performance)
        :aspect performance)
+
 # alignment:
 s107b: 7-7
 s107b2: 27-27
@@ -2735,6 +2842,7 @@ Words: So--   and    then   he     splits .
                     :refer-number singular)
        :temporal (s108t2 / then)
        :aspect performance)
+
 # alignment:
 s108s: 5-5
 s108p: 4-4
@@ -2757,6 +2865,7 @@ Words: With his  hat  ,
                      :possessor (s109p / person
                                        :refer-person 3rd
                                        :refer-number singular)))
+
 # alignment:
 s109h2: 0-0
 s109e: 0-0
@@ -2780,6 +2889,7 @@ Words: with  his   pears ,
                       :possessor (s110p / person
                                         :refer-person 3rd
                                         :refer-number singular)))
+
 # alignment:
 s110h2: 0-0
 s110e: 0-0
@@ -2800,6 +2910,7 @@ Words: everything .
        :ARG1 (s111e / event)
        :ARG2 (s111t / thing
                     :mod (s111e2 / every)))
+
 # alignment:
 s111h: 0-0
 s111e: 0-0
@@ -2825,6 +2936,7 @@ Words: A--nd      um         I          just       remembered another    detail 
                     :refer-number singular)
        :temporal (s112j / just)
        :aspect performance)
+
 # alignment:
 s112r: 5-5
 s112p: 3-3
@@ -2853,6 +2965,7 @@ Words: Before he     meets  the    girl   ?
                                              :refer-number singular)
                                 :aspect performance))
        :mode interrogative)
+
 # alignment:
 s113h: 0-0
 s113e: 0-0
@@ -2876,6 +2989,7 @@ Words: One   of    the   pears ,
        :ARG1-of (s114i2 / include-91
                         :ARG2 (s114p2 / pear
                                       :refer-number plural)))
+
 # alignment:
 s114p: 1-1
 s114i2: 2-2
@@ -2901,6 +3015,7 @@ Words: .      .      it's   a      bumpy  road   little dirt   road   ,
                                  :ARG1 s115r
                                  :ARG2 (s115d / dirt)))
        :aspect state)
+
 # alignment:
 s115h: 1-1
 s115r: 9-9
@@ -2930,6 +3045,7 @@ Words: one   of    the   pears .     .     flies out   .
        :source (s116t2 / thing)
        :cause (s116e / event)
        :aspect performance)
+
 # alignment:
 s116f: 7-7
 s116p: 1-1
@@ -2950,6 +3066,7 @@ Words: Whatever .
 
 # sentence level graph:
 (s117w / whatever)
+
 # alignment:
 s117w: 1-1
 
@@ -2977,6 +3094,7 @@ Words: A--nd   u—m     then    you     don't   see     the     kid     with   
                                                       :refer-number plural)))
        :mod (s118a2 / anymore)
        :aspect state)
+
 # alignment:
 s118s: 6-6
 s118p: 4-4
@@ -3000,6 +3118,7 @@ Words: And     the     three   kids    that    are     walking ,
         :quant 3
         :ARG0-of (s119w2 / walk-01
                          :aspect activity))
+
 # alignment:
 s119k2: 4-4
 s119w2: 7-7
@@ -3038,6 +3157,7 @@ Words: one         of          them        has         a           .           .
                      :refer-number singular)
        :aspect state
        :mode interrogative)
+
 # alignment:
 s120h: 4-4
 s120p: 1-1
@@ -3068,6 +3188,7 @@ Words: You  know ,
                     :refer-definiteness class)
        :ARG1 (s121t / thing)
        :aspect state)
+
 # alignment:
 s121k: 2-2
 s121p: 1-1
@@ -3087,6 +3208,7 @@ Words: with a    ball on   ay   uh   /??/ ?
        :part (s122b / ball
                     :refer-number singular)
        :mode interrogative)
+
 # alignment:
 s122b: 3-3
 s122t: 0-0
@@ -3112,6 +3234,7 @@ Words: .     .     chong chong chong chong .
                                  :value "chong")
                     :op4 (s123s4 / string-entity
                                  :value "chong")))
+
 # alignment:
 s123e: 0-0
 s123t: 0-0
@@ -3137,6 +3260,7 @@ Words: So      they're walking along   ,
                     :refer-number plural)
        :ARG2 (s124a / along-01)
        :aspect activity)
+
 # alignment:
 s124w: 3-3
 s124p: 2-2
@@ -3160,6 +3284,7 @@ Words: and   they  brush off   their pears ,
                      :refer-number plural
                      :possessor s125p)
        :aspect endeavor)
+
 # alignment:
 s125b: 3-4
 s125p: 5-5
@@ -3186,6 +3311,7 @@ Words: and    they   start  eating it     .
                                  :refer-number singular)
                     :aspect activity)
        :aspect performance)
+
 # alignment:
 s126s: 3-3
 s126p: 2-2
@@ -3215,6 +3341,7 @@ Words: Then    they    walk    by--    the     man     who     was     picking t
                                                  :aspect activity)))
        :temporal (s127t / then)
        :aspect endeavor)
+
 # alignment:
 s127w: 3-3
 s127p: 2-2
@@ -3247,6 +3374,7 @@ Words: Who              looks            like             a                Mexic
                         :aspect state)
        :aspect state
        :mode interrogative)
+
 # alignment:
 s128l: 2-2
 s128p: 1-1
@@ -3274,6 +3402,7 @@ Words: U-m     and     he's    ge      he's    getting down    out     of      t
        :source (s129t / tree
                       :refer-number singular)
        :aspect activity)
+
 # alignment:
 s129d: 7-7
 s129g: 6-6
@@ -3295,6 +3424,7 @@ Words: and     fucking with    the     ladder  .
        :ARG1 (s130l / ladder
                     :refer-number singular)
        :aspect activity)
+
 # alignment:
 s130f: 2-2
 s130l: 5-5
@@ -3318,6 +3448,7 @@ Words: A--nd   he      sees    .       .       and     and     there's one     f
                                                     :refer-number plural)))
        :ARG2 (s131t2 / there)
        :aspect state)
+
 # alignment:
 s131h: 8-8
 s131t2: 14-14
@@ -3340,6 +3471,7 @@ Words: and    and    an     empty  basket .
                      :refer-number singular
                      :ARG1-of (s132e3 / empty-02))
        :ARG2 (s132p / place))
+
 # alignment:
 s132h: 0-0
 s132p: 0-0
@@ -3362,6 +3494,7 @@ Words: And    the    other  full   basket is     gone   .
                     :ARG1-of (s133o / other-01)
                     :ARG1-of (s133f / full-09))
        :aspect state)
+
 # alignment:
 s133g: 7-7
 s133b: 5-5
@@ -3387,6 +3520,7 @@ Words: And       he        goes      .         .         {counting gesture}
                      :ARG1 (s134c / count-01)
                      :quote s134g)
        :aspect endeavor)
+
 # alignment:
 s134g: 3-3
 s134p: 2-2
@@ -3420,6 +3554,7 @@ Words: And     he      sees    the     kids    walking by      and     eating  t
                                               :possessor s135k)
                                 :aspect activity))
        :aspect state)
+
 # alignment:
 s135a: 8-8
 s135b: 7-7
@@ -3449,6 +3584,7 @@ Words: .     .     And   he    and   he    looks after them  ,
                      :refer-number plural)
        :direction (s136a / after-01)
        :aspect state)
+
 # alignment:
 s136a: 8-8
 s136l: 7-7
@@ -3470,6 +3606,7 @@ Words: and       they      disappear ,
                     :refer-person 3rd
                     :refer-number plural)
        :aspect performance)
+
 # alignment:
 s137d: 3-3
 s137p: 2-2
@@ -3493,6 +3630,7 @@ Words: and    that's the    end    of     the    movie  .
                                                    :refer-number singular)
                                       :aspect performance))
         :aspect state)
+
 # alignment:
 s138i2: 0-0
 s138t: 0-0
@@ -3516,6 +3654,7 @@ Words: And      there's  no       no       language ,
        :ARG1 (s139t / thing)
        :ARG2 (s139l / language)
        :aspect state)
+
 # alignment:
 s139h: 2-2
 s139t: 0-0
@@ -3534,6 +3673,7 @@ Words: .    .    used ,
 (s140u / use-01
        :ARG1 (s140t / thing)
        :aspect process)
+
 # alignment:
 s140u: 3-3
 s140t: 0-0
@@ -3553,6 +3693,7 @@ Words: .          .          throughout the        whole      thing.
        :ARG2 (s141t5 / thing
                      :extent (s141w2 / whole)
                      :refer-number singular))
+
 # alignment:
 s141h: 3-3
 s141e: 0-0

@@ -7,6 +7,7 @@ Words: Chapter 19      .
 # sentence level graph:
 (s1006c / chapter
         :mod 19)
+
 # alignment:
 
 # document level annotation:
@@ -27,6 +28,7 @@ Words: After    that     ,        the      little   prince   climbed  a        h
                       :ARG1-of (s1007h / high-02))
         :temporal (s1007a / after
                           :op1 (s1007t / that)))
+
 # alignment:
 
 # document level annotation:
@@ -55,6 +57,7 @@ Words: The       only      mountains he        had       ever      known     wer
         :ARG2 (s1008u / up-to
             :op1 s1008k2))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -76,6 +79,7 @@ Words: And       he        used      the       extinct   volcano   as        a  
         :ARG1 (s1009v / volcano
             :mod (s1009e / extinct))
         :ARG2 (s1009f / footstool)))
+
 # alignment:
 
 # document level annotation:
@@ -111,6 +115,7 @@ Words: "        From     a        mountain as       high     as       this     o
             :quant 1)
         :modal-strength neutral-affirmative)
     :ARG2 s1010h)
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +146,7 @@ Words: But       he        saw       nothing   ,         save      peaks     of 
             :refer-person 3rd
             :refer-number plural)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -162,6 +168,7 @@ Words: "           Good        morning     ,           "           he          s
         :ARG1-of (s1012g / good-02)
         :quote s1012s)
     :manner (s1012c / courtesy))
+
 # alignment:
 
 # document level annotation:
@@ -180,6 +187,7 @@ Words: "        Good     morning  -        -        Good     morning  -        -
         :ARG1 (s1013m2 / morning
                        :ARG1-of (s1013g / good-02)
                        :quote s1013a))
+
 # alignment:
 
 # document level annotation:
@@ -203,6 +211,7 @@ Words: "      Who    are    you    ?      "      said   the    little prince .
             :aspect state)
         :refer-person 2nd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -229,6 +238,7 @@ Words: "        Who      are      you      -        -        Who      are      y
             :op3-of s1015a2
             :mode interrogative)
         :quote s1015a))
+
 # alignment:
 
 # document level annotation:
@@ -251,6 +261,7 @@ Words: "       Be      my      friends .
         :refer-number singular)
     :ARG3 (s1016f / friend)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -272,6 +283,7 @@ Words: I     am    all   alone ,     "     he    said  .
         :domain s1017h
         :quote s1017s
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -298,6 +310,7 @@ Words: "        I        am       all      alone    -        -        all      a
                        :modal-strength full-affirmative)
         :aspect performance
         :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -319,6 +332,7 @@ Words: "       What    a       queer   planet  !       "       he      thought .
         :mod (s1019q / queer
             :degree intensifier)
         :quote s1019t))
+
 # alignment:
 
 # document level annotation:
@@ -357,6 +371,7 @@ Words: "          It         is         altogether dry        ,          and    
             :aspect state
             :modal-strength full-affirmative)
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -375,6 +390,7 @@ Words: And         the         people      have        no          imagination .
                       :ARG0 (s1021p / person)
                       :polarity -
                       :modal-strength neutral-negative))
+
 # alignment:
 
 # document level annotation:
@@ -400,6 +416,7 @@ Words: They     repeat   whatever one      says     to       them     ...
             :mod (s1022a / all)
             :quote s1022s2)
         :quote s1022s))
+
 # alignment:
 
 # document level annotation:
@@ -424,6 +441,7 @@ Words: On     my     planet I      had    a      flower ;      she    always was
             :temporal (s1023a / always)))
     :place (s1023p2 / planet
         :possessor s1023i))
+
 # alignment:
 
 # document level annotation:

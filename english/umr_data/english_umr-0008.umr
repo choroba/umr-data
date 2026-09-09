@@ -15,6 +15,7 @@ Words: Edmund  Pope    tasted  freedom today   for     the     first   time    i
                 :aspect state)
      :temporal (s1t2 / today)
      :aspect state)
+
 # alignment:
 s1t: 3-3
 s1n: 1-2
@@ -65,6 +66,7 @@ Words: Pope        is          the         American    businessman who         w
                                :ARG3 s2s
                                :aspect performance))
      :aspect state)
+
 # alignment:
 s2i: 2-2
 s2p: 1-1
@@ -105,6 +107,7 @@ Words: He         denied     any        wrongdoing .
                             :ARG1-of (s3w / wrong-02))
                  :aspect process)
      :aspect performance)
+
 # alignment:
 s3d: 2-2
 s3p: 1-1
@@ -142,6 +145,7 @@ Words: Russian   President Vladimir  Putin     pardoned  him       for       hea
                   :mod (s4h2 / health)
                   :refer-number plural)
      :aspect performance)
+
 # alignment:
 s4p: 5-5
 s4p2: 0-0
@@ -184,6 +188,7 @@ Words: Pope     was      flown    to       the      U.S.     military base     a
                                          :name (s5n4 / name
                                                      :op1 "Germany"))))
      :aspect performance)
+
 # alignment:
 s5f: 3-3
 s5p: 1-1
@@ -231,6 +236,7 @@ Words: He      will    spend   the     next    several days    at      the     m
                                                               :ARG3 (s6w / wife)))
                               :aspect performance))
      :aspect process)
+
 # alignment:
 s6s: 3-3
 s6p: 1-1
@@ -277,6 +283,7 @@ Words: Pope      was       in        remission from      a         rare      for
                                             :op1 "Russia"))
                     :aspect performance)
      :aspect state)
+
 # alignment:
 s7r: 3-4
 s7d: 10-11
@@ -328,6 +335,7 @@ Words: Doctors  will     examine  him      for      signs    that     the      c
                 :ARG2 s8d
                 :refer-number plural)
      :aspect endeavor)
+
 # alignment:
 s8e: 3-3
 s8p2: 1-1
@@ -373,6 +381,7 @@ Words: A            spokeswoman  said         that         Pope         was     
                  :aspect state
                  :quote s9s)
      :aspect performance)
+
 # alignment:
 s9s: 3-3
 s9p: 2-2

@@ -19,6 +19,7 @@ Words: The      OWS      movement rails    about    "greed", like     we       c
             :refer-number plural)
         :ARG1 (s1e / emotion)
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +37,7 @@ Words: But    what   is     greed?
      :ARG2 (s2g / greed
                 :domain (s2a / umr-unknown))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +66,7 @@ Words: Is      someone who     works   hard    because he      wants   to      g
                 :ARG2 (s3a / ahead)
                 :manner (s3g2 / greedy))))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +91,7 @@ Words: I      don't  think  anyone would  say    so.
             :refer-number singular)
         :ARG1 (s4s2 / so))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +116,7 @@ Words: It           seems        greed        is           wanting      money   
                         :refer-definiteness class)
                     :ARG1-of (s5l / legitimate-02)
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -153,6 +158,7 @@ Words: I           can         be          as          greedy      as          I
                 :ARG0 s6s
                 :ARG2 s6i)
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -176,6 +182,7 @@ Words: If        I         deceive   someone,  then      I         am        a  
             :mod (s7s1 / some)
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +208,7 @@ Words: But      if       I        deliver  on       what     I've     promised t
             :ARG1 (s8t / thing
                 :ARG2-of (s8p / promise-01
                     :ARG0 s8i)))))
+
 # alignment:
 
 # document level annotation:
@@ -226,6 +234,7 @@ Words: By         that       definition the        OWS        crowd      are    
                    :ARG0 (s9t / thing
                               :ARG2-of (s9d / define-01)
                               :mod (s9t2 / that))))
+
 # alignment:
 
 # document level annotation:
@@ -260,6 +269,7 @@ Words: They    demand  their   student loans   get     paid    off,    yet     t
             :ARG0 s10t
             :ARG1 s10p)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -289,6 +299,7 @@ Words: They          demand--well, I             dont          know          wha
                     :refer-number plural)))
         :mod (s11w2 / well)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -308,6 +319,7 @@ Words: Neither do      they.
         :refer-number plural)
     :mod (s12e / either)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -333,6 +345,7 @@ Words: But       demanding someone   else's    money     is        greed.
                     :refer-number singular)))
         :ARG3 (s13g / greed)
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -370,6 +383,7 @@ Words: Greed       is          Wall        Street      destroying  the         w
                   :modal-strength full-affirmative)
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:

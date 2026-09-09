@@ -23,6 +23,7 @@ Words: He          can't       seem        to          help        himself     f
                     :refer-number singular))))
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +46,7 @@ Words: Hallmark could    make     a        fortune  off      of       this     g
                 :source (s2g / guy
                              :mod (s2t / this)))
      :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +76,7 @@ Words: I         don't     follow,   why       should    he        apologize to 
             :wiki "Sarah_Palin")
         :modal-strength neutral-affirmative)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -98,6 +101,7 @@ Words: Did       Palin     apologize to        Giffords?
                  :wiki "Gabrielle_Giffords")
      :polarity (s4a2 / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -128,6 +132,7 @@ Words: He      needs   to      conduct a       beer    summit  between Palin   a
                 :wiki "NBC")
             :mod (s5s / summit
                 :mod (s5b / beer)))))
+
 # alignment:
 
 # document level annotation:
@@ -149,6 +154,7 @@ Words: Mend    some    fences  and     get     this    country moving.
                :ARG1 (s6m2 / move-03
                            :ARG1 (s6c / country
                                       :mod (s6t / this)))))
+
 # alignment:
 
 # document level annotation:
@@ -177,6 +183,7 @@ Words: He        could     call      it        the       APOLOGIES ON        BEE
                 :op3 "BEER")
             :wiki -))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -204,6 +211,7 @@ Words: Hell,   sell    tickets and     hire    the     Chinese to      cater   t
                             :ARG1 (s8e / event)))
      :mod (s8h / hell
                :mode expressive))
+
 # alignment:
 
 # document level annotation:

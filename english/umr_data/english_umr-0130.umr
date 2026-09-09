@@ -9,6 +9,7 @@ Words: Greedy is     as     greedy does   .
      :ARG2 (s1g / greedy-01)
      :aspect state
      :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: If      you     truly   don't   know    what    greed   means   than    n
         :ARG1 s2t2
         :ARG1-of (s2t / true-01)
         :polarity -))
+
 # alignment:
 
 # document level annotation:

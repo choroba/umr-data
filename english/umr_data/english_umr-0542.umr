@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Architect> Hi!
 
 # sentence level graph:
 (s2h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +37,7 @@ Words: <Builder> hello
 
 # sentence level graph:
 (s3h / hello)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +64,7 @@ Words: <Architect> So          the         shape       is          three       o
                                :ARG2 (s4s3 / string-entity
                                            :value "L"))
                 :quant 3))
+
 # alignment:
 
 # document level annotation:
@@ -83,6 +87,7 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
                             :x 2
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -105,6 +110,7 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
                             :x 1
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -127,6 +133,7 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
                             :x 1
                             :y 1
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -144,6 +151,7 @@ Words: <Builder> like      this?
      :ARG2 (s8t / this)
      :ARG1-of (s8r2 / request-confirmation-91)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +167,7 @@ Words: <Architect> Yep         perfect!
 # sentence level graph:
 (s9c / confirm-01
      :ARG2 (s9p / perfect-02))
+
 # alignment:
 
 # document level annotation:

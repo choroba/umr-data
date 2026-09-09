@@ -17,6 +17,7 @@ Words: You          don't        go           after        banks        corporat
         :ARG2 (s1m / much)
         :ARG3 (s1t / too))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +46,7 @@ Words: I         haven't   seen      any       plausible ways      suggested to 
         :mod (s2p / plausible)
         :ARG1-of (s2s3 / suggest-01))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -76,6 +78,7 @@ Words: Any    public option would  have   lost   us     blue   dogs   and    the
                 :op1 "ACA")
             :mod (s3w2 / whole)
             :wiki "Patient_Protection_and_Affordable_Care_Act")))
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +96,7 @@ Words: COULDN'T get      anymore.
      :ARG1 (s4m / more)
      :modal-strength neutral-affirmative
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -121,6 +125,7 @@ Words: I            believe      he           could        have         seized  
             :ARG0 s5h
             :ARG1 s5b3)
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -155,6 +160,7 @@ Words: Then    forced  them    to      lend    the     money   given   them    b
             :ARG0 s6t
             :ARG1 (s6l2 / loan-01))
         :mod (s6a2 / also)))
+
 # alignment:
 
 # document level annotation:
@@ -188,6 +194,7 @@ Words: That      certainly would     have      helped    get       the       cou
                                           :ARG5 (s7p2 / person
                                                       :ARG1-of (s7l / liberal-02))))
                 :ARG1 s7t))
+
 # alignment:
 
 # document level annotation:
@@ -228,6 +235,7 @@ Words: I        didn't   mean     to       suggest  a        Public   Option   w
                     :ARG0 s8p
                     :ARG1 (s8s2 / smoke-02
                         :ARG0 s8p))))))
+
 # alignment:
 
 # document level annotation:
@@ -248,6 +256,7 @@ Words: That  never made  sense to    me.
         :refer-number singular)
     :temporal (s9e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:

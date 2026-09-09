@@ -26,6 +26,7 @@ Words: According    to           most         analyses,    from         within  
                  :ARG1-of (s1e / effective-04)
                  :temporal (s1d / decade
                                 :mod (s1n / next))))
+
 # alignment:
 
 # document level annotation:
@@ -43,6 +44,7 @@ Words: What  does  this  mean?
      :ARG1 (s2t / this)
      :ARG2 (s2a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +66,7 @@ Words: If           demand       exceeds      supply,      someone      will    
     :manner (s3w / without)
     :ARG1-of (s3n2 / need-01)
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +87,7 @@ Words: The   issue is    who?
      :aspect state
      :modal-strength full-affirmative
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -117,6 +121,7 @@ Words: Some           nations        will           be             priced       
                    :ARG3 (s5m / most)
                    :ARG5 s5n)
      :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -155,6 +160,7 @@ Words: However,        when            there           is              not      
                         :op4 (s6e3 / et-cetera)))))
         :polarity -)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -180,6 +186,7 @@ Words: Obviously,  war         is          a           possiblity; they        h
                 :ARG1-of (s7h2 / have-quant-91
                     :ARG3 (s7l / less
                         :quant (s7f2 / far)))))))
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +206,7 @@ Words: Of        course,   access    to        petroleum itelf     is        not
                 :mod (s8o / only
                           :polarity -))
      :mod (s8o2 / of-course))
+
 # alignment:
 
 # document level annotation:
@@ -224,6 +232,7 @@ Words: Most     of       the      world's  food     is       grown    using    m
                                  :ARG1 (s9g2 / gas
                                              :quant (s9a / amount
                                                          :mod (s9e / enormous))))))
+
 # alignment:
 
 # document level annotation:
@@ -258,6 +267,7 @@ Words: If            the           amount        of            surplus       foo
                                                                   :modal-strength neutral-affirmative))))
       :ARG1-of (s10l / lament-01
                      :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -276,6 +286,7 @@ Words: China comes to    mind.
                    :name (s11n / name
                                :op1 "China")
                    :wiki "China"))
+
 # alignment:
 
 # document level annotation:
@@ -306,6 +317,7 @@ Words: The          economy      of           that         nation       is      
                                                   :ARG1 (s12p3 / petroleum
                                                                :ARG1-of (s12c2 / cheap-02)))
                                    :wiki "Western_world")))
+
 # alignment:
 
 # document level annotation:
@@ -332,6 +344,7 @@ Words: What        is          unique      about       China       is          t
                                    :name (s13n / name
                                                :op1 "China")
                                    :wiki "China")))
+
 # alignment:
 
 # document level annotation:
@@ -383,6 +396,7 @@ Words: If            this          were          suddenly      to            hal
                                                                :ARG0 s14r4
                                                                :temporal (s14p4 / past)))))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -414,6 +428,7 @@ Words: There      is         shift      of         power      occuring   in     
                                               :wiki "Russia"))
                       :ARG1 (s15i / influence-01
                                   :ARG0 s15a)))
+
 # alignment:
 
 # document level annotation:
@@ -473,6 +488,7 @@ Words: The          Shangai      Cooperation  Organization of           which   
                     :ARG1 (s16w / world
                         :mod (s16p / pole
                             :quant (s16m / multiple))))))))
+
 # alignment:
 
 # document level annotation:
@@ -512,6 +528,7 @@ Words: I            don't        want         to           guess        their   
             :modal-strength neutral-affirmative)
         :ARG2 s17i)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -558,6 +575,7 @@ Words: Between   Russia    and       Iran,     they      would     have      acc
                 :op2 "Arabia")
             :wiki "Saudi_Arabia")
         :mod (s18a2 / as-well)))
+
 # alignment:
 
 # document level annotation:
@@ -571,6 +589,7 @@ Index: 1           2           3           4           5           6           7
 Words: As          anyone      who         has         done        even        the         most        superficial research    on          that        nation      would       know,       the         House       of          Saud        is          a           joke,       a           paper       tiger       and         a           tyranny     hated       by          most        of          its         people.
 
 # sentence level graph:
+
 # alignment:
 
 # document level annotation:
@@ -614,6 +633,7 @@ Words: If             elections      were           held           their,       
             :ARG1 s20a2
             :modal-strength neutral-affirmative)
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -688,6 +708,7 @@ Words: With       the        largest    oil        reserves   in         the    
                 :ARG1-of (s21h3 / have-degree-91
                     :ARG2 (s21g2 / great)
                     :ARG3 (s21m4 / more))))))
+
 # alignment:
 
 # document level annotation:
@@ -754,6 +775,7 @@ Words: And       so,       after     all       that,     which     you       mig
                         :modal-strength neutral-affirmative)))))
     :mod (s22s / so)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -782,6 +804,7 @@ Words: If           American     hegemony     fails,       as           appears 
                                        :modal-strength neutral-affirmative
                                        :polarity -))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -800,6 +823,7 @@ Words: Nice      post      and       important issue.
                  :ARG1-of (s24n / nice-01))
       :op2 (s24i / issue-02
                  :ARG1-of (s24i2 / important-01)))
+
 # alignment:
 
 # document level annotation:
@@ -830,6 +854,7 @@ Words: I                        really,                  really                 
                         :possessor (s25s2 / situation))))))
     :degree (s25r / really
         :degree (s25r2 / really)))
+
 # alignment:
 
 # document level annotation:
@@ -875,6 +900,7 @@ Words: But              the              first,           perhaps          facet
             :value 1)
         :mod (s26f2 / facetious
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -905,6 +931,7 @@ Words: I'll        admit       though:     There's     a           part        o
                         :mod (s27t3 / this)
                         :mod (s27a2 / all))
                     :direction (s27d / down))))))
+
 # alignment:
 
 # document level annotation:
@@ -950,6 +977,7 @@ Words: Even            if              it              set             transport
                     :ARG1-of (s28g2 / general-02)))
             :ARG2 (s28b2 / back
                 :degree (s28s3 / some)))))
+
 # alignment:
 
 # document level annotation:
@@ -974,6 +1002,7 @@ Words: Yea,        more        war         over        oil         resources   i
                   :mod (s29e / even)
                   :modal-strength neutral-affirmative
                   :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -1002,6 +1031,7 @@ Words: There      is         no         question   that       the        coming 
                                                       :aspect state))
                               :ARG1 (s30c3 / confluence)))
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1024,6 +1054,7 @@ Words: Peak     oil      will     be       one      of       the      primary  d
                                                               :ARG1 (s31p2 / process-02
                                                                            :mod (s31t / this)))
                                               :mod (s31p3 / primary)))))
+
 # alignment:
 
 # document level annotation:
@@ -1049,6 +1080,7 @@ Words: We         may        very       well       be         called     upon   
             :op2 (s32d / die-01
                 :mod (s32c4 / collective))))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1070,6 +1102,7 @@ Words: The       potential is        there     for       both      .
       :ARG2 neutral-affirmative
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1099,6 +1132,7 @@ Words: If         we         so         choose     to         do         so     
         :ARG0 s34w
         :ARG1 (s34d / do-02
             :ARG1 (s34s3 / so))))
+
 # alignment:
 
 # document level annotation:
@@ -1123,6 +1157,7 @@ Words: But           if            we            don't         and           we 
                                                                           :ARG2 (s35o2 / oil)))))
                    :manner (s35w2 / without)
                    :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1142,6 +1177,7 @@ Words: There  simply will   not    be     enough oil    left.
                                  :ARG3 (s36e / enough
                                              :polarity -)))
       :mod (s36s / simple))
+
 # alignment:
 
 # document level annotation:
@@ -1166,6 +1202,7 @@ Words: They       may        not        be         able       to         kicksta
         :manner (s37k / kick-01))
     :polarity -
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1190,6 +1227,7 @@ Words: I          think      what       you        are        going      to     
         :ARG1 (s38s2 / shift-01
             :ARG2 (s38e / economy
                 :ARG1-of (s38l / localize-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -1220,6 +1258,7 @@ Words: As         the        oil        supply     becomes    smaller    and    
                                  :ARG1 (s39p / population)))
       :mod (s39j / just)
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1254,6 +1293,7 @@ Words: Hopefully, people     realize    that       it         is         going  
                                                                                                   :ARG2 (s40e / expensive
                                                                                                               :degree (s40e2 / extreme)))))
                                                          :modal-strength neutral-affirmative)))))
+
 # alignment:
 
 # document level annotation:

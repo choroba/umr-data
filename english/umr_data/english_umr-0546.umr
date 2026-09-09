@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -38,6 +39,7 @@ Words: <Architect> Okay,       now         two         yellow      blocks      o
                                                      :quant 4))
                           :refer-number plural)
                :temporal (s2n / now)))
+
 # alignment:
 
 # document level annotation:
@@ -60,6 +62,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                             :x 0
                             :y 1
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -82,6 +85,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                             :x -1
                             :y 1
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +128,7 @@ Words: <Architect> Okay,       now         a           row         of          t
                     :ARG2 s5b2)
                 :quant 1)
             :ARG3 (s5e / edge))))
+
 # alignment:
 
 # document level annotation:
@@ -140,6 +145,7 @@ Words: <Builder> What      color?
 (s6h / have-color-91
      :ARG2 (s6a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +162,7 @@ Words: <Architect> Also        yellow
 (s7h / have-color-91
      :ARG2 (s7y / yellow)
      :mod (s7a / also))
+
 # alignment:
 
 # document level annotation:
@@ -178,6 +185,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                             :x 0
                             :y 2
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -200,6 +208,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                             :x 1
                             :y 2
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -235,6 +244,7 @@ Words: <Architect> Perfect.    Now         a           row         of          t
                                                              :ARG2 s10b2))
                                 :ARG2 s10r2
                                 :ARG3 s10e)))
+
 # alignment:
 
 # document level annotation:
@@ -257,6 +267,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 3
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -279,6 +290,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 3
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -301,6 +313,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
                                :x 2
                                :y 3
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -340,6 +353,7 @@ Words: <Architect> Great.      Now         a           row         of          t
                                                         :ARG1-of (s14i2 / include-91
                                                                         :ARG2 s14b2))
                                            :ARG2 s14s2))))
+
 # alignment:
 
 # document level annotation:
@@ -362,6 +376,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 4
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -384,6 +399,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
                                :x 2
                                :y 4
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -414,6 +430,7 @@ Words: <Architect> Now         a           row         of          four        p
                                               :ARG1 (s17b4 / build-space)))
                   :refer-number plural)
       :temporal (s17n / now))
+
 # alignment:
 
 # document level annotation:
@@ -436,6 +453,7 @@ Words: [Builder puts     down     a        purple   block    at       X:1      Y
                                :x 1
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -458,6 +476,7 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
                                :x 0
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -480,6 +499,7 @@ Words: [Builder puts     down     a        purple   block    at       X:2      Y
                                :x 2
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -502,6 +522,7 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
                                :x 3
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -528,6 +549,7 @@ Words: <Architect> Now         a           row         of          six         p
                                               :ARG1 (s22b2 / build-space)))
                   :refer-number plural)
       :temporal (s22n / now))
+
 # alignment:
 
 # document level annotation:
@@ -550,6 +572,7 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
                                :x 3
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -572,6 +595,7 @@ Words: [Builder puts     down     a        purple   block    at       X:4      Y
                                :x 4
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -594,6 +618,7 @@ Words: [Builder puts     down     a        purple   block    at       X:2      Y
                                :x 2
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -616,6 +641,7 @@ Words: [Builder puts     down     a        purple   block    at       X:1      Y
                                :x 1
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -638,6 +664,7 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
                                :x 0
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -660,6 +687,7 @@ Words: [Builder puts     down     a        purple   block    at       X:-1     Y
                                :x -1
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -699,6 +727,7 @@ Words: <Architect> Now         a           row         of          four        c
                                :ARG1-of (s29c2 / center-01)
                                :ARG4-of s29s2)
                   :temporal (s29t3 / then)))
+
 # alignment:
 
 # document level annotation:
@@ -721,6 +750,7 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
                                :x 3
                                :y 7
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -743,6 +773,7 @@ Words: [Builder puts     down     a        purple   block    at       X:2      Y
                                :x 2
                                :y 7
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -765,6 +796,7 @@ Words: [Builder puts     down     a        purple   block    at       X:2      Y
                                :x 2
                                :y 8
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -787,6 +819,7 @@ Words: [Builder puts     down     a        purple   block    at       X:1      Y
                                :x 1
                                :y 7
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -809,6 +842,7 @@ Words: [Builder puts     down     a        purple   block    at       X:1      Y
                                :x 1
                                :y 8
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -831,6 +865,7 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
                                :x 0
                                :y 7
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -850,6 +885,7 @@ Words: <Architect> Perfect!    We're       done
         :ARG0 (s36w / person
             :refer-person 1st
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:

@@ -10,6 +10,7 @@ Words: And       I         disagree.
         :ARG0 (s1i / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -26,6 +27,7 @@ Words: The      question is       a        simple   one.
 (s2s / simple-02
      :ARG1 (s2t / thing
                 :ARG1-of (s2q / question-01)))
+
 # alignment:
 
 # document level annotation:
@@ -57,6 +59,7 @@ Words: DO        we        kill      a         few       hundred   thousand  in 
         :ARG0 s3w
         :ARG1 s3p2
         :mod (s3j / just)))
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +76,7 @@ Words: That      is        an        ethics    question.
 (s4q / question-01
      :mod (s4e / ethics)
      :mod (s4t / that))
+
 # alignment:
 
 # document level annotation:
@@ -99,6 +103,7 @@ Words: You      may      not      LIKE     the      ethics   but      it       i
         :ARG1 (s5i / thing
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +128,7 @@ Words: Your   saying it     does   not    make   it     so.
             :refer-number singular)
         :ARG1 s6i)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -155,6 +161,7 @@ Words: Your     question implies  you      have     the      right    to       d
         :ARG2 (s7h2 / have-polarity-91
             :ARG1 s7r
             :ARG2 -)))
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +186,7 @@ Words: The    only   life   you    have   a      right  to     make   that   cho
             :mod (s8o / only))
         :ARG2 (s8l2 / live-01)
         :mod (s8t / that)))
+
 # alignment:
 
 # document level annotation:
@@ -195,6 +203,7 @@ Words: Absolutely incorrect.
 (s9c / correct-02
      :degree (s9a / absolute)
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -233,6 +242,7 @@ Words: Decisions   of          the         most        horrific    choices     a
                                                :ARG1-of (s10h3 / have-degree-91
                                                                :ARG2 (s10h2 / horrific)
                                                                :ARG3 (s10m2 / most))))))
+
 # alignment:
 
 # document level annotation:
@@ -253,6 +263,7 @@ Words: Please,    naivete    informs    your       statement.
             :refer-person 2nd
             :refer-number singular))
     :polite +)
+
 # alignment:
 
 # document level annotation:
@@ -282,6 +293,7 @@ Words: Please      think       very        carefully   before      uttering    s
         :degree (s12v / very))
     :polite +
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +336,7 @@ Words: You're            full              of                shit              a
                                 :part-of (s13m / monkey)))
                         :modal-strength neutral-affirmative
                         :polarity -))))))
+
 # alignment:
 
 # document level annotation:

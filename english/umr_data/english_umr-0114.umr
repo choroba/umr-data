@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -49,6 +52,7 @@ Words: You        mean       like       Obamacare?
             :wiki "Patient_Protection_and_Affordable_Care_Act"))
     :polarity (s4a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -70,6 +74,7 @@ Words: Give     some     examples of       this.
         :example-of (s5t2 / this)
         :quant (s5s / some))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -94,6 +99,7 @@ Words: It     just   shows  how    looney left   you    are.
         :mod (s6l2 / loony
             :degree (s6s2 / so)))
     :mod (s6j / just))
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +140,7 @@ Words: Obama        is           the          most         divisive     bitterly
                     :ARG1-of (s7s / stiff-04
                         :degree (s7p6 / pretty))))
             :ARG1 s7p)))
+
 # alignment:
 
 # document level annotation:
@@ -145,6 +152,7 @@ Words: Obama        is           the          most         divisive     bitterly
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -164,6 +172,7 @@ Words: How  old  are  you?
         :refer-number singular)
     :ARG2 (s9a2 / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -194,6 +203,7 @@ Words: I'd      have     to       say      Nixon    was      the      most     d
                 :ARG0 s10i
                 :temporal (s10e / ever))))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -221,6 +231,7 @@ Words: Do       you      have     some     examples of       how      bitterly d
         :quant (s11s / some))
     :polarity (s11a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

@@ -11,6 +11,7 @@ Words: No,   we    don't know  that.
         :refer-number plural)
     :ARG1 (s1t / that)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -37,6 +38,7 @@ Words: People   like     get      involved and      I        are      still    f
                 :refer-number singular)
             :ARG1 s2l)
         :mod (s2s / still)))
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +63,7 @@ Words: What        illegal     immigration has         done        to          t
      :op2 (s3n / need-01
                :ARG1 (s3a2 / address-02
                            :ARG1 s3t2)))
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +94,7 @@ Words: As        long      as        there     are       people    willing   to 
             :purpose (s4t / thing
                 :ARG1-of (s4r / right-02)))
         :temporal (s4a / as-long-as)))
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +116,7 @@ Words: Why    not    make   them   legal?
                 :refer-person 3rd
                 :refer-number plural)))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: Give    them    migrant work    Visas.
         :refer-person 3rd
         :refer-number plural)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -167,6 +173,7 @@ Words: Allow   them    to      work,   pay     taxes,  stop    hiding.
             :ARG1 (s7h / hide-01
                 :ARG0 s7t)))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -198,6 +205,7 @@ Words: Allow them  to    go    home  when  they  want  and   come  back  to    w
                 :ARG0 s8t)
             :direction (s8b / back-02)))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -227,6 +235,7 @@ Words: Allow       them        to          apply       for         citizenship a
                     :ARG1 s9t
                     :ARG2 (s9h / here)))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -241,6 +250,7 @@ Words: ok....
 
 # sentence level graph:
 (s10o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -268,6 +278,7 @@ Words: are      they     also     going    to       have     to       pay      a
             :polarity -)
         :ARG1-of (s11t2 / tax-01))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -292,6 +303,7 @@ Words: How       would     you       determine what      they      owe?
                 :refer-number plural)))
     :ARG2 (s12a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -314,6 +326,7 @@ Words: There's    no         records    of         stolen     social     securit
                                           :op2 "Security")
                               :wiki "Social_Security_(United_States)"))
       :polarity -)
+
 # alignment:
 
 # document level annotation:

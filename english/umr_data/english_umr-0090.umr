@@ -9,6 +9,7 @@ Words: In        addition  to        the       adultery?
       :polarity (s1a / umr-unknown)
       :ARG2 (s1a4 / adultery)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: Newt       is         one        of         those      guys       who    
                                                                      :ARG0 s2g
                                                                      :ARG1 (s2p2 / person
                                                                                  :mod s2c)))))))
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +66,7 @@ Words: In     the    1990's there  was    a      news   story  about  a      wom
                  :part s3b2)
      :temporal (s3d / date-entity
                     :year 1990))
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +92,7 @@ Words: The          rest         of           us           were         recoilin
                     :ARG0-of (s4d / do-02
                         :ARG1 (s4t / that)
                         :modal-strength neutral-affirmative))))))
+
 # alignment:
 
 # document level annotation:
@@ -111,6 +115,7 @@ Words: Newt          was           pontificating about         the           see
                 :ARG0-of (s5s / seethe-01)
                 :part-of (s5s2 / society
                                :mod (s5w / welfare))))
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +136,7 @@ Words: Newt   has    no     heart.
                 :wiki "Newt_Gingrich")
      :ARG2 (s6h2 / heart)
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -151,6 +157,7 @@ Words: He      has     a       brain   and     a       weenie.
     :ARG2 (s7a / and
         :op1 (s7b / brain)
         :op2 (s7w / weenie)))
+
 # alignment:
 
 # document level annotation:
@@ -174,6 +181,7 @@ Words: And       the       weenie    obviously overrules the       brain     mor
                              :ARG3 (s8m / more)
                              :ARG4 s8o)
                :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -198,6 +206,7 @@ Words: At       least    that's   how      he       comes    across   often,   a
     :op2 (s9m / mean-91
         :ARG1 s9t
         :ARG2 (s9b / baggage)))
+
 # alignment:
 
 # document level annotation:
@@ -250,6 +259,7 @@ Words: I             'm            not           his           wife          ,  
       :degree downtoner
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -279,6 +289,7 @@ Words: And       I         really    don't     think     now       is        the
             :modal-strength partial-negative)
         :degree intensifier
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -320,6 +331,7 @@ Words: Now,      show      me        evidence  that      Mr.       Gingrich  vio
         :ARG0 (s13w / person
             :refer-person 1st
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -354,6 +366,7 @@ Words: You're     pointing   at         the        marital    infidelity side   
                         :refer-number singular)))
             :refer-person 1st
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -376,6 +389,7 @@ Words: Republicans don't       get         to          poopoo      that.
                                                :wiki "Republican_Party_(United_States)")))
       :ARG1 (s15t / that)
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -408,6 +422,7 @@ Words: We've     let       the       religious right     carry     the       tor
                         :ARG0-of (s16p2 / preach-01))
                     :aspect state
                     :modal-strength full-affirmative)))))
+
 # alignment:
 
 # document level annotation:
@@ -435,6 +450,7 @@ Words: Democrats can       cheat     and       not       destroy   their     par
                  :ARG1 (s17p5 / party
                               :possessor s17p)
                  :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -458,6 +474,7 @@ Words: But         if          we          cheat,      we're       hypocrites.
                     :aspect state)
                 :refer-person 1st
                 :refer-number plural))))
+
 # alignment:
 
 # document level annotation:
@@ -486,6 +503,7 @@ Words: You    might  not    think  it's   fair   or     smart, but    that's how
         :polarity -
         :modal-strength neutral-affirmative)
     :ARG2 s19a)
+
 # alignment:
 
 # document level annotation:
@@ -513,6 +531,7 @@ Words: Newt     burned   his      morality card     and      that's   baggage.
                  :ARG3 (s20b2 / baggage)
                  :aspect state
                  :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -539,6 +558,7 @@ Words: But      for      me       it       's       way      more     than     t
                                       :refer-number singular)
                    :aspect state
                    :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -560,6 +580,7 @@ Words: It's        his         hatefulness and         lack        of          e
     :op2 (s22e / empathy
         :ARG1-of (s22l / lack-01
             :ARG0 s22h2)))
+
 # alignment:
 
 # document level annotation:
@@ -582,6 +603,7 @@ Words: That's     more       than       not        being      "likable".
                              :modal-strength neutral-negative))
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -605,6 +627,7 @@ Words: When        a           woman       is          murdered    in          a
     :condition (s24m / murder-01
         :ARG1 s24w
         :manner (s24h2 / heinous)))
+
 # alignment:
 
 # document level annotation:
@@ -629,6 +652,7 @@ Words: You      don't    start    hurling  around   bullshit about    the      w
                 :mod (s25w / welfare)))
         :place (s25a / around))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -676,6 +700,7 @@ Words: Back       during     the        ground     zero       mosque     upheava
                     :op1 "Ground"
                     :op2 "Zero")
                 :wiki "World_Trade_Center_site"))))
+
 # alignment:
 
 # document level annotation:
@@ -701,6 +726,7 @@ Words: I        don't    remember the      details  and      am       not      g
         :ARG1 s27d
         :temporal (s27t / this)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -732,6 +758,7 @@ Words: I         don't     need      to        now       because   he's      not
                     :polarity -))
             :polarity -))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -765,6 +792,7 @@ Words: Newt      burnt     his       bridges   with      me        long      ago
             :temporal (s29n4 / now)
             :polarity -)
         :ARG1 s29i))
+
 # alignment:
 
 # document level annotation:
@@ -793,6 +821,7 @@ Words: What        makes       you         think       I'm         a           R
                     :op1 "Republican")
                 :wiki "Republican_Party_(United_States)")))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -838,6 +867,7 @@ Words: Furthermore, please       refer        back         to           what    
         :mod (s31b / back)
         :polite +
         :mode imperative))
+
 # alignment:
 
 # document level annotation:

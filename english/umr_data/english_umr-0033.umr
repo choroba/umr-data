@@ -19,6 +19,7 @@ Words: My        boyfriend has       one       of        those     jobs      whe
                     :ARG1 (s1o / on-call-00
                         :ARG1 s1p
                         :frequency (s1l / lot)))))))
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +43,7 @@ Words: This         year         he's         on           call         for     
             :refer-number plural))
     :temporal (s2y / year
         :mod (s2t / this)))
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +61,7 @@ Words: This    happens a       lot.
      :ARG1 (s3e / event
                 :mod (s3t / this))
      :ARG2 (s3l / lot))
+
 # alignment:
 
 # document level annotation:
@@ -92,6 +95,7 @@ Words: He           said         we'll        not          make         reservat
                             :refer-number singular)
                         :polarity -))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +127,7 @@ Words: I'm       not       angry     at        him-      I'm       in        uni
             :refer-number singular)
         :ARG1 s5i
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -147,6 +152,7 @@ Words: But   I     need  to    find  a     way   to    cope  with  this.
                 :manner-of (s6c2 / cope-01
                     :ARG0 s6i
                     :ARG1 (s6t / this))))))
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +185,7 @@ Words: If       I        get      all      dressed  up       and      sit      w
             :ARG1 s7i
             :manner (s7w / wait-01
                 :ARG1 s7i))))
+
 # alignment:
 
 # document level annotation:
@@ -194,6 +201,7 @@ Words: The            disappointment is             horrible.
 # sentence level graph:
 (s8h / horrible
      :domain (s8d / disappoint-01))
+
 # alignment:
 
 # document level annotation:
@@ -230,6 +238,7 @@ Words: If       I        don't    get      ready,   he       comes    home     a
         :ARG0 s9i
         :ARG1 s9i
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -271,6 +280,7 @@ Words: It      ruins   the     night   because I       have    to      run     a
                                 :ARG1-of (s10w / want-01
                                     :ARG0 s10i3))))))
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -287,6 +297,7 @@ Words: Is     there  anyway to
 (s11w / way
       :polarity (s11a2 / umr-unknown)
       :mod (s11a / any))
+
 # alignment:
 
 # document level annotation:
@@ -312,6 +323,7 @@ Words: Bless  you    I      know   where  you're coming from.
                     :refer-number singular))))
     :ARG1 (s12b / bless-01
         :ARG1 s12y))
+
 # alignment:
 
 # document level annotation:
@@ -353,6 +365,7 @@ Words: My        boyfriend is        a         bobby     so        he        oft
                 :ARG1 (s13h2 / person
                     :refer-person 3rd
                     :refer-number singular)))))
+
 # alignment:
 
 # document level annotation:
@@ -419,6 +432,7 @@ Words: It          makes       it          harder      because     we're       i
                                         :unit (s14d4 / day)
                                         :quant 4))
                                 :ARG2 s14t6))))))))
+
 # alignment:
 
 # document level annotation:
@@ -443,6 +457,7 @@ Words: I             don't         think         you           can           not
         :polarity -
         :modal-strength neutral-affirmative)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -461,6 +476,7 @@ Words: The     job     demands it.
     :ARG1 (s16i / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -499,6 +515,7 @@ Words: I       realise that    and     sounds  like    you     do      too     b
                 :ARG3 (s17m2 / more)))
         :ARG0 s17a
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -522,6 +539,7 @@ Words: It's      just      something we        have      to        deal      wit
     :mod (s18s1 / some)
     :refer-person 3rd
     :refer-number singular)
+
 # alignment:
 
 # document level annotation:
@@ -581,6 +599,7 @@ Words: Value        the          moments      you          do           get     
         :polarity (s19a / umr-unknown)
         :modal-strength neutral-affirmative)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -609,6 +628,7 @@ Words: It's         frustrating, you're       not          alone        in      
                 :manner-of (s20f3 / feel-01
                     :ARG0 s20y)))
         :polarity -))
+
 # alignment:
 
 # document level annotation:

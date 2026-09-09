@@ -7,6 +7,7 @@ Words: Chapter 17      .
 # sentence level graph:
 (s931c / chapter
        :mod 17)
+
 # alignment:
 
 # document level annotation:
@@ -31,6 +32,7 @@ Words: When      one       wishes    to        play      the       wit       ,  
                                       :ARG1 (s932w3 / wit)))
        :frequency (s932s / sometimes)
        :degree downtoner)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +60,7 @@ Words: I            have         not          been         altogether   honest  
                 :ARG0-of (s933l / light-04
                     :ARG1 (s933l2 / lamp)))))
     :degree downtoner)
+
 # alignment:
 
 # document level annotation:
@@ -90,6 +93,7 @@ Words: And     I       realize that    I       run     the     risk    of      g
                     :ARG0-of (s934k / know-02
                         :ARG1 s934p2
                         :polarity -))))))
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +116,7 @@ Words: Men    occupy a      very   small  place  upon   the    Earth  .
                                    :name (s935n / name
                                                 :op1 "Earth")
                                    :wiki "Earth")))
+
 # alignment:
 
 # document level annotation:
@@ -160,6 +165,7 @@ Words: If          the         two         billion     inhabitants who         p
                 :quant 20)))
     :ARG1-of (s936e / easy-05)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -183,6 +189,7 @@ Words: All      humanity could    be       piled    up       on       a        s
                                                  :op1 "Pacific")
                                     :wiki "Pacific_Ocean"))
         :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +214,7 @@ Words: The     grown   -       ups     ,       to      be      sure    ,       w
         :ARG2 s938g2)
     :mod (s938t3 / to-be-sure)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -229,6 +237,7 @@ Words: They    imagine that    they    fill    a       great   deal    of      s
             :quant (s939d / deal
                 :mod (s939g / great)))
         :ARG2 s939t))
+
 # alignment:
 
 # document level annotation:
@@ -252,6 +261,7 @@ Words: They       fancy      themselves as         important  as         the    
             :ARG1 s940t)
         :ARG3 (s940e / equal)
         :ARG4 (s940b / baobab)))
+
 # alignment:
 
 # document level annotation:
@@ -275,6 +285,7 @@ Words: You          should       advise       them         ,            then    
     :ARG2 (s941c / calculate-01
         :ARG0 s941t)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -297,6 +308,7 @@ Words: They    adore   figures ,       and     that    will    please  them    .
     :op2 (s942p / please-01
         :ARG1 s942t
         :ARG2 (s942t2 / that)))
+
 # alignment:
 
 # document level annotation:
@@ -322,6 +334,7 @@ Words: But   do    not   waste your  time  on    this  extra task  .
             :mod (s943t3 / this))
         :mode imperative
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -340,6 +353,7 @@ Words: It          is          unnecessary .
         :refer-person 3rd
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -362,6 +376,7 @@ Words: You        have       ,          I          know       ,          confide
         :refer-number singular)
     :ARG1-of (s945k / know-01
         :ARG0 s945i))
+
 # alignment:
 
 # document level annotation:
@@ -390,6 +405,7 @@ Words: When      the       little    prince    arrived   on        the       Ear
                                                     :op1 "Earth")
                                        :wiki "Earth"))
        :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -422,6 +438,7 @@ Words: He        was       beginning to        be        afraid    he        had
                             :ARG0 (s947m / moon))))))
         :path (s947a / across
             :op1 (s947s / sand))))
+
 # alignment:
 
 # document level annotation:
@@ -442,6 +459,7 @@ Words: "           Good        evening     ,           "           said        t
                      :ARG1-of (s948g / good-02)
                      :quote s948s)
        :manner (s948c / courteous))
+
 # alignment:
 
 # document level annotation:
@@ -461,6 +479,7 @@ Words: "       Good    evening ,       "       said    the     snake   .
                     :dayperiod (s949e / evening)
                     :ARG1-of (s949g / good-02)
                     :quote s949s))
+
 # alignment:
 
 # document level annotation:
@@ -485,6 +504,7 @@ Words: "      What   planet is     this   on     which  I      have   come   dow
        :quote-of (s950p2 / planet
                          :ARG2-of s950i)
        :ARG1 s950i)
+
 # alignment:
 
 # document level annotation:
@@ -516,6 +536,7 @@ Words: "        This     is       the      Earth    ;        this     is       A
                                            :wiki "Africa"
                                            :name (s951n2 / name
                                                          :op1 "Africa")))))
+
 # alignment:
 
 # document level annotation:
@@ -531,6 +552,7 @@ Words: "  Ah !
 # sentence level graph:
 (s952a / ah
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -552,6 +574,7 @@ Words: Then   there  are    no     people on     the    Earth  ?      "
                                    :op1 "Earth")
                      :wiki "Earth")
        :ARG1-of (s953r / request-confirmation-91))
+
 # alignment:
 
 # document level annotation:
@@ -570,6 +593,7 @@ Words: "      This   is     the    desert .
        :ARG2 (s954d2 / desert)
        :aspect state
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -587,6 +611,7 @@ Words: There  are    no     people in     the    desert .
        :polarity -
        :ARG1 (s955p / person)
        :ARG2 (s955d / desert))
+
 # alignment:
 
 # document level annotation:
@@ -608,6 +633,7 @@ Words: The   Earth is    large ,     "     said  the   snake .
                                                 :op1 "Earth")
                                    :wiki "Earth")
                     :quote s956s))
+
 # alignment:
 
 # document level annotation:
@@ -632,6 +658,7 @@ Words: The    little prince sat    down   on     a      stone  ,      and    rai
                    :ARG0 s957p
                    :ARG1 s957e
                    :direction (s957s3 / sky)))
+
 # alignment:
 
 # document level annotation:
@@ -667,6 +694,7 @@ Words: "       I       wonder  ,       "       he      said    ,       "       w
                     :mod (s958a / again)
                     :modal-strength neutral-affirmative)))
         :quote s958s))
+
 # alignment:
 
 # document level annotation:
@@ -689,6 +717,7 @@ Words: Look   at     my     planet .
             :refer-person 1st
             :refer-number singular))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -712,6 +741,7 @@ Words: It    is    right there above us    .
             :op1 (s960w / person
                 :refer-person 1st
                 :refer-number plural))))
+
 # alignment:
 
 # document level annotation:
@@ -736,6 +766,7 @@ Words: But  how  far  away it   is   !    "
                                   :aspect state
                                   :modal-strength full-affirmative)
                      :quote s961s))
+
 # alignment:
 
 # document level annotation:
@@ -756,6 +787,7 @@ Words: "         It        is        beautiful ,         "         the       sna
             :refer-person 3rd
             :refer-number singular)
         :quote s962s))
+
 # alignment:
 
 # document level annotation:
@@ -775,6 +807,7 @@ Words: "       What    has     brought you     here    ?       "
         :refer-person 2nd
         :refer-number singular)
     :ARG2 (s963h / here))
+
 # alignment:
 
 # document level annotation:
@@ -796,6 +829,7 @@ Words: "       I       have    been    having  some    trouble with    a       f
                     :ARG1 (s964f2 / flower)
                     :mod (s964s2 / some)
                     :quote s964s))
+
 # alignment:
 
 # document level annotation:
@@ -813,6 +847,7 @@ Words: "     Ah    !     "     said  the   snake .
        :ARG0 (s965s2 / snake)
        :ARG1 (s965a / ah-01)
        :quote-of s965a)
+
 # alignment:
 
 # document level annotation:
@@ -832,6 +867,7 @@ Words: And    they   were   both   silent .
             :mod (s966b / both)
             :refer-person 3rd
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -855,6 +891,7 @@ Words: "            Where        are          the          men          ?       
         :op2 (s967h / have-place-91
                     :ARG1 (s967m / man)
                     :ARG2 (s967a4 / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -872,6 +909,7 @@ Words: "      It     is     a      little lonely in     the    desert ...    "
         :domain (s968h / have-place-91
                        :ARG2 (s968d / desert))
         :degree downtoner)
+
 # alignment:
 
 # document level annotation:
@@ -893,6 +931,7 @@ Words: "      It     is     also   lonely among  men    ,      "      the    sna
                                                  :op1 (s969m / man)))
                     :mod (s969a2 / also)
                     :quote s969s))
+
 # alignment:
 
 # document level annotation:
@@ -913,6 +952,7 @@ Words: The    little prince gazed  at     him    for    a      long   time   .
         :refer-person 3rd
         :refer-number singular)
     :ARG1-of (s970l2 / long-03))
+
 # alignment:
 
 # document level annotation:
@@ -943,6 +983,7 @@ Words: "      You    are    a      funny  animal ,      "      he     said   at 
        :ARG2 s971p2
        :aspect performance
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -965,6 +1006,7 @@ Words: "       You     are     no      thicker than    a       finger  ...     "
     :ARG3 (s972m / more)
     :ARG4 (s972f / finger)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -991,6 +1033,7 @@ Words: "        But      I        am       more     powerful than     the      f
             :ARG4 (s973f / finger
                 :part-of (s973k / king)))
         :quote s973s))
+
 # alignment:
 
 # document level annotation:
@@ -1007,6 +1050,7 @@ Words: The    little prince smiled .
 (s974s / smile-01
        :ARG0 (s974p / prince
                     :mod (s974l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -1025,6 +1069,7 @@ Words: "        You      are      not      very     powerful .
         :refer-person 2nd
         :refer-number singular)
     :degree downtoner)
+
 # alignment:
 
 # document level annotation:
@@ -1046,6 +1091,7 @@ Words: You  have n't  even any  feet .
         :quant (s976a / any))
     :mod (s976e / even)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1065,6 +1111,7 @@ Words: You    can    not    even   travel ...    "
         :refer-number singular)
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1095,6 +1142,7 @@ Words: "       I       can     carry   you     farther than    any     ship    c
                             :mod (s978a / any))
                         :ARG1 s978y))))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1119,6 +1167,7 @@ Words: He       twined   himself  around   the      little   prince   's       a
     :manner (s979r / resemble-91
         :ARG2 (s979b / bracelet
             :material (s979g / gold))))
+
 # alignment:
 
 # document level annotation:
@@ -1146,6 +1195,7 @@ Words: "        Whomever I        touch    ,        I        send     back     t
                                                               :ARG1 s980p)))
                      :quote s980s)
        :mod (s980a / again))
+
 # alignment:
 
 # document level annotation:
@@ -1173,6 +1223,7 @@ Words: "        But      you      are      innocent and      true     ,        a
                 :ARG1 s981y
                 :ARG3 (s981s2 / star)))
         :quote s981s))
+
 # alignment:
 
 # document level annotation:
@@ -1190,6 +1241,7 @@ Words: The    little prince made   no     reply  .
        :ARG0 (s982p / prince
                     :mod (s982l / little))
        :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1221,6 +1273,7 @@ Words: "       You     move    me      to      pity    -       -       you     a
                     :wiki "Earth")
                 :degree intensifier))
         :quote s983s))
+
 # alignment:
 
 # document level annotation:
@@ -1251,6 +1304,7 @@ Words: "        I        can      help     you      ,        some     day      ,
     :temporal (s984d / day
         :mod (s984s / some))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1269,6 +1323,7 @@ Words: I   can -   -   "
         :refer-person 1st
         :refer-number singular)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1284,6 +1339,7 @@ Words: "  Oh !
 # sentence level graph:
 (s986o / oh
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -1308,6 +1364,7 @@ Words: I          understand you        very       well       ,          "      
         :mod (s987w / well
             :degree intensifier)
         :quote s987s))
+
 # alignment:
 
 # document level annotation:
@@ -1331,6 +1388,7 @@ Words: "       But     why     do      you     always  speak   in      riddles ?
             :temporal (s988a / always)
             :purpose (s988a2 / umr-unknown))
         :quote s988s))
+
 # alignment:
 
 # document level annotation:
@@ -1353,6 +1411,7 @@ Words: "     I     solve them  all   ,     "     said  the   snake .
             :refer-person 3rd
             :refer-number singular)
         :quote s989s))
+
 # alignment:
 
 # document level annotation:
@@ -1372,6 +1431,7 @@ Words: And    they   were   both   silent .
             :mod (s990b / both)
             :refer-person 3rd
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:

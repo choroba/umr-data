@@ -7,6 +7,7 @@ Words: Chapter 8       .
 # sentence level graph:
 (s367c / chapter
        :mod 8)
+
 # alignment:
 
 # document level annotation:
@@ -33,6 +34,7 @@ Words: I       soon    learned to      know    this    flower  better  .
                 :ARG1 s368k)
             :ARG3 (s368m / more)))
     :temporal (s368s / soon))
+
 # alignment:
 
 # document level annotation:
@@ -53,6 +55,7 @@ Words: On      the     little  prince  's      planet  the     flowers had     a
                      :possessor (s369p2 / prince
                                         :mod (s369l / little)))
        :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -87,6 +90,7 @@ Words: They    had     only    one     ring    of      petals  ;       they    t
             :refer-person 3rd
             :refer-number plural)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -114,6 +118,7 @@ Words: One        morning    they       would      appear     in         the    
         :manner (s371p / peaceful)
         :temporal (s371b / by
             :op1 (s371n / night))))
+
 # alignment:
 
 # document level annotation:
@@ -155,6 +160,7 @@ Words: But     one     day     ,       from    a       seed    blown   from    n
                                                  :polarity -))
                    :ARG1-of (s372c3 / close-10
                                     :degree intensifier)))
+
 # alignment:
 
 # document level annotation:
@@ -178,6 +184,7 @@ Words: It     might  ,      you    see    ,      have   been   a      new    kin
     :reason (s373e / event)
     :aspect state
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -205,6 +212,7 @@ Words: The     shrub   soon    stopped growing ,       and     began   to      g
                                 :ARG2 (s374p / produce-01
                                              :ARG0 s374s2
                                              :ARG1 (s374f / flower)))))
+
 # alignment:
 
 # document level annotation:
@@ -235,6 +243,7 @@ Words: The        little     prince     ,          who        was        present
                     :ARG1 s375b
                     :modal-strength partial-affirmative)
        :temporal (s375a2 / at-once-01))
+
 # alignment:
 
 # document level annotation:
@@ -262,6 +271,7 @@ Words: But          the          flower       was          not          satisfie
                                                  :ARG2-of (s376s2 / shelter-01)))
                     :ARG1 s376f
                     :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +295,7 @@ Words: She      chose    her      colours  with     the      greatest care     .
         :ARG1-of (s377h / have-degree-91
             :ARG2 (s377g / great)
             :ARG3 (s377m / most))))
+
 # alignment:
 
 # document level annotation:
@@ -305,6 +316,7 @@ Words: She      adjusted her      petals   one      by       one      .
     :ARG1 (s378p / petal
         :possessor s378s)
     :manner (s378o / one-by-one))
+
 # alignment:
 
 # document level annotation:
@@ -331,6 +343,7 @@ Words: She     did     not     wish    to      go      out     into    the     w
         :ARG0 s379s
         :goal (s379w2 / world))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -356,6 +369,7 @@ Words: It       was      only     in       the      full     radiance of       h
                 :ARG1 s380s)
             :mod (s380o / only)
             :degree intensifier)))
+
 # alignment:
 
 # document level annotation:
@@ -370,6 +384,7 @@ Words: Oh  ,   yes !
 
 # sentence level graph:
 (s381y / yes)
+
 # alignment:
 
 # document level annotation:
@@ -389,6 +404,7 @@ Words: She        was        a          coquettish creature   !
         :refer-number singular)
     :ARG2 (s382c / creature
         :mod (s382c2 / coquet)))
+
 # alignment:
 
 # document level annotation:
@@ -414,6 +430,7 @@ Words: And        her        mysterious adornment  lasted     for        days   
             :op1 (s383t2 / temporal-quantity
                 :unit (s383d / day)
                 :quant 1))))
+
 # alignment:
 
 # document level annotation:
@@ -439,6 +456,7 @@ Words: Then     one      morning  ,        exactly  at       sunrise  ,        s
     :temporal (s384s4 / sunrise
         :mod (s384e / exact))
     :temporal (s384t / then))
+
 # alignment:
 
 # document level annotation:
@@ -469,6 +487,7 @@ Words: And         ,           after       working     with        all         t
                 :degree (s385p2 / painstaking)
                 :mod (s385t / this)
                 :mod (s385a4 / all)))))
+
 # alignment:
 
 # document level annotation:
@@ -487,6 +506,7 @@ Words: I        am       scarcely awake    .
         :refer-person 1st
         :refer-number singular)
     :degree downtoner)
+
 # alignment:
 
 # document level annotation:
@@ -510,6 +530,7 @@ Words: I      beg    that   you    will   excuse me     .
     :ARG2 (s387e2 / excuse-01
         :ARG0 s387y2
         :ARG1 s387i))
+
 # alignment:
 
 # document level annotation:
@@ -531,6 +552,7 @@ Words: My          petals      are         still       all         disarranged .
         :mod (s388a4 / all))
     :mod (s388s4 / still)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -556,6 +578,7 @@ Words: But        the        little     prince     could      not        restrai
                                  :ARG0 s389p)
                     :modal-strength neutral-affirmative
                     :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -574,6 +597,7 @@ Words: How       beautiful you       are       !         "
         :refer-person 2nd
         :refer-number singular)
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -595,6 +619,7 @@ Words: "         Am        I         not       ?         "         the       flo
                                   :modal-strength full-negative)
                      :quote s391r)
        :manner (s391s / sweet-03))
+
 # alignment:
 
 # document level annotation:
@@ -616,6 +641,7 @@ Words: "      And    I      was    born   at     the    same   moment as     the
         :temporal (s392m / moment
             :ARG1-of (s392s / same-01
                 :ARG2 (s392s2 / sun)))))
+
 # alignment:
 
 # document level annotation:
@@ -648,6 +674,7 @@ Words: The      little   prince   could    guess    easily   enough   that     s
     :ARG1-of (s393e / easy-05
         :mod (s393e2 / enough))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -672,6 +699,7 @@ Words: "         I         think     it        is        time      for       bre
         :quote s394a)
     :temporal (s394a2 / after
         :quant (s394i / instant)))
+
 # alignment:
 
 # document level annotation:
@@ -698,6 +726,7 @@ Words: "        If       you      would    have     the      kindness to       t
         :ARG0 s395y
         :ARG2 s395i)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -724,6 +753,7 @@ Words: And        the        little     prince     ,          completely abashed
                                              :ARG0-of (s396c2 / contain-01
                                                               :ARG1 (s396w / water
                                                                            :ARG1-of (s396f / fresh-04)))))))
+
 # alignment:
 
 # document level annotation:
@@ -743,6 +773,7 @@ Words: So     ,      he     tended the    flower .
         :refer-number singular)
     :ARG1 (s397f / flower)
     :ARG1-of (s397h2 / have-reason-91))
+
 # alignment:
 
 # document level annotation:
@@ -776,6 +807,7 @@ Words: So        ,         too       ,         she       began     very      qui
     :mod (s398t / too)
     :ARG1-of (s398q / quick-02
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -809,6 +841,7 @@ Words: One      day      ,        for      instance ,        when     she      w
     :temporal (s399s3 / speak-01
         :ARG0 s399s2
         :ARG1 s399t2))
+
 # alignment:
 
 # document level annotation:
@@ -831,6 +864,7 @@ Words: "        There    are      no       tigers   on       my       planet   ,
                     :ARG2 (s400p2 / planet
                                   :possessor s400p)
                     :quote s400o))
+
 # alignment:
 
 # document level annotation:
@@ -850,6 +884,7 @@ Words: "      And    ,      anyway ,      tigers do     not    eat    weeds  .  
                    :ARG1 (s401w / weed)
                    :mod (s401a2 / anyway)
                    :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -872,6 +907,7 @@ Words: "       I       am      not     a       weed    ,       "       the     f
                                 :aspect state))
        :quote-of s402w
        :manner (s402s / sweet-03))
+
 # alignment:
 
 # document level annotation:
@@ -894,6 +930,7 @@ Words: "      Please excuse me     ...    "
         :refer-number singular)
     :mode imperative
     :polite +)
+
 # alignment:
 
 # document level annotation:
@@ -921,6 +958,7 @@ Words: "      I      am     not    at     all    afraid of     tigers ,      "  
             :ARG0 (s404d / draft)
             :ARG1 s404s)
         :quote s404g))
+
 # alignment:
 
 # document level annotation:
@@ -947,6 +985,7 @@ Words: I       suppose you     would   n't     have    a       screen  for     m
         :quote s405s3
         :polite +
         :modal-strength neutral-negative))
+
 # alignment:
 
 # document level annotation:
@@ -991,6 +1030,7 @@ Words: "        A        horror   of       drafts   -        -        that     i
                     :recipient s406p
                     :aspect performance
                     :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1018,6 +1058,7 @@ Words: "     At    night I     want  you   to    put   me    under a     glass g
                 :material (s407g2 / glass)))
         :temporal (s407d / date-entity
             :dayperiod (s407n / night))))
+
 # alignment:
 
 # document level annotation:
@@ -1037,6 +1078,7 @@ Words: It    is    very  cold  where you   live  .
             :refer-person 2nd
             :refer-number singular))
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -1055,6 +1097,7 @@ Words: In    the   place I     came  from  -     -     "
         :ARG1 (s409i / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -1076,6 +1119,7 @@ Words: But         she         interrupted herself     at          that        p
         :ARG1 s410s
         :temporal (s410p / point
             :mod (s410t / that))))
+
 # alignment:
 
 # document level annotation:
@@ -1098,6 +1142,7 @@ Words: She  had  come in   the  form of   a    seed .
         :ARG3 (s411s2 / seed))
     :aspect performance
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1124,6 +1169,7 @@ Words: She      could    not      have     known    anything of       any      o
         :refer-number singular)
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1160,6 +1206,7 @@ Words: Embarassed over       having     let        herself    be         caught 
     :frequency (s413o / or
         :op1 2
         :op2 3))
+
 # alignment:
 
 # document level annotation:
@@ -1177,6 +1224,7 @@ Words: "      The    screen ?      "
         :ARG1 (s414s / screen
                      :ARG1-of (s414r / request-confirmation-91)
                      :quote s414s2))
+
 # alignment:
 
 # document level annotation:
@@ -1202,6 +1250,7 @@ Words: "     I     was   just  going to    look  for   it    when  you   spoke t
             :refer-person 2nd
             :refer-number singular)
         :ARG2 s415i))
+
 # alignment:
 
 # document level annotation:
@@ -1231,6 +1280,7 @@ Words: Then    she     forced  her     cough   a       little  more    so      t
             :refer-number singular)
         :ARG1 (s416r / remorse)
         :ARG1-of (s416h2 / have-concession-91)))
+
 # alignment:
 
 # document level annotation:
@@ -1262,6 +1312,7 @@ Words: So          the         little      prince      ,           in          s
                 :ARG0 s417p)
             :modal-strength neutral-affirmative
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -1287,6 +1338,7 @@ Words: He         had        taken      seriously  words      which      were   
             :ARG1 s418h
             :degree intensifier
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -1316,6 +1368,7 @@ Words: "        I        ought    not      to       have     listened to       h
         :refer-number singular)
     :temporal (s419d / day
         :mod (s419o / one)))
+
 # alignment:
 
 # document level annotation:
@@ -1335,6 +1388,7 @@ Words: One     never   ought   to      listen  to      the     flowers .
        :temporal (s420e / ever)
        :polarity -
        :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1360,6 +1414,7 @@ Words: One       should    simply    look      at        them      and       bre
         :ARG1 (s421f / fragrance
             :possessor s421t))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1381,6 +1436,7 @@ Words: Mine     perfumed all      my       planet   .
     :ARG1 (s422p2 / planet
         :mod (s422a / all)
         :possessor s422i))
+
 # alignment:
 
 # document level annotation:
@@ -1409,6 +1465,7 @@ Words: But      I        did      not      know     how      to       take     p
                 :ARG1 s423i)
             :polarity -)
         :quote s423s2))
+
 # alignment:
 
 # document level annotation:
@@ -1438,6 +1495,7 @@ Words: This       tale       of         claws      ,          which      disturb
         :op2 (s424p / pity-01))
     :mod (s424o / only)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1469,6 +1527,7 @@ Words: And         he          continued   his         confidences :           "
                             :refer-number singular)))
                 :quote s425c2
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -1493,6 +1552,7 @@ Words: I      ought  to     have   judged by     deeds  and    not    by     wor
         :ARG3 (s426w / word)
         :polarity -)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1519,6 +1579,7 @@ Words: She       cast      her       fragrance and       her       radiance  ove
     :ARG2 (s427i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1543,6 +1604,7 @@ Words: I     ought never to    have  run   away  from  her   ...
             :refer-number singular))
     :polarity -
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1571,6 +1633,7 @@ Words: I          ought      to         have       guessed    all        the    
                         :refer-person 3rd
                         :refer-number singular)))))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1588,6 +1651,7 @@ Words: Flowers      are          so           inconsistent !
        :ARG1 (s430f / flower)
        :degree intensifier
        :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1618,6 +1682,7 @@ Words: But   I     was   too   young to    know  how   to    love  her   ...   "
                             :refer-person 3rd
                             :refer-number singular)))))
         :quote s431s2))
+
 # alignment:
 
 # document level annotation:

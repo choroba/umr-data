@@ -38,6 +38,7 @@ Words: McDermott     International Inc.          said          its           Bab
                              :ARG3 (s1m2 / monetary-quantity
                                          :unit (s1d / dollar)
                                          :quant 295000000))))
+
 # alignment:
 
 # document level annotation:
@@ -67,6 +68,7 @@ Words: Finmeccanica is           an           Italian      state        -       
                 :wiki "Italy")
       :mod (s2h / holding)
       :wiki "Leonardo_S.p.A.")
+
 # alignment:
 
 # document level annotation:
@@ -99,6 +101,7 @@ Words: Bailey       Controls     ,            based        in           Wickliff
                  :ARG1-of (s3c2 / computerize-01)
                  :mod (s3i / industry)
                  :ARG2-of (s3c3 / control-01)))
+
 # alignment:
 
 # document level annotation:
@@ -130,6 +133,7 @@ Words: It      employs 2,700   people  and     has     annual  revenue of      a
                 :ARG2 (s4t / temporal-quantity
                     :unit (s4y / year)
                     :quant 1)))))
+
 # alignment:
 
 # document level annotation:

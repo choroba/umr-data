@@ -10,6 +10,7 @@ Words: Chapter 1       .
                 :ord (s1o / ordinal-entity
                           :value 1))
      :ARG3 (s1t / thing))
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +53,7 @@ Words: Once        when        I           was         six         years       o
      :aspect state
      :modal-strength full-affirmative
      :frequency 1)
+
 # alignment:
 
 # document level annotation:
@@ -78,6 +80,7 @@ Words: It          was         a           picture     of          a           b
                 :modal-strength full-affirmative)))
     :aspect state
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -99,6 +102,7 @@ Words: Here    is      a       copy    of      the     drawing .
                                           :ARG1-of (s4d / draw-01))))
      :aspect state
      :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -138,6 +142,7 @@ Words: In           the          book         it           said         :       
         :modal-strength full-affirmative)
     :aspect state
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -176,6 +181,7 @@ Words: After     that      they      are       not       able      to        mov
             :quant 6)
         :aspect habitual
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -200,6 +206,7 @@ Words: I          pondered   deeply     ,          then       ,          over   
      :temporal (s7t / then)
      :aspect activity
      :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -238,6 +245,7 @@ Words: And       after     some      work      with      a         colored   pen
                                          :modal-strength full-affirmative))
                 :aspect performance
                 :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -260,6 +268,7 @@ Words: My      Drawing Number  One     .
                      :refer-person 1st
                      :refer-number singular)
      :wiki -)
+
 # alignment:
 
 # document level annotation:
@@ -305,6 +314,7 @@ Words: It          looked      like        this        :           I           s
         :ARG2 s10p2
         :aspect performance
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -331,6 +341,7 @@ Words: But      they     answered :        "        Frighten ?
             :mode interrogative)
         :aspect performance
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -355,6 +366,7 @@ Words: Why        should     any        one        be         frightened by     
                   :reason (s12u / umr-unknown)
                   :quote s12s)
       :ARG2 (s12p3 / person))
+
 # alignment:
 
 # document level annotation:
@@ -379,6 +391,7 @@ Words: My      drawing was     not     a       picture of      a       hat     .
       :polarity -
       :aspect state
       :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -405,6 +418,7 @@ Words: It          was         a           picture     of          a           b
                                :modal-strength full-affirmative))
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -450,6 +464,7 @@ Words: But         since       the         grown       -           ups         w
                                  :modal-strength neutral-affirmative)
                   :aspect performance
                   :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -477,6 +492,7 @@ Words: They      always    need      to        have      things    explained .
     :temporal (s16a / always)
     :aspect habitual
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -544,6 +560,7 @@ Words: My           Drawing      Number       Two          looked       like    
                                    :mod (s17t5 / this))
                   :aspect performance
                   :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -583,6 +600,7 @@ Words: That        is          why         ,           at          the         a
       :ARG2 (s18t2 / that)
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -619,6 +637,7 @@ Words: I            had          been         disheartened by           the     
       :ARG1 s19p
       :aspect performance
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -661,6 +680,7 @@ Words: Grown      -          ups        never      understand anything   by     
         :ARG1 s20c
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -687,6 +707,7 @@ Words: So         then       I          chose      another    profession ,      
             :ARG1 (s21p2 / pilot-01
                 :ARG0 s21i
                 :ARG1 (s21a3 / airplane)))))
+
 # alignment:
 
 # document level annotation:
@@ -712,6 +733,7 @@ Words: I         have      flown     a         little    over      all       par
         :ARG0 s22i
         :ARG1 (s22g / geography)
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -740,6 +762,7 @@ Words: At          a           glance      I           can         distinguish C
     :manner (s23g / glance-01
         :ARG0 s23i)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -761,6 +784,7 @@ Words: If        one       gets      lost      in        the       night     ,  
                        :ARG2 (s24l / lost
                                    :temporal (s24d / date-entity
                                                    :dayperiod (s24n / night)))))
+
 # alignment:
 
 # document level annotation:
@@ -789,6 +813,7 @@ Words: In          the         course      of          this        life        I
     :temporal (s25c3 / course
         :possessor (s25l / life
             :mod (s25t / this))))
+
 # alignment:
 
 # document level annotation:
@@ -810,6 +835,7 @@ Words: I     have  lived a     great deal  among grown -     ups   .
         :mod (s26g2 / great))
     :place (s26a / among
         :op1 (s26g / grown-up)))
+
 # alignment:
 
 # document level annotation:
@@ -835,6 +861,7 @@ Words: I          have       seen       them       intimately ,          close  
             :ARG1 s27t))
     :ARG2-of (s27i2 / intimate-02
         :ARG1 s27i))
+
 # alignment:
 
 # document level annotation:
@@ -861,6 +888,7 @@ Words: And      that     has      n't      much     improved my       opinion  o
                     :refer-number plural)))
         :degree intensifier
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -903,6 +931,7 @@ Words: Whenever   I          met        one        of         them       who    
         :ARG0 s29i
         :ARG1 s29p
         :mod (s29a2 / any)))
+
 # alignment:
 
 # document level annotation:
@@ -927,6 +956,7 @@ Words: I             would         try           to            find          out
                 :ARG0 (s30p / person
                     :mod (s30t2 / this))
                 :ARG1-of (s30t3 / true-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -954,6 +984,7 @@ Words: But     ,       whoever it      was     ,       he      ,       or      s
             :ARG1 (s31t / that)
             :ARG3 (s31h2 / hat)
             :aspect state)))
+
 # alignment:
 
 # document level annotation:
@@ -981,6 +1012,7 @@ Words: Then         I            would        never        talk         to      
         :mod (s32t2 / that))
     :temporal (s32e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1004,6 +1036,7 @@ Words: I      would  bring  myself down   to     his    level  .
             :refer-person 3rd
             :refer-number singular))
     :ARG3 (s33d / down))
+
 # alignment:
 
 # document level annotation:
@@ -1029,6 +1062,7 @@ Words: I        would    talk     to       him      about    bridge   ,        a
     :ARG2 (s34h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1051,6 +1085,7 @@ Words: And      the      grown    -        up       would    be       greatly  p
                                                          :degree intensifier)))
                  :ARG1 s35g
                  :degree intensifier))
+
 # alignment:
 
 # document level annotation:

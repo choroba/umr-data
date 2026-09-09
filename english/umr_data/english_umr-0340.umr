@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -26,6 +27,7 @@ Words: <Architect> hello       I'm         ready
         :ARG1 (s2i / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -40,6 +42,7 @@ Words: <Builder> same
 
 # sentence level graph:
 (s3s / same-01)
+
 # alignment:
 
 # document level annotation:
@@ -63,6 +66,7 @@ Words: <Architect> I           mean        are         you         ready?
             :refer-number singular)
         :polarity (s4a / umr-unknown))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -85,6 +89,7 @@ Words: <Architect> lol         mb
     :op2 (s5t / thing
         :ARG1-of (s5b / bad-07
             :ARG0 s5i)))
+
 # alignment:
 
 # document level annotation:
@@ -108,6 +113,7 @@ Words: <Architect> please      don't       move        at          the         b
     :mode imperative
     :polarity -
     :polite +)
+
 # alignment:
 
 # document level annotation:
@@ -122,6 +128,7 @@ Words: <Builder> sorry
 
 # sentence level graph:
 (s7s / sorry-01)
+
 # alignment:
 
 # document level annotation:
@@ -148,6 +155,7 @@ Words: <Architect>  place        3            blue         blocks       horizont
     :manner (s8h / horizontal-02
         :ARG1 s8b)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -170,6 +178,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                             :x 2
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -192,6 +201,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 1
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -214,6 +224,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -231,6 +242,7 @@ Words: <Builder> like      that?
       :ARG2 (s12t / that)
       :ARG1-of (s12r2 / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -262,6 +274,7 @@ Words: <Architect> place       2           blue        blocks      on          t
             :ARG3 (s13c / cartesian-framework-91
                 :ARG1 (s13b5 / build-space))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -282,6 +295,7 @@ Words: <Builder> relative  to        my        position  correct?
             :refer-number singular))
     :ARG1-of (s14r2 / request-confirmation-91)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -304,6 +318,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 2
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -326,6 +341,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -348,6 +364,7 @@ Words: [Builder picks    up       a        blue     block    at       X:2      Y
                                :x 2
                                :y 2
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -370,6 +387,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -385,6 +403,7 @@ Words: <Architect> that's      good
 # sentence level graph:
 (s19g / good-02
       :ARG1 (s19t / that))
+
 # alignment:
 
 # document level annotation:

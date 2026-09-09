@@ -35,6 +35,7 @@ Words: As           I            sit          here         foggy        headed  
                     :refer-person 1st
                     :refer-number plural)
                 :mode imperative))))
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +75,7 @@ Words: Im         trying     to         start      to         eat        healthi
                         :ARG2 (s2n / natural-03
                             :ARG1 s2t2)
                         :ARG3 (s2m2 / more)))))))
+
 # alignment:
 
 # document level annotation:
@@ -96,6 +98,7 @@ Words: A             good          start         to            begin         wit
                            :ARG0 s3t
                            :ARG2 (s3h / hypoglycemia))
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +139,7 @@ Words: It        says      give      up        things    like      caffiene, tob
                             :ARG2-of (s4t3 / tend-02
                                 :ARG1 s4i)
                             :quant (s4l / lot))))))))
+
 # alignment:
 
 # document level annotation:
@@ -173,6 +177,7 @@ Words: I            assume       we           all          do,          it      
                         :op2 (s5w3 / wrap)
                         :op3 (s5p / pizza)))
                 :degree (s5k / kind-of)))))
+
 # alignment:
 
 # document level annotation:
@@ -203,6 +208,7 @@ Words: Basically does      anybody   have      any       advice    on        wha
         :modal-strength neutral-affirmative)
     :mod (s6b / basic)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -235,6 +241,7 @@ Words: Search    out       a         glycemia  index,    and       determine som
             :mod (s7s1 / some)
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -260,6 +267,7 @@ Words: Add           that          to            your          diet,         to 
         :ARG1 (s8g / get-05
             :ARG0 s8y
             :ARG2 (s8h / hypoglycemia))))
+
 # alignment:
 
 # document level annotation:
@@ -290,6 +298,7 @@ Words: If        it        happens   anyway,   skim      (non      fat)      mil
             :mod (s9a1 / any)
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -315,6 +324,7 @@ Words: Indulge   in        a         light     bedtime   snack,    again,    som
             :ARG1-of (s10f / fair-04)
             :place (s10l2 / list-01)
             :mod (s10a / again))))
+
 # alignment:
 
 # document level annotation:
@@ -337,6 +347,7 @@ Words: Don't   overdo  it,     though.
         :refer-number singular)
     :ARG1-of (s11h / have-concession-91)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -362,6 +373,7 @@ Words: i                have             not              yet              been 
         :ARG1 s12i
         :temporal (s12y / yet)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -395,6 +407,7 @@ Words: lately     i          have       been       very       confused,  have   
         :ARG1 s13i
         :ARG1-of (s13g / general-02))
     :temporal (s13l2 / lately))
+
 # alignment:
 
 # document level annotation:
@@ -439,6 +452,7 @@ Words: i        know     i        need     to       gain     more     weight   -
                 :mod (s14b / back)
                 :modal-strength neutral-affirmative
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -461,6 +475,7 @@ Words: how      does     a        doctor   diagnose someone  with     this?
     :ARG2 (s15t / this)
     :manner (s15a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -486,6 +501,7 @@ Words: what   tests  should i      have   them   run?
             :ARG2 (s16a / umr-unknown)))
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

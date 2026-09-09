@@ -28,6 +28,7 @@ Words: My             biggest        disappointment is             that         
       :ARG3 (s1m / most)
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -63,6 +64,7 @@ Words: He          thinks      he          can         stay        out         o
                     :refer-person 3rd
                     :refer-number singular)))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -87,6 +89,7 @@ Words: He          has         an          idealistic  view        that        i
         :mod (s3t / too)
         :condition (s3r2 / reasonable-02
             :ARG1 s3h2)))
+
 # alignment:
 
 # document level annotation:
@@ -110,6 +113,7 @@ Words: The          result       is           that         he           is      
             :mod (s4o / only)
             :place (s4r2 / room))
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +138,7 @@ Words: The       result    was       an        unfocused Stimulus  bill      try
                     :refer-person 3rd
                     :refer-number singular)))
         :purpose (s5s / stimulate-01)))
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +161,7 @@ Words: He          gave        up          the         Government  Option      o
             :ARG0-of (s6g2 / govern-01))
         :purpose (s6c / care-03
             :ARG1 (s6h2 / healthy))))
+
 # alignment:
 
 # document level annotation:
@@ -188,6 +194,7 @@ Words: He            extended      the           Bush          tax           cut
             :ARG1 (s7r / revenue)
             :ARG1-of (s7c3 / correspond-02)
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -219,6 +226,7 @@ Words: On       the      bright   side,    it       seems    he       has      l
                 :polarity -)))
     :manner (s8s4 / side
         :ARG1-of (s8b / bright-02)))
+
 # alignment:
 
 # document level annotation:

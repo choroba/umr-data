@@ -39,6 +39,7 @@ Words: This          early         morning       the           soccer        mat
             :ARG1 s1t3
             :ARG1-of (s1n3 / new-01))
         :mod (s1a2 / also)))
+
 # alignment:
 
 # document level annotation:
@@ -85,6 +86,7 @@ Words: They          attacked      swiftly       and           fearlessly    and
         :condition (s2l / look-01
             :ARG1 s2t3
             :direction (s2b / back))))
+
 # alignment:
 
 # document level annotation:
@@ -107,6 +109,7 @@ Words: We         lost       this       game       with       no         complai
     :manner (s3c / complain-01
         :ARG0 s3w
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -152,6 +155,7 @@ Words: But         looking     at          the         match       between     t
                             :op1 "China")
                         :wiki "China"))
                 :ARG1 s4t2))))
+
 # alignment:
 
 # document level annotation:
@@ -184,6 +188,7 @@ Words: The        Chinese    team       showed     their      guts       during 
             :possessor (s5p / person
                 :mod s5c3))
         :ARG3 s5t2))
+
 # alignment:
 
 # document level annotation:
@@ -231,6 +236,7 @@ Words: We          did         not         shy         away        from        t
                             :mod (s6p2 / penalty))
                         :quant 2))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -264,6 +270,7 @@ Words: Let      us       remember the      Iranian  team     ,        remember t
                     :mod (s7t2 / this)))
             :wiki "Arash_Borhani"))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +298,7 @@ Words: The        IOC        warriors   return     to         our        motherl
             :refer-number plural))
     :manner (s8h / hopeful-03
         :ARG0 s8p))
+
 # alignment:
 
 # document level annotation:
@@ -313,6 +321,7 @@ Words: I          believe    there      will       eventually be         a      
             :refer-person 1st
             :refer-number plural)
         :temporal (s9e / eventual)))
+
 # alignment:
 
 # document level annotation:

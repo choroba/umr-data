@@ -10,6 +10,7 @@ Words: This   is     for    the    66%    ratio.
      :ARG2 (s1r / ratio
                 :mod (s1p2 / percentage-entity
                            :value 66)))
+
 # alignment:
 
 # document level annotation:
@@ -30,6 +31,7 @@ Words: I       scaled  this    guy     for     height.
     :ARG1 (s2g / guy
         :mod (s2t / this))
     :purpose (s2h / high-02))
+
 # alignment:
 
 # document level annotation:
@@ -62,6 +64,7 @@ Words: Look      how       much      bigger    his       shoulders need      to 
         :ARG4 (s3b3 / big
             :domain s3s))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:

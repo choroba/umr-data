@@ -22,6 +22,7 @@ Words: The         Glock       dealer      was         no          more        a
                                        :op3 "of"
                                        :op4 "America")
                            :wiki "United_States")))
+
 # alignment:
 
 # document level annotation:
@@ -48,6 +49,7 @@ Words: The     Glock   dealer  would   not     think   to      open    up      a
                               :mod (s2m / murder-01
                                         :degree (s2m2 / mass))))
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +90,7 @@ Words: Nobody    would     defend    the       decency   of        his       dec
      :polarity -
      :aspect state
      :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +118,7 @@ Words: The      American Imam,    he       doesn't  have     the      same     d
                           :ARG1 s4i)
                 :op2 (s4r / respect-01
                           :ARG0 s4i)))
+
 # alignment:
 
 # document level annotation:

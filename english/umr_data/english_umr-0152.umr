@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +75,7 @@
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -80,6 +87,7 @@
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +110,7 @@ Words: You       have      not       proven    anything.
         :refer-person 3rd
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -133,6 +142,7 @@ Words: Once      again,    you       claimed   the       Japanese  made      num
                 :ARG1 (s10b2 / bomb))))
     :mod (s10a2 / again
         :mod (s10o / once)))
+
 # alignment:
 
 # document level annotation:
@@ -148,6 +158,7 @@ Words: A    LIE.
 # sentence level graph:
 (s11t / thing
       :ARG1-of (s11l / lie-08))
+
 # alignment:
 
 # document level annotation:
@@ -178,6 +189,7 @@ Words: You     claimed that    Japan   made    an      offer   EXACTLY like    w
                         :temporal (s12a / after
                             :op1 (s12b / bomb))))
                 :mod (s12e / exact)))))
+
 # alignment:
 
 # document level annotation:
@@ -189,6 +201,7 @@ Words: You     claimed that    Japan   made    an      offer   EXACTLY like    w
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -214,6 +227,7 @@ Words: You         claimed     that        Japan       was         offered     a
                 :wiki "Japan")
             :ARG1-of (s14c3 / condition-01))
         :ARG3 s14c2))
+
 # alignment:
 
 # document level annotation:
@@ -230,6 +244,7 @@ Words: Again a     LIE.
 (s15t / thing
       :ARG1-of (s15l / lie-08)
       :mod (s15a / again))
+
 # alignment:
 
 # document level annotation:
@@ -266,6 +281,7 @@ Words: MEANWHILE, I          provided   PROOF      Japan      made       ONE    
                 :ARG0 s16c)
             :polarity -))
     :temporal (s16m / meanwhile))
+
 # alignment:
 
 # document level annotation:
@@ -305,6 +321,7 @@ Words: I          provided   proof      that       even       after      both   
                         :wiki "Soviet_Union")
                     :ARG1 (s17w / war)))
             :mod (s17e / even))))
+
 # alignment:
 
 # document level annotation:
@@ -332,6 +349,7 @@ Words: It           took         the          DIRECT       intervention of      
                                              :ARG0 s18a3))
                  :ARG1 s18i
                  :mod (s18n / near)))
+
 # alignment:
 
 # document level annotation:
@@ -352,6 +370,7 @@ Words: Try     again   you     coward.
         :refer-number singular)
     :mod (s19a / again)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:

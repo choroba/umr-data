@@ -19,6 +19,7 @@ Words: The      question of       the      bombs'   role     was      not      i
                             :op3 "II")
                         :wiki "World_War_II"))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +48,7 @@ Words: They   were   used   to     figure out    how    to     start  what   bec
                                 :op2 "War")
                             :wiki "Cold_War")
                         :ARG2-of (s2b / become-01)))))))
+
 # alignment:
 
 # document level annotation:
@@ -65,6 +67,7 @@ Words: Oh          yeah,       that        makes       a           lot         o
      :quant (s3l / lot)
      :mod (s3o / oh-yeah
                :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -76,6 +79,7 @@ Words: Oh          yeah,       that        makes       a           lot         o
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -107,6 +111,7 @@ Words: You         could       not         think       of          any         b
     :ARG1 s5w
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -137,6 +142,7 @@ Words: You're    one       of        many      who       lack      basic     kno
                             :op3 "II")
                         :wiki "World_War_II"))
                 :mod (s6b / basic)))))
+
 # alignment:
 
 # document level annotation:
@@ -164,6 +170,7 @@ Words: The          bombs        were         used         to           prevent 
                     :name (s7n2 / name
                         :op1 "Russia")
                     :wiki "Russia")))))
+
 # alignment:
 
 # document level annotation:
@@ -180,6 +187,7 @@ Words: Why?
 (s8c / cause-01
      :ARG0 (s8a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -209,6 +217,7 @@ Words: The    US     would  have   had    to     share  the    spoils of     war
         :ARG1 s9s
         :temporal (s9a2 / about-to)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -249,6 +258,7 @@ Words: Also,     we        were      never     really    allies    with      Rus
     :temporal (s10e / ever)
     :ARG1-of (s10r / real-04)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -286,6 +296,7 @@ Words: But           feel          free          to            continue      cal
                     :mod (s11s1 / some)
                     :refer-person 3rd
                     :refer-number singular)))))
+
 # alignment:
 
 # document level annotation:
@@ -312,6 +323,7 @@ Words: It    makes you   look  oh    so    cool!
             :degree (s12s / so)
             :mod (s12o / oh
                 :mode expressive))))
+
 # alignment:
 
 # document level annotation:

@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +75,7 @@
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -80,6 +87,7 @@
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +99,7 @@
 # :: snt9
 # sentence level graph:
 (s9u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +111,7 @@
 # :: snt10
 # sentence level graph:
 (s10u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +123,7 @@
 # :: snt11
 # sentence level graph:
 (s11u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +135,7 @@
 # :: snt12
 # sentence level graph:
 (s12u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -135,6 +147,7 @@
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -146,6 +159,7 @@
 # :: snt14
 # sentence level graph:
 (s14u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -157,6 +171,7 @@
 # :: snt15
 # sentence level graph:
 (s15u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -168,6 +183,7 @@
 # :: snt16
 # sentence level graph:
 (s16u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +195,7 @@
 # :: snt17
 # sentence level graph:
 (s17u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -190,6 +207,7 @@
 # :: snt18
 # sentence level graph:
 (s18u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +219,7 @@
 # :: snt19
 # sentence level graph:
 (s19u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -212,6 +231,7 @@
 # :: snt20
 # sentence level graph:
 (s20u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -223,6 +243,7 @@
 # :: snt21
 # sentence level graph:
 (s21u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +255,7 @@
 # :: snt22
 # sentence level graph:
 (s22u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -245,6 +267,7 @@
 # :: snt23
 # sentence level graph:
 (s23u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -256,6 +279,7 @@
 # :: snt24
 # sentence level graph:
 (s24u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -275,6 +299,7 @@ Words: No   sir.
         :refer-number singular)
     :ARG1 (s25n / no)
     :ARG2 (s25s / sir))
+
 # alignment:
 
 # document level annotation:
@@ -295,6 +320,7 @@ Words: You    have   it     wrong.
     :ARG2 (s26i / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -320,6 +346,7 @@ Words: It          started     as          freedom     of          religion    w
                 :op1 "Catholic"
                 :op2 "Church")
             :wiki "Catholic_Church")))
+
 # alignment:
 
 # document level annotation:
@@ -341,6 +368,7 @@ Words: Obama        agreed       and          compromised.
                                :wiki "Barack_Obama"))
       :op2 (s28c / compromise-01
                  :ARG0 s28p2))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +406,7 @@ Words: However,   the        compromise meant      that       insurance  compani
                 :modal-strength partial-affirmative)
             :ARG2 s29c2
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -401,6 +430,7 @@ Words: When     has      ANY      business been     told     they     MUST     o
       :ARG2 s30b
       :temporal (s30a2 / umr-unknown)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -419,6 +449,7 @@ Words: It      is      about   freedom of      choice.
     :topic-of (s31i / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -444,6 +475,7 @@ Words: The       left      wants     the       people    to        get       BC 
             :ARG1-of (s32w2 / want-01
                 :ARG0 s32p2)))
     :ARG2 s32p2)
+
 # alignment:
 
 # document level annotation:
@@ -465,6 +497,7 @@ Words: at         the        cost       of         freedom    of         choiuce
                                                           :ARG0-of (s33i / insure-02))))
                   :ARG3 (s33c2 / choose-01
                                :ARG0 s33o)))
+
 # alignment:
 
 # document level annotation:
@@ -486,6 +519,7 @@ Words: The        right      wants      the        inmsurance companies  to     
                   :ARG3 (s34c2 / choose-01
                                :ARG0 s34c)
                   :mod (s34a / also)))
+
 # alignment:
 
 # document level annotation:
@@ -510,6 +544,7 @@ Words: so      sell    it      if      you     want...
     :condition (s35w / want-01
         :ARG0 s35y
         :ARG1 s35s))
+
 # alignment:
 
 # document level annotation:
@@ -531,6 +566,7 @@ Words: dont   if     you    dont   want   to....
         :ARG0 s36y
         :polarity -)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -558,6 +594,7 @@ Words: take      insurance with      one       that      offers    it        or 
             :ARG0-of (s37o5 / offer-01
                 :ARG1 s37i
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -581,6 +618,7 @@ Words: Freedom  of       choice   is       swecured for      both     sides    t
                                :name (s38n / name
                                            :op1 "GOP")
                                :wiki "Republican_Party_(United_States)")))
+
 # alignment:
 
 # document level annotation:
@@ -603,6 +641,7 @@ Words: freedom    of         choice     is         eliminated for        owners 
                                                :ARG0-of (s39i / insure-02))))
       :manner (s39w / way
                     :mod (s39l / left-19)))
+
 # alignment:
 
 # document level annotation:

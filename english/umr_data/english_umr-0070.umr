@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -28,6 +29,7 @@ Words: Actually      it            is            in            the           Con
                 :op1 "14th"
                 :op2 "Amendment")
             :wiki "Fourteenth_Amendment_to_the_United_States_Constitution")))
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +66,7 @@ Words: All          persons      born         or           naturalized  in      
     :ARG0-of (s3r / reside-01
         :ARG1 s3s)
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +126,7 @@ Words: No           State        shall        make         or           enforce 
                                       :op1 (s4j / jurisdiction
                                                 :possessor s4s2)))
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +160,7 @@ Words: Because      our          rights       are          inalienable, no      
         :ARG2 s5c2
         :modal-strength neutral-affirmative
         :polarity -))
+
 # alignment:
 
 # document level annotation:

@@ -37,6 +37,7 @@ Words: Let         me          know        when        RepubliCONZ are         w
                     :ARG1 (s1a2 / abort-01)
                     :polarity -))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -81,6 +82,7 @@ Words: Or       does     your     concern  about    "life"   only     extend   t
                                 :ARG2 s2k)))))
             :polarity -))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -104,6 +106,7 @@ Words: Kind     of       a        weak     argument given    the      long     w
                                              :ARG1 (s3w2 / wait-01
                                                          :ARG2 (s3a2 / adopt-01)))
                                :ARG1-of (s3l2 / long-03))))
+
 # alignment:
 
 # document level annotation:
@@ -119,6 +122,7 @@ Words: Not     really.
 # sentence level graph:
 (s4r2 / real-04
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -151,6 +155,7 @@ Words: I've        NEVER       heard       of          RepubliCONS asking      f
                 :mod (s5s / society))))
     :temporal (s5e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +174,7 @@ Words: How       many      abortions last      year?
      :temporal (s6y / year
                     :mod (s6l / last))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -189,6 +195,7 @@ Words: How      many     families on       the      adoption waiting  list?
                                   :ARG1 (s7w / wait-01
                                              :ARG2 (s7a2 / adopt-01))))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -214,6 +221,7 @@ Words: Come       up         with       THOSE      numbers    and        you'll 
         :ARG0 s8y
         :ARG1 (s8n2 / number
             :mod (s8t2 / that))))
+
 # alignment:
 
 # document level annotation:
@@ -238,6 +246,7 @@ Words: I       already know    what    they    are.
             :refer-number plural)
         :ARG2 (s9t / thing)
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -271,6 +280,7 @@ Words: I'll  let   YOU   come  back  and   post  them  and   show  how   WRONG I
             :ARG1 (s10t2 / thing
                 :manner-of (s10w / wrong-04
                     :ARG1 s10i)))))
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +301,7 @@ Words: How   about that?
     :ARG1 (s11a / umr-unknown)
     :ARG2 (s11t2 / that)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +335,7 @@ Words: You'll  find    you     get     what    you     deserve when    you     s
         :ARG2 (s12i / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -344,6 +356,7 @@ Words: millions  are       estimated as        wanting   to        adopt
                   :ARG0-of (s13w / want-01
                                  :ARG1 (s13a / adopt-01
                                              :ARG0 s13p))))
+
 # alignment:
 
 # document level annotation:

@@ -7,6 +7,7 @@ Words: Chapter 12      .
 # sentence level graph:
 (s634c / chapter
        :mod 12)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +26,7 @@ Words: The       next      planet    was       inhabited by        a         tip
                     :ARG0-of (s635t / tipple-01))
        :ARG1 (s635p2 / planet
                      :mod (s635n / next)))
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +60,7 @@ Words: This      was       a         very      short     visit     ,         but
        :degree intensifier
        :aspect state
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -94,6 +97,7 @@ Words: "          What       are        you        doing      there      ?      
         :place (s637t / there)
         :quote s637s)
     :ARG2 s637p)
+
 # alignment:
 
 # document level annotation:
@@ -114,6 +118,7 @@ Words: "          I          am         drinking   ,          "          replied
                     :ARG0 s638p
                     :quote s638r)
        :manner (s638l / lugubrious))
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: "        Why      are      you      drinking ?        "        demanded t
             :refer-number singular)
         :purpose (s639a / umr-unknown)
         :quote s639d))
+
 # alignment:
 
 # document level annotation:
@@ -157,6 +163,7 @@ Words: "       So      that    I       may     forget  ,       "       replied t
                                  :ARG0 s640p
                                  :modal-strength neutral-affirmative)
                     :quote s640r))
+
 # alignment:
 
 # document level annotation:
@@ -183,6 +190,7 @@ Words: "        Forget   what     ?        "        inquired the      little   p
         :ARG1 (s641a / umr-unknown)
         :quote s641i)
     :ARG2 s641h)
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +215,7 @@ Words: "         Forget    that      I         am        ashamed   ,         "  
                     :ARG1 (s642s / shame-01
                                  :ARG1 s642p)
                     :quote s642c))
+
 # alignment:
 
 # document level annotation:
@@ -232,6 +241,7 @@ Words: "        Ashamed  of       what     ?        "        insisted the      l
     :ARG1 (s643a / umr-unknown
         :ARG0-of (s643s / shame-01)
         :quote s643i))
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +257,7 @@ Words: "        Ashamed  of       drinking !        "
 # sentence level graph:
 (s644s / shame-01
        :ARG0 (s644d / drink-01))
+
 # alignment:
 
 # document level annotation:
@@ -275,6 +286,7 @@ Words: The         tippler     brought     his         speech      to          a
                                     :ARG1 s645p)
                     :aspect performance
                     :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -294,6 +306,7 @@ Words: And     the     little  prince  went    away    ,       puzzled .
                                 :mod (s646l / little)
                                 :ARG1-of (s646p2 / puzzle-01))
                    :direction (s646a2 / away)))
+
 # alignment:
 
 # document level annotation:
@@ -321,6 +334,7 @@ Words: "         The       grown     -         ups       are       certainly ver
         :ARG0 s647h
         :ARG1 (s647j / journey-01
             :ARG0 s647h)))
+
 # alignment:
 
 # document level annotation:

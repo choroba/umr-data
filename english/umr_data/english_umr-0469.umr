@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -29,6 +30,7 @@ Words: <Architect> i           can't       easily      describe    this        s
         :ARG2-of (s2s / shape-01))
     :ARG1-of (s2e / easy-05)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -50,6 +52,7 @@ Words: <Architect> start       int         he          middle      of          t
         :ARG1-of (s3m / middle-01
             :ARG2 (s3s3 / square)))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +74,7 @@ Words: <Builder> ok,       no        worries.
             :refer-number singular)
         :mode imperative
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -98,6 +102,7 @@ Words: <Architect> and         build       six         red         blocks      i
                 :ARG5 (s5c / cartesian-framework-91
                     :ARG1 (s5b3 / build-space))))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -120,6 +125,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                             :x 0
                             :y 1
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -142,6 +148,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                             :x 0
                             :y 2
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -164,6 +171,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                             :x 0
                             :y 3
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -186,6 +194,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                             :x 0
                             :y 4
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -208,6 +217,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 5
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -230,6 +240,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -262,6 +273,7 @@ Words: <Architect> the         top         block       is          the         m
                 :ARG4-of (s12l2 / left-20
                     :ARG2 s12y
                     :ARG3 s12c3)))))
+
 # alignment:
 
 # document level annotation:
@@ -284,6 +296,7 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
                                :x -1
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -306,6 +319,7 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -328,6 +342,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -350,6 +365,7 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
                                :x 2
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -376,6 +392,7 @@ Words: <Architect> second      to          top         is          the         s
                         :ARG2 (s17l / line
                                     :configuration-of (s17c / cube
                                                             :quant 3))))
+
 # alignment:
 
 # document level annotation:
@@ -398,6 +415,7 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
                                :x -1
                                :y 5
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -420,6 +438,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -442,6 +461,7 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
                                :x 0
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -464,6 +484,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 5
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -493,6 +514,7 @@ Words: <Architect> now         there's     a           three       cube        o
        :manner (s22c2 / center-03
                       :ARG1 s22l
                       :ARG3-of (s22s / same-01)))
+
 # alignment:
 
 # document level annotation:
@@ -515,6 +537,7 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
                                :x -1
                                :y 7
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -537,6 +560,7 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
                                :x 0
                                :y 7
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -559,6 +583,7 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
                                :x 1
                                :y 7
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -594,6 +619,7 @@ Words: <Architect> on          the         right       two         blocks      b
         :ARG2-of (s26u / up-03
             :ARG3 s26c))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -616,6 +642,7 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -638,6 +665,7 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
                                :x 1
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -668,6 +696,7 @@ Words: <Architect> and         then        one         more        orange      b
                                                                                        :ARG1 (s29b3 / build-space)
                                                                                        :ARG3-of s29o2)))))
                   :temporal (s29t / then)))
+
 # alignment:
 
 # document level annotation:
@@ -690,6 +719,7 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
                                :x 1
                                :y 9
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -706,6 +736,7 @@ Words: <Architect> yep!        that's      it!
 (s31c / confirm-01
       :ARG1 (s31b / be-it-08
                   :ARG1 (s31t / that)))
+
 # alignment:
 
 # document level annotation:

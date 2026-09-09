@@ -7,6 +7,7 @@ Words: Chapter 22      .
 # sentence level graph:
 (s1182c / chapter
         :mod 22)
+
 # alignment:
 
 # document level annotation:
@@ -26,6 +27,7 @@ Words: "       Good    morning ,       "       said    the     little  prince  .
         :ARG1 (s1183m / morning
                       :ARG1-of (s1183g / good-02)
                       :quote s1183s))
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +47,7 @@ Words: "         Good      morning   ,         "         said      the       rai
         :ARG1 (s1184m / morning
                       :ARG1-of (s1184g / good-02)
                       :quote s1184s))
+
 # alignment:
 
 # document level annotation:
@@ -68,6 +71,7 @@ Words: "      What   do     you    do     here   ?      "      the    little pri
         :ARG1 (s1185a2 / umr-unknown)
         :place (s1185h / here)
         :quote s1185a))
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +97,7 @@ Words: "         I         sort      out       travelers ,         in        bun
                                      :ARG2 (s1186p2 / person
                                                     :quant 1000))
                        :quote s1186s))
+
 # alignment:
 
 # document level annotation:
@@ -120,6 +125,7 @@ Words: "      I      send   off    the    trains that   carry  them   ;      now
             :temporal (s1187n / now))
         :op2 (s1187l / left-20
             :temporal (s1187n2 / now))))
+
 # alignment:
 
 # document level annotation:
@@ -147,6 +153,7 @@ Words: And         a           brilliantly lighted     express     train       s
                                        :ARG0-of (s1188r2 / roar-01
                                                          :ARG1-of (s1188r3 / resemble-91
                                                                            :ARG2 (s1188t2 / thunder))))))
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +176,7 @@ Words: "      They   are    in     a      great  hurry  ,      "      said   the
             :refer-number plural)
         :quote s1189s
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -187,6 +195,7 @@ Words: "       What    are     they    looking for     ?       "
         :refer-person 3rd
         :refer-number plural)
     :ARG1 (s1190a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -210,6 +219,7 @@ Words: "          Not        even       the        locomotive engineer   knows  
                       :ARG1 (s1191t / that)
                       :quote s1191s
                       :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +244,7 @@ Words: And         a           second      brilliantly lighted     express     t
                      :direction (s1192b / by)
                      :direction (s1192o / opposite-01
                                         :ARG2 (s1192d / direction))))
+
 # alignment:
 
 # document level annotation:
@@ -258,6 +269,7 @@ Words: "        Are      they     coming   back     already  ?        "        d
         :direction (s1193b / back)
         :temporal (s1193a / already)
         :quote s1193d))
+
 # alignment:
 
 # document level annotation:
@@ -280,6 +292,7 @@ Words: "         These     are       not       the       same      ones      ,  
                                       :aspect state
                                       :ARG1 (s1194t / this)))
         :ARG1 s1194i)
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +312,7 @@ Words: "        It       is       an       exchange .        "
         :refer-number singular)
     :ARG3 (s1195e / exchange-01)
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -323,6 +337,7 @@ Words: "         Were      they      not       satisfied where     they      wer
         :quote s1196a
         :polarity -)
     :polarity (s1196a2 / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -343,6 +358,7 @@ Words: "         No        one       is        ever      satisfied where     he 
                        :temporal (s1197e / ever)
                        :place s1197n
                        :quote s1197s))
+
 # alignment:
 
 # document level annotation:
@@ -369,6 +385,7 @@ Words: And         they        heard       the         roaring     thunder     o
                 :manner (s1198b / brilliant-02))
             :ord (s1198o / ordinal-entity
                 :value 3))))
+
 # alignment:
 
 # document level annotation:
@@ -395,6 +412,7 @@ Words: "         Are       they      pursuing  the       first     travelers ?  
                 :ord (s1199o / ordinal-entity
                     :value 1)))
         :quote s1199d))
+
 # alignment:
 
 # document level annotation:
@@ -421,6 +439,7 @@ Words: "         They      are       pursuing  nothing   at        all       ,  
             :refer-number plural)
         :quote s1200s
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -445,6 +464,7 @@ Words: "       They    are     asleep  in      there   ,       or      if      t
         :condition (s1201s2 / sleep-01
             :ARG0 s1201t
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -468,6 +488,7 @@ Words: Only        the         children    are         flattening  their       n
             :ARG0 s1202c
             :ARG1 s1202n
             :ARG2 (s1202w / windowpane))))
+
 # alignment:
 
 # document level annotation:
@@ -491,6 +512,7 @@ Words: "        Only     the      children know     what     they     are      l
             :ARG1-of (s1203l2 / look-01
                 :ARG0 s1203c))
         :quote s1203s))
+
 # alignment:
 
 # document level annotation:
@@ -530,6 +552,7 @@ Words: "         They      waste     their     time      over      a         rag
                 :refer-number plural)
             :ARG1 s1204d
             :start s1204t)))
+
 # alignment:
 
 # document level annotation:
@@ -550,6 +573,7 @@ Words: "         They      are       lucky     ,         "         the       swi
             :refer-person 3rd
             :refer-number plural)
         :quote s1205s))
+
 # alignment:
 
 # document level annotation:

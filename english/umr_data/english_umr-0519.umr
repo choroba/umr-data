@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Architect> alright
 
 # sentence level graph:
 (s2a / all-right)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +37,7 @@ Words: <Builder> ok
 
 # sentence level graph:
 (s3o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -67,6 +70,7 @@ Words: <Architect> can         you         get         red,        orange,     b
             :color (s4y2 / yellow)))
     :mode imperative
     :polite +)
+
 # alignment:
 
 # document level annotation:
@@ -81,6 +85,7 @@ Words: <Builder> Ok
 
 # sentence level graph:
 (s5o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +118,7 @@ Words: <Architect> okay        now         move        a           little      d
                     :ARG1 s6y)))
         :extent (s6l2 / little)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +140,7 @@ Words: <Architect> so          you         have        enough      space
         :ARG1 (s7s / space
             :ARG1-of (s7h3 / have-quant-91
                 :ARG3 (s7e / enough)))))
+
 # alignment:
 
 # document level annotation:
@@ -148,6 +155,7 @@ Words: <Architect> yeah
 
 # sentence level graph:
 (s8c / confirm-01)
+
 # alignment:
 
 # document level annotation:
@@ -170,6 +178,7 @@ Words: <Architect> okay        place       a           red         block
         :ARG1 (s9b / block
             :color (s9r / red))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -192,6 +201,7 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
                                :x 3
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -206,6 +216,7 @@ Words: <Builder> Ok
 
 # sentence level graph:
 (s11o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -241,6 +252,7 @@ Words: <Architect> and         then        place       an          orange      b
                     :ARG1 s12y)))
         :temporal (s12t / then)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -263,6 +275,7 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
                                :x 2
                                :y 1
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -277,6 +290,7 @@ Words: <Architect> great
 
 # sentence level graph:
 (s14g / great-01)
+
 # alignment:
 
 # document level annotation:
@@ -313,6 +327,7 @@ Words: <Architect> okay        and         then        two         blocks      u
                     :quant 1)))
         :temporal (s15t / then)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -335,6 +350,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -356,6 +372,7 @@ Words: <Architect> to          the         left        of          that        o
                                  :ARG3 (s17c / cartesian-framework-91
                                              :ARG1 (s17b2 / builder))))
       :mod (s17a / as-well))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +395,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                                :x 1
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -401,6 +419,7 @@ Words: <Architect> okay        and         then        to          the         r
                                             :ARG3 (s19c / cartesian-framework-91
                                                         :ARG1 (s19b2 / builder))))
                  :temporal (s19t / then)))
+
 # alignment:
 
 # document level annotation:
@@ -423,6 +442,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -446,6 +466,7 @@ Words: <Architect> and         then        one         more        on          t
                                             :ARG3 (s21c / cartesian-framework-91
                                                         :ARG1 (s21b2 / builder))))
                  :temporal (s21t2 / then)))
+
 # alignment:
 
 # document level annotation:
@@ -468,6 +489,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
                                :x -2
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -502,6 +524,7 @@ Words: <Architect> okay        and         put         a           green       b
                 :ARG3 (s23c / cartesian-framework-91
                     :ARG1 (s23b4 / build-space))))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -524,6 +547,7 @@ Words: [Builder puts     down     a        green    block    at       X:0      Y
                                :x 0
                                :y 2
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -552,6 +576,7 @@ Words: <Architect> and         then        put         a           purple      b
                     :ARG1 (s25b2 / build-space))))
         :temporal (s25t / then)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -574,6 +599,7 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
                                :x 0
                                :y 3
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -604,6 +630,7 @@ Words: <Architect> and         then        put         a           red         b
                     :ARG1 (s27b4 / build-space))))
         :temporal (s27t / then)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -626,6 +653,7 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
                                :x -2
                                :y 2
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -648,6 +676,7 @@ Words: <Architect> and         an          orange      one         on          t
                                               :ARG2 (s29t / that)
                                               :ARG3 (s29c / cartesian-framework-91
                                                           :ARG1 (s29b / build-space))))))
+
 # alignment:
 
 # document level annotation:
@@ -670,6 +699,7 @@ Words: [Builder puts     down     a        orange   block    at       X:-2     Y
                                :x -2
                                :y 3
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -694,6 +724,7 @@ Words: <Architect> and         then        a           yellow      one         o
                                               :ARG3 (s31c / cartesian-framework-91
                                                           :ARG1 (s31b / build-space))))
                   :temporal (s31t / then)))
+
 # alignment:
 
 # document level annotation:
@@ -716,6 +747,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 4
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -730,6 +762,7 @@ Words: <Architect> perfect!
 
 # sentence level graph:
 (s33p / perfect-02)
+
 # alignment:
 
 # document level annotation:

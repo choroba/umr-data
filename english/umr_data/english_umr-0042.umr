@@ -10,6 +10,7 @@ Words: Invade Libya.
                 :name (s1n / name
                            :op1 "Libya")
                 :wiki "Libya"))
+
 # alignment:
 
 # document level annotation:
@@ -38,6 +39,7 @@ Words: Think       about       it,         what        does        Britain     h
                 :mod (s2l / lucrative)
                 :mod (s2p / potential))))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -68,6 +70,7 @@ Words: The       answer,   a         well      trained   and       heavily   equ
                                :manner (s3w / well))
                 :ARG1-of (s3e2 / equip-01
                                :manner (s3h / heavy))))
+
 # alignment:
 
 # document level annotation:
@@ -106,6 +109,7 @@ Words: The          Libyan       rebels       are          crying       out     
                 :refer-person 1st
                 :refer-number plural)
             :ARG3 s4p2)))
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +163,7 @@ Words: We'll    send     an       army     of       100,000  troops   to       t
                                     :unit (s5y / year)
                                     :quant 15))
                             :value 30)))))))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +206,7 @@ Words: So                   not                  only                 will      
                           :ARG1 (s6p4 / profit)
                           :ARG1-of (s6a2 / actual-02)
                           :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -236,6 +242,7 @@ Words: A        30%      stake    of       ALL      Libyan   oil      revenue  o
                                   :unit (s7y / year)
                                   :quant 15))
      :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -275,6 +282,7 @@ Words: It's                    just                    a                       s
                 :ARG2 (s8p4 / power)))
         :polarity -)
     :mod (s8j / just))
+
 # alignment:
 
 # document level annotation:
@@ -314,6 +322,7 @@ Words: BP        and       such      British   companies are       already   in 
                                :op1 (s9t / temporal-quantity
                                          :unit (s9y / year)
                                          :quant 1))))
+
 # alignment:
 
 # document level annotation:
@@ -357,6 +366,7 @@ Words: Drastic     action      like        you         suggest     will        j
                             :op2 "Britain")
                         :wiki "United_Kingdom")))))
     :mod (s10j / just))
+
 # alignment:
 
 # document level annotation:
@@ -412,6 +422,7 @@ Words: 100,000      troops       There        's           barely       that    
                    :degree (s11b2 / barely)
                    :aspect state
                    :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -440,6 +451,7 @@ Words: You'd   have    to      start   giving  sailors and     aircrew rifles  a
                 :ARG0-of (s12s2 / sail-01))
             :op2 (s12a3 / aircrew)))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -519,6 +531,7 @@ Words: We           are          doing        enough       as           it      
                 :modal-strength full-affirmative))
         :aspect activity
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -555,6 +568,7 @@ Words: OP            I             think         you           underestimate how
                         :mod (s14s2 / such)
                         :ARG1-of (s14n2 / need-01
                             :ARG0 (s14a5 / army))))))))
+
 # alignment:
 
 # document level annotation:
@@ -589,6 +603,7 @@ Words: If     you    are    going  to     do     it     well   I'd    say    at 
             :refer-person 3rd
             :refer-number singular)
         :manner (s15w / well)))
+
 # alignment:
 
 # document level annotation:
@@ -618,6 +633,7 @@ Words: Especially if         you        are        doing      it         to     
                         :op2 "Britain")
                     :wiki "United_Kingdom"))))
     :mod (s16e / especially))
+
 # alignment:
 
 # document level annotation:

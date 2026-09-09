@@ -7,6 +7,7 @@ Words: Chapter 18      .
 # sentence level graph:
 (s991c / chapter
        :mod 18)
+
 # alignment:
 
 # document level annotation:
@@ -30,6 +31,7 @@ Words: The     little  prince  crossed the     desert  and     met     with    o
                    :ARG1 (s992f / flower
                                 :quant 1)
                    :mod (s992o2 / only)))
+
 # alignment:
 
 # document level annotation:
@@ -55,6 +57,7 @@ Words: It      was     a       flower  with    three   petals  ,       a       f
             :polarity -))
     :aspect state
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +77,7 @@ Words: "       Good    morning ,       "       said    the     little  prince  .
        :ARG1 (s994m2 / morning
                      :ARG1-of (s994g / good-02)
                      :quote s994s))
+
 # alignment:
 
 # document level annotation:
@@ -92,6 +96,7 @@ Words: "       Good    morning ,       "       said    the     flower  .
        :ARG1 (s995m2 / morning
                      :ARG1-of (s995g / good-02)
                      :quote s995s))
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +118,7 @@ Words: "        Where    are      the      men      ?        "        the      l
                     :ARG2 (s996a2 / umr-unknown)
                     :quote s996a)
        :manner (s996p3 / polite-01))
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +137,7 @@ Words: The     flower  had     once    seen    a       caravan passing .
        :ARG1 (s997p / pass-02
                     :ARG0 (s997c / caravan-01))
        :frequency 1)
+
 # alignment:
 
 # document level annotation:
@@ -151,6 +158,7 @@ Words: "      Men    ?      "      she    echoed .
     :ARG1 (s998m / man
         :ARG1-of (s998r / request-confirmation-91)
         :quote s998e))
+
 # alignment:
 
 # document level annotation:
@@ -175,6 +183,7 @@ Words: "         I         think     there     are       six       or        sev
                 :op2 7)
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +210,7 @@ Words: I       saw     them    ,       several years   ago     .
             :op1 (s1000t2 / temporal-quantity
                 :unit (s1000y / year)
                 :quant 1))))
+
 # alignment:
 
 # document level annotation:
@@ -227,6 +237,7 @@ Words: But   one   never knows where to    find  them  .
             :temporal (s1001e / ever)
             :polarity -)
         :quote s1001s))
+
 # alignment:
 
 # document level annotation:
@@ -246,6 +257,7 @@ Words: The   wind  blows them  away  .
         :refer-person 3rd
         :refer-number plural)
     :direction (s1002a / away))
+
 # alignment:
 
 # document level annotation:
@@ -273,6 +285,7 @@ Words: They      have      no        roots     ,         and       that      mak
                 :ARG1-of (s1003l / live-01)
                 :possessor s1003t)
             :degree intensifier)))
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +304,7 @@ Words: "       Goodbye ,       "       said    the     little  prince  .
                       :mod (s1004l / little))
         :ARG1 (s1004g / goodbye)
         :quote-of s1004g)
+
 # alignment:
 
 # document level annotation:
@@ -308,6 +322,7 @@ Words: "       Goodbye ,       "       said    the     flower  .
         :ARG0 (s1005f / flower)
         :ARG1 (s1005g / goodbye)
         :quote-of s1005g)
+
 # alignment:
 
 # document level annotation:

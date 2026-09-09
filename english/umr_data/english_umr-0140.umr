@@ -20,6 +20,7 @@ Words: Democrats   have        been        saying      that        they        a
             :ARG1 (s1i / insure-02
                 :ARG1 (s1h3 / health)
                 :ARG1-of (s1p3 / private-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -49,6 +50,7 @@ Words: Don't   believe me,     watch   the     videos  in      this    thread:
         :place (s2t / thread
             :mod (s2t2 / this))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -80,6 +82,7 @@ Words: <a                                                                       
                                                                     :ARG0 (s3g / government-organization
                                                                                :ARG0-of (s3g2 / govern-01)))))
                             :ARG1-of (s3s / single-02))))
+
 # alignment:
 
 # document level annotation:
@@ -98,6 +101,7 @@ Words: How    many   jobs   will   that   costs?
      :ARG2 (s4j / job
                 :quant (s4a / umr-unknown))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -152,6 +156,7 @@ Words: I          am         not        just       talking    about      the    
                             :ARG1 (s5d2 / dinner)
                             :ARG2 (s5t3 / table))))
                 :ARG1-of (s5l / lose-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -188,6 +193,7 @@ Words: From        the         Janitor     to          middle      management  a
             :refer-definiteness class)
         :ARG1 s6i
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -232,6 +238,7 @@ Words: Those     CEO's     employ    you;      your      brothers, sisters,  par
             :ARG1-of (s7h6 / have-rel-role-92
                 :ARG2 s7y
                 :ARG3 (s7f / friend)))))
+
 # alignment:
 
 # document level annotation:
@@ -255,6 +262,7 @@ Words: Where       are         those       people      going       to          g
                                              :ARG1 (s8h / health))
                                :ARG1-of (s8p3 / private-02)))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -279,6 +287,7 @@ Words: How       many      hundreds  of        thousands of        jobs      (De
                           :wiki "Democratic_Party_(United_States)"))
      :polarity (s9a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +308,7 @@ Words: What     industry do       you      work     in?
     :ARG2 (s10i / industry
         :mod (s10a / umr-unknown))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -319,6 +329,7 @@ Words: Is    your  job   safe?
             :refer-person 2nd
             :refer-number singular))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -368,6 +379,7 @@ Words: edit:     Oh        and       let       me        ask       you       thi
                             :degree (s12s / so)))
                     :ARG1 s12y
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -385,6 +397,7 @@ Words: Immie
       :name (s13n / name
                   :op1 "Immie")
       :wiki -)
+
 # alignment:
 
 # document level annotation:
@@ -411,6 +424,7 @@ Words: I          don't      think      you        understand what       the    
                 :ARG0 (s14o / option
                     :ARG1-of (s14p / public-02)))))
     :polarity -)
+
 # alignment:
 
 # document level annotation:

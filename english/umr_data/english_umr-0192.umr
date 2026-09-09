@@ -36,6 +36,7 @@ Words: Newsweek    ,           trying      to          keep        pace        w
                                                        :ARG1-of (s1r2 / rival-01
                                                                       :ARG0 s1m2)
                                                        :wiki "Time_(magazine)")))))
+
 # alignment:
 
 # document level annotation:
@@ -75,6 +76,7 @@ Words: The         new         ad          plan        from        Newsweek    ,
                              :ARG0-of (s2a2 / advertise-01)))
    :ARG0-of (s2i2 / incentivize-01)
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -149,6 +151,7 @@ Words: Plans       that        give        advertisers discounts   for         m
                                                                    :wiki "Mortimer_Zuckerman")
                                                    :wiki "U.S._News_&_World_Report"))
                              :manner (s3f / fierce))))
+
 # alignment:
 
 # document level annotation:
@@ -186,6 +189,7 @@ Words: Alan      Spoon     ,         recently  named     Newsweek  president ,  
                             :value 5)
                 :temporal (s4d / date-entity
                                :month 1)))
+
 # alignment:
 
 # document level annotation:

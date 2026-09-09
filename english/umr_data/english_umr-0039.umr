@@ -29,6 +29,7 @@ Words: Tony        Blair       defended    his         immigration policies    a
             :ARG0 s1i2
             :ARG2 s1p)
         :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +72,7 @@ Words: I've          always        viewed        immigration's goal          was
                         :aspect state
                         :modal-strength full-affirmative)))))
     :temporal (s2a / always))
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +104,7 @@ Words: IMO           we            have          become        a             mor
                 :ARG3 (s3m2 / more)))
         :topic (s3t / that
             :ARG1-of (s3n2 / need-01))))
+
 # alignment:
 
 # document level annotation:
@@ -128,6 +131,7 @@ Words: Changing     the          demographics is           important    for     
                 :ARG1 (s4c3 / change-01
                             :ARG0 (s4n2 / nation
                                         :quant (s4l / lot)))))
+
 # alignment:
 
 # document level annotation:
@@ -171,6 +175,7 @@ Words: To             those          anti-immigrant nationalists   who          
                            :wiki "Barack_Obama")
                 :mode imperative)
      :ARG2 s5n)
+
 # alignment:
 
 # document level annotation:
@@ -229,6 +234,7 @@ Words: A         lot       of        people    like      him       for       his
             :refer-person 3rd
             :refer-number singular)
         :ARG2 (s6w / world)))
+
 # alignment:
 
 # document level annotation:
@@ -264,6 +270,7 @@ Words: Obama's    mixed      race       background highlights humanities love   
                     :ARG1 s7w2
                     :ARG2 s7r))
             :possessor s7w2)))
+
 # alignment:
 
 # document level annotation:
@@ -286,6 +293,7 @@ Words: There  is     no     doubt  this   is     the    way    the    world  is 
                    :modal-strength full-negative)
      :aspect state
      :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -311,6 +319,7 @@ Words: And        Obama      as         a          figure     head       and    
                            :op2 (s9p3 / popularity
                                       :possessor s9p2))
                 :ARG1 (s9t / that)))
+
 # alignment:
 
 # document level annotation:
@@ -326,6 +335,7 @@ Words: Stunning   president.
 # sentence level graph:
 (s10p2 / president
        :ARG0-of (s10s2 / stun-01))
+
 # alignment:
 
 # document level annotation:
@@ -364,6 +374,7 @@ Words: So           Tony         Blair        was          right        about   
                 :wiki "United_States"))
         :ARG1-of (s11c2 / cause-01
             :ARG0 s11c)))
+
 # alignment:
 
 # document level annotation:
@@ -392,6 +403,7 @@ Words: And    maybe  one    day    too    we     will   have   our    own    Oba
         :temporal (s12d / day)
         :aspect state
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -408,6 +420,7 @@ Words: Viva        la          difference.
 (s13d2 / differ-02
        :mod (s13v / viva
                   :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -432,6 +445,7 @@ Words: Thank  you    Tony   Blair.
                 :op2 "Blair")
             :ARG2-of s14s
             :wiki "Tony_Blair")))
+
 # alignment:
 
 # document level annotation:
@@ -482,6 +496,7 @@ Words: Where           Tony            Blair           and             his      
                                                                         :place (s15s3 / school))))
                              :temporal (s15t / then)
                              :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -520,6 +535,7 @@ Words: For       non-EU    migrants  and       those     seeking   to        liv
                                                               :quant (s16p / period
                                                                            :duration (s16s / short-07))))))
       :ARG2 s16a2)
+
 # alignment:
 
 # document level annotation:
@@ -549,6 +565,7 @@ Words: Depends   on        if        you       believe   Blair     did       it 
             :ARG0 s17y
             :ARG1 s17h
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -577,6 +594,7 @@ Words: Immigration is          good        for         a           society,    b
                 :ARG1 s18o))
         :mod (s18f2 / frank
             :degree (s18q / quite))))
+
 # alignment:
 
 # document level annotation:
@@ -616,6 +634,7 @@ Words: OP    spend a     year  in    Luton and   tell  us    all   of    this.
                 :refer-number plural)
             :mode imperative))
     :ARG2 s19p2)
+
 # alignment:
 
 # document level annotation:
@@ -642,6 +661,7 @@ Words: Besides, it's     funny    how      you      talk     about    America  l
             :ARG1 s20c
             :temporal (s20l / lately)))
     :mod (s20b / besides))
+
 # alignment:
 
 # document level annotation:
@@ -667,6 +687,7 @@ Words: It's                  going                 down                  the    
             :ARG3 (s21t2 / temporal-quantity
                 :unit (s21d2 / day)
                 :quant 1))))
+
 # alignment:
 
 # document level annotation:
@@ -688,6 +709,7 @@ Words: Also,    in       reality, it's     not      mixed    at       all.
     :degree (s22a / at-all)
     :mod (s22a2 / also)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -715,6 +737,7 @@ Words: I        promise  you      that     Obama    is       an       anomaly.
             :wiki "Barack_Obama")
         :ARG2 (s23a / anomalous-00)
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -743,6 +766,7 @@ Words: Most    of      America is      about   as      mixed   race    as      R
                               :op2 "Chubby"
                               :op3 "Brown")
                   :wiki "Roy_Chubby_Brown"))
+
 # alignment:
 
 # document level annotation:
@@ -772,6 +796,7 @@ Words: You          mostly       get          concentrated ghettos      with    
                     :ARG1-of (s25w / white-02)))
             :temporal (s25t / then)))
     :mod (s25m / most))
+
 # alignment:
 
 # document level annotation:
@@ -795,6 +820,7 @@ Words: Obama          isn't          representative of             anything.
         :refer-person 3rd
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -831,6 +857,7 @@ Words: As       for      Blair,   he       only     welcomed all      these    n
                 :polarity -
                 :modal-strength partial-affirmative)))
     :mod (s27o / only))
+
 # alignment:
 
 # document level annotation:
@@ -869,6 +896,7 @@ Words: What                do                  they                care         
     :ARG1-of (s28c2 / cause-01
         :ARG0 (s28a / umr-unknown))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

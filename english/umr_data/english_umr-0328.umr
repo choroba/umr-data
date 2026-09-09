@@ -7,6 +7,7 @@ Words: Mission  has      started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +65,7 @@ Words: ok      from    one     block   up      and     one     block   to      t
             :start (s2l3 / left-20
                 :ARG3 s2c4))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -86,6 +88,7 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
                             :x 4
                             :y 1
                             :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -103,6 +106,7 @@ Words: starting there?
      :place (s4t / there)
      :ARG1-of (s4r / request-confirmation-91)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -117,6 +121,7 @@ Words: yup
 
 # sentence level graph:
 (s5c / confirm-01)
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: from  there to    the   right
                                :ARG3 (s6c / cartesian-framework-91
                                           :ARG1 (s6b / builder)))
                  :start (s6t2 / there)))
+
 # alignment:
 
 # document level annotation:
@@ -158,6 +164,7 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
                             :x 4
                             :y 2
                             :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -180,6 +187,7 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
                             :x 4
                             :y 3
                             :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -202,6 +210,7 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
                             :x 4
                             :y 4
                             :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -224,6 +233,7 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
                                :x 3
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -246,6 +256,7 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
                                :x 2
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -268,6 +279,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -290,6 +302,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -312,6 +325,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -334,6 +348,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -356,6 +371,7 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
                                :x 0
                                :y 4
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +394,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -400,6 +417,7 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
                                :x 2
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -422,6 +440,7 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
                                :x 3
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -444,6 +463,7 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
                                :x 3
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -466,6 +486,7 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
                                :x 2
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -488,6 +509,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -510,6 +532,7 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
                                :x 1
                                :y 4
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -532,6 +555,7 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
                                :x 2
                                :y 4
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -554,6 +578,7 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
                                :x 3
                                :y 4
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -584,6 +609,7 @@ Words: yup,   now    break  out    the    bottom 3      middle blocks
             :ARG1 (s26o / out-03
                 :ARG1 s26b2))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -606,6 +632,7 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
                                :x 1
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -628,6 +655,7 @@ Words: [Builder picks    up       a        red      block    at       X:2      Y
                                :x 2
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -650,6 +678,7 @@ Words: [Builder picks    up       a        red      block    at       X:3      Y
                                :x 3
                                :y 1
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -702,6 +731,7 @@ Words: and       the       two       above     the       rightmost and       lef
                     :ARG3 s30c)
                 :quant 2)
             :mode imperative)))
+
 # alignment:
 
 # document level annotation:
@@ -724,6 +754,7 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
                                :x 1
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -746,6 +777,7 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
                                :x 1
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -768,6 +800,7 @@ Words: [Builder picks    up       a        red      block    at       X:3      Y
                                :x 3
                                :y 2
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -790,6 +823,7 @@ Words: [Builder picks    up       a        red      block    at       X:3      Y
                                :x 3
                                :y 3
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -804,6 +838,7 @@ Words: perfect
 
 # sentence level graph:
 (s35p / perfect-02)
+
 # alignment:
 
 # document level annotation:
@@ -832,6 +867,7 @@ Words: now    locate the    bottom left   block  on     the    wall
                 :ARG1 s36y)))
     :temporal (s36n / now)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -873,6 +909,7 @@ Words: from    there,  place   a       single  yellow  block   down.   It      s
                     :unit (s37b4 / block)
                     :quant 1)))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -895,6 +932,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -912,6 +950,7 @@ Words: there?
       :ARG2 (s39t / there)
       :ARG1-of (s39r / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -926,6 +965,7 @@ Words: perfect
 
 # sentence level graph:
 (s40p / perfect-02)
+
 # alignment:
 
 # document level annotation:
@@ -963,6 +1003,7 @@ Words: that    makes   the     bottom  right   corner  of      another 4       t
                                  :ARG3 s41c3))
       :ARG2 (s41t3 / thing
                    :mod (s41t4 / that)))
+
 # alignment:
 
 # document level annotation:
@@ -987,6 +1028,7 @@ Words: so    you   can   go    ahead and   build that
     :ARG2 (s42a / ahead)
     :mode imperative
     :polite +)
+
 # alignment:
 
 # document level annotation:
@@ -1009,6 +1051,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1031,6 +1074,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1053,6 +1097,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1075,6 +1120,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1097,6 +1143,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1119,6 +1166,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1141,6 +1189,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1163,6 +1212,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1185,6 +1235,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1207,6 +1258,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 1
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1229,6 +1281,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:0      Y
                                :x 0
                                :y 1
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1251,6 +1304,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1273,6 +1327,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1295,6 +1350,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1317,6 +1373,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1339,6 +1396,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1361,6 +1419,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1383,6 +1442,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1405,6 +1465,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1427,6 +1488,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1449,6 +1511,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
                                :x 1
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1474,6 +1537,7 @@ Words: break   out     all     4       corners
         :ARG1 (s64o / out-03
             :ARG1 s64t))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1496,6 +1560,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1518,6 +1583,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:1      Y
                                :x 1
                                :y 4
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1540,6 +1606,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:1      Y
                                :x 1
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1562,6 +1629,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1592,6 +1660,7 @@ Words: break  out    the    middle most   block  on     the    bottom row
         :ARG1 (s69o / out-03
             :ARG1 s69b2))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1614,6 +1683,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1648,6 +1718,7 @@ Words: then   the    3      middle most   blocks on     the    row    above  the
         :quant 3)
     :temporal (s71t / then)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1670,6 +1741,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1692,6 +1764,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1714,6 +1787,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:0      Y
                                :x 0
                                :y 2
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1762,6 +1836,7 @@ Words: then      the       blocks    above     the       rightmost and       lef
                         :ARG5 s75b5))
                 :ARG3 s75c))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -1784,6 +1859,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1806,6 +1882,7 @@ Words: [Builder picks    up       a        yellow   block    at       X:0      Y
                                :x 0
                                :y 3
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1820,6 +1897,7 @@ Words: perfect
 
 # sentence level graph:
 (s78p / perfect-02)
+
 # alignment:
 
 # document level annotation:

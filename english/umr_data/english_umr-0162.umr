@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +75,7 @@
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -80,6 +87,7 @@
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +99,7 @@
 # :: snt9
 # sentence level graph:
 (s9u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +133,7 @@ Words: The        Christian  Church     also       had        a          propens
                   :modal-strength partial-affirmative
                   :mod (s10a / also))
        :op3 (s10e / et-cetera))
+
 # alignment:
 
 # document level annotation:
@@ -166,6 +176,7 @@ Words: Hell      ,         the       Catholic  Church    converted Central   Ame
                    :modal-strength full-affirmative)
        :mod (s11h / hell
                   :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -188,6 +199,7 @@ Words: Isn't that  what  I     said?
         :mod (s12t2 / that))
     :ARG1-of (s12r / request-confirmation-91)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -208,6 +220,7 @@ Words: See         highlighted parts.
     :ARG1 (s13p / part
         :ARG1-of (s13h / highlight-01))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:

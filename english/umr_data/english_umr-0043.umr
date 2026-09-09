@@ -18,6 +18,7 @@ Words: What       are        people     views      on         the        current
                             :wiki "Republic_of_Ireland")
                 :temporal (s1c2 / current))
      :ARG2 (s1a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +46,7 @@ Words: Should      it          be          freed       from        their       i
     :op2 (s2e / et-cetera)
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -67,6 +69,7 @@ Words: What      do        you's     think     of        the       current   arm
         :temporal (s3c / current)
         :ARG1-of (s3a2 / arm-01))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -101,6 +104,7 @@ Words: Was       the       war       involving the       IRA       and       INL
       :op2 (s4f / fail-01
                 :ARG1 s4w)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +145,7 @@ Words: And       what      are       your      views     on        those     try
                             :op2 "Army")
                         :wiki "Guerrilla_warfare")))))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -174,6 +179,7 @@ Words: I        really   don't    think    anyone   in       Britain  cares    m
         :degree (s6m / much)
         :polarity -)
     :degree (s6r / really))
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +213,7 @@ Words: I          don't      think      many       people     really     underst
         :mod (s7e2 / either)
         :ARG1-of (s7r / real-04)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -230,6 +237,7 @@ Words: Ireland  needs    to       overcome its      grip     of       alcohol.
                 :ARG1 (s8g / grip-01
                            :ARG0 s8c
                            :ARG1 (s8a / alcohol))))
+
 # alignment:
 
 # document level annotation:
@@ -253,6 +261,7 @@ Words: First,   Britain  no       longer   occupies the      southen  26       s
                 :quant 26)
      :temporal (s9n2 / no-longer)
      :list-item 1)
+
 # alignment:
 
 # document level annotation:
@@ -295,6 +304,7 @@ Words: The           idea          of            an            armed         str
                    :ARG1-of (s10o / opine-01
                                   :ARG0 (s10n / nationalist
                                               :ARG1-of (s10s2 / strong-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -327,6 +337,7 @@ Words: Currently  those      in         the        IRA        are        terrori
                    :ARG2 s11w
                    :temporal (s11e / ever))
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -358,6 +369,7 @@ Words: Socialism   is          in          itself      a           fair        t
                                                                 :temporal (s12c3 / current)))
                                     :mod s12p))
    :aspect state)
+
 # alignment:
 
 # document level annotation:

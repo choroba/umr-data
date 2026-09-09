@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Builder> hello.
 
 # sentence level graph:
 (s2h / hello)
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +44,7 @@ Words: <Builder> how       much      space     should    I         leave?
         :size (s3a / umr-unknown))
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +76,7 @@ Words: <Architect> the         build       is          5           blocks      w
                 :ARG3 (s4e / enough)
                 :ARG6 s4w))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +95,7 @@ Words: <Architect> it          looks       like        a           candelabra  (
         :refer-person 3rd
         :refer-number singular)
     :ARG1 (s5c / candelabra))
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +118,7 @@ Words: <Architect> so          start       with        a           stack       o
             :color (s6b2 / blue)
             :quant 3))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -135,6 +141,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -157,6 +164,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 2
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +187,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 3
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -219,6 +228,7 @@ Words: <Architect> on          either      side        of          the         t
         :ARG2 (s10s3 / side
             :ARG1-of (s10i3 / include-91
                 :ARG2 s10s2))))
+
 # alignment:
 
 # document level annotation:
@@ -241,6 +251,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                                :x -1
                                :y 3
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -263,6 +274,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
                                :x -2
                                :y 3
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +297,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                                :x 1
                                :y 3
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -307,6 +320,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                                :x 2
                                :y 3
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +338,7 @@ Words: <Builder> like      this?
       :ARG2 (s15t / this)
       :ARG1-of (s15r2 / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -338,6 +353,7 @@ Words: <Architect> yes
 
 # sentence level graph:
 (s16c / confirm-01)
+
 # alignment:
 
 # document level annotation:
@@ -375,6 +391,7 @@ Words: <Architect> and         then        on          every       other       b
                 :ARG1-of (s17i3 / include-91
                     :ARG2 s17b3)
                 :quant 2))))
+
 # alignment:
 
 # document level annotation:
@@ -393,6 +410,7 @@ Words: <Architect> going       upward
                        :ARG2-of (s18u / up-03
                                       :ARG5 (s18c / cartesian-framework-91
                                                   :ARG1 (s18b / build-space)))))
+
 # alignment:
 
 # document level annotation:
@@ -415,6 +433,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
                                :x 2
                                :y 4
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -437,6 +456,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
                                :x 2
                                :y 5
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -459,6 +479,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 4
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -481,6 +502,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
                                :x 0
                                :y 5
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -503,6 +525,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 4
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -525,6 +548,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -540,6 +564,7 @@ Words: <Architect> thats       it
 # sentence level graph:
 (s25b / be-it-08
       :ARG1 (s25t / that))
+
 # alignment:
 
 # document level annotation:
@@ -554,6 +579,7 @@ Words: <Builder> great
 
 # sentence level graph:
 (s26g / great-01)
+
 # alignment:
 
 # document level annotation:

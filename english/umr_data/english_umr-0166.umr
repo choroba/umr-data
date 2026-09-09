@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -94,6 +100,7 @@ Words: The        mosque     is         located    at         the        hallowe
                   :quant (s7d / door
                               :quant (s7f / few
                                           :mod (s7j / just)))))
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +120,7 @@ Words: I've       worshiped  at         both       locations.
         :refer-number singular)
     :place (s8l / location
         :mod (s8b / both)))
+
 # alignment:
 
 # document level annotation:
@@ -142,6 +150,7 @@ Words: I        think    your     confused the      Pussycat Lounge   had      w
                 :wiki -)
             :ARG1 (s9d / dance-02
                 :ARG0 (s9w / woman)))))
+
 # alignment:
 
 # document level annotation:

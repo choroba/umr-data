@@ -16,6 +16,7 @@ Words: Shut   the    fuck   up,    idiot.
             :mode expressive)
         :mode imperative)
     :ARG2 s1i2)
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +85,7 @@ Words: SLBMs     are       not       replacing ICBMs,    we        still     hav
                             :op1 "Cleatus")
                         :wiki -)
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +117,7 @@ Words: The     rest    of      your    ALCMs   and     SIOP    rundown is      .
                                         :wiki "Single_Integrated_Operational_Plan"))
                    :aspect performance
                    :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -126,6 +129,7 @@ Words: The     rest    of      your    ALCMs   and     SIOP    rundown is      .
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -137,6 +141,7 @@ Words: The     rest    of      your    ALCMs   and     SIOP    rundown is      .
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -152,6 +157,7 @@ Words: Dumbass....
 # sentence level graph:
 (s6h / have-role-91
      :ARG3 (s6d / dumbass))
+
 # alignment:
 
 # document level annotation:
@@ -171,6 +177,7 @@ Words: the        ICBM       force      is         pretty     cost       efficie
                           :mod (s7b / ballistic)
                           :mod (s7i / intercontinental)))
      :ARG2 (s7c / cost-01))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +208,7 @@ Words: The         weapons     last        for         decades     and         r
                :ARG1 (s8m / maintain-01
                           :ARG1 s8w
                           :ARG1-of (s8m2 / minimal-02))))
+
 # alignment:
 
 # document level annotation:
@@ -241,6 +249,7 @@ Words: They      are       the       biggest   bang      for       the       buc
                     :ARG1 (s9o / oxygen)))
             :mod (s9e / ever)))
     :op1 s9i)
+
 # alignment:
 
 # document level annotation:
@@ -262,6 +271,7 @@ Words: ICBM's   are      being    replaced by       SLBM's.
                    :ARG1-of (s10l / launch-01
                                   :ARG0 (s10s / submarine))
                    :mod (s10b2 / ballistic)))
+
 # alignment:
 
 # document level annotation:
@@ -284,6 +294,7 @@ Words: Cruise   missiles are      the      best     course.
                   :ARG3 (s11m2 / most))
    :ARG1-of s11g
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -303,6 +314,7 @@ Words: The         launch      of          an          ICBM        would       b
                   :mod (s12i / intercontinental))
       :ARG1-of (s12d / detect-01
                      :temporal (s12i2 / immediate)))
+
 # alignment:
 
 # document level annotation:
@@ -338,6 +350,7 @@ Words: And      weapons  launched from     the      former   Soviet   Union    w
                                                            :temporal (s13a2 / after
                                                                             :quant (s13t / time
                                                                                          :ARG1-of (s13s / short-07)))))))
+
 # alignment:
 
 # document level annotation:
@@ -356,6 +369,7 @@ Words: (ROTATION OF        THE       EARTH).
                   :name (s14n / name
                               :op1 "Earth")
                   :wiki "Earth"))
+
 # alignment:
 
 # document level annotation:
@@ -384,6 +398,7 @@ Words: We        need      marine    based     SLBM's    and       cruise    mis
         :ARG2 (s15m3 / missile
             :mod (s15i / intercontinental)
             :mod (s15b3 / ballistic))))
+
 # alignment:
 
 # document level annotation:
@@ -448,6 +463,7 @@ Words: *              *              *              *              *            
                                             :aspect activity
                                             :modal-strength full-affirmative))
                     :quote s16s2))
+
 # alignment:
 
 # document level annotation:
@@ -496,6 +512,7 @@ Words: *        *        *        *        *        *        *        *        *
                 :mod (s17m2 / mind)))
         :aspect performance
         :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -518,6 +535,7 @@ Words: You        seem,      uh,        DISTRESSED by         facts      BEZERK.
                               :wiki -)
                   :mod (s18u / uh
                              :mode expressive)))
+
 # alignment:
 
 # document level annotation:
@@ -545,6 +563,7 @@ Words: I        brought  up       SLBM's   &        cruise   missiles which    A
         :mod (s19w / weapon
             :mod (s19n / nucleus)
             :mod (s19p / primary))))
+
 # alignment:
 
 # document level annotation:
@@ -563,6 +582,7 @@ Words: The      focus    now      however, is       on       cyber    attacks.
                    :ARG1 (s20a / attack-01
                                :medium (s20c / cyber))
                    :temporal (s20n / now)))
+
 # alignment:
 
 # document level annotation:
@@ -583,6 +603,7 @@ Words: Catch    up       on       your     reading.
     :ARG2 (s21r / read-01
         :ARG0 s21y)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -610,6 +631,7 @@ Words: Or         have       someone    read       about      recent     technol
             :ARG3 (s22t / technology
                 :temporal (s22r2 / recent)))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:

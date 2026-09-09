@@ -7,6 +7,7 @@ Words: Chapter 24      .
 # sentence level graph:
 (s1218c / chapter
         :mod 24)
+
 # alignment:
 
 # document level annotation:
@@ -44,6 +45,7 @@ Words: It       was      now      the      eighth   day      since    I        h
                         :ARG2 s1219i))
                 :ord (s1219o / ordinal-entity
                     :value "-1")))))
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +61,7 @@ Words: "  Ah ,  "
 # sentence level graph:
 (s1220a / ah
         :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -117,6 +120,7 @@ Words: I         said      to        the       little    prince    ,         "  
         :quote s1221s)
     :ARG2 (s1221p / prince
         :mod (s1221l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +145,7 @@ Words: "      My     friend the    fox    -      -      "      the    little pri
             :ARG3 (s1222f2 / friend))
         :quote s1222s)
     :ARG2 s1222i)
+
 # alignment:
 
 # document level annotation:
@@ -174,6 +179,7 @@ Words: "        My       dear     little   man      ,        this     is       n
         :ARG2 s1223m
         :aspect performance
         :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -191,6 +197,7 @@ Words: "   Why not ?   "
         :ARG1 (s1224h2 / have-polarity-91
                        :ARG2 -)
         :ARG2 (s1224a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -215,6 +222,7 @@ Words: "       Because I       am      about   to      die     of      thirst  .
                 :ARG0 s1225i))
         :temporal (s1225a / about-to)
         :quote s1225s))
+
 # alignment:
 
 # document level annotation:
@@ -250,6 +258,7 @@ Words: He        did       not       follow    my        reasoning ,         and
                     :ARG1 s1226o
                     :temporal (s1226a3 / about-to)))
             :quote s1226a2)))
+
 # alignment:
 
 # document level annotation:
@@ -273,6 +282,7 @@ Words: I        ,        for      instance ,        am       very     glad     t
         :ARG3 (s1227f / friend))
     :ARG1 s1227i
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -298,6 +308,7 @@ Words: "        He       has      no       way      of       guessing the      d
         :modal-strength neutral-affirmative
         :polarity -)
     :ARG2 s1228i)
+
 # alignment:
 
 # document level annotation:
@@ -309,6 +320,7 @@ Words: "        He       has      no       way      of       guessing the      d
 # :: snt1229
 # sentence level graph:
 (s1229u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -334,6 +346,7 @@ Words: "       He      has     never   been    either  hungry  or      thirsty .
             :polarity -)
         :temporal (s1230e / ever)
         :quote s1230s))
+
 # alignment:
 
 # document level annotation:
@@ -354,6 +367,7 @@ Words: A        little   sunshine is       all      he       needs    ...      "
     :ARG1 (s1231s / sunshine
         :quant (s1231l / little))
     :mod (s1231a / all))
+
 # alignment:
 
 # document level annotation:
@@ -386,6 +400,7 @@ Words: But      he       looked   at       me       steadily ,        and      r
                 :ARG0 s1232h
                 :mod (s1232t4 / too)
                 :quote s1232r))))
+
 # alignment:
 
 # document level annotation:
@@ -405,6 +420,7 @@ Words: Let  us   look for  a    well ...  "
         :refer-number plural)
     :ARG1 (s1233w2 / well)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -424,6 +440,7 @@ Words: I         made      a         gesture   of        weariness .
         :refer-number singular)
     :ARG1 (s1234w / weary-01
         :ARG1 s1234i))
+
 # alignment:
 
 # document level annotation:
@@ -443,6 +460,7 @@ Words: It        is        absurd    to        look      for       a         wel
                         :place (s1235d / desert
                                        :mod (s1235i / immense))
                         :manner (s1235r / random)))
+
 # alignment:
 
 # document level annotation:
@@ -462,6 +480,7 @@ Words: But          nevertheless we           started      walking      .
             :refer-person 1st
             :refer-number plural)
         :ARG1 (s1236w2 / walk-01)))
+
 # alignment:
 
 # document level annotation:
@@ -491,6 +510,7 @@ Words: When     we       had      trudged  along    for      several  hours    ,
                 :unit (s1237h / hour)
                 :quant 1))
         :manner (s1237s3 / silent)))
+
 # alignment:
 
 # document level annotation:
@@ -521,6 +541,7 @@ Words: Thirst   had      made     me       a        little   feverish ,        a
         :ARG1-of (s1238r / resemble-91
             :ARG2 (s1238d / dream-01
                 :ARG0 s1238i))))
+
 # alignment:
 
 # document level annotation:
@@ -554,6 +575,7 @@ Words: The     little  prince  's      last    words   came    reeling back    i
         :manner (s1239r / reel-03
             :ARG1 s1239w
             :ARG2 s1239m)))
+
 # alignment:
 
 # document level annotation:
@@ -567,6 +589,7 @@ Words:
 
 # sentence level graph:
 (s1240u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -590,6 +613,7 @@ Words: But      he       did      not      reply    to       my       question .
                 :refer-person 1st
                 :refer-number singular))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -616,6 +640,7 @@ Words: He     merely said   to     me     :      "      Water  may    also   be 
         :refer-person 1st
         :refer-number singular)
     :mod (s1242m / mere))
+
 # alignment:
 
 # document level annotation:
@@ -643,6 +668,7 @@ Words: I          did        not        understand this       answer     ,      
             :refer-number plural)
         :polarity -)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -668,6 +694,7 @@ Words: I          knew       very       well       that       it         was    
         :modal-strength neutral-affirmative
         :polarity -)
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -685,6 +712,7 @@ Words: He    was   tired .
     :ARG1 (s1245h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -702,6 +730,7 @@ Words: He   sat  down .
     :ARG1 (s1246h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -723,6 +752,7 @@ Words: I      sat    down   beside him    .
         :op1 (s1247h / person
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -754,6 +784,7 @@ Words: And       ,         after     a         little    silence   ,         he 
                         :modal-strength neutral-affirmative
                         :polarity -))
                 :quote s1248s3))))
+
 # alignment:
 
 # document level annotation:
@@ -776,6 +807,7 @@ Words: I       replied ,       "       Yes     ,       that    is      so      .
         :op2 (s1249c / confirm-91
             :ARG1 (s1249t / that))
         :quote s1249r))
+
 # alignment:
 
 # document level annotation:
@@ -812,6 +844,7 @@ Words: And       ,         without   saying    anything  more      ,         I  
                 :refer-person 3rd
                 :refer-number singular)
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -831,6 +864,7 @@ Words: "         The       desert    is        beautiful ,         "         the
         :ARG1 (s1251b / beautiful-02
                       :ARG1 (s1251d / desert)
                       :quote s1251a))
+
 # alignment:
 
 # document level annotation:
@@ -847,6 +881,7 @@ Words: And  that was  true .
 (s1252a / and
         :op2 (s1252t / true-01
                      :ARG1 (s1252t2 / that)))
+
 # alignment:
 
 # document level annotation:
@@ -866,6 +901,7 @@ Words: I      have   always loved  the    desert .
         :refer-number singular)
     :ARG1 (s1253d / desert)
     :temporal (s1253a / always))
+
 # alignment:
 
 # document level annotation:
@@ -879,6 +915,7 @@ Index: 1       2       3       4       5       6       7       8       9       1
 Words: One     sits    down    on      a       desert  sand    dune    ,       sees    nothing ,       hears   nothing .
 
 # sentence level graph:
+
 # alignment:
 
 # document level annotation:
@@ -901,6 +938,7 @@ Words: Yet       through   the       silence   something throbs    ,         and
     :op2 (s1255g / gleam-01
         :ARG0 s1255s)
     :concession (s1255s2 / silent))
+
 # alignment:
 
 # document level annotation:
@@ -925,6 +963,7 @@ Words: "         What      makes     the       desert    beautiful ,         "  
                       :ARG1 (s1256b / beautiful-02
                                     :ARG1 s1256d)
                       :quote s1256s))
+
 # alignment:
 
 # document level annotation:
@@ -949,6 +988,7 @@ Words: I             was           astonished    by            a             sud
             :mod (s1257t / that))
         :manner (s1257s / sudden))
     :ARG1 s1257i)
+
 # alignment:
 
 # document level annotation:
@@ -989,6 +1029,7 @@ Words: When     I        was      a        little   boy      I        lived    i
                                     :refer-number plural)
                      :aspect state
                      :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1018,6 +1059,7 @@ Words: To      be      sure    ,       no      one     had     ever    known   h
         :ARG1 s1259i
         :temporal s1259e2
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1039,6 +1081,7 @@ Words: But         it          cast        an          enchantment over        t
         :ARG1 (s1260e / enchant-01)
         :ARG2 (s1260h / house
             :mod (s1260t / that))))
+
 # alignment:
 
 # document level annotation:
@@ -1061,6 +1104,7 @@ Words: My     home   was    hiding a      secret in     the    depths of     its
     :ARG1 (s1261s / secret)
     :place (s1261d / deep-02
         :ARG1 s1261h3))
+
 # alignment:
 
 # document level annotation:
@@ -1082,6 +1126,7 @@ Words: "      Yes    ,      "      I      said   to     the    little prince .
     :quote-of s1262y
     :ARG2 (s1262p / prince
         :mod (s1262l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -1093,6 +1138,7 @@ Words: "      Yes    ,      "      I      said   to     the    little prince .
 # :: snt1263
 # sentence level graph:
 (s1263u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -1122,6 +1168,7 @@ Words: "         The       house     ,         the       stars     ,         the
                 :op3 (s1264d / desert)
                 :ARG2-of s1264g2))
         :quote s1264s))
+
 # alignment:
 
 # document level annotation:
@@ -1148,6 +1195,7 @@ Words: "     I     am    glad  ,     "     he    said  ,     "     that  you   a
                 :possessor s1265h))
         :ARG1 s1265h
         :quote s1265s))
+
 # alignment:
 
 # document level annotation:
@@ -1179,6 +1227,7 @@ Words: As      the     little  prince  dropped off     to      sleep   ,       I
         :ARG0 s1266p
         :ARG2 (s1266s2 / sleep-01
             :ARG0 s1266p)))
+
 # alignment:
 
 # document level annotation:
@@ -1202,6 +1251,7 @@ Words: I       felt    deeply  moved   ,       and     stirred .
             :ARG1-of (s1267d / deep-02))
         :op2 (s1267s / stir-02
             :ARG1 s1267i)))
+
 # alignment:
 
 # document level annotation:
@@ -1224,6 +1274,7 @@ Words: It       seemed   to       me       that     I        was      carrying a
             :mod (s1268f / fragile
                 :degree intensifier)))
     :ARG2 s1268i)
+
 # alignment:
 
 # document level annotation:
@@ -1252,6 +1303,7 @@ Words: It      seemed  to      me      ,       even    ,       that    there   w
         :refer-person 1st
         :refer-number singular)
     :mod (s1269e / even))
+
 # alignment:
 
 # document level annotation:
@@ -1296,6 +1348,7 @@ Words: In        the       moonlight I         looked    at        his       pal
             :place (s1270h3 / here)
             :quote s1270s)
         :ARG2 s1270i))
+
 # alignment:
 
 # document level annotation:
@@ -1317,6 +1370,7 @@ Words: What      is        most      important is        invisible ...       "
                                        :ARG3 (s1271m / most)))
         :modal-strength neutral-affirmative
         :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1367,6 +1421,7 @@ Words: As         his        lips       opened     slightly   with       the    
             :manner (s1272s5 / suspicion))
         :degree downtoner)
     :mod (s1272a2 / again))
+
 # alignment:
 
 # document level annotation:
@@ -1392,6 +1447,7 @@ Words: And     I       felt    him     to      be      more    fragile still   .
             :ARG2 (s1273f2 / fragile)
             :ARG3 (s1273m / more)
             :mod (s1273s / still))))
+
 # alignment:
 
 # document level annotation:
@@ -1423,6 +1479,7 @@ Words: I            felt         the          need         of           protecti
                         :ARG1 (s1274w / wind)
                         :mod (s1274l / little))
                     :modal-strength neutral-affirmative)))))
+
 # alignment:
 
 # document level annotation:
@@ -1447,6 +1504,7 @@ Words: And      ,        as       I        walked   on       so       ,        I
             :ARG0 s1275i
             :mod (s1275o / on)
             :manner (s1275s / so))))
+
 # alignment:
 
 # document level annotation:

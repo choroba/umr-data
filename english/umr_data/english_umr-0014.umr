@@ -35,6 +35,7 @@ Words: Americans' assessment of         Congress   has        hit        a      
     :ARG1 (s1l / low-04
         :ARG1 s1g2
         :ARG1-of (s1n2 / new-01)))
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +74,7 @@ Words: The           83%           disapproval   rating        is            als
                                      :op1 (s2t / temporal-quantity
                                                :unit (s2y / year)
                                                :quant 30))))
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +104,7 @@ Words: Ever      notice    that      the       more      gridlock  there     is,
                                            :ARG2 (s3d / down-03
                                                       :ARG1 s3g3))))
      :temporal (s3e / ever))
+
 # alignment:
 
 # document level annotation:
@@ -138,6 +141,7 @@ Words: In          other       words,      Congress    should      stop        a
             :manner (s4b2 / bipartisan
                 :ARG1-of (s4r2 / real-04))))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +173,7 @@ Words: It       worked   for      Reagan   and      Clinton  and      look     a
         :ARG1 (s5t / thing
             :ARG2-of (s5r / result-01
                 :mod (s5p3 / positive)))))
+
 # alignment:
 
 # document level annotation:
@@ -191,6 +196,7 @@ Words: I'm        not        the        least      bit        surprised.
         :ARG3 (s6l / least
             :mod (s6b / bit)))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -216,6 +222,7 @@ Words: I'm     still   waiting for     Pelosi  to      drain   the     damned  s
         :ARG1 (s7s2 / swamp
             :ARG1-of (s7d2 / damn-01)))
     :mod (s7s / still))
+
 # alignment:
 
 # document level annotation:

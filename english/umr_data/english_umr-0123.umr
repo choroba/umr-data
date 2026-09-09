@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -24,6 +25,7 @@ Words: actions     by          some        of          the         protestors?
                                           :ARG0-of (s2p2 / protest-01)))
                  :quant (s2s / some))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -62,6 +64,7 @@ Words: What             Fox              News/Republicans don't            seem 
                                                                   :ARG1-of (s3a2 / attract-01
                                                                                  :ARG0 s3m2)))))
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -90,6 +93,7 @@ Words: In             other          words,         the            trouble-maker
      :ARG1-of (s4w / word-01
                    :mod (s4o / other))
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +119,7 @@ Words: The         OWS         from        the         very        beginning   h
      :temporal (s5f / from
                     :op1 (s5b / begin-01
                               :mod (s5v / very))))
+
 # alignment:
 
 # document level annotation:
@@ -133,6 +138,7 @@ Words: That      is        what      the       founders  of        the       mov
                 :ARG0-of (s6f2 / found-01
                                :ARG1 (s6m / movement-07)))
      :ARG1 (s6t / that))
+
 # alignment:
 
 # document level annotation:
@@ -162,6 +168,7 @@ Words: Unfortunately, because        the            movement       is           
         :ARG2 (s7c2 / chaos)
         :ARG2-of (s7f / fortunate-01
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -184,6 +191,7 @@ Words: That         is           a            human-driven consequence; it      
                  :ARG0 (s8i / ideology)
                  :ARG1 s8c2
                  :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -216,6 +224,7 @@ Words: I           think       it          is          reasonable  to          c
                         :ARG1-of (s9c2 / clear-06))
                     :op2 (s9l2 / lead-02
                         :ARG1 s9p))))))
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +256,7 @@ Words: If         it         did        have       these      qualities, I      
                 :refer-number singular)
             :ARG1 (s10q / quality
                 :mod (s10t4 / this)))))
+
 # alignment:
 
 # document level annotation:
@@ -273,6 +283,7 @@ Words: However,        by              that            same            rationale
                                     :ARG1-of (s11s2 / same-01)
                                     :mod (s11t2 / that))
                   :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -332,6 +343,7 @@ Words: Let          me           put          it           this         way:    
         :manner (s12w / way
             :mod (s12t / this)))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -347,6 +359,7 @@ Words: The         answer      is          absolutely.
 # sentence level graph:
 (s13a / answer-01
       :ARG2 (s13a2 / absolute))
+
 # alignment:
 
 # document level annotation:

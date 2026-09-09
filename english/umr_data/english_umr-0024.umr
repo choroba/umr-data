@@ -41,6 +41,7 @@ Words: The         Democrats   must        return      to          their       p
                     :mod (s1j / just)))
             :ARG2 (s1p3 / person)))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -68,6 +69,7 @@ Words: Hopefully     the           Massachusetts loss          has           mad
                                       :wiki "Barack_Obama")
                            :ARG2 (s2t / track
                                       :ARG2-of (s2p2 / progressive-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +93,7 @@ Words: What        is          interesting about       the         2           p
                 :polarity -)
      :topic (s3s / system
                  :mod s3p))
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +115,7 @@ Words: They    always  vote    AGAINST THE     OTHER   ONE.
         :op1 (s4p / person
             :mod (s4o2 / other)))
     :temporal (s4a / always))
+
 # alignment:
 
 # document level annotation:
@@ -146,6 +150,7 @@ Words: The            net            result         is             the          
                         :refer-person 3rd
                         :refer-number singular))
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:

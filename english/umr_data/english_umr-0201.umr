@@ -25,6 +25,7 @@ Words: In         the        face       of         criticism  and        nitpick
         :ARG1 (s1a / and
             :op1 (s1c / criticize-01)
             :op2 (s1n3 / nitpick-00))))
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: Why ?
 (s2c / cause-01
      :ARG0 (s2a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -82,6 +84,7 @@ Words: Because   Darwin    was       allowed   to        make      mistakes  ,  
                                                                                 :op1 "God")
                                                                     :wiki "God")))
                              :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +118,7 @@ Words: Darwin    proposed  Evolution Theory    ,         but       it        was
                                                    :ARG1-of (s4q / question-01)
                                                    :quant (s4m / many)))
                            :mod (s4a3 / also))))
+
 # alignment:
 
 # document level annotation:
@@ -175,6 +179,7 @@ Words: Others        may           agree         with          him           ,  
                 :modal-strength neutral-affirmative))
         :temporal (s5f2 / future))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +206,7 @@ Words: But        as         the        originator ,          Darwin     deserve
                              :quant (s6m / much))
                  :ARG1-of (s6c3 / cause-01
                                 :ARG0 s6p2)))
+
 # alignment:
 
 # document level annotation:
@@ -235,6 +241,7 @@ Words: Jesus is    God   ,     and   the   Bible is    the   word  of    God   .
                           :source s7p3
                           :aspect state
                           :modal-strength full-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -271,6 +278,7 @@ Words: God         creates     everything  ,           understands everything  ,
         :ARG1 (s8w / wrong-04
             :ARG1 s8p4
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -304,6 +312,7 @@ Words: Therefore   ,           if          you         find        a           s
                 :ARG1 (s9w / wrong-04
                     :ARG1 s9s)
                 :ARG1-of (s9e / effective-04)))))
+
 # alignment:
 
 # document level annotation:
@@ -339,6 +348,7 @@ Words: Therefore  ,          Jesus      is         more       vulnerable to     
                                 :name (s10n2 / name
                                              :op1 "Darwin")
                                 :wiki "Charles_Darwin")))
+
 # alignment:
 
 # document level annotation:

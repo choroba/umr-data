@@ -22,6 +22,7 @@ Words: I         hear      a         lot       these     days      about     ask
         :quant (s1l / lot))
     :temporal (s1d / day
         :mod (s1t2 / this)))
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +70,7 @@ Words: While     Im       not       sure      what      a         fair     s
                         :temporal (s2a3 / already)))))
         :ARG1 s2i22
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -97,6 +99,7 @@ Words: Should   tax      policy   be       fair,  or       should   it      
                                                         :ARG3 (s3m / most))))
                 :modal-strength neutral-affirmative)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +144,7 @@ Words: We           have         a            determinable tax          base    
                                         :mod (s4c3 / certain))))))
                     :polarity -))
             :mode imperative)))
+
 # alignment:
 
 # document level annotation:
@@ -166,6 +170,7 @@ Words: How       would     you       divide    the       taxpaying pie     b
             :mod (s5v / various)))
     :manner (s5a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +204,7 @@ Words: We           could        conclude     that         it           was     
             :ARG0 s6r)
         :ARG3 (s6m2 / most))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -232,6 +238,7 @@ Words: Lower       income      households  would       tend        to          i
             :mod (s7a / additional)
             :mod (s7t2 / that))
         :temporal (s7i2 / immediate)))
+
 # alignment:
 
 # document level annotation:
@@ -292,6 +299,7 @@ Words: Of          course,     since       many        of          the         p
                 :ARG2 (s8s3 / short-07)
                 :mod (s8a / at-least)))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -329,6 +337,7 @@ Words: If          instead     you         reduce      the         levels      p
                     :mod (s9i3 / income
                         :mod (s9u / upper)))))
         :ARG1-of (s9h2 / have-substitute-91)))
+
 # alignment:
 
 # document level annotation:
@@ -367,6 +376,7 @@ Words: Again,      some        (probably   fairly      sizeable)   percentage  o
                         :ARG1 (s10a2 / asset
                             :mod (s10b / business)))))))
     :mod (s10a3 / again))
+
 # alignment:
 
 # document level annotation:
@@ -394,6 +404,7 @@ Words: However,      the           savings       rate          of            the
                                   :ARG1 (s11i2 / invest-01
                                                :ARG2 (s11b / business))
                                   :mod (s11t2 / theory))))
+
 # alignment:
 
 # document level annotation:
@@ -427,6 +438,7 @@ Words: Setting     aside       what        is          fair,     which      
             :refer-person 2nd
             :refer-number singular))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -456,6 +468,7 @@ Words: Is        there     an        optimum   level     where     consumers hav
                                   :domain (s13p2 / pool-01
                                                  :ARG1 (s13c2 / capital))))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -480,6 +493,7 @@ Words: Government has        no         business   being      anything   other  
       :polarity -
       :aspect state
       :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -506,6 +520,7 @@ Words: Either      it          establishes and         serves      Justice     o
     :op2 (s15w / war-01
         :ARG0 s15i
         :ARG1 s15j))
+
 # alignment:
 
 # document level annotation:
@@ -524,6 +539,7 @@ Words: Can't have  it    both  ways.
                      :mod (s16b / both))
       :modal-strength neutral-affirmative
       :polarity -)
+
 # alignment:
 
 # document level annotation:

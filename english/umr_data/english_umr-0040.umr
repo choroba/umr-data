@@ -30,6 +30,7 @@ Words: I           think       immigration levels      are         high,       a
         :ARG1 (s1b / bigot
             :domain (s1t3 / talk-01
                 :ARG1 s1h))))
+
 # alignment:
 
 # document level annotation:
@@ -50,6 +51,7 @@ Words: i         have      to        say       i         disagree.
     :ARG1 (s2d / disagree-01
         :ARG0 s2i)
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +90,7 @@ Words: my          father      comes       from        an          immigrant   b
                                 :ARG1 s3l)
                             :ARG3 (s3m / more))))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -148,6 +151,7 @@ Words: i                    also                 think                its       
                             :op5 "Rights")
                         :wiki "European_Court_of_Human_Rights")))))
     :mod (s4a / also))
+
 # alignment:
 
 # document level annotation:
@@ -173,6 +177,7 @@ Words: Am      i       racist  and     bigoted for     these   views   ?
         :ARG0 s5i
         :ARG1 (s5t / this))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -202,6 +207,7 @@ Words: No,         saying      that        immigration levels      are         h
                                                     :ARG2 (s6l2 / low-04
                                                                 :ARG1 s6l)
                                                     :ARG3 (s6m2 / more))))))
+
 # alignment:
 
 # document level annotation:
@@ -242,6 +248,7 @@ Words: Everybody   knows       the         rate        of          immigration i
                     :refer-person 3rd
                     :refer-number singular))
             :mod (s7j / just))))
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +292,7 @@ Words: Your           beliefs        don't          stem           from         
                 :ARG2 s8r
                 :mod (s8a4 / also)))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -323,6 +331,7 @@ Words: Not       saying    that      you       are,      I         am        say
                             :ARG1 (s9t2 / thing
                                 :ARG1-of (s9b / believe-01)
                                 :mod (s9t3 / this)))))))))
+
 # alignment:
 
 # document level annotation:
@@ -361,6 +370,7 @@ Words: For             example,        if              you             made     
         :ARG1 s10d3
         :ARG2 (s10d / discriminate-02)
         :ARG1-of (s10c / certain-01)))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +388,7 @@ Words: Basically there     is        a         thin      line.
       :ARG1 (s11l / line
                   :ARG1-of (s11t / thin-03))
       :mod (s11b / basic))
+
 # alignment:
 
 # document level annotation:
@@ -418,6 +429,7 @@ Words: Sucks       but         life        is          sometimes   politically c
             :modal-strength partial-affirmative))
     :ARG2 (s12s2 / suck-03
         :ARG0 s12c))
+
 # alignment:
 
 # document level annotation:

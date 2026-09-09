@@ -7,6 +7,7 @@ Words: Chapter 23      .
 # sentence level graph:
 (s1206c / chapter
         :mod 23)
+
 # alignment:
 
 # document level annotation:
@@ -26,6 +27,7 @@ Words: "       Good    morning ,       "       said    the     little  prince  .
         :ARG1 (s1207m / morning
                       :ARG1-of (s1207g / good-02)
                       :quote s1207s))
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +47,7 @@ Words: "        Good     morning  ,        "        said     the      merchant .
         :ARG1 (s1208m2 / morning
                        :ARG1-of (s1208g / good-02)
                        :quote s1208s))
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +72,7 @@ Words: This     was      a        merchant who      sold     pills    that     h
                  :aspect state
                  :ARG1 (s1209t2 / this)
                  :ARG3 (s1209p / person)))
+
 # alignment:
 
 # document level annotation:
@@ -106,6 +110,7 @@ Words: You      need     only     swallow  one      pill     a        week     ,
                     :refer-person 3rd
                     :refer-number singular)))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -130,6 +135,7 @@ Words: "       Why     are     you     selling those   ?       "       asked   t
         :ARG1-of (s1211c / cause-01
             :ARG0 (s1211a2 / umr-unknown))
         :quote s1211a))
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +162,7 @@ Words: "          Because    they       save       a          tremendous amount 
                 :ARG1-of (s1212a / amount-01
                     :ARG2 (s1212t3 / tremendous))))
         :quote s1212s))
+
 # alignment:
 
 # document level annotation:
@@ -174,6 +181,7 @@ Words: "            Computations have         been         made         by      
                       :ARG1-of (s1213e / expert-01))
         :ARG1 (s1213t / thing
                       :ARG1-of (s1213c / compute-01)))
+
 # alignment:
 
 # document level annotation:
@@ -200,6 +208,7 @@ Words: With    these   pills   ,       you     save    fifty   -       three   m
             :quant 1))
     :instrument (s1214p / pill
         :mod (s1214t2 / this)))
+
 # alignment:
 
 # document level annotation:
@@ -223,6 +232,7 @@ Words: "       And     what    do      I       do      with    those   fifty   -
             :unit (s1215m / minute)
             :mod (s1215t2 / that)
             :quant 53)))
+
 # alignment:
 
 # document level annotation:
@@ -246,6 +256,7 @@ Words: "        Anything you      like     ...      "
         :mod (s1216a1 / any)
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -282,6 +293,7 @@ Words: "       As      for     me      ,       "       said    the     little  p
                 :quant 53))
         :quote s1217s)
     :ARG2 s1217p)
+
 # alignment:
 
 # document level annotation:

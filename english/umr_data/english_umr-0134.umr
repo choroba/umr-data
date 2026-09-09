@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -19,6 +20,7 @@ Words: A       marxist code    word
 (s2w / word
      :mod (s2c / code)
      :mod (s2m / marxist))
+
 # alignment:
 
 # document level annotation:

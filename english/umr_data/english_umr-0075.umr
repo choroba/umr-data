@@ -19,6 +19,7 @@ Words: Yeah,   I       came    here    to      lie     to      impress a       t
                     :ARG2 (s1y / person
                         :refer-person 2nd
                         :refer-number singular))))))
+
 # alignment:
 
 # document level annotation:
@@ -30,6 +31,7 @@ Words: Yeah,   I       came    here    to      lie     to      impress a       t
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +63,7 @@ Words: Sorry     that      some      of        us        in        life      and
                         :refer-person 2nd
                         :refer-number singular)
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -83,6 +86,7 @@ Words: like       flown      a          jet,       been       in         a      
                  :op3 (s4w / work-07
                            :ARG1 (s4n / nuke))
                  :op4 (s4e2 / et-cetera)))
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +113,7 @@ Words: Um,       I         worked    with      them      for       around    9  
         :op1 (s5t2 / temporal-quantity
             :unit (s5y / year)
             :quant 9)))
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +139,7 @@ Words: I     know  about the   SIOP  than  you   do.
         :ARG1 (s6o / operate-01)
         :ARG1-of (s6i2 / integrate-01)
         :ARG1-of (s6s / single-02)))
+
 # alignment:
 
 # document level annotation:
@@ -165,6 +171,7 @@ Words: Sure  you   did   and   I'm   sure  you   can   prove it    too.
                 :refer-number singular)
             :mod (s7t / too)
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -180,6 +187,7 @@ Words: Right?
 # sentence level graph:
 (s8r / request-confirmation-91
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -206,6 +214,7 @@ Words: You      don't    want     to       believe  others   when     they     t
             :ARG1 (s9s / serve-01
                 :ARG0 s9p)))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +243,7 @@ Words: Why    should anyone here   take   your   word   for    it?
             :refer-number singular))
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

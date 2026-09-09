@@ -22,6 +22,7 @@ Words: According    to           this,        American     citizens     can     
                               :ARG1 s1c
                               :polarity -)
                 :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +53,7 @@ Words: Does           that           mean           that           anyone       
             :temporal (s2f / forever))
         :modal-strength neutral-affirmative)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +76,7 @@ Words: If     so,    I      think  it's   scary.
             :refer-person 3rd
             :refer-number singular))
     :condition (s3s2 / so))
+
 # alignment:
 
 # document level annotation:
@@ -104,6 +107,7 @@ Words: But      who      decides  that     the      person   was      actually a
                                      :ARG2 s4c2))
                 :ARG1-of (s4a2 / actual-02))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +128,7 @@ Words: What      court     can       review    that      decision?
                 :ARG1-of (s5d / decide-01))
      :modal-strength neutral-affirmative
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:

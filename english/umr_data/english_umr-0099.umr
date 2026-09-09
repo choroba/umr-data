@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -33,6 +35,7 @@ Words: A        company  that     hires    through  a        temp     service.
                                     :affectee (s3p / person
                                                    :ARG0-of (s3w / work-01
                                                                  :manner (s3t / temporary))))))
+
 # alignment:
 
 # document level annotation:
@@ -51,6 +54,7 @@ Words: One    to     bring  people in     for    the    pay.
      :ARG2 (s5b / bring-01
                 :ARG1 (s5p / person)
                 :purpose (s5p2 / pay-01)))
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +75,7 @@ Words: And    one    that   just   sucks  that   almost no     one    will   tak
                :ARG1-of (s6t / take-01
                              :ARG0 (s6n / no-one
                                         :mod (s6a2 / almost)))))
+
 # alignment:
 
 # document level annotation:
@@ -111,6 +116,7 @@ Words: When      the       big       payer     ends,     the       temp      co 
                                                       :aspect state)
                                           :polarity -))
                  :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:

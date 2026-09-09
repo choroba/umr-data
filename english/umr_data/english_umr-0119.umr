@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -53,6 +56,7 @@ Words: Yeah,     that's    how       we        got       Obamacare rammed    dow
                     :refer-number plural))))
     :mod (s4y / yeah
         :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -83,6 +87,7 @@ Words: That's  not     what's  rammed  down    your    throat  though, is      i
    :ARG1-of (s5h / have-concession-91)
    :ARG1-of s5r2
    :aspect state)
+
 # alignment:
 
 # document level annotation:

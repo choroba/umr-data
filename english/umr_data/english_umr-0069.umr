@@ -6,6 +6,7 @@ Words: Right.
 
 # sentence level graph:
 (s1r / right-06)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +36,7 @@ Words: A          liberal    thinks     there      are        all        sorts  
                                          :mod (s2g / gay-01))
                            :example (s2a2 / abort-01
                                           :ARG1-of (s2d / demand-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +66,7 @@ Words: Can           you           show          us            where         int
         :refer-number plural)
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

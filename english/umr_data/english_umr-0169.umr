@@ -19,6 +19,7 @@ Words: I             like          how           free          speech        rig
                 :ARG0 s1r
                 :ARG1 (s1s2 / speak-01
                     :ARG1-of (s1o / objectionable-02))))))
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +46,7 @@ Words: Free      Speech    was       meant     to        protect   a         pol
                             :ARG1 (s2h / hear-01
                                        :ARG1 (s2m4 / message-01
                                                    :ARG0 s2m2)))))
+
 # alignment:
 
 # document level annotation:
@@ -81,6 +83,7 @@ Words: It             was            not            meant          to           
                 :ARG2-of (s3m3 / motivate-01
                     :ARG0 (s3p5 / politic)))))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +105,7 @@ Words: Some        speech      is          simply      unnecessary to          t
                    :possessor (s4d / debate-01
                                    :ARG1 (s4p / politics)))
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +135,7 @@ Words: I         expect    that      the       ruling    will      fall      on 
                     :ARG0 s5l
                     :ARG1 (s5l2 / liberty
                         :possessor (s5a / another)))))))
+
 # alignment:
 
 # document level annotation:
@@ -168,6 +173,7 @@ Words: So,       if        I         print     up        a         political tra
             :ARG1 (s6p3 / politics)
             :ARG2 s6p))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -189,6 +195,7 @@ Words: How      exactly  is       that     supposed to       work?
      :ARG2 (s7a / umr-unknown)
      :mod (s7e / exact)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:

@@ -27,6 +27,7 @@ Words: Everyone  who       has       been      asking    me        to        des
         :mod (s1e1 / every)
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +53,7 @@ Words: I         am        sorry,    I         need      to        take      a  
                 :ARG1-of (s2q / question-01)
                 :mod (s2t2 / this)))
         :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -79,6 +81,7 @@ Words: No       one      has      done     anything wrong,   my       health   i
             :refer-number singular)
         :temporal (s3m / moment)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -104,6 +107,7 @@ Words: I         apologize and       I         thank     you       for       bei
             :refer-number plural)
         :ARG2 (s4k / kind-01
             :ARG0 s4y)))
+
 # alignment:
 
 # document level annotation:
@@ -125,6 +129,7 @@ Words: I       will    be      OK      soon    and     return.
         :temporal (s5s / soon))
     :op2 (s5r / return-01
         :ARG1 s5i))
+
 # alignment:
 
 # document level annotation:
@@ -144,6 +149,7 @@ Words: Take     care     of       yourself dude
                 :ARG1 s6d
                 :mode imperative)
      :ARG2 s6d)
+
 # alignment:
 
 # document level annotation:

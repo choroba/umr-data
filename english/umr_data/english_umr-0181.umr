@@ -20,6 +20,7 @@ Words: 1.        According to        the       Arizona   Republic  Kyrsten   Sin
                 :ARG1 (s1r / run-02
                            :ARG0 s1p))
      :list-item 1)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +48,7 @@ Words: She   would jump  from  AZ-9  to    AZ-7  which is    a     safe  seat.
         :mod (s2s2 / seat-02
             :ARG0-of (s2s3 / safe-01))
         :wiki "Arizona's_7th_congressional_district"))
+
 # alignment:
 
 # document level annotation:
@@ -78,6 +80,7 @@ Words: She         has         not         said        she         will        b
                 :ARG1 s3s3)
             :ARG3 (s3m / more))
         :polarity -))
+
 # alignment:
 
 # document level annotation:

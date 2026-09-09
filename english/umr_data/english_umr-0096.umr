@@ -9,6 +9,7 @@ Words: Pols  get   to    walk  all   the   time.
       :ARG0 (s1p / politician)
       :temporal (s1t / time
                      :mod (s1a / all)))
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: krist     just      look      at        the       record    of        any
             :op1 "Christ")
         :mode expressive
         :wiki "Jesus"))
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +60,7 @@ Words: I'd     bet     at      least   75      percent should  be      in      j
     :ARG0 (s3i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -96,6 +99,7 @@ Words: As       wrong    as       this     is,      please   recall,  Kennedy  k
         :polite +)
     :ARG2 (s4w2 / wrong-02
         :ARG1 (s4t2 / this)))
+
 # alignment:
 
 # document level annotation:
@@ -122,6 +126,7 @@ Words: And   no    one   said  or    will  say   shit  about it.
             :ARG0 s5n
             :ARG1 s5s3
             :temporal (s5f / future))))
+
 # alignment:
 
 # document level annotation:

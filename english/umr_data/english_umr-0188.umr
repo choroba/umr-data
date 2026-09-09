@@ -27,6 +27,7 @@ Words: The        federal    government suspended  sales      of         U.S.   
                                                         :mod (s1g5 / government-organization
                                                                    :ARG0-of (s1g2 / govern-01))))
                               :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -62,6 +63,7 @@ Words: Until       Congress    acts        ,           the         government  h
                                                                  :op1 "Congress")
                                                       :wiki "United_States_Congress")))
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +93,7 @@ Words: The        government 's         borrowing  authority  dropped    at     
       :temporal (s3d / date-entity
                      :weekday (s3w / wednesday)
                      :time "0:00"))
+
 # alignment:
 
 # document level annotation:
@@ -116,6 +119,7 @@ Words: Legislation to          lift        the         debt        ceiling     i
                                                       :ARG3 (s4t3 / thing
                                                                   :ARG1-of (s4g3 / gain-02
                                                                                  :mod (s4c5 / capital))))))))
+
 # alignment:
 
 # document level annotation:
@@ -150,6 +154,7 @@ Words: The      House    has      voted    to       raise    the      ceiling  t
                                             :op1 (s5w / week
                                                       :mod (s5n3 / next)))
                             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -184,6 +189,7 @@ Words: The      Treasury said     the      U.S.     will     default  on       N
                                  :temporal (s6b / by
                                                 :op1 s6d)
                                  :polarity -)))
+
 # alignment:
 
 # document level annotation:

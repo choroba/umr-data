@@ -7,6 +7,7 @@ Words: Chapter 10      .
 # sentence level graph:
 (s480c / chapter
        :mod 10)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +59,7 @@ Words: He           found        himself      in           the          neighbor
                         :name (s481n7 / name
                             :op1 "330")
                         :wiki -))))))
+
 # alignment:
 
 # document level annotation:
@@ -85,6 +87,7 @@ Words: He        began     ,         therefore ,         by        visiting  the
         :ARG0 s482v
         :ARG2 (s482k / knowledge
             :possessor s482h)))
+
 # alignment:
 
 # document level annotation:
@@ -107,6 +110,7 @@ Words: The       first     of        them      was       inhabited by        a  
             :ARG2 (s483t / person
                 :refer-person 3rd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +136,7 @@ Words: Clad     in       royal    purple   and      ermine   ,        he       w
     :ARG2 (s484t / throne
         :ARG1-of (s484s2 / simple-02)
         :mod (s484m / majestic)))
+
 # alignment:
 
 # document level annotation:
@@ -147,6 +152,7 @@ Words: "  Ah !
 # sentence level graph:
 (s485a2 / ah
         :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -174,6 +180,7 @@ Words: Here      is        a         subject   ,         "         exclaimed the
                          :ARG1 (s486p / prince
                                       :mod (s486l / little)
                                       :ARG1-of (s486c / come-01))))
+
 # alignment:
 
 # document level annotation:
@@ -203,6 +210,7 @@ Words: And       the       little    prince    asked     himself   :         "  
             :polarity -)
         :modal-strength neutral-affirmative)
     :ARG2 s487p)
+
 # alignment:
 
 # document level annotation:
@@ -224,6 +232,7 @@ Words: He         did        not        know       how        the        world  
         :ARG1 (s488w / world)
         :affectee (s488k2 / king))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -250,6 +259,7 @@ Words: To       them     ,        all      men      are      subjects .
         :modal-predicate s489h
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +295,7 @@ Words: "           Approach    ,           so          that        I           m
                 :ARG3 (s490m / more)))
         :quote s490s
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -316,6 +327,7 @@ Words: The         little      prince      looked      everywhere  to          f
                                         :purpose (s491s / sit-down-02
                                                         :ARG1 s491p))
                           :place (s491e / everywhere)))
+
 # alignment:
 
 # document level annotation:
@@ -341,6 +353,7 @@ Words: So       he       remained standing upright  ,        and      ,        s
         :ARG0 s492h
         :cause (s492t / tire-01
             :ARG1 s492h)))
+
 # alignment:
 
 # document level annotation:
@@ -364,6 +377,7 @@ Words: "         It        is        contrary  to        etiquette to        yaw
     :ARG2 (s493h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -387,6 +401,7 @@ Words: "      I      forbid you    to     do     so     .      "
             :refer-number singular)
         :ARG1 (s494s / so))
     :ARG2 s494y)
+
 # alignment:
 
 # document level annotation:
@@ -409,6 +424,7 @@ Words: "    I    can  n't  help it   .
         :refer-number singular)
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -433,6 +449,7 @@ Words: I           can         n't         stop        myself      ,           "
        :manner (s496e / embarrass-01
                       :ARG1 s496p
                       :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -457,6 +474,7 @@ Words: "       I       have    come    on      a       long    journey ,       a
     :op2 (s497s / sleep-01
         :ARG0 s497i
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -476,6 +494,7 @@ Words: "    Ah   ,    then ,    "    the  king said .
                     :mod (s498t / then)
                     :quote s498s
                     :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -498,6 +517,7 @@ Words: "     I     order you   to    yawn  .
         :refer-number singular)
     :ARG2 (s499y2 / yawn-01
         :ARG0 s499y))
+
 # alignment:
 
 # document level annotation:
@@ -523,6 +543,7 @@ Words: It      is      years   since   I       have    seen    anyone  yawning .
                 :mod (s500a1 / any)
                 :refer-person 3rd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -541,6 +562,7 @@ Words: Yawns     ,         to        me        ,         are       objects   of 
     :ARG1 (s501i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -560,6 +582,7 @@ Words: Come ,    now  !
                     :refer-number singular)
        :temporal (s502n / now)
        :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -579,6 +602,7 @@ Words: Yawn  again !
                     :refer-number singular)
        :mod (s503a / again)
        :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -596,6 +620,7 @@ Words: It    is    an    order .     "
     :ARG2 (s504i2 / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -614,6 +639,7 @@ Words: "         That      frightens me        ...
     :ARG1 (s505i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -633,6 +659,7 @@ Words: I          can        not        ,          any        more       ...    
                     :ARG1-of (s506a2 / abash-01
                                      :ARG1-of (s506c / complete-02)
                                      :temporal (s506n / now))))
+
 # alignment:
 
 # document level annotation:
@@ -648,6 +675,7 @@ Words: "   Hum !
 # sentence level graph:
 (s507h / hum
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -666,6 +694,7 @@ Words: Hum     !       "       replied the     king    .
        :ARG2 (s508h / hum
                     :mode expressive)
        :quote-of s508h)
+
 # alignment:
 
 # document level annotation:
@@ -693,6 +722,7 @@ Words: "         Then      I         -         -         I         order     you
         :op2 (s509d / do-02
             :frequency (s509s2 / sometimes)))
     :mod (s509t2 / then))
+
 # alignment:
 
 # document level annotation:
@@ -715,6 +745,7 @@ Words: He        sputtered a         little    ,         and       seemed    vex
     :op2 (s510s2 / seem-01
         :ARG1 (s510v / vex-01
             :ARG1 s510h)))
+
 # alignment:
 
 # document level annotation:
@@ -734,6 +765,7 @@ Words: For           what          the           king          fundamentally ins
                     :ARG1 (s511a / authority
                                  :possessor s511k))
        :mod (s511f / fundamental))
+
 # alignment:
 
 # document level annotation:
@@ -754,6 +786,7 @@ Words: He           tolerated    no           disobedience .
     :ARG1 (s512d / disobey-01
         :ARG1 s512h)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -774,6 +807,7 @@ Words: He       was      an       absolute monarch  .
     :ARG3 (s513m / monarch
         :mod (s513a / absolute))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -810,6 +844,7 @@ Words: But        ,          because    he         was        a          very   
                                      :modal-strength full-affirmative)
                      :aspect habitual
                      :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -845,6 +880,7 @@ Words: "       If      I       ordered a       general ,       "       he      w
             :polarity -)
         :quote s515s)
     :ARG1-of (s515h3 / have-example-91))
+
 # alignment:
 
 # document level annotation:
@@ -862,6 +898,7 @@ Words: It    would be    my    fault .     "
     :ARG1 (s516i2 / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -887,6 +924,7 @@ Words: "       May     I       sit     down    ?       "       came    now     a
                     :quote s517i)
        :manner (s517t / timid)
        :temporal (s517n / now))
+
 # alignment:
 
 # document level annotation:
@@ -918,6 +956,7 @@ Words: "            I            order        you          to           do      
             :part-of (s518m3 / mantle
                 :material (s518e2 / ermine)))
         :manner (s518m / majestic)))
+
 # alignment:
 
 # document level annotation:
@@ -934,6 +973,7 @@ Words: But       the       little    prince    was       wondering ...
 (s519w / wonder-01
        :ARG0 (s519p / prince
                     :mod (s519l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -949,6 +989,7 @@ Words: The    planet was    tiny   .
 # sentence level graph:
 (s520t / tiny
        :domain (s520p / planet))
+
 # alignment:
 
 # document level annotation:
@@ -968,6 +1009,7 @@ Words: Over   what   could  this   king   really rule   ?
        :ARG1-of (s521r2 / real-04)
        :modal-strength neutral-affirmative
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1001,6 +1043,7 @@ Words: "        Sire     ,        "        he       said     to       him      ,
                     :vocative s522p
                     :quote s522s)
        :ARG2 s522p)
+
 # alignment:
 
 # document level annotation:
@@ -1028,6 +1071,7 @@ Words: "        I        order    you      to       ask      me       a        q
                 :ARG0 s523h2
                 :ARG2 s523k)
             :quote s523a)))
+
 # alignment:
 
 # document level annotation:
@@ -1050,6 +1094,7 @@ Words: "    Sire -    -    over what do   you  rule ?    "
                     :vocative s524p
                     :quote s524s)
        :ARG2 s524p)
+
 # alignment:
 
 # document level annotation:
@@ -1073,6 +1118,7 @@ Words: "           Over        everything  ,           "           said        t
         :quote s525s)
     :ARG1-of (s525s2 / simple-02
         :mod (s525m / magnificence)))
+
 # alignment:
 
 # document level annotation:
@@ -1094,6 +1140,7 @@ Words: "          Over       everything ?          "
             :refer-number singular)
         :ARG1-of (s526r / request-confirmation-91)
         :quote s526s))
+
 # alignment:
 
 # document level annotation:
@@ -1117,6 +1164,7 @@ Words: The     king    made    a       gesture ,       which   took    in      h
                                                  :mod (s527o / other))
                                     :op3 (s527s / star
                                                 :mod (s527a2 / all)))))
+
 # alignment:
 
 # document level annotation:
@@ -1138,6 +1186,7 @@ Words: "      Over   all    that   ?      "      asked  the    little prince .
                                 :mod (s528a3 / all))
                     :ARG1-of (s528r / request-confirmation-91)
                     :quote s528a))
+
 # alignment:
 
 # document level annotation:
@@ -1157,6 +1206,7 @@ Words: "        Over     all      that     ,        "        the      king     a
                     :op1 (s529t / that
                                 :mod (s529a2 / all))
                     :quote s529a))
+
 # alignment:
 
 # document level annotation:
@@ -1178,6 +1228,7 @@ Words: For       his       rule      was       not       only      absolute  :  
                 :refer-number singular)))
     :op2 (s530u2 / universal
         :domain s530r))
+
 # alignment:
 
 # document level annotation:
@@ -1198,6 +1249,7 @@ Words: "     And   the   stars obey  you   ?     "
             :refer-person 2nd
             :refer-number singular)
         :ARG1-of (s531r / request-confirmation-91)))
+
 # alignment:
 
 # document level annotation:
@@ -1219,6 +1271,7 @@ Words: "         Certainly they      do        ,         "         the       kin
             :refer-number singular)
         :mod (s532c / certain)
         :quote s532s))
+
 # alignment:
 
 # document level annotation:
@@ -1237,6 +1290,7 @@ Words: "         They      obey      instantly .
         :refer-person 3rd
         :refer-number singular)
     :manner (s533i / instant))
+
 # alignment:
 
 # document level annotation:
@@ -1253,6 +1307,7 @@ Words: I               do              not             permit          insubordi
 (s534i2 / insubordinate-00
         :modal-strength neutral-affirmative
         :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1271,6 +1326,7 @@ Words: Such   power  was    a      thing  for    the    little prince to     mar
                     :mod (s535l / little))
        :ARG1 (s535p2 / power
                      :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -1316,6 +1372,7 @@ Words: If        he        had       been      master    of        such      com
         :ARG0 s536h)
     :aspect state
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1368,6 +1425,7 @@ Words: And        because    he         felt       a          bit        sad    
                 :mode imperative)
             :quote s537a)
         :ARG2 s537k))
+
 # alignment:
 
 # document level annotation:
@@ -1389,6 +1447,7 @@ Words: Order the   sun   to    set   ...   "
        :ARG2 (s538s2 / set-11
                      :ARG1 s538s)
        :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1442,6 +1501,7 @@ Words: "         If        I         ordered   a         general   to        fly
                         :ARG2 s539k))
                 :polarity -))
         :quote s539d))
+
 # alignment:
 
 # document level annotation:
@@ -1462,6 +1522,7 @@ Words: "       The     general ,       or      myself  ?       "
     :op2 (s540i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1483,6 +1544,7 @@ Words: "      You    ,      "      said   the    little prince firmly .
         :refer-number singular)
     :quote-of s541y
     :ARG1-of (s541f / firm-03))
+
 # alignment:
 
 # document level annotation:
@@ -1497,6 +1559,7 @@ Words: "       Exactly .
 
 # sentence level graph:
 (s542e / exact)
+
 # alignment:
 
 # document level annotation:
@@ -1521,6 +1584,7 @@ Words: One     much    require from    each    one     the     duty    which   e
                                                                :ARG2-of s543r)
                                                  :modal-strength neutral-affirmative))
                     :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1539,6 +1603,7 @@ Words: "         Accepted  authority rests     first     of        all       on 
                     :ARG1-of (s544a2 / accept-01))
        :ARG2 (s544r2 / reason-01)
        :mod (s544f / first-of-all))
+
 # alignment:
 
 # document level annotation:
@@ -1566,6 +1631,7 @@ Words: If         you        ordered    your       people     to         go     
             :ARG0 s545p
             :ARG1 s545p
             :ARG2 (s545s / sea))))
+
 # alignment:
 
 # document level annotation:
@@ -1590,6 +1656,7 @@ Words: I          have       the        right      to         require    obedien
     :reason (s546r3 / reasonable-02
         :ARG1 (s546t / thing
             :ARG2-of (s546o2 / order-01))))
+
 # alignment:
 
 # document level annotation:
@@ -1621,6 +1688,7 @@ Words: "        Then     my       sunset   ?        "        the      little   p
             :ARG1 s547t)
         :temporal (s547e / ever)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -1640,6 +1708,7 @@ Words: "      You    shall  have   your   sunset .
         :refer-number singular)
     :ARG3 (s548s / sunset
         :possessor s548y))
+
 # alignment:
 
 # document level annotation:
@@ -1660,6 +1729,7 @@ Words: I       shall   command it      .
     :ARG2 (s549i2 / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1692,6 +1762,7 @@ Words: But        ,          according  to         my         science    of     
                                   :aspect activity
                                   :modal-strength full-affirmative)
                      :quote s550s))
+
 # alignment:
 
 # document level annotation:
@@ -1711,6 +1782,7 @@ Words: "        When     will     that     be       ?        "        inquired t
        :ARG1 (s551h / have-temporal-91
                     :ARG1 (s551t / that)
                     :ARG2 (s551u / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -1726,6 +1798,7 @@ Words: "   Hum !
 # sentence level graph:
 (s552h / hum
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -1757,6 +1830,7 @@ Words: Hum       !         "         replied   the       king      ;         and
                     :mod (s553a1 / any)
                     :refer-person 3rd
                     :refer-number singular)))))
+
 # alignment:
 
 # document level annotation:
@@ -1772,6 +1846,7 @@ Words: "   Hum !
 # sentence level graph:
 (s554h / hum
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -1787,6 +1862,7 @@ Words: Hum !
 # sentence level graph:
 (s555h / hum
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -1807,6 +1883,7 @@ Words: That    will    be      about   -       -       about   -       -       t
                                 :dayperiod (s556e / evening)
                                 :mod (s556t / this)
                                 :time "19:40")))
+
 # alignment:
 
 # document level annotation:
@@ -1830,6 +1907,7 @@ Words: And    you    will   see    how    well   I      am     obeyed .      "
             :refer-number singular)
         :manner (s557w / well
             :degree intensifier)))
+
 # alignment:
 
 # document level annotation:
@@ -1846,6 +1924,7 @@ Words: The    little prince yawned .
 (s558y / yawn-01
        :ARG0 (s558p / prince
                     :mod (s558l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -1866,6 +1945,7 @@ Words: He         was        regretting his        lost       sunset     .
     :ARG1 (s559l / lose-02
         :ARG0 s559h
         :ARG1 (s559s / sunset)))
+
 # alignment:
 
 # document level annotation:
@@ -1887,6 +1967,7 @@ Words: And       then      ,         too       ,         he        was       alr
                 :refer-number singular)
             :degree downtoner)
         :temporal (s560a / already)))
+
 # alignment:
 
 # document level annotation:
@@ -1911,6 +1992,7 @@ Words: "       I       have    nothing more    to      do      here    ,       "
         :quote s561s
         :polarity -)
     :ARG2 (s561k / king))
+
 # alignment:
 
 # document level annotation:
@@ -1932,6 +2014,7 @@ Words: "     So    I     shall set   out   on    my    way   again .     "
         :ARG1 (s562w / way
             :possessor s562i)
         :mod (s562a / again)))
+
 # alignment:
 
 # document level annotation:
@@ -1960,6 +2043,7 @@ Words: "       Do      not     go      ,       "       said    the     king    ,
                     :quote s563s
                     :polarity -
                     :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -1979,6 +2063,7 @@ Words: "   Do  not go  .
                     :refer-number singular)
        :polarity -
        :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -2001,6 +2086,7 @@ Words: I        will     make     you      a        Minister !        "
             :refer-person 2nd
             :refer-number singular)
         :ARG3 (s565m2 / minister)))
+
 # alignment:
 
 # document level annotation:
@@ -2016,6 +2102,7 @@ Words: "        Minister of       what     ?        "
 # sentence level graph:
 (s566m / minister
        :topic (s566u / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -2031,6 +2118,7 @@ Words: "       Minster of      -       -       of      Justice !       "
 # sentence level graph:
 (s567m / minister
        :topic (s567j / justice))
+
 # alignment:
 
 # document level annotation:
@@ -2054,6 +2142,7 @@ Words: "      But    there  is     nobody here   to     judge  !      "
         :ARG2 (s568h / here)
         :aspect state
         :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -2079,6 +2168,7 @@ Words: "    We   do   not  know that ,    "    the  king said to   him  .
     :ARG2 (s569h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -2100,6 +2190,7 @@ Words: "        I        have     not      yet      made     a        complete t
         :possessor s570i)
     :ARG1-of (s570c / complete-02)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -2118,6 +2209,7 @@ Words: I    am   very old  .
         :refer-person 1st
         :refer-number singular)
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -2138,6 +2230,7 @@ Words: There    is       no       room     here     for      a        carriage .
         :ARG2 (s572h / here)
         :aspect state
         :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -2157,6 +2250,7 @@ Words: And   it    tires me    to    walk  .     "
             :refer-person 1st
             :refer-number singular))
     :ARG1 s573i)
+
 # alignment:
 
 # document level annotation:
@@ -2188,6 +2282,7 @@ Words: "       Oh      ,       but     I       have    looked  already !       "
                                   :ARG0 s574p
                                   :temporal (s574a2 / already))
                     :quote s574s))
+
 # alignment:
 
 # document level annotation:
@@ -2210,6 +2305,7 @@ Words: On     that   side   ,      as     on     this   ,      there  was    nob
     :mod (s575a1 / all)
     :refer-person 3rd
     :refer-number plural)
+
 # alignment:
 
 # document level annotation:
@@ -2232,6 +2328,7 @@ Words: "        Then     you      shall    judge    yourself ,        "        t
                 :refer-number singular)
             :ARG1 s576y)
         :quote s576a))
+
 # alignment:
 
 # document level annotation:
@@ -2250,6 +2347,7 @@ Words: "         that      is        the       most      difficult thing     of 
        :ARG2 (s577d / difficult)
        :ARG3 (s577m / most)
        :ARG5 (s577a / all))
+
 # alignment:
 
 # document level annotation:
@@ -2272,6 +2370,7 @@ Words: It        is        much      more      difficult to        judge     one
                     :quant (s578m2 / much))
        :ARG4 (s578j2 / judge-01
                      :ARG1 (s578o2 / other)))
+
 # alignment:
 
 # document level annotation:
@@ -2305,6 +2404,7 @@ Words: If       you      succeed  in       judging  yourself rightly  ,        t
                       :modal-strength full-affirmative
                       :quote s579s2)
         :ARG2 s579p)
+
 # alignment:
 
 # document level annotation:
@@ -2328,6 +2428,7 @@ Words: "        Yes      ,        "        said     the      little   prince   ,
                                        :place (s580a / anywhere)
                                        :modal-strength neutral-affirmative)
                     :quote s580s))
+
 # alignment:
 
 # document level annotation:
@@ -2350,6 +2451,7 @@ Words: I      do     not    need   to     live   on     this   planet .
         :place (s581p / planet
             :mod (s581t / this)))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -2365,6 +2467,7 @@ Words: "   Hum !
 # sentence level graph:
 (s582h / hum
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -2383,6 +2486,7 @@ Words: Hum  !    "    said the  king .
        :ARG1 (s583h / hum
                     :mode expressive)
        :quote-of s583h)
+
 # alignment:
 
 # document level annotation:
@@ -2408,6 +2512,7 @@ Words: "         I         have      good      reason    to        believe   tha
             :mod (s584o / old)))
     :reason (s584r3 / reason
         :ARG1-of (s584g / good-02)))
+
 # alignment:
 
 # document level annotation:
@@ -2430,6 +2535,7 @@ Words: I     hear  him   at    night .
         :refer-number singular)
     :temporal (s585d / date-entity
         :dayperiod (s585n / night)))
+
 # alignment:
 
 # document level annotation:
@@ -2451,6 +2557,7 @@ Words: You   can   judge this  old   rat   .
         :mod (s586o / old)
         :mod (s586t / this))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -2474,6 +2581,7 @@ Words: From    time    to      time    you     will    condemn him     to      d
     :ARG3 (s587d / die-01
         :ARG1 s587h)
     :frequency (s587t / time-to-time))
+
 # alignment:
 
 # document level annotation:
@@ -2496,6 +2604,7 @@ Words: Thus    his     life    will    depend  on      your    justice .
         :possessor (s588y / person
             :refer-person 2nd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -2522,6 +2631,7 @@ Words: But       you       will      pardon    him       on        each      occ
         :ARG1 s589h
         :manner (s589t2 / thrift)
         :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -2546,6 +2656,7 @@ Words: He   is   the  only one  we   have .    "
             :refer-person 1st
             :refer-number plural))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -2573,6 +2684,7 @@ Words: "       I       ,       "       replied the     little  prince  ,       "
             :ARG3 (s591d / die-01
                 :ARG1 s591a))
         :quote s591r))
+
 # alignment:
 
 # document level annotation:
@@ -2595,6 +2707,7 @@ Words: And   now   I     think I     will  go    on    my    way   .     "
         :ARG1 (s592w / way
             :possessor s592i))
     :temporal (s592n / now))
+
 # alignment:
 
 # document level annotation:
@@ -2612,6 +2725,7 @@ Words: "    No   ,    "    said the  king .
        :ARG0 (s593k / king)
        :ARG1 (s593n / no)
        :quote-of s593n)
+
 # alignment:
 
 # document level annotation:
@@ -2639,6 +2753,7 @@ Words: But          the          little       prince       ,            having  
                     :ARG1 (s594m / monarch
                                  :mod (s594o / old)))
        :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -2669,6 +2784,7 @@ Words: "          If         Your       Majesty    wishes     to         be     
         :ARG2 (s595t / thing
             :ARG1-of (s595r / reasonable-02))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -2698,6 +2814,7 @@ Words: He      should  be      able    ,       for     example ,       to      o
                         :unit (s596m / minute)
                         :quant 1))))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -2717,6 +2834,7 @@ Words: It         seems      to         me         that       conditions are    
     :ARG2 (s597i2 / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -2737,6 +2855,7 @@ Words: As        the       king      made      no        answer    ,         the
        :reason (s598a / answer-01
                       :ARG0 (s598k / king)
                       :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -2758,6 +2877,7 @@ Words: Then  ,     with  a     sigh  ,     he    took  his   leave .
     :ARG1 (s599l / leave-11
         :ARG0 s599h)
     :temporal (s599t2 / then))
+
 # alignment:
 
 # document level annotation:
@@ -2783,6 +2903,7 @@ Words: "          I          made       you        my         Ambassador ,      
             :ARG3 (s600a / ambassador))
         :quote s600c)
     :ARG2-of (s600h / hasty-01))
+
 # alignment:
 
 # document level annotation:
@@ -2805,6 +2926,7 @@ Words: He          had         a           magnificent air         of          a
                     :mod (s601a2 / authority))
        :aspect state
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -2832,6 +2954,7 @@ Words: "         The       grown     -         ups       are       very      str
                         :ARG0 s602p
                         :ARG1 (s602j / journey-01
                                      :ARG0 s602p)))
+
 # alignment:
 
 # document level annotation:

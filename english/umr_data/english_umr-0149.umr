@@ -15,6 +15,7 @@ Words: Once         again        you          fucking      donkey       dick    
     :mod (s1y / person
         :refer-person 2nd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -32,6 +33,7 @@ Words: you   said:
     :ARG0 (s2y / person
         :refer-person 2nd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -62,6 +64,7 @@ Words: "Curvelight has         made        the         claim       we          n
                 :wiki "Japan"))
         :temporal (s3e / ever)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +91,7 @@ Words: So    show  where I     made  that  claim you   lying fuck.
                     :refer-person 1st
                     :refer-number singular)
                 :ARG1 (s4t / that)))))
+
 # alignment:
 
 # document level annotation:
@@ -99,6 +103,7 @@ Words: So    show  where I     made  that  claim you   lying fuck.
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -110,6 +115,7 @@ Words: So    show  where I     made  that  claim you   lying fuck.
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -121,6 +127,7 @@ Words: So    show  where I     made  that  claim you   lying fuck.
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +139,7 @@ Words: So    show  where I     made  that  claim you   lying fuck.
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -149,6 +157,7 @@ Words: So              Curvelight.....
      :name (s9n / name
                 :op1 "Curvelight")
      :wiki -)
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +216,7 @@ Words: Since      the        US         was        prepared   to         invade 
                         :op1 "Home"
                         :op2 "Islands")
                     :wiki "Japanese_archipelago")))))
+
 # alignment:
 
 # document level annotation:
@@ -249,6 +259,7 @@ Words: You        would      rather     have       seen       several    MILLION
             :quant 2))
     :polarity (s11a3 / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -277,6 +288,7 @@ Words: And        you        want       us         to         believe    that   
                 :polarity -))
         :ARG1-of (s12r / request-confirmation-91))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -288,6 +300,7 @@ Words: And        you        want       us         to         believe    that   
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +312,7 @@ Words: And        you        want       us         to         believe    that   
 # :: snt14
 # sentence level graph:
 (s14u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -310,6 +324,7 @@ Words: And        you        want       us         to         believe    that   
 # :: snt15
 # sentence level graph:
 (s15u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -321,6 +336,7 @@ Words: And        you        want       us         to         believe    that   
 # :: snt16
 # sentence level graph:
 (s16u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -341,6 +357,7 @@ Words: You     are     a       coward.
     :ARG2 (s17c / coward
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -359,6 +376,7 @@ Words: An           intellectual coward       and          an           ethical 
                  :mod (s18i / intellectual))
       :op2 (s18c2 / coward
                   :mod (s18e / ethics)))
+
 # alignment:
 
 # document level annotation:
@@ -393,6 +411,7 @@ Words: YOU      keep     making   ignorant claims   that     are      not      t
             :op1 (s19t4 / thread
                 :mod (s19t5 / this)))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -421,6 +440,7 @@ Words: YOU       claimed   Japan     made      numerous  attempts  to        sur
                 :op1 (s20d / drop-01
                     :ARG1 (s20b2 / bomb))))
         :quant (s20n2 / numerous)))
+
 # alignment:
 
 # document level annotation:
@@ -442,6 +462,7 @@ Words: AN       out      right    LIE      you      can      not      support.
             :refer-number singular)
         :modal-strength neutral-affirmative
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -485,6 +506,7 @@ Words: They          made          one           attempt       and           it 
             :ARG2 (s22s / surrender-01
                 :polarity -)))
     :quant 1)
+
 # alignment:
 
 # document level annotation:
@@ -522,6 +544,7 @@ Words: YOU            claimed        that           Japan          made         
                 :ARG1-of (s23c3 / condition-01
                     :polarity -))
             :mod (s23e / exact))))
+
 # alignment:
 
 # document level annotation:
@@ -538,6 +561,7 @@ Words: Another bald    faced   lie.
 (s24l / lie-08
       :mod (s24a / another)
       :mod (s24b / bald-faced))
+
 # alignment:
 
 # document level annotation:
@@ -579,6 +603,7 @@ Words: YOU              claimed          Japan            did              not  
                         :ARG0 s25c3
                         :ARG1 (s25t2 / that
                             :mod (s25e / exact))))))))
+
 # alignment:
 
 # document level annotation:
@@ -610,6 +635,7 @@ Words: YOU        claimed    that       the        US         fabricated casualt
                     :name (s26n2 / name
                         :op1 "Japan")
                     :wiki "Japan")))))
+
 # alignment:
 
 # document level annotation:
@@ -639,6 +665,7 @@ Words: Implying  further   that      we        had       no        intention of 
                 :wiki "Japan")
             :temporal (s27a2 / already)))
     :mod (s27f / further))
+
 # alignment:
 
 # document level annotation:
@@ -654,6 +681,7 @@ Words: Another lie.
 # sentence level graph:
 (s28l / lie-08
       :mod (s28a / another))
+
 # alignment:
 
 # document level annotation:

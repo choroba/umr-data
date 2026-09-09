@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -31,6 +32,7 @@ Words: Yeah     you're   tearing  my       argument to       pieces.
             :ARG1 s2t2
             :ARG3 (s2p / pieces
                 :refer-number plural))))
+
 # alignment:
 
 # document level annotation:
@@ -65,6 +67,7 @@ Words: A            fellow       conservative even         tried        to      
                     :ARG1 s3t2
                     :modal-strength neutral-affirmative
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -86,6 +89,7 @@ Words: Not          every        conservative has          a            firm    
      :ARG1 (s4i / issue-02
                 :mod (s4e2 / every))
      :ARG1-of (s4f / firm-03))
+
 # alignment:
 
 # document level annotation:
@@ -110,6 +114,7 @@ Words: Conservatives in            this          forum         post          all
                 :ARG2-of (s5w / wrong-04
                               :degree (s5p3 / plain)
                               :mod (s5j / just))))
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: That's          because         they            were            all      
             :refer-person 3rd
             :refer-number plural))
     :ARG1 (s6t2 / that))
+
 # alignment:
 
 # document level annotation:
@@ -161,6 +167,7 @@ Words: They       mistakenly believe    some       of         the        swill  
                 :mod (s7g / government-organization
                     :ARG0-of (s7g2 / govern-01)))))
     :ARG1-of (s7m / mistake-01))
+
 # alignment:
 
 # document level annotation:
@@ -214,6 +221,7 @@ Words: I          ask        about      your       schooling  and        job    
                     :refer-number singular))
             :op2 (s8j2 / job
                 :possessor s8y))))
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +242,7 @@ Words: I       have    serious doubts  at      this    point.
     :temporal (s9p / point
         :mod (s9t / this))
     :ARG1-of (s9s / serious-02))
+
 # alignment:
 
 # document level annotation:
@@ -257,6 +266,7 @@ Words: No,       you're    simply    a         leftwing  jackass   who       is 
         :ARG1 (s10a / argue-01))
     :ARG1-of (s10l / left-19)
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -286,6 +296,7 @@ Words: You     haven't really  thought about   the     stuff   you     believe i
                 :refer-person 3rd
                 :refer-number singular)
             :ARG1 s11y)))
+
 # alignment:
 
 # document level annotation:
@@ -318,6 +329,7 @@ Words: You           aren't        fooling       anyone        by            att
                 :ARG1 s12i
                 :ARG2 (s12m / mind))))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -342,6 +354,7 @@ Words: Anyone    with      a         brain     can       see       who       is 
             :ARG1 (s13e / exchange-01
                 :mod (s13t / this))))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -367,6 +380,7 @@ Words: I         didn't    attack    your      education or        job.
         :op2 (s14j / job
             :possessor s14y))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -388,6 +402,7 @@ Words: I        just     inquired about    it.
         :refer-person 3rd
         :refer-number singular)
     :mod (s15j / just))
+
 # alignment:
 
 # document level annotation:
@@ -408,6 +423,7 @@ Words: Learn         the           difference...
     :ARG1 (s16t / thing
         :ARG3-of (s16d / differ-02))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -430,6 +446,7 @@ Words: oh     thats  right, you    can't.
         :polarity -)
     :mod (s17o / oh
         :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -470,6 +487,7 @@ Words: I'm        going      to         cut        my         losses     and    
                         :mod (s18s1 / some)
                         :refer-person 3rd
                         :refer-number singular))))))
+
 # alignment:
 
 # document level annotation:
@@ -496,6 +514,7 @@ Words: I'm         sorry       you're      embarrassed by          your        l
                 :op1 (s19e2 / educate-01)
                 :op2 (s19j / job)))
         :ARG1 s19y))
+
 # alignment:
 
 # document level annotation:
@@ -519,6 +538,7 @@ Words: It      does    explain a       lot     about   you     though.
             :refer-person 2nd
             :refer-number singular))
     :ARG1-of (s20h / have-concession-91))
+
 # alignment:
 
 # document level annotation:

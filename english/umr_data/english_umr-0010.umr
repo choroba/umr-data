@@ -14,6 +14,7 @@ Words: The           Catholic      Church        is            opposed       to 
      :ARG1 (s1c / contraception)
      :reason (s1r2 / reason
                    :ARG1-of (s1m / moral-02)))
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +48,7 @@ Words: Where       is          the         morality    in          creating    a
      :aspect state
      :modal-strength full-affirmative
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -70,6 +72,7 @@ Words: Where         poverty       exists        and           educational   opp
                                :polarity -)
                     :polarity (s3a2 / umr-unknown))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +91,7 @@ Words: Where    is       the      morality when     disease  is       spread?
      :temporal (s4s / spread-03
                     :ARG1 (s4d / disease))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -108,6 +112,7 @@ Words: Where     is        the       morality  when      a         women     is 
                                 :mod (s5d / domestic))
                     :ARG1 (s5w / woman))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -147,6 +152,7 @@ Words: When     a        women    is       forced   to       conceive and      t
                                                                                                  :ARG1-of (s6h3 / have-quant-91
                                                                                                                 :ARG3 (s6m2 / more)))))))))
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -167,6 +173,7 @@ Words: I    am   with you.
     :ARG2 (s7i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +206,7 @@ Words: If       you      cant     feed,    house    and      take     care     o
         :ARG1 s8b)
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -248,6 +256,7 @@ Words: I'm           in            favor         of            feeding,      clo
                     :ARG1 s10i2
                     :polarity -))
             :mod (s10a3 / all))))
+
 # alignment:
 
 # document level annotation:
@@ -284,6 +293,7 @@ Words: Now        am         I          just       a          genius     who    
             :mod (s11j / just))
         :aspect state)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

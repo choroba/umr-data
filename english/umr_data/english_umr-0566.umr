@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -27,6 +28,7 @@ Words: <Builder> what      should    i         do?
     :ARG1 (s2a / umr-unknown)
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +43,7 @@ Words: <Architect> ready
 
 # sentence level graph:
 (s3r / ready-02)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +64,7 @@ Words: <Architect> We          are         making      an          L
     :ARG1 (s4t / thing
         :configuration (s4s / string-entity
             :value "L")))
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +88,7 @@ Words: <Architect> it          is          orange      and         made        o
         :ARG1 s5i2
         :ARG2 (s5b / block
             :quant 3)))
+
 # alignment:
 
 # document level annotation:
@@ -103,6 +108,7 @@ Words: <Builder> how       big       and       what      color
                 :ARG3 (s6a2 / umr-unknown))
      :op2 (s6h / have-color-91
                :ARG2 (s6a3 / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -117,6 +123,7 @@ Words: <Architect> flat
 
 # sentence level graph:
 (s7f / flat-06)
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +139,7 @@ Words: <Architect> O
 # sentence level graph:
 (s8o / oh
      :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -153,6 +161,7 @@ Words: <Builder> how       many      across    and       how       many      tal
      :op2 (s9t / tall-01
                :ARG2 (s9a3 / umr-unknown)
                :ARG5 s9c))
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +178,7 @@ Words: <Architect> 3           total       blocks
 (s10b / block
       :ARG1-of (s10t / total-01
                      :ARG2 3))
+
 # alignment:
 
 # document level annotation:
@@ -187,6 +197,7 @@ Words: <Architect> 1           tall
                   :quant 1)
       :ARG5 (s11c / cartesian-framework-91
                   :ARG1 (s11b / build-space)))
+
 # alignment:
 
 # document level annotation:
@@ -209,6 +220,7 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -231,6 +243,7 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -253,6 +266,7 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
                                :x 0
                                :y 1
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -267,6 +281,7 @@ Words: <Architect> right
 
 # sentence level graph:
 (s15r / right-06)
+
 # alignment:
 
 # document level annotation:
@@ -282,6 +297,7 @@ Words: <Builder> that      good
 # sentence level graph:
 (s16g / good-02
       :ARG1 (s16t / that))
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +315,7 @@ Words: <Builder> thats     all?
       :ARG1 (s17t / that)
       :ARG1-of (s17r / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:

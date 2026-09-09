@@ -9,6 +9,7 @@ Words: Dumb,   dumb    dumb...
      :op1 (s1d / dumb)
      :op2 (s1d2 / dumb)
      :op3 (s1d3 / dumb))
+
 # alignment:
 
 # document level annotation:
@@ -51,6 +52,7 @@ Words: I've          always        been          a             critic        of 
             :ARG1-of (s2r / right-02))
         :temporal (s2c3 / case-03
             :ARG1 (s2h2 / here))))
+
 # alignment:
 
 # document level annotation:
@@ -87,6 +89,7 @@ Words: they     passed   a        bill,    and      Christie the      Hutt     d
                     :wiki "Mitt_Romney")
                 :ARG3 (s3r / running-mate))
             :temporal (s3s2 / still))))
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +118,7 @@ Words: Christie    is          being       set         up          on          t
                           :ARG0 s4p
                           :ARG1 s4g)
                :ARG2 s4p))
+
 # alignment:
 
 # document level annotation:
@@ -163,6 +167,7 @@ Words: It        will      make      him       a         big       shot      wit
         :temporal (s5d / date-entity
             :year 2012))
     :ARG2 s5h)
+
 # alignment:
 
 # document level annotation:
@@ -188,6 +193,7 @@ Words: By         2016       most       Americans  will       have       gay    
      :temporal (s6b / by
                     :op1 (s6d / date-entity
                               :year 2016)))
+
 # alignment:
 
 # document level annotation:
@@ -221,6 +227,7 @@ Words: Christies    denial       of           marriage     privleges    to      
                                      :ARG0 (s7p5 / person)
                                      :ARG1 s7p2))
                :ARG2 (s7h / hollow)))
+
 # alignment:
 
 # document level annotation:

@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -20,6 +21,7 @@ Words: March 23,   2012
      :day 23
      :month 3
      :year 2012)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +71,7 @@ Words: "           At          this        moment,     tens        of          t
                 :ARG0 s3p)
       :temporal (s3m2 / moment
                       :mod s3t2))
+
 # alignment:
 
 # document level annotation:
@@ -94,6 +97,7 @@ Words: At        this      moment,   millions  of        innocent  people    are
             :refer-number singular))
     :temporal (s4m2 / moment
         :mod (s4t / this)))
+
 # alignment:
 
 # document level annotation:
@@ -150,6 +154,7 @@ Words: Make      no        mistake:  someone   is,       at        this      mom
                             :polarity -))))))
     :polarity -
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +184,7 @@ Words: The           last          ten           years         have          bee
         :duration (s6t / temporal-quantity
             :unit (s6y / year)
             :quant 10)))
+
 # alignment:
 
 # document level annotation:
@@ -196,6 +202,7 @@ Words: <a                                                                       
      :ARG1 (s7r / regulate-01
                 :ARG0 (s7m / marketplace)
                 :ARG1 s7m))
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +214,7 @@ Words: <a                                                                       
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -236,6 +244,7 @@ Words: <a href="http://www.youtube.com/watch?v=3fHGCZC6EQs">Iraq War  Profiteers
                                                    :ARG2 (s9p5 / part
                                                                :quant 2))
                                      :mod 1)))
+
 # alignment:
 
 # document level annotation:

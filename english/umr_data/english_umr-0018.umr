@@ -22,6 +22,7 @@ Words: Neither                                 one                              
                                                :ARG0-of (s1p3 / play-01
                                                               :ARG1 s1s))))
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: Both             were             considered       shoe-ins         durin
      :ARG2 (s2s / shoo-in)
      :temporal (s2p2 / prime
                      :possessor s2p))
+
 # alignment:
 
 # document level annotation:
@@ -66,6 +68,7 @@ Words: I         want      to        say       something else      too       tho
                 :refer-person 3rd
                 :refer-number singular))
         :mod (s3t / too)))
+
 # alignment:
 
 # document level annotation:
@@ -104,6 +107,7 @@ Words: I           watched     a           documentary about       Tyson       o
             :ARG4 (s4l / life
                 :ARG1-of (s4p2 / personal-02
                     :ARG2 s4h)))))
+
 # alignment:
 
 # document level annotation:
@@ -133,6 +137,7 @@ Words: My      god,    as      a       boxer   that    young   man     was     s
         :mod (s5o / often
             :mod (s5v / very))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -186,6 +191,7 @@ Words: If             I              remember       correctly      he           
                             :unit (s6f4 / foot)
                             :quant 2)
                         :ARG3 (s6m3 / mat)))))))
+
 # alignment:
 
 # document level annotation:
@@ -206,6 +212,7 @@ Words: Its        impossible to         compare    athletes   from       differe
                                            :polarity -)))
      :modal-strength neutral-affirmative
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +254,7 @@ Words: In        golf      alone     the       equipment is        so        muc
                                                         :unit (s8y / year)
                                                         :mod (s8l2 / let-alone)
                                                         :quant 30)))))
+
 # alignment:
 
 # document level annotation:
@@ -265,6 +273,7 @@ Words: Its         also        impossible  to          compare     the         c
                 :mod (s9c2 / compete-01))
      :modal-strength neutral-affirmative
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +308,7 @@ Words: I        don't    think    Tyson    was      ever     slated   to       b
                     :mod (s10a / all))))
         :mod (s10e / ever)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -330,6 +340,7 @@ Words: Regardless  of          his         skills,     he          never       h
             :possessor s11h2))
     :temporal (s11e / era
         :possessor s11h2))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +389,7 @@ Words: Ali      defeated Liston,  Frazier, Norton   and      Forman   who      w
                 :mod (s12a1 / any)
                 :refer-person 3rd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:

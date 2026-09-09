@@ -6,6 +6,7 @@ Words: Yes.
 
 # sentence level graph:
 (s1y / yes)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +26,7 @@ Words: Yes he  is.
         :mod (s2h / person
             :refer-person 3rd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:

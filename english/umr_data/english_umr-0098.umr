@@ -13,6 +13,7 @@ Words: [quote=Mustang;4550209]
                                      :op1 "Mustang")
                           :wiki -)
                 :op2 4550209))
+
 # alignment:
 
 # document level annotation:
@@ -24,6 +25,7 @@ Words: [quote=Mustang;4550209]
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +37,7 @@ Words: [quote=Mustang;4550209]
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -46,6 +49,7 @@ Words: [quote=Mustang;4550209]
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -57,6 +61,7 @@ Words: [quote=Mustang;4550209]
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -68,6 +73,7 @@ Words: [quote=Mustang;4550209]
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -79,6 +85,7 @@ Words: [quote=Mustang;4550209]
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -90,6 +97,7 @@ Words: [quote=Mustang;4550209]
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -101,6 +109,7 @@ Words: [quote=Mustang;4550209]
 # :: snt9
 # sentence level graph:
 (s9u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +121,7 @@ Words: [quote=Mustang;4550209]
 # :: snt10
 # sentence level graph:
 (s10u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +133,7 @@ Words: [quote=Mustang;4550209]
 # :: snt11
 # sentence level graph:
 (s11u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +145,7 @@ Words: [quote=Mustang;4550209]
 # :: snt12
 # sentence level graph:
 (s12u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -145,6 +157,7 @@ Words: [quote=Mustang;4550209]
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +169,7 @@ Words: [quote=Mustang;4550209]
 # :: snt14
 # sentence level graph:
 (s14u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -167,6 +181,7 @@ Words: [quote=Mustang;4550209]
 # :: snt15
 # sentence level graph:
 (s15u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -178,6 +193,7 @@ Words: [quote=Mustang;4550209]
 # :: snt16
 # sentence level graph:
 (s16u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -195,6 +211,7 @@ Words: That's  easy    -       the     asinine war     on      drugs.
       :ARG1 (s17w / war-01
                   :ARG2 (s17d / drug)
                   :mod (s17a / asinine)))
+
 # alignment:
 
 # document level annotation:
@@ -221,6 +238,7 @@ Words: A        HUGE     section  of       that     prison   populous was      p
                                    :ARG1 s18s
                                    :ARG2 (s18d / drug)
                                    :place (s18t / there))))
+
 # alignment:
 
 # document level annotation:
@@ -242,6 +260,7 @@ Words: A           crime       that        is          essentially hurting     n
                     :refer-person 2nd
                     :refer-number singular)))
         :manner (s19e / essential)))
+
 # alignment:
 
 # document level annotation:

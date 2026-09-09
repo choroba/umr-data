@@ -44,6 +44,7 @@ Words: what      are       the       chances   that      TM        when      we 
                                                    :dayperiod (s1m / morning)))
                     :aspect performance
                     :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -65,6 +66,7 @@ Words: the  guy  is   in   his  90's
                :op2 (s2t2 / temporal-quantity
                           :unit (s2y / year)
                           :quant 100)))
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +90,7 @@ Words: what     are      the      chances  he       survives this     so       f
             :temporal (s3s2 / so-far)))
     :ARG1 (s3s3 / slim
         :degree (s3v / very)))
+
 # alignment:
 
 # document level annotation:
@@ -129,6 +132,7 @@ Words: I             pray          for           his           swift         rec
             :ARG1-of (s4h2 / have-quant-91
                 :ARG2 (s4m / many)
                 :ARG3 (s4m2 / more)))))
+
 # alignment:
 
 # document level annotation:
@@ -179,6 +183,7 @@ Words: Much    as      I       am      fond    of      the     Royal   Family  i
         :ARG1 (s5f / family
             :mod (s5r2 / royal))
         :mod (s5m / much)))
+
 # alignment:
 
 # document level annotation:

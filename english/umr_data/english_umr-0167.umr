@@ -19,6 +19,7 @@ Words: They     heard    it       after    the      fact     Quantum.
         :name (s1n / name
             :op1 "Quantum")
         :wiki -))
+
 # alignment:
 
 # document level annotation:
@@ -40,6 +41,7 @@ Words: Harm        seems       to          have        been        established i
                                              :ARG3 (s2m / more))))
      :ARG1 (s2h / harm-01)
      :ARG1-of (s2s / seem-01))
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +75,7 @@ Words: I         think     drawing   a         bystander into      a         pol
                         :mod (s3o / other)
                         :ARG2-of (s3p4 / private-02)))))
         :ARG2 (s3h / here)))
+
 # alignment:
 
 # document level annotation:

@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -23,6 +24,7 @@ Words: <Builder> Hello?
 (s2h / hello
      :ARG1-of (s2r / request-response-91)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -37,6 +39,7 @@ Words: <Architect> Hi!
 
 # sentence level graph:
 (s3h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -51,6 +54,7 @@ Words: <Builder> Hi!
 
 # sentence level graph:
 (s4h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -75,6 +79,7 @@ Words: <Architect> Build       a           blue        L           out         o
     :ARG2 (s5b3 / block
         :quant 3)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -97,6 +102,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 1
                             :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -119,6 +125,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 1
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -141,6 +148,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                             :x -1
                             :y 1
                             :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -168,6 +176,7 @@ Words: <Architect> whoops,     the         top         of          the         L
                             :ARG1 (s9b2 / build-space)))
      :mod (s9w / whoops
                :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +210,7 @@ Words: <Architect> two         blocks      on          the         ground,     a
                                :ARG1-of (s10l / left-20
                                               :ARG3 (s10c2 / cartesian-framework-91
                                                            :ARG1 (s10b6 / builder))))))
+
 # alignment:
 
 # document level annotation:
@@ -223,6 +233,7 @@ Words: [Builder picks    up       a        blue     block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -245,6 +256,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -267,6 +279,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -289,6 +302,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -311,6 +325,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                                :x -1
                                :y 1
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -333,6 +348,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                                :x -1
                                :y 2
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -347,6 +363,7 @@ Words: <Builder> Okay!
 
 # sentence level graph:
 (s17o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -361,6 +378,7 @@ Words: <Architect> Perfect!
 
 # sentence level graph:
 (s18p / perfect-02)
+
 # alignment:
 
 # document level annotation:

@@ -16,6 +16,7 @@ Words: What's     everyone's opinions   of         it?
             :refer-person 3rd
             :refer-number singular))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +43,7 @@ Words: Does    it      bring   out     English pride?
     :polarity (s2a / umr-unknown)
     :direction (s2o / out)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -63,6 +65,7 @@ Words: Does  it    look  like  a     piece of    junk?
     :ARG1 (s3p / piece
         :mod (s3j / junk))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +87,7 @@ Words: Tell me.
         :refer-person 1st
         :refer-number singular)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +113,7 @@ Words: It        really    isn't     very      good      looking   is        it.
         :ARG2 (s5d / distance-01
             :ARG1 s5i))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -134,6 +139,7 @@ Words: Kinda   looks   like    a       rollar  coaster with    some    ugly    g
                                                          :place (s6m / middle
                                                                      :place s6r2)))))
      :degree (s6k / kind-of))
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +165,7 @@ Words: Ahh    well,  good   to     know   tax    payers money  is     being  wel
                :mode expressive)
      :mod (s7w / well
                :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -182,6 +189,7 @@ Words: At       least,   I'm      guessing the      tax      payer    payed    f
                 :ARG3 (s8t / tax)))
         :ARG3 (s8t2 / this)
         :manner (s8a / at-least)))
+
 # alignment:
 
 # document level annotation:

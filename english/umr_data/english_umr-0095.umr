@@ -19,6 +19,7 @@ Words: I           still       haven't     heard       any         suggestions f
         :ARG1-of (s1s / suggest-01))
     :mod (s1s2 / still)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -46,6 +47,7 @@ Words: Unfortunately the           corruption    in            government    is 
                                                                       :ARG1 s2c)))))
      :ARG2-of (s2f / fortunate-01
                    :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -94,6 +96,7 @@ Words: But          the          new          rulers       are          tactful 
                                     :ARG0 s3s2
                                     :ARG1 (s3f / fire
                                         :ARG1-of (s3n3 / need-01)))))))))))
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +126,7 @@ Words: There            is               at               least            one  
                            :quant (s4o2 / or
                                         :op1 4
                                         :op2 5))))
+
 # alignment:
 
 # document level annotation:
@@ -151,6 +155,7 @@ Words: And         a           lot         of          those       Tories      p
                           :ARG1-of (s5m / mean-91
                                         :ARG2 (s5f / forum
                                                    :mod (s5t4 / this))))))
+
 # alignment:
 
 # document level annotation:
@@ -184,6 +189,7 @@ Words: Also,       the         Indefinite  Detention   bill        presently   b
      :ARG1-of (s6e3 / effective-04)
      :condition (s6p2 / pass-01
                       :ARG1 s6l))
+
 # alignment:
 
 # document level annotation:
@@ -211,6 +217,7 @@ Words: And      while    Obama    had      promised to       veto     the      b
                            :mod (s7t / that))
                :temporal (s7r / recent)
                :concession s7p3))
+
 # alignment:
 
 # document level annotation:
@@ -233,6 +240,7 @@ Words: (I            am            now           totally       disgusted     wit
         :refer-number singular)
     :temporal (s8n / now)
     :degree (s8t3 / total))
+
 # alignment:
 
 # document level annotation:
@@ -270,6 +278,7 @@ Words: The          bill         will         enable       the          military
                     :ARG0 s9m)
                 :polarity -)))
     :ARG2 s9m)
+
 # alignment:
 
 # document level annotation:
@@ -283,6 +292,7 @@ Index: 1          2          3          4          5          6          7      
 Words: Based      on         what       we've      already    seen       it's       not        hard       to         foresee    it         being      applied    to         something  like       publicly   saying,    "I'm       fed        up         with       this       goddam     government and        I          think      we         need       to         do         something  to         change     it!"
 
 # sentence level graph:
+
 # alignment:
 
 # document level annotation:
@@ -297,6 +307,7 @@ Words: "Terrorism."
 
 # sentence level graph:
 (s11t / terrorism)
+
 # alignment:
 
 # document level annotation:
@@ -323,6 +334,7 @@ Words: Well,           we              can             certainly       guess    
             :polarity -))
     :mod (s12c2 / certain)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -362,6 +374,7 @@ Words:    <a foxnews.com/ft-hood-shooting/2011/12/07/obama-regime-calls-ft-hood-
       :ARG1-of (s13h / hyperlink-91
                      :ARG3 (s13u / url-entity
                                  :value "http://nation.foxnews.com/ft-hood-shooting/2011/12/07/obama-regime-calls-ft-hood-shooting-workplace-violence")))
+
 # alignment:
 
 # document level annotation:

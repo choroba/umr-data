@@ -37,6 +37,7 @@ Words: One        of         the        hypotheses states     :          a      
                                                     :op1 (s1p / plant
                                                               :place (s1w2 / water))
                                                     :op2 (s1f / fish))))))
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +59,7 @@ Words: Therefore ,         the       body      hairs     ,         which     inc
                                          :ARG1 (s2f2 / friction
                                                      :place (s2w / water))))
                 :ARG4 (s2o / off)))
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +91,7 @@ Words: The         reason      for         this        explanation is          t
      :ARG0-of (s3c / cause-01
                    :ARG1 (s3e / explain-01
                               :ARG1 (s3t2 / this))))
+
 # alignment:
 
 # document level annotation:
@@ -117,6 +120,7 @@ Words: Only      such      a         direction could     reduce    the       fri
                                                          :ARG2 s4w))
                            :quant (s4m / more)))
      :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -149,6 +153,7 @@ Words: However     ,           in          all         the         primitive   g
                         :temporal (s5s3 / so-far))
                     :mod (s5a2 / all))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -195,6 +200,7 @@ Words: What        is          worse       is          --          from        t
             :possessor (s6h4 / hair
                 :ARG1-of (s6f3 / fine-02))
             :mod (s6a5 / as-well))))
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +240,7 @@ Words: This      is        somewhat  similar   to        monkeys   who       hav
                 :ARG2 (s7e / easy-05
                     :ARG1 s7f)
                 :ARG3 (s7m2 / more)))))
+
 # alignment:
 
 # document level annotation:

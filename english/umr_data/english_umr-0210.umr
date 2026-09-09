@@ -7,6 +7,7 @@ Words: Chapter 15      .
 # sentence level graph:
 (s825c / chapter
        :mod 15)
+
 # alignment:
 
 # document level annotation:
@@ -29,6 +30,7 @@ Words: The    sixth  planet was    ten    times  larger than   the    last   one
                     :quant 10)
        :ARG4 (s826p2 / planet
                      :mod (s826l2 / last)))
+
 # alignment:
 
 # document level annotation:
@@ -51,6 +53,7 @@ Words: It         was        inhabited  by         an         old        gentlem
     :ARG1 (s827i2 / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -72,6 +75,7 @@ Words: "    Oh   ,    look !
             :refer-person 2nd
             :refer-number singular)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -100,6 +104,7 @@ Words: Here      is        an        explorer  !         "         he        exc
         :ARG1 (s829c / come-01
             :ARG1 (s829p2 / prince
                 :mod (s829l / little)))))
+
 # alignment:
 
 # document level annotation:
@@ -121,6 +126,7 @@ Words: The    little prince sat    down   on     the    table  and    panted a  
        :op2 (s830p / pant-01
                    :ARG0 s830p2
                    :duration (s830l2 / little)))
+
 # alignment:
 
 # document level annotation:
@@ -146,6 +152,7 @@ Words: He       had      already  traveled so       much     and      so       f
         :ARG1 (s831f / far
             :mod (s831s2 / so)))
     :temporal (s831a / already))
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +176,7 @@ Words: "         Where     do        you       come      from      ?         "  
         :ARG3 (s832a / umr-unknown)
         :quote s832s)
     :ARG2 s832h)
+
 # alignment:
 
 # document level annotation:
@@ -192,6 +200,7 @@ Words: "      What   is     that   big    book   ?      "      said   the    lit
                         :mod (s833b2 / big)
                         :mod (s833t / that))
        :ARG1 s833i)
+
 # alignment:
 
 # document level annotation:
@@ -210,6 +219,7 @@ Words: "     What  are   you   doing ?     "
         :refer-person 2nd
         :refer-number singular)
     :ARG1 (s834a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +244,7 @@ Words: "          I          am         a          geographer ,          "      
     :ARG2 (s835h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -255,6 +266,7 @@ Words: "          What       is         a          geographer ?          "      
                                     :aspect state
                                     :ARG1 (s836a2 / umr-unknown)))
        :ARG1 s836i)
+
 # alignment:
 
 # document level annotation:
@@ -281,6 +293,7 @@ Words: "          A          geographer is         a          scholar    who    
                                                  :op5 (s837d / desert)
                                                  :mod (s837a2 / all))))
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -302,6 +315,7 @@ Words: "           That        is          very        interesting ,           "
                     :ARG1 s838p
                     :quote s838s
                     :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +338,7 @@ Words: "          Here       at         last       is         a          man    
                                                                  :ARG1-of (s839r / real-04)))
                                   :temporal (s839a / at-last))
                     :quote s839s))
+
 # alignment:
 
 # document level annotation:
@@ -346,6 +361,7 @@ Words: And        he         cast       a          look       around     him    
             :possessor (s840g / geographer))
         :direction (s840a2 / around
             :op1 s840h)))
+
 # alignment:
 
 # document level annotation:
@@ -373,6 +389,7 @@ Words: It          was         the         most        magnificent and         s
                 :refer-person 3rd
                 :refer-number singular)
             :temporal (s841e / ever))))
+
 # alignment:
 
 # document level annotation:
@@ -397,6 +414,7 @@ Words: "         Your      planet    is        very      beautiful ,         "  
                 :refer-number singular))
         :quote s842s
         :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -417,6 +435,7 @@ Words: "      Has    it     any    oceans ?      "
     :ARG2 (s843o / ocean
         :mod (s843a / any))
     :polarity (s843a2 / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -439,6 +458,7 @@ Words: "          I          could      n't        tell       you        ,      
             :refer-number singular)
         :modal-strength neutral-affirmative
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -454,6 +474,7 @@ Words: "  Ah !  "
 # sentence level graph:
 (s845a / ah
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -470,6 +491,7 @@ Words: The          little       prince       was          disappointed .
 (s846d / disappoint-01
        :ARG1 (s846p / prince
                     :mod (s846l / little)))
+
 # alignment:
 
 # document level annotation:
@@ -490,6 +512,7 @@ Words: "         Has       it        any       mountains ?         "
         :refer-number singular)
     :ARG2 (s847m / mountain
         :mod (s847a / any)))
+
 # alignment:
 
 # document level annotation:
@@ -512,6 +535,7 @@ Words: "          I          could      n't        tell       you        ,      
             :refer-number singular)
         :modal-strength neutral-affirmative
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -531,6 +555,7 @@ Words: "       And     towns   ,       and     rivers  ,       and     deserts ?
                      :op2 (s849r2 / river)
                      :op3 (s849d2 / desert)
                      :polarity (s849a / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -554,6 +579,7 @@ Words: "      I      could  n't    tell   you    that   ,      either .      "
         :refer-number singular)
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -577,6 +603,7 @@ Words: "          But        you        are        a          geographer !      
             :aspect state)
         :quote s851s
         :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -594,6 +621,7 @@ Words: "          Exactly    ,          "          the        geographer said   
        :ARG0 (s852g / geographer)
        :ARG1 (s852e / exact)
        :quote-of s852e)
+
 # alignment:
 
 # document level annotation:
@@ -618,6 +646,7 @@ Words: "        But      I        am       not      an       explorer .
                 :polarity -)
             :aspect state)
         :quote s853s))
+
 # alignment:
 
 # document level annotation:
@@ -641,6 +670,7 @@ Words: I        have     n't      a        single   explorer on       my       p
         :place (s854p3 / planet
             :possessor s854i))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -679,6 +709,7 @@ Words: It         is         not        the        geographer who        goes   
                      :polarity -
                      :aspect state
                      :modal-strength full-negative))
+
 # alignment:
 
 # document level annotation:
@@ -703,6 +734,7 @@ Words: The        geographer is         much       too        important  to     
                      :purpose (s856l / loaf-01
                                      :ARG0 s856g
                                      :path (s856a / about))))
+
 # alignment:
 
 # document level annotation:
@@ -723,6 +755,7 @@ Words: He    does  not   leave his   desk  .
     :ARG1 (s857d / desk
         :possessor s857h)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -747,6 +780,7 @@ Words: But       he        receives  the       explorers in        his       stu
             :place (s858s / study
                 :possessor s858h))
         :quote s858s2))
+
 # alignment:
 
 # document level annotation:
@@ -774,6 +808,7 @@ Words: He        asks      them      questions ,         and       he        not
             :ARG1-of (s859r / recall-02
                 :topic (s859t2 / travel-01
                     :ARG0 s859t)))))
+
 # alignment:
 
 # document level annotation:
@@ -807,6 +842,7 @@ Words: And           if            the           recollections of            any
                         :ARG2 (s860t5 / person
                             :refer-person 3rd
                             :refer-number plural)))))))
+
 # alignment:
 
 # document level annotation:
@@ -823,6 +859,7 @@ Words: "    Why  is   that ?    "
 (s861h / have-reason-91
        :ARG1 (s861t2 / that)
        :ARG2 (s861u / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -847,6 +884,7 @@ Words: "          Because    an         explorer   who        told       lies   
                                                                        :ARG2 (s862g2 / geographer)))))
        :ARG2 (s862l / lie-08
                     :ARG0 s862p2))
+
 # alignment:
 
 # document level annotation:
@@ -869,6 +907,7 @@ Words: So       would    an       explorer who      drank    too      much     .
                                      :ARG2 (s863m / much)
                                      :ARG3 (s863t2 / too)))
         :mod (s863a / also))
+
 # alignment:
 
 # document level annotation:
@@ -889,6 +928,7 @@ Words: "      Why    is     that   ?      "      asked  the    little prince .
                     :ARG1 (s864t / that)
                     :ARG2 (s864u / umr-unknown)
                     :quote s864a))
+
 # alignment:
 
 # document level annotation:
@@ -906,6 +946,7 @@ Words: "           Because     intoxicated men         see         double      .
         :ARG0 (s865m2 / man
                       :ARG1-of (s865i2 / intoxicate-01))
         :ARG2 (s865d / double))
+
 # alignment:
 
 # document level annotation:
@@ -932,6 +973,7 @@ Words: Then       the        geographer would      note       down       two    
                                   :quant 2)
                      :mod (s866d / down)
                      :temporal (s866t2 / then)))
+
 # alignment:
 
 # document level annotation:
@@ -960,6 +1002,7 @@ Words: "        I        know     some     one      ,        "        said     t
             :refer-person 3rd
             :refer-number singular)
         :quote s867s))
+
 # alignment:
 
 # document level annotation:
@@ -975,6 +1018,7 @@ Words: "        That     is       possible .
 # sentence level graph:
 (s868t / that
        :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1000,6 +1044,7 @@ Words: Then      ,         when      the       moral     character of        the
                                                     :possessor s869p
                                                     :ARG1-of (s869m / moral-02))))
         :temporal (s869t3 / then))
+
 # alignment:
 
 # document level annotation:
@@ -1023,6 +1068,7 @@ Words: "    One  goes to   see  it   ?    "
                 :refer-number singular))
         :ARG1-of (s870r / request-confirmation-91)
         :quote s870s))
+
 # alignment:
 
 # document level annotation:
@@ -1039,6 +1085,7 @@ Words: "  No .
 (s871s / say-91
        :ARG2 (s871n / no)
        :quote s871s)
+
 # alignment:
 
 # document level annotation:
@@ -1057,6 +1104,7 @@ Words: That        would       be          too         complicated .
        :ARG2 (s872c2 / complicate-01
                      :ARG1 s872t)
        :ARG3 (s872t2 / too))
+
 # alignment:
 
 # document level annotation:
@@ -1080,6 +1128,7 @@ Words: But      one      requires the      explorer to       furnish  proofs   .
                                               :ARG1 (s873p2 / prove-01))
                                  :ARG2 s873p)
                     :quote s873s))
+
 # alignment:
 
 # document level annotation:
@@ -1105,6 +1154,7 @@ Words: For       example   ,         if        the       discovery in        que
                     :condition (s874d / discover-01
                                       :ARG1 s874m
                                       :ARG1-of (s874q / question-01))))
+
 # alignment:
 
 # document level annotation:
@@ -1122,6 +1172,7 @@ Words: The        geographer was        suddenly   stirred    to         excitem
        :ARG1 (s875g / geographer)
        :ARG3 (s875e / excite-01)
        :manner (s875s2 / sudden))
+
 # alignment:
 
 # document level annotation:
@@ -1144,6 +1195,7 @@ Words: "    But  you  -    -    you  come from far  away !
             :ARG3 (s876a / away
                 :extent (s876f / far)))
         :quote s876s))
+
 # alignment:
 
 # document level annotation:
@@ -1164,6 +1216,7 @@ Words: You      are      an       explorer !
     :ARG3 (s877p2 / person)
     :ARG0-of (s877e / explore-01)
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -1187,6 +1240,7 @@ Words: You      shall    describe your     planet   to       me       !        "
         :refer-person 1st
         :refer-number singular)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1211,6 +1265,7 @@ Words: And        ,          having     opened     his        big        registe
                                                  :ARG1 (s879r / register-02
                                                               :ARG0 s879g
                                                               :mod (s879b / big))))))
+
 # alignment:
 
 # document level annotation:
@@ -1232,6 +1287,7 @@ Words: The       recitals  of        explorers are       put       down      fir
        :direction (s880d / down)
        :temporal (s880f / first)
        :instrument (s880p3 / pencil))
+
 # alignment:
 
 # document level annotation:
@@ -1260,6 +1316,7 @@ Words: One       waits     until     the       explorer  has       furnished pro
                 :refer-number plural)
             :direction (s881d / down)
             :instrument (s881i / ink))))
+
 # alignment:
 
 # document level annotation:
@@ -1279,6 +1336,7 @@ Words: "           Well        ?           "           said        the         g
        :quote-of s882r
        :manner (s882e / expect-01
                       :ARG0 s882g))
+
 # alignment:
 
 # document level annotation:
@@ -1305,6 +1363,7 @@ Words: "           Oh          ,           where       I           live        ,
                                  :ARG1 s883p
                                  :degree downtoner)
                     :quote s883s))
+
 # alignment:
 
 # document level annotation:
@@ -1324,6 +1383,7 @@ Words: It    is    all   so    small .
         :refer-person 3rd
         :refer-number singular)
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -1343,6 +1403,7 @@ Words: I         have      three     volcanoes .
         :refer-number singular)
     :ARG1 (s885v / volcano
         :quant 3))
+
 # alignment:
 
 # document level annotation:
@@ -1362,6 +1423,7 @@ Words: Two       volcanoes are       active    and       the       other     is 
                                  :quant 2))
         :op2 (s886e / extinct
                     :domain (s886o / other)))
+
 # alignment:
 
 # document level annotation:
@@ -1382,6 +1444,7 @@ Words: But   one   never knows .     "
                                  :temporal (s887e / ever)
                                  :polarity -)
                     :quote s887s))
+
 # alignment:
 
 # document level annotation:
@@ -1402,6 +1465,7 @@ Words: "          One        never      knows      ,          "          said   
                     :temporal (s888e / ever)
                     :quote s888s
                     :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -1422,6 +1486,7 @@ Words: "      I      have   also   a      flower .      "
     :ARG1 (s889t / thing
         :ARG1-of (s889f / flower-01))
     :mod (s889a2 / also))
+
 # alignment:
 
 # document level annotation:
@@ -1445,6 +1510,7 @@ Words: "          We         do         not        record     flowers    ,      
             :ARG1-of (s890f / flower-01))
         :quote s890s
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -1462,6 +1528,7 @@ Words: "    Why  is   that ?
        :ARG1 (s891t / that)
        :ARG2 (s891u / umr-unknown)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1486,6 +1553,7 @@ Words: The       flower    is        the       most      beautiful thing     on 
             :source-of (s892i / person
                 :refer-person 1st
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -1513,6 +1581,7 @@ Words: "          We         do         not        record     them       ,      
             :ARG2 (s893e / ephemeral))
         :quote s893s
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -1529,6 +1598,7 @@ Words: "         What      does      that      mean      -         -         '  
 (s894m2 / mean-01
         :ARG1 (s894e / ephemeral)
         :ARG2 (s894a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -1556,6 +1626,7 @@ Words: "           Geographies ,           "           said        the         g
                                     :aspect state
                                     :ARG1 (s895g2 / geography)))
        :ARG1 s895i)
+
 # alignment:
 
 # document level annotation:
@@ -1577,6 +1648,7 @@ Words: They      never     become    old       -         fashioned .
         :mod (s896o / old))
     :temporal (s896e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1597,6 +1669,7 @@ Words: It       is       very     rarely   that     a        mountain changes  i
                                     :ARG1 s897m))
        :ARG1-of (s897r / rare-02
                        :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -1617,6 +1690,7 @@ Words: It      is      very    rarely  that    an      ocean   empties itself  o
                     :possessor s898o)
        :ARG1-of (s898r / rare-02
                        :degree intensifier))
+
 # alignment:
 
 # document level annotation:
@@ -1636,6 +1710,7 @@ Words: We      write   of      eternal things  .       "
         :refer-number plural)
     :ARG1 (s899t / thing
         :mod (s899e / eternal)))
+
 # alignment:
 
 # document level annotation:
@@ -1661,6 +1736,7 @@ Words: "           But         extinct     volcanoes   may         come        t
                                   :mod (s900a / again)
                                   :modal-strength neutral-affirmative)
                     :quote s900i))
+
 # alignment:
 
 # document level annotation:
@@ -1677,6 +1753,7 @@ Words: "         What      does      that      mean      -         -         '  
 (s901m2 / mean-01
         :ARG1 (s901e / ephemeral)
         :ARG2 (s901a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -1701,6 +1778,7 @@ Words: "          Whether    volcanoes  are        extinct    or         alive  
             :refer-person 1st
             :refer-number plural)
         :quote s902s))
+
 # alignment:
 
 # document level annotation:
@@ -1725,6 +1803,7 @@ Words: "        The      thing    that     matters  to       us       is       t
                                   :aspect state
                                   :modal-strength full-affirmative)
                     :quote s903s))
+
 # alignment:
 
 # document level annotation:
@@ -1743,6 +1822,7 @@ Words: It     does   not    change .      "
         :refer-person 3rd
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1777,6 +1857,7 @@ Words: "         But       what      does      that      mean      -         -  
                                  :ARG1 (s905e / ephemeral)
                                  :ARG2 (s905a / umr-unknown))
                     :quote s905r))
+
 # alignment:
 
 # document level annotation:
@@ -1799,6 +1880,7 @@ Words: "             It            means         ,             '             whi
             :ARG1-of (s906c / cause-01
                 :ARG0 (s906d / disappear-01
                     :ARG1-of (s906s / speedy-03))))))
+
 # alignment:
 
 # document level annotation:
@@ -1821,6 +1903,7 @@ Words: "             Is            my            flower        in            dan
     :ARG1-of (s907c / cause-01
         :ARG0 (s907d / disappear-01
             :ARG1-of (s907s / speedy-03))))
+
 # alignment:
 
 # document level annotation:
@@ -1841,6 +1924,7 @@ Words: "         Certainly it        is        .         "
                                  :refer-number singular)
                     :quote s908s
                     :ARG2 full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1872,6 +1956,7 @@ Words: "         My        flower    is        ephemeral ,         "         the
                                                             :op1 4)))
                     :quote s909s)
        :ARG2 s909p)
+
 # alignment:
 
 # document level annotation:
@@ -1899,6 +1984,7 @@ Words: And    I      have   left   her    on     my     planet ,      all    alo
             :ARG1 (s910a2 / alone
                 :domain s910s
                 :degree intensifier))))
+
 # alignment:
 
 # document level annotation:
@@ -1922,6 +2008,7 @@ Words: That   was    his    first  moment of     regret .
             :refer-person 3rd
             :refer-number singular))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -1943,6 +2030,7 @@ Words: But     he      took    courage once    more    .
         :ARG1 (s912c2 / courage)
         :mod (s912a / again
             :mod (s912o / once))))
+
 # alignment:
 
 # document level annotation:
@@ -1978,6 +2066,7 @@ Words: "      What   place  would  you    advise me     to     visit  now    ?  
        :ARG2 s913p3
        :aspect performance
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1998,6 +2087,7 @@ Words: "          The        planet     Earth      ,          "          replied
                                   :op1 "Earth")
                      :quote s914r
                      :wiki "Earth"))
+
 # alignment:
 
 # document level annotation:
@@ -2017,6 +2107,7 @@ Words: "          It         has        a          good       reputation .      
         :refer-number singular)
     :ARG1 (s915r / reputation
         :ARG1-of (s915g / good-02)))
+
 # alignment:
 
 # document level annotation:
@@ -2040,6 +2131,7 @@ Words: And      the      little   prince   went     away     ,        thinking o
                                 :ARG0 s916p
                                 :ARG1 (s916f2 / flower
                                               :possessor s916p))))
+
 # alignment:
 
 # document level annotation:

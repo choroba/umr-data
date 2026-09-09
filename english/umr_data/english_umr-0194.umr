@@ -39,6 +39,7 @@ Words: If           you          're          Arlington    County       ,       
                     :op5 "Commission")
                 :mod (s1f / federal)
                 :wiki -))))
+
 # alignment:
 
 # document level annotation:
@@ -87,6 +88,7 @@ Words: In            place         of            the           sterile       mon
                                                                                                :wiki "The_Pentagon")))
                                                          :temporal (s2n3 / now))
                                            :ARG1-of (s2s3 / sterile-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +115,7 @@ Words: Writes   WaPo     reporter Annie    Gowen    :
                                             :wiki "The_Washington_Post")
                                 :ARG4 (s3r / report-01))
                   :wiki -))
+
 # alignment:
 
 # document level annotation:
@@ -161,6 +164,7 @@ Words: [           Board       of          Supervisors Chairman    Chris       ]
                                             :op2 (s4b2 / brand-01
                                                        :ARG1 s4c5
                                                        :ARG2 s4d)))))
+
 # alignment:
 
 # document level annotation:
@@ -197,6 +201,7 @@ Words: Though      close       to          Reagan      National    Airport     a
                       :op2 (s5d2 / dense
                                  :ARG2 (s5h / hotel)))
      :ARG1-of (s5l / long-03))
+
 # alignment:
 
 # document level annotation:
@@ -228,6 +233,7 @@ Words: But         parts       of          Crystal     City        have        l
                                                       :op2 (s6s2 / streetscape
                                                                  :ARG1-of (s6n2 / new-01)))))
                  :temporal (s6l2 / lately)))
+
 # alignment:
 
 # document level annotation:
@@ -276,6 +282,7 @@ Words: Charles      E.           Smith        Commercial   Realty       ,       
                                 :ARG0 s7c2
                                 :ARG1 (s7b / business
                                            :ARG1-of (s7n3 / new-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -320,6 +327,7 @@ Words: It          turned      Crystal     Drive       into        a           t
                             :op2 "&"
                             :op3 "Schmick's")
                         :wiki "McCormick_&_Schmick's"))))))
+
 # alignment:
 
 # document level annotation:
@@ -344,6 +352,7 @@ Words: Reading between the     lines   of      Gowen   's      story   ,       h
                                                               :name (s9n / name
                                                                          :op1 "Gowen")
                                                               :wiki -)))))
+
 # alignment:
 
 # document level annotation:
@@ -358,6 +367,7 @@ Words: Housing .
 
 # sentence level graph:
 (s10h / house-01)
+
 # alignment:
 
 # document level annotation:
@@ -381,6 +391,7 @@ Words: Creating   a          livelier   commercial district   is         a      
    :ARG3 (s11g / goal
                :mod (s11w / worthy))
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -443,6 +454,7 @@ Words: But       creating  a         balanced  community with      a         mix
                     :degree intensifier)))
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -477,6 +489,7 @@ Words: As          Ed          Risse       has         pointed     out         ,
                                                 :op1 "Ed"
                                                 :op2 "Risse")
                                    :wiki -)))
+
 # alignment:
 
 # document level annotation:
@@ -531,6 +544,7 @@ Words: The        problem    ,          I          surmise    --         it     
                         :modal-strength full-negative)
       :aspect state
       :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -556,6 +570,7 @@ Words: It        's        hard      to        fault     Arlington for       pur
                                           :ARG2-of (s15i / interest-01
                                                          :ARG1 s15c)
                                           :ARG1-of (s15s / short-07)))))
+
 # alignment:
 
 # document level annotation:
@@ -607,6 +622,7 @@ Words: But        everyone   needs      to         recognize  that       Arlingt
             :modal-strength full-affirmative)
         :aspect state
         :modal-strength partial-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -644,6 +660,7 @@ Words: And           employees     working       in            the           buf
                                                                                      :op1 "Northern"
                                                                                      :op2 "Virginia")
                                                                         :wiki "Northern_Virginia"))))))
+
 # alignment:
 
 # document level annotation:

@@ -45,6 +45,7 @@ Words: Forget      Guantanimo, forge       the         Gulags,     the         C
                             :name (s1n3 / name
                                 :op1 "Australia")
                             :wiki "Australia")))))))
+
 # alignment:
 
 # document level annotation:
@@ -67,6 +68,7 @@ Words: I          always     assume     these      sort       of         things 
             :mod (s2s / sort
                 :mod (s2t2 / this))))
     :temporal (s2a3 / always))
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +91,7 @@ Words: If       the      Queen    wasn't   turning  up       this     wouldn't h
                                                 :ARG3 (s3q / queen)))
                       :polarity -)
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -120,6 +123,7 @@ Words: A         bunch     of        foreign   looking   folk      all       in 
         :ARG1 s4f
         :ARG2 s4c2
         :concession s4e))
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +163,7 @@ Words: There       has         been        a           small       amount      o
                     :refer-person 3rd
                     :refer-number singular)
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:

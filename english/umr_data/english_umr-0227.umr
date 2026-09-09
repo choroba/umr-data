@@ -7,6 +7,7 @@ Words: Chapter 6       .
 # sentence level graph:
 (s263c / chapter
        :mod 6)
+
 # alignment:
 
 # document level annotation:
@@ -22,6 +23,7 @@ Words: Oh     ,      little prince !
 # sentence level graph:
 (s264p / prince
        :mod (s264l / little))
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +49,7 @@ Words: Bit        by         bit        I          came       to         underst
             :mod (s265l2 / little)
             :ARG1-of (s265s2 / sad-02)))
     :manner (s265b / bit-by-bit))
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +76,7 @@ Words: For           a             long          time          you           had
         :ARG1 s266y
         :mod (s266o / only))
     :ARG1-of (s266l / long-03))
+
 # alignment:
 
 # document level annotation:
@@ -108,6 +112,7 @@ Words: I       learned that    new     detail  on      the     morning of      t
             :quote s267s
             :degree intensifier)
         :ARG2 s267i))
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: Come   ,      let    us     go     look   at     a      sunset now    .  
             :ARG1 (s268s / sunset)
             :temporal (s268n / now))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -160,6 +166,7 @@ Words: "    But  we   must wait ,    "    I    said .
                 :refer-number plural)
             :modal-strength partial-affirmative)
         :quote s269s))
+
 # alignment:
 
 # document level annotation:
@@ -171,6 +178,7 @@ Words: "    But  we   must wait ,    "    I    said .
 # :: snt270
 # sentence level graph:
 (s270u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -189,6 +197,7 @@ Words: "    Wait ?
                     :ARG1-of (s271r / request-confirmation-91)
                     :quote s271s)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +216,7 @@ Words: For  what ?    "
                     :ARG1 (s272e / event)
                     :ARG2 (s272a / umr-unknown)
                     :quote s272s))
+
 # alignment:
 
 # document level annotation:
@@ -225,6 +235,7 @@ Words: "      For    the    sunset .
                      :ARG1 (s273e / event)
                      :ARG2 (s273s / sunset)
                      :quote s273s2))
+
 # alignment:
 
 # document level annotation:
@@ -245,6 +256,7 @@ Words: We    must  wait  until it    is    time  .     "
     :duration (s274u / until
         :op1 (s274t / time))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -265,6 +277,7 @@ Words: At        first     you       seemed    to        be        very      muc
             :refer-number singular)
         :degree intensifier)
     :temporal (s275a / at-first))
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +298,7 @@ Words: And      then     you      laughed  to       yourself .
             :refer-number singular)
         :ARG2 s276y
         :temporal (s276t / then)))
+
 # alignment:
 
 # document level annotation:
@@ -311,6 +325,7 @@ Words: You      said     to       me       :        "        I        am       a
     :ARG2 (s277i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -325,6 +340,7 @@ Words: Just so   .
 
 # sentence level graph:
 (s278j / just-so)
+
 # alignment:
 
 # document level annotation:
@@ -356,6 +372,7 @@ Words: Everybody knows     that      when      it        is        noon      in 
                     :op2 "States")
                 :wiki "United_States")
             :time "12:00")))
+
 # alignment:
 
 # document level annotation:
@@ -388,6 +405,7 @@ Words: If       you      could    fly      to       France   in       one      m
     :ARG4 (s280s / sunset)
     :ARG1-of (s280s2 / straight-04)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -413,6 +431,7 @@ Words: Unfortunately ,             France        is            too           far
                                                   :ARG3 (s281t / too)
                                                   :ARG6 (s281t2 / that))))
        :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -443,6 +462,7 @@ Words: But    on     your   tiny   planet ,      my     little prince ,      all
                 :quant (s282f / few))
             :mod (s282o2 / only)
             :modal-strength partial-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -470,6 +490,7 @@ Words: You      can      see      the      day      end      and      the      t
         :ARG1 s283s
         :mod (s283a2 / any))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -497,6 +518,7 @@ Words: "      One    day    ,      "      you    said   to     me     ,      "  
     :ARG2 (s284i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -524,6 +546,7 @@ Words: And    a      little later  you    added  :      "      You    know   -- 
             :quote s285a2)
         :temporal (s285a3 / after
             :quant (s285l2 / little))))
+
 # alignment:
 
 # document level annotation:
@@ -554,6 +577,7 @@ Words: "       Were    you     so      sad     ,       then    ?       "       I
         :quote s286a
         :degree intensifier)
     :ARG2 s286y)
+
 # alignment:
 
 # document level annotation:
@@ -565,6 +589,7 @@ Words: "       Were    you     so      sad     ,       then    ?       "       I
 # :: snt287
 # sentence level graph:
 (s287u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -583,6 +608,7 @@ Words: But    the    little prince made   no     reply  .
                     :ARG0 (s288p / prince
                                  :mod (s288l / little))
                     :polarity -))
+
 # alignment:
 
 # document level annotation:

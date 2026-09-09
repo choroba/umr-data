@@ -7,6 +7,7 @@ Words: Chapter 3       .
 # sentence level graph:
 (s103c2 / chapter
         :mod 3)
+
 # alignment:
 
 # document level annotation:
@@ -32,6 +33,7 @@ Words: It    took  me    a     long  time  to    learn where he    came  from  .
                         :ARG1 (s104h / person
                             :refer-person 3rd
                             :refer-number singular)))))))
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +63,7 @@ Words: The       little    prince    ,         who       asked     me        so 
                 :ARG2 s105p))
         :temporal (s105e2 / ever)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -86,6 +89,7 @@ Words: It         was        from       words      dropped    by         chance 
         :refer-person 1st
         :refer-number singular)
     :manner (s106l / little-by-little))
+
 # alignment:
 
 # document level annotation:
@@ -131,6 +135,7 @@ Words: The         first       time        he          saw         my          a
                     :quant (s107m / much)))
             :polarity -)
         :ARG2 -))
+
 # alignment:
 
 # document level annotation:
@@ -149,6 +154,7 @@ Words: "      That   is     not    an     object .
    :ARG3 (s108o / object
                 :polarity -)
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -166,6 +172,7 @@ Words: It    flies .
     :ARG1 (s109i / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -189,6 +196,7 @@ Words: It       is       an       airplane .
         :quote s110s
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -211,6 +219,7 @@ Words: It       is       my       airplane .        "
                     :quote s111s
                     :aspect state
                     :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -236,6 +245,7 @@ Words: And   I     was   proud to    have  him   learn that  I     could fly   .
             :ARG1 (s112f / fly-01
                 :ARG1 s112i
                 :modal-strength neutral-affirmative))))
+
 # alignment:
 
 # document level annotation:
@@ -256,6 +266,7 @@ Words: He    cried out   ,     then  :     "     What  !
     :ARG1 (s113r / request-confirmation-91)
     :quote-of s113r
     :temporal (s113t / then))
+
 # alignment:
 
 # document level annotation:
@@ -279,6 +290,7 @@ Words: You     dropped down    from    the     sky     ?       "
         :ARG1-of (s114r / request-confirmation-91)
         :polarity (s114a / umr-unknown)
         :quote s114s2))
+
 # alignment:
 
 # document level annotation:
@@ -299,6 +311,7 @@ Words: "        Yes      ,        "        I        answered ,        modestly .
     :ARG1 (s115y2 / yes)
     :quote-of s115y2
     :manner (s115m / modest))
+
 # alignment:
 
 # document level annotation:
@@ -310,6 +323,7 @@ Words: "        Yes      ,        "        I        answered ,        modestly .
 # :: snt116
 # sentence level graph:
 (s116u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -327,6 +341,7 @@ Words: "  Oh !
        :ARG1 (s117o / oh
                     :mode expressive)
        :quote-of s117o)
+
 # alignment:
 
 # document level annotation:
@@ -344,6 +359,7 @@ Words: That  is    funny !     "
        :ARG1 (s118f2 / funny-01
                      :ARG1 (s118t2 / that)
                      :quote s118s))
+
 # alignment:
 
 # document level annotation:
@@ -370,6 +386,7 @@ Words: And       the       little    prince    broke     into      a         lov
                 :refer-number singular)
             :degree (s119m / much
                 :degree intensifier))))
+
 # alignment:
 
 # document level annotation:
@@ -391,6 +408,7 @@ Words: I           like        my          misfortunes to          be          t
         :ARG1 (s120m / misfortune
             :possessor s120i)
         :manner (s120s / serious-01)))
+
 # alignment:
 
 # document level annotation:
@@ -417,6 +435,7 @@ Words: Then  he    added :     "     So    you   ,     too   ,     come  from  t
             :mod (s121t2 / too))
         :quote s121a)
     :temporal (s121t / then))
+
 # alignment:
 
 # document level annotation:
@@ -437,6 +456,7 @@ Words: Which  is     your   planet ?      "
             :refer-person 2nd
             :refer-number singular))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -485,6 +505,7 @@ Words: At           that         moment       I            caught       a       
         :manner (s123a2 / abrupt)
         :aspect performance
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -504,6 +525,7 @@ Words: But   he    did   not   reply .
             :refer-person 3rd
             :refer-number singular)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -547,6 +569,7 @@ Words: He      tossed  his     head    gently  ,       without taking  his     e
             :modal-strength neutral-affirmative
             :polarity -)
         :quote s125s))
+
 # alignment:
 
 # document level annotation:
@@ -567,6 +590,7 @@ Words: And     he      sank    into    a       reverie ,       which   lasted  a
             :refer-number singular)
         :ARG4 (s126r / reverie
             :ARG1-of (s126l / long-03))))
+
 # alignment:
 
 # document level annotation:
@@ -598,6 +622,7 @@ Words: Then          ,             taking        my            sheep         out
         :ARG2 (s127p / pocket
             :possessor s127h))
     :temporal (s127t3 / then))
+
 # alignment:
 
 # document level annotation:
@@ -628,6 +653,7 @@ Words: You        can        imagine    how        my         curiosity  was    
                 :refer-person 1st
                 :refer-number singular)))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -653,6 +679,7 @@ Words: I         made      a         great     effort    ,         therefore ,  
                 :topic (s129s / subject
                     :mod (s129t2 / this))))
         :mod (s129g / great)))
+
 # alignment:
 
 # document level annotation:
@@ -683,6 +710,7 @@ Words: "      My     little man    ,      where  do     you    come   from   ?
         :quote s130s)
     :ARG2 s130p
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -707,6 +735,7 @@ Words: What  is    this  '     where I     live  ,     '     of    which you   s
         :refer-number singular)
     :place s131i
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -729,6 +758,7 @@ Words: Where do    you   want  to    take  your  sheep ?     "
         :ARG1 (s132s / sheep
             :possessor s132y)
         :ARG3 (s132a / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -770,6 +800,7 @@ Words: After      a          reflective silence    he         answered   :      
     :temporal (s133a2 / after
         :op1 (s133s / silent
             :mod (s133r / reflect-02))))
+
 # alignment:
 
 # document level annotation:
@@ -791,6 +822,7 @@ Words: "    That is   so   .    "
                     :quote s134s
                     :ARG2 full-affirmative)
        :ARG2 (s134p2 / person))
+
 # alignment:
 
 # document level annotation:
@@ -827,6 +859,7 @@ Words: And    if     you    are    good   I      will   give   you    a      str
         :ARG2 s135y
         :condition (s135g2 / good-02
             :ARG1 s135y)))
+
 # alignment:
 
 # document level annotation:
@@ -855,6 +888,7 @@ Words: But     the     little  prince  seemed  shocked by      this    offer   :
                             :refer-number singular)
                         :quote s136s3
                         :mode imperative))))))
+
 # alignment:
 
 # document level annotation:
@@ -870,6 +904,7 @@ Words: What  a     queer idea  !     "
 # sentence level graph:
 (s137q / queer
        :domain (s137i / idea))
+
 # alignment:
 
 # document level annotation:
@@ -895,6 +930,7 @@ Words: "   But if  you do  n't tie him ,   "
             :condition-of (s138t2 / thing)
             :polarity -)
         :quote s138s))
+
 # alignment:
 
 # document level annotation:
@@ -922,6 +958,7 @@ Words: I         said      ,         "         he        will      wander    off
             :ARG1 s139h
             :ARG2 (s139l / lost))
         :quote s139s))
+
 # alignment:
 
 # document level annotation:
@@ -957,6 +994,7 @@ Words: My       friend   broke    into     another  peal     of       laughter :
     :ARG1 (s140l / laugh-01
         :quant (s140p / peal
             :mod (s140a / another))))
+
 # alignment:
 
 # document level annotation:
@@ -971,6 +1009,7 @@ Words: "        Anywhere .
 
 # sentence level graph:
 (s141a / anywhere)
+
 # alignment:
 
 # document level annotation:
@@ -991,6 +1030,7 @@ Words: Straight ahead    of       him      .        "
             :refer-number singular)
         :ARG1-of (s142s / straight-04)
         :quote s142s2))
+
 # alignment:
 
 # document level annotation:
@@ -1012,6 +1052,7 @@ Words: Then      the       little    prince    said      ,         earnestly :  
                     :polarity -)
        :manner (s143e / earnest-01)
        :temporal (s143t / then))
+
 # alignment:
 
 # document level annotation:
@@ -1035,6 +1076,7 @@ Words: Where      I          live       ,          everything is         so     
         :refer-person 3rd
         :refer-number singular)
     :degree intensifier)
+
 # alignment:
 
 # document level annotation:
@@ -1068,6 +1110,7 @@ Words: And      ,        with     perhaps  a        hint     of       sadness  ,
         :manner (s145s / sad-02
             :quant (s145h2 / hint)
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:

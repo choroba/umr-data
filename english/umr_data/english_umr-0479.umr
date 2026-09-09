@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -31,6 +32,7 @@ Words: <Architect> Use         blue        blocks      for         this        b
         :ARG2 s2b
         :mod (s2t / this))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +61,7 @@ Words: <Architect> use         2           blue        squares     to          f
                     :ARG1 (s3b3 / build-space))))
         :ARG2 s3s)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -81,6 +84,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                             :x 0
                             :y 1
                             :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -103,6 +107,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                             :x -1
                             :y 1
                             :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -140,6 +145,7 @@ Words: <Architect> put         one         ore         square      on          t
             :configuration (s6s3 / string-entity
                 :value "L")))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -162,6 +168,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                             :x -1
                             :y 2
                             :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -177,6 +184,7 @@ Words: <Architect> thats       it!
 # sentence level graph:
 (s8b / be-it-08
      :ARG1 (s8t / that))
+
 # alignment:
 
 # document level annotation:

@@ -8,6 +8,7 @@ Words: Whole     apartment was       shaking.
 (s1s / shake-01
      :ARG1 (s1a / apartment
                 :extent (s1w / whole)))
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +26,7 @@ Words: Far    out    and    funky!
      :op1 (s2o / out
                :quant (s2f / far))
      :op2 (s2f2 / funky))
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +44,7 @@ Words: What  the   hell?
      :mod (s3h / hell
                :mode expressive)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +72,7 @@ Words: Two    Thumbs said   he     felt   this   too    in     PA.
                                          :op1 "Pennsylvania")
                              :wiki "Pennsylvania")
                 :mod (s4t2 / too)))
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +97,7 @@ Words: Nothing    here       in         Birmingham though.
         :refer-person 3rd
         :refer-number plural)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -114,6 +119,7 @@ Words: did        you        think      earthquake at         first?
     :ARG1 (s6e / earthquake)
     :temporal (s6a / at-first)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -145,6 +151,7 @@ Words: Felt     it       here     just     outside  of       Reading, PA!
                     :wiki "Pennsylvania")
                 :wiki "Reading,_Pennsylvania")
             :mod (s7j / just))))
+
 # alignment:
 
 # document level annotation:
@@ -182,6 +189,7 @@ Words: Thought   I         was       having    a         seizure   or        som
                 :path (s8a2 / and
                     :op1 (s8b2 / back)
                     :op2 (s8f / forth))))))
+
 # alignment:
 
 # document level annotation:
@@ -206,6 +214,7 @@ Words: The      book     shelf    in       my       computer room     was      m
     :path (s9a / and
         :op1 (s9b2 / back)
         :op2 (s9f / forth)))
+
 # alignment:
 
 # document level annotation:
@@ -222,6 +231,7 @@ Words: Weird dude.
 (s10s / say-01
       :ARG1 (s10w / weird)
       :ARG2 (s10d / dude))
+
 # alignment:
 
 # document level annotation:
@@ -243,6 +253,7 @@ Words: Was      going    on       for      like     20       seconds.
         :op1 (s11t / temporal-quantity
             :unit (s11s / second)
             :quant 20)))
+
 # alignment:
 
 # document level annotation:

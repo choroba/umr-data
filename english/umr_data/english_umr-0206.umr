@@ -7,6 +7,7 @@ Words: Chapter 11      .
 # sentence level graph:
 (s603c / chapter
        :mod 11)
+
 # alignment:
 
 # document level annotation:
@@ -26,6 +27,7 @@ Words: The       second    planet    was       inhabited by        a         con
        :ARG1 (s604p / planet
                     :ord (s604o / ordinal-entity
                                 :value 2)))
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +43,7 @@ Words: "  Ah !
 # sentence level graph:
 (s605a / ah
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -56,6 +59,7 @@ Words: Ah !
 # sentence level graph:
 (s606a / ah
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +93,7 @@ Words: I         am        about     to        receive   a         visit     fro
             :value 1))
     :direction (s607f2 / from
         :op1 (s607a2 / afar)))
+
 # alignment:
 
 # document level annotation:
@@ -116,6 +121,7 @@ Words: For       ,         to        conceited men       ,         all       oth
                      :modal-predicate s608h
                      :aspect state
                      :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -135,6 +141,7 @@ Words: "       Good    morning ,       "       said    the     little  prince  .
        :ARG1 (s609m / morning
                     :ARG1-of (s609g / good-02)
                     :quote s609s))
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +163,7 @@ Words: "       That    is      a       queer   hat     you     are     wearing .
                                                    :refer-person 2nd
                                                    :refer-number singular)))
        :ARG2 (s610q2 / queer))
+
 # alignment:
 
 # document level annotation:
@@ -181,6 +189,7 @@ Words: "         It        is        a         hat       for       salutes   ,  
         :quote s611r
         :aspect state
         :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +216,7 @@ Words: "       It      is      to      raise   in      salute  when    people  a
                     :refer-person 1st
                     :refer-number singular))
             :instrument s612i)))
+
 # alignment:
 
 # document level annotation:
@@ -232,6 +242,7 @@ Words: Unfortunately ,             nobody        at            all           eve
         :polarity -)
     :temporal (s613e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -255,6 +266,7 @@ Words: "          Yes        ?          "          said       the        little 
                                                                                :mod (s614c / conceit))))
                                     :polarity -))
        :ARG1 (s614y / yes))
+
 # alignment:
 
 # document level annotation:
@@ -292,6 +304,7 @@ Words: "         Clap      your      hands     ,         one       against   the
                      :quote s615d
                      :mode imperative)
        :temporal (s615n / now))
+
 # alignment:
 
 # document level annotation:
@@ -310,6 +323,7 @@ Words: The     little  prince  clapped his     hands   .
                     :mod (s616l / little)
                     :part (s616h / hand))
        :ARG1 s616h)
+
 # alignment:
 
 # document level annotation:
@@ -332,6 +346,7 @@ Words: The       conceited man       raised    his       hat       in        a  
                            :ARG0 s617m
                            :manner (s617m2 / modest)
                            :instrument s617h))
+
 # alignment:
 
 # document level annotation:
@@ -357,6 +372,7 @@ Words: "            This         is           more         entertaining than    
                                  :ARG1 (s618k / king))
                     :quote s618s)
        :ARG2 s618p)
+
 # alignment:
 
 # document level annotation:
@@ -388,6 +404,7 @@ Words: And     he      began   again   to      clap    his     hands   ,       o
             :ARG1 s619h3
             :ARG2 s619h4))
     :mod (s619a / again))
+
 # alignment:
 
 # document level annotation:
@@ -409,6 +426,7 @@ Words: The       conceited man       against   raised    his       hat       in 
        :subevent-of (s620s / salute-01
                            :ARG0 s620m
                            :instrument s620h2))
+
 # alignment:
 
 # document level annotation:
@@ -432,6 +450,7 @@ Words: After    five     minutes  of       this     exercise the      little   p
                                     :duration (s621t2 / temporal-quantity
                                                       :unit (s621m2 / minute)
                                                       :quant 5))))
+
 # alignment:
 
 # document level annotation:
@@ -458,6 +477,7 @@ Words: "      And    what   should one    do     to     make   the    hat    com
                 :ARG1 (s622h3 / hat)
                 :direction (s622d3 / down)))
         :quote s622a))
+
 # alignment:
 
 # document level annotation:
@@ -478,6 +498,7 @@ Words: But       the       conceited man       did       not       hear      him
         :refer-person 3rd
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -501,6 +522,7 @@ Words: Conceited people    never     hear      anything  but       praise    .
         :refer-number singular)
     :temporal (s624e / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -527,6 +549,7 @@ Words: "        Do       you      really   admire   me       very     much     ?
         :quote s625d
         :degree intensifier)
     :ARG2 s625p)
+
 # alignment:
 
 # document level annotation:
@@ -543,6 +566,7 @@ Words: "      What   does   that   mean   -      -      '      admire '      ?  
 (s626m / mean-01
        :ARG1 (s626a / admire-01)
        :ARG2 (s626a2 / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -586,6 +610,7 @@ Words: "           To          admire      mean        that        you         r
                     :ARG1 s627m6)
                 :ARG3 (s627m5 / most)
                 :ARG5 s627p2))))
+
 # alignment:
 
 # document level annotation:
@@ -611,6 +636,7 @@ Words: "      But    you    are    the    only   man    on     your   planet !  
                         :possessor s628y)))
             :aspect state))
     :quote-of s628c)
+
 # alignment:
 
 # document level annotation:
@@ -633,6 +659,7 @@ Words: "        Do       me       this     kindness .
         :refer-person 1st
         :refer-number singular)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -656,6 +683,7 @@ Words: Admire me     just   the    same   .      "
     :manner (s630s / same-01
         :mod (s630j / just))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -690,6 +718,7 @@ Words: "         I         admire    you       ,         "         said      the
             :reason (s631a2 / umr-unknown)
             :degree intensifier)
         :quote s631s))
+
 # alignment:
 
 # document level annotation:
@@ -708,6 +737,7 @@ Words: And    the    little prince went   away   .
                    :ARG0 (s632p / prince
                                 :mod (s632l / little))
                    :direction (s632a2 / away)))
+
 # alignment:
 
 # document level annotation:
@@ -735,6 +765,7 @@ Words: "         The       grown     -         ups       are       certainly ver
         :ARG0 s633h
         :ARG1 (s633j / journey-01
             :ARG0 s633h)))
+
 # alignment:
 
 # document level annotation:

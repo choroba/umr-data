@@ -7,6 +7,7 @@ Words: Chapter 13      .
 # sentence level graph:
 (s648c / chapter
        :mod 13)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +26,7 @@ Words: The         fourth      planet      belonged    to          a           b
                     :ord (s649o / ordinal-entity
                                 :value 4))
        :ARG1 (s649b3 / businessman))
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +54,7 @@ Words: This     man      was      so       much     occupied that     he       d
                                       :ARG1 (s650p / prince
                                                    :mod (s650l / little)))
                      :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -74,6 +77,7 @@ Words: "       Good    morning ,       "       the     little  prince  said    t
     :ARG2 (s651h / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -92,6 +96,7 @@ Words: "         Your      cigarette has       gone      out       .         "
         :possessor (s652y / person
             :refer-person 2nd
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -112,6 +117,7 @@ Words: "     Three and   two   make  five  .
                                   :op2 2)
                     :ARG2 5
                     :quote s653s))
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +138,7 @@ Words: Five   and    seven  make   twelve .
                                   :op2 7)
                     :ARG2 12)
        :quote s654s)
+
 # alignment:
 
 # document level annotation:
@@ -152,6 +159,7 @@ Words: Twelve  and     three   make    fifteen .
                                   :op2 3)
                      :ARG2 15)
         :quote s655s2)
+
 # alignment:
 
 # document level annotation:
@@ -167,6 +175,7 @@ Words: Good    morning .
 # sentence level graph:
 (s656m / morning
        :ARG1-of (s656g / good-02))
+
 # alignment:
 
 # document level annotation:
@@ -187,6 +196,7 @@ Words: FIfteen and     seven   make    twenty  -       two     .
                                   :op2 7)
                     :ARG2 22
                     :quote s657s))
+
 # alignment:
 
 # document level annotation:
@@ -207,6 +217,7 @@ Words: Twenty -      two    and    six    make   twenty -      eight  .
                                   :op2 6)
                     :ARG2 28)
        :quote s658s)
+
 # alignment:
 
 # document level annotation:
@@ -232,6 +243,7 @@ Words: I     have  n't   time  to    light it    again .
                 :refer-number singular)
             :mod (s659a / again)))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -252,6 +264,7 @@ Words: Twenty -      six    and    five   make   thirty -      one    .
                                   :op2 5)
                      :quote s660s2
                      :ARG2 31))
+
 # alignment:
 
 # document level annotation:
@@ -267,6 +280,7 @@ Words: Phew !
 # sentence level graph:
 (s661p / phew
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -285,6 +299,7 @@ Words: Then     that     makes    five     -        hundred  -        and      -
                     :ARG2 (s662t / that)
                     :quote s662s
                     :ARG1 501622731))
+
 # alignment:
 
 # document level annotation:
@@ -304,6 +319,7 @@ Words: "       Five    hundred million what    ?       "       asked   the     l
        :ARG1 (s663a2 / umr-unknown
                      :quant 500000000)
        :quote-of s663a2)
+
 # alignment:
 
 # document level annotation:
@@ -320,6 +336,7 @@ Words: "  Eh ?
 (s664e / eh
        :polarity (s664a / umr-unknown)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -341,6 +358,7 @@ Words: Are   you   still there ?
     :mod (s665s / still)
     :polarity (s665a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -362,6 +380,7 @@ Words: Five    -       hundred -       and     -       one     million -       -
         :modal-strength neutral-affirmative
         :polarity -)
     :op1 501000000)
+
 # alignment:
 
 # document level annotation:
@@ -379,6 +398,7 @@ Words: I    have so   much to   do   !
        :ARG1 (s667m / much
                     :degree intensifier)
        :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -398,6 +418,7 @@ Words: I           am          concerned   with        matters     of          c
     :ARG1 (s668i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -418,6 +439,7 @@ Words: I          do         n't        amuse      myself     with       balderd
     :ARG1 s669i
     :ARG2 (s669b / balderdash)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -438,6 +460,7 @@ Words: Two   and   five  make  seven ...   "
                                   :op2 5)
                      :quote s670s2
                      :ARG1 7))
+
 # alignment:
 
 # document level annotation:
@@ -469,6 +492,7 @@ Words: "        Five     -        hundred  -        and      -        one      m
        :ARG1 (s671a / umr-unknown
                     :quant 501000000)
        :quote-of s671a)
+
 # alignment:
 
 # document level annotation:
@@ -486,6 +510,7 @@ Words: The         businessman raised      his         head        .
        :ARG0 (s672b / businessman
                     :part (s672h / head))
        :ARG1 s672h)
+
 # alignment:
 
 # document level annotation:
@@ -513,6 +538,7 @@ Words: "         During    the       fifty     -         four      years     tha
         :duration (s673t2 / temporal-quantity
             :unit (s673y / year)
             :quant 54)))
+
 # alignment:
 
 # document level annotation:
@@ -542,6 +568,7 @@ Words: The      first    time     was      twenty   -        two      years    a
                                           :ARG3 (s674l / place
                                                        :ARG1-of (s674k2 / know-01
                                                                         :ARG0 (s674g6 / goodness))))))
+
 # alignment:
 
 # document level annotation:
@@ -575,6 +602,7 @@ Words: He        made      the       most      frightful noise     that      res
         :ARG1 (s675a3 / add-02
             :ARG0 s675i)
         :quant 4))
+
 # alignment:
 
 # document level annotation:
@@ -610,6 +638,7 @@ Words: "          The        second     time       ,          eleven     years  
                     :aspect performance
                     :modal-strength full-affirmative)
        :ARG2 (s676p2 / person))
+
 # alignment:
 
 # document level annotation:
@@ -630,6 +659,7 @@ Words: I        do       n't      get      enough   exercise .
             :refer-number singular))
     :ARG3 (s677e2 / enough)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -651,6 +681,7 @@ Words: I       have    no      time    for     loafing .
         :purpose (s678l / loaf-01
             :ARG0 s678i))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -673,6 +704,7 @@ Words: The   third time  -     -     well  ,     this  is    it    !
                                  :value 3)
                     :quote s679s)
        :ARG2 (s679p2 / person))
+
 # alignment:
 
 # document level annotation:
@@ -695,6 +727,7 @@ Words: I        was      saying   ,        then     ,        five     -        h
             :ARG2 501000000)
         :quote-of s680h
         :quote s680s2))
+
 # alignment:
 
 # document level annotation:
@@ -711,6 +744,7 @@ Words: "        Millions of       what     ?        "
 (s681a / umr-unknown
        :quant (s681m / multiple
                      :op1 1000000))
+
 # alignment:
 
 # document level annotation:
@@ -748,6 +782,7 @@ Words: The         businessman suddenly    realized    that        there       w
        :ARG1-of (s682s / suddenness-01)
        :aspect performance
        :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -777,6 +812,7 @@ Words: "         Millions  of        those     little    objects   ,         "  
         :quant (s683m / multiple
             :op1 1000000)
         :quote s683s))
+
 # alignment:
 
 # document level annotation:
@@ -792,6 +828,7 @@ Words: "     Flies ?     "
 # sentence level graph:
 (s684f / fly
        :polarity (s684a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -808,6 +845,7 @@ Words: "  Oh ,  no .
 (s685n / no
        :mod (s685o / oh
                    :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -824,6 +862,7 @@ Words: Little     glittering objects    .          "
 (s686o / object
        :mod (s686l / little)
        :ARG0-of (s686g / glitter-01))
+
 # alignment:
 
 # document level annotation:
@@ -839,6 +878,7 @@ Words: "    Bees ?    "
 # sentence level graph:
 (s687b / bee
        :polarity (s687a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -855,6 +895,7 @@ Words: "  Oh ,  no .
 (s688n / no
        :mod (s688o / oh
                    :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -877,6 +918,7 @@ Words: Little   golden   objects  that     set      lazy     men      to       i
                        :ARG2 (s689d / dream-01
                                     :ARG0 s689m
                                     :manner (s689i / idle-01))))
+
 # alignment:
 
 # document level annotation:
@@ -896,6 +938,7 @@ Words: As          for         me          ,           I           am          c
     :ARG1 (s690i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -918,6 +961,7 @@ Words: There    is       no       time     for      idle     dreaming in       m
             :refer-person 1st
             :refer-number singular))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -933,6 +977,7 @@ Words: "  Ah !
 # sentence level graph:
 (s692a / ah
        :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -952,6 +997,7 @@ Words: You   mean  the   stars ?     "
         :refer-person 2nd
         :refer-number singular)
     :ARG2 (s693s / star))
+
 # alignment:
 
 # document level annotation:
@@ -967,6 +1013,7 @@ Words: "    Yes  ,    that 's   it   .
 # sentence level graph:
 (s694b / be-it-07
        :ARG1 (s694t2 / that))
+
 # alignment:
 
 # document level annotation:
@@ -981,6 +1028,7 @@ Words: The   stars .     "
 
 # sentence level graph:
 (s695s / star)
+
 # alignment:
 
 # document level annotation:
@@ -1002,6 +1050,7 @@ Words: "        And      what     do       you      do       with     five     -
         :ARG1 (s696a2 / umr-unknown)
         :ARG3 (s696s / star
             :quant 500000000)))
+
 # alignment:
 
 # document level annotation:
@@ -1019,6 +1068,7 @@ Words: "        Five     -        hundred  -        and      -        one      m
        :ARG1 (s697h / have-quant-91
                     :ARG2 501622731)
        :quote-of s697h)
+
 # alignment:
 
 # document level annotation:
@@ -1041,6 +1091,7 @@ Words: I           am          concerned   with        matters     of          c
             :refer-number singular))
     :op2 (s698a2 / accurate
         :domain s698i))
+
 # alignment:
 
 # document level annotation:
@@ -1062,6 +1113,7 @@ Words: "     And   what  do    you   do    with  these stars ?     "
         :ARG1 (s699a2 / umr-unknown)
         :ARG3 (s699s / star
             :mod (s699t / this))))
+
 # alignment:
 
 # document level annotation:
@@ -1083,6 +1135,7 @@ Words: "    What do   I    do   with them ?    "
     :ARG3 (s700t / person
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1097,6 +1150,7 @@ Words: "   Yes .   "
 
 # sentence level graph:
 (s701y / yes)
+
 # alignment:
 
 # document level annotation:
@@ -1114,6 +1168,7 @@ Words: "       Nothing .
     :mod (s702a1 / all)
     :refer-person 3rd
     :refer-number plural)
+
 # alignment:
 
 # document level annotation:
@@ -1134,6 +1189,7 @@ Words: I    own  them .    "
     :ARG1 (s703t / person
         :refer-person 3rd
         :refer-number plural))
+
 # alignment:
 
 # document level annotation:
@@ -1155,6 +1211,7 @@ Words: "     You   own   the   stars ?     "
         :ARG1 (s704s / star)
         :ARG1-of (s704r / request-confirmation-91)
         :quote s704s2))
+
 # alignment:
 
 # document level annotation:
@@ -1169,6 +1226,7 @@ Words: "   Yes .   "
 
 # sentence level graph:
 (s705y / yes)
+
 # alignment:
 
 # document level annotation:
@@ -1191,6 +1249,7 @@ Words: "       But     I       have    already seen    a       king    who     -
             :ARG1 (s706k / king)
             :temporal (s706a / already))
         :quote s706s2))
+
 # alignment:
 
 # document level annotation:
@@ -1212,6 +1271,7 @@ Words: "     Kings do    not   own   ,     they  reign over  .
         :ARG2 (s707r / reign-01
             :ARG0 s707k)
         :quote s707s))
+
 # alignment:
 
 # document level annotation:
@@ -1232,6 +1292,7 @@ Words: It        is        a         very      different matter    .         "
                     :degree intensifier
                     :aspect state
                     :modal-strength full-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1253,6 +1314,7 @@ Words: "     And   what  good  does  it    do    you   to    own   the   stars ?
             :refer-person 2nd
             :refer-number singular)
         :manner (s709a2 / umr-unknown)))
+
 # alignment:
 
 # document level annotation:
@@ -1277,6 +1339,7 @@ Words: "      It     does   me     the    good   of     making me     rich   .  
         :ARG0 s710i2
         :ARG1 (s710r / rich-01
             :ARG1 s710i)))
+
 # alignment:
 
 # document level annotation:
@@ -1298,6 +1361,7 @@ Words: "    And  what good does it   do   you  to   be   rich ?    "
                 :refer-number singular))
         :manner (s711a2 / umr-unknown)
         :ARG2 s711y))
+
 # alignment:
 
 # document level annotation:
@@ -1328,6 +1392,7 @@ Words: "          It         makes      it         possible   for        me     
             :aspect performance
             :modal-strength neutral-affirmative)
         :quote s712s))
+
 # alignment:
 
 # document level annotation:
@@ -1356,6 +1421,7 @@ Words: "       This    man     ,       "       the     little  prince  said    t
                                      :degree downtoner)
                     :quote s713s)
        :ARG2 s713p)
+
 # alignment:
 
 # document level annotation:
@@ -1379,6 +1445,7 @@ Words: Nevertheless ,            he           still        had          some    
             :mod (s714s / some)
             :ARG1-of (s714q / question-01))
         :mod (s714s2 / still)))
+
 # alignment:
 
 # document level annotation:
@@ -1396,6 +1463,7 @@ Words: "        How      is       it       possible for      one      to       o
        :ARG0 (s715o2 / one)
        :ARG1 (s715s / star)
        :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1419,6 +1487,7 @@ Words: "           To          whom        do          they        belong      ?
         :quote s716r)
     :manner (s716p / peeve-01
         :ARG1 s716b3))
+
 # alignment:
 
 # document level annotation:
@@ -1437,6 +1506,7 @@ Words: "    I    do   n't  know .
         :refer-person 1st
         :refer-number singular)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1456,6 +1526,7 @@ Words: To     nobody .      "
         :refer-person 3rd
         :refer-number plural)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1486,6 +1557,7 @@ Words: "       Then    they    belong  to      me      ,       because I       w
         :refer-person 1st
         :refer-number singular)
     :reason s719i3)
+
 # alignment:
 
 # document level annotation:
@@ -1505,6 +1577,7 @@ Words: "         Is        that      all       that      is        necessary ?  
                 :polarity (s720a2 / umr-unknown))
    :ARG1-of (s720n / need-01)
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -1519,6 +1592,7 @@ Words: "         Certainly .
 
 # sentence level graph:
 (s721c / certain)
+
 # alignment:
 
 # document level annotation:
@@ -1546,6 +1620,7 @@ Words: When    you     find    a       diamond that    belongs to      nobody  ,
     :condition (s722f / find-01
         :ARG0 s722y
         :ARG1 s722d))
+
 # alignment:
 
 # document level annotation:
@@ -1573,6 +1648,7 @@ Words: When     you      discover an       island   that     belongs  to       n
     :condition (s723d / discover-01
         :ARG0 s723y
         :ARG1 s723i))
+
 # alignment:
 
 # document level annotation:
@@ -1604,6 +1680,7 @@ Words: When   you    get    an     idea   before any    one    else   ,      you
                 :mod (s724a1 / any)
                 :refer-person 3rd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -1640,6 +1717,7 @@ Words: So      with    me      :       I       own     the     stars   ,       b
                     :polarity -)))
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1659,6 +1737,7 @@ Words: "      Yes    ,      that   is     true   ,      "      said   the    lit
        :ARG1 (s726t / true-01
                     :ARG1 (s726t2 / that)
                     :quote s726s))
+
 # alignment:
 
 # document level annotation:
@@ -1681,6 +1760,7 @@ Words: "    And  what do   you  do   with them ?    "
         :ARG2 (s727t / person
             :refer-person 3rd
             :refer-number plural)))
+
 # alignment:
 
 # document level annotation:
@@ -1702,6 +1782,7 @@ Words: "           I           administer  them        ,           "           r
             :refer-person 3rd
             :refer-number plural)
         :quote s728r))
+
 # alignment:
 
 # document level annotation:
@@ -1726,6 +1807,7 @@ Words: "       I       count   them    and     recount them    .
     :op2 (s729r2 / recount-01
         :ARG0 s729i
         :ARG1 s729t))
+
 # alignment:
 
 # document level annotation:
@@ -1743,6 +1825,7 @@ Words: It        is        difficult .
     :domain (s730i / thing
         :refer-person 3rd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -1773,6 +1856,7 @@ Words: But         I           am          a           man         who         i
                                  :aspect state
                                  :modal-strength full-affirmative)
                     :quote s731s))
+
 # alignment:
 
 # document level annotation:
@@ -1791,6 +1875,7 @@ Words: The       little    prince    was       still     not       satisfied .
                     :mod (s732l / little))
        :mod (s732s2 / still)
        :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -1823,6 +1908,7 @@ Words: "      If     I      owned  a      silk   scarf  ,      "      he     sai
             :ARG1 s733s2
             :companion s733h)
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -1850,6 +1936,7 @@ Words: If     I      owned  a      flower ,      I      could  pluck  that   flo
         :ARG1 s734f2
         :companion s734i)
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -1874,6 +1961,7 @@ Words: But    you    can    not    pluck  the    stars  from   heaven ...    "
             :modal-strength neutral-affirmative
             :polarity -)
         :quote s735s2))
+
 # alignment:
 
 # document level annotation:
@@ -1888,6 +1976,7 @@ Words: "  No .
 
 # sentence level graph:
 (s736n / no)
+
 # alignment:
 
 # document level annotation:
@@ -1913,6 +2002,7 @@ Words: But  I    can  put  them in   the  bank .    "
             :ARG2 (s737b / bank)
             :modal-strength neutral-affirmative)
         :quote s737s))
+
 # alignment:
 
 # document level annotation:
@@ -1929,6 +2019,7 @@ Words: "        Whatever does     that     mean     ?        "
 (s738m / mean-01
        :ARG1 (s738t / that)
        :ARG2 (s738a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -1953,6 +2044,7 @@ Words: "      That   means  that   I      write  the    number of     my     sta
                 :possessor s739i))
         :place (s739p / paper
             :mod (s739l / little))))
+
 # alignment:
 
 # document level annotation:
@@ -1980,6 +2072,7 @@ Words: And    then   I      put    this   paper  in     a      drawer and    loc
             :ARG1 s740d
             :ARG3 (s740k / key)))
     :temporal (s740t / then))
+
 # alignment:
 
 # document level annotation:
@@ -2000,6 +2093,7 @@ Words: "    And  that is   all  ?    "
                                 :ARG1 (s741t / that)
                                 :ARG1-of (s741r / request-confirmation-91)))
        :ARG2 (s741p2 / person))
+
 # alignment:
 
 # document level annotation:
@@ -2018,6 +2112,7 @@ Words: "           That        is          enough      ,           "           s
        :ARG1 (s742e / enough
                     :domain (s742t / that)
                     :quote s742s))
+
 # alignment:
 
 # document level annotation:
@@ -2039,6 +2134,7 @@ Words: "            It           is           entertaining ,            "       
             :refer-person 3rd
             :refer-number singular)
         :quote s743t))
+
 # alignment:
 
 # document level annotation:
@@ -2060,6 +2156,7 @@ Words: "      It     is     rather poetic .
     :degree downtoner
     :aspect state
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -2081,6 +2178,7 @@ Words: But         it          is          of          no          great       c
                 :refer-number singular)
             :degree downtoner)
         :quote s745s))
+
 # alignment:
 
 # document level annotation:
@@ -2104,6 +2202,7 @@ Words: On          matters     of          consequence ,           the         l
                                     :ARG2 (s746i2 / idea
                                                   :possessor (s746g / grown-up))
                                     :degree intensifier)))
+
 # alignment:
 
 # document level annotation:
@@ -2135,6 +2234,7 @@ Words: "            I            myself       own          a            flower  
     :ARG3 (s747c2 / converse-01
         :ARG0 s747h
         :ARG2 s747b))
+
 # alignment:
 
 # document level annotation:
@@ -2173,6 +2273,7 @@ Words: I         own       three     volcanoes ,         which     I         cle
                             :refer-number singular)
                         :polarity -))))
         :quant 3))
+
 # alignment:
 
 # document level annotation:
@@ -2203,6 +2304,7 @@ Words: It        is        of        some      use       to        my        vol
         :ARG0 s749f2
         :ARG1 s749o
         :degree downtoner))
+
 # alignment:
 
 # document level annotation:
@@ -2225,6 +2327,7 @@ Words: But   you   are   of    no    use   to    the   stars ...   "
                 :refer-number singular)
             :polarity -)
         :quote s750s2))
+
 # alignment:
 
 # document level annotation:
@@ -2247,6 +2350,7 @@ Words: The         businessman opened      his         mouth       ,           b
                     :ARG0 s751b
                     :ARG1 (s751a / answer-01
                                  :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -2265,6 +2369,7 @@ Words: And    the    little prince went   away   .
                    :ARG0 (s752p / prince
                                 :mod (s752l / little))
                    :direction (s752a2 / away)))
+
 # alignment:
 
 # document level annotation:
@@ -2294,6 +2399,7 @@ Words: "             The           grown         -             ups           are
         :quote s753s
         :degree intensifier)
     :ARG1-of (s753s2 / simple-02))
+
 # alignment:
 
 # document level annotation:

@@ -13,6 +13,7 @@ Words: It's       not        a          failure    so         much       as     
         :ARG3 (s1l / less)
         :ARG4 (s1d / deceive-01
             :ARG0 s1i2)))
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +43,7 @@ Words: Obama        campaigned   in           2008         as           a       
                                          :ARG1 s2p
                                          :goal (s2o / office)))
                :ARG1 s2p2))
+
 # alignment:
 
 # document level annotation:
@@ -83,6 +85,7 @@ Words: I           remember    being       thrilled    at          how         m
                         :aspect state)))
             :ARG1 s3i))
     :op2 s3t3)
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +105,7 @@ Words: Boy,   was    I      wrong.
         :refer-number singular)
     :mod (s4b / boy
         :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -129,6 +133,7 @@ Words: Down           the            list,          almost         every        
                 :mod (s5d / deliberate)
                 :ARG1-of (s5h / have-substitute-91))
      :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -163,6 +168,7 @@ Words: For         example,    Obama       is          believed    by          s
                                                                  :wiki "United_States_Congress")
                                                       :ARG1 (s6b / bill)
                                                       :affectee s6p)))))
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +205,7 @@ Words: But          when         it           looked       like         no      
             :ARG1 (s7p3 / pass-01
                 :ARG1 (s7r / reform-01)
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -216,6 +223,7 @@ Words: So    what  does  that  mean?
      :ARG1 (s8t / that)
      :ARG2 (s8a / umr-unknown)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -258,6 +266,7 @@ Words: It      means   that    he      let     it      go      as      long    a
                 :ARG0 s9i2
                 :ARG1 s9g3
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -280,6 +289,7 @@ Words: He       wasn't   "weak"   on       this:    he       was      corrupt.
         :polarity -)
     :ARG2 (s10c2 / corrupt-01
         :ARG1 s10h))
+
 # alignment:
 
 # document level annotation:
@@ -312,6 +322,7 @@ Words: He               got              a                health-care      refor
                     :ARG3 (s11a / amount
                         :mod (s11l / large))))
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -338,6 +349,7 @@ Words: Obama   is      the     reason  we      don't   have    a       public  o
             :ARG1-of (s12o / opt-01)
             :ARG1-of (s12p2 / public-02))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -361,6 +373,7 @@ Words: If       he'd     intended there    to       be       one,     we       w
             :refer-person 3rd
             :refer-number singular)
         :ARG1 s13o))
+
 # alignment:
 
 # document level annotation:
@@ -419,6 +432,7 @@ Words: Look               at                 who                he              
                                 :op1 "Clinton")
                             :wiki "Bill_Clinton"))))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -462,6 +476,7 @@ Words: The         Republicans did         not         pressure    him         i
             :ARG0 s15p2
             :ARG1 s15h)
         :purpose s15a))
+
 # alignment:
 
 # document level annotation:
@@ -483,6 +498,7 @@ Words: He          did         that        on          his         own         i
     :ARG1-of (s16c / cause-01
         :ARG0 (s16i / initiative
             :possessor s16h)))
+
 # alignment:
 
 # document level annotation:
@@ -513,6 +529,7 @@ Words: Barack      Obama       is          simply      not         the         p
                                                                  :year 2008))))
       :ARG1-of (s17s / simple-02)
       :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -535,6 +552,7 @@ Words: And      THAT     is       his      biggest  failing.
             :ARG0 (s18h / person
                 :refer-person 3rd
                 :refer-number singular))))
+
 # alignment:
 
 # document level annotation:
@@ -550,6 +568,7 @@ Words: Bingo.
 # sentence level graph:
 (s19b / bingo
       :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -567,6 +586,7 @@ Words: As    I     said.
     :ARG0 (s20i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -606,6 +626,7 @@ Words: Running          for              POTUS            is               a    
         :ARG1 s21h3
         :mod (s21e2 / especially)
         :polarity -))
+
 # alignment:
 
 # document level annotation:

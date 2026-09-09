@@ -23,6 +23,7 @@ Words: My          wife        has         Constant    ringing     in          h
             :refer-number singular)
         :ARG1 (s1n / noise)
         :ARG2 (s1w2 / whoosh-01)))
+
 # alignment:
 
 # document level annotation:
@@ -44,6 +45,7 @@ Words: Any    ideas? THANKS
         :ARG0 (s2i2 / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -66,6 +68,7 @@ Words: @RobC,    That's    tinnitus.
               :aspect state
               :ARG1 (s3t2 / that)
               :ARG2 (s3t / tinnitus)))
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +105,7 @@ Words: She                   should                see                   an     
             :ARG0-of (s4c / cause-01)
             :modal-strength neutral-affirmative))
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:

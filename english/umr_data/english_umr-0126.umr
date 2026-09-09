@@ -31,6 +31,7 @@ Words: LOL,     you      all      SURE     DIDN'T   have     any      trouble  l
         :ARG1-of (s1s / sure-02)
         :mod (s1a3 / any)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -50,6 +51,7 @@ Words: Don't like  it    when  it    when  the   shoe  is    on    the   OTHER F
                            :mod (s2o / other)))
      :ARG1-of (s2r / request-confirmation-91)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +63,7 @@ Words: Don't like  it    when  it    when  the   shoe  is    on    the   OTHER F
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -72,6 +75,7 @@ Words: Don't like  it    when  it    when  the   shoe  is    on    the   OTHER F
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -100,6 +104,7 @@ Words: Only     thing    ,        I        havn't   seen     anything nobel    a
         :polarity -
         :aspect state
         :modal-strength full-negative))
+
 # alignment:
 
 # document level annotation:
@@ -121,6 +126,7 @@ Words: rambling bunch    of       idiots   in       my       book.
         :possessor (s6i2 / person
             :refer-person 1st
             :refer-number singular)))
+
 # alignment:
 
 # document level annotation:
@@ -165,6 +171,7 @@ Words: Not          only         that,        they         consistently LIED    
                                     :ARG3 (s7e2 / enough)))))))
             :modal-strength neutral-affirmative
             :polarity -)))
+
 # alignment:
 
 # document level annotation:

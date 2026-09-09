@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +96,7 @@ Words: Actually, as        an        owner     of        a         temporary pla
         :ARG1-of (s6a / actual-02)
         :polarity -)
     :ARG1-of (s6a5 / actual-02))
+
 # alignment:
 
 # document level annotation:
@@ -129,6 +135,7 @@ Words: We           can          not          offer        a            temp    
                 :ARG1-of (s7a2 / assign-01))))
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -154,6 +161,7 @@ Words: It       willbe   a        valid    rebuttle and      we       would    l
             :refer-number singular)
         :ARG3 (s8r / rebut-01)
         :aspect state))
+
 # alignment:
 
 # document level annotation:
@@ -182,6 +190,7 @@ Words: Furthermore, we           would        never        want         to      
             :mod (s9s / such)))
     :temporal (s9e2 / ever)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -209,6 +218,7 @@ Words: Maybe    some     of       the      smaller  shops    that     try      t
                                 :ARG2 (s10s2 / small)
                                 :ARG3 (s10m / more)))
       :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +257,7 @@ Words: but        as         someone    in         the        industry   for    
             :mod (s11o3 / only)
             :duration (s11t3 / term
                 :ARG1-of (s11s4 / short-07)))))
+
 # alignment:
 
 # document level annotation:
@@ -280,6 +291,7 @@ Words: For        your       inventory  (temps)    is         at         a      
                 :direction (s12o / out-06
                     :ARG1 s12i))
             :frequency (s12c3 / constant))))
+
 # alignment:
 
 # document level annotation:
@@ -303,6 +315,7 @@ Words: You       need      to        grow      inventory to        grow      rev
         :purpose (s13g2 / grow-01
             :ARG0 s13y
             :ARG1 (s13r / revenue))))
+
 # alignment:
 
 # document level annotation:
@@ -338,6 +351,7 @@ Words: What     many     people   dont     realize  is       we       value    o
                         :ARG2 s14w
                         :ARG3 (s14c / client))))))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -364,6 +378,7 @@ Words: We       must     perform  superior customer service  for      all      o
             :refer-number plural)
         :ARG1-of (s15s2 / superior-01))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:

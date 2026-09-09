@@ -21,6 +21,7 @@ Words: they      have      in        place     in        most      companies cut
         :modal-strength full-affirmative)
     :aspect state
     :modal-strength full-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -41,6 +42,7 @@ Words: This   only   works  for    a      few    years.
                     :op1 (s2t / temporal-quantity
                               :unit (s2y / year)
                               :quant 1)))
+
 # alignment:
 
 # document level annotation:
@@ -68,6 +70,7 @@ Words: They     cut      and      slash    their    way      in       a        b
             :ARG1 s3p))
     :part-of (s3s / system
         :ARG1-of (s3b / bloat-01)))
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +92,7 @@ Words: At    some  point there is    no    more  fat   to    cut.
      :ARG2 (s4m / more)
      :temporal (s4p2 / point
                      :mod (s4s / some)))
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +113,7 @@ Words: The    corps  will   settle for    profit any    way    its    made.
                 :manner (s5w2 / way))
      :ARG1-of (s5h / have-concessive-condition-91
                    :ARG2 s5w2))
+
 # alignment:
 
 # document level annotation:
@@ -128,6 +133,7 @@ Words: When    slash   and     burn    is      done    you     have    to      m
         :refer-number singular)
     :manner (s6s / some)
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -154,6 +160,7 @@ Words: At      the     point   that    they    need    to      hire    to      m
             :ARG2-of (s7h3 / have-degree-91
                 :ARG1 s7t
                 :ARG3 (s7m / more)))))
+
 # alignment:
 
 # document level annotation:
@@ -195,6 +202,7 @@ Words: No         republican tricks     like       trashing   the        debt   
         :ARG1 (s8p2 / profit-01
             :ARG0 s8c5))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -217,6 +225,7 @@ Words: Unfortunately for           the           right         we            hav
     :ARG2-of (s9f / fortunate-01
         :ARG1 (s9r / right-08)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -250,6 +259,7 @@ Words: While        the          republicans  will         do           ANYTHING
             :refer-person 3rd
             :refer-number singular)
         :affectee s10c))
+
 # alignment:
 
 # document level annotation:
@@ -281,6 +291,7 @@ Words: They    will    not     hold    back    jsut    to      help    you     g
             :ARG0 s11t
             :modal-strength neutral-affirmative))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -305,6 +316,7 @@ Words: You      serve    a        disloyal mistress cons.
             :ARG1-of (s12l / loyal-01
                 :polarity -)))
     :ARG2 s12p)
+
 # alignment:
 
 # document level annotation:
@@ -316,6 +328,7 @@ Words: You      serve    a        disloyal mistress cons.
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -340,6 +353,7 @@ Words: Who        would      have       thought    that       TM         was    
                :ARG3 (s14c / captain
                            :mod (s14i / industry)))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -359,6 +373,7 @@ Words: "we     have    about   hit     the     point   where   to      make    m
         :refer-number plural)
     :ARG1 (s15p / point)
     :degree (s15a / about))
+
 # alignment:
 
 # document level annotation:
@@ -378,6 +393,7 @@ Words: We      have,   "Hit    the     point?"
         :refer-number plural)
     :ARG1 (s16p / point)
     :polarity (s16a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -397,6 +413,7 @@ Words: What    "point" would   that    be?
                :mode interrogative
                :mod (s17p / point-04))
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -421,6 +438,7 @@ Words: I       thought the     only    way     to      Save    An      Economy w
         :ARG2 (s18w / way
             :manner-of (s18s / save-02
                 :ARG1 (s18e / economy)))))
+
 # alignment:
 
 # document level annotation:
@@ -447,6 +465,7 @@ Words: and        allow      government to         "create"   jobs       using  
                                                         :material (s19s / stimulus)
                                                         :mod (s19m / massive)))))
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:

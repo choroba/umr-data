@@ -18,6 +18,7 @@ Words: Where   would   McCain  be      without Sarah?
      :ARG1-of s1h
      :wiki "John_McCain"
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +62,7 @@ Words: A             lot           of            us,           including     mys
                             :op1 "SNL")
                         :wiki "Saturday_Night_Live"))
                 :op4 (s2e / et-cetera)))))
+
 # alignment:
 
 # document level annotation:
@@ -79,6 +81,7 @@ Words: but     at      this    late    date    in      the     race...
                 :temporal (s3d / date
                                :mod (s3l / late)
                                :mod (s3t / this))))
+
 # alignment:
 
 # document level annotation:
@@ -105,6 +108,7 @@ Words: Where     would     he,       (McCain), be        if        he        did
             :refer-number singular)
         :ARG3 (s4r / running-mate)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -135,6 +139,7 @@ Words: IMO....  she      is       helping  him      more     now,     because  h
             :ARG0 s5h2
             :ARG1 s5h2
             :quant (s5m2 / more))))
+
 # alignment:
 
 # document level annotation:
@@ -162,6 +167,7 @@ Words: Palin      solidified the        Republican base       for        McCain.
                      :name (s6n2 / name
                                  :op1 "McCain")
                      :wiki "John_McCain"))
+
 # alignment:
 
 # document level annotation:
@@ -201,6 +207,7 @@ Words: She           invigorated   the           far           right         win
                     :name (s7n2 / name
                         :op1 "Obama")
                     :wiki "Barack_Obama")))))
+
 # alignment:
 
 # document level annotation:
@@ -230,6 +237,7 @@ Words: Palin      is         the        real       star       behind     the    
                              :mod (s8t2 / this)))
    :ARG1-of (s8r / real-04)
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -264,6 +272,7 @@ Words: If     it     were   anyone else,  McCain would  not    have   a      sho
     :polarity -
     :aspect state
     :modal-strength full-negative)
+
 # alignment:
 
 # document level annotation:
@@ -297,6 +306,7 @@ Words: Palin       invigorated Obama's     campaign,   and         she         i
                                   :month 9)
                  :reason (s10i2 / include-91
                                 :ARG1 s10p3)))
+
 # alignment:
 
 # document level annotation:
@@ -334,6 +344,7 @@ Words: When        I           saw         her         speech      at          t
                 :refer-number singular)
             :place (s11c / convention)))
     :manner (s11i2 / immediate))
+
 # alignment:
 
 # document level annotation:

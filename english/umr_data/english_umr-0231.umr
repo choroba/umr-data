@@ -14,6 +14,7 @@ Words: Lindsay left    in      order   to      eat     lunch   .
                    :ARG0 s1p
                    :ARG1 (s1l2 / lunch)
                    :aspect performance))
+
 # alignment:
 s1l: 2-2
 s1p: 1-1
@@ -40,6 +41,7 @@ Words: If     it     rains  ,      Alana  won't  water  the    plants .
      :condition (s2r / rain-01
                      :aspect process)
      :aspect performance)
+
 # alignment:
 s2w: 7-7
 s2p: 5-5

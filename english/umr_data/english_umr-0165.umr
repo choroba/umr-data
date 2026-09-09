@@ -16,6 +16,7 @@ Words: You          are          somehow      equating     the          religion
     :ARG2 (s1c / crime-02
         :mod (s1h / heinous))
     :mod (s1s / somehow))
+
 # alignment:
 
 # document level annotation:
@@ -40,6 +41,7 @@ Words: that  seem  right to    you,  in    the   land  of    the   free?
         :possessor (s2p / person
             :ARG1-of (s2f / free-04)))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -51,6 +53,7 @@ Words: that  seem  right to    you,  in    the   land  of    the   free?
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -62,6 +65,7 @@ Words: that  seem  right to    you,  in    the   land  of    the   free?
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -73,6 +77,7 @@ Words: that  seem  right to    you,  in    the   land  of    the   free?
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +89,7 @@ Words: that  seem  right to    you,  in    the   land  of    the   free?
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -104,6 +110,7 @@ Words: The     mosque  isn't   on      the     sacred  site    of      a       m
                  :place-of (s7m2 / murder-01
                                  :mod (s7m3 / mass)))
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -130,6 +137,7 @@ Words: It's       located    at         the        formerly   sacred     Burling
         :mod (s8s / sacred)
         :mod (s8f / former)
         :wiki "Burlington_(department_store)"))
+
 # alignment:
 
 # document level annotation:
@@ -154,6 +162,7 @@ Words: As       well     as       being    as       close    to       ground   z
             :modal-strength neutral-affirmative))
     :mod (s9a / as-well)
     :ARG1-of (s9c2 / correct-02))
+
 # alignment:
 
 # document level annotation:

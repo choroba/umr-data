@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +26,7 @@ Words: <Architect> hey         homie
      :ARG2 (s2p / person
                 :ARG1-of (s2h / have-rel-role-92
                               :ARG3 (s2h3 / homie))))
+
 # alignment:
 
 # document level annotation:
@@ -39,6 +41,7 @@ Words: <Builder> yo
 
 # sentence level graph:
 (s3y / yo)
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +74,7 @@ Words: <Architect> ok          so          first       you're      gonna       w
                             :ARG1 (s4b3 / builder))))
                 :op2 s4s2))
         :mod (s4f / first)))
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +97,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                             :x 2
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +120,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                             :x 2
                             :y 1
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -129,6 +135,7 @@ Words: <Architect> nice
 
 # sentence level graph:
 (s7n / nice-01)
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +166,7 @@ Words: <Architect> now         ontop       of          the         left        b
                 :ARG1 (s8b4 / build-space))))
     :temporal (s8n / now)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -181,6 +189,7 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
                             :x 2
                             :y 2
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -197,6 +206,7 @@ Words: <Architect> that's      it          for         now
 (s10b / be-it-08
       :ARG1 (s10t / that)
       :temporal (s10n / now))
+
 # alignment:
 
 # document level annotation:
@@ -215,6 +225,7 @@ Words: <Architect> guess       this        was         just        a           w
                   :instrument-of (s11w / warm-up-02)
                   :mod (s11j / just)
                   :mod (s11t2 / this)))
+
 # alignment:
 
 # document level annotation:
@@ -234,6 +245,7 @@ Words: <Builder> lol
         :refer-number singular)
     :manner (s12l2 / loud)
     :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -271,6 +283,7 @@ Words: <Architect> i           dont        think       ive         played      m
                             :unit (s13y2 / year)
                             :quant 6)))))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -298,6 +311,7 @@ Words: <Architect> except      i           did         a           study       l
             :quant (s14t2 / temporal-quantity
                 :unit (s14w / week)
                 :quant 2))))
+
 # alignment:
 
 # document level annotation:
@@ -318,6 +332,7 @@ Words: <Architect> im          diggin      them
     :ARG1 (s15t / person
         :refer-person 3rd
         :refer-number plural))
+
 # alignment:
 
 # document level annotation:
@@ -341,6 +356,7 @@ Words: <Builder> study     lmao
             :refer-person 1st
             :refer-number singular)
         :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -363,6 +379,7 @@ Words: <Architect> lmaooo
         :refer-person 1st
         :refer-number singular)
     :mode expressive)
+
 # alignment:
 
 # document level annotation:
@@ -388,6 +405,7 @@ Words: <Builder> i         got       my        first     job       from      min
         :name (s18n / name
             :op1 "Minecraft")
         :wiki "Minecraft"))
+
 # alignment:
 
 # document level annotation:
@@ -403,6 +421,7 @@ Words: <Builder> at        a         library
 # sentence level graph:
 (s19h / have-place-91
       :ARG2 (s19l / library))
+
 # alignment:
 
 # document level annotation:
@@ -424,6 +443,7 @@ Words: <Builder> i         was       like      "i        know      how       to 
         :ARG0 s20i
         :ARG1 (s20c / code-02
             :ARG0 s20i)))
+
 # alignment:
 
 # document level annotation:
@@ -443,6 +463,7 @@ Words: <Builder>  and        they       werent     interested
             :refer-person 3rd
             :refer-number plural)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -469,6 +490,7 @@ Words: <Builder> till      i         said      i         could     play      min
                         :op1 "Minecraft")
                     :wiki "Minecraft")
                 :modal-strength neutral-affirmative))))
+
 # alignment:
 
 # document level annotation:

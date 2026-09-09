@@ -19,6 +19,7 @@ Words: Can         we          PLEASE      get         these       people      a
         :mod (s1t / this))
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +53,7 @@ Words: How         long        are         we          supposed    to          w
             :op1 (s2m / move-01
                 :ARG0 s2w)))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -84,6 +86,7 @@ Words: We        Americans have      let       our       victim    fetish    get
             :ARG3 (s3s / so)
             :ARG6 (s3p / pathetic
                 :domain s3w))))
+
 # alignment:
 
 # document level annotation:
@@ -123,6 +126,7 @@ Words: If            I             were          in            AZ-08,        I  
                                         :ARG1-of (s4h / have-org-role-92
                                             :ARG3 (s4c / congresswoman)))))))
                     :polarity -)))))
+
 # alignment:
 
 # document level annotation:
@@ -153,6 +157,7 @@ Words: Strom         Thurmond      was           not           all           the
                       :ARG1 (s5t / there)
                       :degree (s5a / all)
                       :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -186,6 +191,7 @@ Words: I            think        as           long         as           her     
                     :refer-person 3rd
                     :refer-number singular)))
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -214,6 +220,7 @@ Words: As         Butrflynet pointed    out,       Gabrielle  Gifford's  office 
                                 :name (s7n2 / name
                                             :op1 "Butrflynet")
                                 :wiki -)))
+
 # alignment:
 
 # document level annotation:
@@ -235,6 +242,7 @@ Words: That       doesn't    seem       incidental or         trivial    to     
                           :domain s8t2))
      :ARG2 s8i
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -263,6 +271,7 @@ Words: Gabrielle Giffords  was       voted     in        because   people    agr
                                           :op2 (s9a3 / approach-02
                                                      :ARG0 s9p
                                                      :ARG1 (s9p4 / politics))))))
+
 # alignment:
 
 # document level annotation:
@@ -298,6 +307,7 @@ Words: She           hand-selected this          group         of            peo
                     :ARG1-of (s10e / envision-01
                         :ARG0 s10s2)))
             :manner (s10t / together))))
+
 # alignment:
 
 # document level annotation:
@@ -330,6 +340,7 @@ Words: In              that            way,            she             is       
                     :ARG0 s11s))))
     :manner (s11w / way
         :mod (s11t3 / that)))
+
 # alignment:
 
 # document level annotation:
@@ -382,6 +393,7 @@ Words: If                 Giffords           is                 unable          
                     :mod (s12n2 / next)))
             :modal-strength neutral-affirmative
             :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -410,6 +422,7 @@ Words: I           think       engineer's  point       about       not         e
                     :ARG2 (s13o / office)
                     :manner (s13g2 / gunshot))
                 :polarity -))))
+
 # alignment:
 
 # document level annotation:
@@ -452,6 +465,7 @@ Words: The             members         of              the             minority 
                 :ARG1-of (s14c2 / certify-01
                     :mod (s14m4 / medical)
                     :modal-strength neutral-affirmative)))))
+
 # alignment:
 
 # document level annotation:
@@ -497,6 +511,7 @@ Words: All            the            Democrats      in             the          
                                                                :unit (s15y2 / year)
                                                                :quant 1))
                                   :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -524,6 +539,7 @@ Words: Indeed,     the         country     would       benefit     if          m
                                     :ARG1-of (s16e / extend-01))
                        :modal-strength neutral-affirmative)
       :mod (s16i2 / indeed))
+
 # alignment:
 
 # document level annotation:

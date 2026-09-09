@@ -14,6 +14,7 @@ Words: WBC      is       getting  sued     by       a        grieving parent.
                 :name (s1n / name
                            :op1 "WBC")
                 :wiki "Westboro_Baptist_Church"))
+
 # alignment:
 
 # document level annotation:
@@ -42,6 +43,7 @@ Words: What        the         fuck        law         or          act         (
      :mod (s2f / fuck
                :mode expressive)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -71,6 +73,7 @@ Words: Freedom    of         speech     has        never      been       underst
                             :modal-strength neutral-affirmative))
      :temporal (s3e / ever)
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +96,7 @@ Words: It         cannot     be         properly   understood in         that   
         :mod (s4t / that))
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -118,6 +122,7 @@ Words: Only           the            so-called      "1st           Amendment    
                  :ARG1-of (s5r / ridiculous-02
                                :degree (s5s / such)))
      :mod (s5o / only))
+
 # alignment:
 
 # document level annotation:
@@ -167,6 +172,7 @@ Words: So          if          a           citizen     can         sue         a
                 :ARG1 s6s4))
         :modal-strength neutral-affirmative)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +205,7 @@ Words: If          the         plaintiff   succeeds    in          the         l
                                          :name (s7n2 / name
                                                      :op1 "SCOTUS")
                                          :wiki "Supreme_Court_of_the_United_States"))))
+
 # alignment:
 
 # document level annotation:
@@ -229,6 +236,7 @@ Words: The        fucking    scumbags   of         WBC        will       merely 
                  :ARG1 s8b)
      :mod (s8m / mere)
      :manner (s8p / proper))
+
 # alignment:
 
 # document level annotation:
@@ -256,6 +264,7 @@ Words: They      remain    perfectly free      to        express   their     idi
         :degree (s9p / perfect))
     :mod (s9w / way
         :mod (s9e2 / either)))
+
 # alignment:
 
 # document level annotation:
@@ -273,6 +282,7 @@ Words: Fuck  them.
     :ARG1 (s10t / person
         :refer-person 3rd
         :refer-number plural))
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +301,7 @@ Words: God   hates them.
     :ARG1 (s11t / person
         :refer-person 3rd
         :refer-number plural))
+
 # alignment:
 
 # document level annotation:
@@ -308,6 +319,7 @@ Words: I     know.
     :ARG0 (s12i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -329,6 +341,7 @@ Words: HE   told me   so.
     :ARG2 (s13i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -340,6 +353,7 @@ Words: HE   told me   so.
 # :: snt14
 # sentence level graph:
 (s14u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -371,6 +385,7 @@ Words: How       much      free      speech    will      anyone    have      if 
         :modal-strength neutral-affirmative)
     :quant (s15a / umr-unknown)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:

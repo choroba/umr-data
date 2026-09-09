@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -58,6 +63,7 @@
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -69,6 +75,7 @@
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -80,6 +87,7 @@
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -91,6 +99,7 @@
 # :: snt9
 # sentence level graph:
 (s9u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -102,6 +111,7 @@
 # :: snt10
 # sentence level graph:
 (s10u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +123,7 @@
 # :: snt11
 # sentence level graph:
 (s11u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +135,7 @@
 # :: snt12
 # sentence level graph:
 (s12u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -135,6 +147,7 @@
 # :: snt13
 # sentence level graph:
 (s13u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -146,6 +159,7 @@
 # :: snt14
 # sentence level graph:
 (s14u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -157,6 +171,7 @@
 # :: snt15
 # sentence level graph:
 (s15u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -168,6 +183,7 @@
 # :: snt16
 # sentence level graph:
 (s16u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -190,6 +206,7 @@ Words: Slander   is        action    against   against   an        offensive sta
                                            :ARG0-of (s17c / claim-01
                                                           :ARG1 (s17t / true-01
                                                                       :ARG1 s17s2))))))
+
 # alignment:
 
 # document level annotation:
@@ -246,6 +263,7 @@ Words: The             statement       that            God             killed   
             :ARG1 (s18d5 / define-01
                 :ARG1 (s18s3 / slander-01)
                 :ARG1-of (s18l / legal-02)))))
+
 # alignment:
 
 # document level annotation:
@@ -283,6 +301,7 @@ Words: The         jury        had         the         chance      to          h
         :place (s19c / country
             :mod (s19t / this))
         :mod (s19f / fundamental)))
+
 # alignment:
 
 # document level annotation:
@@ -322,6 +341,7 @@ Words: You     may     not     like    it,     but     it      also    helps   y
                         :degree (s20e / exact)))))
         :ARG2 s20y
         :mod (s20a / also)))
+
 # alignment:
 
 # document level annotation:

@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Builder> hello
 
 # sentence level graph:
 (s2h / hello)
+
 # alignment:
 
 # document level annotation:
@@ -38,6 +40,7 @@ Words: <Architect> this        is          a           demented    playground
       :mod (s3t / this)
       :configuration (s3p / playground
                           :mod (s3d / demented)))
+
 # alignment:
 
 # document level annotation:
@@ -52,6 +55,7 @@ Words: <Builder> okay
 
 # sentence level graph:
 (s4o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -72,6 +76,7 @@ Words: <Architect> start       with        green
     :ARG2 (s5t / thing
         :color (s5g / green))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -93,6 +98,7 @@ Words: <Architect> close       to          one         of          the         e
                                                          :purpose (s6b / build-01))
                                            :refer-number plural)
                                 :ARG3 1)))
+
 # alignment:
 
 # document level annotation:
@@ -115,6 +121,7 @@ Words: <Architect> it's        a           tower       6           tall
             :ARG5 (s7c / cartesian-framework-91
                 :ARG1 (s7b / build-space))
             :ARG2 6)))
+
 # alignment:
 
 # document level annotation:
@@ -137,6 +144,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                             :x -2
                             :y 1
                             :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -159,6 +167,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                             :x -2
                             :y 2
                             :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -181,6 +190,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 3
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -203,6 +213,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 4
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -225,6 +236,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +259,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -265,6 +278,7 @@ Words: <Builder> is        here      fine?
                    :ARG2 (s14h / here))
       :polarity (s14a / umr-unknown)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +305,7 @@ Words: <Architect> yeah        that's      fine;       now         two         b
                                                          :ARG1-of (s15c2 / center-03)))
                              :refer-number plural)
                  :temporal (s15n / now)))
+
 # alignment:
 
 # document level annotation:
@@ -310,6 +325,7 @@ Words: <Architect> at          the         top         of          hte         t
                                   :ARG2 (s16t3 / tower)
                                   :ARG3 (s16c / cartesian-framework-91
                                               :ARG1 (s16b / build-space)))))
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +340,7 @@ Words: <Builder> ok
 
 # sentence level graph:
 (s17o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -346,6 +363,7 @@ Words: [Builder puts     down     a        green    block    at       X:-1     Y
                                :x -1
                                :y 6
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -368,6 +386,7 @@ Words: [Builder puts     down     a        green    block    at       X:0      Y
                                :x 0
                                :y 6
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -386,6 +405,7 @@ Words: <Architect> towards     the         center      of          the         b
                    :ARG1-of (s20c / center-01
                                   :ARG2 (s20s / surface
                                               :purpose (s20b / build-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -403,6 +423,7 @@ Words: <Builder> i         see
     :ARG0 (s21i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -425,6 +446,7 @@ Words: [Builder picks    up       a        green    block    at       X:0      Y
                                :x 0
                                :y 6
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -447,6 +469,7 @@ Words: [Builder picks    up       a        green    block    at       X:-1     Y
                                :x -1
                                :y 6
                                :z -5)))
+
 # alignment:
 
 # document level annotation:
@@ -472,6 +495,7 @@ Words: <Architect> rotate      the         top         90          degrees
         :unit (s24d / degree)
         :quant 90)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -494,6 +518,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z -4)))
+
 # alignment:
 
 # document level annotation:
@@ -516,6 +541,7 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -530,6 +556,7 @@ Words: <Architect> good
 
 # sentence level graph:
 (s27g / good-02)
+
 # alignment:
 
 # document level annotation:
@@ -546,6 +573,7 @@ Words: <Architect> now         yellow
 (s28t / thing
       :temporal (s28n / now)
       :color (s28y / yellow))
+
 # alignment:
 
 # document level annotation:
@@ -570,6 +598,7 @@ Words: <Architect> this        is          a2x3        rectangle   hanging     f
                    :ARG1-of (s29h / hang-01
                                   :ARG2 (s29o / outcrop
                                               :mod (s29t / that)))))
+
 # alignment:
 
 # document level annotation:
@@ -596,6 +625,7 @@ Words: <Architect> build       2           yellow      blocks      down        f
             :ARG5 (s30c / cartesian-framework-91
                 :ARG1 (s30b3 / build-space))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -618,6 +648,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -640,6 +671,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 4
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -654,6 +686,7 @@ Words: <Architect> good
 
 # sentence level graph:
 (s33g / good-02)
+
 # alignment:
 
 # document level annotation:
@@ -671,6 +704,7 @@ Words: <Builder> here?
        :ARG2 (s34h / here)
        :ARG1-of (s34r / request-confirmation-91)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -711,6 +745,7 @@ Words: <Architect> now         fill        in          two         blocks      o
             :ARG1-of (s35i3 / include-91
                 :ARG2 s35s2)))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -733,6 +768,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 5
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -755,6 +791,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
                                :x -1
                                :y 4
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -777,6 +814,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 5
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -799,6 +837,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
                                :x -3
                                :y 4
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -813,6 +852,7 @@ Words: <Architect> great
 
 # sentence level graph:
 (s40g / great-01)
+
 # alignment:
 
 # document level annotation:
@@ -833,6 +873,7 @@ Words: <Architect> switch      to          blue
     :ARG2 (s41t / thing
         :color (s41b / blue))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -852,6 +893,7 @@ Words: <Architect> you're      building    another     tower
         :refer-number singular)
     :ARG1 (s42t / tower
         :mod (s42a / another)))
+
 # alignment:
 
 # document level annotation:
@@ -872,6 +914,7 @@ Words: <Architect> i           need        to          figure      out         h
     :ARG1 (s43f / figure-out-05
         :ARG0 s43i
         :ARG1 (s43d / distance-quantity)))
+
 # alignment:
 
 # document level annotation:
@@ -886,6 +929,7 @@ Words: <Builder> okay
 
 # sentence level graph:
 (s44o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -920,6 +964,7 @@ Words: <Architect> 2           blocks      right       and         6           b
                                   :quant (s45d3 / distance-quantity
                                                 :unit (s45b3 / block)
                                                 :quant 6))))
+
 # alignment:
 
 # document level annotation:
@@ -942,6 +987,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 1
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -959,6 +1005,7 @@ Words: <Builder> here?
        :ARG2 (s47h / here)
        :ARG1-of (s47r / request-confirmation-91)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -973,6 +1020,7 @@ Words: <Architect> yep
 
 # sentence level graph:
 (s48c / confirm-01)
+
 # alignment:
 
 # document level annotation:
@@ -995,6 +1043,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 2
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1012,6 +1061,7 @@ Words: <Architect> 8           tall
       :ARG5 (s50c / cartesian-framework-91
                   :ARG1 (s50b / build-space))
       :ARG2 8)
+
 # alignment:
 
 # document level annotation:
@@ -1032,6 +1082,7 @@ Words: <Builder> the       same      looking   tower     thing?
                    :configuration (s51t2 / tower))
        :ARG1-of (s51r / request-confirmation-91)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1054,6 +1105,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 3
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1076,6 +1128,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 4
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1098,6 +1151,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 5
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1120,6 +1174,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1142,6 +1197,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 7
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1164,6 +1220,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1183,6 +1240,7 @@ Words: <Architect> now         an          overhang    three       long
                   :ARG1-of (s58l / long-03
                                  :ARG2 3))
       :temporal (s58n / now))
+
 # alignment:
 
 # document level annotation:
@@ -1205,6 +1263,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -1227,6 +1286,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -1249,6 +1309,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 3)))
+
 # alignment:
 
 # document level annotation:
@@ -1266,6 +1327,7 @@ Words: <Builder> here?
        :ARG2 (s62h / here)
        :ARG1-of (s62r / request-confirmation-91)
        :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1291,6 +1353,7 @@ Words: <Architect> rotate      90          degrees     toward      the         g
             :ARG2 (s63t2 / tower
                 :color (s63g / green))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1313,6 +1376,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 3)))
+
 # alignment:
 
 # document level annotation:
@@ -1335,6 +1399,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 2)))
+
 # alignment:
 
 # document level annotation:
@@ -1357,6 +1422,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -1379,6 +1445,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1401,6 +1468,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1423,6 +1491,7 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -1442,6 +1511,7 @@ Words: <Architect> that's      180         degrees
                   :unit (s70d / degree)
                   :quant 180)
       :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -1464,6 +1534,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -3)))
+
 # alignment:
 
 # document level annotation:
@@ -1486,6 +1557,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -2)))
+
 # alignment:
 
 # document level annotation:
@@ -1508,6 +1580,7 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
                                :x 0
                                :y 8
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1530,6 +1603,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
                                :x -1
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1552,6 +1626,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
                                :x -2
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1574,6 +1649,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
                                :x -3
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1591,6 +1667,7 @@ Words: <Builder> is        this      good?
       :ARG1 (s77t / this)
       :polarity (s77a / umr-unknown)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1617,6 +1694,7 @@ Words: <Architect> sorry       delete      one.        total       length      i
     :op2 (s78l / long-03
         :ARG1-of (s78t2 / total-01)
         :ARG2 3))
+
 # alignment:
 
 # document level annotation:
@@ -1631,6 +1709,7 @@ Words: <Builder> ok
 
 # sentence level graph:
 (s79o / okay-04)
+
 # alignment:
 
 # document level annotation:
@@ -1653,6 +1732,7 @@ Words: [Builder picks    up       a        blue     block    at       X:-3     Y
                                :x -3
                                :y 8
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1678,6 +1758,7 @@ Words: <Architect> now         build       one         block       below       t
             :ARG3 (s81c / cartesian-framework-91
                 :ARG1 (s81b4 / build-space))))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1696,6 +1777,7 @@ Words: <Builder> still     blue?
       :mod (s82s / still)
       :ARG1-of (s82r / request-confirmation-91)
       :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -1710,6 +1792,7 @@ Words: <Architect> yes
 
 # sentence level graph:
 (s83c / confirm-01)
+
 # alignment:
 
 # document level annotation:
@@ -1732,6 +1815,7 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
                                :x -2
                                :y 7
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1753,6 +1837,7 @@ Words: <Architect> now         switch      to          yellow
         :color (s85y2 / yellow))
     :temporal (s85n / now)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1773,6 +1858,7 @@ Words: <Architect> make        the         same        structure
     :ARG1 (s86s / structure
         :ARG1-of (s86s2 / same-01))
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -1795,6 +1881,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1817,6 +1904,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -1839,6 +1927,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -1861,6 +1950,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z 1)))
+
 # alignment:
 
 # document level annotation:
@@ -1883,6 +1973,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 6
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1905,6 +1996,7 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
                                :x -2
                                :y 5
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -1919,6 +2011,7 @@ Words: <Architect> great
 
 # sentence level graph:
 (s93g / great-01)
+
 # alignment:
 
 # document level annotation:
@@ -1933,6 +2026,7 @@ Words: <Builder> cool
 
 # sentence level graph:
 (s94c / cool-04)
+
 # alignment:
 
 # document level annotation:

@@ -28,6 +28,7 @@ Words: It        is        Santorum  that      is        the       by        far
                                        :name (s1n3 / name
                                                    :op1 "Newt")
                                        :wiki "Newt_Gingrich"))))
+
 # alignment:
 
 # document level annotation:
@@ -63,6 +64,7 @@ Words: When         the          situation    was          reversed     Gingrich
                            :modal-strength neutral-affirmative))
      :temporal (s2r / reverse-01
                     :ARG1 (s2s / situation)))
+
 # alignment:
 
 # document level annotation:
@@ -90,6 +92,7 @@ Words: Now      that     the      same     logic    would    apply    to       G
      :aspect performance
      :modal-strength partial-affirmative
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -105,6 +108,7 @@ Words: Sure, why   not.
 # sentence level graph:
 (s4s / sure-02
      :concession (s4a / umr-unknown))
+
 # alignment:
 
 # document level annotation:
@@ -147,6 +151,7 @@ Words: I         think     Santorum  is        going     to        be        the
                 :wiki "Newt_Gingrich")
             :ARG1 (s5m / moment
                 :possessor s5p5))))
+
 # alignment:
 
 # document level annotation:
@@ -168,6 +173,7 @@ Words: Who       know.     He        may       make      a         comeback.
             :refer-person 3rd
             :refer-number singular)
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -195,6 +201,7 @@ Words: Of      course  money   is      a       problem for     him     so      h
                                                          :aspect performance
                                                          :modal-strength partial-affirmative)
                                              :ARG2 neutral-affirmative))))
+
 # alignment:
 
 # document level annotation:
@@ -225,6 +232,7 @@ Words: Santorum or       Mitt.    I        could    vote     for      either   o
         :ARG1 (s8e / either
             :op1 (s8o2 / one))
         :modal-strength neutral-affirmative))
+
 # alignment:
 
 # document level annotation:
@@ -254,6 +262,7 @@ Words: He        is,       if        nothing   else,     insuring  that      he'
         :refer-person 3rd
         :refer-number plural)
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -291,6 +300,7 @@ Words: I       mean    you     don't   really  think   that    any     of      t
         :ARG1-of (s11r3 / request-confirmation-91)
         :polarity -)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -314,6 +324,7 @@ Words: More        than        they        care        about       themselves, I
                 :refer-person 3rd
                 :refer-number singular)
             :ARG1 s12t)))
+
 # alignment:
 
 # document level annotation:

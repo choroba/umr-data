@@ -16,6 +16,7 @@ Words: If         crimes     "begin     and        end        with       the    
                 :op2 (s1e / end-01
                           :ARG0 s1c2
                           :ARG1 s1p)))
+
 # alignment:
 
 # document level annotation:
@@ -27,6 +28,7 @@ Words: If         crimes     "begin     and        end        with       the    
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -49,6 +51,7 @@ Words: First   you'll  have    to      explain what    one     has     to      d
             :ARG0 (s3o3 / one)
             :ARG1 (s3o4 / other)))
     :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -81,6 +84,7 @@ Words: PS      :       I       have    n't     read    through the     thread  ,
                  :aspect performance
                  :modal-strength full-affirmative)
      :mod (s4p3 / post-scriptum))
+
 # alignment:
 
 # document level annotation:

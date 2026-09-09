@@ -22,6 +22,7 @@ Words: There  are    nuts   in     the    White  House  that   want   0      nuk
     :ARG0-of (s1w / want-01
         :ARG1 (s1n / nuke
             :quant 0)))
+
 # alignment:
 
 # document level annotation:
@@ -78,6 +79,7 @@ Words: The       point     is        lowering  our       nuke      levels    wit
         :purpose (s2s2 / survive-02
             :ARG0 s2y)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -110,6 +112,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
         :direction (s3b / back)
         :mod (s3e / ever)
         :temporal (s3s2 / someday)))
+
 # alignment:
 
 # document level annotation:
@@ -121,6 +124,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -132,6 +136,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -143,6 +148,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt6
 # sentence level graph:
 (s6u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -154,6 +160,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt7
 # sentence level graph:
 (s7u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -165,6 +172,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt8
 # sentence level graph:
 (s8u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -176,6 +184,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt9
 # sentence level graph:
 (s9u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -187,6 +196,7 @@ Words: If           the          Russia-China alliance     thingy       ever    
 # :: snt10
 # sentence level graph:
 (s10u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -222,6 +232,7 @@ Words: Worst    case     scenario (for     you      anyway)  ends     with     u
         :ARG3 (s11e2 / enough)
         :ARG1-of (s11r / request-confirmation-91))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -241,6 +252,7 @@ Words: How   about 700?
         :refer-number singular)
     :ARG1 700
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -263,6 +275,7 @@ Words: how   about the   1550  we    have  now?
             :temporal (s13n / now))
         :quant 1550)
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -289,6 +302,7 @@ Words: Or        the       thousands of        others    we        could     ass
             :op1 1000)
         :polarity (s14a2 / umr-unknown))
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -310,6 +324,7 @@ Words: What       is         an         acceptable number     for        you?
         :mod (s15a2 / umr-unknown))
     :modal-strength neutral-affirmative
     :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -333,6 +348,7 @@ Words: Your    love    of      these   obscene weapons is      pretty  damned  c
     :ARG0-of (s16c / creepy-04
         :ARG1-of (s16d / damn-01)
         :mod (s16p / pretty)))
+
 # alignment:
 
 # document level annotation:
@@ -361,6 +377,7 @@ Words: There    is       no       way      we       will     ever     have     z
             :ARG0 s17y))
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -426,6 +443,7 @@ Words: The     cold    war     is      over,   the     need    for     a       b
                                     :quant 1)))))
                 :polarity -)
             :modal-strength neutral-affirmative)))
+
 # alignment:
 
 # document level annotation:
@@ -452,6 +470,7 @@ Words: There  is     no     way    on     earth  we     need   to     keep   155
         :ARG1-of (s19w3 / waste-01))
     :modal-strength neutral-affirmative
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -494,6 +513,7 @@ Words: I          would      love       to         live       in         a      
             :ARG2 (s20w2 / person
                 :refer-person 1st
                 :refer-number plural))))
+
 # alignment:
 
 # document level annotation:

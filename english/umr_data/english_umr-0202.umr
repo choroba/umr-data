@@ -27,6 +27,7 @@ Words: After          the            collapse       of             Saddam       
                                                                          :op1 "Saddam"
                                                                          :op2 "Hussein")
                                                              :wiki "Saddam_Hussein")))))
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +89,7 @@ Words: Although       the            distribution   system         of           
             :ARG0 s2a3
             :polarity -)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -133,6 +135,7 @@ Words: From      an        internal  point     of        view      ,         Shi
                :mod (s3a3 / almost))
      :ARG1-of (s3h / have-point-of-view-08
                    :ARG1-of (s3i / internal-02)))
+
 # alignment:
 
 # document level annotation:
@@ -181,6 +184,7 @@ Words: Although  under     the       balance   of        interests some      of 
         :ARG1-of (s4c2 / cause-01
             :ARG0 (s4b / balance-01
                 :ARG1 (s4i4 / interest)))))
+
 # alignment:
 
 # document level annotation:
@@ -229,6 +233,7 @@ Words: In           February     of           this         year         ,       
                                                                     :ARG2 (s5l2 / large)
                                                                     :ARG3 (s5m / most))
                                                       :quant 2)))))
+
 # alignment:
 
 # document level annotation:

@@ -42,6 +42,7 @@ Words: Mit           Romney,       now           that          he            is 
                                :ARG1 (s1p3 / president)
                                :temporal (s1n4 / now)))
      :concession (s1e2 / even-as))
+
 # alignment:
 
 # document level annotation:
@@ -89,6 +90,7 @@ Words: With      Mit       Romney,   and       the       millions  of        dol
                                            :mod (s2s / some))
                               :manner (s2w2 / way
                                             :mod (s2o2 / other)))))
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +111,7 @@ Words: That   just   makes  not    one    damn   bit    of     sense.
                   :mod (s3d / damn)
                   :quant 1)
      :polarity -)
+
 # alignment:
 
 # document level annotation:

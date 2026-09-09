@@ -7,6 +7,7 @@ Words: <Builder> Mission   has       started.
 # sentence level graph:
 (s1s / start-01
      :ARG1 (s1m / mission-01))
+
 # alignment:
 
 # document level annotation:
@@ -21,6 +22,7 @@ Words: <Builder> hi
 
 # sentence level graph:
 (s2h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -35,6 +37,7 @@ Words: <Architect> hi
 
 # sentence level graph:
 (s3h / hi)
+
 # alignment:
 
 # document level annotation:
@@ -64,6 +67,7 @@ Words: <Architect> So          first       you         place       two         b
         :op2 s4s2)
     :mode imperative
     :list-item 1)
+
 # alignment:
 
 # document level annotation:
@@ -82,6 +86,7 @@ Words: <Builder> anywhere  on        the       grid?
                 :place (s5g / grid))
      :ARG1-of (s5r / request-confirmation-91)
      :mode interrogative)
+
 # alignment:
 
 # document level annotation:
@@ -98,6 +103,7 @@ Words: <Architect> yes         anywhere    is          fine
 (s6c / confirm-01
      :ARG1 (s6f / fine-04
                 :ARG1 (s6a / anywhere)))
+
 # alignment:
 
 # document level annotation:
@@ -120,6 +126,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                             :x 1
                             :y 1
                             :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -142,6 +149,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                             :x 1
                             :y 1
                             :z 0)))
+
 # alignment:
 
 # document level annotation:
@@ -171,6 +179,7 @@ Words: <Architect> Now         place       a           blue        block       o
                 :ARG1 (s9b4 / build-space))))
     :temporal (s9n / now)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -193,6 +202,7 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
                                :x 1
                                :y 2
                                :z -1)))
+
 # alignment:
 
 # document level annotation:
@@ -210,6 +220,7 @@ Words: <Architect> You're      done!
     :ARG0 (s11y / person
         :refer-person 2nd
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:

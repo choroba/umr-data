@@ -3,6 +3,7 @@
 # :: snt1
 # sentence level graph:
 (s1u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -14,6 +15,7 @@
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -25,6 +27,7 @@
 # :: snt3
 # sentence level graph:
 (s3u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -36,6 +39,7 @@
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -47,6 +51,7 @@
 # :: snt5
 # sentence level graph:
 (s5u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +66,7 @@ Words: Bullshit!
 
 # sentence level graph:
 (s6b / bullshit-01)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +94,7 @@ Words: They     claimed  'Exempt' and      paid     NOTHING!
             :refer-person 3rd
             :refer-number plural)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -124,6 +131,7 @@ Words: Why      worry    about    it,      when     the      wages    get      r
         :temporal (s8r2 / report-01
             :ARG1 (s8w2 / wage)
             :ARG2 s8g2)))
+
 # alignment:
 
 # document level annotation:

@@ -35,6 +35,7 @@ Words: Following    the          government   's           announcement of      
                 :ARG0 s1g2
                 :ARG1 (s1i / immigrate-01)
                 :ARG1-of (s1n / new-01)))))
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +60,7 @@ Words: When        they        enter       the         country     ,           t
     :temporal (s2e / enter-01
         :ARG0 s2t
         :ARG1 (s2c / country)))
+
 # alignment:
 
 # document level annotation:
@@ -113,6 +115,7 @@ Words: At          a           press       conference  this        afternoon   ,
      :temporal (s3d2 / date-entity
                      :dayperiod (s3a2 / afternoon)
                      :mod (s3t / today)))
+
 # alignment:
 
 # document level annotation:
@@ -145,6 +148,7 @@ Words: These     so        -         called    non-New   Zealand   citizens  inc
                            :wiki "New_Zealand")
                 :mod (s4t / this)
                 :mod (s4s / so-called)))
+
 # alignment:
 
 # document level annotation:
@@ -169,6 +173,7 @@ Words: These       new         regulations are         very        similar     t
                                                     :op1 "US")
                                         :wiki "United_States")))
      :degree (s5v / very))
+
 # alignment:
 
 # document level annotation:
@@ -199,6 +204,7 @@ Words: The         new         immigration law         also        permits     t
       :ARG2 (s6c2 / country
                   :ARG1-of (s6n4 / neighbor-01))
       :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -217,6 +223,7 @@ Words: However ,       the     law     does    not     explain the     reason  .
                 :ARG0 (s7l3 / law)
                 :ARG1 (s7r / reason)
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +254,7 @@ Words: Cunliffe    said        ,           it          has         presently   n
                            :op2 s8t)
                 :temporal (s8p3 / present)
                 :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -264,6 +272,7 @@ Words: The         government  has         introduced  legislation that        w
      :ARG0 (s9g / government-organization
                 :ARG0-of (s9g2 / govern-01))
      :ARG1 (s9l / legislate-01))
+
 # alignment:
 
 # document level annotation:
@@ -290,6 +299,7 @@ Words: The         new         regulation  on          biometric   information i
                                                :ARG1 s10r
                                 :quant 61))
    :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -324,6 +334,7 @@ Words: Cunliffe      said          the           new           regulations   wil
                                            :op2 (s11r3 / right-05
                                                        :ARG1 (s11h / human)
                                                        :mod (s11i / international))))))
+
 # alignment:
 
 # document level annotation:

@@ -20,6 +20,7 @@ Words: His           over-reliance on            diplomacy     with          Rep
         :ARG1-of (s1o / over-03))
     :ARG3 (s1p / progress-01
         :ARG1-of (s1c2 / critical-02)))
+
 # alignment:
 
 # document level annotation:
@@ -63,6 +64,7 @@ Words: That      being     said,     I         do        think     he        is 
                             :mod (s2o2 / other))
                         :polarity -))))
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -103,6 +105,7 @@ Words: 1)         I          think      Obama      shares     the        blame  
                     :wiki "United_States_Congress"))
             :quant (s3m / many)))
     :list-item 1)
+
 # alignment:
 
 # document level annotation:
@@ -127,6 +130,7 @@ Words: 2)      I       think   his     foreign policy  has     been    great
                 :refer-number singular)
             :ARG2 (s4f / foreign)))
     :list-item 2)
+
 # alignment:
 
 # document level annotation:
@@ -152,6 +156,7 @@ Words: 3)         Despite    Solyndra,  his        energy     policy     has    
             :op1 "Solyndra")
         :wiki "Solyndra")
     :list-item 3)
+
 # alignment:
 
 # document level annotation:
@@ -182,6 +187,7 @@ Words: 4)           It           was          Bush         that         supercha
                       :mod (s6t / too))
      :list-item 4
      :wiki "George_W._Bush")
+
 # alignment:
 
 # document level annotation:
@@ -211,6 +217,7 @@ Words: 5)       His      taxation policy   would    have     been     great    h
                 :mod (s7t3 / this)))
         :polarity -)
     :list-item 5)
+
 # alignment:
 
 # document level annotation:
@@ -247,6 +254,7 @@ Words: 6)          National    Security    has         undoubtedly been        h
             :op2-of s8a)
         :modal-strength neutral-affirmative)
     :list-item 6)
+
 # alignment:
 
 # document level annotation:
@@ -269,6 +277,7 @@ Words: Please  explain your    choice.
             :ARG0 s9y))
     :mode imperative
     :polite +)
+
 # alignment:
 
 # document level annotation:

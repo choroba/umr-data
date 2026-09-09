@@ -10,6 +10,7 @@ Words: Well,   the     verdict just    came    in.
      :temporal (s1j / just)
      :mod (s1w / well
                :mode expressive))
+
 # alignment:
 
 # document level annotation:
@@ -27,6 +28,7 @@ Words: Guilty        of            involuntary   manslaughter.
      :ARG2 (s2m / manslaughter
                 :ARG1-of (s2v / volunteer-01
                               :polarity -)))
+
 # alignment:
 
 # document level annotation:
@@ -54,6 +56,7 @@ Words: The        judge      would      not        let        him        be     
             :ARG0 s3p
             :ARG1 s3h))
     :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -86,6 +89,7 @@ Words: The       judge     said      his       behavior  was       wreckless and
                 :mod (s4e / exact
                     :polarity -)
                 :possessor s4h))))
+
 # alignment:
 
 # document level annotation:
@@ -109,6 +113,7 @@ Words: I        am       glad     he       is       losing   his      license.
     :ARG1 (s5i / person
         :refer-person 1st
         :refer-number singular))
+
 # alignment:
 
 # document level annotation:
@@ -136,6 +141,7 @@ Words: No        matter    what,     he        never     should    have      giv
     :temporal (s6e / ever)
     :polarity -
     :modal-strength neutral-affirmative)
+
 # alignment:
 
 # document level annotation:
@@ -156,6 +162,7 @@ Words: The       man       practiced here      for       many      years.
                      :op1 (s7t / temporal-quantity
                                :unit (s7y / year)
                                :quant 1)))
+
 # alignment:
 
 # document level annotation:
@@ -176,6 +183,7 @@ Words: The         local       TV          news        is          running     n
      :ARG1 (s8o / outrage-01
                 :ARG0 (s8c / convict-01)
                 :mod (s8n2 / nothing-but)))
+
 # alignment:
 
 # document level annotation:
@@ -196,6 +204,7 @@ Words: Not   one   word  in    favor of    it.
             :refer-number singular))
     :polarity -
     :quant 1)
+
 # alignment:
 
 # document level annotation:
@@ -237,6 +246,7 @@ Words: The       local     ABC       channel   featured  a         legal     exp
                                                           :manner (s10s / so))))
                    :ARG1-of (s10e / expert-01
                                   :ARG2 (s10l / legal-02))))
+
 # alignment:
 
 # document level annotation:
@@ -262,6 +272,7 @@ Words: He       seems    to       think    a        "proper" court    would    h
                 :name (s11n / name
                     :op1 "Murray")
                 :wiki -))))
+
 # alignment:
 
 # document level annotation:

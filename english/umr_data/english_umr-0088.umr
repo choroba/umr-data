@@ -11,6 +11,7 @@ Words: [quote=Warrior102;4704084]
                            :op1 "Warrior102")
                 :wiki -)
      :ARG1 4704084)
+
 # alignment:
 
 # document level annotation:
@@ -22,6 +23,7 @@ Words: [quote=Warrior102;4704084]
 # :: snt2
 # sentence level graph:
 (s2u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -48,6 +50,7 @@ Words: Hey,    now     leave   MarcATL alone!
     :mod (s3h / hey
         :mode expressive)
     :mode imperative)
+
 # alignment:
 
 # document level annotation:
@@ -59,6 +62,7 @@ Words: Hey,    now     leave   MarcATL alone!
 # :: snt4
 # sentence level graph:
 (s4u / umr-empty)
+
 # alignment:
 
 # document level annotation:
@@ -88,6 +92,7 @@ Words: I       dunno   seems   to      be      some    guy     who     is      t
             :refer-person 1st
             :refer-number singular)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -111,6 +116,7 @@ Words: probably needs    to       have     them     adjusted .
                 :modal-strength full-affirmative)
      :aspect performance
      :modal-strength partial-affirmative)
+
 # alignment:
 
 # document level annotation:

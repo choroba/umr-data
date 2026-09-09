@@ -21,6 +21,7 @@ Words: All   you   have  just  told  me    is    that  you   don't know  the   m
             :refer-number singular)
         :temporal (s1j / just))
     :aspect state)
+
 # alignment:
 
 # document level annotation:
@@ -45,6 +46,7 @@ Words: That's ok,    since  you    would  not    vote   for    him.
         :polarity -)
     :ARG1 (s2o / okay-04
         :ARG1 (s2t / that)))
+
 # alignment:
 
 # document level annotation:
@@ -61,6 +63,7 @@ Words: Hyperbole is        not       logical.
 (s3l / logical
      :domain (s3h / hyperbole)
      :polarity -)
+
 # alignment:
 
 # document level annotation:
@@ -101,6 +104,7 @@ Words: Even        the         Republicans are         not         even        v
                 :wiki "South_Carolina"))
         :mod (s4j / just)
         :mode imperative))
+
 # alignment:
 
 # document level annotation:
@@ -129,6 +133,7 @@ Words: Have    lived   in      that    state,  and,    he      does    not     h
                 :wiki "Southern_United_States"))
         :degree (s5p / period)
         :polarity -))
+
 # alignment:
 
 # document level annotation:
@@ -150,6 +155,7 @@ Words: He       will     just     say      whatever to       get      elected.
     :purpose (s6e / elect-01
         :ARG1 s6h)
     :mod (s6j / just))
+
 # alignment:
 
 # document level annotation:
@@ -178,6 +184,7 @@ Words: In          fact,       I           hope        he          gets        e
             :wiki "Barack_Obama")
         :polarity -)
     :mod (s7i2 / in-fact))
+
 # alignment:
 
 # document level annotation:
@@ -202,6 +209,7 @@ Words: The         Republicans will        just        hate        him.
         :refer-person 3rd
         :refer-number singular)
     :mod (s8j / just))
+
 # alignment:
 
 # document level annotation:
