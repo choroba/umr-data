@@ -590,7 +590,7 @@ s14p4: 0-0
     :modal ((author :full-affirmative s14e)
             (author :full-affirmative s14p3)
             (s14p3 :full-affirmative s14y)
-            (s14p3 Fullfull-affirmative s14n2))
+            (s14p3 :full-affirmative s14n2))
     :coref ((s13p2 :same-entity s14p3)
             (s13p3 :same-entity s14p4)
             (s13p :same-entity s14p)
