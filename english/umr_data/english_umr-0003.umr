@@ -441,9 +441,9 @@ s9h2: 11-11
 (s9s0 / sentence
     :temporal ((document-creation-time :before s9s)
             (s9s :overlap s9s3))
-    :modal ((author :AFF s9s)
-            (author :AFF s9p)
-            (s9p :AFF s9s3))
+    :modal ((author :full-affirmative s9s)
+            (author :full-affirmative s9p)
+            (s9p :full-affirmative s9s3))
     :coref ((s8p :same-entity s9p2)))
 
 
