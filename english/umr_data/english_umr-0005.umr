@@ -364,7 +364,6 @@ Words: It gave several reasons .
         :quote s7s)
     :ARG2 (s7p2 / person)
     :aspect performance)
-g
 
 
 # alignment:
@@ -1966,8 +1965,8 @@ s28n: 0-0
             (author :full-affirmative s28p2)
             (s28p2 :full-affirmative s28t)
             (s28p2 :full-affirmative s28s))
-    :coref ((s27p3 :same-entity s28p2) interviewer
-            (s27n :same-entity s28p) marsha))
+    :coref ((s27p3 :same-entity s28p2)
+            (s27n :same-entity s28p)))
 
 
 
@@ -2004,8 +2003,8 @@ s29p2: 0-0
     :modal ((author :full-affirmative s29s)
             (author :full-affirmative s29p)
             (s29p :full-affirmative s29h))
-    :coref ((s28p :same-entity s29p) Marsha
-            (s28p2 :same-entity s29p2) interviewer
+    :coref ((s28p :same-entity s29p)
+            (s28p2 :same-entity s29p2)
             (s28s :same-entity s29t)))
 
 
