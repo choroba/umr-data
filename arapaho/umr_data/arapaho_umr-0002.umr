@@ -21,7 +21,6 @@ Translation(English):	That Riverton right there there down stream Riverton he ro
     :direction (s1n2 / noobe'einiihi')
     :aspect activity)
 
-
 # alignment:
 s1x: 10-10
 s1p: 10-10
@@ -31,12 +30,10 @@ s1h2: 4-4
 s1x2: 5-5
 s1n2: 7-7
 
-
 # document level annotation:
 (s1s0 / sentence
     :temporal ((document-creation-time :before s1x))
     :modal ((author :full-affirmative s1x)))
-
 
 
 ################################################################################
@@ -58,13 +55,11 @@ Translation(English):	He rode downstream.
     :goal (s2p2 / place)
     :aspect activity)
 
-
 # alignment:
 s2x: 1-1
 s2p: 1-1
 s2d: 1-1
 s2p2: 1-1
-
 
 # document level annotation:
 (s2s0 / sentence
@@ -73,7 +68,6 @@ s2p2: 1-1
     :coref ((s1h3 :same-entity s2p2)
             (s1n2 :same-entity s2d)
             (s1x :same-event s2x)))
-
 
 
 ################################################################################
@@ -99,7 +93,6 @@ Translation(English):	I guess he was going to Shoshoni to do something or other.
         :aspect activity)
     :aspect activity)
 
-
 # alignment:
 s3h3: 1-1
 s3n: 1-1
@@ -107,7 +100,6 @@ s3p: 1-1
 s3h2: 3-3
 s3n2: 3-3
 s3h4: 2-2
-
 
 # document level annotation:
 (s3s0 / sentence
@@ -117,7 +109,6 @@ s3h4: 2-2
             (author :partial-affirmative s3n))
     :coref ((s2p :same-entity s3p)
             (s1x :same-event s3h3)))
-
 
 
 ################################################################################
@@ -138,19 +129,16 @@ Translation(English):	He rode over there.
     :goal (s4p2 / place)
     :aspect performance)
 
-
 # alignment:
 s4h: 1-1
 s4p: 1-1
 s4p2: 1-1
-
 
 # document level annotation:
 (s4s0 / sentence
     :temporal ((s3h3 :overlap s4h))
     :modal ((author :full-affirmative s4h))
     :coref ((s3p :same-entity s4p)))
-
 
 
 ################################################################################
@@ -175,7 +163,6 @@ Translation(English):	He rode over that direction.
     :start (s5p3 / place)
     :aspect activity)
 
-
 # alignment:
 s5y: 1-1
 s5a: 1-1
@@ -183,14 +170,12 @@ s5p: 1-1
 s5p2: 1-1
 s5p3: 0-0
 
-
 # document level annotation:
 (s5s0 / sentence
     :modal ((author :full-affirmative s5y))
     :coref ((s4h :same-event s5y)
             (s4p :same-entity s5p)
             (s4p2 :same-entity s5p2)))
-
 
 
 ################################################################################
@@ -212,19 +197,16 @@ Translation(English):	Men he would meet them.
         :refer-number plural)
     :aspect habitual)
 
-
 # alignment:
 s6n: 2-2
 s6p: 2-2
 s6h: 1-1
-
 
 # document level annotation:
 (s6s0 / sentence
     :temporal ((s5y :contained s6n))
     :modal ((author :full-affirmative s6n))
     :coref ((s5p :same-entity s6p)))
-
 
 
 ################################################################################
@@ -246,12 +228,10 @@ Translation(English):	They were riding back towards here.
     :start (s7p3 / place)
     :aspect activity)
 
-
 # alignment:
 s7c: 1-1
 s7p: 1-1
 s7p2: 1-1
-
 
 # document level annotation:
 (s7s0 / sentence
@@ -260,7 +240,6 @@ s7p2: 1-1
     :coref ((s6h :same-entity s7p)
             (s5p3 :same-entity s7p2)
             (s1h3 :same-entity s7p3)))
-
 
 
 ################################################################################
@@ -283,19 +262,16 @@ Translation(English):	they were holding their hands.
         :part-of s8p)
     :aspect activity)
 
-
 # alignment:
 s8t: 1-1
 s8p: 1-1
 s8h: 2-2
-
 
 # document level annotation:
 (s8s0 / sentence
     :temporal ((s7c :overlap s8t))
     :modal ((author :full-affirmative s8t))
     :coref ((s7p :same-entity s8p)))
-
 
 
 ################################################################################
@@ -322,14 +298,12 @@ Translation(English):	"Wohei what did you do?"
     :recipient s9p
     :aspect performance)
 
-
 # alignment:
 s9e: 0-0
 s9p2: 0-0
 s9t: 3-3
 s9p: 3-3
 s9u: 3-3
-
 
 # document level annotation:
 (s9s0 / sentence
@@ -339,7 +313,6 @@ s9u: 3-3
             (s9p2 :full-affirmative s9t))
     :coref ((s6p :same-entity s9p2)
             (s8p :same-entity s9p)))
-
 
 
 ################################################################################
@@ -363,7 +336,6 @@ Translation(English):	"What?"
     :recipient (s10p2 / person)
     :aspect performance)
 
-
 # alignment:
 s10e: 0-0
 s10p: 0-0
@@ -372,7 +344,6 @@ s10e2: 0-0
 s10u: 2-2
 s10p2: 0-0
 
-
 # document level annotation:
 (s10s0 / sentence
     :temporal ((s9e :after s10e))
@@ -380,7 +351,6 @@ s10p2: 0-0
     :coref ((s9p2 :same-entity s10p)
             (s8t :same-event s10e2)
             (s9p :same-entity s10p2)))
-
 
 
 ################################################################################
@@ -408,7 +378,6 @@ Translation(English):	"That he is strong he has red hair white man right there i
     :recipient (s11p2 / person)
     :aspect performance)
 
-
 # alignment:
 s11e: 0-0
 s11p: 0-0
@@ -419,7 +388,6 @@ s11b2: 8-8
 s11h: 7-7
 s11h2: 2-2
 s11p2: 0-0
-
 
 # document level annotation:
 (s11s0 / sentence
@@ -433,7 +401,6 @@ s11p2: 0-0
             (s11p :full-affirmative s11b))
     :coref ((s10p2 :subset-of s11p)
             (s10p :same-entity s11p2)))
-
 
 
 ################################################################################
@@ -461,14 +428,12 @@ Translation(English):	"he is crushing our hands"
     :recipient (s12p3 / person)
     :aspect performance)
 
-
 # alignment:
 s12e: 0-0
 s12p2: 1-1
 s12x: 1-1
 s12p: 1-1
 s12p3: 0-0
-
 
 # document level annotation:
 (s12s0 / sentence
@@ -479,7 +444,6 @@ s12p3: 0-0
             (s12p2 :full-affirmative s12x))
     :coref ((s11n :same-entity s12p)
             (s11p2 :same-entity s12p3)))
-
 
 
 ################################################################################
@@ -511,7 +475,6 @@ Translation(English):	"he shakes someone's hand right away whenever he sees them
     :recipient (s13p3 / person)
     :aspect performance)
 
-
 # alignment:
 s13e: 0-0
 s13p2: 0-0
@@ -521,7 +484,6 @@ s13x: 3-3
 s13x2: 5-5
 s13n2: 4-4
 s13p3: 0-0
-
 
 # document level annotation:
 (s13s0 / sentence
@@ -537,7 +499,6 @@ s13p3: 0-0
             (s12p3 :same-entity s13p3)
             (s12p :same-entity s13p)
             (s13x2 :subset-of s10p2)))
-
 
 
 ################################################################################
@@ -569,7 +530,6 @@ Translation(English):	"and the ones who go in there right away he goes to them."
     :recipient (s14p4 / person)
     :aspect performance)
 
-
 # alignment:
 s14e: 0-0
 s14p3: 0-0
@@ -579,7 +539,6 @@ s14p2: 3-3
 s14n2: 3-3
 s14x: 4-4
 s14p4: 0-0
-
 
 # document level annotation:
 (s14s0 / sentence
@@ -595,7 +554,6 @@ s14p4: 0-0
             (s13p3 :same-entity s14p4)
             (s13p :same-entity s14p)
             (s13x2 :same-entity s14p2)))
-
 
 
 ################################################################################
@@ -632,7 +590,6 @@ Translation(English):	"he meets them, he takes their hand, also he crushes their
     :recipient (s15p4 / person)
     :aspect performance)
 
-
 # alignment:
 s15e: 0-0
 s15p3: 0-0
@@ -643,7 +600,6 @@ s15p2: 2-2
 s15n2: 4-4
 s15x: 7-7
 s15p4: 0-0
-
 
 # document level annotation:
 (s15s0 / sentence
@@ -661,7 +617,6 @@ s15p4: 0-0
             (s14p :same-entity s15p)
             (s14p2 :same-entity s15p2)
             (s12x :same-event s15x)))
-
 
 
 ################################################################################
@@ -689,7 +644,6 @@ Translation(English):	"yes finally I will ride over to there he said."
         :quote s16h)
     :aspect performance)
 
-
 # alignment:
 s16h: 8-8
 s16h2: 5-5
@@ -698,7 +652,6 @@ s16p3: 5-5
 s16p2: 5-5
 s16h3: 4-4
 s16h4: 2-2
-
 
 # document level annotation:
 (s16s0 / sentence
@@ -710,7 +663,6 @@ s16h4: 2-2
     :coref ((s15p4 :same-entity s16p)
             (s7p2 :same-entity s16p3)
             (s7p3 :same-entity s16p2)))
-
 
 
 ################################################################################
@@ -734,20 +686,17 @@ Translation(English):	he met them;
     :place (s17p3 / place)
     :aspect performance)
 
-
 # alignment:
 s17n: 1-1
 s17p: 1-1
 s17p2: 1-1
 s17p3: 0-0
 
-
 # document level annotation:
 (s17s0 / sentence
     :temporal ((s17n :contains s16h2))
     :modal ((author :full-affirmative s17n))
     :coref ((s16p :same-entity s17p)))
-
 
 
 ################################################################################
@@ -769,19 +718,16 @@ Translation(English):	also they were holding them their hands.
         :part-of s18p)
     :aspect activity)
 
-
 # alignment:
 s18t: 1-1
 s18p: 1-1
 s18h: 2-2
-
 
 # document level annotation:
 (s18s0 / sentence
     :temporal ((s18t :contains s17n))
     :modal ((author :full-affirmative s18t))
     :coref ((s17p2 :same-entity s18p)))
-
 
 
 ################################################################################
@@ -809,7 +755,6 @@ Translation(English):	"well what did you all do?"
     :recipient s19p
     :aspect performance)
 
-
 # alignment:
 s19e: 0-0
 s19p2: 0-0
@@ -817,7 +762,6 @@ s19t: 4-4
 s19p: 4-4
 s19u: 4-4
 s19y: 2-2
-
 
 # document level annotation:
 (s19s0 / sentence
@@ -828,7 +772,6 @@ s19y: 2-2
             (s19p2 :full-affirmative s19t))
     :coref ((s17p :same-entity s19p2)
             (s18p :same-entity s19p)))
-
 
 
 ################################################################################
@@ -855,7 +798,6 @@ Translation(English):	"right there he has red hair white man"
     :recipient (s20p2 / person)
     :aspect performance)
 
-
 # alignment:
 s20e: 0-0
 s20p: 0-0
@@ -864,7 +806,6 @@ s20h: 2-2
 s20n: 4-4
 s20b: 3-3
 s20p2: 0-0
-
 
 # document level annotation:
 (s20s0 / sentence
@@ -879,7 +820,6 @@ s20p2: 0-0
             (s15p :same-entity s20n)
             (s19p2 :same-entity s20p)
             (s16p2 :same-entity s20h)))
-
 
 
 ################################################################################
@@ -905,14 +845,12 @@ Translation(English):	"he's pretty big"
     :recipient (s21p3 / person)
     :aspect performance)
 
-
 # alignment:
 s21e: 0-0
 s21p2: 0-0
 s21p: 2-2
 s21b: 2-2
 s21p3: 0-0
-
 
 # document level annotation:
 (s21s0 / sentence
@@ -924,7 +862,6 @@ s21p3: 0-0
     :coref ((s20p :same-entity s21p2)
             (s20n :same-entity s21p)
             (s20p2 :same-entity s21p3)))
-
 
 
 ################################################################################
@@ -952,14 +889,12 @@ Translation(English):	"he's crushing our hands."
     :recipient (s22p3 / person)
     :aspect performance)
 
-
 # alignment:
 s22e: 0-0
 s22x: 2-2
 s22p: 2-2
 s22p2: 2-2
 s22p3: 0-0
-
 
 # document level annotation:
 (s22s0 / sentence
@@ -971,7 +906,6 @@ s22p3: 0-0
     :coref ((s21p :same-entity s22p)
             (s21p2 :same-entity s22p2)
             (s21p3 :same-entity s22p3)))
-
 
 
 ################################################################################
@@ -996,14 +930,12 @@ Translation(English):	"he shakes someone's hand"
     :recipient (s23p3 / person)
     :aspect performance)
 
-
 # alignment:
 s23e: 0-0
 s23p2: 0-0
 s23n: 2-2
 s23p: 2-2
 s23p3: 0-0
-
 
 # document level annotation:
 (s23s0 / sentence
@@ -1016,7 +948,6 @@ s23p3: 0-0
             (s22p :same-entity s23p)
             (s22p3 :same-entity s23p3)
             (s13n :same-event s23n)))
-
 
 
 ################################################################################
@@ -1044,14 +975,12 @@ Translation(English):	"he crushes our hands."
     :recipient (s24p3 / person)
     :aspect performance)
 
-
 # alignment:
 s24e: 0-0
 s24x: 2-2
 s24p: 2-2
 s24p2: 2-2
 s24p3: 0-0
-
 
 # document level annotation:
 (s24s0 / sentence
@@ -1063,7 +992,6 @@ s24p3: 0-0
     :coref ((s23p :same-entity s24p)
             (s23p2 :same-entity s24p2)
             (s23p3 :same-entity s24p3)))
-
 
 
 ################################################################################
@@ -1090,7 +1018,6 @@ Translation(English):	"yes finally I am going to ride over to there."
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s25e: 0-0
 s25h2: 5-5
@@ -1099,7 +1026,6 @@ s25p3: 5-5
 s25p2: 5-5
 s25h3: 4-4
 s25h4: 2-2
-
 
 # document level annotation:
 (s25s0 / sentence
@@ -1112,7 +1038,6 @@ s25h4: 2-2
     :coref ((s24p3 :same-entity s25p)
             (s17p3 :same-entity s25p3)
             (s20h :same-entity s25p2)))
-
 
 
 ################################################################################
@@ -1136,13 +1061,11 @@ Translation(English):	he rode away over in that direction
     :direction (s26p2 / place)
     :aspect activity)
 
-
 # alignment:
 s26y: 1-1
 s26a: 1-1
 s26p: 1-1
 s26p2: 1-1
-
 
 # document level annotation:
 (s26s0 / sentence
@@ -1151,7 +1074,6 @@ s26p2: 1-1
     :coref ((s5a :same-entity s26a)
             (s25p :same-entity s26p)
             (s25p2 :same-entity s26p2)))
-
 
 
 ################################################################################
@@ -1173,13 +1095,11 @@ Translation(English):	then he arrived there by riding.
     :goal (s27p3 / place)
     :aspect performance)
 
-
 # alignment:
 s27n: 1-1
 s27p: 1-1
 s27p2: 1-1
 s27p3: 1-1
-
 
 # document level annotation:
 (s27s0 / sentence
@@ -1188,7 +1108,6 @@ s27p3: 1-1
     :coref ((s26p :same-entity s27p)
             (s25p3 :same-entity s27p2)
             (s26p2 :same-entity s27p3)))
-
 
 
 ################################################################################
@@ -1215,7 +1134,6 @@ Translation(English):	outside where people tie up their horses he tied it up his
             :aspect habitual))
     :aspect performance)
 
-
 # alignment:
 s28t: 4-4
 s28p: 4-4
@@ -1223,7 +1141,6 @@ s28h: 5-5
 s28c: 1-1
 s28p2: 0-0
 s28t2: 2-2
-
 
 # document level annotation:
 (s28s0 / sentence
@@ -1234,7 +1151,6 @@ s28t2: 2-2
     :coref ((s27p :same-entity s28p)
             (s26a :same-entity s28h)
             (s27p3 :same-entity s28p3)))
-
 
 
 ################################################################################
@@ -1256,13 +1172,11 @@ Translation(English):	then he went inside there.
     :goal (s29p3 / place)
     :aspect performance)
 
-
 # alignment:
 s29c: 1-1
 s29p: 1-1
 s29p2: 1-1
 s29p3: 1-1
-
 
 # document level annotation:
 (s29s0 / sentence
@@ -1271,7 +1185,6 @@ s29p3: 1-1
     :coref ((s28p :same-entity s29p)
             (s28p2 :same-entity s29p2)
             (s28p3 :same-entity s29p3)))
-
 
 
 ################################################################################
@@ -1296,7 +1209,6 @@ Translation(English):	and right away that one saw him that he has red hair;
     :temporal (s30x / xonou)
     :aspect performance)
 
-
 # alignment:
 s30n: 3-3
 s30p: 5-5
@@ -1304,7 +1216,6 @@ s30b: 5-5
 s30h: 4-4
 s30p2: 3-3
 s30x: 2-2
-
 
 # document level annotation:
 (s30s0 / sentence
@@ -1315,7 +1226,6 @@ s30x: 2-2
             (author :full-affirmative s30b))
     :coref ((s24p :same-entity s30p)
             (s29p :same-entity s30p2)))
-
 
 
 ################################################################################
@@ -1338,12 +1248,10 @@ Translation(English):	Then he greeted him.
         :refer-number singular)
     :aspect performance)
 
-
 # alignment:
 s31c: 1-1
 s31p: 1-1
 s31p2: 1-1
-
 
 # document level annotation:
 (s31s0 / sentence
@@ -1351,7 +1259,6 @@ s31p2: 1-1
     :modal ((author :full-affirmative s31c))
     :coref ((s30p :same-entity s31p)
             (s30p2 :same-entity s31p2)))
-
 
 
 ################################################################################
@@ -1382,7 +1289,6 @@ Translation(English):	"wohei it's good that you've come it's good that you've co
     :recipient s32p
     :aspect performance)
 
-
 # alignment:
 s32e: 0-0
 s32p2: 0-0
@@ -1392,7 +1298,6 @@ s32h: 4-4
 s32p: 4-4
 s32p3: 4-4
 s32h2: 6-6
-
 
 # document level annotation:
 (s32s0 / sentence
@@ -1406,7 +1311,6 @@ s32h2: 6-6
     :coref ((s31p :same-entity s32p2)
             (s31p2 :same-entity s32p)
             (s29p3 :same-entity s32p3)))
-
 
 
 ################################################################################
@@ -1434,13 +1338,11 @@ Translation(English):	"I'm going to shake your hand."
     :recipient s33p2
     :aspect performance)
 
-
 # alignment:
 s33e: 0-0
 s33n: 2-2
 s33p: 2-2
 s33p2: 2-2
-
 
 # document level annotation:
 (s33s0 / sentence
@@ -1451,7 +1353,6 @@ s33p2: 2-2
             (s33p :full-affirmative s33n))
     :coref ((s32p2 :same-entity s33p)
             (s32p :same-entity s33p2)))
-
 
 
 ################################################################################
@@ -1479,13 +1380,11 @@ Translation(English):	"it's good that I see you, that one said to him."
         :refer-number singular)
     :aspect performance)
 
-
 # alignment:
 s34h: 5-5
 s34p: 5-5
 s34h2: 2-2
 s34p2: 5-5
-
 
 # document level annotation:
 (s34s0 / sentence
@@ -1496,7 +1395,6 @@ s34p2: 5-5
             (s34p :full-affirmative s34h2))
     :coref ((s33p :same-entity s34p)
             (s33p2 :same-entity s34p2)))
-
 
 
 ################################################################################
@@ -1531,7 +1429,6 @@ Translation(English):	"it is good that I see you I am going to shake"
     :recipient s35p2
     :aspect performance)
 
-
 # alignment:
 s35e: 0-0
 s35a: 0-0
@@ -1540,7 +1437,6 @@ s35n: 3-3
 s35p: 3-3
 s35p2: 3-3
 s35n2: 5-5
-
 
 # document level annotation:
 (s35s0 / sentence
@@ -1553,7 +1449,6 @@ s35n2: 5-5
             (s35p :full-affirmative s35n2))
     :coref ((s34p :same-entity s35p)
             (s34p2 :same-entity s35p2)))
-
 
 
 ################################################################################
@@ -1583,7 +1478,6 @@ Translation(English):	"yes and I'm going to shake your hand," he said to him.
         :refer-number singular)
     :aspect performance)
 
-
 # alignment:
 s36h: 7-7
 s36p: 7-7
@@ -1591,7 +1485,6 @@ s36a: 4-4
 s36h2: 2-2
 s36n: 4-4
 s36p2: 7-7
-
 
 # document level annotation:
 (s36s0 / sentence
@@ -1603,7 +1496,6 @@ s36p2: 7-7
     :coref ((s35p2 :same-entity s36p)
             (s35p :same-entity s36p2)
             (s35n2 :same-event s36n)))
-
 
 
 ################################################################################
@@ -1626,12 +1518,10 @@ Translation(English):	then the white man took his hand.
         :refer-number singular)
     :aspect performance)
 
-
 # alignment:
 s37h: 1-1
 s37p: 1-1
 s37p2: 1-1
-
 
 # document level annotation:
 (s37s0 / sentence
@@ -1639,7 +1529,6 @@ s37p2: 1-1
     :modal ((author :full-affirmative s37h))
     :coref ((s36p2 :same-entity s37p)
             (s36p :same-entity s37p2)))
-
 
 
 ################################################################################
@@ -1665,7 +1554,6 @@ Translation(English):	then, he isn't scared of him this, well, strong bear.
     :polarity -
     :aspect performance)
 
-
 # alignment:
 s38h: 3-3
 s38p: 3-3
@@ -1673,14 +1561,12 @@ s38p2: 6-6
 s38n2: 6-6
 s38n: 4-4
 
-
 # document level annotation:
 (s38s0 / sentence
     :temporal ((s37h :overlap s38h))
     :modal ((author :full-negative s38h))
     :coref ((s37p :same-entity s38p)
             (s37p2 :same-entity s38p2)))
-
 
 
 ################################################################################
@@ -1706,7 +1592,6 @@ Translation(English):	yes not- he couldn't he couldn't crush it his hand.
     :polarity -
     :aspect activity)
 
-
 # alignment:
 s39x: 5-5
 s39p: 5-5
@@ -1714,14 +1599,12 @@ s39h3: 6-6
 s39p2: 6-6
 s39h2: 1-1
 
-
 # document level annotation:
 (s39s0 / sentence
     :temporal ((s37h :overlap s39x))
     :modal ((author :neutral-negative s39x))
     :coref ((s38p :same-entity s39p)
             (s38p2 :same-entity s39p2)))
-
 
 
 ################################################################################
@@ -1752,7 +1635,6 @@ Translation(English):	woehi this while the white man was trying to crush his han
         :aspect activity)
     :aspect performance)
 
-
 # alignment:
 s40h: 5-5
 s40p: 7-7
@@ -1763,7 +1645,6 @@ s40n3: 3-3
 s40p2: 3-3
 s40n4: 2-2
 
-
 # document level annotation:
 (s40s0 / sentence
     :temporal ((s40h :contains s40n3))
@@ -1773,7 +1654,6 @@ s40n4: 2-2
             (s39h3 :same-entity s40t)
             (s39p :same-entity s40p2)
             (s39x :same-event s40n3)))
-
 
 
 ################################################################################
@@ -1793,13 +1673,11 @@ Translation(English):	soon he was scrunched down this white man.
     :temporal (s41h / heihii)
     :aspect state)
 
-
 # alignment:
 s41c: 2-2
 s41n: 4-4
 s41n2: 3-3
 s41h: 1-1
-
 
 # document level annotation:
 (s41s0 / sentence
@@ -1807,7 +1685,6 @@ s41h: 1-1
             (s41h :overlap s41c))
     :modal ((author :full-affirmative s41c))
     :coref ((s40p2 :same-entity s41n)))
-
 
 
 ################################################################################
@@ -1828,18 +1705,15 @@ Translation(English):	he was just whimpering and crying pitifully;
     :degree downtoner
     :aspect activity)
 
-
 # alignment:
 s42b: 1-1
 s42p: 1-1
-
 
 # document level annotation:
 (s42s0 / sentence
     :temporal ((s41c :overlap s42b))
     :modal ((author :full-affirmative s42b))
     :coref ((s41n :same-entity s42p)))
-
 
 
 ################################################################################
@@ -1863,7 +1737,6 @@ Translation(English):	they were crackling his bones this in his hand.
             :mod (s43n / nuhu')))
     :aspect activity)
 
-
 # alignment:
 s43k: 1-1
 s43h: 2-2
@@ -1871,13 +1744,11 @@ s43h2: 4-4
 s43p: 4-4
 s43n: 3-3
 
-
 # document level annotation:
 (s43s0 / sentence
     :temporal ((s42b :overlap s43k))
     :modal ((author :full-affirmative s43k))
     :coref ((s42p :same-entity s43p)))
-
 
 
 ################################################################################
@@ -1900,7 +1771,6 @@ Translation(English):	right up until he really crushed it;
             :degree intensifier
             :aspect activity)))
 
-
 # alignment:
 s44h: 1-1
 s44e: 0-0
@@ -1909,7 +1779,6 @@ s44x: 2-2
 s44p: 2-2
 s44t: 2-2
 
-
 # document level annotation:
 (s44s0 / sentence
     :temporal ((s43k :after s44s))
@@ -1917,7 +1786,6 @@ s44t: 2-2
     :coref ((s43k :same-event s44e)
             (s40p :same-entity s44p)
             (s43h2 :same-entity s44t)))
-
 
 
 ################################################################################
@@ -1935,18 +1803,15 @@ Translation(English):	his hand was just a little bloody pulp.
     :theme (s45t / thing)
     :aspect state)
 
-
 # alignment:
 s45b: 1-1
 s45t: 1-1
-
 
 # document level annotation:
 (s45s0 / sentence
     :temporal ((s44x :overlap s45b))
     :modal ((author :full-affirmative s45b))
     :coref ((s44t :same-entity s45t)))
-
 
 
 ################################################################################
@@ -1983,7 +1848,6 @@ Translation(English):	"this strong bear me glad to see you," he said to him.
     :recipient s47p2
     :aspect performance)
 
-
 # alignment:
 s47h: 11-11
 s47a: 0-0
@@ -1994,7 +1858,6 @@ s47n: 3-3
 s47g: 5-5
 s47s: 7-7
 s47p2: 8-8
-
 
 # document level annotation:
 (s47s0 / sentence
@@ -2009,7 +1872,6 @@ s47p2: 8-8
             (s47p :full-affirmative s47s))
     :coref ((s44p :same-entity s47p)
             (s43p :same-entity s47p2)))
-
 
 
 ################################################################################
@@ -2040,7 +1902,6 @@ Translation(English):	[He] didn’t, didn’t, didn’t [let go] until he really
             :degree intensifier
             :aspect performance)))
 
-
 # alignment:
 s48h: 0-0
 s48e: 1-1
@@ -2051,7 +1912,6 @@ s48t: 6-6
 s48p2: 6-6
 s48n: 7-7
 
-
 # document level annotation:
 (s48s0 / sentence
     :temporal ((s48x :after s48e))
@@ -2061,7 +1921,6 @@ s48n: 7-7
             (s47p :same-entity s48p)
             (s45t :same-entity s48t)
             (s47p2 :same-entity s48p2)))
-
 
 
 ################################################################################
@@ -2087,7 +1946,6 @@ Translation(English):	that was how he will brutally crushed it this his hand.
     :manner (s49m / manner)
     :aspect performance)
 
-
 # alignment:
 s49n: 2-2
 s49p: 2-2
@@ -2096,14 +1954,12 @@ s49p2: 4-4
 s49n2: 3-3
 s49m: 1-1
 
-
 # document level annotation:
 (s49s0 / sentence
     :modal ((author :full-affirmative s49n))
     :coref ((s48p :same-entity s49p)
             (s48t :same-entity s49h)
             (s48p2 :same-entity s49p2)))
-
 
 
 ################################################################################
@@ -2122,19 +1978,16 @@ Translation(English):	he was just crying and whimpering this white man.
         :mod (s50n2 / nehe'))
     :aspect activity)
 
-
 # alignment:
 s50b: 1-1
 s50n: 2-2
 s50n2: 3-3
-
 
 # document level annotation:
 (s50s0 / sentence
     :modal ((author :full-affirmative s50b))
     :coref ((s42b :same-event s50b)
             (s49h :same-entity s50n)))
-
 
 
 ################################################################################
@@ -2168,7 +2021,6 @@ Translation(English):	and that's how he paid back this guy who was crushing his 
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s51h: 3-3
 s51p: 3-3
@@ -2180,7 +2032,6 @@ s51h2: 6-6
 s51h3: 6-6
 s51n3: 8-8
 
-
 # document level annotation:
 (s51s0 / sentence
     :modal ((author :full-affirmative s51h)
@@ -2190,7 +2041,6 @@ s51n3: 8-8
             (s50n :same-entity s51n)
             (s51p2 :subset-of s24p2)
             (s51p2 :subset-of s15p3)))
-
 
 
 ################################################################################
@@ -2222,7 +2072,6 @@ Translation(English):	as a rule every and Indian entered, he went up to them he 
             :goal (s52p2 / place)
             :aspect performance)))
 
-
 # alignment:
 s52c: 0-0
 s52y: 5-5
@@ -2232,7 +2081,6 @@ s52r: 2-2
 s52c2: 3-3
 s52x2: 4-4
 s52p2: 5-5
-
 
 # document level annotation:
 (s52s0 / sentence
@@ -2248,7 +2096,6 @@ s52p2: 5-5
             (s14n2 :same-event s52c2)
             (s14y :same-event s52y)
             (s15x :same-event s52x)))
-
 
 
 ################################################################################
@@ -2281,7 +2128,6 @@ Translation(English):	finally he rode back over here this strong bear then he re
         :aspect performance)
     :mod (s53h / hohkonee))
 
-
 # alignment:
 s53c: 0-0
 s53n3: 2-2
@@ -2294,7 +2140,6 @@ s53x: 6-6
 s53p2: 6-6
 s53h: 1-1
 
-
 # document level annotation:
 (s53s0 / sentence
     :modal ((author :full-affirmative s53n3)
@@ -2305,7 +2150,6 @@ s53h: 1-1
             (s52p2 :same-entity s53p3)
             (s27p2 :same-entity s53p4)
             (s52p :same-entity s53p2)))
-
 
 
 ################################################################################
@@ -2324,16 +2168,13 @@ Translation(English):	and thus it ends this story.
         :mod (s54n2 / nuhu'))
     :aspect state)
 
-
 # alignment:
 s54n: 2-2
 s54h: 4-4
 s54n2: 3-3
 
-
 # document level annotation:
 (s54s0 / sentence
     :modal ((author :full-affirmative s54n)))
-
 
 
