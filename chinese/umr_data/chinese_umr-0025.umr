@@ -1230,7 +1230,7 @@ Words: 我  想  知道   他  是否   真的   有  理解   能力   。
 				:ARG1 (s28x9 / 能力
 					:mod (s28x8 / 理解))
 				:degree (s28x6 / 真的)))
-		:modal-predicate (s28x2 / 想-02)
+		:modal-predicate s28x2
 		:modal-strength (s28x29 / neutral-affirmative)))
 
 # alignment:
@@ -4579,7 +4579,7 @@ Words: 我  要求   别人   严肃   地  对待   我  的  不幸   。
 				:refer-number singular))
 		:modal-strength (s114x22 / partial-affirmative
 			:conceiver s114x1)
-		:modal-predicate (s114x2 / 要求-01)))
+		:modal-predicate s114x2))
 
 # alignment:
 s114x1: 0-0
@@ -5777,7 +5777,7 @@ Words: 我  知道   除  地球   、  木星   、  火星   、  金星   这
 								:ARG1 (s141x37 / 望远镜))))
 					:modal-strength (s141x83 / full-affirmative
 						:conceiver s141x1)
-					:modal-predicate (s141x2 / 知道-01))))))
+					:modal-predicate s141x2)))))
 
 # alignment:
 s141x1: 0-0
@@ -7314,7 +7314,7 @@ Words: 我  真  想  这样   说  ：  “ 从前   呀  ，  有  一  个  �
 						:unit (s176x35 / 个))
 					:modal-predicate s176x32
 					:modal-strength (s176x76 / neutral-affirmative))))
-		:modal-predicate (s176x3 / 想-01)
+		:modal-predicate s176x3
 		:modal-strength (s176x73 / partial-affirmative)))
 
 # alignment:
@@ -10047,8 +10047,7 @@ Words: 我  从来   不  大  愿意   以  道学家    的  口吻   来  说
 		:ARG0 s240x1
 		:manner (s240x9 / 口吻
 			:possessor-of (s240x7 / 道学家))
-		:modal-predicate (s240x5 / 愿意-01
-			:polarity -)
+		:modal-predicate s240x5
 		:modal-strength (s240x22 / neutral-negative)))
 
 # alignment:
@@ -12093,7 +12092,7 @@ Words: 它们   总是   设法   保护   自己   ，
 	:ARG1 (s296x4 / 保护-01
 		:ARG1 (s296x5 / 自己)
 		:ARG0 s296x1
-		:modal-predicate (s296x3 / 设法-01)
+		:modal-predicate s296x3
 		:modal-strength (s296x13 / full-affirmative)))
 
 # alignment:
@@ -14618,8 +14617,7 @@ Words: 她  不  愿  象  虞美人    那样   一  出世   就  满  脸  �
 			:modal-strength (s361x27 / full-affirmative))
 		:manner (s361x4 / 像-01
 			:ARG1 (s361x5 / 虞美人))
-		:modal-predicate (s361x3 / 愿-01
-			:polarity -)
+		:modal-predicate s361x3
 		:modal-strength (s361x28 / neutral-affirmative
 			:conceiver s361x1)))
 
@@ -16615,7 +16613,7 @@ Words: 我  想  小  王子   大概   是  利用   一  群  候鸟   迁徙 
 							:quant 1
 							:unit (s413x9 / 群))))
 				:ARG0 s413x4
-				:modal-predicate (s413x2 / 想-01)
+				:modal-predicate s413x2
 				:modal-strength (s413x36 / neutral-affirmative
 					:conceiver s413x1))
 			:mode judgement
@@ -16822,7 +16820,7 @@ Words: 他  想  ，  说不定    它  还  会  活动   呢  ！
 					:refer-number singular)
 				:modal-strength (s418x21 / neutral-affirmative
 					:conceiver s418x1)
-				:modal-predicate (s418x2 / 想-01))
+				:modal-predicate s418x2)
 			:mod (s418x6 / 还)
 			:mode expressive)))
 
@@ -18101,7 +18099,7 @@ Words: 她  是  怕  小  王子   看见   她  在  哭  。
 			:aspect activity
 			:modal-strength (s453x23 / full-affirmative
 				:conceiver s453x5))
-		:modal-predicate (s453x3 / 怕-01)
+		:modal-predicate s453x3
 		:modal-strength (s453x24 / neutral-affirmative
 			:conceiver s453x1)))
 
@@ -18889,7 +18887,7 @@ Words: 我  命令   你  打哈欠    。
 	:ARG2 (s473x4 / 打哈欠-01
 		:ARG0 s473x3
 		:modal-strength (s473x12 / partial-affirmative
-			:modal-predicate (s473x2 / 命令-01))))
+			:modal-predicate s473x2)))
 
 # alignment:
 s473x1: 0-0
@@ -32925,7 +32923,7 @@ Words: 为了   使  你们   对  地球   的  大小   有  一  个  概念 
 			:refer-person 2
 			:refer-number plural)
 		:modal-strength (s882x76 / partial-affirmative)
-		:modal-predicate (s882x14 / 想要-01)))
+		:modal-predicate s882x14))
 
 # alignment:
 s882x13: 0-0
