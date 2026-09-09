@@ -20,7 +20,7 @@ Words: The United States is hoping that Russia's President Vladimir Putin will f
                 :ARG2-of (s1a2 / advise-01
                     :ARG1 (s1c / commission
                         :mod (s1s / special)
-                        :poss s1p))
+                        :possessor s1p))
                     :aspect performance)
             :aspect endeavor)
         :op2 (s1p3 / pardon-01
@@ -161,7 +161,7 @@ Words: Specifically Russian prosecutors charged that Pope had stolen secrets rel
                 :refer-number singular
                 :mod (s3s3 / speed
                     :ARG1-of (s3h2 / high-02))
-                :poss s3c2))
+                :possessor s3c2))
         :aspect performance)
     :ARG1-of (s3s4 / specific-02)
     :aspect performance)
@@ -795,13 +795,13 @@ Words: Much of this sounds less like a pardon and more like a  criticism of the 
                             :ARG1 (s12a / and 
                                 :op1 (s12s4 / system 
                                     :mod (s12c2 / court) 
-                                    :poss s12p) 
+                                    :possessor s12p) 
                                 :op2 (s12p5 / police 
-                                    :poss s12p) 
+                                    :possessor s12p) 
                                 :op3 (s12p2 / person 
                                     :refer-number plural
                                     :ARG0-of (s12p3 / prosecute-01) 
-                                    :poss s12p)))))
+                                    :possessor s12p)))))
                 :aspect performance)
             :aspect state))
     :ARG2 (s12p7 / person)

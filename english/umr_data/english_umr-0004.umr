@@ -347,7 +347,7 @@ Words: and he'd drop them into his thing
           :refer-number plural)
   :ARG4 (s11t2 / thing
           :refer-number singular
-          :poss s11p)
+          :possessor s11p)
   :aspect habitual)
 
 
@@ -548,7 +548,7 @@ Words: and he dumps all his pears into the basket
           :refer-number singular)
   :ARG1 (s16p2 / pear
           :quant (s16a / all)
-          :poss s16p)
+          :possessor s16p)
   :goal (s16b / basket
           :refer-number singular)
   :aspect performance)
@@ -683,7 +683,7 @@ Words: and he takes his kerchief off ,
           :refer-person 3rd
           :refer-number singular)
   :ARG1 (s20k / kerchief
-          :poss s20p
+          :possessor s20p
           :refer-number singular)
   :aspect performance)
 
@@ -1822,7 +1822,7 @@ Words: he gets off his bike ,
           :refer-person 3rd
           :refer-number singular)
   :source (s51b / bike
-            :poss s51p
+            :possessor s51p
             :refer-number singular)
   :direction (s51o / off)
   :aspect performance)
@@ -2184,7 +2184,7 @@ Words: and he puts it on his bicycle ,
   :ARG1 (s63t / thing)
   :ARG2 (s63b / bicycle
           :refer-number singular
-          :poss s63p2)
+          :possessor s63p2)
   :aspect performance)
 
 
@@ -2590,7 +2590,7 @@ Words: he when he turns around his hat flies off .
 (s75f / fly-01
   :ARG2 (s75h / hat
           :refer-number singular
-          :poss (s75p / person
+          :possessor (s75p / person
                   :refer-person 3rd
                   :refer-number singular))
   :direction (s75o / off)
@@ -3393,7 +3393,7 @@ Words: And they-- help him get his bike u--p ,
                   :refer-number singular)
           :ARG1 (s98b / bike
                   :refer-number singular
-                  :poss s98p2)
+                  :possessor s98p2)
           :aspect performance)
   :ARG2 s98p2
   :aspect endeavor)
@@ -3601,7 +3601,7 @@ Words: And then . . they walk . . the three boys walk down the road and they see
          :ARG0 s103b
          :ARG1 (s103h / hat
                  :refer-number singular
-                 :poss (s103k / kid
+                 :possessor (s103k / kid
                          :refer-number singular))
          :aspect state))
 
@@ -3717,7 +3717,7 @@ Words: and then he brings his hat to him ,
           :refer-number singular)
   :ARG1 (s106h / hat
           :refer-number singular
-          :poss (s106p2 / person
+          :possessor (s106p2 / person
                   :refer-person 3rd
                   :refer-number singular))
   :ARG2 s106p2
@@ -3763,7 +3763,7 @@ Words: and the g guy on the bike gives the other kids gives the kid that returns
           :ARG0-of (s107r / return-02
                      :ARG1 (s107h2 / hat
                              :refer-number singular
-                             :poss s107g2)
+                             :possessor s107g2)
                      :ARG2 s107g2
                      :aspect performance))
   :purpose (s107s / share-01
@@ -3855,7 +3855,7 @@ Words: With his hat ,
                         :refer-person 3rd
                         :refer-number singular)
                 :ARG2 (s109h / hat
-                        :poss s109p
+                        :possessor s109p
                         :refer-number singular)
                 :aspect state
                 :modal-strength full-affirmative))
@@ -3891,7 +3891,7 @@ Words: with his pears ,
                         :refer-person 3rd
                         :refer-number singular)
                 :ARG2 (s110p2 / pear
-                        :poss s110p
+                        :possessor s110p
                         :refer-number plural)
                 :aspect state
                 :modal-strength full-affirmative))
@@ -4401,7 +4401,7 @@ Words: and they brush off their pears ,
           :refer-number plural)
   :ARG1 (s125p2 / pear
           :refer-number plural
-          :poss s125p)
+          :possessor s125p)
   :aspect endeavor)
 
 
@@ -4758,7 +4758,7 @@ Words: And he sees the kids walking by and eating their pears .
                  :ARG0 s135k
                  :ARG1 (s135p2 / pear
                          :refer-number plural
-                         :poss s135k)
+                         :possessor s135k)
                  :aspect activity))
   :aspect state)
 

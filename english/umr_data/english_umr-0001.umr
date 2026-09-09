@@ -577,7 +577,7 @@ Words: " I have ordered the Coast Guard and our entire naval force in the (  cen
             :op1 (s10a2 / armed-organization :wiki "Philippine_Coast_Guard"                     
                 :name (s10n / name :op1 "Coast" :op2 "Guard")) 
             :op2 (s10f / force    
-                :poss (s10p2 / person
+                :possessor (s10p2 / person
                     :refer-person 1st
                     :refer-number plural) 
                 :mod (s10n2 / navy) 
@@ -1480,7 +1480,7 @@ Words: Volunteer rescue teams from the country's mining companies , skilled in d
                 :modal-strength full-affirmative) 
             :source (s22c / company 
                 :mod (s22m / mine-01) 
-                :poss (s22c2 / country)) 
+                :possessor (s22c2 / country)) 
             :ARG1-of (s22s2 / skillful-01
                 :ARG2 (s22d / dig-01 
                     :ARG0 s22t
