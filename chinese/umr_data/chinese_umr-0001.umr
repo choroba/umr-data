@@ -40,7 +40,6 @@ Words: 《 世界 新闻 周报 》 是 一份 已经 停止 发行 的  美国 
             :aspect state))
     :aspect state)
 
-
 # alignment:
 s1a: 0-0
 s1a2: 0-0
@@ -78,7 +77,6 @@ s1x9: 18-18
         (author :full-affirmative s1i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt2
@@ -110,7 +108,6 @@ Words: 该 周报 综合 了 各式各样 奇怪 的 新闻 与 专栏 ，  其�
             :mod (s2x15 / 一般))
         :mod (s2x16 / 都)
         :aspect process))
-
 
 # alignment:
 s2a: 0-0
@@ -145,7 +142,6 @@ s2x9: 14-14
     :coref ((s1n :same-entity s2x2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt3
@@ -168,7 +164,6 @@ Words: 该 周报 也 曾经 短暂 的 拥有 过 一个 属  自己 的  电�
     :duration (s3x10 / 短暂)
     :aspect state)
 
-
 # alignment:
 s3x: 7-7
 s3x10: 5-5
@@ -189,7 +184,6 @@ s3x9: 4-4
         (author :full-affirmative s3x6)
         (author :full-affirmative s3x))
     :coref ((s2x2 :same-entity s3x2)))
-
 
 
 ################################################################################
@@ -219,7 +213,6 @@ Words: 目前 《 世界 新闻 周报 》 的 纸本 已经 停刊 ，  不过 
         :mod (s4x8 / 仍)
         :aspect activity))
 
-
 # alignment:
 s4b: 0-0
 s4n: 0-0
@@ -243,7 +236,6 @@ s4x8: 13-13
         (author :full-affirmative s4x6)
         (author :full-affirmative s4x2))
     :coref ((s3x2 :same-entity s4n)))
-
 
 
 ################################################################################
@@ -272,7 +264,6 @@ Words: 由于 其 荒诞不经 的 内容 ， 该 周报 被 称为 美国 历�
         :mod (s5x11 / 荒诞不经))
     :aspect performance)
 
-
 # alignment:
 s5c: 0-0
 s5h: 0-0
@@ -299,7 +290,6 @@ s5x9: 12-12
     :coref ((s4n :same-entity s5x2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt6
@@ -319,7 +309,6 @@ Words: 《 世界 新闻 周报 》 创刊 于 1979 年 。
         :year 1979)
     :aspect performance)
 
-
 # alignment:
 s6d: 0-0
 s6n: 0-0
@@ -333,7 +322,6 @@ s6x: 6-6
     :modal ((root :modal author)
         (author :full-affirmative s6x))
     :coref ((s5x2 :same-entity s6n)))
-
 
 
 ################################################################################
@@ -401,7 +389,6 @@ Words: 创始人 格内洛索 · 波普 因为 旗下 的 八卦 小报 《  国
         :aspect performance)
     :aspect state)
 
-
 # alignment:
 s7h: 0-0
 s7h2: 0-0
@@ -459,7 +446,6 @@ s7x9: 24-24
     :coref ((s6n :same-entity s7n3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt8
@@ -476,7 +462,6 @@ Words: 黑白 印刷 也 成 了 该刊 的 特色 。
             :mod (s8x6 / 该)))
     :mod (s8x7 / 也)
     :aspect performance)
-
 
 # alignment:
 s8x: 4-4
@@ -495,7 +480,6 @@ s8x7: 3-3
         (author :full-affirmative s8x2)
         (author :full-affirmative s8x))
     :coref ((s7n3 :same-entity s8x5)))
-
 
 
 ################################################################################
@@ -522,7 +506,6 @@ Words: 在 1980 年代 ， 《 世界 新闻 周报 》 发行量 达到 120 万
         :era 1980)
     :aspect performance)
 
-
 # alignment:
 s9d: 0-0
 s9h: 0-0
@@ -541,7 +524,6 @@ s9x4: 14-14
     :modal ((root :modal author)
         (author :full-affirmative s9x))
     :coref ((s8x5 :same-entity s9n)))
-
 
 
 ################################################################################
@@ -564,7 +546,6 @@ Words: 不过 至 2007 年 ， 该刊 发行量 已经 跌至 8  万  3  千份 
     :mod (s10x6 / 已经)
     :aspect performance)
 
-
 # alignment:
 s10d: 0-0
 s10h: 0-0
@@ -584,7 +565,6 @@ s10x7: 13-13
     :modal ((root :modal author)
         (author :full-affirmative s10x))
     :coref ((s9n :same-entity s10x4)))
-
 
 
 ################################################################################
@@ -627,7 +607,6 @@ Words: 2007 年 7 月 ， 母公司 美国 媒体 公司 停止 了  《  世界
         :temporal s11d
         :aspect activity))
 
-
 # alignment:
 s11b: 0-0
 s11c: 0-0
@@ -658,7 +637,6 @@ s11x8: 18-18
         (author :full-affirmative s11x3)
         (author :full-affirmative s11x2))
     :coref ((s11n2 :same-entity s11x5)))
-
 
 
 ################################################################################
@@ -704,7 +682,6 @@ Words: 虽然 《 世界 新闻 周报 》 宣称 他们 的 报导 都是 真�
         :ARG2 (s12x12 / 博君一笑)
         :aspect state))
 
-
 # alignment:
 s12a: 0-0
 s12b: 0-0
@@ -748,7 +725,6 @@ s12x9: 39-39
         (s12n :full-affirmative s12x10)
         (author :full-affirmative s12n))
     :coref ((s11n2 :same-entity s12n)))
-
 
 
 ################################################################################
@@ -801,7 +777,6 @@ Words: 他们 经常 报导 的 题材 有 外星人 、 古代 航天员 、  �
         :aspect performance
         :mod (s13x21 / 甚至)))
 
-
 # alignment:
 s13a: 0-0
 s13a2: 0-0
@@ -845,7 +820,6 @@ s13x9: 17-17
     :coref ((s12n :same-entity s13p)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt14
@@ -868,7 +842,6 @@ Words: 其中 最大宗 可 算是 外星人 地球 活动 。
         :aspect activity)
     :aspect state)
 
-
 # alignment:
 s14h: 0-0
 s14i2: 0-0
@@ -889,7 +862,6 @@ s14x7: 5-5
     :modal ((root :modal author)
         (author :full-affirmative s14x6)
         (author :neutral-affirmative s14x)))
-
 
 
 ################################################################################
@@ -931,7 +903,6 @@ Words: 美国 前 第一夫人 希拉里 · 克林顿 就 被 指 与  外星人
             :quote s15x))
     :aspect performance)
 
-
 # alignment:
 s15a: 0-0
 s15c: 0-0
@@ -962,7 +933,6 @@ s15x9: 23-23
         (s15a :full-affirmative s15x2)
         (author :full-affirmative s15x)
         (author :full-affirmative s15a)))
-
 
 
 ################################################################################
@@ -1015,7 +985,6 @@ Words: 2000 年 总统大选 时 ， 该刊 报导 「 外星人 支持 布什 �
             :aspect performance
             :quote s16x3)
         :aspect performance))
-
 
 # alignment:
 s16a: 0-0
@@ -1071,7 +1040,6 @@ s16x9: 13-13
     :coref ((s12n :same-entity s16x4)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt17
@@ -1104,7 +1072,6 @@ Words: 不过 周报 内容 虽然 荒唐 ， 但 其 编辑 也  有  能力 �
                     :aspect habitual)
                 :aspect state))
         :aspect state))
-
 
 # alignment:
 s17a: 0-0
@@ -1140,7 +1107,6 @@ s17x9: 22-22
         (author :full-affirmative s17i2)
         (author :full-affirmative s17x2))
     :coref ((s16x4 :same-entity s17x4)))
-
 
 
 ################################################################################
@@ -1180,7 +1146,6 @@ Words: 如 全世界 在 争论 复制人 的 道德 问题 时 ，  它  在  �
             :aspect activity)
         :aspect performance))
 
-
 # alignment:
 s18h: 0-0
 s18i2: 0-0
@@ -1210,7 +1175,6 @@ s18x9: 7-7
         (author :full-affirmative s18x5)
         (author :full-affirmative s18x))
     :coref ((s17x4 :same-entity s18t)))
-
 
 
 ################################################################################
@@ -1250,7 +1214,6 @@ Words: 为了 讽刺 美国 的 外交 政策 ， 他们 也 报导 了  一篇 
                     :op1 "美国")))
         :aspect performance))
 
-
 # alignment:
 s19c: 0-0
 s19h: 0-0
@@ -1274,7 +1237,6 @@ s19x7: 12-12
         (author :full-affirmative s19x)
         (author :full-affirmative s19x2))
     :coref ((s17x4 :same-entity s19p)))
-
 
 
 ################################################################################
@@ -1314,7 +1276,6 @@ Words: 该刊 的 一篇 新闻 「 12 位 美国 参议员 是  外星人 ！  
             :aspect state))
     :aspect performance)
 
-
 # alignment:
 s20b: 0-0
 s20i2: 0-0
@@ -1340,7 +1301,6 @@ s20x9: 1-1
         (author :full-affirmative s20i2)
         (author :full-affirmative s20x))
     :coref ((s17x4 :same-entity s20x8)))
-
 
 
 ################################################################################
@@ -1377,7 +1337,6 @@ Words: 某些 记者 开玩笑 的 批评 道 ， 该 新闻 至少 少算 了  
             :aspect performance)
         :aspect state))
 
-
 # alignment:
 s21a: 0-0
 s21g: 0-0
@@ -1410,7 +1369,6 @@ s21x9: 19-19
         (author :full-affirmative s21x6)
         (author :full-affirmative s21x2))
     :coref ((s20x6 :same-entity s21x7)))
-
 
 
 ################################################################################
@@ -1453,7 +1411,6 @@ Words: 在 其他 的 八卦 小报 纷纷 转向 报导 名人 隐私 与  八�
             :aspect habitual)
         :aspect performance))
 
-
 # alignment:
 s22a: 0-0
 s22h: 0-0
@@ -1494,7 +1451,6 @@ s22x9: 19-19
     :coref ((s17x4 :same-entity s22n2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt23
@@ -1525,7 +1481,6 @@ Words: 据 其中 数百篇 该刊 新闻 的 作者 马克 · 米勒 所言 ，
             :value 100))
     :aspect state)
 
-
 # alignment:
 s23i2: 0-0
 s23i3: 0-0
@@ -1550,7 +1505,6 @@ s23x9: 3-3
         (author :full-affirmative s23x2)
         (author :full-affirmative s23x))
     :coref ((s22n2 :same-entity s23x6)))
-
 
 
 ################################################################################
@@ -1594,7 +1548,6 @@ Words: 不过 内容 虽然 荒诞不经 ， 世界 新闻 周报 的 新闻 内
         :manner (s24x6 / 严格)
         :aspect performance))
 
-
 # alignment:
 s24a: 0-0
 s24b: 0-0
@@ -1634,7 +1587,6 @@ s24x9: 7-7
         (author :full-affirmative s24x10)
         (author :full-affirmative s24x3))
     :coref ((s23x6 :same-entity s24n2)))
-
 
 
 ################################################################################
@@ -1692,7 +1644,6 @@ Words: 该刊 编辑 告诉 米勒 ， 他 写 的 新闻 表面 上  必须 「
         :name (s25n / name
             :op1 "米勒"))
     :aspect state)
-
 
 # alignment:
 s25a: 0-0
@@ -1770,7 +1721,6 @@ s25x9: 10-10
     :coref ((s23i2 :same-entity s25i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt26
@@ -1845,7 +1795,6 @@ Words: 一位 编辑 受访 时 曾 回忆 他 写过 的 一个 「  新闻 」
                     :mod (s26x27 / 似乎))
                 :aspect performance)
             :aspect state)))
-
 
 # alignment:
 s26a: 0-0
@@ -1923,7 +1872,6 @@ s26x9: 42-42
         (author :full-affirmative s26x2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt27
@@ -1950,7 +1898,6 @@ Words: 在 2004 年 以前 ， 《 世界 新闻 周报 》  从不 公开 怀�
     :temporal (s27x6 / 从)
     :aspect state)
 
-
 # alignment:
 s27d: 0-0
 s27n: 0-0
@@ -1971,7 +1918,6 @@ s27x6: 11-11
         (author :full-affirmative s27x3)
         (author :full-affirmative s27x))
     :coref ((s24n2 :same-entity s27n2)))
-
 
 
 ################################################################################
@@ -2004,7 +1950,6 @@ Words: 不过 2004 年 开始 ， 该刊 开始 加注 警语 ：  「  为了 �
             :year 2004))
     :aspect activity)
 
-
 # alignment:
 s28d: 0-0
 s28i2: 0-0
@@ -2035,7 +1980,6 @@ s28x9: 22-22
         (author :full-affirmative s28x4)
         (author :full-affirmative s28x))
     :coref ((s27n2 :same-entity s28x2)))
-
 
 
 ################################################################################
@@ -2088,7 +2032,6 @@ Words: 由于 《 世界 新闻 周报 》 的 新闻 「 看起来 有  这么 
             :ARG0 s29x22
             :aspect state)))
 
-
 # alignment:
 s29a: 0-0
 s29c: 0-0
@@ -2137,7 +2080,6 @@ s29x9: 16-16
     :coref ((s28x2 :same-entity s29n2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt30
@@ -2155,7 +2097,6 @@ Words: 其中 最 著名 的 就是 「 木乃伊 怀孕 」 的  新闻 。
     :ARG2-of (s30h / have-degree-91
         :ARG3 (s30x6 / 最))
     :aspect state)
-
 
 # alignment:
 s30h: 0-0
@@ -2175,7 +2116,6 @@ s30x6: 2-2
         (author :full-affirmative s30x3)
         (author :full-affirmative s30x))
     :coref ((s30x2 :subset-of s29x2)))
-
 
 
 ################################################################################
@@ -2213,7 +2153,6 @@ Words: 该 新闻 表示 一个 出土 的 木乃伊 响应 了 博物馆 看守
             :aspect performance
             :quote s31x))
     :aspect performance)
-
 
 # alignment:
 s31c: 0-0
@@ -2256,7 +2195,6 @@ s31x9: 15-15
     :coref ((s30x2 :same-entity s31x2)
         (s30x4 :same-entity s31x6)
         (s30x3 :same-event s31x5)))
-
 
 
 ################################################################################
@@ -2311,7 +2249,6 @@ Words: 此 新闻 历经 了 香港 《 文汇报 》 与 中国 新浪网 的  
                         :ARG2 (s32x13 / 大)))))
         :aspect performance))
 
-
 # alignment:
 s32a: 0-0
 s32a2: 0-0
@@ -2360,7 +2297,6 @@ s32x9: 16-16
         (s32x4 :same-entity s32t)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt33
@@ -2380,7 +2316,6 @@ Words: 该 新闻 直到 2012 年 仍 为 凤凰网 所 引用 。
             :year 2012))
     :aspect performance)
 
-
 # alignment:
 s33d: 0-0
 s33n: 0-0
@@ -2398,7 +2333,6 @@ s33x5: 3-3
     :modal ((root :modal author)
         (author :full-affirmative s33x))
     :coref ((s32x4 :same-entity s33x2)))
-
 
 
 ################################################################################
@@ -2435,7 +2369,6 @@ Words: 《 大纪元 时报 》 引用 报导 ， NASA 早 在  1993 年  就  �
             :quote s34x2)
         :aspect performance))
 
-
 # alignment:
 s34c: 0-0
 s34d: 0-0
@@ -2465,7 +2398,6 @@ s34x7: 16-16
         (author :full-affirmative s34n)
         (author :full-affirmative s34x)
         (author :full-affirmative s34n)))
-
 
 
 ################################################################################
@@ -2532,7 +2464,6 @@ Words: 据传 这张 黑暗 中 散发 璀璨 光芒 的 天国 城市 照  ， 
         :temporal (s35x23 / 曾)
         :aspect performance))
 
-
 # alignment:
 s35a: 0-0
 s35c: 0-0
@@ -2591,7 +2522,6 @@ s35x9: 2-2
     :coref ((s34x3 :same-event s35x4)
         (s34g :same-entity s35g)
         (s34x6 :same-entity s35x3)))
-
 
 
 ################################################################################
@@ -2673,7 +2603,6 @@ Words: 《 大纪元 时报 》 引用 报导 ， 1995 年 一位 美国 天文 
                 :aspect performance))
         :aspect performance))
 
-
 # alignment:
 s36a: 0-0
 s36a2: 0-0
@@ -2743,7 +2672,6 @@ s36x9: 50-50
     :coref ((s34n :same-entity s36n)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt37
@@ -2782,7 +2710,6 @@ Words: 《 大纪元 时报 》 引用 报导 ， 以 大篇幅 刊载 了  一�
             :mod (s37x5 / 大))
         :aspect performance))
 
-
 # alignment:
 s37a: 0-0
 s37a2: 0-0
@@ -2818,7 +2745,6 @@ s37x9: 22-22
     :coref ((s36n :same-entity s37n)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt38
@@ -2840,7 +2766,6 @@ Words: 该文 的 大 标题 为 撒旦魔 的 脸庞 出现 在  伊拉克 。
         :aspect state)
     :aspect state)
 
-
 # alignment:
 s38c: 0-0
 s38i2: 0-0
@@ -2860,7 +2785,6 @@ s38x7: 6-6
         (author :partial-affirmative s38x5)
         (author :full-affirmative s38i2))
     :coref ((s37x10 :same-entity s38x7)))
-
 
 
 ################################################################################
@@ -2888,7 +2812,6 @@ Words: 该文 右下角 特意 同时 刊登 伊拉克 前 总统 萨达姆 的 
     :temporal (s39x6 / 同时)
     :aspect performance)
 
-
 # alignment:
 s39c: 0-0
 s39h: 0-0
@@ -2911,7 +2834,6 @@ s39x9: 1-1
     :modal ((root :modal author)
         (author :full-affirmative s39x))
     :coref ((s38x3 :same-entity s39x8)))
-
 
 
 ################################################################################
@@ -3002,7 +2924,6 @@ Words: 《 大纪元 时报 》 引用 报导 ， NASA 拍到 一张 地球 卫�
                     :quote (s40s / s40x27))))
         :aspect performance)
     :aspect performance)
-
 
 # alignment:
 s40a: 0-0
@@ -3099,7 +3020,6 @@ s40x9: 61-61
         (s35g :same-entity s40g)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt41
@@ -3157,7 +3077,6 @@ Words: 尽管 当局 认为 照片 不具 任何 意义 ， 前 美国 总统 �
         :aspect state
         :quote s41i6))
 
-
 # alignment:
 s41a: 0-0
 s41b: 0-0
@@ -3212,7 +3131,6 @@ s41x9: 30-30
         (s40x2 :same-event s41i6)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt42
@@ -3265,7 +3183,6 @@ Words: 《 人民报 》 、 《 大纪元 时报 》 、 新唐人 电视 引�
                     :aspect performance)))
         :aspect performance)
     :aspect performance)
-
 
 # alignment:
 s42a: 0-0
@@ -3323,7 +3240,6 @@ s42x9: 22-22
         (author :full-affirmative s42x)
         (author :full-affirmative s42a))
     :coref ((s40n :same-entity s42n3)))
-
 
 
 ################################################################################
@@ -3386,7 +3302,6 @@ Words: 俄罗斯 应用 飞碟学 学会 会长 、 俄罗斯 科学院 院士 �
             :quote s43x))
     :aspect performance)
 
-
 # alignment:
 s43a: 0-0
 s43a2: 0-0
@@ -3433,7 +3348,6 @@ s43x9: 33-33
         (s43i2 :partial-affirmative s43x9)
         (author :full-affirmative s43x)
         (author :full-affirmative s43i2)))
-
 
 
 ################################################################################
@@ -3495,7 +3409,6 @@ Words: 《 大纪元 时报 》 引用 报导 ， 1987 年 ，  前  苏联 科�
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s44c: 0-0
 s44c2: 0-0
@@ -3551,7 +3464,6 @@ s44x9: 26-26
     :coref ((s40n :same-entity s44n)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt45
@@ -3579,7 +3491,6 @@ Words: 这个 消息 是 前 苏联 科学家 从 人造 卫星 发回 的  一�
     :aspect performance
     :quote (s45i2 / implicit-predicate))
 
-
 # alignment:
 s45c: 0-0
 s45i2: 0-0
@@ -3604,7 +3515,6 @@ s45x9: 8-8
         (author :partial-affirmative s45x2))
     :coref ((s44x17 :same-entity s45x2)
         (s44x2 :same-event s45i2)))
-
 
 
 ################################################################################
@@ -3649,7 +3559,6 @@ Words: 据 照片 显示 ， 这 架飞机 的 机身 和 机翼 上  有  明�
                 :quote s46i2)))
     :aspect state
     :quote (s46i2 / implicit-predicate))
-
 
 # alignment:
 s46a: 0-0
@@ -3696,7 +3605,6 @@ s46x9: 10-10
         (s45i2 :same-event s46i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt47
@@ -3726,7 +3634,6 @@ Words: 然而 ， 1988 年 7 月 ， 这架 飞机 竟然 从  月球山 神秘 
         :aspect performance
         :quote (s47i2 / implicit-predicate)))
 
-
 # alignment:
 s47b: 0-0
 s47d: 0-0
@@ -3754,7 +3661,6 @@ s47x9: 19-19
         (author :partial-affirmative s47x2))
     :coref ((s46x6 :same-entity s47x2)
         (s46i2 :same-event s47i2)))
-
 
 
 ################################################################################
@@ -3819,7 +3725,6 @@ Words: 环球网 引用 报导 ， 约瑟夫 · 肯尼迪 在 20 世纪 30 年�
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s48c: 0-0
 s48d: 0-0
@@ -3875,7 +3780,6 @@ s48x9: 23-23
         (author :full-affirmative s48n)
         (author :full-affirmative s48x)
         (author :full-affirmative s48n)))
-
 
 
 ################################################################################
@@ -3957,7 +3861,6 @@ Words: 《 大纪元 时报 》 、 《 自由 时报 》 引用 报导 ，  据
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s49a: 0-0
 s49a2: 0-0
@@ -4038,7 +3941,6 @@ s49x9: 50-50
     :coref ((s44n :same-entity s49n)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt50
@@ -4098,7 +4000,6 @@ Words: 《 时代 商报 》 引用 报导 ， 美国 总统 布什 因为 美�
         :mod (s50x11 / 也)
         :aspect performance))
 
-
 # alignment:
 s50a: 0-0
 s50c: 0-0
@@ -4155,7 +4056,6 @@ s50x9: 30-30
         (author :full-affirmative s50n)
         (author :full-affirmative s50x3)
         (author :full-affirmative s50n)))
-
 
 
 ################################################################################
@@ -4229,7 +4129,6 @@ Words: 新华网 、 《 东森 新闻 报 》 、 中央 电视台 网站 等  
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s51a: 0-0
 s51a2: 0-0
@@ -4288,6 +4187,5 @@ s51x9: 21-21
         (author :full-affirmative s51a)
         (author :full-affirmative s51x)
         (author :full-affirmative s51a)))
-
 
 

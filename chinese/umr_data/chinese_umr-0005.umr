@@ -67,7 +67,6 @@ Words: 于海 ， 山东 日照 人 ， 中华 人民 共和国 军旅 指挥家
             :year 1970)
         :aspect performance))
 
-
 # alignment:
 s1a: 0-0
 s1a2: 0-0
@@ -118,7 +117,6 @@ s1x8: 14-14
         (author :full-affirmative s1i8)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt2
@@ -161,7 +159,6 @@ Words: 1990 年 至 2011 年 7 月 间 任 解放军 军乐团 演奏员 、  �
                 :ARG2 s2a3))
         :aspect state))
 
-
 # alignment:
 s2a: 0-0
 s2a3: 0-0
@@ -193,7 +190,6 @@ s2x9: 19-19
         (author :full-affirmative s2x)
         (author :full-affirmative s2x10))
     :coref ((s1i3 :same-entity s2i2)))
-
 
 
 ################################################################################
@@ -256,7 +252,6 @@ Words: 他 同时 也 是 第十一届 、 十二届 全国 政协 委员 ，  �
             :mod (s3x5 / 特殊))
         :aspect state))
 
-
 # alignment:
 s3a: 0-0
 s3a3: 0-0
@@ -306,7 +301,6 @@ s3x8: 10-10
     :coref ((s2i2 :same-entity s3i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt4
@@ -334,7 +328,6 @@ Words: 于海 因 曾 多次 担任 国家 重大 庆典 活动 的  国歌 演�
         :mod (s4x11 / 曾)
         :aspect performance))
 
-
 # alignment:
 s4h: 0-0
 s4i3: 0-0
@@ -361,7 +354,6 @@ s4x9: 15-15
         (author :full-affirmative s4x)
         (author :full-affirmative s4x9))
     :coref ((s3i3 :same-entity s4i3)))
-
 
 
 ################################################################################
@@ -415,7 +407,6 @@ Words: 自 2008 年 当选 全国 政协 委员 后 ， 他  连续 十年 都  
             :mod (s5x14 / 主要))
         :aspect performance))
 
-
 # alignment:
 s5c: 0-0
 s5d: 0-0
@@ -461,7 +452,6 @@ s5x9: 22-22
     :coref ((s4i3 :same-entity s5i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt6
@@ -496,7 +486,6 @@ Words: 于海 于 1955 年 3 月 在 山东 日照 出生 ，  成长 于  高�
         :temporal (s6x5 / 从小)
         :aspect state))
 
-
 # alignment:
 s6a: 0-0
 s6c: 0-0
@@ -525,7 +514,6 @@ s6x5: 16-16
         (author :full-affirmative s6x3))
     :coref ((s5i2 :same-entity s6i2)
         (s1c2 :same-entity s6c)))
-
 
 
 ################################################################################
@@ -577,7 +565,6 @@ Words: 在 小学 三 、 四年级 时 ， 他 参加 了  学校 宣传队 ，
         :temporal (s7x21 / 当时)
         :aspect performance))
 
-
 # alignment:
 s7a: 0-0
 s7a2: 0-0
@@ -624,7 +611,6 @@ s7x9: 17-17
     :coref ((s6i2 :same-entity s7i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt8
@@ -656,7 +642,6 @@ Words: 幼年 的 他 对 音乐 的 学习 和 了解 主要 以  自己 的  �
             :poss s8i2)
         :temporal (s8x9 / 之后)
         :aspect state))
-
 
 # alignment:
 s8a: 0-0
@@ -691,7 +676,6 @@ s8x9: 17-17
     :coref ((s7i2 :same-entity s8i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt9
@@ -720,7 +704,6 @@ Words: 1968 年 底 ， 13 岁 的 于海 虚报 了  年龄 ，  报名 参加 
             :ARG1 (s9x4 / 兵
                 :topic (s9x5 / 工程))
             :aspect performance)))
-
 
 # alignment:
 s9a: 0-0
@@ -754,7 +737,6 @@ s9x8: 3-3
     :coref ((s8i2 :same-entity s9i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt10
@@ -782,7 +764,6 @@ Words: 虽然 他 的 体检 、 政审 全部 通过 ， 但  他  因  未满 
         :aspect performance
         :polarity -))
 
-
 # alignment:
 s10a: 0-0
 s10b: 0-0
@@ -806,7 +787,6 @@ s10x8: 14-14
         (author :full-negative s10x5)
         (author :full-negative s10x6))
     :coref ((s9i2 :same-entity s10i2)))
-
 
 
 ################################################################################
@@ -843,7 +823,6 @@ Words: 1969 年 10 月 ， 解放军 军乐团 到 山东 招生 ，  整个 高
         :mod (s11x8 / 只)
         :aspect state))
 
-
 # alignment:
 s11a: 0-0
 s11a2: 0-0
@@ -870,7 +849,6 @@ s11x8: 14-14
         (author :full-affirmative s11x)
         (author :full-affirmative s11x2)
         (author :full-affirmative s11e)))
-
 
 
 ################################################################################
@@ -916,7 +894,6 @@ Words: 于海 因为 咳嗽 导致 肺部 有 钙化点 而 没能 入选 ，  �
             :aspect state)
         :aspect state))
 
-
 # alignment:
 s12b: 0-0
 s12e: 0-0
@@ -961,7 +938,6 @@ s12x9: 30-30
     :coref ((s10i2 :same-entity s12i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt13
@@ -1001,7 +977,6 @@ Words: 后来 ， 当时 未满 15 岁 的 他 顺利 通过 体检 ，  并  �
                     :poss s13i2))
             :aspect state)))
 
-
 # alignment:
 s13a: 0-0
 s13a2: 0-0
@@ -1035,7 +1010,6 @@ s13x9: 17-17
     :coref ((s12i3 :same-entity s13i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt14
@@ -1059,7 +1033,6 @@ Words: 考入 解放军 军乐团 之后 ， 于海 才 开始 正式 学习 音
             :aspect process)
         :mod (s14x7 / 才)
         :aspect activity))
-
 
 # alignment:
 s14a2: 0-0
@@ -1085,7 +1058,6 @@ s14x7: 7-7
     :coref ((s13i2 :same-entity s14i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt15
@@ -1107,7 +1079,6 @@ Words: 在 离开 家乡 之前 ， 他 完全 没有 接触 过  西洋 乐器 
     :aspect performance
     :polarity -)
 
-
 # alignment:
 s15i3: 0-0
 s15x: 9-9
@@ -1125,7 +1096,6 @@ s15x6: 3-3
         (author :full-negative s15x)
         (author :full-affirmative s15x5))
     :coref ((s14i2 :same-entity s15i3)))
-
 
 
 ################################################################################
@@ -1151,7 +1121,6 @@ Words: 进入 军乐团 后 ， 他 被 老师 分配 吹奏 单簧管 。
             :aspect performance))
     :aspect performance)
 
-
 # alignment:
 s16i3: 0-0
 s16x: 8-8
@@ -1172,7 +1141,6 @@ s16x7: 2-2
         (author :full-affirmative s16x6)
         (author :full-affirmative s16x))
     :coref ((s15i3 :same-entity s16i3)))
-
 
 
 ################################################################################
@@ -1233,7 +1201,6 @@ Words: 由于 当年 处于 文化 大革命 时期 ， 解放军 军乐团 的 
         :aspect performance
         :mod (s17x22 / 也)))
 
-
 # alignment:
 s17a2: 0-0
 s17a3: 0-0
@@ -1288,7 +1255,6 @@ s17x9: 16-16
         (author :full-affirmative s17x10)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt18
@@ -1314,7 +1280,6 @@ Words: 凭借 勤奋 和 悟性 ， 他 对 西洋 乐器 的  要领 有了 掌
         :aspect performance)
     :aspect state)
 
-
 # alignment:
 s18a: 0-0
 s18h: 0-0
@@ -1336,7 +1301,6 @@ s18x8: 4-4
         (author :full-affirmative s18x2)
         (author :full-affirmative s18x6)
         (author :full-affirmative s18h)))
-
 
 
 ################################################################################
@@ -1365,7 +1329,6 @@ Words: 在 之后 的 考核 中 ， 于海 脱颖而出 ， 之后 进入 了  
             :mod (s19x7 / 紧张))
         :aspect performance))
 
-
 # alignment:
 s19c: 0-0
 s19i2: 0-0
@@ -1390,7 +1353,6 @@ s19x9: 2-2
         (author :full-affirmative s19x4)
         (author :full-affirmative s19x2))
     :coref ((s18i2 :same-entity s19i2)))
-
 
 
 ################################################################################
@@ -1453,7 +1415,6 @@ Words: 于海 在 1990 年 至 2003 年 3 月间 ，  先后 任  解放军 军�
                 :month 7
                 :year 2010))))
 
-
 # alignment:
 s20a: 0-0
 s20a2: 0-0
@@ -1499,7 +1460,6 @@ s20x9: 29-29
     :coref ((s19i2 :same-entity s20i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt21
@@ -1527,7 +1487,6 @@ Words: 2004 年 自办 中国 音乐家 协会 管乐 学会 ， 并  被  推�
         :temporal s21d
         :aspect performance))
 
-
 # alignment:
 s21a: 0-0
 s21c: 0-0
@@ -1547,7 +1506,6 @@ s21x4: 14-14
         (author :full-affirmative s21x)
         (author :full-affirmative s21x2))
     :coref ((s20i2 :same-entity s21i2)))
-
 
 
 ################################################################################
@@ -1571,7 +1529,6 @@ Words: 翌年 举办 “ 中国 首届 非职业 优秀 管乐 团队 展演 ”
     :temporal (s22x2 / 翌年)
     :aspect performance)
 
-
 # alignment:
 s22i2: 0-0
 s22n: 0-0
@@ -1586,7 +1543,6 @@ s22x2: 1-1
     :modal ((root :modal author)
         (author :full-affirmative s22x))
     :coref ((s21i2 :same-entity s22i2)))
-
 
 
 ################################################################################
@@ -1650,7 +1606,6 @@ Words: 2010 年 7 月 后 ， 他 将 更多 的  精力 放到 推广 、  普�
             :month 7
             :year 2010)))
 
-
 # alignment:
 s23a: 0-0
 s23a3: 0-0
@@ -1704,7 +1659,6 @@ s23x9: 29-29
         (author :full-affirmative s23x10)
         (author :full-affirmative s23x11))
     :coref ((s22i2 :same-entity s23i2)))
-
 
 
 ################################################################################
@@ -1773,7 +1727,6 @@ Words: 他 还 担任 解放军 艺术 系列 （ 音乐 专业 ）  资格 评�
             :year 2010)
         :aspect performance))
 
-
 # alignment:
 s24a: 0-0
 s24a2: 0-0
@@ -1822,7 +1775,6 @@ s24x9: 15-15
         (author :full-affirmative s24x15)
         (author :full-affirmative s24x4))
     :coref ((s23i2 :same-entity s24i2)))
-
 
 
 ################################################################################
@@ -1891,7 +1843,6 @@ Words: 此外 ， 于海 也 是 北京 大学 、 中国 人民 大学 、  中
         :aspect state
         :place s25x3))
 
-
 # alignment:
 s25a: 0-0
 s25a2: 0-0
@@ -1937,7 +1888,6 @@ s25x9: 20-20
     :coref ((s24i2 :same-entity s25i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt26
@@ -1974,7 +1924,6 @@ Words: 于海 于 2008 年 当选 为 第十一届 全国 政协 委员 ，  从
             :year 2013)
         :aspect state))
 
-
 # alignment:
 s26c: 0-0
 s26d: 0-0
@@ -2006,7 +1955,6 @@ s26x9: 14-14
         (author :full-affirmative s26x8)
         (author :full-affirmative s26x10))
     :coref ((s25i3 :same-entity s26i2)))
-
 
 
 ################################################################################
@@ -2042,7 +1990,6 @@ Words: 自 2008 年 当选 全国 政协 委员 后 ， 他  连续 十年 都  
             :aspect performance))
     :aspect performance)
 
-
 # alignment:
 s27d: 0-0
 s27h: 0-0
@@ -2072,7 +2019,6 @@ s27x9: 7-7
         (author :full-affirmative s27x8)
         (author :full-affirmative s27x))
     :coref ((s26i2 :same-entity s27i2)))
-
 
 
 ################################################################################
@@ -2121,7 +2067,6 @@ Words: 他 在 会上 表示 ， 近年来 国歌 的 使用 出现 了  一些 
     :place (s28x11 / 上
         :op1 (s28x18 / 会))
     :aspect performance)
-
 
 # alignment:
 s28a: 0-0
@@ -2172,7 +2117,6 @@ s28x9: 20-20
     :coref ((s27i2 :same-entity s28i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt29
@@ -2205,7 +2149,6 @@ Words: 还有 一些 人 对 国歌 作出 不尊重 、 亵渎 甚至 侮辱 �
     :affectee (s29x12 / 国歌)
     :aspect performance)
 
-
 # alignment:
 s29a: 0-0
 s29h: 0-0
@@ -2236,7 +2179,6 @@ s29x9: 19-19
         (author :full-negative s29x5)
         (author :full-affirmative s29x9)
         (author :full-affirmative s29x)))
-
 
 
 ################################################################################
@@ -2273,7 +2215,6 @@ Words: 而 在 历史 上 ， 国歌 经历 了 几次 变动 ，  乐谱 版本
         :aspect state
         :polarity -))
 
-
 # alignment:
 s30a: 0-0
 s30a2: 0-0
@@ -2303,7 +2244,6 @@ s30x9: 15-15
     :modal ((root :modal author)
         (author :full-affirmative s30x)
         (author :full-negative s30h)))
-
 
 
 ################################################################################
@@ -2369,7 +2309,6 @@ Words: 2017 年 6 月 ， 在 《 国歌法 》 草案 提交 全国 人大 常�
         :aspect performance
         :temporal s31x22))
 
-
 # alignment:
 s31a: 0-0
 s31d: 0-0
@@ -2432,7 +2371,6 @@ s31x9: 29-29
     :coref ((s28i2 :same-entity s31i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt32
@@ -2463,7 +2401,6 @@ Words: 他 在 《 中国 艺术 报 》 发表 文章 时  还  表示 当时 �
         :aspect performance)
     :aspect state)
 
-
 # alignment:
 s32i2: 0-0
 s32n: 0-0
@@ -2489,7 +2426,6 @@ s32x9: 13-13
         (author :full-affirmative s32x2)
         (author :full-affirmative s32x))
     :coref ((s31i2 :same-entity s32i2)))
-
 
 
 ################################################################################
@@ -2537,7 +2473,6 @@ Words: 为此 ， 于海 认为 ， 国歌 是 “ 国家 的  第一 声音 、
         :refer-person 3rd)
     :aspect state)
 
-
 # alignment:
 s33a: 0-0
 s33h: 0-0
@@ -2584,7 +2519,6 @@ s33x9: 12-12
         (s32x4 :same-event s33t)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt34
@@ -2615,7 +2549,6 @@ Words: 他 希望 通过 立法 ， 把 国歌 中 渗透 的  “  民族 精�
         :aspect performance)
     :aspect state)
 
-
 # alignment:
 s34a: 0-0
 s34c: 0-0
@@ -2645,7 +2578,6 @@ s34x9: 12-12
         (author :full-affirmative s34x2)
         (author :neutral-affirmative s34x))
     :coref ((s33i2 :same-entity s34i2)))
-
 
 
 ################################################################################
@@ -2690,7 +2622,6 @@ Words: 2017 年 9 月 1 日 ， 第十二届 全国 人民 代表 大会 常务 
         :unit (s35x5 / 次)
         :value 3))
 
-
 # alignment:
 s35d: 0-0
 s35l: 0-0
@@ -2715,7 +2646,6 @@ s35x7: 8-8
     :modal ((root :modal author)
         (author :full-affirmative s35x2)
         (author :full-affirmative s35x)))
-
 
 
 ################################################################################
@@ -2765,7 +2695,6 @@ Words: 在 宣布 通过 后 ， 于海 也 为此 写下 了  感慨 ：  “  
         :refer-person 3rd)
     :aspect performance)
 
-
 # alignment:
 s36a: 0-0
 s36c: 0-0
@@ -2814,7 +2743,6 @@ s36x9: 24-24
         (s36x5 :same-event s36t)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt37
@@ -2837,7 +2765,6 @@ Words: 另外 ， 于海 也 曾 在 会上 呼吁 ， 要  让  更  多  的  
         :aspect endeavor)
     :place (s37x8 / 会上)
     :aspect performance)
-
 
 # alignment:
 s37i2: 0-0
@@ -2862,7 +2789,6 @@ s37x8: 7-7
         (author :full-affirmative s37x))
     :coref ((s36i2 :same-entity s37i2)
         (s35x4 :same-entity s37x8)))
-
 
 
 ################################################################################
@@ -2905,7 +2831,6 @@ Words: 于海 于 2000 年 获评 为 “ 第四届 北京 十大 杰出 青年 
         :ARG2 s38i3
         :aspect performance))
 
-
 # alignment:
 s38a: 0-0
 s38a2: 0-0
@@ -2937,7 +2862,6 @@ s38x6: 8-8
     :coref ((s37i2 :same-entity s38i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt39
@@ -2961,7 +2885,6 @@ Words: 2011 年 被 解放军 总 政治部 授予 “ 德艺双馨 的  名师 
         :year 2011)
     :aspect performance)
 
-
 # alignment:
 s39a: 0-0
 s39a2: 0-0
@@ -2981,7 +2904,6 @@ s39x6: 5-5
     :modal ((root :modal author)
         (author :full-affirmative s39x))
     :coref ((s37i2 :same-entity s39i2)))
-
 
 
 ################################################################################
@@ -3067,7 +2989,6 @@ Words: 1995 年 11 月 20 日 出版 的 《 解放军报 》  曾以 《  军�
             :place (s40x12 / 国内))
         :aspect performance))
 
-
 # alignment:
 s40a: 0-0
 s40a2: 0-0
@@ -3145,6 +3066,5 @@ s40x9: 63-63
         (author :full-affirmative s40x26)
         (author :full-affirmative s40x9))
     :coref ((s39i2 :same-entity s40i2)))
-
 
 

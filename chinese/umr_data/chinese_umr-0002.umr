@@ -29,7 +29,6 @@ Words: 2017 年 5 月 22 日 ， 美国 歌手 亚莉安娜 ·  格兰德 在  �
             :op3 "竞技场"))
     :aspect performance)
 
-
 # alignment:
 s1c: 0-0
 s1d: 0-0
@@ -50,7 +49,6 @@ s1x3: 9-9
     :modal ((root :modal author)
         (author :full-affirmative s1i3)
         (author :full-affirmative s1x)))
-
 
 
 ################################################################################
@@ -79,7 +77,6 @@ Words: 演唱会 临近 尾声 ， 当地 时间 22 : 33 分  发生爆炸 ，  
                 :quant 119)
             :aspect performance))
     :aspect performance)
-
 
 # alignment:
 s2a: 0-0
@@ -112,7 +109,6 @@ s2x9: 15-15
     :coref ((s1x2 :same-entity s2x3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt3
@@ -143,7 +139,6 @@ Words: 当晚 22 点 33 分 ， 格兰德 的 “ 危险 女人 ”  巡回 演�
         :time (s3h / h22m33))
     :aspect performance)
 
-
 # alignment:
 s3d: 0-0
 s3h: 2-2
@@ -170,7 +165,6 @@ s3x6: 1-1
     :coref ((s2x :same-event s3x)
         (s1i2 :same-entity s3i3)
         (s2x3 :same-entity s3s)))
-
 
 
 ################################################################################
@@ -203,7 +197,6 @@ Words: 现场 观众 多达 21000 人 ， 事发 时 大批 人士 正在 离开
         :purpose (s4x14 / 购买-01
             :ARG1 (s4x15 / 纪念品)
             :aspect activity)))
-
 
 # alignment:
 s4a: 0-0
@@ -239,7 +232,6 @@ s4x9: 9-9
         (s3x :same-event s4x10)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt5
@@ -267,7 +259,6 @@ Words: 大 曼彻斯特 警察 宣布 事件 为 恐怖 袭击 ， 认定 其  �
             :aspect performance)
         :aspect performance))
 
-
 # alignment:
 s5a: 0-0
 s5l: 0-0
@@ -294,7 +285,6 @@ s5x8: 13-13
         (author :full-affirmative s5x2))
     :coref ((s4x10 :same-event s5x4)
         (s4x10 :same-event s5x7)))
-
 
 
 ################################################################################
@@ -353,7 +343,6 @@ Words: 这 是 自 伦敦 七七 爆炸案 以来 英国 死伤 最  惨重 的 
             :aspect performance)
         :aspect state))
 
-
 # alignment:
 s6a: 0-0
 s6a2: 0-0
@@ -408,7 +397,6 @@ s6x9: 7-7
         (s5x4 :same-event s6x7)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt7
@@ -432,7 +420,6 @@ Words: 警方 声称 23 人 在 爆炸 中 身亡 ， 另有 包括 儿童 在�
                     :aspect state))
             :aspect performance))
     :aspect performance)
-
 
 # alignment:
 s7a: 0-0
@@ -462,7 +449,6 @@ s7x9: 12-12
         (s6x3 :same-event s7x3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt8
@@ -478,7 +464,6 @@ Words: 死者 包括 袭击者 。
         :ARG0-of (s8x4 / 袭击-01
             :aspect performance))
     :aspect state)
-
 
 # alignment:
 s8x: 2-2
@@ -497,7 +482,6 @@ s8x5: 1-1
         (author :full-affirmative s8x))
     :coref ((s7x3 :same-event s8x5)
         (s6x7 :same-event s8x4)))
-
 
 
 ################################################################################
@@ -552,7 +536,6 @@ Words: 西北 救护车 服务 派遣 60 辆 救护车 赶往 现场 ，  护送
                 :op1 16))
         :aspect state))
 
-
 # alignment:
 s9a: 0-0
 s9i2: 0-0
@@ -603,7 +586,6 @@ s9x9: 13-13
         (author :full-affirmative s9x3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt10
@@ -621,7 +603,6 @@ Words: 歌手 格兰德 并未 在 事件 中 受伤 。
     :aspect performance
     :polarity -)
 
-
 # alignment:
 s10i2: 0-0
 s10i3: 0-0
@@ -637,7 +618,6 @@ s10x3: 5-5
         (author :full-negative s10x))
     :coref ((s3i3 :same-entity s10i2)
         (s3x :same-event s10x3)))
-
 
 
 ################################################################################
@@ -680,7 +660,6 @@ Words: 警方 认定 袭击者 是 22 岁 的 英国 籍 中东 裔  移民 萨�
             :aspect performance))
     :aspect performance)
 
-
 # alignment:
 s11c: 0-0
 s11i2: 0-0
@@ -716,7 +695,6 @@ s11x9: 20-20
         (author :full-affirmative s11x8)
         (author :full-affirmative s11x))
     :coref ((s8x3 :same-entity s11x3)))
-
 
 
 ################################################################################
@@ -787,7 +765,6 @@ Words: 1994 年 ， 他 出生 在 曼彻斯特 南部 一个 利比亚 穆斯�
             :aspect state)
         :aspect performance))
 
-
 # alignment:
 s12a: 0-0
 s12a2: 0-0
@@ -847,7 +824,6 @@ s12x9: 27-27
     :coref ((s11i2 :same-entity s12p)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt13
@@ -891,7 +867,6 @@ Words: 但 寺 的 礼拜者 否认 了 这 一 说法 ，  表示 “  我们 �
                     :polarity -))
             :aspect performance)))
 
-
 # alignment:
 s13a: 0-0
 s13a2: 0-0
@@ -931,7 +906,6 @@ s13x9: 22-22
     :coref ((s11i2 :same-entity s13p)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt14
@@ -955,7 +929,6 @@ Words: 阿比迪 加入 黑帮 ， 近年 来 变成 激进 分子 。
             :op1 (s14x7 / 近年))
         :aspect performance))
 
-
 # alignment:
 s14c: 0-0
 s14i2: 0-0
@@ -977,7 +950,6 @@ s14x7: 5-5
         (author :full-affirmative s14x4)
         (author :full-affirmative s14x2))
     :coref ((s13p2 :same-entity s14i2)))
-
 
 
 ################################################################################
@@ -1021,7 +993,6 @@ Words: 2015 年 ， 清真寺 曾 就 支持 反恐 和 生命 尊严 布告 ，
             :op1 (s15x14 / 布告-00
                 :aspect performance))
         :aspect activity))
-
 
 # alignment:
 s15a: 0-0
@@ -1069,7 +1040,6 @@ s15x9: 27-27
     :coref ((s14i2 :same-entity s15i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt16
@@ -1098,7 +1068,6 @@ Words: 2014 年 ， 阿比迪 就读 于 索尔福德 大学 ， 学习 工商 �
         :ARG1 s16i2
         :temporal (s16x6 / 后)))
 
-
 # alignment:
 s16a: 0-0
 s16d: 0-0
@@ -1120,7 +1089,6 @@ s16x6: 14-14
         (s16x :overlap s16x2)
         (s16x2 :after s16x3))
     :coref ((s15i2 :same-entity s16i2)))
-
 
 
 ################################################################################
@@ -1145,7 +1113,6 @@ Words: 父母 于 穆阿迈尔 · 卡扎菲 下台 后 回到 利比亚 。
             :aspect performance))
     :aspect performance)
 
-
 # alignment:
 s17c: 0-0
 s17i2: 0-0
@@ -1163,7 +1130,6 @@ s17x4: 6-6
     :modal ((root :modal author)
         (author :full-affirmative s17x4)
         (author :full-affirmative s17x)))
-
 
 
 ################################################################################
@@ -1199,7 +1165,6 @@ Words: 阿贝迪 在 法尔洛菲德 的 住处 成为 警察 调查 的 重点 
             :ARG0 s18x8
             :ARG1 (s18x13 / 房屋)
             :aspect performance)))
-
 
 # alignment:
 s18a: 0-0
@@ -1237,7 +1202,6 @@ s18x9: 17-17
     :coref ((s12c4 :same-entity s18c)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt19
@@ -1267,7 +1231,6 @@ Words: 阿贝迪 23 岁 的 哥哥 伊斯梅尔 在 曼彻斯特 南部 被捕 �
         :ARG1 (s19x7 / 袭击案)
         :aspect state))
 
-
 # alignment:
 s19a: 0-0
 s19c2: 0-0
@@ -1294,7 +1257,6 @@ s19x7: 14-14
         (author :full-affirmative s19x7)
         (author :full-affirmative s19x))
     :coref ((s12x11 :subset-of s19x6)))
-
 
 
 ################################################################################
@@ -1342,7 +1304,6 @@ Words: 警方 还 在 曼彻斯特 南部 的 另外 两个 地点 展开 行动
                 :aspect habitual))
         :aspect performance))
 
-
 # alignment:
 s20a: 0-0
 s20c: 0-0
@@ -1387,7 +1348,6 @@ s20x9: 5-5
     :coref ((s19i7 :same-entity s20x16)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt21
@@ -1429,7 +1389,6 @@ Words: 一位 穆斯林 社区 工作 人员 报称 五年 前 他们 曾  警�
             :mod (s21x16 / 曾)
             :aspect performance))
     :aspect performance)
-
 
 # alignment:
 s21c: 0-0
@@ -1487,7 +1446,6 @@ s21x9: 5-5
     :coref ((s20x16 :same-entity s21i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt22
@@ -1533,7 +1491,6 @@ Words: 声称 他 最近 可能 回过 叙利亚 的 情报 浮现 后  ，  情
                     :aspect state))
             :aspect performance))
     :aspect performance)
-
 
 # alignment:
 s22c: 0-0
@@ -1594,7 +1551,6 @@ s22x9: 3-3
         (s21i2 :same-entity s22x13)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt23
@@ -1640,7 +1596,6 @@ Words: 法国 内政 部长 热拉德 · 科隆博 告诉 法国 电视台 ，  
                 :op1 "法国")))
     :aspect performance)
 
-
 # alignment:
 s23a2: 0-0
 s23c: 0-0
@@ -1677,7 +1632,6 @@ s23x9: 14-14
     :coref ((s22c :same-entity s23c5)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt24
@@ -1710,7 +1664,6 @@ Words: 袭击者 的 父亲 和 他 的 弟弟 于 5 月  23 日  和  24 日  �
             :month 5)
         :aspect performance))
 
-
 # alignment:
 s24a: 0-0
 s24c: 0-0
@@ -1741,7 +1694,6 @@ s24x7: 7-7
     :coref ((s17x2 :subset-of s24x3)
         (s12x11 :subset-of s24x7)
         (s22x14 :same-event s24x5)))
-
 
 
 ################################################################################
@@ -1781,7 +1733,6 @@ Words: 弟弟 怀疑 在 叙利亚 策划 袭击 ， 频繁 接触 萨尔曼 并
                 :aspect performance)
             :aspect state))
     :aspect state)
-
 
 # alignment:
 s25a: 0-0
@@ -1827,7 +1778,6 @@ s25x9: 15-15
         (s24c :same-entity s25c)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt26
@@ -1867,7 +1817,6 @@ Words: 《 纽约时报 》 发表 的 简易 爆炸 装置 残片 图片 显示
                 :mod (s26x19 / 轻量级)
                 :material (s26x20 / 金属))))
     :aspect performance)
-
 
 # alignment:
 s26n: 0-0
@@ -1912,7 +1861,6 @@ s26x9: 14-14
     :coref ((s3x :same-event s26x7)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt27
@@ -1932,7 +1880,6 @@ Words: 事发 时 大多数 受害者 就 在 袭击者 周围 。
     :temporal (s27x7 / 事发-01
         :ARG0 (s27i2 / implicit-argument)
         :aspect performance))
-
 
 # alignment:
 s27h: 0-0
@@ -1957,7 +1904,6 @@ s27x7: 1-1
         (author :full-affirmative s27x7))
     :coref ((s26x7 :same-event s27x7)
         (s25i2 :same-entity s27x5)))
-
 
 
 ################################################################################
@@ -2000,7 +1946,6 @@ Words: 袭击者 身躯 被 爆炸 的 冲击力 掀翻 ， 穿透 了  进入 �
                 :temporal (s28x13 / 爆炸-01
                     :aspect performance)))
         :aspect state))
-
 
 # alignment:
 s28a: 0-0
@@ -2052,7 +1997,6 @@ s28x9: 11-11
         (s25s :same-entity s28x11)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt29
@@ -2068,7 +2012,6 @@ Words: 疑似 手动 引爆器 的 小型 装置 也 被 发现 。
                 :mod (s29x6 / 手动))
             :aspect state))
     :aspect performance)
-
 
 # alignment:
 s29x: 9-9
@@ -2086,7 +2029,6 @@ s29x6: 2-2
         (author :neutral-affirmative s29x4)
         (author :full-affirmative s29x)
         (author :full-affirmative s29x4)))
-
 
 
 ################################################################################
@@ -2177,7 +2119,6 @@ Words: 内政 大臣 安珀 · 路德 表示 她 对 阿贝迪 的  名字 和  
             :aspect state
             :quote s30x))
     :aspect performance)
-
 
 # alignment:
 s30a: 0-0
@@ -2273,7 +2214,6 @@ s30x9: 11-11
         (s28x7 :same-entity s30i3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt31
@@ -2299,7 +2239,6 @@ Words: 她 要求 美方 不 继续 泄露 信息 。
         :aspect activity)
     :aspect performance)
 
-
 # alignment:
 s31c: 0-0
 s31n: 0-0
@@ -2321,7 +2260,6 @@ s31x5: 7-7
         (author :full-negative s31p)
         (author :full-affirmative s31x)
         (author :full-affirmative s31p)))
-
 
 
 ################################################################################
@@ -2371,7 +2309,6 @@ Words: 情报 机构 我行我素 的 官员 的 这种 背叛 行为 被  认�
             :temporal (s32x19 / 正))
         :aspect performance
         :quote s32i2))
-
 
 # alignment:
 s32a: 0-0
@@ -2425,7 +2362,6 @@ s32x9: 1-1
         (author :full-affirmative s32x2)
         (author :full-affirmative s32x6))
     :coref ((s30x :same-event s32i2)))
-
 
 
 ################################################################################
@@ -2520,7 +2456,6 @@ Words: BBC 报道 称 ： “ 英国 政府 和 警察 在  美国 报纸 明显
             :aspect performance
             :quote s33x2))
     :aspect performance)
-
 
 # alignment:
 s33a: 0-0
@@ -2625,7 +2560,6 @@ s33x9: 19-19
         (s20c :same-entity s33c4)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt34
@@ -2655,7 +2589,6 @@ Words: 第二天 傍晚 1 点 32 分 ， 警方 在座 堂  花园 发现 可疑
                     :aspect process)
                 :aspect activity))
         :aspect performance))
-
 
 # alignment:
 s34c: 0-0
@@ -2689,7 +2622,6 @@ s34x9: 1-1
         (author :full-affirmative s34x8)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt35
@@ -2706,7 +2638,6 @@ Words: 后来 据 确认 物品 是 遗留 在 现场 的 衣物 。
     :temporal (s35x6 / 后来)
     :aspect performance)
 
-
 # alignment:
 s35x: 3-3
 s35x2: 4-4
@@ -2722,7 +2653,6 @@ s35x6: 1-1
     :modal ((root :modal author)
         (author :full-affirmative s35x4)
         (author :full-affirmative s35x)))
-
 
 
 ################################################################################
@@ -2754,7 +2684,6 @@ Words: 曼彻斯特 居民 和 出租车 公司 透过 Twitter 向 滞留 在  �
             :op1 "Twitter"))
     :aspect performance)
 
-
 # alignment:
 s36a: 0-0
 s36a2: 0-0
@@ -2785,7 +2714,6 @@ s36x9: 9-9
         (s33c4 :same-entity s36c)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt37
@@ -2804,7 +2732,6 @@ Words: 事发 后 ， 许多 父母 和 孩子 在 演唱会 中  走散 。
         :op1 (s37x7 / 事发-01
             :aspect performance))
     :aspect performance)
-
 
 # alignment:
 s37a: 0-0
@@ -2825,7 +2752,6 @@ s37x7: 1-1
         (author :full-affirmative s37x))
     :coref ((s30x32 :same-event s37x7)
         (s36x10 :same-event s37x5)))
-
 
 
 ################################################################################
@@ -2860,7 +2786,6 @@ Words: 附近 一家 酒店 向 走失 的 儿童 提供 庇护 ，  警方 将 
             :ARG1 (s38x10 / 小孩)
             :aspect performance)))
 
-
 # alignment:
 s38a: 0-0
 s38x: 8-8
@@ -2891,7 +2816,6 @@ s38x9: 13-13
         (author :full-affirmative s38x8))
     :coref ((s37x3 :same-entity s38x5)
         (s37x2 :same-entity s38x9)))
-
 
 
 ################################################################################
@@ -2925,7 +2849,6 @@ Words: 部分 地处 竞技场 下方 曼彻斯特 维多利亚站 暂停 服务
             :ARG1 (s39x5 / 车站)
             :aspect state)
         :aspect state))
-
 
 # alignment:
 s39c: 0-0
@@ -2971,7 +2894,6 @@ s39x9: 1-1
         (s39s :same-entity s39x5)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt40
@@ -3005,7 +2927,6 @@ Words: 首相 特雷莎 · 梅 称 事件 是 “ 骇人听闻 的  恐怖 袭�
         :temporal (s40x13 / 第二天
             :temporal (s40x14 / 早上))))
 
-
 # alignment:
 s40c: 0-0
 s40h: 0-0
@@ -3035,7 +2956,6 @@ s40x9: 23-23
         (author :full-affirmative s40x2)
         (author :full-affirmative s40x))
     :coref ((s33x11 :same-event s40x4)))
-
 
 
 ################################################################################
@@ -3070,7 +2990,6 @@ Words: 安迪 · 伯纳姆 称 事件 是 “ 邪恶 的 行为 ”  ，  向  �
                         :aspect performance))
                 :aspect performance))
         :aspect performance))
-
 
 # alignment:
 s41a: 0-0
@@ -3107,7 +3026,6 @@ s41x9: 14-14
         (s33x28 :same-event s41x11)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt42
@@ -3133,7 +3051,6 @@ Words: 后来 他 宣布 将 于 第二天 晚上 在 阿尔伯特 广场 举行
     :aspect performance
     :temporal (s42x6 / 后来))
 
-
 # alignment:
 s42n: 0-0
 s42p: 0-0
@@ -3156,7 +3073,6 @@ s42x8: 7-7
         (author :full-affirmative s42x)
         (s42p :full-affirmative s42x2)
         (author :full-affirmative s42p)))
-
 
 
 ################################################################################
@@ -3184,7 +3100,6 @@ Words: 各大 党派 宣布 暂停 2017 年 英国 大选 竞选 活动 。
         :quote s43x)
     :aspect performance)
 
-
 # alignment:
 s43c: 0-0
 s43d: 0-0
@@ -3210,7 +3125,6 @@ s43x7: 1-1
         (author :full-affirmative s43x)
         (author :full-affirmative s43x6)
         (author :full-affirmative s43i2)))
-
 
 
 ################################################################################
@@ -3243,7 +3157,6 @@ Words: 女王 伊丽莎白 二世 向 受 这起 “ 可怕 事件 ”  影响 �
             :quote s44x))
     :aspect performance)
 
-
 # alignment:
 s44h: 0-0
 s44i2: 0-0
@@ -3270,7 +3183,6 @@ s44x9: 1-1
         (author :full-affirmative s44x)
         (author :full-affirmative s44i2))
     :coref ((s3x :same-event s44x6)))
-
 
 
 ################################################################################
@@ -3337,7 +3249,6 @@ Words: 政治 专栏 作家 事发 后 发表 推特 ， 称 需要 寻找 “  
         :ARG1 (s45x28 / 非议-01
             :aspect performance)
         :aspect performance))
-
 
 # alignment:
 s45a: 0-0
@@ -3417,7 +3328,6 @@ s45x9: 10-10
     :coref ((s44x6 :same-event s45x15)
         (s45x2 :same-event s45x18)
         (s44x6 :same-event s45i2)))
-
 
 
 ################################################################################
@@ -3515,7 +3425,6 @@ Words: 当地 球会 曼彻斯特联 足球 俱乐部 与 荷兰 阿贾克斯 �
                 :aspect performance)
             :aspect performance)))
 
-
 # alignment:
 s46a: 0-0
 s46a2: 0-0
@@ -3607,7 +3516,6 @@ s46x9: 16-16
         (author :full-affirmative s46i3)
         (author :full-affirmative s46i2))
     :coref ((s7x3 :same-event s46x23)))
-
 
 
 ################################################################################
@@ -3783,7 +3691,6 @@ s47x9: 14-14
         (s46x24 :same-event s47x21)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt48
@@ -3846,7 +3753,6 @@ Words: 而 在 曼联 于 欧霸杯 夺冠 后 ， 球会 将  奖杯 献给 曼
             :mod (s48x23 / 社交))
         :aspect performance))
 
-
 # alignment:
 s48a: 0-0
 s48a2: 0-0
@@ -3904,7 +3810,6 @@ s48x9: 25-25
     :coref ((s36c :same-entity s48c)
         (s47s :same-entity s48s)
         (s46g :same-event s48g)))
-
 
 
 ################################################################################
@@ -4003,7 +3908,6 @@ Words: 曼彻斯特城 足球 俱乐部队 总教练 佩普 · 瓜迪奥拉 在 
                 :op1 (s49x37 / 事发-01
                     :aspect performance)))))
 
-
 # alignment:
 s49a: 0-0
 s49b: 0-0
@@ -4101,7 +4005,6 @@ s49x9: 10-10
         (s47x22 :same-event s49x37)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt50
@@ -4164,7 +4067,6 @@ Words: 英格兰 足总杯 总决赛 开赛 前夕 ， 甫 拿下 英格兰 超�
             :part (s50x22 / 赈灾-01
                 :aspect process))
         :aspect performance))
-
 
 # alignment:
 s50a: 0-0
@@ -4231,7 +4133,6 @@ s50x9: 15-15
         (s49x8 :same-event s50x3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt51
@@ -4268,7 +4169,6 @@ Words: 另 一 决赛 队伍 阿森纳 足球 俱乐部 ， 也 基于 安全 �
         :topic (s51x11 / 安全))
     :aspect performance)
 
-
 # alignment:
 s51i2: 0-0
 s51i3: 0-0
@@ -4299,7 +4199,6 @@ s51x9: 16-16
         (author :full-affirmative s51x9)
         (author :full-affirmative s51x7)
         (author :full-affirmative s51x)))
-
 
 
 ################################################################################
@@ -4344,7 +4243,6 @@ Words: 2017 年 欧洲 冠军 联赛 决赛 的 决赛 场地 千禧 球场 ， 
         :mod (s52x13 / 此)
         :quant 1))
 
-
 # alignment:
 s52a: 0-0
 s52e: 0-0
@@ -4376,7 +4274,6 @@ s52x9: 21-21
         (author :full-affirmative s52x7)
         (author :full-affirmative s52x))
     :coref ((s50x3 :same-event s52x12)))
-
 
 
 ################################################################################
@@ -4421,7 +4318,6 @@ Words: 亚莉安娜 本人 在 事发 后 几小时 于 推特上 写道 ：  �
                     :modal-strength full-affirmative))))
     :aspect performance)
 
-
 # alignment:
 s53a: 0-0
 s53c: 0-0
@@ -4464,7 +4360,6 @@ s53x9: 6-6
         (author :full-affirmative s53i2))
     :coref ((s1i2 :same-entity s53i2)
         (s52x12 :same-event s53i3)))
-
 
 
 ################################################################################
@@ -4517,7 +4412,6 @@ Words: 唱片 公司 其后 确定 取消 危险 尤物 世界 巡回 欧洲 场
         :aspect performance
         :mod (s54x12 / 先)))
 
-
 # alignment:
 s54a: 0-0
 s54a2: 0-0
@@ -4562,7 +4456,6 @@ s54x9: 24-24
     :coref ((s53i2 :same-entity s54i2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt55
@@ -4601,7 +4494,6 @@ Words: 翌日 下午 搭乘 私人 飞机 抵 佛州 的 亚莉安娜 被  媒�
         :ARG2 (s55x12 / 浮肿)
         :aspect state))
 
-
 # alignment:
 s55a: 0-0
 s55d: 0-0
@@ -4639,7 +4531,6 @@ s55x9: 14-14
         (author :full-affirmative s55h)
         (author :full-affirmative s55h2))
     :coref ((s54i2 :same-entity s55i2)))
-
 
 
 ################################################################################
@@ -4687,7 +4578,6 @@ Words: 事发 后 三天 ， 亚莉安娜 发表 声明 愿意 支付 所有 遇
                 :op1 (s56x14 / 事发-01
                     :aspect performance)))))
 
-
 # alignment:
 s56a: 0-0
 s56i2: 0-0
@@ -4730,7 +4620,6 @@ s56x9: 11-11
         (s49x37 :same-event s56x14)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt57
@@ -4762,7 +4651,6 @@ Words: 唱片 公司 也 宣布 部分 欧洲 国家 的 演唱会 及  亚洲 �
             :aspect state
             :quote s57x)
         :aspect performance))
-
 
 # alignment:
 s57a: 0-0
@@ -4796,7 +4684,6 @@ s57x9: 13-13
         (author :full-affirmative s57x)
         (author :full-affirmative s57x2))
     :coref ((s54x2 :same-entity s57x2)))
-
 
 
 ################################################################################
@@ -4843,7 +4730,6 @@ Words: 亚莉安娜 在 5 月 27 日 宣布 会 重返 事故 发生地 英国 �
         :day 27)
     :aspect performance)
 
-
 # alignment:
 s58a: 0-0
 s58c: 0-0
@@ -4880,7 +4766,6 @@ s58x6: 10-10
         (author :full-affirmative s58i2))
     :coref ((s56i2 :same-entity s58i2)
         (s20c :same-entity s58c)))
-
 
 
 ################################################################################
@@ -4970,7 +4855,6 @@ Words: 5 月 30 日 宣布 在 6 月 4 日于 老  特拉福德板 球场 举行
         :aspect state
         :quote s59x))
 
-
 # alignment:
 s59a: 0-0
 s59a2: 0-0
@@ -5035,7 +4919,6 @@ s59x9: 18-18
         (author :full-affirmative s59x7)
         (author :full-affirmative s59x4)
         (author :full-affirmative s59x7)))
-
 
 
 ################################################################################
@@ -5135,7 +5018,6 @@ Words: 多国 领导人 和 政府 表达 了 慰问 ， 包括 亚美尼亚 、
                     :op1 "美国")))
         :aspect state))
 
-
 # alignment:
 s60a: 0-0
 s60a2: 0-0
@@ -5206,6 +5088,5 @@ s60x9: 2-2
         (author :full-affirmative s60x3)
         (author :full-affirmative s60x)
         (author :full-affirmative s60x2)))
-
 
 

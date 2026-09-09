@@ -42,7 +42,6 @@ Words: 城市 电视 是 加拿大 一间 收费 电视台 ， 大部分 时段 
                         :op1 "越南语"))))
         :aspect state))
 
-
 # alignment:
 s1a: 0-0
 s1a2: 0-0
@@ -80,7 +79,6 @@ s1x9: 19-19
         (author :full-affirmative s1x5)
         (author :full-affirmative s1x2)
         (author :full-affirmative s1i2)))
-
 
 
 ################################################################################
@@ -143,7 +141,6 @@ Words: 该台 的 最大 股东 为 新 时代 集团 子公司 新  时代 传�
                         :op1 "安大略省"))))
         :aspect performance))
 
-
 # alignment:
 s2a: 0-0
 s2c: 0-0
@@ -190,7 +187,6 @@ s2x9: 3-3
         (author :full-affirmative s2x7)
         (author :full-affirmative s2i2))
     :coref ((s1c :same-entity s2x3)))
-
 
 
 ################################################################################
@@ -256,7 +252,6 @@ Words: 该台 现时 设有 两条 频道 ， 分别 是 以 标清 播放 的  
                     :op1 "贝尔")))
         :aspect habitual))
 
-
 # alignment:
 s3a: 0-0
 s3a2: 0-0
@@ -320,7 +315,6 @@ s3x9: 11-11
     :coref ((s2x3 :same-entity s3x3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt4
@@ -369,7 +363,6 @@ Words: 与 其 姊妹台 新 时代 电视 的 主 频道 不同 ，  城市 电
         :aspect state
         :polarity -))
 
-
 # alignment:
 s4a: 0-0
 s4a2: 0-0
@@ -409,7 +402,6 @@ s4x9: 18-18
     :coref ((s3x3 :same-entity s4c2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt5
@@ -432,7 +424,6 @@ Words: 城市 电视 的 历史 可 追溯 至 温哥华 的 世界 电视 。
                 :op1 "温哥华")))
     :aspect state)
 
-
 # alignment:
 s5c: 0-0
 s5c2: 0-0
@@ -449,7 +440,6 @@ s5x2: 4-4
     :modal ((root :modal author)
         (author :neutral-affirmative s5x))
     :coref ((s4c2 :same-entity s5c)))
-
 
 
 ################################################################################
@@ -494,7 +484,6 @@ Words: 该台 由 刘天均 创办 ， 于 1982 年 获 加拿大 视讯 委员�
         :temporal s6d
         :aspect performance))
 
-
 # alignment:
 s6a: 0-0
 s6d: 0-0
@@ -533,7 +522,6 @@ s6x9: 16-16
         (author :full-affirmative s6x11)
         (author :full-affirmative s6x10))
     :coref ((s5c :same-entity s6x2)))
-
 
 
 ################################################################################
@@ -586,7 +574,6 @@ Words: 世界 电视 的 广播 范围 限于 卑诗省 ， 以 粤语 、  国�
                     :op2 "市")))
         :aspect state))
 
-
 # alignment:
 s7a: 0-0
 s7a2: 0-0
@@ -635,7 +622,6 @@ s7x9: 16-16
         (s5c3 :same-entity s7c2)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt8
@@ -665,7 +651,6 @@ Words: 该台 当年 并 不 被 允许 播放 广告 ， 收入 来自 定义 �
         :temporal (s8d / date-entity
             :year 1992)
         :aspect performance))
-
 
 # alignment:
 s8a: 0-0
@@ -706,7 +691,6 @@ s8x9: 14-14
         (author :full-affirmative s8x2))
     :coref ((s8x :same-event s8x12)
         (s7c :same-entity s8x2)))
-
 
 
 ################################################################################
@@ -771,7 +755,6 @@ Words: 世界 电视 于 1983 年 向 CRTC 申请 全国性 中文 收费 电视
             :aspect performance)
         :aspect performance))
 
-
 # alignment:
 s9b: 0-0
 s9c: 0-0
@@ -827,7 +810,6 @@ s9x9: 21-21
         (s9x2 :same-entity s9x5)
         (s6o2 :same-entity s9g)
         (s9g :same-entity s9x7)))
-
 
 
 ################################################################################
@@ -912,7 +894,6 @@ Words: 而 又 见 当年 加拿大 中文 电视 广播 业正 处于 起步 �
                 :aspect state)
             :aspect state)))
 
-
 # alignment:
 s10a: 0-0
 s10a2: 0-0
@@ -984,7 +965,6 @@ s10x9: 10-10
         (s9g :same-entity s10x12)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt11
@@ -1040,7 +1020,6 @@ Words: 温哥华 华裔 商人 冯永发 旗下 的 新 时代 集团 联同 电
                 :quant 3800000)))
     :aspect performance)
 
-
 # alignment:
 s11a: 0-0
 s11a2: 0-0
@@ -1084,7 +1063,6 @@ s11x9: 24-24
         (author :full-affirmative s11x5))
     :coref ((s5c3 :same-entity s11c2)
         (s10c :same-entity s11c3)))
-
 
 
 ################################################################################
@@ -1151,7 +1129,6 @@ Words: 两项 交易 分别 于 1993 年 10 月 和 12 月  获  CRTC 批准 ，
                 :op3 "电视"))
         :aspect performance))
 
-
 # alignment:
 s12a: 0-0
 s12a2: 0-0
@@ -1208,7 +1185,6 @@ s12x9: 17-17
         (s11c2 :subset-of s12x9)
         (s11c4 :subset-of s12x9)
         (s6o2 :same-entity s12g)))
-
 
 
 ################################################################################
@@ -1270,7 +1246,6 @@ Words: 改组 后 ， 城市 电视 继续 限于 卑诗省 以内 广播 ，  �
             :mod (s13x13 / 也)
             :aspect performance)))
 
-
 # alignment:
 s13a: 0-0
 s13a2: 0-0
@@ -1329,7 +1304,6 @@ s13x9: 21-21
         (s10p :same-entity s13p)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt14
@@ -1367,7 +1341,6 @@ Words: 新 时代集团 于 1995 年 计划 将 城市 电视 售予 罗渣士 �
         :aspect process
         :manner (s14x4 / 集中)))
 
-
 # alignment:
 s14c: 0-0
 s14c2: 0-0
@@ -1396,7 +1369,6 @@ s14x5: 17-17
     :coref ((s12c4 :same-entity s14c4)
         (s11c :same-entity s14c3)
         (s12c3 :same-entity s14c)))
-
 
 
 ################################################################################
@@ -1433,7 +1405,6 @@ Words: 罗渣士 当时 计划 将 之 从 有线 电视 台 转型 为  地面 
         :aspect endeavor
         :temporal (s15x13 / 当时)))
 
-
 # alignment:
 s15a: 0-0
 s15a2: 0-0
@@ -1466,7 +1437,6 @@ s15x9: 13-13
         (author :full-affirmative s15x))
     :coref ((s14c2 :same-entity s15c)
         (s14c :same-entity s15t)))
-
 
 
 ################################################################################
@@ -1507,7 +1477,6 @@ Words: 然而 ， 新 时代 后来 改变 初衷 ， 并于 CRTC 听证会 上 
                     :name (s16n3 / name
                         :op1 "CRTC")))
             :aspect performance)))
-
 
 # alignment:
 s16a: 0-0
@@ -1551,7 +1520,6 @@ s16x9: 23-23
     :coref ((s14c3 :same-entity s16c)
         (s15t :same-entity s16c2)
         (s9g :same-entity s16g)))
-
 
 
 ################################################################################
@@ -1648,7 +1616,6 @@ Words: 有见于 来自 中国 和 台湾 而 操 普通话 的 移民 逐渐 �
         :manner (s17x2 / 逐渐)
         :aspect state))
 
-
 # alignment:
 s17a: 0-0
 s17a2: 0-0
@@ -1728,7 +1695,6 @@ s17x9: 53-53
     :coref ((s16c2 :same-entity s17c3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt18
@@ -1773,7 +1739,6 @@ Words: 粤语 香港 移民 的 电视 市场 则 由 新 时代 电视 顶替 �
         :mod (s18x9 / 亦)
         :aspect performance))
 
-
 # alignment:
 s18a: 0-0
 s18c: 0-0
@@ -1810,7 +1775,6 @@ s18x9: 22-22
         (s13c2 :same-entity s18c3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt19
@@ -1842,7 +1806,6 @@ Words: 城市 电视 于 2000 年 向 CRTC 申请 将 其  牌照 从  地区性
         :year 2000)
     :aspect performance)
 
-
 # alignment:
 s19c: 0-0
 s19d: 0-0
@@ -1871,7 +1834,6 @@ s19x9: 11-11
         (author :full-affirmative s19x))
     :coref ((s16g :same-entity s19g)
         (s16c2 :same-entity s19c)))
-
 
 
 ################################################################################
@@ -1903,7 +1865,6 @@ Words: 申请 于 2001 年 5 月 获批 ， 城市 电视 亦  于  同年 秋�
             :season (s20x8 / 秋季))
         :aspect performance))
 
-
 # alignment:
 s20a: 0-0
 s20c: 0-0
@@ -1930,7 +1891,6 @@ s20x8: 14-14
         (author :full-affirmative s20x4))
     :coref ((s19x :same-event s20x3)
         (s19c :same-entity s20c)))
-
 
 
 ################################################################################
@@ -1988,7 +1948,6 @@ Words: 该台 的 加西 温哥华 总部 于 2006 年 2 月  联同 新  时代
         :mod (s21x11 / 全面)
         :aspect performance))
 
-
 # alignment:
 s21a: 0-0
 s21b: 0-0
@@ -2033,7 +1992,6 @@ s21x9: 37-37
         (s18c4 :same-entity s21c3)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt22
@@ -2070,7 +2028,6 @@ Words: 城市 电视 于 2008 年 以 「 Talentvision II 」  的  名义 向  
     :temporal (s22d / date-entity
         :year 2008))
 
-
 # alignment:
 s22c: 0-0
 s22d: 0-0
@@ -2106,7 +2063,6 @@ s22x9: 17-17
         (s19g :same-entity s22g)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt23
@@ -2128,7 +2084,6 @@ Words: 申请 曾于 2009 年 获批 ， 但 该台 一直 未能 启播 。
         :mod (s23x7 / 一直)
         :aspect performance
         :polarity -))
-
 
 # alignment:
 s23b: 0-0
@@ -2154,7 +2109,6 @@ s23x7: 9-9
         (author :full-negative s23x6))
     :coref ((s22x :same-event s23x3)
         (s22c :same-entity s23x6)))
-
 
 
 ################################################################################
@@ -2202,7 +2156,6 @@ Words: 新 时代 遂 于 2012 年 6 月 重新 申请 创办 「  Talentvision 
                 :op2 (s24x11 / 高清台)))
         :aspect performance))
 
-
 # alignment:
 s24a: 0-0
 s24b: 0-0
@@ -2243,7 +2196,6 @@ s24x9: 39-39
     :coref ((s21c4 :same-entity s24c)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt25
@@ -2277,7 +2229,6 @@ Words: 城市 电视 的 主 频道 现时 每天 重点 播放 三套 电视剧
     :mod (s25x8 / 重点)
     :aspect habitual)
 
-
 # alignment:
 s25a: 0-0
 s25c: 0-0
@@ -2306,7 +2257,6 @@ s25x9: 14-14
         (author :full-affirmative s25x9)
         (author :full-affirmative s25x))
     :coref ((s23x6 :same-entity s25c)))
-
 
 
 ################################################################################
@@ -2345,7 +2295,6 @@ Words: 为 配合 该台 以 单一 讯号 覆盖 东西 两岸 ，  该  三  �
         :aspect performance)
     :aspect habitual)
 
-
 # alignment:
 s26a: 0-0
 s26r: 0-0
@@ -2382,7 +2331,6 @@ s26x9: 6-6
     :coref ((s25c :same-entity s26x4)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt27
@@ -2416,7 +2364,6 @@ Words: 除了 从 海外 购入 电视 节目 外 ， 城市 电视 亦  有  �
             :mod (s27x13 / 电视))
         :place (s27x11 / 海外)
         :aspect performance))
-
 
 # alignment:
 s27c: 0-0
@@ -2452,7 +2399,6 @@ s27x9: 5-5
         (author :full-affirmative s27x10))
     :coref ((s26x4 :same-entity s27c)
         (s19g :same-entity s27g)))
-
 
 
 ################################################################################
@@ -2510,7 +2456,6 @@ Words: 城市 电视 的 自制 新闻 节目 《 晚间 新闻 》  现时 于 
                 :time (s28h4 / h23m50)))
         :aspect habitual))
 
-
 # alignment:
 s28a: 0-0
 s28a2: 0-0
@@ -2563,7 +2508,6 @@ s28x9: 19-19
     :coref ((s27c :same-entity s28c)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt29
@@ -2597,7 +2541,6 @@ Words: 节目 于 列治文 时代坊 直播室 制作 ， 主播 由 邱荣 、
         :manner (s29x5 / 轮流)
         :aspect habitual))
 
-
 # alignment:
 s29a: 0-0
 s29a2: 0-0
@@ -2625,7 +2568,6 @@ s29x6: 8-8
     :modal ((root :modal author)
         (author :full-affirmative s29x)
         (author :full-affirmative s29x4)))
-
 
 
 ################################################################################
@@ -2728,7 +2670,6 @@ Words: 此外 ， 城市 电视 亦 以 卫星 技术 引入 中国 中央 电�
         :mod (s30x13 / 亦)
         :aspect performance))
 
-
 # alignment:
 s30a: 0-0
 s30a2: 0-0
@@ -2786,7 +2727,6 @@ s30x9: 27-27
     :coref ((s27c :same-entity s30c5)))
 
 
-
 ################################################################################
 # meta-info
 # :: snt31
@@ -2825,7 +2765,6 @@ Words: 城市 电视 的 韩语 节目 时段 介乎 10 : 00 和  12 :  00 ，  
                 :time (s31h4 / h04m00))))
     :aspect state)
 
-
 # alignment:
 s31a: 0-0
 s31c: 0-0
@@ -2860,6 +2799,5 @@ s31x6: 27-27
         (author :full-affirmative s31x6)
         (author :full-affirmative s31a))
     :coref ((s30c5 :same-entity s31c)))
-
 
 
