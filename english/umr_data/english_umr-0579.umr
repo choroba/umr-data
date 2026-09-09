@@ -638,7 +638,7 @@ s8e2: 0-0
             (s7r :same-event s8e2))
     :temporal ((document-creation-time :before s8s)
             (document-creation-time :after s8y2)
-            (s8s :after s8b2) 
+            (s8s :after s8b2)
             (s8b2 :after s8b3)
             (past-reference :depends-on s8r3)
             (s8s :before s8r))
@@ -709,7 +709,7 @@ s9e: 0-0
             (s9s :contains s9a))
     :modal ((root :modal author)
             (author :full-affirmative s9r)
-            (author :full-affirmative s9y2) 
+            (author :full-affirmative s9y2)
             (author :full-affirmative s9s)
             (author :full-affirmative s9a)))
 
