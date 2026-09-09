@@ -685,9 +685,9 @@ s10p4: 0-0
             (s2c3 :before s10g))
     :modal ((author :full-affirmative s10s3)
             (author :full-affirmative s10p3)
-            (s10p3 :full-affirmative s10s2
+            (s10p3 :full-affirmative s10s2)
             (s10p3 :full-affirmative s10p6)
-            (s10p6 :full-negative s10g)))
+            (s10p6 :full-negative s10g))
     :coref ((s9p5 :same-entity s10p3)
             (s9p6 :same-entity s10p4)
             (s9p4 :same-entity s10p6)

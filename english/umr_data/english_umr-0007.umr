@@ -91,7 +91,7 @@ Words: This        week        the         American    businessman began       s
         :ARG4 (s2t2 / temporal-quantity :quant 20
             :unit (s2y / year))
         :place (s2h4 / human-settlement :wiki "Moscow"
-            :name (s2n3 / name :op1 "Moscow")))
+            :name (s2n3 / name :op1 "Moscow"))
     :temporal (s2a / after
         :op1 (s2c3 / convict-01
             :ARG1 s2b
@@ -99,7 +99,7 @@ Words: This        week        the         American    businessman began       s
             :aspect performance)
     :temporal (s2w / week
         :mod (s2t3 / this))
-    :aspect inceptive)
+    :aspect inceptive))
 
 # alignment:
 s2s: 7-7
