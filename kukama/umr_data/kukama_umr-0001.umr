@@ -1824,7 +1824,8 @@ s47u2: 5-5
 		(s47u :after s47u2))
 	:modal ((root :modal author)
 		(author :full-affirmative s47u)
-		(author :full-affirmative s47p)                    (author :full-affirmative s47u2))
+		(author :full-affirmative s47p)
+		(author :full-affirmative s47u2))
 	:coref ((s45p :same-entity s47p2)))
 
 
@@ -2926,8 +2927,8 @@ s74y: 1-1
 	:temporal ((s69u2 :after s74t)
 		(s74t :after s74m))
 	:modal ((root :modal author)
-		(s74k :AFF s74t)
-		(s74t :UNSP s74m)
+		(s74k :full-affirmative s74t)
+		(s74t :unspecified s74m)
 		(author :full-affirmative s74k)
 		(author :full-affirmative s74t))
 	:coref ((s69t :same-entity s74k)
