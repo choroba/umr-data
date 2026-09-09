@@ -1184,8 +1184,7 @@ Translation(English):	"Wohei I will go along," the young man said to his grandfa
         :actor s36h2
         :accompanier s36p
         :aspect activity
-        :modal-strength full-affirmative
-        :quote s36e)
+        :modal-strength full-affirmative)
     :recipient (s36p / person 
         :mod (s36n2 / nuhu')
         :ARG1-of (s36h3 / have-rel-role-92
@@ -1688,7 +1687,7 @@ Translation(English):	Then they tied their horses right there nearby, right ther
         :refer-number plural)
     :theme (s53a / animal   
         :refer-number plural)
-    :place (s35h / hinit
+    :place (s53h / hinit
         :place (s53n2 / neeheyeiniihi'))
     :place (s53h2 / hinit
         :mod (s53h3 / hinee))
@@ -1996,7 +1995,7 @@ Translation(English):	"so that my grandfather and I will have those things, beca
                     :refer-number singular)
                 :op2 (s61p2 / person                     
                     :ARG1-of (s61h3 / have-rel-role-92
-                        :ARG2 s60p
+                        :ARG2 s61p
                         :ARG3 (s61n2 / nebesiibehe'))))
             :theme (s61t / thing)                       
             :aspect state
@@ -3068,11 +3067,11 @@ Translation(English):	Wohei then he went to the next man.
 
 # sentence level graph:
 (s91y / yihoo-00
-    :actor (s90p / person          
+    :actor (s91p / person
         :refer-person 3rd
         :refer-number singular)
-    :goal (s90c / ceexoon)        
-    :temporal (s90n / ne'iini)
+    :goal (s91c / ceexoon)
+    :temporal (s91n / ne'iini)
     :aspect performance
     :modal-strength full-affirmative)
 
@@ -3649,7 +3648,7 @@ Part of Speech:      	"   part	part	    prefix.rel- prefix- vta -infl	pseudovai.
 Translation(English):	"And I will just wait on the enemy until it becomes light."
 
 # sentence level graph:
-(107h / hii-00
+(s107h / hii-00
     :actor s107p
     :theme (s107i / instead-of-91
         :ARG1 (s107t / toyoohow-00
@@ -3896,7 +3895,7 @@ Translation(English):	"Wohei come this way friend!"
                 :ARG3 (s114b / be))
             :ARG1-of (s114i / identity-91
                 :ARG2 s114p)
-        :goal (s115p3 / place)           
+        :goal (s114p4 / place)
         :aspect performance
         :modal-strength partial-affirmative)
         :quote s114h)
@@ -4266,7 +4265,7 @@ Translation(English):	Wohei then he went that way.    .
 
 # sentence level graph:
 (s124n / ne'ehno'usee-00
-    :actor (s124 / person    
+    :actor (s124p / person
         :refer-person 3rd
         :refer-number singular)
     :start (s124p2 / place)    
@@ -4634,7 +4633,7 @@ Translation(English):	When [Swift Hawk] got near [the enemy, he said] "here's th
 (s134h / hii-00
     :actor (s134p2 / place)    
     :theme (s134e2 / exist-91
-        :ARG1 s34p2
+        :ARG1 s134p2
         :ARG2 (s134h2 / hinen      
             :mod (s134n / nehe'))
         :aspect state
@@ -5438,7 +5437,7 @@ Translation(English):	And 'oohei' that's what they said at the time when they sc
     :theme (s159x / 'oohei-00
         :quote s159n)
     :temporal (s159x2 / 3iikone'eis-00
-        :actor s158p
+        :actor s159p
         :undergoer (s159p2 / person 
             :refer-person 3rd
             :mod (s159n2 / nuhu'))
@@ -5797,7 +5796,7 @@ Translation(English):	Then it was officially announced [around the camp] what th
         :actor (s171h2 / honoh'oe  
             :mod (s171n2 / nehe'))
         :theme (s171t / touninee-00
-            :actor s170h2
+            :actor s171h2
             :theme (s171t2 / thing) 
             :aspect performance
             :modal-strength full-affirmative)
@@ -6235,7 +6234,7 @@ Translation(English):	Even though he was small like that, [even though] he was n
     :theme (s186t / thing)          
     :actor (s186p2 / person)          
     :concession (s186h / hokeciihih-00
-        :theme s185p
+        :theme s186p
         :aspect state
         :modal-strength full-affirmative)
     :concession (s186h2 / hecexookeihi-00
@@ -7234,7 +7233,7 @@ Translation(English):	Take his hand in the proper fashion, or shake his hand.
         :manner (s219b / bebiisiihi')
         :aspect habitual
         :modal-strength partial-affirmative)
-    :op2 (s18n / neniniixoo3-00
+    :op2 (s219n / neniniixoo3-00
         :mode imperative
         :actor s219p
         :theme s219t
@@ -7403,8 +7402,7 @@ Translation(English):	[This custom] lies far in the past, but still exists.
 
 
 # document level annotation:
-(s225s0 / sentence)
-
+(s224s0 / sentence)
 
 
 ################################################################################
@@ -7745,7 +7743,7 @@ Translation(English):	You boys be strong, so that your thoughts will be good, so
     :purpose (s236h2 / hi3eti-00
         :theme (s236t3 / thing
             :theme-of (s236i / i3ecoo-00
-                :actor s235p)))
+                :actor s236p))
         :aspect habitual
         :modal-strength full-affirmative)
     :purpose (s236b / bebiisinihii-00

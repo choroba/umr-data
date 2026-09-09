@@ -1090,8 +1090,7 @@ Translation(English):	"They don't tell the truth."
             :refer-person 3rd
             :refer-number plural)
         :aspect habitual
-        :modal-strength full-negative 
-        :quote s32e)
+        :modal-strength full-negative)
     :recipient (s32p3 / person) 
     :aspect performance
     :modal-strength full-affirmative)
@@ -1218,7 +1217,7 @@ Translation(English):	And today these ones call themselves councilmen;
         :refer-person 3rd
         :refer-number plural
         :mod (s36n3 / nuhu'))
-    :theme s363p
+    :theme s36p
     :mod (s36n2 / neeceeni 
         :refer-number plural
         :ARG3-of (s36h / have-role-91
@@ -1574,7 +1573,6 @@ Translation(English):	then that's when, then, when people told stories, when peo
                 :op2 (s46t2 / thing
                     :mod (s46n / nuh'uuno)
                     :theme-of (s46h3 / heeneestoo-00 
-                        :actor s46p2 
                         :aspect activity
                         :modal-strength partial-affirmative)))))
     :ARG2 (s46e / event))
