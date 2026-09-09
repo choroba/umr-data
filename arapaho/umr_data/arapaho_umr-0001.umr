@@ -892,10 +892,9 @@ Translation(English):	"I am going to ask the old men to come and smudge you, to 
                 :modal-strength full-affirmative))
         :aspect atelic-process
         :modal-strength full-affirmative
-        :quote s27h
+        :quote s27h)
     :recipient s27p2
-    :aspect performance))
-
+    :aspect performance)
 
 # alignment:
 
@@ -1751,19 +1750,16 @@ Translation(English):	They are right here, where he had led them to.
             :theme (s55p / person 
                 :refer-person 3rd
                 :refer-number singular)
-            :undergoer s55a2)))
-    :ARG2 ((s55a2 / animal 
-            :refer-number plural)
+            :undergoer s55a2))
+    :ARG2 (s55a2 / animal 
+           :refer-number plural)
     :aspect state
     :modal-strength full-affirmative)
 
-
 # alignment:
-
 
 # document level annotation:
 (s55s0 / sentence)
-
 
 
 ################################################################################
@@ -7759,7 +7755,7 @@ Translation(English):	You boys be strong, so that your thoughts will be good, so
         :theme (s236t2 / thing                
             :quote s236n2)
         :aspect habitual
-        :modal-strength full-affirmative
+        :modal-strength full-affirmative)
     :modal-strength partial-affirmative)
 
 
