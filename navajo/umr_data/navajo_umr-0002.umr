@@ -329,16 +329,12 @@ Translation(English):	Two of the boys who were going to go to school were locked
 (s10b / bidá
 	:aspect performance
 	:mode expressive
-	:undergoer s10x
-	:place s10x3)
+	:undergoer (s10x / ’ashiiké)
+	:place (s10x4 / ’ákóne’))
 
 # alignment:
 s10b: 10-10
-s10x: 1-12
-s10n: 4-4
-s10x2: 3-3
-s10x3: 7-7
-s10p: 0-0
+s10x: 1-1
 s10x4: 9-9
 
 # document level annotation:
@@ -389,7 +385,7 @@ s11k: 6-6
 s11k2: 5-5
 s11p3: 0-0
 s11n: 9-9
-s11n2: 11-1
+s11n2: 11-11
 s11x: 13-13
 
 # document level annotation:
@@ -462,11 +458,8 @@ s13b: 7-7
 s13p: 0-0
 s13k: 0-0
 s13p2: 0-0
-s13b2: 0-0
+s13b2: 1-1
 s13x: 6-6
-s13p3: 0-0
-s13g: 5-5
-s13n: 2-4
 
 # document level annotation:
 (s13s0 / sentence)
@@ -608,7 +601,7 @@ Translation(English):	It was a long drop.
 s18h: 0-0
 s18b: 3-3
 s18n: 2-2
-s18t: 1-0
+s18t: 1-1
 
 # document level annotation:
 (s18s0 / sentence)
@@ -738,7 +731,7 @@ s22l: 5-5
 s22b: 3-3
 s22k: 2-2
 s22n2: 1-1
-s22x: 8-7
+s22x: 8-8
 
 # document level annotation:
 (s22s0 / sentence)
@@ -1458,7 +1451,7 @@ Translation(English):	A man of the Salty Water Clan whose name was Slender Lava 
 
 # alignment:
 s42y: 26-26
-s42x: 19-9
+s42x: 19-19
 s42x2: 25-25
 s42k: 0-0
 s42h: 7-7
@@ -1588,7 +1581,7 @@ Translation(English):	We’ll take them right over there in the flat.
 s46h: 0-0
 s46d: 3-3
 s46x: 2-2
-s46t: 1-0
+s46t: 1-1
 s46p: 0-0
 
 # document level annotation:

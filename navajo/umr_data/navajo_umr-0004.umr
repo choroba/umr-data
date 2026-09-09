@@ -2190,7 +2190,6 @@ Translation(English):	I don't know how far above the clouds.
 # alignment:
 s56h: 0-0
 s56k: 0-0
-s56n: 4-4
 s56h2: 3-3
 s56b: 2-2
 
@@ -2251,8 +2250,7 @@ s57h: 1-1
 		(author :full-affirmative s57d)
 		(author :neutral-affirmative s57n))
 	:coref ((s57p :same-entity s55p)
-		(s57p2 :same-entity s52p)
-		(s57n2 :same-entity s56n)))
+		(s57p2 :same-entity s52p)))
 
 
 ################################################################################
@@ -2457,7 +2455,7 @@ s62s: 0-0
 s62n: 8-8
 s62p: 0-0
 s62h: 6-6
-s62x: 3-2
+s62x: 3-3
 
 # document level annotation:
 (s62s0 / sentence
@@ -2627,7 +2625,7 @@ s66n4: 0-0
 s66p: 0-0
 s66p2: 0-0
 s66s2: 5-5
-s66x: 14-4
+s66x: 14-14
 s66g: 0-0
 
 # document level annotation:
@@ -3941,7 +3939,7 @@ Translation(English):	Nevertheless, we carried four loads.
 		:mode expressive))
 
 # alignment:
-s96x: 9-8
+s96x: 9-9
 s96n: 8-8
 s96p: 0-0
 s96x2: 5-5
@@ -5099,7 +5097,7 @@ Translation(English):	After three days (of flying), a man from Kayenta said that
 			:quote s125j)))
 
 # alignment:
-s125b: 13-12
+s125b: 13-13
 s125c: 16-17
 s125c2: 7-7
 s125c3: 12-12
@@ -5206,7 +5204,7 @@ Translation(English):	He had been asking that hay be dropped at his own house fo
 s127h: 13-13
 s127p: 0-0
 s127h2: 12-12
-s127c: 11-1
+s127c: 11-11
 s127t: 0-0
 s127d: 0-0
 s127j: 0-0
@@ -5294,7 +5292,7 @@ Translation(English):	The plane almost turned over with me (looking for it),” 
 	:mod (s129t2 / t’óó-’ák’édí))
 
 # alignment:
-s129x: 9-8
+s129x: 10-10
 s129p: 0-0
 s129j: 0-0
 s129n: 5-5
@@ -5436,14 +5434,14 @@ Translation(English):	When he said the plane nearly turned over with him it was 
 				:manner (s132d / deigo)))))
 
 # alignment:
-s132x: 11-12
+s132x: 12-13
 s132p: 0-0
-s132j: 0-0
-s132x2: 9-9
-s132c: 0-0
-s132t: 8-7
-s132h: 6-6
-s132d: 4-4
+s132j: 11-11
+s132x2: 10-10
+s132c: 3-4
+s132t: 9-9
+s132h: 7-7
+s132d: 5-5
 
 # document level annotation:
 (s132s0 / sentence
@@ -5533,17 +5531,17 @@ Translation(English):	The small planes - the two motored ones - loaded at Winslo
 	:start s134c2)
 
 # alignment:
-s134b: 4-4
-s134b2: 7-7
-s134c: 0-0
+s134b: 5-5
+s134b2: 8-8
+s134c: 1-2
 s134c2: 0-0
-s134d: 8-8
+s134d: 9-9
 s134e: 0-0
-s134h: 15-15
+s134h: 17-17
 s134n: 0-0
-s134t: 3-2
-s134x: 19-19
-s134x2: 15-16
+s134t: 3-4
+s134x: 21-21
+s134x2: 18-18
 
 # document level annotation:
 (s134s0 / sentence
@@ -6197,9 +6195,9 @@ Translation(English):	In some places the sheep were kept in the corrals all day 
 	:place (s149x2 / łahgóó))
 
 # alignment:
-s149x: 8-9
-s149n: 8-7
-s149d: 0-0
+s149x: 9-9
+s149n: 8-8
+s149d: 3-3
 s149b: 5-5
 s149b2: 4-4
 s149x2: 2-2
@@ -6660,7 +6658,7 @@ Translation(English):	It happened eighteen years ago too.
 
 # alignment:
 s160x: 5-5
-s160x2: 4-3
+s160x2: 4-4
 s160e: 0-0
 s160b: 0-0
 s160n: 2-3

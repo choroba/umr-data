@@ -59,7 +59,7 @@ s1k4: 13-13
 s1l: 11-11
 s1n: 0-0
 s1n2: 0-0
-s1n3: 12-2
+s1n3: 12-12
 s1n4: 0-0
 s1p: 0-0
 s1p2: 0-0
@@ -162,7 +162,7 @@ s4p: 0-0
 s4h: 0-0
 s4d: 3-3
 s4x: 2-2
-s4x2: 1-0
+s4x2: 1-1
 
 # document level annotation:
 (s4s0 / sentence)
@@ -1195,7 +1195,7 @@ Translation(English):	He started sending me on chores.
 	:theme (s34t / thing))
 
 # alignment:
-s34n: 1-0
+s34n: 1-1
 s34p: 0-0
 s34p2: 0-0
 s34t: 0-0
@@ -1713,7 +1713,7 @@ Translation(English):	They built the trading post and four years later perhaps, 
 # alignment:
 s47a: 0-0
 s47x: 2-2
-s47n: 18-8
+s47n: 18-18
 s47n2: 0-0
 s47p: 0-0
 s47d: 21-21
@@ -1850,7 +1850,7 @@ Translation(English):	We went about calling each other "younger brother,"
 # alignment:
 s51t: 3-3
 s51p: 0-0
-s51x: 2-1
+s51x: 2-2
 s51p2: 0-0
 s51k: 0-0
 s51s: 1-1
@@ -2103,7 +2103,7 @@ Translation(English):	"All right," he said.
 # alignment:
 s58j: 2-2
 s58p: 0-0
-s58h: 1-0
+s58h: 1-1
 
 # document level annotation:
 (s55s0 / sentence)
@@ -2176,7 +2176,7 @@ s60h: 4-5
 s60a: 0-0
 s60n: 4-4
 s60c: 2-2
-s60x2: 1-0
+s60x2: 1-1
 
 # document level annotation:
 (s57s0 / sentence)
@@ -2203,13 +2203,8 @@ Translation(English):	When we got back to the hogan we found that my uncle was t
 
 # alignment:
 s61n: 2-2
-s61s: 6-6
 s61p: 0-0
 s61h: 1-1
-s61p2: 0-0
-s61k: 0-0
-s61p3: 0-0
-s61s2: 3-4
 
 # document level annotation:
 (s58s0 / sentence)
@@ -2307,10 +2302,10 @@ Translation(English):	"They are putting chidlren in school, it is said."
 	:aspect activity)
 
 # alignment:
-s64n: 3-2
+s64n: 3-3
 s64p: 0-0
 s64x: 1-1
-s64x2: 1-2
+s64x2: 2-2
 
 # document level annotation:
 (s61s0 / sentence)
@@ -2375,7 +2370,7 @@ Translation(English):	"It's probably all right.
 # alignment:
 s66h: 0-0
 s66t: 0-0
-s66t2: 2-1
+s66t2: 2-2
 
 # document level annotation:
 (s63s0 / sentence)
@@ -2546,8 +2541,6 @@ s71h3: 10-10
 s71b: 8-9
 s71k: 7-7
 s71x: 4-4
-s71d: 6-6
-s71n2: 0-0
 s71y: 0-0
 s71n: 12-12
 s71p: 0-0
@@ -2657,7 +2650,7 @@ s74p: 0-0
 s74y: 1-1
 s74h: 0-0
 s74b: 0-0
-s74s: 6-5
+s74s: 6-6
 
 # document level annotation:
 (s70s0 / sentence)
@@ -3406,8 +3399,8 @@ s95p: 0-0
 s95h: 10-10
 s95h2: 0-0
 s95a: 0-0
-s95x2: 3-2
-s95x3: 1-0
+s95x2: 3-3
+s95x3: 1-1
 s95x4: 2-2
 s95x5: 7-8
 
@@ -3865,7 +3858,7 @@ Translation(English):	Black Horse's party went over there,
 # alignment:
 s108j: 3-3
 s108p: 0-0
-s108x: 1-0
+s108x: 1-1
 
 # document level annotation:
 (s103s0 / sentence)
@@ -3912,7 +3905,7 @@ s109n: 2-2
 s109n2: 1-1
 s109d: 14-14
 s109h: 7-7
-s109k: 10-0
+s109k: 10-10
 s109k2: 9-9
 s109t: 8-8
 
@@ -4090,7 +4083,7 @@ s112a: 0-0
 s112g: 0-0
 s112y: 41-41
 s112x: 40-40
-s112t: 39-38
+s112t: 39-39
 s112k: 37-37
 s112p2: 0-0
 s112p3: 0-0
@@ -4364,7 +4357,7 @@ Translation(English):	These people from the other side of the mountain were sayi
 # alignment:
 s119x: 7-7
 s119p: 0-0
-s119j: 5-4
+s119j: 5-5
 s119b: 4-4
 s119d: 2-3
 
@@ -4614,7 +4607,7 @@ Translation(English):	South from the trading post there is a ruin which we call 
 
 # alignment:
 s126d: 12-12
-s126x: 11-1
+s126x: 11-11
 s126h: 9-9
 s126t: 0-0
 s126d2: 8-8
@@ -4854,7 +4847,7 @@ s133h: 0-0
 s133x: 3-3
 s133b2: 5-6
 s133x2: 4-4
-s133j: 2-1
+s133j: 2-2
 s133d: 0-0
 
 # document level annotation:
@@ -4899,7 +4892,7 @@ s134p: 0-0
 s134x2: 6-6
 s134d2: 5-5
 s134p2: 0-0
-s134y: 1-0
+s134y: 1-1
 
 # document level annotation:
 (s129s0 / sentence)
@@ -5066,8 +5059,8 @@ Translation(English):	Many horses were standing about.
 		:mod (s139t / t’óó-’ahayóí)))
 
 # alignment:
-s139n: 3-2
-s139x: 1-0
+s139n: 3-3
+s139x: 1-1
 s139t: 2-2
 
 # document level annotation:
@@ -5260,7 +5253,6 @@ Translation(English):	making out papers for more of our children.
 # sentence level graph:
 (s145h / hodoo
 	:aspect performance
-	:theme s145x
 	:theme (s145x2 / ’ánáádadoolniił
 		:theme (s145n2 / naaltsoos
 			:refer-number plural)
@@ -5273,9 +5265,6 @@ Translation(English):	making out papers for more of our children.
 
 # alignment:
 s145h: 5-5
-s145x: 4-4
-s145n: 1-1
-s145p: 0-0
 s145x2: 4-4
 s145n2: 2-2
 s145n3: 1-1
@@ -5518,7 +5507,7 @@ Translation(English):	I can't think what his name was - I merely knew him by sig
 # alignment:
 s151b: 5-6
 s151p: 0-0
-s151b2: 5-4
+s151b2: 5-5
 s151t: 4-4
 s151p2: 0-0
 s151w: 2-2
@@ -6544,7 +6533,7 @@ Translation(English):	Then some white people took him in.
 # alignment:
 s180x: 4-4
 s180p: 0-0
-s180b: 3-2
+s180b: 3-3
 s180p2: 0-0
 
 # document level annotation:
@@ -6991,7 +6980,7 @@ s194n: 17-17
 s194p: 0-0
 s194y: 16-16
 s194b: 15-15
-s194n2: 14-13
+s194n2: 14-14
 s194h: 0-0
 s194n3: 6-8
 s194d: 10-10
@@ -7035,7 +7024,7 @@ Translation(English):	The Bat was a man who could understand Navajo very well.
 	:theme (s195j / jaa’-’abaní))
 
 # alignment:
-s195x: 4-3
+s195x: 4-4
 s195p: 0-0
 s195j: 6-6
 s195y: 3-3
@@ -7073,7 +7062,7 @@ Translation(English):	A little later the one called Little Chief (Shipley) came 
 # alignment:
 s196c: 5-5
 s196p: 0-0
-s196l: 4-3
+s196l: 4-4
 s196w: 3-3
 s196n: 2-2
 s196h: 0-0
