@@ -517,7 +517,7 @@ Words: 这些   情况   促使   彩礼   费用   飙升   ，  部分   地�
 					:mod (s8x21 / 彩礼))
 				:aspect process)
 			:aspect performance)
-		:Reason (s8x22 / 拒绝-01
+		:reason (s8x22 / 拒绝-01
 			:ARG0 s8x16
 			:theme (s8x23 / 情况
 				:mod (s8x24 / 结婚-01
@@ -999,6 +999,6 @@ s12x9: 2-2
 		(author :full-affirmative s12x14)
 		(author :full-affirmative s12i2)
 		(author :full-affirmative s12x13)
-		(author :Strong-partial-affirmative s12x13)))
+		(author :partial-affirmative s12x13)))
 
 

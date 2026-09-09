@@ -22521,7 +22521,7 @@ Words: “ 喔唷   ！
 # sentence level graph:
 (s577x4 / say
 	:ARG1 (s577x2 / 喔唷
-		:mode ！))
+		:mode imperative))
 
 # alignment:
 s577x2: 2-2
@@ -24298,7 +24298,7 @@ Words: 哎哟！
 
 # sentence level graph:
 (s628x1 / 哎哟
-	:mod-of (s628x1 / expressive))
+	:mode expressive)
 
 # alignment:
 s628x1: 0-0
