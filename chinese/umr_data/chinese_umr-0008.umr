@@ -460,12 +460,12 @@ s7x9: 10-10
 (s7s0 / sentence
 	:temporal ((document-creation-time :before s7x)
 		(s7x :after s7x7))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s7x9)
 		(author :full-affirmative s7x)
 		(author :full-affirmative s7x4)
 		(author :full-affirmative s7x7)
-	:modal ((author :full-affirmative s7x)))
+		(author :full-affirmative s7x)))
 
 
 ################################################################################
@@ -626,12 +626,11 @@ s9x9: 15-15
 	:temporal ((s9x :after s9x5)
 		(document-creation-time :before s9x)
 		(s9x5 :after s9x9)
-		(s9x9 :after s9x10)))
+		(s9x9 :after s9x10))
 	:modal ((root :modal author)
 		(author :full-affirmative s9x)
 		(author :full-negative s9x9)
-		(author :full-affirmative s9x5)
-		(root :modal author))
+		(author :full-affirmative s9x5)))
 
 
 ################################################################################

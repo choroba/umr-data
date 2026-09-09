@@ -88,7 +88,7 @@ s1x9: 22-22
 		(s1x15 :after s1x)
 		(s1x10 :overlap s1x12)
 		(s1x10 :overlap s1x11)
-		(present-reference :overlap s1x2)))
+		(present-reference :overlap s1x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s1x15)
 		(author :full-affirmative s1x12)
@@ -97,7 +97,7 @@ s1x9: 22-22
 		(author :full-affirmative s1x6)
 		(author :full-affirmative s1x2)
 		(author :full-affirmative s1x)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -173,12 +173,12 @@ s2x9: 3-3
 		(s2x4 :overlap s2x)
 		(s2x :overlap s2x11)
 		(s2x :overlap s2x10)
-		(s2x4 :overlap s2x6)))
+		(s2x4 :overlap s2x6))
 	:modal ((root :modal author)
 		(author :full-affirmative s2x6)
 		(author :full-affirmative s2x)
 		(author :full-affirmative s2x11)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -253,14 +253,14 @@ s3x9: 18-18
 	:temporal ((s3d :contained s3x9)
 		(s3x9 :overlap s3x13)
 		(s3x13 :overlap s3x17)
-		(s2x11 :after s3d)))
+		(s2x11 :after s3d))
 	:modal ((root :modal author)
 		(author :full-affirmative s3x)
 		(author :full-affirmative s3i2)
 		(author :full-affirmative s3x9)
 		(author :full-affirmative s3x13)
 		(author :full-affirmative s3x17)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -329,13 +329,13 @@ s4x9: 19-19
 		(document-creation-time :overlap s4x2)
 		(s4x2 :overlap s4x)
 		(s4x :overlap s4x7)
-		(s4x7 :overlap s4x8)))
+		(s4x7 :overlap s4x8))
 	:modal ((root :modal author)
 		(author :full-affirmative s4x)
 		(author :full-affirmative s4x5)
 		(author :full-affirmative s4x8)
 		(author :full-affirmative s4x7)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -412,12 +412,12 @@ s5x9: 10-10
 	:temporal ((document-creation-time :before s5x12)
 		(s5x12 :contained s5x)
 		(s5x12 :overlap s5x14)
-		(s5x14 :overlap s5x2)))
+		(s5x14 :overlap s5x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s5x)
 		(author :full-affirmative s5x2)
 		(author :full-affirmative s5x14)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -524,7 +524,7 @@ s6x9: 20-20
 		(s6d :contained s6x5)
 		(s6x5 :after s6x6)
 		(s6d :contained s6x6)
-		(s6d :overlap s6x15)))
+		(s6d :overlap s6x15))
 	:modal ((root :modal author)
 		(author :full-affirmative s6x)
 		(author :full-affirmative s6x2)
@@ -533,7 +533,7 @@ s6x9: 20-20
 		(author :full-affirmative s6x6)
 		(author :full-affirmative s6x15)
 		(author :full-affirmative s6x4)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -596,10 +596,10 @@ s7x7: 0-0
 (s7s0 / sentence
 	:temporal ((document-creation-time :before s7r)
 		(s7r :contained s7x)
-		(s7x :before s7h2)))
+		(s7x :before s7h2))
 	:modal ((root :modal author)
 		(author :full-affirmative s7x)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -692,7 +692,7 @@ s8x9: 37-37
 		(s8x7 :overlap s8x11)
 		(s8x10 :overlap s8x4)
 		(present-reference :overlap s8x3)
-		(present-reference :overlap s8x2)))
+		(present-reference :overlap s8x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s8x3)
 		(author :full-affirmative s8x)
@@ -700,7 +700,7 @@ s8x9: 37-37
 		(author :full-affirmative s8x7)
 		(author :full-affirmative s8x17)
 		(author :full-affirmative s8x4)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -746,10 +746,10 @@ s9x9: 13-13
 	:temporal ((document-creation-time :before s9d)
 		(s9d :contained s9x)
 		(s9x :before s9e))
-	:coref ((s8c :same-entity s9x9)))
+	:coref ((s8c :same-entity s9x9))
 	:modal ((root :modal author)
 		(author :full-affirmative s9x)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -808,13 +808,13 @@ s10x9: 18-18
 		(s10d2 :overlap s10x2)
 		(s10d2 :after s10x7)
 		(s10x7 :contained s10x3)
-		(s10x2 :overlap s10x7)))
+		(s10x2 :overlap s10x7))
 	:modal ((root :modal author)
 		(author :full-affirmative s10x2)
 		(author :full-affirmative s10x4)
 		(author :full-affirmative s10x3)
 		(author :full-affirmative s10x)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -924,7 +924,7 @@ s11x9: 18-18
 		(s11x6 :after s11x7)
 		(s11x3 :after s11x8)
 		(s11x8 :after s11x10)
-		(s11x8 :after s11e)))
+		(s11x8 :after s11e))
 	:modal ((root :modal author)
 		(author :full-affirmative s11x2)
 		(author :full-affirmative s11x)
@@ -934,8 +934,7 @@ s11x9: 18-18
 		(author :full-affirmative s11x3)
 		(author :full-affirmative s11x10)
 		(author :neutral-affirmative s11e)
-		(author :full-affirmative s11x8)
-		(root :modal author))
+		(author :full-affirmative s11x8)))
 
 
 ################################################################################
@@ -1021,13 +1020,13 @@ s12x9: 23-23
 		(present-reference :overlap s12x6)
 		(s12x :overlap s12x11)
 		(s12x :before s12x13)
-		(s12x13 :before s12x2)))
+		(s12x13 :before s12x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s12e)
 		(author :full-affirmative s12x)
 		(author :full-affirmative s12x11)
 		(author :full-negative s12x2)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -1155,7 +1154,7 @@ s13x9: 43-43
 		(s13x13 :before s13x9)
 		(s13x13 :before s13x7)
 		(s13x7 :overlap s13x6))
-	:coref ((s8x5 :same-event s13x20)))
+	:coref ((s8x5 :same-event s13x20))
 	:modal ((root :modal author)
 		(author :full-affirmative s13x2)
 		(author :full-affirmative s13x23)
@@ -1166,7 +1165,7 @@ s13x9: 43-43
 		(author :full-affirmative s13x9)
 		(author :full-negative s13x6)
 		(author :full-affirmative s13x)
-		(root :modal author))
+		(root :modal author)))
 
 
 ################################################################################
@@ -1353,7 +1352,7 @@ s14x9: 1-1
 		(s14x14 :overlap s14x15)
 		(s14x15 :before s14x41)
 		(s14x41 :overlap s14x35)
-		(s14x35 :overlap s14x45)))
+		(s14x35 :overlap s14x45))
 	:modal ((root :modal author)
 		(author :full-affirmative s14x4)
 		(author :full-affirmative s14x)
@@ -1375,8 +1374,7 @@ s14x9: 1-1
 		(author :full-affirmative s14x35)
 		(author :full-negative s14x35)
 		(author :full-affirmative s14x41)
-		(author :full-negative s14x15)
-		(root :modal author))
+		(author :full-negative s14x15)))
 
 
 ################################################################################

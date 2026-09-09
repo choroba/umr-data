@@ -88,9 +88,8 @@ s2x6: 3-3
 # document level annotation:
 (s2s0 / sentence
 	:temporal ((document-creation-time :before s2x))
-		(root :modal author)
-		(author :full-affirmative s2x)
-	:modal ((author :full-affirmative s2x)))
+	:modal ((root :modal author)
+		(author :full-affirmative s2x)))
 
 
 ################################################################################
@@ -165,11 +164,10 @@ s3x9: 20-20
 		(s3x :overlap s3h)
 		(present-reference :overlap s3x16)
 		(present-reference :contained s3x))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s3x)
 		(author :full-affirmative s3x8)
-		(author :full-affirmative s3h)
-	:modal ((author :full-affirmative s3x)))
+		(author :full-affirmative s3h)))
 
 
 ################################################################################
@@ -233,12 +231,11 @@ s4x9: 10-10
 	:temporal ((s4x15 :overlap s4x16)
 		(s4x16 :overlap s4x18)
 		(document-creation-time :before s4x3))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s4x3)
 		(author :full-affirmative s4x15)
 		(author :neutral-affirmative s4x16)
-		(author :neutral-affirmative s4x18)
-	:modal ((author :full-affirmative s4x15))
+		(author :neutral-affirmative s4x18))
 	:coref ((s1p2 :same-entity s4x17)))
 
 
@@ -306,12 +303,11 @@ s5x9: 12-12
 		(document-creation-time :before s5x10)
 		(s5x10 :before s5x2)
 		(present-reference :overlap s5x))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s5x19)
 		(author :full-affirmative s5x10)
 		(author :partial-affirmative s5x)
-		(author :full-affirmative s5x3)
-	:modal ((author :full-affirmative s5x19)))
+		(author :full-affirmative s5x3)))
 
 
 ################################################################################
@@ -359,10 +355,9 @@ s6x7: 11-11
 (s6s0 / sentence
 	:temporal ((document-creation-time :before s6x6)
 		(s6x6 :after s6x7))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s6x7)
-		(author :full-affirmative s6x6)
-	:modal ((author :full-affirmative s6x6)))
+		(author :full-affirmative s6x6)))
 
 
 ################################################################################
@@ -501,14 +496,13 @@ s7x9: 2-2
 		(document-creation-time :before s7x)
 		(s7x2 :after s7r)
 		(document-creation-time :before s7x5))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s7x)
 		(author :full-affirmative s7d)
 		(author :full-affirmative s7s)
 		(author :full-affirmative s7r)
 		(author :full-affirmative s7x5)
-		(author :full-affirmative s7p3)
-	:modal ((author :full-affirmative s7d)))
+		(author :full-affirmative s7p3)))
 
 
 ################################################################################
@@ -578,12 +572,11 @@ s8x9: 26-26
 		(s8x2 :after s8x)
 		(document-creation-time :before s8x11)
 		(s8x :after s8x11))
-		(root :modal author)
+	:modal	((root :modal author)
 		(author :full-affirmative s8x9)
 		(author :full-affirmative s8x5)
 		(author :full-affirmative s8x2)
-		(author :full-affirmative s8x)
-	:modal ((author :full-affirmative s8x)))
+		(author :full-affirmative s8x)))
 
 
 ################################################################################

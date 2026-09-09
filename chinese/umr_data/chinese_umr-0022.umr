@@ -96,10 +96,9 @@ s1x9: 14-14
 # document level annotation:
 (s1s0 / sentence
 	:temporal ((document-creation-time :overlap s1i))
-	:coref ((s1x2 :subset-of s1a6)))
+	:coref ((s1x2 :subset-of s1a6))
 	:modal ((root :modal author)
-		(author :full-affirmative s1i)
-		(root :modal author))
+		(author :full-affirmative s1i)))
 
 
 ################################################################################
@@ -164,12 +163,11 @@ s2x7: 3-3
 # document level annotation:
 (s2s0 / sentence
 	:temporal ((document-creation-time :overlap s2x))
-	:coref ((s1a :same-entity s2x2)))
+	:coref ((s1a :same-entity s2x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s2x)
 		(author :full-affirmative s2x7)
-		(author :full-affirmative s2x19)
-		(root :modal author))
+		(author :full-affirmative s2x19)))
 
 
 ################################################################################
@@ -210,10 +208,9 @@ s3x5: 1-1
 # document level annotation:
 (s3s0 / sentence
 	:temporal ((document-creation-time :overlap s3h))
-	:coref ((s1a :same-entity s3x4)))
+	:coref ((s1a :same-entity s3x4))
 	:modal ((root :modal author)
-		(author :full-affirmative s3h)
-		(root :modal author))
+		(author :full-affirmative s3h)))
 
 
 ################################################################################
@@ -293,12 +290,11 @@ s4x9: 15-15
 (s4s0 / sentence
 	:temporal ((document-creation-time :overlap s4x)
 		(document-creation-time :overlap s4h)
-		(document-creation-time :overlap s4i2)))
+		(document-creation-time :overlap s4i2))
 	:modal ((root :modal author)
 		(author :full-affirmative s4x)
 		(author :full-affirmative s4h)
-		(author :full-affirmative s4i2)
-		(root :modal author))
+		(author :full-affirmative s4i2)))
 
 
 ################################################################################
@@ -386,13 +382,12 @@ s5x9: 4-4
 	:temporal ((document-creation-time :overlap s5x2)
 		(document-creation-time :overlap s5i2)
 		(document-creation-time :overlap s5x3)
-		(document-creation-time :overlap s5x4)))
+		(document-creation-time :overlap s5x4))
 	:modal ((root :modal author)
 		(author :full-affirmative s5x2)
 		(author :full-affirmative s5i2)
 		(author :full-affirmative s5x3)
-		(author :full-affirmative s5x4)
-		(root :modal author))
+		(author :full-affirmative s5x4)))
 
 
 ################################################################################
@@ -500,13 +495,12 @@ s6x9: 3-3
 	:temporal ((document-creation-time :overlap s6h)
 		(document-creation-time :overlap s6h3)
 		(document-creation-time :overlap s6h2)
-		(document-creation-time :overlap s6i3)))
+		(document-creation-time :overlap s6i3))
 	:modal ((root :modal author)
 		(author :full-affirmative s6x)
 		(author :full-affirmative s6x2)
 		(author :full-affirmative s6h4)
-		(author :full-affirmative s6i3)
-		(root :modal author))
+		(author :full-affirmative s6i3)))
 
 
 ################################################################################
@@ -599,14 +593,13 @@ s7x9: 14-14
 	:temporal ((document-creation-time :overlap s7h)
 		(document-creation-time :overlap s7i2)
 		(document-creation-time :overlap s7x11)
-		(document-creation-time :overlap s7x22)))
+		(document-creation-time :overlap s7x22))
 	:modal ((root :modal author)
 		(author :full-affirmative s7h)
 		(author :full-affirmative s7i2)
 		(author :full-affirmative s7x11)
 		(author :full-affirmative s7h3)
-		(author :full-affirmative s7x22)
-		(root :modal author))
+		(author :full-affirmative s7x22)))
 
 
 ################################################################################
@@ -670,12 +663,11 @@ s8x9: 5-5
 (s8s0 / sentence
 	:temporal ((document-creation-time :overlap s8e)
 		(document-creation-time :before s8x)
-		(document-creation-time :overlap s8x2)))
+		(document-creation-time :overlap s8x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s8e)
 		(author :full-affirmative s8x)
-		(author :full-affirmative s8x2)
-		(root :modal author))
+		(author :full-affirmative s8x2)))
 
 
 ################################################################################
@@ -769,14 +761,13 @@ s9x9: 24-24
 	:temporal ((document-creation-time :overlap s9x2)
 		(document-creation-time :overlap s9x7)
 		(document-creation-time :overlap s9h2)
-		(document-creation-time :before s9x)))
+		(document-creation-time :before s9x))
 	:modal ((root :modal author)
 		(author :full-affirmative s9x2)
 		(author :full-affirmative s9x7)
 		(author :full-affirmative s9h2)
 		(author :full-affirmative s9x22)
-		(author :full-affirmative s9x)
-		(root :modal author))
+		(author :full-affirmative s9x)))
 
 
 ################################################################################
@@ -859,14 +850,13 @@ s10x9: 19-19
 	:temporal ((document-creation-time :overlap s10x)
 		(document-creation-time :overlap s10x4)
 		(document-creation-time :depends-on s10x5)
-		(s10x5 :depends-on s10x11)))
+		(s10x5 :depends-on s10x11))
 	:modal ((root :modal author)
 		(author :full-affirmative s10x)
 		(author :full-affirmative s10x4)
 		(author :full-affirmative s10x5)
 		(author :full-affirmative s10x11)
-		(author :full-affirmative s10h)
-		(root :modal author))
+		(author :full-affirmative s10h)))
 
 
 ################################################################################
@@ -930,11 +920,10 @@ s12x9: 18-18
 (s11s0 / sentence
 	:temporal ((document-creation-time :overlap s12x)
 		(document-creation-time :depends-on s12x4)
-		(document-creation-time :overlap s12x10)))
+		(document-creation-time :overlap s12x10))
 	:modal ((root :modal author)
 		(author :full-affirmative s12x)
 		(author :full-affirmative s12x4)
-		(author :full-affirmative s12x10)
-		(root :modal author))
+		(author :full-affirmative s12x10)))
 
 
