@@ -11003,7 +11003,6 @@ Words: 大家   都  知道   ，  在  美国   是  正午   时分   ，
 	:ARG0 (s265x1 / 大家)
 	:ARG1 (s265x9 / date-entity
 		:temporal (s265x17 / 12
-			:00
 			:name (s265x8 / name
 				:op1 "正午"))))
 
@@ -24336,11 +24335,13 @@ Index: 1    2    3  4  5 6
 Words: “ 五亿   什么   呀  ？  ”
 
 # sentence level graph:
-(s630x7 :ARG1 (s630x3 / amr-unknown
+(s630x7 / 五亿
+	:ARG1 (s630x3 / amr-unknown
 		:quant 500000000
 		:mode interrogative))
 
 # alignment:
+s630x7: 2-2
 
 # document level annotation:
 (s630s0 / sentence)
@@ -24431,7 +24432,7 @@ Words: 我  的  工作   很多   …
 
 # sentence level graph:
 (s634x4 / 多-03
-	:degree-of (s634x4 / 很)
+	:degree-of (s634x2 / 很)
 	:ARG0 (s634x3 / 工作
 		:possessor-of (s634x1 / individual-person
 			:refer-person 1
@@ -24439,6 +24440,7 @@ Words: 我  的  工作   很多   …
 
 # alignment:
 s634x1: 0-0
+s634x2: 4-4
 s634x3: 3-3
 s634x4: 4-4
 
@@ -27630,7 +27632,7 @@ Words: 至少   他  的  工作   还  有点   意义   。
 			:refer-person 3
 			:refer-number singular))
 	:ARG1 (s726x7 / 意义
-		:quant (s726x6 / 点))
+		:quant s726x6)
 	:mod (s726x5 / 还)
 	:mod (s726x1 / 至少))
 
