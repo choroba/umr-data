@@ -3430,7 +3430,7 @@ Translation(English):	As we came to find out, they were saying that (the school)
 		:polarity -
 		:mod (s96h / haa)
 		:theme (s96n / niha’áłchíní
-			:poss (s96p2 / person
+			:possessor (s96p2 / person
 				:refer-person 1st
 				:refer-number dual))
 		:actor s96p2
@@ -3964,7 +3964,7 @@ Translation(English):	The one I referred to as my grandfather, and another uncle
 	:recipient s111p
 	:theme (s111x / ’ákót’éego)
 	:companion (s111h / hanááł
-		:poss (s111a / and
+		:possessor (s111a / and
 			:op1 (s111p2 / person
 				:ARG1-of (s111d2 / dishnínígíí
 					:ARG0 (s111p3 / person
@@ -4265,7 +4265,7 @@ Translation(English):	So people began to think along the lines of their planning
 		:refer-number plural)
 	:manner (s116b / bik’ehgo
 		:manner-of (s116b2 / binahat’a’ą́ą
-			:poss s116p))
+			:possessor s116p))
 	:temporal (s116x / ’áájí))
 
 # alignment:
@@ -4791,7 +4791,7 @@ Translation(English):	As for us, we spent another night at my uncle's hogan.
 		:refer-person 1st
 		:refer-number dual)
 	:place (s132b / bighandi
-		:poss (s132p2 / person
+		:possessor (s132p2 / person
 			:ARG0-of (s132k / kinship-91
 				:ARG1 (s132p3 / person
 					:refer-person 1st
@@ -5259,7 +5259,7 @@ Translation(English):	making out papers for more of our children.
 		:aspect activity
 		:affectee (s145n3 / niha’áłchíní
 			:refer-number plural
-			:poss (s145p2 / person
+			:possessor (s145p2 / person
 				:refer-person 1st
 				:refer-number plural))))
 
@@ -5424,7 +5424,7 @@ Translation(English):	a Red Streak Into Water Clansman. This man was killed rece
 		:actor-of (s149c3 / ch’élwodgo
 			:aspect performance
 			:place (s149b2 / bik’i
-				:poss s149p))))
+				:possessor s149p))))
 
 # alignment:
 s149b: 15-15
@@ -5974,7 +5974,7 @@ Translation(English):	and her hair is white.
 (s165x / łigai
 	:aspect state
 	:theme (s165b / bitsii’
-		:poss (s165p / person
+		:possessor (s165p / person
 			:refer-person 3rd
 			:refer-number singular)))
 
@@ -6359,10 +6359,10 @@ Translation(English):	Quite some time ago when they moved back from Fort Sumner 
 		:aspect activity
 		:actor s176p
 		:place (s176b / bighangóó
-			:poss (s176x / łį́į́’))
+			:possessor (s176x / łį́į́’))
 		:undergoer (s176y / yii’
 			:part-of (s176b2 / bichaan
-				:poss s176x))
+				:possessor s176x))
 		:manner-of (s176h2 / hojoobá’ígo
 			:aspect state
 			:undergoer s176p
@@ -6424,7 +6424,7 @@ Translation(English):	He used to be out there early in the morning with a stick 
 			:purpose (s177c / ch’éhégéedi
 				:aspect performance
 				:undergoer (s177b / bichaan
-					:poss (s177x / łį́į́’)))))
+					:possessor (s177x / łį́į́’)))))
 	:temporal (s177h2 / haiłkááhdą́ą́’
 		:mod (s177t2 / t’óó)))
 
@@ -6465,7 +6465,7 @@ Translation(English):	He could be seen sitting out there silhouetted against the
 	:direction (s178s / sháyahjį’
 		:force-of (s178b / bighájíchii’go
 			:undergoer (s178b2 / bitsii’
-				:poss s178p)
+				:possessor s178p)
 			:aspect activity)))
 
 # alignment:
@@ -6579,14 +6579,14 @@ Translation(English):	That is how his mind began to develop. He got ahead and no
 (s182a / and
 	:op1 (s182d / deezt’i’
 		:undergoer (s182b / binitsékees-
-			:poss (s182p / person
+			:possessor (s182p / person
 				:refer-person 3rd
 				:refer-number singular))
 		:temporal (s182x / ’áádę́ę́’)
 		:aspect performance)
 	:op2 (s182h / have-mod-91
 		:ARG0 (s182b2 / be’iina
-			:poss s182p
+			:possessor s182p
 			:undergoer-of (s182d2 / deezt’i’ii
 				:aspect performance))
 		:ARG1 (s182b3 / bidááh
@@ -7089,7 +7089,7 @@ Translation(English):	and stopped beside Chee.
 		:mod (s197d2 / diné)
 		:refer-number plural)
 	:undergoer (s197y / yílák
-		:poss s197p)
+		:possessor s197p)
 	:goal (s197n / nahgóó))
 
 # alignment:
@@ -7457,7 +7457,7 @@ Translation(English):	"We'll not give you a one of our children.
 		:quant (s207x / ła
 			:part-of (s207n / niha
 				:refer-number plural
-				:poss s207p)))
+				:possessor s207p)))
 	:recipient (s207p3 / person
 		:refer-person 2nd
 		:refer-number singular))
@@ -7571,7 +7571,7 @@ Translation(English):	The one I referred to as Limper was standing near Black Ho
 			:theme (s210n / na’niłhodí))
 		:undergoer-of (s210x / ’ákászaazgo
 			:instrument (s210b / beeldléí-
-				:poss s210p)))
+				:possessor s210p)))
 	:place (s210t / t’áá-’áhání
 		:mod (s210n2 / nah)
 		:part-of (s210p3 / person

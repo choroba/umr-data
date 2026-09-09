@@ -1147,7 +1147,7 @@ Translation(English):	We had earphones on, and talked to one another by radio.
 		:refer-person 3rd)
 	:medium (s30n / níłch’i-bee-hane’é)
 	:instrument (s30n2 / nihijaa’-bąąh-na’aznilgo
-		:poss (s30p3 / person
+		:possessor (s30p3 / person
 			:refer-number plural
 			:refer-person 1st)))
 
@@ -1796,7 +1796,7 @@ Translation(English):	That's how we went about over our land dropping hay.
 	:op2 (s46n / náá’ít’a’
 		:aspect performance
 		:place (s46b / bikék’ehgi
-			:poss (s46p2 / person
+			:possessor (s46p2 / person
 				:refer-number plural
 				:refer-person 3rd)
 			:mod (s46x / ’ákǫ́ǫ́-)
@@ -1884,7 +1884,7 @@ Translation(English):	Like this I went across our land unloading bales of hay.
 		:manner (s48k / kót’éego))
 	:path (s48b2 / bikáá’góó
 		:part (s48n / nihikéyah
-			:poss (s48p2 / person
+			:possessor (s48p2 / person
 				:refer-number plural
 				:refer-person 1st))))
 
@@ -5147,7 +5147,7 @@ Translation(English):	He simply couldn't find it.
 		:refer-number singular
 		:refer-person 3rd)
 	:stimulus (s126h / haghan
-		:poss s126p)
+		:possessor s126p)
 	:mode expressive)
 
 # alignment:
@@ -5182,7 +5182,7 @@ Translation(English):	He had been asking that hay be dropped at his own house fo
 		:refer-number singular
 		:refer-person 3rd)
 	:stimulus (s127h2 / haghan
-		:poss s127p)
+		:possessor s127p)
 	:mod (s127c / ch’ééh)
 	:extent (s127t / temporal-quantity
 		:quant 3
@@ -6191,7 +6191,7 @@ Translation(English):	In some places the sheep were kept in the corrals all day 
 		:degree intensifier
 		:place (s149b / biyi’góó
 			:part (s149b2 / bighan
-				:poss s149d)))
+				:possessor s149d)))
 	:place (s149x2 / łahgóó))
 
 # alignment:
@@ -6350,8 +6350,8 @@ Translation(English):	Many people lost stock.
 	:aspect performance
 	:mode expressive
 	:theme (s153b2 / bilį́į́’
-		:poss (s153p / pos)
-		:poss (s153d / diné)
+		:possessor (s153p / pos)
+		:possessor (s153d / diné)
 		:quant (s153t / t’óó-’ahayóí))
 	:direction (s153b3 / bits’ą́ą́’
 		:part s153d))
