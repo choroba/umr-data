@@ -242,7 +242,6 @@ s7t4: 0-0
 
 # document level annotation:
 (s7s0 / sentence
-	
 	:temporal ((s1e :overlap s7e)
 		(s7e :overlap s7e2))
 	:modal ((root :modal author)
@@ -362,7 +361,6 @@ s11t: 0-0
 		(s11e :after s11e2))
 	:modal ((root :modal author)
 		(author :full-affirmative s11e)
-
 		(author :full-affirmative s11p)
 		(s11p :partial-affirmative have-purpose-91)
 		(have-purpose-91 :neutral-affirmative have-condition-91)
@@ -401,7 +399,6 @@ s12e: 0-0
 		(have-condition-91 :full-affirmative s12p)
 		(s12p :full-affirmative s12a)
 		(s12a :unspecified s12e))
-	
 	:coref ((s11e2 :same-event s12e)
 		(s11e3 :same-event s12a)
 		(s11p :same-entity s12p)))
@@ -726,7 +723,6 @@ s21a: 1-1
 	:temporal ((s20h2 :overlap s21e)
 		(s21e :overlap s21e2))
 	:modal ((root :modal author)
-	
 		(author :neutral-affirmative have-condition-91)
 		(have-condition-91 :full-affirmative s21e)
 		(have-condition-91 :full-affirmative s21e2))
@@ -774,7 +770,6 @@ s22k2: 2-2
 	:coref ((s21e :same-event s22e)
 		(s21e2 :same-event s22e2)
 		(s21p :same-entity s22p)
-
 		(s21t :same-entity s22s)))
 
 
@@ -1123,7 +1118,6 @@ s32p: 0-0
 (s32s0 / sentence
 	:temporal ((past-reference :contained s32e))
 	:modal ((root :modal author)
-	
 		(author :full-affirmative s32e))
 	:coref ((s1t :same-entity s32p2)))
 
@@ -1194,7 +1188,7 @@ s34a: 1-1
 
 # document level annotation:
 (s34s0 / sentence
-	:coref (s33n2 :same-entity s34n))
+	:coref ((s33n2 :same-entity s34n)))
 
 
 ################################################################################
@@ -1298,7 +1292,6 @@ s37r: 0-0
 	:temporal ((past-reference :contained s37e))
 	:modal ((root :modal author)
 		(author :full-affirmative s37e))
-	
 	:coref ((s30p :same-entity s37p)
 		(s35p2 :same-entity s37p2)
 		(s36a :same-entity s37a2)))
@@ -1472,9 +1465,7 @@ s42y: 1-1
 (s42s0 / sentence
 	:temporal ((past-reference :contained s42e))
 	:modal ((root :modal author)
-	
 		(author :full-negative s42e))
-	
 	:coref ((s39p :same-entity s42p)
 		(s41a :subset-of s42a)))
 
@@ -1510,7 +1501,6 @@ s43t: 0-0
 	:temporal ((past-reference :contained s43e))
 	:modal ((root :modal author)
 		(author :full-affirmative s43e))
-	
 	:coref ((s42p :same-entity s43p)
 		(s42a :same-entity s43t)))
 
@@ -1547,7 +1537,6 @@ s44p: 0-0
 		(s44h :contained s44e))
 	:modal ((root :modal author)
 		(author :full-negative s44e))
-	
 	:coref ((s37p2 :same-entity s44p)
 		(s24h :same-entity s44h)))
 
@@ -1711,7 +1700,6 @@ s49y2: 2-2
 	:temporal ((past-reference :contained s49e))
 	:modal ((root :modal author)
 		(author :full-affirmative s49e))
-	
 	:coref ((s48p :same-entity s49p2)))
 
 
@@ -1773,7 +1761,6 @@ s51p3: 0-0
 	:temporal ((past-reference :contained s51e))
 	:modal ((root :modal author)
 		(author :full-negative s51e))
-	
 	:coref ((s50p :subset-of s51p2)
 		(s50p :subset-of s51p3)))
 
@@ -1866,7 +1853,6 @@ s53p: 0-0
 		(author :full-affirmative s53p)
 		(s53p :full-affirmative s53e)
 		(s53e :unspecified s53e2))
-	
 	:coref ((s52i2 :same-event s53e2)
 		(s45p2 :subset-of s53p)))
 
@@ -1950,7 +1936,6 @@ s55t: 0-0
 	:coref ((s52e :same-event s55e2)
 		(s52i2 :same-event s55i2)
 		(s52e3 :same-event s55e)
-	
 		(s52p :same-entity s55p)
 		(s44h :same-entity s55h)))
 

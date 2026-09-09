@@ -1185,7 +1185,6 @@ Translation(Spanish):	No sé... yo vi un poco nomás cuando estaba pequeña, cua
 		(s35e2 :overlap s35h))
 	:modal ((root :modal author)
 		(author :full-affirmative s35p)
-
 		(s35p :full-affirmative s35e2)
 		(s35e2 :unspecified s35e3)
 		(author :full-affirmative s35h))
@@ -2847,7 +2846,7 @@ s84p2: 0-0
 	:modal ((root :modal author)
 		(author :full-negative s84a2)
 		(s84a2 :full-affirmative s84m)
-		(s84m :UNSP s84e2)
+		(s84m :unspecified s84e2)
 		(author :full-affirmative s84e))
 	:coref ((s80e :same-event s84e)
 		(s82p2 :same-entity s84p)
