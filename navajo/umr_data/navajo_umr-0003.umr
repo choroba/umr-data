@@ -69,8 +69,7 @@ s1s: 0-0
 
 # document level annotation:
 (s1s0 / sentence
-	:temporal ((s1s :before s2h2)
-		(s1s :before document-creation-time))
+	:temporal ((s1s :before document-creation-time))
 	:modal ((root :modal author)
 		(author :neutral-affirmative s1k)))
 
@@ -100,7 +99,8 @@ s2h2: 0-0
 s2p: 0-0
 
 # document level annotation:
-(s2s0 / sentence)
+(s2s0 / sentence
+	:temporal ((s1s :before s2h2)))
 
 
 ################################################################################

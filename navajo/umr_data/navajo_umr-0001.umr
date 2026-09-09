@@ -47,8 +47,7 @@ s1x: 8-8
 	:temporal ((document-creation-time :before s1e)
 		(s1e :contained s1d)
 		(s1d :before s1x)
-		(s1x :depends-on s1a)
-		(document-creation-time :before s3j))
+		(s1x :depends-on s1a))
 	:modal ((root :modal author)
 		(author :full-affirmative s1s)
 		(author :full-affirmative s1h)
@@ -156,6 +155,7 @@ s3x: 9-9
 # document level annotation:
 (s3s0 / sentence
 	:temporal ((s3j :before s2n)
+		(document-creation-time :before s3j)
 		(s2n :before s2x)))
 
 
