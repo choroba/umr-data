@@ -3560,11 +3560,11 @@ Words: 在此 之前 ， 曼联 也 对外 声明 若 顺利 夺冠 将  不  �
                         :op1 "瑞典"))))
         :ARG1 (s47x14 / 取消-01
             :ARG0 s47x12
-            :ARG1 (s3x / 出席-01
+            :ARG1 (s47x300 / 出席-01
                 :ARG0 s47x12
-                :ARG1 (s3x2 / 演出-01
+                :ARG1 (s47x302 / 演出-01
                     :ARG0 s47x12
-                    :mod (s3x3 / 开幕-01
+                    :mod (s47x303 / 开幕-01
                         :aspect process)
                     :aspect performance)
                 :aspect performance)
@@ -3599,11 +3599,10 @@ Words: 在此 之前 ， 曼联 也 对外 声明 若 顺利 夺冠 将  不  �
         :quote s47x12
         :aspect performance))
 
-
 # alignment:
-s3x: 31-31
-s3x2: 33-33
-s3x3: 32-32
+s47x300: 31-31
+s47x302: 33-33
+s47x303: 32-32
 s47a: 0-0
 s47c: 0-0
 s47h: 0-0
@@ -3648,7 +3647,7 @@ s47x9: 14-14
         (document-creation-time :before s47x2)
         (s47x2 :overlap s47x14)
         (s47x14 :overlap s3x2)
-        (s3x2 :overlap s3x3)
+        (s3x2 :overlap s47x303)
         (s47x2 :before s47x11)
         (s47x11 :before s47x22)
         (s47x2 :overlap s47x3)
@@ -3667,11 +3666,11 @@ s47x9: 14-14
         (author :neutral-affirmative s47s)
         (author :full-affirmative s47x)
         (author :full-affirmative s47s)
-        (author :full-affirmative s3x3)
+        (author :full-affirmative s47x303)
         (author :full-affirmative s47s)
-        (author :full-affirmative s3x2)
+        (author :full-affirmative s47x302)
         (author :full-affirmative s47s)
-        (author :full-negative s3x)
+        (author :full-negative s47x300)
         (author :full-negative s47s)
         (s47s :full-affirmative s47x14)
         (author :full-affirmative s47x11)
