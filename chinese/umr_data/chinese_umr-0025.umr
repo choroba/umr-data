@@ -134,26 +134,25 @@ Words: 这  本  书  中  写道   ：  “ 这些   蟒蛇   把  它们   的
 
 # sentence level graph:
 (s4x5 / 写道-01
-			:ARG2 (s4x3 / 书
-									:mod (s4x1 / 这本书
-														/ 这)
-									:unit (s4x2 / 本)
-									:modal-strength (s4x40 / full-affirmative))
-			:ARG1 (s4x18 / 吞下
-									:ARG0 (s4x9 / 蟒蛇
-															:mod (s4x8 / 这些))
-									:ARG1 (s4x13 / 猎获物
-																:possessor-of (s4x11 / individual-person
-																						:refer-person 3
-																						:refer-number plural))
-									:manner (s4x17 / 囫囵)
-									:manner (s4x15 / 咀嚼-01
-																	:polarity -
-																	:ARG0 s4x9
-																	:ARG1 s4x13)
-									:modal-strength (s4x33 / full-affirmative
-																	:conceiver s4x1)
-									:quote (s4x5 / 写道-01)))
+   :ARG2 (s4x3 / 书
+         :mod (s4x1 / 这本书)
+         :unit (s4x2 / 本)
+         :modal-strength (s4x40 / full-affirmative))
+   :ARG1 (s4x18 / 吞下
+         :ARG0 (s4x9 / 蟒蛇
+               :mod (s4x8 / 这些))
+         :ARG1 (s4x13 / 猎获物
+                :possessor-of (s4x11 / individual-person
+                      :refer-person 3
+                      :refer-number plural))
+         :manner (s4x17 / 囫囵)
+         :manner (s4x15 / 咀嚼-01
+                 :polarity -
+                 :ARG0 s4x9
+                 :ARG1 s4x13)
+         :modal-strength (s4x33 / full-affirmative
+                 :conceiver s4x1)
+         :quote s4x5))
 
 # alignment:
 s4x1: 1-1
@@ -1565,34 +1564,33 @@ Words: 当时   由于   我  既  没有   带  机械师    也  没有   带 
 
 # sentence level graph:
 (s36x24 / causation
-				:ARG1 (s36x26 / and
-											:op1 (s36x6 / 带-02
-																	:ARG1 (s36x7 / 机械师)
-																	:modal-strength (s36x49 / full-negative)
-																	:polarity -)
-											:op2 (s36x10 / 带-01
-																	:ARG1 (s36x11 / 旅客)
-																	:modal-strength (s36x50 / full-negative)
-																	:polarity -)
-											:ARG0 (s36x3 / individual-person
-																	:refer-person 1
-																	:refer-number singular))
-				:ARG2 (s36x15 / 试图-01
-											:ARG0 (s36x13 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:ARG1 (s36x17 / 完成-01
-																		:manner (s36x16 / 独自
-																										:ARG1 (s36x22 / 工作
-																																	:mod (s36x19 / 困难)
-																																	:mod (s36x21 / 维修)
-																																	:mod (s36x18 / 个
-																																							/ 这)
-																																	:unit s36x18))
-																		:ARG0 s36x13
-																		:modal-predicate s36x15
-																		:modal-strength (s36x47 / neutral-affirmative
-																										:conceiver s36x13))))
+    :ARG1 (s36x26 / and
+           :op1 (s36x6 / 带-02
+                 :ARG1 (s36x7 / 机械师)
+                 :modal-strength (s36x49 / full-negative)
+                 :polarity -)
+           :op2 (s36x10 / 带-01
+                 :ARG1 (s36x11 / 旅客)
+                 :modal-strength (s36x50 / full-negative)
+                 :polarity -)
+           :ARG0 (s36x3 / individual-person
+                 :refer-person 1
+                 :refer-number singular))
+    :ARG2 (s36x15 / 试图-01
+           :ARG0 (s36x13 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :ARG1 (s36x17 / 完成-01
+                  :manner (s36x16 / 独自
+                          :ARG1 (s36x22 / 工作
+                                 :mod (s36x19 / 困难)
+                                 :mod (s36x21 / 维修)
+                                 :mod (s36x18 / 这个)
+                                 :unit s36x18))
+                  :ARG0 s36x13
+                  :modal-predicate s36x15
+                  :modal-strength (s36x47 / neutral-affirmative
+                          :conceiver s36x13))))
 
 # alignment:
 s36x10: 6-6
@@ -2311,31 +2309,30 @@ Words: 而  这个   小家伙    给  我  的  印象   是  ，  他  既  �
 
 # sentence level graph:
 (s54x31 / contrast
-				:ARG2 (s54x7 / 印象
-										:ARG0 (s54x3 / 小家伙
-																	:mod (s54x2 / 个
-																							/ 这)
-																	:unit s54x2)
-										:ARG1 (s54x5 / individual-person
-																	:refer-person 1
-																	:refer-number singular)
-										:ARG2 (s54x38 / and
-																	:op1 (s54x13 / 象-01
-																								:ARG0 (s54x10 / individual-person
-																															:refer-person 3
-																															:refer-number singular)
-																								:polarity -
-																								:ARG1 (s54x18 / 样子
-																															:mod (s54x14 / 迷路
-																																					:aspect performance
-																																					:ARG0 s54x10)))
-																	:op2 (s54x21 / 有-01
-																								:ARG1 (s54x29 / 神情
-																															:quant (s54x22 / 半点)
-																															:mod (s54x50 / and
-																																					:op1 (s54x23 / 疲乏)
-																																					:op2 (s54x25 / 饥渴)
-																																					:op3 (s54x27 / 惧怕)))))))
+    :ARG2 (s54x7 / 印象
+          :ARG0 (s54x3 / 小家伙
+                 :mod (s54x2 / 这个)
+                 :unit s54x2)
+          :ARG1 (s54x5 / individual-person
+                 :refer-person 1
+                 :refer-number singular)
+          :ARG2 (s54x38 / and
+                 :op1 (s54x13 / 象-01
+                        :ARG0 (s54x10 / individual-person
+                               :refer-person 3
+                               :refer-number singular)
+                        :polarity -
+                        :ARG1 (s54x18 / 样子
+                               :mod (s54x14 / 迷路
+                                     :aspect performance
+                                     :ARG0 s54x10)))
+                 :op2 (s54x21 / 有-01
+                        :ARG1 (s54x29 / 神情
+                               :quant (s54x22 / 半点)
+                               :mod (s54x50 / and
+                                     :op1 (s54x23 / 疲乏)
+                                     :op2 (s54x25 / 饥渴)
+                                     :op3 (s54x27 / 惧怕)))))))
 
 # alignment:
 s54x10: 0-0
@@ -4675,43 +4672,42 @@ Words: 即刻   ，  对于   他  是  从  哪里   来  的  这个   秘密 
 
 # sentence level graph:
 (s117x41 / causation
-				:ARG1 (s117x14 / 发现-01
-												:ARG0 (s117x12 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:ARG1 (s117x18 / 线索
-																			:quant (s117x17 / 一点)
-																			:possessor-of (s117x11 / 秘密
-																											:ARG0-of (s117x48 / mean
-																																				:ARG1 (s117x8 / 来-01
-																																											:ARG0 (s117x4 / individual-person
-																																																		:refer-person 3
-																																																		:refer-number singular)
-																																											:ARG2 (s117x51 / amr-unknown)
-																																											:mode judgement))
-																											:mod (s117x10 / 个
-																																		/ 这)
-																											:unit s117x10))
-												:aspect performance
-												:degree (s117x13 / 隐约)
-												:temporal (s117x1 / 即刻)
-												:modal-strength (s117x73 / full-affirmative))
-				:ARG2 (s117x25 / 问道-01
-												:ARG0 (s117x22 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:manner (s117x24 / 突然)
-												:ARG1 (s117x36 / 来-01
-																			:ARG0 (s117x28 / individual-person
-																											:refer-person 2
-																											:refer-number singular)
-																			:ARG3 (s117x34 / 星球
-																											:mod (s117x31 / 另)
-																											:quant 1
-																											:unit (s117x33 / 个))
-																			:mode judgement
-																			:mode interrogative)
-												:modal-strength (s117x74 / full-affirmative)))
+    :ARG1 (s117x14 / 发现-01
+            :ARG0 (s117x12 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :ARG1 (s117x18 / 线索
+                   :quant (s117x17 / 一点)
+                   :possessor-of (s117x11 / 秘密
+                           :ARG0-of (s117x48 / mean
+                                    :ARG1 (s117x8 / 来-01
+                                           :ARG0 (s117x4 / individual-person
+                                                  :refer-person 3
+                                                  :refer-number singular)
+                                           :ARG2 (s117x51 / amr-unknown)
+                                           :mode judgement))
+                           :mod (s117x10 / 这个)
+                           :unit s117x10))
+            :aspect performance
+            :degree (s117x13 / 隐约)
+            :temporal (s117x1 / 即刻)
+            :modal-strength (s117x73 / full-affirmative))
+    :ARG2 (s117x25 / 问道-01
+            :ARG0 (s117x22 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :manner (s117x24 / 突然)
+            :ARG1 (s117x36 / 来-01
+                   :ARG0 (s117x28 / individual-person
+                           :refer-person 2
+                           :refer-number singular)
+                   :ARG3 (s117x34 / 星球
+                           :mod (s117x31 / 另)
+                           :quant 1
+                           :unit (s117x33 / 个))
+                   :mode judgement
+                   :mode interrogative)
+            :modal-strength (s117x74 / full-affirmative)))
 
 # alignment:
 s117x1: 1-1
@@ -5653,32 +5649,31 @@ Words: 我  还  了解   到  另  一  件  重要   的  事  ，  就  是  
 
 # sentence level graph:
 (s139x29 / and
-				:op2 (s139x3 / 了解-01
-											:ARG0 (s139x1 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:ARG1 (s139x10 / 事
-																		:mod (s139x8 / 重要)
-																		:mod (s139x5 / 另)
-																		:quant 1
-																		:unit (s139x7 / 件)
-																		:ARG0-of (s139x12 / mean
-																											:ARG1 (s139x24 / 大
-																																			:ARG0 (s139x19 / 星球
-																																										:place (s139x15 / 老家
-																																																		:possessor-of (s139x14 / individual-person
-																																																										:refer-person 3
-																																																										:refer-number singular))
-																																										:mod (s139x18 / 个
-																																																	/ 那)
-																																										:unit s139x18)
-																																			:polarity -
-																																			:degree (s139x27 / 多少)
-																																			:compared-to (s139x23 / 房子
-																																														:unit (s139x22 / 座)
-																																														:quant 1))))
-											:modal-strength (s139x53 / full-affirmative
-																			:conceiver (s139x54 / author))))
+    :op2 (s139x3 / 了解-01
+           :ARG0 (s139x1 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :ARG1 (s139x10 / 事
+                  :mod (s139x8 / 重要)
+                  :mod (s139x5 / 另)
+                  :quant 1
+                  :unit (s139x7 / 件)
+                  :ARG0-of (s139x12 / mean
+                           :ARG1 (s139x24 / 大
+                                   :ARG0 (s139x19 / 星球
+                                          :place (s139x15 / 老家
+                                                  :possessor-of (s139x14 / individual-person
+                                                          :refer-person 3
+                                                          :refer-number singular))
+                                          :mod (s139x18 / 那个)
+                                          :unit s139x18)
+                                   :polarity -
+                                   :degree (s139x27 / 多少)
+                                   :compared-to (s139x23 / 房子
+                                              :unit (s139x22 / 座)
+                                              :quant 1))))
+           :modal-strength (s139x53 / full-affirmative
+                   :conceiver (s139x54 / author))))
 
 # alignment:
 s139x1: 0-0
@@ -5918,28 +5913,27 @@ Words: 我  有  重要   的  根据   认为   小  王子   所  来自   的
 
 # sentence level graph:
 (s144x6 / 认为
-				:ARG0 (s144x1 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:cause (s144x2 / 有-01
-											:ARG0 s144x1
-											:ARG1 (s144x5 / 根据
-																		:mod (s144x3 / 重要)))
-				:ARG1 (s144x16 / 行星
-											:mod (s144x15 / 小)
-											:name (s144x17 / name
-																			:op1 "b612"))
-				:ARG1 (s144y1 / identity-91
-											:ARG0 (s144x13 / 星球
-																		:ARG1-of (s144x10 / 来自-01
-																											:ARG0 (s144x8 / 王子
-																																		:mod (s144x7 / 小)))
-																		:mod (s144x12 / 个
-																									/ 那)
-																		:unit s144x12)
-											:ARG1 s144x16)
-				:modal-strength (s144x35 / full-affirmative
-												:conceiver (s144x36 / author)))
+    :ARG0 (s144x1 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :cause (s144x2 / 有-01
+           :ARG0 s144x1
+           :ARG1 (s144x5 / 根据
+                  :mod (s144x3 / 重要)))
+    :ARG1 (s144x16 / 行星
+           :mod (s144x15 / 小)
+           :name (s144x17 / name
+                   :op1 "b612"))
+    :ARG1 (s144y1 / identity-91
+           :ARG0 (s144x13 / 星球
+                  :ARG1-of (s144x10 / 来自-01
+                           :ARG0 (s144x8 / 王子
+                                  :mod (s144x7 / 小)))
+                  :mod (s144x12 / 那个)
+                  :unit s144x12)
+           :ARG1 s144x16)
+    :modal-strength (s144x35 / full-affirmative
+            :conceiver (s144x36 / author)))
 
 # alignment:
 s144x1: 0-0
@@ -7241,20 +7235,19 @@ Words: 我  真  愿意   象  讲  神话   那样   来  开始   这个   故
 
 # sentence level graph:
 (s175x3 / 愿意-01
-				:ARG0 (s175x1 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:ARG1 (s175x9 / 开始-01
-											:ARG1 (s175x11 / 故事
-																		:mod (s175x10 / 个
-																									/ 这)
-																		:unit s175x10)
-											:manner (s175x4 / 像-01
-																			:ARG1 (s175x5 / 讲-01
-																										:ARG1 (s175x6 / 神话)))
-											:modal-strength (s175x28 / full-affirmative))
-				:degree (s175x2 / 真)
-				:modal-strength (s175x27 / full-affirmative))
+    :ARG0 (s175x1 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :ARG1 (s175x9 / 开始-01
+           :ARG1 (s175x11 / 故事
+                  :mod (s175x10 / 这个)
+                  :unit s175x10)
+           :manner (s175x4 / 像-01
+                   :ARG1 (s175x5 / 讲-01
+                          :ARG1 (s175x6 / 神话)))
+           :modal-strength (s175x28 / full-affirmative))
+    :degree (s175x2 / 真)
+    :modal-strength (s175x27 / full-affirmative))
 
 # alignment:
 s175x1: 0-0
@@ -7667,24 +7660,23 @@ Words: 也  正  是  为了   这个   缘故   ，  我  买  了  一  盒  �
 
 # sentence level graph:
 (s185x18 / causation
-				:ARG1 (s185x6 / 缘故
-											:mod (s185x1 / 也)
-											:mod (s185x2 / 正是)
-											:mod (s185x5 / 个
-																		/ 这)
-											:unit s185x5)
-				:ARG2 (s185x9 / 买
-											:ARG0 (s185x8 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:ARG1 (s185x28 / and
-																			:op1 (s185x13 / 颜料
-																										:quant 1
-																										:unit (s185x12 / 盒))
-																			:op2 (s185x16 / 铅笔
-																										:quant (s185x15 / 一些)))
-											:aspect performance
-											:modal-strength (s185x35 / full-affirmative)))
+    :ARG1 (s185x6 / 缘故
+           :mod (s185x1 / 也)
+           :mod (s185x2 / 正是)
+           :mod (s185x5 / 这个)
+           :unit s185x5)
+    :ARG2 (s185x9 / 买
+           :ARG0 (s185x8 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :ARG1 (s185x28 / and
+                   :op1 (s185x13 / 颜料
+                          :quant 1
+                          :unit (s185x12 / 盒))
+                   :op2 (s185x16 / 铅笔
+                          :quant (s185x15 / 一些)))
+           :aspect performance
+           :modal-strength (s185x35 / full-affirmative)))
 
 # alignment:
 s185x1: 1-1
@@ -8118,20 +8110,19 @@ Words: 因为   我  的  这个   朋友   ，  从来   也  不  加  说明 
 
 # sentence level graph:
 (s194x14 / causation
-				:ARG1 (s194x16 / and
-												:op1 (s194x11 / 说明)
-												:op2 (s194x12 / 解释
-																			:modal-strength (s194x26 / full-negative))
-												:polarity -
-												:temporal (s194x7 / 从来)
-												:mod (s194x8 / 也))
-				:ARG0 (s194x5 / 朋友
-											:possessor-of (s194x2 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:mod (s194x4 / 个
-																		/ 这)
-											:unit s194x4))
+    :ARG1 (s194x16 / and
+            :op1 (s194x11 / 说明)
+            :op2 (s194x12 / 解释
+                   :modal-strength (s194x26 / full-negative))
+            :polarity -
+            :temporal (s194x7 / 从来)
+            :mod (s194x8 / 也))
+    :ARG0 (s194x5 / 朋友
+           :possessor-of (s194x2 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :mod (s194x4 / 这个)
+           :unit s194x4))
 
 # alignment:
 s194x11: 11-11
@@ -9312,29 +9303,28 @@ Words: 因为   在  小  王子   的  星球   上  ，  ，  有些   非常 
 
 # sentence level graph:
 (s225x37 / and
-				:snt1 (s225x39 / causation
-												:ARG1 (s225x10 / 些
-																			/ 有-03
-																			:ARG1 (s225x14 / 种子
-																											:mod (s225x12 / 可怕
-																																		:degree (s225x11 / 非常))
-																											:quant s225x10)
-																			:ARG0 (s225x6 / 星球
-																										:possessor-of (s225x4 / 王子
-																																	:mod (s225x3 / 小)))))
-				:snt2 (s225x21 / 种子
-												:possessor-of (s225x19 / 猴面包树
-																			:mod (s225x17 / 就))
-												:possessor-of (s225y1 / identity-91
-																			:ARG0 (s225x16 / 这)
-																			:ARG1 s225x19))
-				:snt3 (s225x31 / 多
-												:degree (s225x33 / 成灾-01)
-												:ARG0 (s225x30 / 种子
-																			:mod (s225x28 / 这)
-																			:unit (s225x29 / 种))
-												:place (s225x25 / 泥土
-																				:mod (s225x23 / 那里))))
+    :snt1 (s225x39 / causation
+            :ARG1 (s225x10 / 有些-03
+                   :ARG1 (s225x14 / 种子
+                           :mod (s225x12 / 可怕
+                                  :degree (s225x11 / 非常))
+                           :quant s225x10)
+                   :ARG0 (s225x6 / 星球
+                          :possessor-of (s225x4 / 王子
+                                 :mod (s225x3 / 小)))))
+    :snt2 (s225x21 / 种子
+            :possessor-of (s225x19 / 猴面包树
+                   :mod (s225x17 / 就))
+            :possessor-of (s225y1 / identity-91
+                   :ARG0 (s225x16 / 这)
+                   :ARG1 s225x19))
+    :snt3 (s225x31 / 多
+            :degree (s225x33 / 成灾-01)
+            :ARG0 (s225x30 / 种子
+                   :mod (s225x28 / 这)
+                   :unit (s225x29 / 种))
+            :place (s225x25 / 泥土
+                    :mod (s225x23 / 那里))))
 
 # alignment:
 s225x10: 10-10
@@ -10010,20 +10000,19 @@ Words: 于是   ，  根据   小  王子   的  说明   ，  我  把  这个 
 
 # sentence level graph:
 (s239x19 / causation
-				:ARG2 (s239x13 / 画-01
-												:ARG0 (s239x9 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:ARG1 (s239x12 / 星球
-																			:mod (s239x11 / 个
-																										/ 这)
-																			:unit s239x11)
-												:aspect performance
-												:manner (s239x3 / 根据-01
-																				:ARG1 (s239x7 / 说明
-																											:possessor-of (s239x5 / 王子
-																																		:mod (s239x4 / 小))))
-												:modal-strength (s239x31 / full-affirmative)))
+    :ARG2 (s239x13 / 画-01
+            :ARG0 (s239x9 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :ARG1 (s239x12 / 星球
+                   :mod (s239x11 / 这个)
+                   :unit s239x11)
+            :aspect performance
+            :manner (s239x3 / 根据-01
+                    :ARG1 (s239x7 / 说明
+                           :possessor-of (s239x5 / 王子
+                                  :mod (s239x4 / 小))))
+            :modal-strength (s239x31 / full-affirmative)))
 
 # alignment:
 s239x11: 11-11
@@ -10326,24 +10315,23 @@ Words: 我  提出   的  这个   教训   意义   是  很  重大   的  ，
 
 # sentence level graph:
 (s245x20 / and
-				:op1 (s245x9 / 重大-01
-											:ARG0 (s245x6 / 意义
-																		:mod (s245x5 / 教训
-																								:ARG1-of (s245x2 / 提出-01
-																																	:ARG0 (s245x1 / individual-person
-																																								:refer-person 1
-																																								:refer-number singular))
-																								:mod (s245x4 / 个
-																															/ 这)
-																								:unit s245x4))
-											:degree (s245x8 / 很)
-											:mode judgement)
-				:op2 (s245x17 / 值得
-											:degree (s245x16 / 很)
-											:ARG0 (s245x12 / 花-01
-																			:ARG1 (s245x14 / 功夫
-																										:quant (s245x13 / 点)))
-											:mode judgement))
+    :op1 (s245x9 / 重大-01
+           :ARG0 (s245x6 / 意义
+                  :mod (s245x5 / 教训
+                        :ARG1-of (s245x2 / 提出-01
+                                 :ARG0 (s245x1 / individual-person
+                                        :refer-person 1
+                                        :refer-number singular))
+                        :mod (s245x4 / 这个)
+                        :unit s245x4))
+           :degree (s245x8 / 很)
+           :mode judgement)
+    :op2 (s245x17 / 值得
+           :degree (s245x16 / 很)
+           :ARG0 (s245x12 / 花-01
+                   :ARG1 (s245x14 / 功夫
+                          :quant (s245x13 / 点)))
+           :mode judgement))
 
 # alignment:
 s245x1: 0-0
@@ -10666,52 +10654,51 @@ Words: 这个   新  的  细节   ，  是  我  在  第四   天  早晨   �
 
 # sentence level graph:
 (s254x35 / and
-				:snt1 (s254x12 / 知道-01
-												:ARG0 (s254x7 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:ARG1 (s254x4 / 细节
-																			:mod (s254x2 / 新)
-																			:mod (s254x1 / 个
-																									/ 这)
-																			:unit s254x1)
-												:temporal (s254x11 / 早晨
-																					:temporal (s254x10 / 天
-																															:ord (s254x45 / ordinal-entity
-																																						:value 4)))
-												:mode judgement)
-				:snt2 (s254x19 / 说道-01
-												:ARG0 (s254x15 / individual-person
-																			:refer-person 2
-																			:refer-number singular
-																			:modal-strength (s254x70 / full-affirmative))
-												:temporal (s254x16 / 当时)
-												:ARG2 (s254x18 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:ARG1 (s254x52 / and
-																			:op1 (s254x23 / 喜欢-01
-																										:ARG0 (s254x22 / individual-person
-																																		:refer-person 1
-																																		:refer-number singular)
-																										:ARG1 (s254x24 / 看-02
-																																		:ARG1 (s254x25 / 日落)
-																																		:ARG0 s254x22)
-																										:quote s254x19
-																										:modal-strength (s254x67 / full-affirmative
-																																			:conceiver s254x15))
-																			:op2 (s254x27 / 去-01
-																										:ARG1 (s254x28 / 看-02
-																																		:ARG0 (s254x26 / individual-person
-																																									:refer-person 1
-																																									:refer-number plural)
-																																		:ARG1 (s254x31 / 日落-01
-																																									:quant 1
-																																									:unit (s254x30 / 回))
-																																		:mode expressive
-																																		:modal-strength (s254x72 / neutral-affirmative
-																																										:conceiver s254x15))
-																										:ARG0 s254x26))))
+    :snt1 (s254x12 / 知道-01
+            :ARG0 (s254x7 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :ARG1 (s254x4 / 细节
+                   :mod (s254x2 / 新)
+                   :mod (s254x1 / 这个)
+                   :unit s254x1)
+            :temporal (s254x11 / 早晨
+                     :temporal (s254x10 / 天
+                               :ord (s254x45 / ordinal-entity
+                                      :value 4)))
+            :mode judgement)
+    :snt2 (s254x19 / 说道-01
+            :ARG0 (s254x15 / individual-person
+                   :refer-person 2
+                   :refer-number singular
+                   :modal-strength (s254x70 / full-affirmative))
+            :temporal (s254x16 / 当时)
+            :ARG2 (s254x18 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :ARG1 (s254x52 / and
+                   :op1 (s254x23 / 喜欢-01
+                          :ARG0 (s254x22 / individual-person
+                                  :refer-person 1
+                                  :refer-number singular)
+                          :ARG1 (s254x24 / 看-02
+                                  :ARG1 (s254x25 / 日落)
+                                  :ARG0 s254x22)
+                          :quote s254x19
+                          :modal-strength (s254x67 / full-affirmative
+                                   :conceiver s254x15))
+                   :op2 (s254x27 / 去-01
+                          :ARG1 (s254x28 / 看-02
+                                  :ARG0 (s254x26 / individual-person
+                                         :refer-person 1
+                                         :refer-number plural)
+                                  :ARG1 (s254x31 / 日落-01
+                                         :quant 1
+                                         :unit (s254x30 / 回))
+                                  :mode expressive
+                                  :modal-strength (s254x72 / neutral-affirmative
+                                          :conceiver s254x15))
+                          :ARG0 s254x26))))
 
 # alignment:
 s254x1: 1-1
@@ -10866,15 +10853,14 @@ Words: 我们   必须   等  到  那个   时候   。
 
 # sentence level graph:
 (s260x2 / 必须-01
-				:ARG0 (s260x3 / 等-01
-											:ARG0 (s260x1 / individual-person
-																		:refer-person 1
-																		:refer-number plural)
-											:ARG1 (s260x6 / 时候
-																		:mod (s260x5 / 个
-																								/ 那)
-																		:unit s260x5)
-											:modal-strength (s260x17 / partial-affirmative)))
+    :ARG0 (s260x3 / 等-01
+           :ARG0 (s260x1 / individual-person
+                  :refer-person 1
+                  :refer-number plural)
+           :ARG1 (s260x6 / 时候
+                  :mod (s260x5 / 那个)
+                  :unit s260x5)
+           :modal-strength (s260x17 / partial-affirmative)))
 
 # alignment:
 s260x1: 0-0
@@ -11871,15 +11857,14 @@ Words: 这个   该死   的  螺丝   使  我  很  恼火   ，
 
 # sentence level graph:
 (s288x8 / 恼火-01
-				:degree (s288x7 / 很)
-				:ARG0 (s288x6 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:cause (s288x4 / 螺丝
-											:mod (s288x2 / 该死)
-											:mod (s288x1 / 个
-																		/ 这)
-											:unit s288x1))
+    :degree (s288x7 / 很)
+    :ARG0 (s288x6 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :cause (s288x4 / 螺丝
+           :mod (s288x2 / 该死)
+           :mod (s288x1 / 这个)
+           :unit s288x1))
 
 # alignment:
 s288x1: 1-1
@@ -12190,32 +12175,31 @@ Words: 我  当时   想  的  ，  如果   这个   螺丝   再  和  我  �
 
 # sentence level graph:
 (s299x3 / 想-01
-				:ARG0 (s299x1 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:temporal (s299x2 / 当时)
-				:ARG1 (s299x25 / condition
-											:ARG1 (s299x12 / 作对-01
-																			:ARG0 (s299x8 / 螺丝
-																										:mod (s299x7 / 个
-																																/ 这)
-																										:unit s299x7)
-																			:mod (s299x9 / 再)
-																			:ARG1 (s299x11 / individual-person
-																										:refer-person 1
-																										:refer-number singular)
-																			:modal-strength (s299x37 / full-affirmative))
-											:ARG2 (s299x18 / 敲掉
-																			:ARG0 (s299x14 / individual-person
-																										:refer-person 1
-																										:refer-number singular)
-																			:ARG1 (s299x19 / individual-person
-																										:refer-person 3
-																										:refer-number singular)
-																			:manner (s299x16 / 一锤子)
-																			:modal-strength (s299x38 / full-affirmative))
-											:modal-strength (s299x39 / neutral-affirmative
-																				:conceiver s299x1)))
+    :ARG0 (s299x1 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :temporal (s299x2 / 当时)
+    :ARG1 (s299x25 / condition
+           :ARG1 (s299x12 / 作对-01
+                   :ARG0 (s299x8 / 螺丝
+                          :mod (s299x7 / 这个)
+                          :unit s299x7)
+                   :mod (s299x9 / 再)
+                   :ARG1 (s299x11 / individual-person
+                          :refer-person 1
+                          :refer-number singular)
+                   :modal-strength (s299x37 / full-affirmative))
+           :ARG2 (s299x18 / 敲掉
+                   :ARG0 (s299x14 / individual-person
+                          :refer-person 1
+                          :refer-number singular)
+                   :ARG1 (s299x19 / individual-person
+                          :refer-person 3
+                          :refer-number singular)
+                   :manner (s299x16 / 一锤子)
+                   :modal-strength (s299x38 / full-affirmative))
+           :modal-strength (s299x39 / neutral-affirmative
+                    :conceiver s299x1)))
 
 # alignment:
 s299x1: 0-0
@@ -13263,21 +13247,20 @@ Words: 这  难道   不  比  那个   大  胖子   红  脸  先生   的  �
 
 # sentence level graph:
 (s330x14 / 重要
-				:degree (s330x13 / 更)
-				:ARG0 (s330x1 / 这)
-				:compared-to (s330x12 / 帐目
-															:possessor-of (s330x10 / 先生
-																							:part (s330x9 / 脸
-																														:mod (s330x8 / 红))
-																							:ARG0-of (s330x25 / mean
-																																:ARG1 (s330x7 / 胖子
-																																							:mod (s330x6 / 大)))
-																							:mod (s330x5 / 个
-																													/ 那)
-																							:unit s330x5))
-				:polarity -
-				:mod (s330x2 / 难道)
-				:mode interrogative)
+    :degree (s330x13 / 更)
+    :ARG0 (s330x1 / 这)
+    :compared-to (s330x12 / 帐目
+               :possessor-of (s330x10 / 先生
+                       :part (s330x9 / 脸
+                              :mod (s330x8 / 红))
+                       :ARG0-of (s330x25 / mean
+                                :ARG1 (s330x7 / 胖子
+                                       :mod (s330x6 / 大)))
+                       :mod (s330x5 / 那个)
+                       :unit s330x5))
+    :polarity -
+    :mod (s330x2 / 难道)
+    :mode interrogative)
 
 # alignment:
 s330x1: 1-1
@@ -14422,40 +14405,39 @@ Words: 看到   在  这  棵  苗  上  长出   了  一  个  很  大  很  
 
 # sentence level graph:
 (s357x33 / causation
-				:ARG1 (s357x1 / 看到-01
-											:ARG0 (s357x19 / 王子
-																			:mod (s357x18 / 小))
-											:ARG1 (s357x7 / 长出-01
-																		:aspect performance
-																		:place (s357x5 / 苗
-																										:unit (s357x4 / 棵)
-																										:mod (s357x3 / 这))
-																		:ARG0 (s357x16 / 花蕾
-																										:mod (s357x14 / 大
-																																	:degree (s357x13 / 很))
-																										:mod (s357x12 / 大
-																																	:degree (s357x11 / 很))
-																										:quant 1
-																										:unit (s357x10 / 个))
-																		:modal-strength (s357x62 / full-affirmative
-																											:conceiver s357x19))
-											:modal-strength (s357x64 / full-affirmative
-																				:conceiver (s357x65 / author)))
-				:ARG2 (s357x20 / 感觉-01
-												:ARG0 s357x19
-												:ARG1 (s357x26 / 一定
-																			:ARG0 (s357x27 / 会-03
-																											:ARG0 (s357x28 / 出现-01
-																																		:ARG1 (s357x31 / 奇迹
-																																										:quant 1
-																																										:unit (s357x30 / 个))
-																																		:ARG0 (s357x24 / 花苞
-																																										:mod (s357x23 / 个
-																																																	/ 这)
-																																										:unit s357x23)
-																																		:modal-strength (s357x67 / partial-affirmative
-																																											:conceiver s357x19)
-																																		:modal-predicate s357x20)))))
+    :ARG1 (s357x1 / 看到-01
+           :ARG0 (s357x19 / 王子
+                   :mod (s357x18 / 小))
+           :ARG1 (s357x7 / 长出-01
+                  :aspect performance
+                  :place (s357x5 / 苗
+                          :unit (s357x4 / 棵)
+                          :mod (s357x3 / 这))
+                  :ARG0 (s357x16 / 花蕾
+                          :mod (s357x14 / 大
+                                 :degree (s357x13 / 很))
+                          :mod (s357x12 / 大
+                                 :degree (s357x11 / 很))
+                          :quant 1
+                          :unit (s357x10 / 个))
+                  :modal-strength (s357x62 / full-affirmative
+                           :conceiver s357x19))
+           :modal-strength (s357x64 / full-affirmative
+                    :conceiver (s357x65 / author)))
+    :ARG2 (s357x20 / 感觉-01
+            :ARG0 s357x19
+            :ARG1 (s357x26 / 一定
+                   :ARG0 (s357x27 / 会-03
+                           :ARG0 (s357x28 / 出现-01
+                                  :ARG1 (s357x31 / 奇迹
+                                          :quant 1
+                                          :unit (s357x30 / 个))
+                                  :ARG0 (s357x24 / 花苞
+                                          :mod (s357x23 / 这个)
+                                          :unit s357x23)
+                                  :modal-strength (s357x67 / partial-affirmative
+                                           :conceiver s357x19)
+                                  :modal-predicate s357x20)))))
 
 # alignment:
 s357x1: 1-1
@@ -15378,28 +15360,27 @@ Words: 小  王子   顶  了  她  一  句  ：  “ 在  我  这个   星球
 
 # sentence level graph:
 (s382x3 / 顶
-				:ARG0 (s382x2 / 王子
-											:mod (s382x1 / 小-01))
-				:ARG1 (s382x5 / individual-person
-											:refer-person 3
-											:refer-number singular)
-				:ARG2 (s382x23 / thing
-											:quant 1
-											:unit (s382x7 / 句)
-											:ARG0-of (s382x27 / mean
-																				:ARG1 (s382x15 / 有-03
-																												:ARG0 (s382x13 / 星球
-																																			:possessor-of (s382x11 / individual-person
-																																											:refer-person 1
-																																											:refer-number singular)
-																																			:mod (s382x12 / 个
-																																										/ 这)
-																																			:unit s382x12)
-																												:ARG1 (s382x16 / 老虎)
-																												:modal-strength (s382x39 / full-negative
-																																				:conceiver s382x2)
-																												:polarity -
-																												:quote (s382x3 / 顶)))))
+    :ARG0 (s382x2 / 王子
+           :mod (s382x1 / 小-01))
+    :ARG1 (s382x5 / individual-person
+           :refer-person 3
+           :refer-number singular)
+    :ARG2 (s382x23 / thing
+           :quant 1
+           :unit (s382x7 / 句)
+           :ARG0-of (s382x27 / mean
+                    :ARG1 (s382x15 / 有-03
+                            :ARG0 (s382x13 / 星球
+                                   :possessor-of (s382x11 / individual-person
+                                           :refer-person 1
+                                           :refer-number singular)
+                                   :mod (s382x12 / 这个)
+                                   :unit s382x12)
+                            :ARG1 (s382x16 / 老虎)
+                            :modal-strength (s382x39 / full-negative
+                                    :conceiver s382x2)
+                            :polarity -
+                            :quote s382x3))))
 
 # alignment:
 s382x1: 1-1
@@ -15714,15 +15695,14 @@ Words: 我  原来   住  的  那个   地方   … ”
 
 # sentence level graph:
 (s391x9 / say
-				:ARG1 (s391x6 / 地方
-											:ARG1-of (s391x3 / 住-01
-																			:ARG0 (s391x1 / individual-person
-																										:refer-person 1
-																										:refer-number singular)
-																			:temporal (s391x2 / 原来))
-											:mod (s391x5 / 个
-																	/ 那)
-											:unit s391x5))
+    :ARG1 (s391x6 / 地方
+           :ARG1-of (s391x3 / 住-01
+                   :ARG0 (s391x1 / individual-person
+                          :refer-person 1
+                          :refer-number singular)
+                   :temporal (s391x2 / 原来))
+           :mod (s391x5 / 那个)
+           :unit s391x5))
 
 # alignment:
 s391x1: 0-0
@@ -15828,70 +15808,69 @@ Words: 她  叫  人  发现   她  是  在  凑  一  个  如此   不  太  
 
 # sentence level graph:
 (s395x49 / and
-				:snt1 (s395x51 / causation
-												:ARG1 (s395x2 / 叫-01
-																			:ARG0 (s395x1 / individual-person
-																										:refer-person 3
-																										:refer-number singular)
-																			:ARG1 (s395x3 / 人)
-																			:ARG2 (s395x4 / 发现-01
-																										:ARG1 (s395x8 / 凑-03
-																																	:ARG0 (s395x5 / individual-person
-																																								:refer-person 3
-																																								:refer-number singular)
-																																	:ARG1 (s395x16 / 谎话
-																																								:mod (s395x14 / 高明
-																																															:degree (s395x11 / 如此)
-																																															:degree (s395x13 / 太)
-																																															:polarity -)
-																																								:quant 1
-																																								:unit (s395x10 / 个))
-																																	:modal-predicate s395x4
-																																	:modal-strength (s395x96 / full-affirmative
-																																									:conceiver s395x3))))
-												:ARG2 (s395x67 / and
-																			:op1 (s395x20 / 羞怒
-																										:degree (s395x19 / 有点)
-																										:ARG0 (s395x18 / individual-person
-																																		:refer-person 3
-																																		:refer-number singular))
-																			:op2 (s395x22 / 咳嗽-01
-																										:aspect performance
-																										:frequency (s395x73 / or
-																																				:op1 (s395x24 / 3
-																																											/ 2)
-																																				:op2 s395x24)
-																										:unit (s395x25 / 声)
-																										:ARG0 s395x18
-																										:modal-strength (s395x97 / full-affirmative
-																																			:conceiver (s395x98 / author)))))
-				:snt2 (s395x78 / and
-												:op1 (s395x31 / 招
-																			:mod (s395x29 / 这)
-																			:quant (s395x30 / 一)
-																			:purpose (s395x33 / 要-03
-																												:ARG0 (s395x36 / 处于-01
-																																			:ARG0 (s395x35 / 王子
-																																											:mod (s395x34 / 小))
-																																			:ARG1 (s395x40 / 地位
-																																											:mod (s395x37 / 有-01
-																																																		:ARG0 s395x35
-																																																		:ARG1 (s395x38 / 过失)))
-																																			:modal-strength (s395x101 / full-affirmative))
-																												:modal-strength (s395x102 / partial-affirmative
-																																					:conceiver (s395x27 / individual-person
-																																															:refer-person 3
-																																															:refer-number singular
-																																															:modal-strength (s395x103 / full-affirmative
-																																																								:conceiver (s395x104 / author)))))
-																			:poss s395x27)
-												:op2 (s395x43 / 说道-01
-																			:ARG0 (s395x42 / individual-person
-																										:refer-person 3
-																										:refer-number singular)
-																			:ARG1 (s395x45 / 屏风
-																										:mode interrogative)
-																			:modal-strength (s395x105 / full-affirmative))))
+    :snt1 (s395x51 / causation
+            :ARG1 (s395x2 / 叫-01
+                   :ARG0 (s395x1 / individual-person
+                          :refer-person 3
+                          :refer-number singular)
+                   :ARG1 (s395x3 / 人)
+                   :ARG2 (s395x4 / 发现-01
+                          :ARG1 (s395x8 / 凑-03
+                                 :ARG0 (s395x5 / individual-person
+                                        :refer-person 3
+                                        :refer-number singular)
+                                 :ARG1 (s395x16 / 谎话
+                                        :mod (s395x14 / 高明
+                                               :degree (s395x11 / 如此)
+                                               :degree (s395x13 / 太)
+                                               :polarity -)
+                                        :quant 1
+                                        :unit (s395x10 / 个))
+                                 :modal-predicate s395x4
+                                 :modal-strength (s395x96 / full-affirmative
+                                         :conceiver s395x3))))
+            :ARG2 (s395x67 / and
+                   :op1 (s395x20 / 羞怒
+                          :degree (s395x19 / 有点)
+                          :ARG0 (s395x18 / individual-person
+                                  :refer-person 3
+                                  :refer-number singular))
+                   :op2 (s395x22 / 咳嗽-01
+                          :aspect performance
+                          :frequency (s395x73 / or
+                                    :op1 (s395x24 / 3)
+                                    :op2 (s395x26 / 2)
+                          :unit (s395x25 / 声)
+                          :ARG0 s395x18
+                          :modal-strength (s395x97 / full-affirmative
+                                   :conceiver (s395x98 / author)))))
+    :snt2 (s395x78 / and
+            :op1 (s395x31 / 招
+                   :mod (s395x29 / 这)
+                   :quant (s395x30 / 一)
+                   :purpose (s395x33 / 要-03
+                            :ARG0 (s395x36 / 处于-01
+                                   :ARG0 (s395x35 / 王子
+                                           :mod (s395x34 / 小))
+                                   :ARG1 (s395x40 / 地位
+                                           :mod (s395x37 / 有-01
+                                                  :ARG0 s395x35
+                                                  :ARG1 (s395x38 / 过失)))
+                                   :modal-strength (s395x101 / full-affirmative))
+                            :modal-strength (s395x102 / partial-affirmative
+                                     :conceiver (s395x27 / individual-person
+                                               :refer-person 3
+                                               :refer-number singular
+                                               :modal-strength (s395x103 / full-affirmative
+                                                        :conceiver (s395x104 / author)))))
+                   :possessor s395x27)
+            :op2 (s395x43 / 说道-01
+                   :ARG0 (s395x42 / individual-person
+                          :refer-person 3
+                          :refer-number singular)
+                   :ARG1 (s395x45 / 屏风
+                          :mode interrogative)
+                   :modal-strength (s395x105 / full-affirmative)))))
 
 # alignment:
 s395x1: 0-0
@@ -15911,6 +15890,7 @@ s395x2: 2-2
 s395x20: 20-20
 s395x22: 22-22
 s395x24: 0-0
+s395x26: 0-0
 s395x25: 25-25
 s395x27: 0-0
 s395x29: 29-29
@@ -17160,39 +17140,37 @@ Words: 当  他  最后   一  次  浇花   时  ，  准备   把  她  放  �
 
 # sentence level graph:
 (s426x34 / and
-				:snt1 (s426x9 / 准备-01
-											:ARG0 (s426x2 / individual-person
-																		:refer-person 3
-																		:refer-number singular)
-											:ARG1 (s426x12 / 放-01
-																			:ARG1 (s426x11 / 她)
-																			:ARG2 (s426x16 / 下面
-																										:op1 (s426x15 / 罩子
-																																	:mod (s426x14 / 玻璃)))
-																			:modal-strength (s426x58 / partial-affirmative))
-											:temporal (s426x6 / 花
-																				/ 浇-01
-																				:ARG1 s426x6
-																				:ARG0 s426x2
-																				:ord (s426x45 / ordinal-entity
-																											:value -1
-																											:unit (s426x5 / 次))))
-				:snt2 (s426x19 / 发觉-01
-												:ARG0 (s426x18 / individual-person
-																			:refer-person 3
-																			:refer-number singular)
-												:ARG1 (s426x21 / 要-03
-																			:ARG0 (s426x22 / 哭-01
-																											:ARG0 (s426x20 / 自己)))
-												:modal-strength (s426x59 / full-affirmative))
-				:snt3 (s426x32 / 说道-01
-												:ARG0 (s426x29 / individual-person
-																			:refer-person 3
-																			:refer-number singular)
-												:ARG2 (s426x31 / 花儿)
-												:ARG1 (s426x25 / 再见
-																			:smood (s426x26 / 了))
-												:modal-strength (s426x60 / full-affirmative)))
+    :snt1 (s426x9 / 准备-01
+           :ARG0 (s426x2 / individual-person
+                  :refer-person 3
+                  :refer-number singular)
+           :ARG1 (s426x12 / 放-01
+                   :ARG1 (s426x11 / 她)
+                   :ARG2 (s426x16 / 下面
+                          :op1 (s426x15 / 罩子
+                                 :mod (s426x14 / 玻璃)))
+                   :modal-strength (s426x58 / partial-affirmative))
+           :temporal (s426x6 / 浇花-01
+                    :ARG0 s426x2
+                    :ord (s426x45 / ordinal-entity
+                           :value -1
+                           :unit (s426x5 / 次))))
+    :snt2 (s426x19 / 发觉-01
+            :ARG0 (s426x18 / individual-person
+                   :refer-person 3
+                   :refer-number singular)
+            :ARG1 (s426x21 / 要-03
+                   :ARG0 (s426x22 / 哭-01
+                           :ARG0 (s426x20 / 自己)))
+            :modal-strength (s426x59 / full-affirmative))
+    :snt3 (s426x32 / 说道-01
+            :ARG0 (s426x29 / individual-person
+                   :refer-person 3
+                   :refer-number singular)
+            :ARG2 (s426x31 / 花儿)
+            :ARG1 (s426x25 / 再见
+                   :smood (s426x26 / 了))
+            :modal-strength (s426x60 / full-affirmative)))
 
 # alignment:
 s426x11: 11-11
@@ -17852,29 +17830,29 @@ Words: “ 我  要是   想  认识   蝴蝶   ，  经  不  起  两三   只
 
 # sentence level graph:
 (s446x20 / say
-				:ARG1 (s446x22 / condition
-												:ARG1 (s446x4 / 想-01
-																			:ARG0 (s446x2 / individual-person
-																										:refer-person 1
-																										:refer-number singular)
-																			:ARG1 (s446x5 / 认识-01
-																										:ARG1 (s446x6 / 蝴蝶)
-																										:modal-predicate s446x4
-																										:modal-strength (s446x45 / neutral-affirmative
-																																		:ARG2 (s446x16 / 行
-																																										:polarity -
-																																										:ARG0 (s446x10 / possible
-																																																	:ARG0 (s446x8 / 经-01
-																																																								:ARG1 (s446x13 / 尺蠖
-																																																																:quant (s446x32 / or
-																																																																								:op1 (s446x11 / 3
-																																																																															/ 2)
-																																																																								:op2 s446x11)
-																																																																:unit (s446x12 / 只))
-																																																								:polarity -))
-																																										:mode judgement))))))
+    :ARG1 (s446x22 / condition
+            :ARG1 (s446x4 / 想-01
+                   :ARG0 (s446x2 / individual-person
+                          :refer-person 1
+                          :refer-number singular)
+                   :ARG1 (s446x5 / 认识-01
+                          :ARG1 (s446x6 / 蝴蝶)
+                          :modal-predicate s446x4
+                          :modal-strength (s446x45 / neutral-affirmative
+                                  :ARG2 (s446x16 / 行
+                                          :polarity -
+                                          :ARG0 (s446x10 / possible
+                                                 :ARG0 (s446x8 / 经-01
+                                                        :ARG1 (s446x13 / 尺蠖
+                                                                :quant (s446x32 / or
+                                                                        :op1 (s446x11 / 3)
+                                                                        :op2 (s446x9 / 2))
+                                                                :unit (s446x12 / 只))
+                                                        :polarity -))
+                                          :mode judgement))))))
 
 # alignment:
+s446x9: 0-0
 s446x10: 0-0
 s446x11: 0-0
 s446x12: 12-12
@@ -20976,14 +20954,11 @@ Words: 日落   大约   … 大约   … 在  今晚   七时   四十分    �
 
 # sentence level graph:
 (s529x1 / 日落
-				:temporal (s529x2 / 大约
-													:op1 (s529x16 / date-entity
-																				:dayperiod (s529x7 / 今
-																													/ 晚
-																													:mod s529x7)
-																				:temporal (s529x8 / 7
-																													:40)))
-				:mode expressive)
+    :temporal (s529x2 / 大约
+             :op1 (s529x16 / date-entity
+                    :dayperiod (s529x7 / 今晚)
+                    :temporal (s529x8 / 7)))
+    :mode expressive)
 
 # alignment:
 s529x1: 1-1
@@ -22052,14 +22027,12 @@ Words: 因为   只有   这  一  只  耗子   。  ”
 
 # sentence level graph:
 (s563x9 / say
-				:ARG1 (s563x11 / causation
-											:ARG1 (s563x2 / 只
-																		/ 有-03
-																		:ARG1 (s563x6 / 耗子
-																									:quant 1
-																									:unit (s563x5 / 只)
-																									:mod (s563x3 / 这))
-																		:mod s563x2)))
+    :ARG1 (s563x11 / causation
+           :ARG1 (s563x2 / 只有-03
+                  :ARG1 (s563x6 / 耗子
+                         :quant 1
+                         :unit (s563x5 / 只)
+                         :mod (s563x3 / 这)))))
 
 # alignment:
 s563x11: 0-0
@@ -22314,16 +22287,15 @@ Words: 我  认为   这个   条件   是  成熟   的  … ”
 
 # sentence level graph:
 (s570x10 / say
-				:ARG1 (s570x2 / 认为-01
-											:ARG0 (s570x1 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:ARG1 (s570x6 / 成熟-01
-																		:ARG0 (s570x4 / 条件
-																									:mod (s570x3 / 个
-																																/ 这)
-																									:unit s570x3)
-																		:mode judgement)))
+    :ARG1 (s570x2 / 认为-01
+           :ARG0 (s570x1 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :ARG1 (s570x6 / 成熟-01
+                  :ARG0 (s570x4 / 条件
+                         :mod (s570x3 / 这个)
+                         :unit s570x3)
+                  :mode judgement)))
 
 # alignment:
 s570x1: 0-0
@@ -22569,34 +22541,33 @@ Words: 一  个  崇拜   我  的  人  来  拜访   了  ！  ”  这个   �
 
 # sentence level graph:
 (s578x27 / condition
-				:ARG1 (s578x18 / 见到-01
-												:ARG0 (s578x16 / 人
-																			:ARG0-of (s578x13 / 爱-01
-																												:ARG1 (s578x14 / 虚荣))
-																			:mod (s578x12 / 个
-																										/ 这)
-																			:unit s578x12)
-												:ARG1 (s578x20 / 王子
-																			:mod (s578x19 / 小))
-												:modal-strength (s578x48 / full-affirmative))
-				:ARG2 (s578x24 / 叫喊-01
-												:manner (s578x22 / 老远)
-												:ARG0 s578x16
-												:ARG1 (s578x7 / 来-05
-																			:ARG0 (s578x6 / 人
-																										:ARG0-of (s578x3 / 崇拜-01
-																																		:ARG1 (s578x4 / individual-person
-																																									:refer-person 1
-																																									:refer-number singular))
-																										:quant 1
-																										:unit (s578x2 / 个))
-																			:ARG1 (s578x8 / 拜访-01
-																										:ARG0 s578x6)
-																			:aspect performance
-																			:mode expressive)
-												:modal-strength (s578x49 / full-affirmative))
-				:modal-strength (s578x50 / neutral-affirmative
-													:conceiver (s578x51 / author)))
+    :ARG1 (s578x18 / 见到-01
+            :ARG0 (s578x16 / 人
+                   :ARG0-of (s578x13 / 爱-01
+                            :ARG1 (s578x14 / 虚荣))
+                   :mod (s578x12 / 这个)
+                   :unit s578x12)
+            :ARG1 (s578x20 / 王子
+                   :mod (s578x19 / 小))
+            :modal-strength (s578x48 / full-affirmative))
+    :ARG2 (s578x24 / 叫喊-01
+            :manner (s578x22 / 老远)
+            :ARG0 s578x16
+            :ARG1 (s578x7 / 来-05
+                   :ARG0 (s578x6 / 人
+                          :ARG0-of (s578x3 / 崇拜-01
+                                  :ARG1 (s578x4 / individual-person
+                                         :refer-person 1
+                                         :refer-number singular))
+                          :quant 1
+                          :unit (s578x2 / 个))
+                   :ARG1 (s578x8 / 拜访-01
+                          :ARG0 s578x6)
+                   :aspect performance
+                   :mode expressive)
+            :modal-strength (s578x49 / full-affirmative))
+    :modal-strength (s578x50 / neutral-affirmative
+             :conceiver (s578x51 / author)))
 
 # alignment:
 s578x12: 2-2
@@ -22994,17 +22965,16 @@ Words: 爱  虚荣者    又  举起   帽子   来  向  他  致意   。
 
 # sentence level graph:
 (s590x4 / 举起-01
-				:mod (s590x3 / 又)
-				:ARG0 (s590x2 / 虚荣
-											/ 者
-											:ARG0-of (s590x1 / 爱-01
-																			:ARG1 s590x2))
-				:ARG1 (s590x5 / 帽子)
-				:purpose (s590x9 / 致意-01
-												:ARG1 (s590x8 / individual-person
-																			:refer-person 3
-																			:refer-number singular))
-				:modal-strength (s590x20 / full-affirmative))
+    :mod (s590x3 / 又)
+    :ARG0 (s590x2 / 虚荣者
+           :ARG0-of (s590x1 / 爱-01
+                   :ARG1 s590x2))
+    :ARG1 (s590x5 / 帽子)
+    :purpose (s590x9 / 致意-01
+            :ARG1 (s590x8 / individual-person
+                   :refer-person 3
+                   :refer-number singular))
+    :modal-strength (s590x20 / full-affirmative))
 
 # alignment:
 s590x1: 1-1
@@ -23608,40 +23578,39 @@ Words: “ 你  在  干  什么   ？  ” 小  王子   问  酒鬼   ，  这
 
 # sentence level graph:
 (s606x37 / and
-				:op1 (s606x10 / 问-01
-											:ARG0 (s606x9 / 王子
-																		:mod (s606x8 / 小))
-											:ARG1 (s606x11 / 酒鬼)
-											:ARG2 (s606x4 / 干-01
-																		:ARG1 (s606x5 / amr-unknown)
-																		:ARG0 (s606x2 / individual-person
-																									:refer-person 2
-																									:refer-number singular)
-																		:aspect activity
-																		:aspect activity)
-											:modal-strength (s606x67 / full-affirmative))
-				:op2 (s606x17 / 坐-01
-											:ARG0 (s606x14 / 酒鬼
-																			:mod (s606x13 / 个
-																										/ 这)
-																			:unit s606x13
-																			:possessor-of (s606x21 / 面前
-																										:ARG0-of (s606x22 / 有-03
-																																			:ARG1 (s606x25 / 酒瓶子
-																																											:quant 1
-																																											:ARG2-of (s606x56 / include-91
-																																																				:ARG1 (s606x57 / thing
-																																																											:ARG0-of (s606x28 / 装-01
-																																																																				:ARG1 (s606x30 / 酒)
-																																																																				:aspect activity)))
-																																											:ARG2-of (s606x61 / include-91
-																																																				:ARG1 (s606x62 / thing
-																																																											:mod (s606x34 / 空)
-																																																											:mode judgement))
-																																											:unit (s606x24 / 堆)))))
-											:ARG1 (s606x19 / 那里)
-											:manner (s606x15 / 默默)
-											:modal-strength (s606x68 / full-affirmative)))
+    :op1 (s606x10 / 问-01
+           :ARG0 (s606x9 / 王子
+                  :mod (s606x8 / 小))
+           :ARG1 (s606x11 / 酒鬼)
+           :ARG2 (s606x4 / 干-01
+                  :ARG1 (s606x5 / amr-unknown)
+                  :ARG0 (s606x2 / individual-person
+                         :refer-person 2
+                         :refer-number singular)
+                  :aspect activity
+                  :aspect activity)
+           :modal-strength (s606x67 / full-affirmative))
+    :op2 (s606x17 / 坐-01
+           :ARG0 (s606x14 / 酒鬼
+                   :mod (s606x13 / 这个)
+                   :unit s606x13
+                   :possessor-of (s606x21 / 面前
+                          :ARG0-of (s606x22 / 有-03
+                                   :ARG1 (s606x25 / 酒瓶子
+                                           :quant 1
+                                           :ARG2-of (s606x56 / include-91
+                                                    :ARG1 (s606x57 / thing
+                                                           :ARG0-of (s606x28 / 装-01
+                                                                    :ARG1 (s606x30 / 酒)
+                                                                    :aspect activity)))
+                                           :ARG2-of (s606x61 / include-91
+                                                    :ARG1 (s606x62 / thing
+                                                           :mod (s606x34 / 空)
+                                                           :mode judgement))
+                                           :unit (s606x24 / 堆)))))
+           :ARG1 (s606x19 / 那里)
+           :manner (s606x15 / 默默)
+           :modal-strength (s606x68 / full-affirmative)))
 
 # alignment:
 s606x10: 10-10
@@ -24026,24 +23995,23 @@ Words: 这个   人  忙  得  不可开交     ，  小  王子   到来   的 
 
 # sentence level graph:
 (s617x22 / causation
-				:ARG1 (s617x3 / 忙-01
-											:ARG0 (s617x2 / 人
-																		:mod (s617x1 / 个
-																									/ 这)
-																		:unit s617x1)
-											:degree (s617x5 / 不可开交)
-											:modal-strength (s617x38 / full-affirmative))
-				:ARG2 (s617x19 / 抬头-01
-												:ARG0 (s617x13 / individual-person
-																			:refer-person 3
-																			:refer-number singular)
-												:modal-strength (s617x37 / full-negative)
-												:polarity -
-												:mod (s617x14 / 甚至)
-												:mod (s617x17 / 都)
-												:temporal (s617x9 / 到来-01
-																					:ARG0 (s617x8 / 王子
-																												:mod (s617x7 / 小)))))
+    :ARG1 (s617x3 / 忙-01
+           :ARG0 (s617x2 / 人
+                  :mod (s617x1 / 这个)
+                  :unit s617x1)
+           :degree (s617x5 / 不可开交)
+           :modal-strength (s617x38 / full-affirmative))
+    :ARG2 (s617x19 / 抬头-01
+            :ARG0 (s617x13 / individual-person
+                   :refer-person 3
+                   :refer-number singular)
+            :modal-strength (s617x37 / full-negative)
+            :polarity -
+            :mod (s617x14 / 甚至)
+            :mod (s617x17 / 都)
+            :temporal (s617x9 / 到来-01
+                     :ARG0 (s617x8 / 王子
+                            :mod (s617x7 / 小)))))
 
 # alignment:
 s617x1: 1-1
@@ -24648,27 +24616,26 @@ Words: “ 我  住  在  这个   星球   上  五十四    年  以来   ， 
 
 # sentence level graph:
 (s639x19 / say
-				:ARG1 (s639x14 / 打搅-01
-												:ARG0 (s639x23 / thing)
-												:ARG1 (s639x2 / individual-person
-																			:refer-person 1
-																			:refer-number singular)
-												:ARG1-of (s639x25 / have-frequency-91
-																					:ARG2 (s639x16 / 3))
-												:temporal (s639x10 / 以来
-																					:op1 (s639x3 / 住-01
-																												:ARG0 s639x2
-																												:duration (s639x29 / temporal-quantity
-																																					:quant 54
-																																					:unit (s639x9 / 年))
-																												:ARG1 (s639x6 / 星球
-																																			:mod (s639x5 / 个
-																																									/ 这)
-																																			:unit s639x5)))
-												:mod (s639x12 / 只)
-												:modal-strength (s639x36 / full-affirmative
-																				:conceiver s639x2))
-				:ARG0 s639x2)
+    :ARG1 (s639x14 / 打搅-01
+            :ARG0 (s639x23 / thing)
+            :ARG1 (s639x2 / individual-person
+                   :refer-person 1
+                   :refer-number singular)
+            :ARG1-of (s639x25 / have-frequency-91
+                     :ARG2 (s639x16 / 3))
+            :temporal (s639x10 / 以来
+                     :op1 (s639x3 / 住-01
+                            :ARG0 s639x2
+                            :duration (s639x29 / temporal-quantity
+                                     :quant 54
+                                     :unit (s639x9 / 年))
+                            :ARG1 (s639x6 / 星球
+                                   :mod (s639x5 / 这个)
+                                   :unit s639x5)))
+            :mod (s639x12 / 只)
+            :modal-strength (s639x36 / full-affirmative
+                    :conceiver s639x2))
+    :ARG0 s639x2)
 
 # alignment:
 s639x10: 10-10
@@ -24957,13 +24924,13 @@ Words: “ 几百万    什么   ？  ”
 
 # sentence level graph:
 (s647x6 / say
-				:ARG1 (s647x3 / amr-unknown
-											:quant (s647x2 / 1000000
-																		/ 几
-																		:op1 s647x2)
-											:mode interrogative))
+    :ARG1 (s647x3 / amr-unknown
+           :quant (s647x2 / 1000000
+                  :op1 (s647x1 / 几))
+           :mode interrogative))
 
 # alignment:
+s647x1: 0-0
 s647x2: 0-0
 s647x3: 0-0
 s647x6: 0-0
@@ -25014,21 +24981,20 @@ Words: 就  说道   ：  “ 几百万    个  小  东西   ，  这些   小 
 
 # sentence level graph:
 (s649x20 / causation
-				:ARG2 (s649x2 / 说道-01
-											:ARG1 (s649x23 / and
-																			:op1 (s649x8 / 东西
-																									:mod (s649x7 / 小)
-																									:unit (s649x6 / 个)
-																									:quant (s649x5 / 1000000
-																																	/ 几
-																																	:op1 s649x5))
-																			:op2 (s649x14 / 出现-01
-																										:frequency (s649x13 / 有时)
-																										:ARG1 (s649x12 / 东西
-																																	:mod (s649x11 / 小))
-																										:ARG0 (s649x16 / 天空)))
-											:ARG0 (s649x34 / snt661)
-											:modal-strength (s649x35 / full-affirmative)))
+    :ARG2 (s649x2 / 说道-01
+           :ARG1 (s649x23 / and
+                   :op1 (s649x8 / 东西
+                         :mod (s649x7 / 小)
+                         :unit (s649x6 / 个)
+                         :quant (s649x5 / 1000000
+                                 :op1 (s649x1 / 几)))
+                   :op2 (s649x14 / 出现-01
+                          :frequency (s649x13 / 有时)
+                          :ARG1 (s649x12 / 东西
+                                 :mod (s649x11 / 小))
+                          :ARG0 (s649x16 / 天空)))
+           :ARG0 (s649x34 / snt661)
+           :modal-strength (s649x35 / full-affirmative)))
 
 # alignment:
 s649x11: 7-7
@@ -25042,6 +25008,7 @@ s649x23: 0-0
 s649x34: 0-0
 s649x35: 0-0
 s649x5: 0-0
+s649x1: 0-0
 s649x6: 6-6
 s649x7: 7-7
 s649x8: 8-8
@@ -25860,22 +25827,20 @@ Words: 小  王子   自言自语     地  说  ：  “ 这个   人  想  问�
 
 # sentence level graph:
 (s679x5 / 说-01
-				:ARG0 (s679x2 / 王子
-											:mod (s679x1 / 小))
-				:manner (s679x3 / 自言自语
-												:ARG1 (s679x10 / 想-01
-																			:ARG0 (s679x9 / 人
-																										:mod (s679x8 / 个
-																																	/ 这)
-																										:unit s679x8)
-																			:ARG1 (s679x11 / 问题)
-																			:manner (s679x13 / 像-01
-																												:degree (s679x12 / 有点)
-																												:ARG1 (s679x15 / 酒鬼
-																																			:mod (s679x14 / 个
-																																										/ 那)
-																																			:unit s679x14))))
-				:modal-strength (s679x34 / full-affirmative))
+    :ARG0 (s679x2 / 王子
+           :mod (s679x1 / 小))
+    :manner (s679x3 / 自言自语
+            :ARG1 (s679x10 / 想-01
+                   :ARG0 (s679x9 / 人
+                          :mod (s679x8 / 这个)
+                          :unit s679x8)
+                   :ARG1 (s679x11 / 问题)
+                   :manner (s679x13 / 像-01
+                            :degree (s679x12 / 有点)
+                            :ARG1 (s679x15 / 酒鬼
+                                   :mod (s679x14 / 那个)
+                                   :unit s679x14))))
+    :modal-strength (s679x34 / full-affirmative))
 
 # alignment:
 s679x1: 1-1
@@ -26204,28 +26169,27 @@ Words: 当  你  发现   一  个  岛  是  没有   主  的  ，  那么   �
 
 # sentence level graph:
 (s689x20 / condition
-				:ARG1 (s689x3 / 发现-01
-											:ARG0 (s689x2 / individual-person
-																		:refer-person 2
-																		:refer-number singular)
-											:ARG1 (s689x6 / 岛
-																		:quant 1
-																		:unit (s689x5 / 个)
-																		:ARG0-of (s689x8 / 有-01
-																											:ARG1 (s689x9 / 主)
-																											:polarity -)
-																		:mode judgement)
-											:modal-strength (s689x41 / full-affirmative))
-				:ARG2 (s689x14 / 岛
-												:mode judgement
-												:mod (s689x15 / 就)
-												:mod (s689x13 / 个
-																			/ 这)
-												:possessor-of (s689x17 / individual-person
-																			:refer-person 2
-																			:refer-number singular)
-												:unit s689x13)
-				:modal-strength (s689x39 / neutral-affirmative))
+    :ARG1 (s689x3 / 发现-01
+           :ARG0 (s689x2 / individual-person
+                  :refer-person 2
+                  :refer-number singular)
+           :ARG1 (s689x6 / 岛
+                  :quant 1
+                  :unit (s689x5 / 个)
+                  :ARG0-of (s689x8 / 有-01
+                           :ARG1 (s689x9 / 主)
+                           :polarity -)
+                  :mode judgement)
+           :modal-strength (s689x41 / full-affirmative))
+    :ARG2 (s689x14 / 岛
+            :mode judgement
+            :mod (s689x15 / 就)
+            :mod (s689x13 / 这个)
+            :possessor-of (s689x17 / individual-person
+                   :refer-person 2
+                   :refer-number singular)
+            :unit s689x13)
+    :modal-strength (s689x39 / neutral-affirmative))
 
 # alignment:
 s689x13: 5-5
@@ -26254,39 +26218,38 @@ Words: 当  你  首先   想出   了  一  个  办法   ，  你  就  去  �
 
 # sentence level graph:
 (s690x26 / condition
-				:ARG1 (s690x29 / and
-												:op2 (s690x4 / 想出-01
-																		:ARG0 (s690x2 / individual-person
-																									:refer-person 2
-																									:refer-number singular)
-																		:temporal (s690x3 / 首先)
-																		:ARG1 (s690x8 / 办法
-																									:quant 1
-																									:unit (s690x7 / 个))
-																		:aspect performance
-																		:modal-strength (s690x55 / full-affirmative))
-												:op2 (s690x12 / 去-01
-																			:ARG1 (s690x13 / 领-01
-																										:ARG0 (s690x16 / 专利证
-																																		:quant 1
-																																		:unit (s690x15 / 个))
-																										:modal-strength (s690x56 / full-affirmative))
-																			:ARG0 (s690x10 / individual-person
-																										:refer-person 2
-																										:refer-number singular)
-																			:mod (s690x11 / 就)))
-				:ARG2 (s690x22 / 属于-01
-												:ARG0 (s690x19 / 办法
-																			:mod (s690x18 / 个
-																										/ 这)
-																			:unit s690x18)
-												:ARG1 (s690x23 / individual-person
-																			:refer-person 2
-																			:refer-number singular)
-												:mode judgement
-												:mod (s690x20 / 就)
-												:modal-strength (s690x57 / full-affirmative))
-				:modal-strength (s690x53 / neutral-affirmative))
+    :ARG1 (s690x29 / and
+            :op2 (s690x4 / 想出-01
+                  :ARG0 (s690x2 / individual-person
+                         :refer-person 2
+                         :refer-number singular)
+                  :temporal (s690x3 / 首先)
+                  :ARG1 (s690x8 / 办法
+                         :quant 1
+                         :unit (s690x7 / 个))
+                  :aspect performance
+                  :modal-strength (s690x55 / full-affirmative))
+            :op2 (s690x12 / 去-01
+                   :ARG1 (s690x13 / 领-01
+                          :ARG0 (s690x16 / 专利证
+                                  :quant 1
+                                  :unit (s690x15 / 个))
+                          :modal-strength (s690x56 / full-affirmative))
+                   :ARG0 (s690x10 / individual-person
+                          :refer-person 2
+                          :refer-number singular)
+                   :mod (s690x11 / 就)))
+    :ARG2 (s690x22 / 属于-01
+            :ARG0 (s690x19 / 办法
+                   :mod (s690x18 / 这个)
+                   :unit s690x18)
+            :ARG1 (s690x23 / individual-person
+                   :refer-person 2
+                   :refer-number singular)
+            :mode judgement
+            :mod (s690x20 / 就)
+            :modal-strength (s690x57 / full-affirmative))
+    :modal-strength (s690x53 / neutral-affirmative))
 
 # alignment:
 s690x10: 0-0
@@ -27509,37 +27472,36 @@ Words: 小  王子   怎么   也  解释   不  通  ：  这个   坐落   在
 
 # sentence level graph:
 (s723x42 / possible
-				:ARG0 (s723x5 / 解释-01
-											:ARG0 (s723x2 / 王子
-																		:mod (s723x1 / 小))
-											:ARG1 (s723x27 / 要
-																			:ARG0 (s723x24 / 行星
-																										:ARG0-of (s723x10 / 坐落-01
-																																			:ARG1 (s723x15 / 角落
-																																											:mod (s723x13 / 某)
-																																											:quant 1
-																																											:possessor-of (s723x12 / 天空)))
-																										:ARG0-of (s723x55 / and
-																																			:op1 (s723x18 / 有-03
-																																										:ARG1 (s723x19 / 房屋)
-																																										:polarity -)
-																																			:op2 (s723x21 / 有-03
-																																										:polarity -
-																																										:ARG1 (s723x22 / 居民)))
-																										:mod (s723x9 / 个
-																																	/ 这)
-																										:unit s723x9)
-																			:ARG1 (s723x66 / and
-																										:op1 (s723x30 / 路灯
-																																	:quant 1
-																																	:unit (s723x29 / 盏))
-																										:op2 (s723x37 / 人
-																																	:quant 1
-																																	:unit (s723x33 / 个)
-																																	:ARG0-of (s723x34 / 点灯-01)))
-																			:purpose (s723x38 / amr-known))
-											:modal-strength (s723x78 / full-negative))
-				:polarity -)
+    :ARG0 (s723x5 / 解释-01
+           :ARG0 (s723x2 / 王子
+                  :mod (s723x1 / 小))
+           :ARG1 (s723x27 / 要
+                   :ARG0 (s723x24 / 行星
+                          :ARG0-of (s723x10 / 坐落-01
+                                   :ARG1 (s723x15 / 角落
+                                           :mod (s723x13 / 某)
+                                           :quant 1
+                                           :possessor-of (s723x12 / 天空)))
+                          :ARG0-of (s723x55 / and
+                                   :op1 (s723x18 / 有-03
+                                          :ARG1 (s723x19 / 房屋)
+                                          :polarity -)
+                                   :op2 (s723x21 / 有-03
+                                          :polarity -
+                                          :ARG1 (s723x22 / 居民)))
+                          :mod (s723x9 / 这个)
+                          :unit s723x9)
+                   :ARG1 (s723x66 / and
+                          :op1 (s723x30 / 路灯
+                                 :quant 1
+                                 :unit (s723x29 / 盏))
+                          :op2 (s723x37 / 人
+                                 :quant 1
+                                 :unit (s723x33 / 个)
+                                 :ARG0-of (s723x34 / 点灯-01)))
+                   :purpose (s723x38 / amr-known))
+           :modal-strength (s723x78 / full-negative))
+    :polarity -)
 
 # alignment:
 s723x1: 1-1
@@ -27579,21 +27541,20 @@ Words: 但  他  自己   猜想   ：  “ 可能   这个   人  思想   不 
 
 # sentence level graph:
 (s724x14 / contrast
-				:ARG2 (s724x4 / 猜想-01
-											:ARG0 (s724x3 / 自己
-																		:ARG0-of (s724x18 / mean
-																											:ARG1 (s724x2 / individual-person
-																																		:refer-person 3
-																																		:refer-number singular)))
-											:ARG1 (s724x7 / 可能-01
-																		:ARG0 (s724x12 / 正常-01
-																										:polarity -
-																										:ARG0 (s724x10 / 思想
-																																	:possessor-of (s724x9 / 人
-																																								:mod (s724x8 / 个
-																																															/ 这)
-																																								:unit s724x8))))
-											:modal-strength (s724x27 / full-affirmative)))
+    :ARG2 (s724x4 / 猜想-01
+           :ARG0 (s724x3 / 自己
+                  :ARG0-of (s724x18 / mean
+                           :ARG1 (s724x2 / individual-person
+                                  :refer-person 3
+                                  :refer-number singular)))
+           :ARG1 (s724x7 / 可能-01
+                  :ARG0 (s724x12 / 正常-01
+                          :polarity -
+                          :ARG0 (s724x10 / 思想
+                                 :possessor-of (s724x9 / 人
+                                        :mod (s724x8 / 这个)
+                                        :unit s724x8))))
+           :modal-strength (s724x27 / full-affirmative)))
 
 # alignment:
 s724x10: 10-10
@@ -27620,25 +27581,23 @@ Words: 但  他  比起   国王   ，  比  起  那个   爱  虚荣   的  �
 
 # sentence level graph:
 (s725x24 / contrast
-				:ARG2 (s725x20 / 要-03
-												:ARG0 (s725x21 / 好-01
-																			:degree (s725x22 / 些)
-																			:ARG0 (s725x2 / individual-person
-																										:refer-person 3
-																										:refer-number singular)
-																			:compared-to (s725x4 / 国王)
-																			:compared-to (s725x31 / and
-																														:op1 (s725x12 / 人
-																																					:mod (s725x8 / 个
-																																												/ 那)
-																																					:unit s725x8
-																																					:ARG0-of (s725x9 / 爱-01
-																																														:ARG1 (s725x10 / 虚荣)))
-																														:op2 (s725x15 / 实业家
-																																					:mod (s725x14 / 个
-																																												/ 那)
-																																					:unit s725x14)
-																														:op3 (s725x17 / 酒鬼)))))
+    :ARG2 (s725x20 / 要-03
+            :ARG0 (s725x21 / 好-01
+                   :degree (s725x22 / 些)
+                   :ARG0 (s725x2 / individual-person
+                          :refer-person 3
+                          :refer-number singular)
+                   :compared-to (s725x4 / 国王)
+                   :compared-to (s725x31 / and
+                              :op1 (s725x12 / 人
+                                     :mod (s725x8 / 那个)
+                                     :unit s725x8
+                                     :ARG0-of (s725x9 / 爱-01
+                                              :ARG1 (s725x10 / 虚荣)))
+                              :op2 (s725x15 / 实业家
+                                     :mod (s725x14 / 那个)
+                                     :unit s725x14)
+                              :op3 (s725x17 / 酒鬼)))))
 
 # alignment:
 s725x10: 10-10
@@ -27828,25 +27787,24 @@ Words: 小  王子   一  到  了  这个   行星   上  ，  就  很  尊敬
 
 # sentence level graph:
 (s731x22 / condition
-				:ARG1 (s731x4 / 到-01
-											:ARG0 (s731x2 / 王子
-																		:mod (s731x1 / 小))
-											:aspect performance
-											:ARG1 (s731x7 / 行星
-																		:mod (s731x6 / 个
-																									/ 这)
-																		:unit s731x6)
-											:modal-strength (s731x41 / full-affirmative))
-				:ARG2 (s731x19 / 打招呼-01
-												:ARG0 s731x2
-												:ARG1 (s731x18 / 人
-																			:ARG0-of (s731x15 / 点-01
-																												:ARG1 (s731x16 / 路灯)))
-												:manner (s731x12 / 尊敬
-																				:degree (s731x11 / 很))
-												:modal-strength (s731x42 / full-affirmative))
-				:modal-strength (s731x39 / neutral-affirmative
-													:conceiver (s731x40 / author)))
+    :ARG1 (s731x4 / 到-01
+           :ARG0 (s731x2 / 王子
+                  :mod (s731x1 / 小))
+           :aspect performance
+           :ARG1 (s731x7 / 行星
+                  :mod (s731x6 / 这个)
+                  :unit s731x6)
+           :modal-strength (s731x41 / full-affirmative))
+    :ARG2 (s731x19 / 打招呼-01
+            :ARG0 s731x2
+            :ARG1 (s731x18 / 人
+                   :ARG0-of (s731x15 / 点-01
+                            :ARG1 (s731x16 / 路灯)))
+            :manner (s731x12 / 尊敬
+                    :degree (s731x11 / 很))
+            :modal-strength (s731x42 / full-affirmative))
+    :modal-strength (s731x39 / neutral-affirmative
+             :conceiver (s731x40 / author)))
 
 # alignment:
 s731x1: 1-1
@@ -29491,41 +29449,40 @@ Words: 小  王子   在  他  继续   往  前  旅行   的  途中   ，  �
 
 # sentence level graph:
 (s782x14 / 说道-01
-				:ARG0 (s782x2 / 王子
-											:mod (s782x1 / 小))
-				:manner (s782x12 / 自言自语)
-				:temporal (s782x10 / 途中
-														:mod (s782x5 / 继续-01
-																				:ARG1 (s782x8 / 旅行-01
-																											:direction (s782x7 / 前)
-																											:ARG0 (s782x4 / individual-person
-																																		:refer-person 3
-																																		:refer-number singular))
-																				:ARG0 s782x4))
-				:ARG1 (s782x19 / 一定
-												:ARG0 (s782x20 / 会-02
-																			:ARG0 (s782x41 / 瞧不起-01
-																											:ARG0 (s782x24 / 人
-																																		:mod (s782x23 / 那些)
-																																		:mod (s782x22 / 其他)
-																																		:example (s782x62 / and
-																																											:op1 (s782x26 / 国王
-																																																		:mode expressive)
-																																											:op2 (s782x65 / person
-																																																		:ARG0-of (s782x29 / 爱-01
-																																																											:ARG1 (s782x30 / 虚荣))
-																																																		:mode expressive)
-																																											:op3 (s782x34 / 酒鬼
-																																																		:mode expressive)
-																																											:op4 (s782x37 / 实业家
-																																																		:mode expressive)))
-																											:ARG1 (s782x18 / 人
-																																		:mod (s782x17 / 个
-																																									/ 这)
-																																		:unit s782x17)
-																											:modal-strength (s782x78 / partial-affirmative
-																																			:conceiver s782x2)
-																											:quote (s782x14 / 说道-01)))))
+    :ARG0 (s782x2 / 王子
+           :mod (s782x1 / 小))
+    :manner (s782x12 / 自言自语)
+    :temporal (s782x10 / 途中
+              :mod (s782x5 / 继续-01
+                    :ARG1 (s782x8 / 旅行-01
+                           :direction (s782x7 / 前)
+                           :ARG0 (s782x4 / individual-person
+                                  :refer-person 3
+                                  :refer-number singular))
+                    :ARG0 s782x4))
+    :ARG1 (s782x19 / 一定
+            :ARG0 (s782x20 / 会-02
+                   :ARG0 (s782x41 / 瞧不起-01
+                           :ARG0 (s782x24 / 人
+                                  :mod (s782x23 / 那些)
+                                  :mod (s782x22 / 其他)
+                                  :example (s782x62 / and
+                                           :op1 (s782x26 / 国王
+                                                  :mode expressive)
+                                           :op2 (s782x65 / person
+                                                  :ARG0-of (s782x29 / 爱-01
+                                                           :ARG1 (s782x30 / 虚荣))
+                                                  :mode expressive)
+                                           :op3 (s782x34 / 酒鬼
+                                                  :mode expressive)
+                                           :op4 (s782x37 / 实业家
+                                                  :mode expressive)))
+                           :ARG1 (s782x18 / 人
+                                  :mod (s782x17 / 这个)
+                                  :unit s782x17)
+                           :modal-strength (s782x78 / partial-affirmative
+                                   :conceiver s782x2)
+                           :quote s782x14))))
 
 # alignment:
 s782x1: 1-1
@@ -30586,19 +30543,17 @@ Words: “ 这  ，  我  也  没  法  知道   。  ”  地理学家     说
 
 # sentence level graph:
 (s813x12 / 说
-				:ARG0 (s813x11 / 地理学家)
-				:ARG1 (s813x5 / 也
-											/ 没法
-											:ARG0 (s813x4 / individual-person
-																		:refer-person 1
-																		:refer-number singular)
-											:ARG1 (s813x8 / 知道
-																		:ARG0 s813x4
-																		:ARG1 (s813x2 / 这)
-																		:modal-strength (s813x26 / full-negative
-																											:conceiver s813x11)
-																		:quote (s813x12 / 说))
-											:mod s813x5))
+    :ARG0 (s813x11 / 地理学家)
+    :ARG1 (s813x5 / 也没法
+           :ARG0 (s813x4 / individual-person
+                  :refer-person 1
+                  :refer-number singular)
+           :ARG1 (s813x8 / 知道
+                  :ARG0 s813x4
+                  :ARG1 (s813x2 / 这)
+                  :modal-strength (s813x26 / full-negative
+                           :conceiver s813x11)
+                  :quote s813x12)))
 
 # alignment:
 s813x11: 11-11
@@ -30897,31 +30852,30 @@ Words: 如果   他  认为   其中   有  个  探察家    的  回忆   是 
 
 # sentence level graph:
 (s823x29 / say
-				:ARG1 (s823x31 / condition
-												:ARG1 (s823x3 / 认为
-																			:ARG0 (s823x2 / individual-person
-																										:refer-person 3
-																										:refer-number singular)
-																			:ARG1 (s823x11 / 有意思
-																										:ARG0 (s823x9 / 回忆
-																																	:possessor-of (s823x7 / 探察家
-																																								:ARG1-of (s823x4 / include-91)
-																																								:ARG1-of (s823x5 / 有)
-																																								:unit (s823x6 / 个)))
-																										:mode judgement)
-																			:modal-strength (s823x56 / full-affirmative))
-												:ARG2 (s823x23 / 做
-																			:ARG1 (s823x26 / 调查
-																											:quant 1
-																											:unit (s823x25 / 番)
-																											:ARG1 (s823x22 / 品德
-																																		:possessor-of (s823x20 / 探察家
-																																										:mod (s823x19 / 个
-																																																	/ 这)
-																																										:unit s823x19)))
-																			:ARG0 (s823x16 / 地理学家)
-																			:modal-strength (s823x57 / fullafff))
-												:modal-strength (s823x53 / neutral-affirmative)))
+    :ARG1 (s823x31 / condition
+            :ARG1 (s823x3 / 认为
+                   :ARG0 (s823x2 / individual-person
+                          :refer-person 3
+                          :refer-number singular)
+                   :ARG1 (s823x11 / 有意思
+                          :ARG0 (s823x9 / 回忆
+                                 :possessor-of (s823x7 / 探察家
+                                        :ARG1-of (s823x4 / include-91)
+                                        :ARG1-of (s823x5 / 有)
+                                        :unit (s823x6 / 个)))
+                          :mode judgement)
+                   :modal-strength (s823x56 / full-affirmative))
+            :ARG2 (s823x23 / 做
+                   :ARG1 (s823x26 / 调查
+                           :quant 1
+                           :unit (s823x25 / 番)
+                           :ARG1 (s823x22 / 品德
+                                  :possessor-of (s823x20 / 探察家
+                                          :mod (s823x19 / 这个)
+                                          :unit s823x19)))
+                   :ARG0 (s823x16 / 地理学家)
+                   :modal-strength (s823x57 / fullafff))
+            :modal-strength (s823x53 / neutral-affirmative)))
 
 # alignment:
 s823x11: 5-5
@@ -31079,21 +31033,18 @@ Words: “ 因为   喝醉   了  酒  的  人  把  一  个  看成   两  �
 
 # sentence level graph:
 (s828x15 / say
-				:ARG1 (s828x17 / causation
-												:ARG1 (s828x11 / 看成-01
-																			:ARG0 (s828x7 / 人
-																										:ARG0-of (s828x3 / 醉-01
-																																			/ 喝-01
-																																			:ARG1 (s828x5 / 酒)
-																																			:cause s828x3
-																																			:ARG0 s828x7
-																																			:aspect performance))
-																			:ARG1 (s828x25 / thing
-																											:quant 1
-																											:unit (s828x10 / 个))
-																			:ARG2 (s828x28 / thing
-																											:quant 2
-																											:unit (s828x13 / 个)))))
+    :ARG1 (s828x17 / causation
+            :ARG1 (s828x11 / 看成-01
+                   :ARG0 (s828x7 / 人
+                          :ARG0-of (s828x3 / 喝醉-01
+                                   :ARG1 (s828x5 / 酒)
+                                   :aspect performance))
+                   :ARG1 (s828x25 / thing
+                           :quant 1
+                           :unit (s828x10 / 个))
+                   :ARG2 (s828x28 / thing
+                           :quant 2
+                           :unit (s828x13 / 个)))))
 
 # alignment:
 s828x10: 10-10
@@ -33092,19 +33043,15 @@ Words: 首先   出现   的  是  新西兰    和  澳大利亚     的  点�
 
 # sentence level graph:
 (s885y1 / identity-91
-				:ARG0 (s885x21 / person
-											:ARG0-of (s885x2 / 出现-01
-																				:temporal (s885x1 / 首先)))
-				:ARG1 (s885x9 / 灯
-											/ 点-01
-											/ 人
-											:ARG0 s885x9
-											:ARG1 s885x9
-											:mod (s885x6 / and
-																	:op1 (s885x16 / country
-																								:name (s885x5 / 新西兰))
-																	:op2 (s885x18 / country
-																								:name (s885x7 / 澳大利亚)))))
+    :ARG0 (s885x21 / person
+           :ARG0-of (s885x2 / 出现-01
+                    :temporal (s885x1 / 首先)))
+    :ARG1 (s885x9 / 点灯人-01
+           :mod (s885x6 / and
+                 :op1 (s885x16 / country
+                        :name (s885x5 / 新西兰))
+                 :op2 (s885x18 / country
+                        :name (s885x7 / 澳大利亚)))))
 
 # alignment:
 s885x1: 1-1
@@ -33167,73 +33114,65 @@ Words: 于是   就  轮到   中国   和  西伯利亚     的  点灯人    �
 
 # sentence level graph:
 (s887x62 / and
-				:snt1 (s887x64 / temporal
-												:ARG2 (s887x3 / 轮到-01
-																			:ARG1 (s887x9 / 走上-01
-																										:ARG0 (s887x8 / 灯
-																																	/ 点-01
-																																	/ 人
-																																	:ARG0 s887x8
-																																	:ARG1 s887x8
-																																	:mod (s887x5 / and
-																																							:op1 (s887x4 / 中国)
-																																							:op2 (s887x6 / 西伯利亚))))
-																			:mod (s887x2 / 就)
-																			:modal-strength (s887x107 / full-affirmative)))
-				:snt2 (s887x74 / temporal
-												:ARG3 (s887x16 / 藏-01
-																			:ARG1 (s887x14 / 他们)
-																			:aspect performance
-																			:mod (s887x15 / 也)
-																			:place (s887x18 / 后面
-																											:op1 (s887x17 / 幕布))))
-				:snt3 (s887x81 / temporal
-												:ARG2 (s887x24 / 轮到-01
-																			:ARG1 (s887x29 / 灯
-																											/ 点-01
-																											/ 人
-																											:ARG0 s887x29
-																											:ARG1 s887x29
-																											:mod (s887x86 / and
-																																		:op1 (s887x25 / 俄罗斯)
-																																		:op2 (s887x27 / 印度))
-																											:mod (s887x22 / 就)
-																											:mod (s887x23 / 又)
-																											:aspect performance)
-																			:modal-strength (s887x109 / full-affirmative)))
-				:snt4 (s887x92 / temporal
-												:ARG3 (s887x93 / person
-																			:mod (s887x36 / and
-																										:op1 (s887x35 / 非洲)
-																										:op2 (s887x37 / 欧洲))
-																			:mod (s887x33 / 就))
-												:ARG3 (s887y1 / identity-91
-																			:ARG0 (s887x98 / person)
-																			:ARG1 s887x93))
-				:snt5 (s887x99 / temporal
-												:ARG4 (s887x100 / person
-																				:mod (s887x42 / 南美))
-												:ARG4 (s887y2 / identity-91
-																			:ARG0 (s887x102 / person)
-																			:ARG1 s887x100)
-												:ARG5 (s887x103 / person
-																				:mod (s887x48 / 北美)
-																				:mod (s887x46 / 就))
-												:ARG5 (s887y3 / identity-91
-																			:ARG0 (s887x105 / person)
-																			:ARG1 s887x103))
-				:snt6 (s887x54 / 会-02
-												:ARG0 (s887x55 / 搞错
-																			:ARG0 (s887x50 / 。
-																											:ARG1 (s887x60 / 次序
-																																		:mod (s887x58 / 上场-01
-																																									:ARG0 (s887x57 / individual-person
-																																																	:refer-person 3
-																																																	:refer-number plural)))
-																											:modal-strength (s887x120 / full-negative))
-																			:polarity -
-																			:mod (s887x52 / 也)
-																			:temporal (s887x51 / 从来))))
+    :snt1 (s887x64 / temporal
+            :ARG2 (s887x3 / 轮到-01
+                   :ARG1 (s887x9 / 走上-01
+                          :ARG0 (s887x8 / 点灯人-01
+                                 :mod (s887x5 / and
+                                       :op1 (s887x4 / 中国)
+                                       :op2 (s887x6 / 西伯利亚))))
+                   :mod (s887x2 / 就)
+                   :modal-strength (s887x107 / full-affirmative)))
+    :snt2 (s887x74 / temporal
+            :ARG3 (s887x16 / 藏-01
+                   :ARG1 (s887x14 / 他们)
+                   :aspect performance
+                   :mod (s887x15 / 也)
+                   :place (s887x18 / 后面
+                           :op1 (s887x17 / 幕布))))
+    :snt3 (s887x81 / temporal
+            :ARG2 (s887x24 / 轮到-01
+                   :ARG1 (s887x29 / 点灯人-01
+                           :mod (s887x86 / and
+                                  :op1 (s887x25 / 俄罗斯)
+                                  :op2 (s887x27 / 印度))
+                           :mod (s887x22 / 就)
+                           :mod (s887x23 / 又)
+                           :aspect performance)
+                   :modal-strength (s887x109 / full-affirmative)))
+    :snt4 (s887x92 / temporal
+            :ARG3 (s887x93 / person
+                   :mod (s887x36 / and
+                          :op1 (s887x35 / 非洲)
+                          :op2 (s887x37 / 欧洲))
+                   :mod (s887x33 / 就))
+            :ARG3 (s887y1 / identity-91
+                   :ARG0 (s887x98 / person)
+                   :ARG1 s887x93))
+    :snt5 (s887x99 / temporal
+            :ARG4 (s887x100 / person
+                    :mod (s887x42 / 南美))
+            :ARG4 (s887y2 / identity-91
+                   :ARG0 (s887x102 / person)
+                   :ARG1 s887x100)
+            :ARG5 (s887x103 / person
+                    :mod (s887x48 / 北美)
+                    :mod (s887x46 / 就))
+            :ARG5 (s887y3 / identity-91
+                   :ARG0 (s887x105 / person)
+                   :ARG1 s887x103))
+    :snt6 (s887x54 / 会-02
+            :ARG0 (s887x55 / 搞错
+                   :ARG0 (s887x50 / 。
+                           :ARG1 (s887x60 / 次序
+                                  :mod (s887x58 / 上场-01
+                                         :ARG0 (s887x57 / individual-person
+                                                 :refer-person 3
+                                                 :refer-number plural)))
+                           :modal-strength (s887x120 / full-negative))
+                   :polarity -
+                   :mod (s887x52 / 也)
+                   :temporal (s887x51 / 从来))))
 
 # alignment:
 s887x100: 0-0
@@ -33319,51 +33258,47 @@ Words: 北极   仅  有  一  盏  路灯   ，  南极   也  只  有  一  �
 
 # sentence level graph:
 (s889x41 / and
-				:op1 (s889x43 / and
-											:op1 (s889x3 / 有-03
-																		:ARG0 (s889x1 / 北极)
-																		:mod (s889x2 / 仅)
-																		:ARG1 (s889x6 / 路灯
-																									:quant 1
-																									:unit (s889x5 / 盏))
-																		:modal-strength (s889x81 / full-affirmative))
-											:op2 (s889x11 / 有-03
-																		:ARG0 (s889x8 / 南极)
-																		:mod (s889x10 / 只)
-																		:mod (s889x9 / 也)
-																		:ARG1 (s889x54 / thing
-																										:quant 1
-																										:unit (s889x13 / 盏))
-																		:modal-strength (s889x82 / full-affirmative)))
-				:op2 (s889x25 / 过-01
-											:ARG1 (s889x31 / 生活
-																			:mod (s889x59 / and
-																										:op1 (s889x27 / 闲逸)
-																										:op2 (s889x29 / 懒散))
-																			:ARG0-of (s889x62 / mean
-																												:ARG1 (s889x37 / 工作-01
-																																			:ARG0 (s889x33 / individual-person
-																																											:refer-person 3
-																																											:refer-number plural)
-																																			:frequency (s889x65 / rate-entity-91
-																																													:ARG1 (s889x38 / 2)
-																																													:ARG3 (s889x67 / temporal-quantity
-																																																					:quant 1
-																																																					:unit (s889x35 / 年)))
-																																			:mod (s889x36 / 只))))
-											:aspect activity
-											:ARG0 (s889x19 / and
-																			:op1 (s889x18 / 灯
-																										/ 点-01
-																										/ 人
-																										:ARG0 s889x18
-																										:ARG1 s889x18
-																										:place (s889x16 / 北极))
-																			:op2 (s889x23 / 同行
-																										:place (s889x22 / 的)
-																										:possessor-of (s889x20 / 他))
-																			:mod (s889x15 / 唯独))
-											:modal-strength (s889x83 / full-affirmative)))
+    :op1 (s889x43 / and
+           :op1 (s889x3 / 有-03
+                  :ARG0 (s889x1 / 北极)
+                  :mod (s889x2 / 仅)
+                  :ARG1 (s889x6 / 路灯
+                         :quant 1
+                         :unit (s889x5 / 盏))
+                  :modal-strength (s889x81 / full-affirmative))
+           :op2 (s889x11 / 有-03
+                  :ARG0 (s889x8 / 南极)
+                  :mod (s889x10 / 只)
+                  :mod (s889x9 / 也)
+                  :ARG1 (s889x54 / thing
+                          :quant 1
+                          :unit (s889x13 / 盏))
+                  :modal-strength (s889x82 / full-affirmative)))
+    :op2 (s889x25 / 过-01
+           :ARG1 (s889x31 / 生活
+                   :mod (s889x59 / and
+                          :op1 (s889x27 / 闲逸)
+                          :op2 (s889x29 / 懒散))
+                   :ARG0-of (s889x62 / mean
+                            :ARG1 (s889x37 / 工作-01
+                                   :ARG0 (s889x33 / individual-person
+                                           :refer-person 3
+                                           :refer-number plural)
+                                   :frequency (s889x65 / rate-entity-91
+                                             :ARG1 (s889x38 / 2)
+                                             :ARG3 (s889x67 / temporal-quantity
+                                                     :quant 1
+                                                     :unit (s889x35 / 年)))
+                                   :mod (s889x36 / 只))))
+           :aspect activity
+           :ARG0 (s889x19 / and
+                   :op1 (s889x18 / 点灯人-01
+                          :place (s889x16 / 北极))
+                   :op2 (s889x23 / 同行
+                          :place (s889x22 / 的)
+                          :possessor-of (s889x20 / 他))
+                   :mod (s889x15 / 唯独))
+           :modal-strength (s889x83 / full-affirmative)))
 
 # alignment:
 s889x1: 1-1
@@ -33453,22 +33388,18 @@ Words: 在  给  你们   讲  点灯人    的  时候   ，  我  就  不  �
 
 # sentence level graph:
 (s891x13 / 忠实-01
-				:ARG0 (s891x9 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:degree (s891x12 / 那么)
-				:polarity -
-				:mod (s891x10 / 就)
-				:temporal (s891x4 / 讲-01
-													:ARG2 (s891x3 / individual-person
-																				:refer-person 2
-																				:refer-number plural)
-													:ARG1 (s891x5 / 灯
-																				/ 点-01
-																				/ 人
-																				:ARG0 s891x5
-																				:ARG1 s891x5)
-													:ARG0 s891x9))
+    :ARG0 (s891x9 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :degree (s891x12 / 那么)
+    :polarity -
+    :mod (s891x10 / 就)
+    :temporal (s891x4 / 讲-01
+             :ARG2 (s891x3 / individual-person
+                    :refer-person 2
+                    :refer-number plural)
+             :ARG1 (s891x5 / 点灯人-01)
+             :ARG0 s891x9))
 
 # alignment:
 s891x10: 10-10
@@ -33491,23 +33422,22 @@ Words: 很  可能   给  不  了解   我们   这个   星球   的  人们  
 
 # sentence level graph:
 (s892x2 / 可能-01
-				:degree (s892x1 / 很)
-				:ARG0 (s892x11 / 造成-01
-											:ARG1 (s892x16 / 概念
-																			:quant 1
-																			:unit (s892x13 / 个)
-																			:mod (s892x14 / 错误))
-											:beneficiary (s892x10 / 人们
-																						:ARG0-of (s892x5 / 了解-02
-																															:ARG1 (s892x8 / 星球
-																																						:possessor-of (s892x6 / individual-person
-																																													:refer-person 1
-																																													:refer-number plural)
-																																						:mod (s892x7 / 个
-																																												/ 这)
-																																						:unit s892x7)
-																															:polarity -))
-											:modal-strength (s892x35 / partial-affirmative)))
+    :degree (s892x1 / 很)
+    :ARG0 (s892x11 / 造成-01
+           :ARG1 (s892x16 / 概念
+                   :quant 1
+                   :unit (s892x13 / 个)
+                   :mod (s892x14 / 错误))
+           :beneficiary (s892x10 / 人们
+                      :ARG0-of (s892x5 / 了解-02
+                               :ARG1 (s892x8 / 星球
+                                      :possessor-of (s892x6 / individual-person
+                                             :refer-person 1
+                                             :refer-number plural)
+                                      :mod (s892x7 / 这个)
+                                      :unit s892x7)
+                               :polarity -))
+           :modal-strength (s892x35 / partial-affirmative)))
 
 # alignment:
 s892x1: 1-1
@@ -35603,19 +35533,18 @@ Words: 我  想  大约   有  六七   个  人  ，
 
 # sentence level graph:
 (s954x2 / 想-01
-				:ARG0 (s954x1 / individual-person
-											:refer-person 1
-											:refer-number singular)
-				:ARG1 (s954x4 / 有-03
-											:ARG1 (s954x7 / 人
-																		:quant (s954x15 / or
-																										:op1 (s954x5 / 7
-																																/ 6)
-																										:op2 s954x5)
-																		:unit (s954x6 / 个))
-											:mod (s954x3 / 大约)
-											:modal-strength (s954x21 / full-affirmative
-																			:conceiver s954x1)))
+    :ARG0 (s954x1 / individual-person
+           :refer-person 1
+           :refer-number singular)
+    :ARG1 (s954x4 / 有-03
+           :ARG1 (s954x7 / 人
+                  :quant (s954x15 / or
+                          :op1 (s954x5 / 7)
+                          :op2 (s954x8 / 6))
+                  :unit (s954x6 / 个))
+           :mod (s954x3 / 大约)
+           :modal-strength (s954x21 / full-affirmative
+                   :conceiver s954x1)))
 
 # alignment:
 s954x1: 0-0
@@ -35627,6 +35556,7 @@ s954x4: 4-4
 s954x5: 0-0
 s954x6: 6-6
 s954x7: 7-7
+s954x8: 0-0
 
 # document level annotation:
 (s954s0 / sentence)
@@ -39980,16 +39910,15 @@ Words: “ 最好   还是   在  原来   的  那个   时间   来  。  ” 
 
 # sentence level graph:
 (s1080x13 / 说道-01
-					:ARG0 (s1080x12 / 狐狸)
-					:ARG1 (s1080x9 / 来-01
-												:temporal (s1080x8 / 时间
-																						:mod (s1080x5 / 原来)
-																						:mod (s1080x7 / 个
-																													/ 那)
-																						:unit s1080x7)
-												:mod (s1080x2 / 最好)
-												:mod (s1080x3 / 还是))
-					:modal-strength (s1080x25 / full-affirmative))
+     :ARG0 (s1080x12 / 狐狸)
+     :ARG1 (s1080x9 / 来-01
+            :temporal (s1080x8 / 时间
+                      :mod (s1080x5 / 原来)
+                      :mod (s1080x7 / 那个)
+                      :unit s1080x7)
+            :mod (s1080x2 / 最好)
+            :mod (s1080x3 / 还是))
+     :modal-strength (s1080x25 / full-affirmative))
 
 # alignment:
 s1080x12: 12-12
@@ -41425,88 +41354,87 @@ Words: 可是   ，  她  单独   一  朵  就  比  你们   全体   更  �
 
 # sentence level graph:
 (s1118x80 / contrast
-					:ARG2 (s1118x12 / 重要-01
-													:ARG0 (s1118x3 / individual-person
-																				:refer-person 3
-																				:refer-number singular
-																				:quant 1
-																				:unit (s1118x6 / 朵))
-													:compared-to (s1118x9 / individual-person
-																								:refer-person 2
-																								:refer-number plural
-																								:mod (s1118x10 / 全体))
-													:degree (s1118x11 / 更)
-													:mod (s1118x7 / 就))
-					:ARG1 (s1118x91 / and
-													:op1 (s1118x18 / 浇灌-01
-																				:ARG0 (s1118x17 / individual-person
-																												:refer-person 1
-																												:refer-number singular)
-																				:ARG1 (s1118x15 / individual-person
-																												:refer-person 3
-																												:refer-number singular)
-																				:mode judgement)
-													:op2 (s1118x25 / 放-01
-																				:ARG0 (s1118x24 / individual-person
-																												:refer-person 1
-																												:refer-number singular)
-																				:mode judgement
-																				:ARG1 (s1118x22 / individual-person
-																												:refer-person 3
-																												:refer-number singular)
-																				:ARG2 (s1118x27 / 花罩))
-													:op3 (s1118x37 / 保护-01
-																				:ARG0 (s1118x34 / individual-person
-																												:refer-person 1
-																												:refer-number singular)
-																				:instrument (s1118x36 / 屏风)
-																				:ARG1 (s1118x32 / individual-person
-																												:refer-person 3
-																												:refer-number singular)
-																				:mode judgement)
-													:op4 (s1118x58 / 除灭
-																				:ARG0 (s1118x57 / individual-person
-																												:refer-person 1
-																												:refer-number singular)
-																				:ARG1 (s1118x45 / 毛虫
-																												:place (s1118x43 / 身上
-																																					:mod (s1118x42 / individual-person
-																																												:refer-person 3
-																																												:refer-number singular))
-																												:ARG0-of (s1118x47 / 除了
-																																						:ARG1 (s1118x48 / 留下-01
-																																														:ARG1 (s1118x113 / thing
-																																																						:quant (s1118x114 / or
-																																																															:op1 (s1118x49 / 3
-																																																																							/ 2)
-																																																															:op2 s1118x49)
-																																																						:unit (s1118x50 / 只))
-																																														:purpose (s1118x52 / 变-01
-																																																							:ARG0 s1118x113
-																																																							:ARG1 (s1118x53 / 蝴蝶)))))
-																				:mode judgement)
-													:op5 (s1118x122 / progression
-																					:ARG1 (s1118x63 / 倾听-01
-																													:aspect performance
-																													:ARG0 (s1118x62 / individual-person
-																																					:refer-person 1
-																																					:refer-number singular)
-																													:ARG1 (s1118x68 / and
-																																					:op1 (s1118x67 / 怨艾)
-																																					:op2 (s1118x69 / 自诩)
-																																					:possessor-of (s1118x65 / individual-person
-																																													:refer-person 3
-																																													:refer-number singular)))
-																					:ARG2 (s1118x74 / 聆听-01
-																													:ARG0 (s1118x73 / individual-person
-																																					:refer-person 1
-																																					:refer-number singular)
-																													:ARG1 (s1118x78 / 沉默
-																																					:possessor-of (s1118x76 / individual-person
-																																													:refer-person 3
-																																													:refer-number singular))
-																													:temporal (s1118x72 / 有时)
-																													:aspect activity))))
+     :ARG2 (s1118x12 / 重要-01
+             :ARG0 (s1118x3 / individual-person
+                    :refer-person 3
+                    :refer-number singular
+                    :quant 1
+                    :unit (s1118x6 / 朵))
+             :compared-to (s1118x9 / individual-person
+                        :refer-person 2
+                        :refer-number plural
+                        :mod (s1118x10 / 全体))
+             :degree (s1118x11 / 更)
+             :mod (s1118x7 / 就))
+     :ARG1 (s1118x91 / and
+             :op1 (s1118x18 / 浇灌-01
+                    :ARG0 (s1118x17 / individual-person
+                            :refer-person 1
+                            :refer-number singular)
+                    :ARG1 (s1118x15 / individual-person
+                            :refer-person 3
+                            :refer-number singular)
+                    :mode judgement)
+             :op2 (s1118x25 / 放-01
+                    :ARG0 (s1118x24 / individual-person
+                            :refer-person 1
+                            :refer-number singular)
+                    :mode judgement
+                    :ARG1 (s1118x22 / individual-person
+                            :refer-person 3
+                            :refer-number singular)
+                    :ARG2 (s1118x27 / 花罩))
+             :op3 (s1118x37 / 保护-01
+                    :ARG0 (s1118x34 / individual-person
+                            :refer-person 1
+                            :refer-number singular)
+                    :instrument (s1118x36 / 屏风)
+                    :ARG1 (s1118x32 / individual-person
+                            :refer-person 3
+                            :refer-number singular)
+                    :mode judgement)
+             :op4 (s1118x58 / 除灭
+                    :ARG0 (s1118x57 / individual-person
+                            :refer-person 1
+                            :refer-number singular)
+                    :ARG1 (s1118x45 / 毛虫
+                            :place (s1118x43 / 身上
+                                     :mod (s1118x42 / individual-person
+                                            :refer-person 3
+                                            :refer-number singular))
+                            :ARG0-of (s1118x47 / 除了
+                                      :ARG1 (s1118x48 / 留下-01
+                                              :ARG1 (s1118x113 / thing
+                                                      :quant (s1118x114 / or
+                                                               :op1 (s1118x49 / 3)
+                                                               :op2 (s1118x4 / 2))
+                                                      :unit (s1118x50 / 只))
+                                              :purpose (s1118x52 / 变-01
+                                                       :ARG0 s1118x113
+                                                       :ARG1 (s1118x53 / 蝴蝶)))))
+                    :mode judgement)
+             :op5 (s1118x122 / progression
+                     :ARG1 (s1118x63 / 倾听-01
+                             :aspect performance
+                             :ARG0 (s1118x62 / individual-person
+                                     :refer-person 1
+                                     :refer-number singular)
+                             :ARG1 (s1118x68 / and
+                                     :op1 (s1118x67 / 怨艾)
+                                     :op2 (s1118x69 / 自诩)
+                                     :possessor-of (s1118x65 / individual-person
+                                             :refer-person 3
+                                             :refer-number singular)))
+                     :ARG2 (s1118x74 / 聆听-01
+                             :ARG0 (s1118x73 / individual-person
+                                     :refer-person 1
+                                     :refer-number singular)
+                             :ARG1 (s1118x78 / 沉默
+                                     :possessor-of (s1118x76 / individual-person
+                                             :refer-person 3
+                                             :refer-number singular))
+                             :temporal (s1118x72 / 有时)
+                             :aspect activity))))
 
 # alignment:
 s1118x10: 10-10
@@ -41533,6 +41461,7 @@ s1118x45: 45-45
 s1118x47: 47-47
 s1118x48: 48-48
 s1118x49: 0-0
+s1118x4: 0-0
 s1118x50: 50-50
 s1118x52: 52-52
 s1118x53: 53-53
@@ -41901,17 +41830,16 @@ Words: “ 人们   已经   忘记   了  这个   道理   ，  ” 狐狸   �
 
 # sentence level graph:
 (s1127x11 / 说-01
-					:ARG0 (s1127x10 / 狐狸)
-					:ARG1 (s1127x4 / 忘记-01
-												:ARG0 (s1127x2 / 人们)
-												:aspect performance
-												:ARG1 (s1127x7 / 道理
-																				:mod (s1127x6 / 个
-																											/ 这)
-																				:unit s1127x6)
-												:modal-strength (s1127x23 / full-affirmative
-																					:conceiver s1127x10)
-												:quote (s1127x11 / 说-01)))
+     :ARG0 (s1127x10 / 狐狸)
+     :ARG1 (s1127x4 / 忘记-01
+            :ARG0 (s1127x2 / 人们)
+            :aspect performance
+            :ARG1 (s1127x7 / 道理
+                    :mod (s1127x6 / 这个)
+                    :unit s1127x6)
+            :modal-strength (s1127x23 / full-affirmative
+                     :conceiver s1127x10)
+            :quote s1127x11))
 
 # alignment:
 s1127x10: 10-10
@@ -43284,45 +43212,44 @@ Words: 这  是  我  在  沙漠   上  出  了  事故   的  第八   天  �
 
 # sentence level graph:
 (s1166x38 / and
-					:snt2 (s1166x40 / and
-													:op1 (s1166x15 / 听-01
-																				:ARG0 (s1166x14 / individual-person
-																												:refer-person 1
-																												:refer-number singular)
-																				:aspect activity
-																				:ARG1 (s1166x21 / 故事
-																												:topic (s1166x19 / 商人
-																																					:mod (s1166x18 / 个
-																																												/ 这)
-																																					:unit s1166x18))
-																				:modal-strength (s1166x67 / full-affirmative))
-													:op2 (s1166x23 / 喝完-01
-																				:ARG0 s1166x14
-																				:aspect performance
-																				:ARG1 (s1166x33 / 水
-																												:quant 1
-																												:unit (s1166x32 / 滴)
-																												:mod (s1166x30 / 最后)
-																												:ARG1-of (s1166x28 / 备用-01
-																																						:ARG0 (s1166x26 / individual-person
-																																														:refer-person 1
-																																														:refer-number singular)))
-																				:modal-strength (s1166x68 / full-affirmative)))
-					:snt1 (s1166x12 / 天
-													:ord (s1166x57 / ordinal-entity
-																				:value 8)
-													:source (s1166x7 / 出
-																					:ARG1 (s1166x9 / 事故)
-																					:ARG1 (s1166x3 / individual-person
-																													:refer-person 1
-																													:refer-number singular)
-																					:aspect performance
-																					:place (s1166x5 / 沙漠)))
-					:snt1 (s1166y1 / identity-91
-												:ARG0 (s1166x1 / 这)
-												:ARG1 s1166x12)
-					:snt3 (s1166x35 / 啊
-													:mode expressive))
+     :snt2 (s1166x40 / and
+             :op1 (s1166x15 / 听-01
+                    :ARG0 (s1166x14 / individual-person
+                            :refer-person 1
+                            :refer-number singular)
+                    :aspect activity
+                    :ARG1 (s1166x21 / 故事
+                            :topic (s1166x19 / 商人
+                                     :mod (s1166x18 / 这个)
+                                     :unit s1166x18))
+                    :modal-strength (s1166x67 / full-affirmative))
+             :op2 (s1166x23 / 喝完-01
+                    :ARG0 s1166x14
+                    :aspect performance
+                    :ARG1 (s1166x33 / 水
+                            :quant 1
+                            :unit (s1166x32 / 滴)
+                            :mod (s1166x30 / 最后)
+                            :ARG1-of (s1166x28 / 备用-01
+                                      :ARG0 (s1166x26 / individual-person
+                                              :refer-person 1
+                                              :refer-number singular)))
+                    :modal-strength (s1166x68 / full-affirmative)))
+     :snt1 (s1166x12 / 天
+             :ord (s1166x57 / ordinal-entity
+                    :value 8)
+             :source (s1166x7 / 出
+                     :ARG1 (s1166x9 / 事故)
+                     :ARG1 (s1166x3 / individual-person
+                             :refer-person 1
+                             :refer-number singular)
+                     :aspect performance
+                     :place (s1166x5 / 沙漠)))
+     :snt1 (s1166y1 / identity-91
+            :ARG0 (s1166x1 / 这)
+            :ARG1 s1166x12)
+     :snt3 (s1166x35 / 啊
+             :mode expressive))
 
 # alignment:
 s1166x1: 1-1
@@ -44687,36 +44614,35 @@ Words: 当  我  还  是  一  个  小  孩子   的  时候   ，  我  住  
 
 # sentence level graph:
 (s1202x34 / and
-					:op1 (s1202x13 / 住-01
-												:ARG0 (s1202x12 / individual-person
-																				:refer-person 1
-																				:refer-number singular)
-												:ARG1 (s1202x19 / 房子
-																				:mod (s1202x17 / 古老)
-																				:quant 1
-																				:unit (s1202x16 / 座))
-												:temporal (s1202x8 / 孩子
-																						:mod (s1202x7 / 小)
-																						:mod (s1202x3 / 还-01)
-																						:quant 1
-																						:unit (s1202x6 / 个))
-												:temporal (s1202y1 / identity-91
-																						:ARG0 (s1202x2 / individual-person
-																													:refer-person 1
-																													:refer-number singular)
-																						:ARG1 s1202x8)
-												:modal-strength (s1202x57 / full-affirmative))
-					:op2 (s1202x23 / 传说-01
-												:ARG1 (s1202x28 / 埋藏-01
-																				:ARG1 (s1202x32 / 宝贝
-																												:quant 1
-																												:unit (s1202x31 / 个))
-																				:aspect activity
-																				:place (s1202x26 / 房子
-																													:mod (s1202x25 / 个
-																																				/ 这)
-																													:unit s1202x25)
-																				:modal-strength (s1202x58 / full-affirmative))))
+     :op1 (s1202x13 / 住-01
+            :ARG0 (s1202x12 / individual-person
+                    :refer-person 1
+                    :refer-number singular)
+            :ARG1 (s1202x19 / 房子
+                    :mod (s1202x17 / 古老)
+                    :quant 1
+                    :unit (s1202x16 / 座))
+            :temporal (s1202x8 / 孩子
+                      :mod (s1202x7 / 小)
+                      :mod (s1202x3 / 还-01)
+                      :quant 1
+                      :unit (s1202x6 / 个))
+            :temporal (s1202y1 / identity-91
+                      :ARG0 (s1202x2 / individual-person
+                             :refer-person 1
+                             :refer-number singular)
+                      :ARG1 s1202x8)
+            :modal-strength (s1202x57 / full-affirmative))
+     :op2 (s1202x23 / 传说-01
+            :ARG1 (s1202x28 / 埋藏-01
+                    :ARG1 (s1202x32 / 宝贝
+                            :quant 1
+                            :unit (s1202x31 / 个))
+                    :aspect activity
+                    :place (s1202x26 / 房子
+                             :mod (s1202x25 / 这个)
+                             :unit s1202x25)
+                    :modal-strength (s1202x58 / full-affirmative))))
 
 # alignment:
 s1202x12: 0-0
@@ -44752,29 +44678,28 @@ Words: 当然   ，  从来   没有   任何   人  能  发现   这个   宝�
 
 # sentence level graph:
 (s1203x22 / progression
-					:ARG1 (s1203x7 / 能-01
-												:ARG0 (s1203x8 / 发现
-																				:ARG1 (s1203x10 / 宝贝
-																												:mod (s1203x9 / 个
-																																			/ 这)
-																												:unit s1203x9)
-																				:ARG0 (s1203x6 / 人
-																											:mod (s1203x5 / 任何)
-																											:ARG1-of (s1203x4 / 有-03
-																																				:polarity -)
-																											:temporal (s1203x3 / 从来)))
-												:modal-strength neutral-affirmative)
-					:ARG2 (s1203x12 / 可能-01
-													:ARG0 (s1203x18 / 去-01
-																					:ARG1 (s1203x19 / 寻找-01
-																													:aspect performance
-																													:ARG1 s1203x10
-																													:modal-strength (s1203x45 / neutral-negative))
-																					:ARG0 (s1203x17 / 人
-																													:ARG1-of (s1203x16 / 有-03
-																																						:polarity -
-																																						:mod (s1203x15 / 也)))))
-					:mod (s1203x1 / 当然))
+     :ARG1 (s1203x7 / 能-01
+            :ARG0 (s1203x8 / 发现
+                    :ARG1 (s1203x10 / 宝贝
+                            :mod (s1203x9 / 这个)
+                            :unit s1203x9)
+                    :ARG0 (s1203x6 / 人
+                           :mod (s1203x5 / 任何)
+                           :ARG1-of (s1203x4 / 有-03
+                                    :polarity -)
+                           :temporal (s1203x3 / 从来)))
+            :modal-strength neutral-affirmative)
+     :ARG2 (s1203x12 / 可能-01
+             :ARG0 (s1203x18 / 去-01
+                     :ARG1 (s1203x19 / 寻找-01
+                             :aspect performance
+                             :ARG1 s1203x10
+                             :modal-strength (s1203x45 / neutral-negative))
+                     :ARG0 (s1203x17 / 人
+                             :ARG1-of (s1203x16 / 有-03
+                                      :polarity -
+                                      :mod (s1203x15 / 也)))))
+     :mod (s1203x1 / 当然))
 
 # alignment:
 s1203x1: 1-1
@@ -44807,15 +44732,14 @@ Words: 但是   ，  这个   宝贝   使  整个   房子   着  了  魔  似
 
 # sentence level graph:
 (s1204x13 / contrast
-					:ARG2 (s1204x11 / resemble
-													:ARG1 (s1204x8 / 着魔-01
-																				:ARG0 (s1204x7 / 房子
-																												:mod (s1204x6 / 整个))
-																				:cause (s1204x4 / 宝贝
-																												:mod (s1204x3 / 个
-																																			/ 这)
-																												:unit s1204x3)
-																				:aspect performance)))
+     :ARG2 (s1204x11 / resemble
+             :ARG1 (s1204x8 / 着魔-01
+                    :ARG0 (s1204x7 / 房子
+                            :mod (s1204x6 / 整个))
+                    :cause (s1204x4 / 宝贝
+                            :mod (s1204x3 / 这个)
+                            :unit s1204x3)
+                    :aspect performance)))
 
 # alignment:
 s1204x11: 0-0
@@ -51254,18 +51178,17 @@ Words: 对  我  所  遇见   的  那个   实业家    来说   ，  星星  
 
 # sentence level graph:
 (s1381x8 / 来说-01
-				:ARG1 (s1381x7 / 实业家
-												:ARG1-of (s1381x4 / 遇见-01
-																					:ARG0 (s1381x2 / individual-person
-																												:refer-person 1
-																												:refer-number singular))
-												:mod (s1381x6 / 个
-																			/ 那)
-												:unit s1381x6)
-				:ARG2 (s1381x12 / 金钱)
-				:ARG2 (s1381y1 / identity-91
-												:ARG0 (s1381x10 / 星星)
-												:ARG1 s1381x12))
+    :ARG1 (s1381x7 / 实业家
+            :ARG1-of (s1381x4 / 遇见-01
+                     :ARG0 (s1381x2 / individual-person
+                            :refer-person 1
+                            :refer-number singular))
+            :mod (s1381x6 / 那个)
+            :unit s1381x6)
+    :ARG2 (s1381x12 / 金钱)
+    :ARG2 (s1381y1 / identity-91
+            :ARG0 (s1381x10 / 星星)
+            :ARG1 s1381x12))
 
 # alignment:
 s1381x10: 10-10
@@ -53798,17 +53721,16 @@ Words: 我  还  从未   讲  过  这个   故事   。
 
 # sentence level graph:
 (s1459x4 / 讲-01
-				:ARG0 (s1459x1 / individual-person
-												:refer-person 1
-												:refer-number singular)
-				:modal-strength (s1459x18 / full-negative)
-				:polarity -
-				:aspect performance
-				:ARG1 (s1459x7 / 故事
-												:mod (s1459x6 / 个
-																			/ 这)
-												:unit s1459x6)
-				:mod (s1459x2 / 还))
+    :ARG0 (s1459x1 / individual-person
+            :refer-person 1
+            :refer-number singular)
+    :modal-strength (s1459x18 / full-negative)
+    :polarity -
+    :aspect performance
+    :ARG1 (s1459x7 / 故事
+            :mod (s1459x6 / 这个)
+            :unit s1459x6)
+    :mod (s1459x2 / 还))
 
 # alignment:
 s1459x1: 0-0
@@ -54901,36 +54823,34 @@ Words: 请  你们   仔细   看看   这个   地方   ，  以便   你们   
 
 # sentence level graph:
 (s1485x1 / 请-01
-				:ARG1 (s1485x2 / individual-person
-												:refer-person 2
-												:refer-number plural)
-				:ARG2 (s1485x4 / 看看-01
-												:ARG1 (s1485x6 / 地方
-																			:mod (s1485x5 / 个
-																										/ 这)
-																			:unit s1485x5)
-												:purpose (s1485x19 / 能够-01
-																					:ARG0 (s1485x22 / 辨认-01
-																													:ARG1 (s1485x25 / 地方
-																																					:mod (s1485x24 / 个
-																																													/ 这)
-																																					:unit s1485x24)
-																													:manner (s1485x20 / 准确)
-																													:modal-strength (s1485x51 / partial-affirmative))
-																					:ARG0 (s1485x9 / individual-person
-																													:refer-person 2
-																													:refer-number plural)
-																					:temporal (s1485x11 / 去-01
-																															:ARG1 (s1485x13 / 沙漠
-																																							:mod (s1485x12 / 非洲))
-																															:purpose (s1485x15 / 旅行-01
-																																									:ARG0 s1485x9)
-																															:ARG0 s1485x9
-																															:temporal (s1485x10 / 有一天))
-																					:modal-strength neutral-affirmative)
-												:manner (s1485x3 / 仔细)
-												:modal-strength (s1485x50 / partial-affirmative))
-				:mode imperative)
+    :ARG1 (s1485x2 / individual-person
+            :refer-person 2
+            :refer-number plural)
+    :ARG2 (s1485x4 / 看看-01
+            :ARG1 (s1485x6 / 地方
+                   :mod (s1485x5 / 这个)
+                   :unit s1485x5)
+            :purpose (s1485x19 / 能够-01
+                     :ARG0 (s1485x22 / 辨认-01
+                             :ARG1 (s1485x25 / 地方
+                                     :mod (s1485x24 / 这个)
+                                     :unit s1485x24)
+                             :manner (s1485x20 / 准确)
+                             :modal-strength (s1485x51 / partial-affirmative))
+                     :ARG0 (s1485x9 / individual-person
+                             :refer-person 2
+                             :refer-number plural)
+                     :temporal (s1485x11 / 去-01
+                               :ARG1 (s1485x13 / 沙漠
+                                       :mod (s1485x12 / 非洲))
+                               :purpose (s1485x15 / 旅行-01
+                                         :ARG0 s1485x9)
+                               :ARG0 s1485x9
+                               :temporal (s1485x10 / 有一天))
+                     :modal-strength neutral-affirmative)
+            :manner (s1485x3 / 仔细)
+            :modal-strength (s1485x50 / partial-affirmative))
+    :mode imperative)
 
 # alignment:
 s1485x1: 1-1
@@ -54965,26 +54885,25 @@ Words: 如果   ，  你们   有  机会   经过   这个   地方   ，  请 
 
 # sentence level graph:
 (s1486x17 / condition
-					:ARG1 (s1486x4 / 有-01
-												:ARG0 (s1486x3 / individual-person
-																				:refer-person 2
-																				:refer-number plural)
-												:ARG1 (s1486x5 / 机会)
-												:time-of (s1486x6 / 经过
-																					:ARG1 (s1486x8 / 地方
-																													:mod (s1486x7 / 个
-																																				/ 这)
-																													:unit s1486x7)
-																					:ARG0 s1486x3)
-												:modal-strength (s1486x32 / full-affirmative))
-					:ARG2 (s1486x10 / 请-01
-													:ARG2 (s1486x12 / 要-03
-																					:ARG0 (s1486x13 / 匆匆而过
-																													:ARG0 s1486x3)
-																					:polarity -)
-													:mode imperative
-													:ARG1 s1486x3)
-					:modal-strength (s1486x31 / neutral-affirmative))
+     :ARG1 (s1486x4 / 有-01
+            :ARG0 (s1486x3 / individual-person
+                    :refer-person 2
+                    :refer-number plural)
+            :ARG1 (s1486x5 / 机会)
+            :time-of (s1486x6 / 经过
+                     :ARG1 (s1486x8 / 地方
+                             :mod (s1486x7 / 这个)
+                             :unit s1486x7)
+                     :ARG0 s1486x3)
+            :modal-strength (s1486x32 / full-affirmative))
+     :ARG2 (s1486x10 / 请-01
+             :ARG2 (s1486x12 / 要-03
+                     :ARG0 (s1486x13 / 匆匆而过
+                             :ARG0 s1486x3)
+                     :polarity -)
+             :mode imperative
+             :ARG1 s1486x3)
+     :modal-strength (s1486x31 / neutral-affirmative))
 
 # alignment:
 s1486x10: 10-10
@@ -55048,60 +54967,58 @@ Words: 如果   这时   ，  有  个  小孩子    向  你  走来   ，  如
 
 # sentence level graph:
 (s1488x42 / condition
-					:ARG1 (s1488x44 / and
-													:op1 (s1488x9 / 走来-01
-																				:ARG0 (s1488x6 / 小孩子
-																											:ARG1-of (s1488x4 / 有-03)
-																											:unit (s1488x5 / 个))
-																				:direction (s1488x8 / individual-person
-																														:refer-person 2
-																														:refer-number singular)
-																				:temporal (s1488x2 / 这时)
-																				:modal-strength (s1488x75 / full-affirmative))
-													:op2 (s1488x51 / and
-																				:op1 (s1488x13 / 笑-01
-																												:aspect activity
-																												:ARG0 (s1488x12 / individual-person
-																																				:refer-person 3
-																																				:refer-number singular)
-																												:modal-strength (s1488x76 / full-affirmative))
-																				:op2 (s1488x17 / 有-01
-																												:ARG0 (s1488x16 / individual-person
-																																				:refer-person 3
-																																				:refer-number singular)
-																												:ARG1 (s1488x20 / 头发
-																																				:mod (s1488x18 / 金黄色))
-																												:modal-strength (s1488x77 / full-affirmative)))
-													:op3 (s1488x31 / 回答-01
-																				:ARG0 (s1488x29 / individual-person
-																												:refer-person 3
-																												:refer-number singular)
-																				:modal-strength (s1488x78 / full-negative)
-																				:polarity -
-																				:temporal (s1488x25 / 问-01
-																														:ARG0 (s1488x24 / individual-person
-																																						:refer-person 2
-																																						:refer-number singular)
-																														:ARG2 (s1488x26 / individual-person
-																																						:refer-person 3
-																																						:refer-number singular)
-																														:ARG1 (s1488x27 / 问题))))
-					:ARG2 (s1488x34 / 一定
-													:ARG0 (s1488x35 / 会-02
-																					:ARG0 (s1488x36 / 猜出-01
-																													/ possible
-																													:ARG0 s1488x36
-																													:ARG0 (s1488x33 / individual-person
-																																					:refer-person 2
-																																					:refer-number singular)
-																													:ARG1 (s1488x40 / 谁)
-																													:ARG1 (s1488y1 / identity-91
-																																				:ARG0 (s1488x38 / individual-person
-																																												:refer-person 3
-																																												:refer-number singular)
-																																				:ARG1 s1488x40)
-																													:modal-strength (s1488x79 / full-affirmative))))
-					:modal-strength (s1488x74 / neutral-affirmative))
+     :ARG1 (s1488x44 / and
+             :op1 (s1488x9 / 走来-01
+                    :ARG0 (s1488x6 / 小孩子
+                           :ARG1-of (s1488x4 / 有-03)
+                           :unit (s1488x5 / 个))
+                    :direction (s1488x8 / individual-person
+                              :refer-person 2
+                              :refer-number singular)
+                    :temporal (s1488x2 / 这时)
+                    :modal-strength (s1488x75 / full-affirmative))
+             :op2 (s1488x51 / and
+                    :op1 (s1488x13 / 笑-01
+                            :aspect activity
+                            :ARG0 (s1488x12 / individual-person
+                                    :refer-person 3
+                                    :refer-number singular)
+                            :modal-strength (s1488x76 / full-affirmative))
+                    :op2 (s1488x17 / 有-01
+                            :ARG0 (s1488x16 / individual-person
+                                    :refer-person 3
+                                    :refer-number singular)
+                            :ARG1 (s1488x20 / 头发
+                                    :mod (s1488x18 / 金黄色))
+                            :modal-strength (s1488x77 / full-affirmative)))
+             :op3 (s1488x31 / 回答-01
+                    :ARG0 (s1488x29 / individual-person
+                            :refer-person 3
+                            :refer-number singular)
+                    :modal-strength (s1488x78 / full-negative)
+                    :polarity -
+                    :temporal (s1488x25 / 问-01
+                              :ARG0 (s1488x24 / individual-person
+                                      :refer-person 2
+                                      :refer-number singular)
+                              :ARG2 (s1488x26 / individual-person
+                                      :refer-person 3
+                                      :refer-number singular)
+                              :ARG1 (s1488x27 / 问题))))
+     :ARG2 (s1488x34 / 一定
+             :ARG0 (s1488x35 / 会-02
+                     :ARG0 (s1488x36 / 猜出-01
+                             :ARG0 (s1488x33 / individual-person
+                                     :refer-person 2
+                                     :refer-number singular)
+                             :ARG1 (s1488x40 / 谁)
+                             :ARG1 (s1488y1 / identity-91
+                                    :ARG0 (s1488x38 / individual-person
+                                            :refer-person 3
+                                            :refer-number singular)
+                                    :ARG1 s1488x40)
+                             :modal-strength (s1488x79 / full-affirmative))))
+     :modal-strength (s1488x74 / neutral-affirmative))
 
 # alignment:
 s1488x12: 0-0
