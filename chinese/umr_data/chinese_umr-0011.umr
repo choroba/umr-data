@@ -84,7 +84,6 @@ s2x9: 8-8
 (s2s0 / sentence
 	:temporal ((document-creation-time :overlap s2i2))
 	:modal ((root :modal author)
-		(author :full-affirmative s2x7)
 		(author :full-affirmative s2i2)
 		(author :full-affirmative s2x2))
 	:coref ((s1x :same-entity s2x)))
@@ -635,9 +634,7 @@ s11x6: 3-3
 		(document-creation-time :before s11x2))
 	:modal ((root :modal author)
 		(author :full-affirmative s11x2)
-		(author :full-affirmative s11x)
-		(author :full-affirmative s11x))
-	:coref ))
+		(author :full-affirmative s11x)))
 
 
 ################################################################################
@@ -768,7 +765,6 @@ s13x9: 15-15
 		(author :full-affirmative s13x)
 		(author :full-affirmative s13x2))
 	:coref ((s12x4 :same-entity s13x13)
-		(s12c2 :same-entity s13c)
 		(s13x7 :same-entity s13x4)))
 
 
@@ -981,7 +977,6 @@ s16x9: 19-19
 	:modal ((root :modal author)
 		(author :full-affirmative s16x8)
 		(author :full-affirmative s16i2)
-		(author :full-affirmative s16x20)
 		(author :neutral-affirmative s16x6)
 		(author :neutral-affirmative s16x)
 		(author :full-affirmative s16x5))
@@ -1025,9 +1020,12 @@ s17x8: 7-7
 # document level annotation:
 (s17s0 / sentence
 	:temporal ((document-creation-time :before s17x)
-		(s17x :before s17x6)
 		(document-creation-time :before s17x6)
-		(document-creation-time :depends-on s17x4))
+                (document-creation-time :before s17x4)
+		(document-creation-time :depends-on s17x4)
+		(s17x4 :before s17x6)
+		(s17x :before s17x6)
+		(s17x :before s17x4))
 	:modal ((root :modal author)
 		(author :full-affirmative s17x6)
 		(author :full-affirmative s17x4)
@@ -1093,18 +1091,12 @@ s18x9: 9-9
 
 # document level annotation:
 (s18s0 / sentence
-	:temporal ((document-creation-time :before s17x)
-		(document-creation-time :before s17x4)
-		(document-creation-time :before s17x6)
-		(s17x4 :before s17x6)
-		(s17x :before s17x4))
 	:modal ((root :modal author)
 		(author :full-affirmative s18x)
 		(author :full-affirmative s18x9)
 		(author :full-affirmative s18x6)
 		(author :full-affirmative s18x10)
-		(author :full-affirmative s18x14))
-	:coref ((s1x :same-entity s17x2)))
+		(author :full-affirmative s18x14)))
 
 
 ################################################################################
@@ -1325,11 +1317,9 @@ s21x5: 13-13
 
 # document level annotation:
 (s21s0 / sentence
-	:temporal ((document-creation-time :overlap s21x14)
-		(document-creation-time :overlap s21x)
+	:temporal ((document-creation-time :overlap s21x)
 		(document-creation-time :overlap s21x5))
 	:modal ((root :modal author)
-		(author :full-affirmative s21x14)
 		(author :full-affirmative s21x))
 	:coref ((s1x :same-entity s21x19)))
 

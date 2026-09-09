@@ -3307,8 +3307,6 @@ s45x9: 30-30
 
 # document level annotation:
 (s45s0 / sentence
-    :temporal ((document-creation-time :before s46x)
-        (s46x :overlap s46x3))
     :modal ((root :modal author)
         (author :neutral-affirmative s45x)
         (author :full-affirmative s45x5)
@@ -3495,6 +3493,7 @@ s48x9: 9-9
         (s48x9 :overlap s48x11)
         (s48x9 :after s48x3)
         (s48x3 :overlap s48x4)
+        (s48x3 :overlap s48x6)
         (s48x4 :overlap s48x5))
     :modal ((root :modal author)
         (author :full-affirmative s48x5)
@@ -3563,9 +3562,7 @@ s49x9: 13-13
 
 # document level annotation:
 (s49s0 / sentence
-    :temporal ((document-creation-time :before s49x3)
-        (s48x3 :before s48x9)
-        (s48x3 :overlap s48x6))
+    :temporal ((document-creation-time :before s49x3))
     :modal ((root :modal author)
         (author :full-affirmative s49x6)
         (author :full-affirmative s49x4)

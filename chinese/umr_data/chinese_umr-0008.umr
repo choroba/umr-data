@@ -61,14 +61,12 @@ s1x9: 32-32
 # document level annotation:
 (s1s0 / sentence
 	:temporal ((document-creation-time :after s1x)
-		(s1x :after s2x)
 		(s1x :after s1x6))
 	:modal ((author :full-affirmative s1x)
 		(root :modal author)
-		(author :full-affirmative s2x8)
+		(author :full-affirmative s1x8)
 		(author :full-affirmative s1x6)
-		(author :full-affirmative s1x)
-		(author :full-affirmative s2x)))
+		(author :full-affirmative s1x)))
 
 
 ################################################################################
@@ -149,9 +147,10 @@ s2x9: 18-18
 (s2s0 / sentence
 	:temporal ((document-creation-time :before s2x)
 		(document-creation-time :before s2i4)
-		(present-reference:overlap s2x)
-		(present-reference:overlap s2i4)
-		(present-reference:overlap s2x15))
+		(present-reference :overlap s2x)
+		(present-reference :overlap s2i4)
+		(present-reference :overlap s2x15)
+		(s1x :after s2x))
 	:modal ((author :full-affirmative s2x)
 		(root :modal author)
 		(author :full-affirmative s2x)

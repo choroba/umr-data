@@ -218,12 +218,10 @@ s3x9: 19-19
 (s3s0 / sentence
 	:temporal ((document-creation-time :before s3x)
 		(document-creation-time :overlap s3x13)
-		(document-creation-time :overlap s3x14)
-		(document-creation-time :overlap s3x7))
+		(document-creation-time :overlap s3x14))
 	:modal ((root :modal author)
 		(author :full-affirmative s3x13)
 		(author :full-affirmative s3x14)
-		(author :full-affirmative s3x7)
 		(author :full-affirmative s3x)))
 
 
@@ -434,11 +432,7 @@ s6x9: 6-6
 
 # document level annotation:
 (s6s0 / sentence
-	:temporal ((s6x13 :after s6x)
-		(document-creation-time :overlap s6x3))
-	:modal ((root :modal author)
-		(author :full-affirmative s6x3)
-		(author :full-affirmative s6x)))
+	:modal ((root :modal author)))
 
 
 ################################################################################

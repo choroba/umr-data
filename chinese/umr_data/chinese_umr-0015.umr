@@ -346,7 +346,6 @@ s5x9: 4-4
 	:modal ((author :full-negative s5x18)
 		(author :full-affirmative s5x7)
 		(author :full-affirmative s5x6)
-											(author undefined undefined)
 		(author :full-affirmative s5x11)
 		(author :full-affirmative s5x12)
 		(author :full-affirmative s5x10)
@@ -816,7 +815,6 @@ s12x9: 17-17
 (s12s0 / sentence
 	:temporal ((document-creation-time :before s12a)
 		(s12x :depends-on s12x13)
-											(document-creation-time undefined undefined)
 		(s12x8 :overlap s12x17)
 		(s12x :depends-on s12x3)
 		(s12x3 :after s12x8)
@@ -1113,15 +1111,12 @@ s17x9: 12-12
 		(s17x :depends-on s17x4)
 		(s17x4 :depends-on s17x5)
 		(s17x5 :depends-on s17x8)
-		(s16x :overlap s17x)
-											(s17x undefined undefined))
+		(s16x :overlap s17x))
 	:modal ((root :modal author)
 		(author :full-affirmative s17x8)
 		(author :full-affirmative s17x5)
 		(author :full-affirmative s17x4)
-		(author :full-affirmative s17x)
-											(author undefined undefined))
-	:coref ((s17x3 undefined undefined)))
+		(author :full-affirmative s17x)))
 
 
 ################################################################################

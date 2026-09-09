@@ -2454,9 +2454,7 @@ s39x9: 15-15
         (author :full-affirmative s39i2))
     :coref ((s39x2 :subset-of s36i3)
         (s39x2 :subset-of s35i2)
-        (s32i3 :same-entity s39i5)
-        (s42i2 :same-entity s39i7)))
-
+        (s32i3 :same-entity s39i5)))
 
 
 ################################################################################
@@ -2597,8 +2595,8 @@ s42x3: 8-8
         (author :full-affirmative s42x2))
     :coref ((s41p :same-entity s42p)
         (s40i2 :same-entity s42i3)
-        (s41x :same-event s42t)))
-
+        (s41x :same-event s42t)
+        (s39i7 :same-entity s42i2)))
 
 
 ################################################################################

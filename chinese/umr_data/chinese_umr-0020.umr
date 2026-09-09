@@ -668,15 +668,12 @@ s9y2: 0-0
 # document level annotation:
 (s9s0 / sentence
 	:temporal ((document-creation-time :overlap s9x)
-										s9y)
-										s9d2)
 		(s9d2 :depends-on s9x12))
 	:modal ((root :modal author)
 		(author :full-affirmative s9x)
 		(author :full-affirmative s9e)
 		(author :full-affirmative s9x8)
 		(author :full-affirmative s9x5)
-		(author :full-affirmative s9m)
 		(author :full-affirmative s9x12)))
 
 
@@ -823,10 +820,8 @@ s10x9: 17-17
 		(author :full-affirmative s10x15)
 		(author :full-affirmative s10x11)
 		(author :full-affirmative s10x6)
-		(author :full-affirmative s10x5)
 		(author :full-affirmative s10x31)
 		(author :full-affirmative s10x24)
-		(author :full-affirmative s10d)
 		(author :full-affirmative s10x18)
 		(author :full-affirmative s10x16)
 		(author :full-affirmative s10x12)
@@ -1020,7 +1015,6 @@ s12x9: 4-4
 		(s12c :overlap s12x18)
 		(s12c :overlap s12x2))
 	:modal ((root :modal author)
-		(author :full-negative s12x)
 		(author :full-affirmative s12x5)
 		(author :full-affirmative s12x15)
 		(author :full-affirmative s12x13)
