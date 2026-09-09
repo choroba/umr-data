@@ -1941,7 +1941,7 @@ Translation(English):	"so that my grandfather and I will have those things, beca
     :theme (s61h2 / have-purpose-91
         :ARG1 (s61e2 / event)                 
         :ARG2 (s61n / nii3inowoo-00
-            :poss (s61a / and
+            :possessor (s61a / and
                 :op1 (s61p / person                 
                     :refer-person 1st
                     :refer-number singular)
@@ -5963,7 +5963,7 @@ Translation(English):	Now he had all kinds of things.
 
 # sentence level graph:
 (s181b / bisnii3inowoo-00
-    :poss (s181p / person    
+    :possessor (s181p / person
         :refer-person 3rd
         :refer-number singular)
     :theme (s181h / heeyouhuu)
