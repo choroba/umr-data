@@ -260,7 +260,7 @@ Words: 由于 其 荒诞不经 的 内容 ， 该 周报 被 称为 美国 历�
                     :name (s5n / name
                         :op1 "美国")))))
     :reason (s5x10 / 内容
-        :poss s5x2
+        :possessor s5x2
         :mod (s5x11 / 荒诞不经))
     :aspect performance)
 
@@ -357,7 +357,7 @@ Words: 创始人 格内洛索 · 波普 因为 旗下 的 八卦 小报 《  国
                         :mod (s7x19 / 那些)
                         :ARG0-of (s7x20 / 符合-01
                             :ARG1 (s7x21 / 标准
-                                :poss s7n)
+                                :possessor s7n)
                             :aspect state
                             :polarity -))
                     :aspect process))
@@ -458,7 +458,7 @@ Words: 黑白 印刷 也 成 了 该刊 的 特色 。
         :manner (s8x3 / 黑白)
         :aspect habitual)
     :ARG1 (s8x4 / 特色
-        :poss (s8x5 / 刊
+        :possessor (s8x5 / 刊
             :mod (s8x6 / 该)))
     :mod (s8x7 / 也)
     :aspect performance)
@@ -666,7 +666,7 @@ Words: 虽然 《 世界 新闻 周报 》 宣称 他们 的 报导 都是 真�
             :aspect performance)
         :op2 (s12i3 / identity-91
             :ARG1 (s12x5 / 标语
-                :poss s12n)
+                :possessor s12n)
             :ARG2 (s12x6 / 报导-01
                 :ARG0 s12n
                 :ARG1 (s12x8 / 事实)
@@ -759,7 +759,7 @@ Words: 他们 经常 报导 的 题材 有 外星人 、 古代 航天员 、  �
             :ARG0-of (s13x16 / 出现-01
                 :ARG1 (s13x18 / 中
                     :op1 (s13x19 / 新闻
-                        :poss s13p))
+                        :possessor s13p))
                 :frequency (s13x17 / 重复)
                 :aspect habitual)
             :example (s13a3 / and
@@ -1054,7 +1054,7 @@ Words: 不过 周报 内容 虽然 荒唐 ， 但 其 编辑 也  有  能力 �
         :aspect state)
     :ARG2 (s17x2 / 有-06
         :ARG0 (s17x5 / 编辑
-            :poss s17x4)
+            :possessor s17x4)
         :ARG1 (s17x6 / 能力
             :ARG1-of (s17i2 / identity-91
                 :ARG2 (s17x7 / 点出-01
@@ -1209,7 +1209,7 @@ Words: 为了 讽刺 美国 的 外交 政策 ， 他们 也 报导 了  一篇 
         :ARG0 s19p
         :ARG1 (s19x5 / 政策
             :topic (s19x6 / 外交)
-            :poss (s19c / country
+            :possessor (s19c / country
                 :name (s19n2 / name
                     :op1 "美国")))
         :aspect performance))
@@ -1406,7 +1406,7 @@ Words: 在 其他 的 八卦 小报 纷纷 转向 报导 名人 隐私 与  八�
         :ARG2 (s22x12 / 报导-01
             :ARG1 (s22a / and
                 :op1 (s22x13 / 隐私
-                    :poss (s22x15 / 名人))
+                    :possessor (s22x15 / 名人))
                 :op2 (s22x14 / 八卦))
             :aspect habitual)
         :aspect performance))
@@ -1888,7 +1888,7 @@ Words: 在 2004 年 以前 ， 《 世界 新闻 周报 》  从不 公开 怀�
             :op4 "周报"
             :op5 "》"))
     :ARG1 (s27x2 / 真实性
-        :poss (s27x3 / 报导-01
+        :possessor (s27x3 / 报导-01
             :ARG0 s27n2
             :aspect habitual))
     :manner (s27x4 / 公开)
@@ -2010,7 +2010,7 @@ Words: 由于 《 世界 新闻 周报 》 的 新闻 「 看起来 有  这么 
             :ARG0 (s29x17 / 报导-01
                 :mod (s29x18 / 假)
                 :topic (s29x19 / 飞碟
-                    :poss (s29x20 / 外星人))
+                    :possessor (s29x20 / 外星人))
                 :mod (s29x21 / 特别))
             :ARG1 (s29x15 / 谣言
                 :place (s29x16 / 网络))
@@ -2137,7 +2137,7 @@ Words: 该 新闻 表示 一个 出土 的 木乃伊 响应 了 博物馆 看守
                     :aspect performance))
             :ARG1 (s31x9 / 呼唤-01
                 :topic (s31x10 / 爱)
-                :poss (s31x11 / 人
+                :possessor (s31x11 / 人
                     :ARG0-of (s31x12 / 看守-01
                         :ARG1 (s31x13 / 博物馆)
                         :aspect habitual))
@@ -2148,7 +2148,7 @@ Words: 该 新闻 表示 一个 出土 的 木乃伊 响应 了 博物馆 看守
         :op2 (s31x5 / 怀-02
             :ARG0 s31x6
             :ARG1 (s31x15 / 孩子
-                :poss s31x11)
+                :possessor s31x11)
             :mod (s31x14 / 甚至)
             :aspect performance
             :quote s31x))
@@ -2435,7 +2435,7 @@ Words: 据传 这张 黑暗 中 散发 璀璨 光芒 的 天国 城市 照  ， 
     :op2 (s35x / 引起-01
         :ARG0 (s35x3 / 照)
         :ARG1 (s35x16 / 兴趣
-            :poss (s35i3 / individual-person
+            :possessor (s35i3 / individual-person
                 :name (s35n3 / name
                     :op1 "柯林顿")
                 :ARG1-of (s35h / have-org-role-91
@@ -3838,7 +3838,7 @@ Words: 《 大纪元 时报 》 、 《 自由 时报 》 引用 报导 ，  据
                                 :aspect process
                                 :purpose (s49x8 / 削弱-01
                                     :ARG1 (s49x9 / 战力
-                                        :poss (s49a3 / armed-organization
+                                        :possessor (s49a3 / armed-organization
                                             :name (s49n5 / name
                                                 :op1 "美军")))
                                     :quote s49x2
@@ -3981,7 +3981,7 @@ Words: 《 时代 商报 》 引用 报导 ， 美国 总统 布什 因为 美�
                 :ARG2 (s50x15 / 庞大-01
                     :ARG0 (s50x16 / 数字
                         :topic (s50x17 / 国债
-                            :poss (s50c3 / country
+                            :possessor (s50c3 / country
                                 :name (s50n7 / name
                                     :op1 "美国"))))))
             :aspect performance)

@@ -742,7 +742,7 @@ Words: 1994 年 ， 他 出生 在 曼彻斯特 南部 一个 利比亚 穆斯�
                     :name (s12n5 / name
                         :op1 "萨尔曼"))
                 :op2 (s12x11 / 弟兄
-                    :poss s12i2))
+                    :possessor s12i2))
             :ARG1 (s12r / religious-organization
                 :name (s12n6 / name
                     :op1 "迪玆伯里"
@@ -755,7 +755,7 @@ Words: 1994 年 ， 他 出生 在 曼彻斯特 南部 一个 利比亚 穆斯�
         :ARG0 (s12x12 / 消息)
         :ARG1 (s12i3 / identity-91
             :ARG1 (s12x13 / 父亲
-                :poss s12a3
+                :possessor s12a3
                 :ARG1-of (s12i4 / identity-91
                     :ARG2 (s12x14 / 保安)
                     :aspect state))
@@ -1145,7 +1145,7 @@ Words: 阿贝迪 在 法尔洛菲德 的 住处 成为 警察 调查 的 重点 
             :place (s18c / city-district
                 :name (s18n2 / name
                     :op1 "法尔洛菲德"))
-            :poss (s18i2 / individual-person
+            :possessor (s18i2 / individual-person
                 :name (s18n / name
                     :op1 "阿贝迪")))
         :ARG1 (s18x5 / 重点
@@ -2059,7 +2059,7 @@ Words: 内政 大臣 安珀 · 路德 表示 她 对 阿贝迪 的  名字 和  
                     :mod (s30x8 / 新闻))
                 :ARG1 (s30a2 / and
                     :op1 (s30x9 / 名字
-                        :poss (s30i3 / individual-person
+                        :possessor (s30i3 / individual-person
                             :name (s30n2 / name
                                 :op1 "阿贝迪")))
                     :op2 (s30x10 / 信息
@@ -3742,7 +3742,7 @@ Words: 而 在 曼联 于 欧霸杯 夺冠 后 ， 球会 将  奖杯 献给 曼
                     :ARG2 "ACITYUNITED"
                     :ARG1-of (s48i3 / identity-91
                         :ARG2 (s48x20 / 团结之城)))
-                :poss s48x12)
+                :possessor s48x12)
             :op2 (s48x15 / 作品
                 :mod (s48x16 / 相关-01)
                 :mod (s48x17 / 图文)
@@ -4161,7 +4161,7 @@ Words: 另 一 决赛 队伍 阿森纳 足球 俱乐部 ， 也 基于 安全 �
                     :op2 "球场")
                 :ARG1-of (s51i3 / identity-91
                     :ARG2 (s51x8 / 主场
-                        :poss s51s)))
+                        :possessor s51s)))
             :ARG1-of (s51x9 / 原订-01
                 :aspect state)
             :aspect process))
@@ -4485,7 +4485,7 @@ Words: 翌日 下午 搭乘 私人 飞机 抵 佛州 的 亚莉安娜 被  媒�
         :aspect performance)
     :op3 (s55h / have-mod-91
         :ARG1 (s55x9 / 神情
-            :poss s55i2)
+            :possessor s55i2)
         :ARG2 (s55x10 / 憔悴)
         :aspect state)
     :op4 (s55h2 / have-mod-91

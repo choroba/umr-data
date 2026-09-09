@@ -1251,7 +1251,7 @@ Words: 马云   在  今年   1 月  放弃   了  对  蚂蚁   集团   的  �
 		:ARG1 (s16x3 / 投票权
 			:mod (s16x4 / 经营
 				:mod (s16x5 / 有效))
-			:poss s16i2)
+			:possessor s16i2)
 		:aspect performance
 		:range (s16a2 / and
 			:op1 (s16p / percentage-entity

@@ -4924,7 +4924,7 @@ Words: 然后   ，  从  口袋   里  掏出   了  我  画  的  小羊   �
 		:cause (s121x13 / 看-02
 			:aspect activity
 			:ARG1 (s121x17 / 宝贝
-				:poss s121x15)
+				:possessor s121x15)
 			:modal-strength (s121x42 / full-affirmative
 				:conceiver (s121x43 / author)))
 		:aspect performance
@@ -6445,7 +6445,7 @@ Words: 他们   从来   不  讲  ：  “ 他  说话   声音   如何   啊 
 				:ARG0 (s155x7 / individual-person
 					:refer-person 3
 					:refer-number singular))
-			:poss s155x7)
+			:possessor s155x7)
 		:mode interrogative)
 	:temporal (s155x2 / 从来))
 
@@ -14595,7 +14595,7 @@ Words: 慢慢腾腾     地  妆饰   着  ，  一  片  片  地  搭配   着
 		:manner (s360x6 / 一片片)
 		:aspect activity
 		:ARG1 (s360x14 / 花瓣
-			:poss s360x12)
+			:possessor s360x12)
 		:ARG0 s360x12
 		:modal-strength (s360x27 / full-affirmative)))
 

@@ -200,7 +200,7 @@ Words: 这集 继承 《 戴 立克 在 曼哈顿 》 ， 讲述 戴  立克 试
                     :ARG1 (s3x8 / 人类
                         :quant (s3x9 / 所有))
                     :ARG2 (s3x10 / 同类
-                        :poss s3e)
+                        :possessor s3e)
                     :aspect process
                     :medium (s3b / building
                         :name (s3n3 / name
@@ -641,7 +641,7 @@ Words: 格拉斯 称自当 上 戴 立克 人后 ， 他 感觉 到  戴  立克
                 :ARG1-of (s10i4 / identity-91
                     :ARG0 (s10x5 / 感情)
                     :aspect state)
-                :poss (s10e / ethnic-group
+                :possessor (s10e / ethnic-group
                     :name (s10n2 / name
                         :op1 "戴"
                         :op2 "立克")))
@@ -963,7 +963,7 @@ Words: 不料 ， 他 也 被 戴 立克 杀害 ， 而  博士 则  在  格拉
                 :name (s14n2 / name
                     :op1 "帝国大厦")))
         :cause (s14x8 / 指令
-            :poss (s14i2 / individual-person
+            :possessor (s14i2 / individual-person
                 :name (s14n4 / name
                     :op1 "格拉斯")))
         :aspect performance)
@@ -1017,7 +1017,7 @@ Words: 格拉斯 继续 游说 博士 其 合成 计划 ， 并 退而求其次 
             :ARG2 (s15x4 / 计划
                 :mod (s15x5 / 合成-01
                     :aspect process)
-                :poss s15i2)
+                :possessor s15i2)
             :aspect endeavor)
         :aspect endeavor)
     :op2 (s15x6 / 退而求其次-01
@@ -1122,7 +1122,7 @@ Words: 博士 同意 ， 并 协助 格拉斯 将 已 死 的  地球 人  注�
         :ARG2 (s16x4 / 注入-01
             :ARG0 s16x3
             :ARG1 (s16d / dna
-                :poss (s16e / ethnic-group
+                :possessor (s16e / ethnic-group
                     :name (s16n3 / name
                         :op1 "戴"
                         :op2 "立克")))
@@ -1852,7 +1852,7 @@ Words: 戴 立克 发现 博士 的 踪影 后 试图 杀死 他  ，  格拉斯
             :op1 (s26x6 / 发现-01
                 :ARG0 s26e
                 :ARG1 (s26x7 / 踪影
-                    :poss s26x4))))
+                    :possessor s26x4))))
     :op2 (s26x2 / 舍身取命-00
         :ARG0 (s26i2 / individual-person
             :name (s26n2 / name
@@ -2203,7 +2203,7 @@ Words: 这集 并非 戴 立克 首次 将 人类 改造 成其 同类 ，  在 
                     :op2 "立克"))
             :ARG1 (s31x4 / 人类)
             :ARG2 (s31x5 / 同类
-                :poss s31e)
+                :possessor s31e)
             :ord (s31o / ordinal-entity
                 :value 1
                 :unit (s31x6 / 次))
@@ -2341,7 +2341,7 @@ Words: 这集 也 不是 首部 以 帝国大厦 为 背景 的 《  异世 奇�
         :aspect performance)
     :op3 (s33i3 / identity-91
         :ARG1 (s33x10 / 对手
-            :poss (s33p / person
+            :possessor (s33p / person
                 :refer-number singular
                 :refer-person 3rd))
         :ARG2 (s33e / ethnic-group
@@ -2586,7 +2586,7 @@ Words: 同时 ， 这集 的 背景 设在 1930 年 是 特意 安排 的  ，  
     :op1 (s36x / 安排-01
         :ARG1 (s36x2 / 设在-01
             :ARG1 (s36x3 / 背景
-                :poss (s36x4 / 集
+                :possessor (s36x4 / 集
                     :mod (s36x5 / 这)))
             :ARG2 (s36d / date-entity
                 :year 1930)
@@ -2613,7 +2613,7 @@ Words: 同时 ， 这集 的 背景 设在 1930 年 是 特意 安排 的  ，  
             :ARG1 (s36x14 / 吸引-01
                 :ARG0 (s36x17 / 剧集)
                 :ARG1 (s36x15 / 目光
-                    :poss (s36x16 / 观众))
+                    :possessor (s36x16 / 观众))
                 :aspect state)
             :aspect state)
         :aspect state))
@@ -2697,7 +2697,7 @@ Words: 为此 ， 雷娜 特意 观看 一些 旧时 的 怪兽 电影 ，  其�
         :ARG0 s37i2
         :ARG1 (s37x10 / 背景
             :mod (s37x11 / 时代)
-            :poss (s37x14 / 集
+            :possessor (s37x14 / 集
                 :mod (s37x15 / 这)))
         :ARG2 (s37d2 / date-entity
             :era (s37x12 / 大萧条))
@@ -3522,7 +3522,7 @@ Words: 然后 是 道具 问题 ， 剧组 直到 拍摄 前一刻 才  发现 �
                     :ARG0 (s49x12 / 剧组)
                     :ARG1 (s49x9 / 准备-01
                         :ARG1 (s49x10 / 手套
-                            :poss (s49i4 / individual-person
+                            :possessor (s49i4 / individual-person
                                 :name (s49n / name
                                     :op1 "格拉斯"))
                             :mod (s49x11 / 特制))
@@ -4324,7 +4324,7 @@ Words: 尽管 作者 还 欣赏 戴 立克 企图 改造 人类 和  把  背景
             :mod (s58x11 / 好好)
             :cause-of (s58x12 / 不足-01
                 :ARG0 (s58x13 / 深度
-                    :poss (s58x14 / 故事))
+                    :possessor (s58x14 / 故事))
                 :aspect state)
             :aspect performance)
         :aspect state))

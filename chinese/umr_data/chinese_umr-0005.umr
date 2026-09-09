@@ -529,7 +529,7 @@ Words: 在 小学 三 、 四年级 时 ， 他 参加 了  学校 宣传队 ，
             :refer-number singular
             :refer-person 3rd)
         :ARG1 (s7x25 / 宣传队
-            :poss (s7x26 / 学校))
+            :possessor (s7x26 / 学校))
         :temporal (s7b / between
             :op1 (s7x22 / 年级
                 :ord (s7o / ordinal-entity
@@ -639,7 +639,7 @@ Words: 幼年 的 他 对 音乐 的 学习 和 了解 主要 以  自己 的  �
     :op2 (s8x / 尽显-00
         :ARG0 (s8x2 / 天赋
             :mod (s8x3 / 音乐)
-            :poss s8i2)
+            :possessor s8i2)
         :temporal (s8x9 / 之后)
         :aspect state))
 
@@ -972,9 +972,9 @@ Words: 后来 ， 当时 未满 15 岁 的 他 顺利 通过 体检 ，  并  �
             :ARG0 s13i2
             :ARG1 (s13a2 / and
                 :op1 (s13x9 / 努力
-                    :poss s13i2)
+                    :possessor s13i2)
                 :op2 (s13x8 / 天赋
-                    :poss s13i2))
+                    :possessor s13i2))
             :aspect state)))
 
 # alignment:
@@ -2679,7 +2679,7 @@ Words: 在 宣布 通过 后 ， 于海 也 为此 写下 了  感慨 ：  “  
                     :ARG1 (s36x12 / 立法-01
                         :temporal (s36x13 / 终于)
                         :affectee (s36x14 / 国歌
-                            :poss (s36p / person
+                            :possessor (s36p / person
                                 :refer-person 1st
                                 :refer-number plural))
                         :aspect performance)
@@ -2965,7 +2965,7 @@ Words: 1995 年 11 月 20 日 出版 的 《 解放军报 》  曾以 《  军�
                     :op1 (s40x27 / 点
                         :mod (s40x29 / 运行-01
                             :ARG1 (s40x30 / 指挥棒
-                                :poss s40i2)))
+                                :possessor s40i2)))
                     :op2 (s40x28 / 线
                         :mod s40x27))
                 :ARG1 (s40a6 / and

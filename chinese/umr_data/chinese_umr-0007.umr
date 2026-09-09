@@ -448,7 +448,7 @@ Words: 柯南 最终 成功 找出 真凶 滨田 凉子 ， 而 凉子 的  真�
         :aspect performance)
     :op2 (s7i2 / identity-91
         :ARG1 (s7x5 / 身份
-            :poss s7i4
+            :possessor s7i4
             :ARG0-of (s7x6 / 真实-01
                 :aspect state))
         :ARG2 (s7i6 / individual-person
@@ -1057,7 +1057,7 @@ Words: 之后 ， 柯南 接连 发现 了 调查 25 年前 惨剧 的  记者 �
             :name (s18n / name
                 :op1 "柯南"))
         :ARG1 (s18x4 / 尸体
-            :poss (s18a2 / and
+            :possessor (s18a2 / and
                 :op1 (s18i3 / individual-person
                     :name (s18n2 / name
                         :op1 "箍"
@@ -1779,7 +1779,7 @@ Words: 金田一 侦破案件 后 ， 日冲 龙平 便 把 他 带到 三井 �
         :name (s27n2 / name
             :op1 "金田一"))
     :ARG2 (s27x2 / 公馆
-        :poss (s27i4 / individual-person
+        :possessor (s27i4 / individual-person
             :name (s27n3 / name
                 :op1 "三井"
                 :op2 "镇长")))
@@ -2898,7 +2898,7 @@ Words: 二人 最终 知道 25 年前 的 惨剧 就是 夕闇岛 找到 金矿 
             :op4 (s48x19 / 更改-01
                 :ARG0 s48i4
                 :ARG1 (s48x17 / 名称
-                    :poss s48n2)
+                    :possessor s48n2)
                 :aspect performance
                 :end-state (s48i9 / island
                     :name (s48n5 / name
@@ -4017,7 +4017,7 @@ Words: 当 玩家 出示 错误 的 关键词 时 ， 其 生命 条  就  会  
 # sentence level graph:
 (s67x / 扣减-00
     :ARG1 (s67x2 / 生命条
-        :poss s67x4)
+        :possessor s67x4)
     :temporal (s67x3 / 出示-01
         :ARG0 (s67x4 / 玩家)
         :ARG1 (s67x5 / 关键词
@@ -4410,7 +4410,7 @@ Words: 于 2008 年 11 月 28 日 ， NAMCO BANDAI Games Inc .  在  一个 游�
                 :aspect performance)
             :op2 (s74i3 / identity-91
                 :ARG1 (s74x14 / 价格
-                    :poss s74s)
+                    :possessor s74s)
                 :ARG2 (s74m / monetary-quantity
                     :value 5040
                     :unit (s74x15 / 円)

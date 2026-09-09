@@ -823,7 +823,7 @@ Words: 每队 设计师 会 有 500 美元 的 预算 和 一天 的  时间 完
             :aspect performance)
         :ARG1 (s11x2 / 制服
             :mod (s11x18 / 工作)
-            :poss (s11c / company
+            :possessor (s11c / company
                 :name (s11n / name
                     :op1 "SPiN")))
         :aspect state
@@ -908,7 +908,7 @@ Words: 两队 设计师 须 为 海蒂 · 克隆 设计 两款 用作 宣传 其
                                     :name (s12n / name
                                         :op1 (s12s / surprise))
                                     :topic (s12x24 / 香水)
-                                    :poss s12i2)))
+                                    :possessor s12i2)))
                         :aspect process)
                     :aspect state)
                 :unit (s12x26 / 款)
@@ -2581,7 +2581,7 @@ Words: 但 鉴于 只有 3 人 晋身 时装周 关系 ， 四强 设计师 于 
                 :unit (s32x11 / 款)
                 :ARG1-of (s32i2 / include-91
                     :ARG2 (s32x3 / 系列
-                        :poss s32x16)
+                        :possessor s32x16)
                     :aspect state)
                 :aspect performance)
             :ARG2 (s32x19 / 评审
@@ -2708,7 +2708,7 @@ Words: 三强 设计师 须 运用 剩下 的 时间 继续 完成 最后 时装
             :ARG0 s33x24
             :ARG1 (s33x3 / 系列
                 :topic (s33x5 / 时装)
-                :poss s33x24)
+                :possessor s33x24)
             :place (s33x6 / 时装周)
             :temporal (s33x23 / 最后)
             :aspect performance))
