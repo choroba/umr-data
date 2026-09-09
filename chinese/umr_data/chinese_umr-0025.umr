@@ -2724,7 +2724,7 @@ Words: 他  回答   我  说  ：  “ 没有   关系   ，
 			:conceiver s61x1)
 		:polarity -
 		:ARG1 (s61x8 / 关系)
-		:quote (s61x2 / 回答-01)))
+		:quote s61x2))
 
 # alignment:
 s61x1: 0-0
@@ -10956,7 +10956,7 @@ Words: 你  对  我  说  ：  “ 我  总  以为   是  在  我  的  家�
 		:ARG0 (s263x7 / individual-person
 			:refer-person 1
 			:refer-number singular)
-		:quote (s263x4 / 说-01)
+		:quote s263x4
 		:modal-strength (s263x30 / full-affirmative
 			:conceiver s263x1)))
 
@@ -11210,7 +11210,7 @@ Words: 一  天  ，  我  看见   过  四十三    次  日落   。  ”  �
 			:quant 1)
 		:modal-strength (s270x29 / full-affirmative
 			:conceiver s270x4)
-		:quote (s270x15 / 说-01)))
+		:quote s270x15))
 
 # alignment:
 s270x12: 0-0
@@ -11255,7 +11255,7 @@ Words: 过  一会儿    ，  你  又  说  ：  “ 你  知道   ，  当  �
 					:degree (s271x15 / 非常-01)))
 			:smood (s271x22 / 的)
 			:frequency (s271x19 / 总是)
-			:quote (s271x6 / 说-01)
+			:quote s271x6
 			:modal-strength (s271x43 / full-affirmative
 				:conceiver s271x4))
 		:modal-strength (s271x42 / full-affirmative
@@ -11533,7 +11533,7 @@ Words: “ 它  碰到   什么   吃  什么   。  ” 我  回答   。
 			:ARG1 (s278x6 / ting)
 			:ARG0 s278x2
 			:modal-strength (s278x25 / full-affirmative))
-		:quote (s278x10 / 回答)
+		:quote s278x10
 		:modal-strength (s278x26 / neutral-affirmative
 			:conceiver s278x9)))
 
@@ -12023,7 +12023,7 @@ Words: 怀  着  不满   的  心情   冲  我  说  ：  “  我  不  信  
 			:refer-person 1
 			:refer-number singular)
 		:modal-strength (s293x26 / full-negative
-			:quote (s293x8 / 说-01))
+			:quote s293x8)
 		:polarity -
 		:mode expressive))
 
@@ -13833,7 +13833,7 @@ Words: 对  他  说  ：  “ 你  爱  的  那  朵  花  没  有  危险   
 			:unit (s343x10 / 朵))
 		:ARG1 (s343x14 / 危险)
 		:modal-strength (s343x31 / full-negative
-			:quote (s343x3 / 说))
+			:quote s343x3)
 		:polarity -))
 
 # alignment:
@@ -16143,7 +16143,7 @@ Words: 有  一  天  他  告诉   我  说  ：  “ 我  不  该  听信   �
 					:refer-number singular))
 			:modal-strength (s400x33 / partial-negative
 				:conceiver s400x4)
-			:quote (s400x5 / 告诉-01))
+			:quote s400x5)
 		:polarity -))
 
 # alignment:
@@ -16351,7 +16351,7 @@ Words: 他  还  告诉   我  说  ：  “ 我  那时   什么   也  不  �
 		:mod (s406x11 / 也)
 		:temporal (s406x9 / 那时)
 		:mode expressive
-		:quote (s406x3 / 告诉)))
+		:quote s406x3))
 
 # alignment:
 s406x1: 0-0
@@ -17534,7 +17534,7 @@ Words: “ 的确   ，  我  爱  你  。  ” 花儿   对  他  说道
 		:mod (s437x2 / 的确)
 		:modal-strength (s437x22 / full-affirmative
 			:conceiver s437x9)
-		:quote (s437x12 / 说道-01)))
+		:quote s437x12))
 
 # alignment:
 s437x11: 0-0
@@ -18375,7 +18375,7 @@ Words: 来  了  一  个  臣民   。  ” 当  他  看见   小  王子   �
 			:unit (s460x4 / 个))
 		:modal-strength (s460x32 / full-affirmative
 			:conceiver s460x9)
-		:quote (s460x15 / 喊
+		:quote (s460x2 / 喊
 			:aspect performance
 			:temporal (s460x10 / 看见-01
 				:ARG0 s460x9
@@ -18384,6 +18384,7 @@ Words: 来  了  一  个  臣民   。  ” 当  他  看见   小  王子   �
 			:modal-strength (s460x31 / full-affirmative))))
 
 # alignment:
+s460x2: 0-0
 s460x1: 1-1
 s460x10: 10-10
 s460x11: 11-11
@@ -18424,8 +18425,7 @@ Words: 小  王子   思量   着  ：  “ 他  从来   也  没有   见  过
 			:polarity -
 			:temporal (s461x8 / 从来)
 			:mod (s461x9 / 也)
-			:quote (s461x3 / 思量-01
-				:aspect activity))
+			:quote s461x3)
 		:ARG2 (s461x16 / 会
 			:ARG0 (s461x17 / 认识-01
 				:ARG0 s461x7
@@ -18791,7 +18791,7 @@ Words: 小  王子   羞愧   地  说道   ：  我  实在   忍  不  住  �
 				:refer-number singular)
 			:modal-strength (s470x24 / full-negative
 				:conceiver s470x2)
-			:quote (s470x5 / 说道-01))
+			:quote s470x5)
 		:polarity -
 		:mod (s470x8 / 实在)))
 
@@ -19083,7 +19083,7 @@ Words: 我  打  不  出  哈欠   来  了  … ” 小  王子   红  着  �
 				:refer-number singular)
 			:modal-strength (s480x30 / full-negative
 				:conceiver s480x11)
-			:quote (s480x15 / 说-01))
+			:quote s480x15)
 		:smood (s480x7 / 了-02)))
 
 # alignment:
@@ -19780,7 +19780,7 @@ Words: 国王   非常   简单   明了   地  说  ：  “ 我  统治   一�
 			:refer-person 1
 			:refer-number singular)
 		:ARG1 (s499x11 / 一切)
-		:quote (s499x6 / 说-01)
+		:quote s499x6
 		:modal-strength (s499x25 / full-affirmative
 			:conceiver s499x1)))
 
@@ -26596,7 +26596,7 @@ Words: 他  说  ：  “ 对  我  来说   ，  如果   我  有  一  条  �
 							:refer-number singular)
 						:modal-strength (s699x60 / full-affirmative))
 					:modal-strength neutral-affirmative))
-			:quote (s699x2 / 说-01)
+			:quote s699x2
 			:modal-strength (s699x58 / neutral-affirmative
 				:conceiver s699x1))))
 
@@ -28103,7 +28103,7 @@ Words: “ 我  不  明白   。  ” 小  王子   说  。
 		:modal-strength (s742x18 / full-negative
 			:conceiver s742x8)
 		:polarity -
-		:quote (s742x9 / 说-01)))
+		:quote s742x9))
 
 # alignment:
 s742x18: 0-0
@@ -28429,7 +28429,7 @@ Words: 点灯   的  人  说  ：  “ 命令   没有   改  ，
 		:modal-strength (s753x19 / full-negative
 			:conceiver s753x3)
 		:polarity -
-		:quote (s753x4 / 说-01)))
+		:quote s753x4))
 
 # alignment:
 s753x1: 1-1
@@ -29299,7 +29299,7 @@ Words: “ 这  办法   帮  不  了  我  多  大  忙  ，  点灯人    �
 			:degree (s776x8 / 多大)
 			:modal-strength (s776x25 / full-negative
 				:conceiver s776x12)
-			:quote (s776x13 / 说-01))))
+			:quote s776x13)))
 
 # alignment:
 s776x12: 12-12
@@ -30400,7 +30400,7 @@ Words: “ 这  我  没  法  知道   。  ” 地理学家     说  。
 			:ARG1 (s807x2 / 这)
 			:modal-strength (s807x22 / full-negative
 				:conceiver s807x9)
-			:quote (s807x10 / 说-01))))
+			:quote s807x10)))
 
 # alignment:
 s807x10: 10-10
@@ -30493,7 +30493,7 @@ Words: “ 这  ，  我  没法   知道   。  ” 地理学家     说  。
 			:ARG1 (s811x2 / 这)
 			:modal-strength (s811x21 / full-negative
 				:conceiver s811x9)
-			:quote (s811x10 / 说-01))))
+			:quote s811x10)))
 
 # alignment:
 s811x10: 10-10
@@ -31124,7 +31124,7 @@ Words: “ 我  认识   一  个  人  ，  他  要是   搞  探察   的话 
 				:refer-number singular)
 			:modal-strength (s830x52 / full-affirmative
 				:conceiver s830x26)
-			:quote (s830x27 / 说-01))
+			:quote s830x27)
 		:op2 (s830x40 / condition
 			:ARG1 (s830x10 / 搞-01
 				:ARG0 (s830x8 / individual-person
@@ -32476,7 +32476,7 @@ Words: 小  王子   自言自语     地  说  ：  “ 我  的  花  是  短
 			:mode expressive
 			:modal-strength (s871x47 / full-affirmative
 				:conceiver s871x2)
-			:quote (s871x5 / 说-01))))
+			:quote s871x5)))
 
 # alignment:
 s871x1: 1-1
@@ -34418,7 +34418,7 @@ Words: “ 我  和  一  朵  花  闹  了  别扭   。  ”  小  王子   �
 		:ARG1 (s921x9 / 别扭)
 		:modal-strength (s921x28 / full-affirmative
 			:conceiver s921x13)
-		:quote (s921x14 / 说-01)))
+		:quote s921x14))
 
 # alignment:
 s921x12: 12-12
@@ -34571,7 +34571,7 @@ Words: “ 到  了  有  人  的  地方   ，  也  一样   孤独   。  �
 			:mod (s926x9 / 也)
 			:modal-strength (s926x31 / full-affirmative
 				:conceiver s926x14))
-		:quote (s926x15 / 说-01)
+		:quote s926x15
 		:modal-strength (s926x29 / neutral-affirmative
 			:conceiver s926x14)))
 
@@ -35195,7 +35195,7 @@ Words: 我  很  明白   你  的  意思   。  ” 小  王子   说  ，
 		:degree (s944x2 / 很)
 		:modal-strength (s944x24 / full-affirmative
 			:conceiver s944x10)
-		:quote (s944x11 / 说-01)))
+		:quote s944x11))
 
 # alignment:
 s944x1: 0-0
@@ -35886,7 +35886,7 @@ Words: 小  王子   自言自语     地  说道   ：  “ 从  这么   高  
 			:place (s964x12 / 山
 				:mod (s964x10 / 高
 					:degree (s964x9 / 这么)))
-			:quote (s964x5 / 说道-01)
+			:quote s964x5
 			:modal-strength (s964x49 / full-affirmative
 				:conceiver s964x2))))
 
@@ -36864,7 +36864,7 @@ Words: 小  王子   自言自语     地  说  ：  “ 如果   她  看到   
 					:ARG1 (s990x32 / 耻笑-01
 						:ARG0 (s990x31 / 人)
 						:ARG1 s990x9))))
-		:quote (s990x5 / 说-01)
+		:quote s990x5
 		:modal-strength (s990x71 / neutral-affirmative
 			:conceiver s990x2)))
 
@@ -37386,7 +37386,7 @@ Words: “ 来  和  我  一起   玩  吧  ，  ” 小  王子   建议   道
 			:modal-strength (s1000x24 / partial-affirmative
 				:conceiver s1000x11))
 		:mode imperative
-		:quote (s1000x12 / 建议-01)))
+		:quote s1000x12))
 
 # alignment:
 s1000x10: 10-10
@@ -38341,7 +38341,7 @@ Words: “ 我  有点   明白   了  。  ” 小  王子   说  ，
 			:refer-number singular)
 		:modal-strength (s1031x20 / full-affirmative
 			:conceiver s1031x9)
-		:quote (s1031x10 / 说-01)))
+		:quote s1031x10))
 
 # alignment:
 s1031x10: 10-10
@@ -39490,7 +39490,7 @@ Words: “ 只有   被  驯服   了  的  事物   ，  才  会  被  了解 
 			:conceiver s1068x15))
 	:modal-strength (s1068x30 / full-affirmative
 		:conceiver s1068x15
-		:quote (s1068x16 / 说-01)))
+		:quote s1068x16))
 
 # alignment:
 s1068x10: 10-10
@@ -40511,7 +40511,7 @@ Words: 当  出发   的  时刻   就  快  要  来到   时：   “  啊  �
 						:refer-number singular)
 					:modal-strength (s1096x41 / partial-affirmative
 						:conceiver s1096x14
-						:quote (s1096x15 / 说-01)))
+						:quote s1096x15))
 				:smood (s1096x22 / 的))
 			:temporal (s1096x8 / 来到-01
 				:ARG0 (s1096x4 / 时刻
@@ -40670,7 +40670,7 @@ Words: “ 你  可  就  要  哭  了  ！  ” 小  王子   说  。
 			:aspect performance
 			:modal-strength (s1100x25 / partial-affirmative
 				:conceiver s1100x11)
-			:quote (s1100x12 / 说-01))
+			:quote s1100x12)
 		:mode expressive))
 
 # alignment:
@@ -40761,7 +40761,7 @@ Words: “ 由于   麦子   颜色   的  缘故   ，  我  还是   得到   
 			:mod (s1103x9 / 还是)
 			:modal-strength (s1103x30 / full-affirmative
 				:conceiver s1103x15)
-			:quote (s1103x16 / 说-01))))
+			:quote s1103x16)))
 
 # alignment:
 s1103x10: 10-10
@@ -41977,8 +41977,7 @@ Words: “ 我  要  对  我  的  玫瑰   负责   … ”  小  王子   又
 					:refer-person 1
 					:refer-number singular))
 			:modal-strength (s1131x39 / partial-affirmative)
-			:quote (s1131x14 / 重复-01
-				:aspect activity))))
+			:quote s1131x14)))
 
 # alignment:
 s1131x11: 11-11
@@ -42103,7 +42102,7 @@ Words: “ 我  一  包  包  地  分选   旅客   ，  按  每  千  人  �
 					:mod (s1135x11 / 每))))
 		:modal-strength (s1135x35 / full-affirmative
 			:conceiver s1135x18)
-		:quote (s1135x19 / 说-01)))
+		:quote s1135x19))
 
 # alignment:
 s1135x10: 10-10
@@ -42291,7 +42290,7 @@ Words: “ 开  机车   的  人  自己   也  不  知道   。  ”  扳道�
 					:ARG0-of (s1140x2 / 开
 						:ARG1 (s1140x3 / 机车)))))
 		:mod (s1140x7 / 也)
-		:quote (s1140x13 / 说道-01)))
+		:quote s1140x13))
 
 # alignment:
 s1140x12: 12-12
@@ -42606,7 +42605,7 @@ Words: “ 他们   什么   也  不  追随   。  ” 扳道工    说  ，
 			:refer-number plural)
 		:mod (s1149x4 / 也)
 		:modal-strength (s1149x21 / full-negative
-			:quote (s1149x10 / 说-01)
+			:quote s1149x10
 			:conceiver s1149x9)
 		:polarity -
 		:ARG1 (s1149x3 / 什么)))
@@ -43016,7 +43015,7 @@ Words: “ 这  就  大大   地  节约   了  时间   。  ”  商人   说
 		:mod (s1160x3 / 就)
 		:modal-strength (s1160x23 / full-affirmative
 			:conceiver s1160x11)
-		:quote (s1160x12 / 说-01)))
+		:quote s1160x12))
 
 # alignment:
 s1160x11: 11-11
@@ -43175,7 +43174,7 @@ Words: … ” 小  王子   自言自语     地  说  ：  “ 我  如果   �
 			:direction (s1165x23 / 水泉)
 			:manner (s1165x20 / 悠哉悠哉)
 			:modal-strength (s1165x48 / full-affirmative))
-		:quote (s1165x7 / 说-01)
+		:quote s1165x7
 		:modal-strength (s1165x49 / neutral-affirmative
 			:conceiver s1165x4)))
 
@@ -45854,7 +45853,7 @@ Words: “ 你  听  ，  ” 小  王子   说  ：
 		:mode imperative
 		:modal-strength (s1231x17 / partial-affirmative
 			:conceiver s1231x7)
-		:quote (s1231x8 / 说-01)))
+		:quote s1231x8))
 
 # alignment:
 s1231x17: 0-0
@@ -46427,7 +46426,7 @@ Words: “ 你  这里   的  人  在  同  一  个  花园   中  种植   �
 						:refer-number singular)))
 			:modal-strength (s1247x65 / full-affirmative
 				:conceiver s1247x20)
-			:quote (s1247x21 / 说-01))
+			:quote s1247x21)
 		:ARG2 (s1247x29 / 能-01
 			:ARG0 (s1247x32 / 找到-01
 				:ARG1 (s1247x38 / 东西
@@ -47264,7 +47263,7 @@ Words: “ 啊  ！  这  就  行  了  。  ” 他  说  ：  “  孩子们 
 				:ARG0 (s1272x14 / 孩子们)
 				:modal-strength (s1272x33 / full-affirmative
 					:conceiver s1272x10))
-			:quote (s1272x11 / 说-01))))
+			:quote s1272x11)))
 
 # alignment:
 s1272x10: 0-0
@@ -47464,7 +47463,7 @@ Words: 他  对  我  说  ：  “ 你  知道   ，  我  落  在  地球   �
 			:refer-number singular)
 		:modal-strength (s1278x26 / full-affirmative
 			:conceiver s1278x1)
-		:quote (s1278x4 / 说-01)))
+		:quote s1278x4))
 
 # alignment:
 s1278x1: 0-0
@@ -48777,7 +48776,7 @@ Words: “ 现在   你  去  吧  ，  小  王子   说  。
 		:temporal (s1315x2 / 现在)
 		:modal-strength (s1315x19 / partial-affirmative
 			:conceiver s1315x8)
-		:quote (s1315x9 / 说-01)))
+		:quote s1315x9))
 
 # alignment:
 s1315x19: 0-0
@@ -49290,7 +49289,7 @@ Words: 他  对  我  说  ：  “ 我  很  高兴   ，  你  找到   了  �
 				:refer-person 2
 				:refer-number singular)
 			:modal-strength (s1327x37 / full-affirmative)
-			:quote (s1327x4 / 说-01))
+			:quote s1327x4)
 		:ARG0 (s1327x7 / individual-person
 			:refer-person 1
 			:refer-number singular)))
@@ -54310,7 +54309,7 @@ Words: 忽而   我  又  对  自己   说  ：  “ 人们   有时   总  免
 			:polarity -
 			:mod (s1473x10 / 有时)
 			:frequency (s1473x11 / 总-01)
-			:quote (s1473x6 / 说-01))
+			:quote s1473x6)
 		:op2 (s1473x21 / 够戗
 			:ARG0 (s1473x19 / 那)
 			:mod (s1473x20 / 就)
