@@ -494,7 +494,7 @@ s14u: 4-4
   :temporal ((s13s :overlap s14k))
   :modal ((root :modal author)
           (author :full-affirmative s14p)
-          (s14p :NEG s14k))
+          (s14p :full-negative s14k))
   :coref ((s13s :same-event s14t)))
 
 

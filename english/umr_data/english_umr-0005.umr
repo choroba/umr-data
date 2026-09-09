@@ -59,7 +59,7 @@ s1n4: 0-0
             (s1f :before s1a)
             (document-creation-time :after s1p))
     :modal ((author :full-affirmative s1h)
-            (author :FULLfull-affirmative s1g)
+            (author :full-affirmative s1g)
             (s1g :full-affirmative s1a2)
             (s1g :partial-affirmative s1f)
             (s1g :partial-affirmative s1p3)))
