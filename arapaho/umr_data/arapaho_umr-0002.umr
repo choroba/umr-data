@@ -190,7 +190,7 @@ Sentence Gloss (en): Men he would meet them.
 
 # sentence level graph:
 (s6n / nouxon-00
-    :theme (s6p / person
+    :actor (s6p / person
         :refer-person 3rd
         :refer-number singular)
     :theme (s6h / hinen
