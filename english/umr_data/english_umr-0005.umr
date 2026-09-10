@@ -642,7 +642,7 @@ Words: They also said this court did not give the lawyers for the defense due pr
             :ARG1 (s10p / procedure-01
                 :ARG1 (s10d2 / due)) 
             :ARG2 (s10p5 / person 
-                :refer-person plural
+                :refer-number plural
                 :ARG1-of (s10h / have-org-role-92
                     :ARG2 (s10o / organization 
                         :ARG0-of (s10d / defend-01))

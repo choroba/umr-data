@@ -3349,7 +3349,7 @@ Words: . . and pour them in .
         :op2 (s97p / pour-01
                 :ARG0 (s97p2 / person)
                 :ARG1 (s97t / thing
-                        :refer-number 3rd
+                        :refer-person 3rd
                         :refer-number plural)
                 :ARG3 (s97t2 / thing)
                 :aspect performance))
