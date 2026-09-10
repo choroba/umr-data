@@ -751,23 +751,23 @@ Translation(English):	When we passed the reservation boundary they said to me, �
 	:mode imperative
 	:start (s21k / kodóó)
 	:temporal (s21k2 / k’ad-)
-	:theme-of (s22s / shi’doo’niid
+	:theme-of (s21s / shi’doo’niid
 		:aspect performance
-		:actor (s22p / person
+		:actor (s21p1 / person
 			:refer-number singular
 			:refer-person 3rd)
-		:recipient (s22p2 / person
+		:recipient (s21p2 / person
 			:refer-number singular
 			:refer-person 1st)
-		:temporal (s22x / ’o’oot’a’go
+		:temporal (s21x / ’o’oot’a’go
 			:aspect activity
-			:actor (s22p3 / person
+			:actor (s21p3 / person
 				:refer-number plural
 				:refer-person 1st)
-			:place (s22g / góne’
-				:part (s22b / biyi’
-					:part (s22h / hoodzo)))))
-	:quote s22s)
+			:place (s21g / góne’
+				:part (s21b2 / biyi’
+					:part (s21h2 / hoodzo)))))
+	:quote s21s)
 
 # alignment:
 s21h: 0-0
@@ -776,30 +776,30 @@ s21b: 9-9
 s21n: 9-10
 s21k: 7-7
 s21k2: 6-6
-s22s: 0-0
-s22p: 0-0
-s22p2: 0-0
-s22x: 4-5
-s22p3: 0-0
-s22g: 3-3
-s22b: 2-2
-s22h: 1-1
+s21s: 0-0
+s21p1: 0-0
+s21p2: 0-0
+s21x: 4-5
+s21p3: 0-0
+s21g: 3-3
+s21b2: 2-2
+s21h2: 1-1
 
 # document level annotation:
 (s21s0 / sentence
-	:temporal ((s21h :before s22s)
-		(s22x :contained s22s))
+	:temporal ((s21h :before s21s)
+		(s21x :contained s21s))
 	:modal ((root :modal author)
 		(author :partial-affirmative s21h)
 		(author :partial-affirmative s21p)
-		(author :full-affirmative s22s)
+		(author :full-affirmative s21s)
 		(author :full-affirmative s21p)
-		(author :neutral-affirmative s22x)
+		(author :neutral-affirmative s21x)
 		(author :neutral-affirmative s21p))
 	:coref ((s21p :same-entity s20p)
-		(s21p :same-entity s22p2)
-		(s22p3 :subset-of s22p)
-		(s22p3 :same-entity s18p)))
+		(s21p :same-entity s21p2)
+		(s21p3 :subset-of s21p1)
+		(s21p3 :same-entity s18p)))
 
 
 ################################################################################
@@ -886,12 +886,11 @@ s23p: 0-0
 # document level annotation:
 (s23s0 / sentence
 	:temporal ((s23x :before s22s)
-		(s23x :before s22x)
 		(s23g2 :contained s23x))
 	:modal ((root :modal author)
 		(author :full-affirmative s23x)
 		(author :neutral-affirmative s23n2))
-	:coref ((s23p :same-entity s22p3)))
+	:coref ((s23p :same-entity s21p3)))
 
 
 ################################################################################

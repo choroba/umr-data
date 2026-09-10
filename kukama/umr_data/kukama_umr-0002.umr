@@ -605,19 +605,19 @@ Translation(Spanish):	Ya está asustado.
 
 # sentence level graph:
 (s16h / have-mod-91
-	:ARG1 (s17p / person
+	:ARG1 (s16p / person
 		:refer-person 3rd
 		:refer-number singular)
-	:ARG2 (s17x / ɨtsɨ)
+	:ARG2 (s16x / ɨtsɨ)
 	:aspect state
 	:modal-strength full-affirmative
-	:temporal (s17a / ay))
+	:temporal (s16a / ay))
 
 # alignment:
 s16h: 0-0
-s17p: 0-0
-s17x: 3-3
-s17a: 1-1
+s16p: 0-0
+s16x: 3-3
+s16a: 1-1
 
 # document level annotation:
 (s16s0 / sentence)
