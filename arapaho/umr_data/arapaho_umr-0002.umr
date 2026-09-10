@@ -4,9 +4,9 @@
 Index:               	1	2	3	4	5	6	7	8	9	10	11
 Words:               	hinee	hooxono'o       ,	hinit       3ebiihi'        ,   noobe'einiihi'          ,   hooxono'o       he'ih3ebii[3ii]kohe'                .
 Morphemes:           	hinee	hooxono'o       ,   hinit       3eb- iihi'      ,   noobe'ein- iihi'        ,   hooxono'o       he'ih- 3ebiikoh -e'                 .
-Morphemes(English):  	that	Riverton,_WY    ,   right.there there- ADV      ,   southwards- ADV         ,   Riverton,_WY    NARRPAST- ride.over.there -4/3S     .
+Morpheme Gloss (en): that	Riverton,_WY    ,   right.there there- ADV      ,   southwards- ADV         ,   Riverton,_WY    NARRPAST- ride.over.there -4/3S     .
 Part of Speech:      	det    place name      ,   part        prefix- deriv   ,   prefix.incorp- deriv    ,   place name      prefix- vta -infl                   .
-Translation(English):	That Riverton right there there down stream Riverton he rode towards over there.
+Sentence Gloss (en): That Riverton right there there down stream Riverton he rode towards over there.
 
 # sentence level graph:
 (s1x / 3ebiikoh-00
@@ -42,9 +42,9 @@ s1n2: 7-7
 Index:               	1	2
 Words:               	3eboowuniihiikohe'             .
 Morphemes:           	3eb- oowuniihiikoh -e'         .
-Morphemes(English):  	there- ride.downstream -4/3S   .
+Morpheme Gloss (en): there- ride.downstream -4/3S   .
 Part of Speech:      	prefix- vta -infl              .
-Translation(English):	He rode downstream.
+Sentence Gloss (en): He rode downstream.
 
 # sentence level graph:
 (s2x / 3eboowuniihiikoh-00
@@ -76,13 +76,13 @@ s2p2: 1-1
 Index:               	1	2	3	4
 Words:               	he'ih'iiwoniistoo3i                    hinee	sosoni'         .
 Morphemes:           	he'ih'ii- won- niistoo -3i	            hinee	sosoni'         .
-Morphemes(English):  	NARRPAST.IMPERF- ALLAT- do -3S.ITER	that	Shoshoni,_WY    .
+Morpheme Gloss (en): NARRPAST.IMPERF- ALLAT- do -3S.ITER	that	Shoshoni,_WY    .
 Part of Speech:      	prefix- prefix- vai -infl	            det	    place name      .
-Translation(English):	I guess he was going to Shoshoni to do something or other.
+Sentence Gloss (en): I guess he was going to Shoshoni to do something or other.
 
 # sentence level graph:
 (s3h3 / have-goal-91
-    :ARG1 s3p 
+    :ARG1 s3p
     :ARG2 (s3h2 / human-settlement :wiki "Shoshoni,_Wyoming"
         :name (s3n2 / name :op1 "sosoni'")
         :mod (s3h4 / hinee))
@@ -117,12 +117,12 @@ s3h4: 2-2
 Index:               	1	2
 Words:               	he'ih'e3ebiikohe'                  .
 Morphemes:           	he'ih- 'e3ebiikoh -e'              .
-Morphemes(English):  	NARRPAST- ride_over_there -4/3S   .
+Morpheme Gloss (en): NARRPAST- ride_over_there -4/3S   .
 Part of Speech:      	prefix- vta -infl                  .
-Translation(English):	He rode over there.
+Sentence Gloss (en): He rode over there.
 
 # sentence level graph:
-(s4h / he3ebiikoh-00 
+(s4h / he3ebiikoh-00
     :actor (s4p / person
         :refer-person 3rd
         :refer-number singular)
@@ -147,9 +147,9 @@ s4p2: 1-1
 Index:               	1	2
 Words:               	yiisiikohe'                        .
 Morphemes:           	yiisiikoh -e'                      .
-Morphemes(English):  	carry.over.there.on.back -4/3S     .
+Morpheme Gloss (en): carry.over.there.on.back -4/3S     .
 Part of Speech:      	vta -infl                          .
-Translation(English):	He rode over that direction.
+Sentence Gloss (en): He rode over that direction.
 
 # sentence level graph:
 (s5y / yiisiikoh-00
@@ -184,9 +184,9 @@ s5p3: 0-0
 Index:               	1	2	3
 Words:               	hinenno	    he'ih'iinouxonee                .
 Morphemes:           	hinen -no	    he'ih'ii- nouxon -ee
-Morphemes(English):  	man -OBV.PL	NARRPAST.IMPERF- meet -3S/4
+Morpheme Gloss (en): man -OBV.PL	NARRPAST.IMPERF- meet -3S/4
 Part of Speech:      	na -infl	    prefix- vta -infl
-Translation(English):	Men he would meet them.
+Sentence Gloss (en): Men he would meet them.
 
 # sentence level graph:
 (s6n / nouxon-00
@@ -215,9 +215,9 @@ s6h: 1-1
 Index:               	1	2
 Words:               	he'ih'iicei3iikohei'i                  .
 Morphemes:           	he'ih'ii- cei3iikoh -ei'i              .
-Morphemes(English):  	NARRPAST.IMPERF- ride.to.here -4/3PL   .
+Morpheme Gloss (en): NARRPAST.IMPERF- ride.to.here -4/3PL   .
 Part of Speech:      	prefix- vta -infl                      .
-Translation(English):	They were riding back towards here.
+Sentence Gloss (en): They were riding back towards here.
 
 # sentence level graph:
 (s7c / cei3iikoh-00
@@ -248,9 +248,9 @@ s7p2: 1-1
 Index:               	1	2	3
 Words:               	he'ih'iitounowuu	            hiicetino               .
 Morphemes:           	he'ih'ii- toun -owuu	        hi- icetino             .
-Morphemes(English):  	NARRPAST.IMPERF- hold -3PL	    3S- hands               .
+Morpheme Gloss (en): NARRPAST.IMPERF- hold -3PL	    3S- hands               .
 Part of Speech:      	prefix- vti -infl	            infl- ni.oblposs.pl     .
-Translation(English):	they were holding their hands.
+Sentence Gloss (en): they were holding their hands.
 
 # sentence level graph:
 (s8t / toun-00
@@ -280,9 +280,9 @@ s8h: 2-2
 Index:               	1	2	3	4
 Words:               	"  wohei   heihtoustoobe                   ?
 Morphemes:           	"  wohei   heih- toustoo -be               ?
-Morphemes(English):  	"  okay    2S.PAST- what.do? -2PL          ?
+Morpheme Gloss (en): "  okay    2S.PAST- what.do? -2PL          ?
 Part of Speech:      	"  part    infl+prefix- vai.INTERR -infl   ?
-Translation(English):	"Wohei what did you do?"
+Sentence Gloss (en): "Wohei what did you do?"
 
 # sentence level graph:
 (s9e / event
@@ -321,9 +321,9 @@ s9u: 3-3
 Index:               	1	2	3	4
 Words:               	"  heeyou          ?   "
 Morphemes:           	"  heeyou          ?   "
-Morphemes(English):  	"  what_(is_it?)   ?   "
+Morpheme Gloss (en): "  what_(is_it?)   ?   "
 Part of Speech:      	pseudovii.INTERR
-Translation(English):	"What?"
+Sentence Gloss (en): "What?"
 
 # sentence level graph:
 (s10e / event
@@ -359,9 +359,9 @@ s10p2: 0-0
 Index:               	1	2	3	4	5	6	7	8	9
 Words:               	"  hi'in                   nono'oteiht             bee'e'eit               nih'oo3oo       ,   hinit	        benoheino'oowuu'    .
 Morphemes:           	hi'in                   nono'oteihi -t          bee'e'ei- t             nih'oo3oo       ,   hinit	        benoheino'oowuu'    .
-Morphemes(English):  	that(aforementioned)    IC.tough/strong -3.S    IC.have.red.hair -3.S   White.person    ,   right.there     bar/saloon          .
+Morpheme Gloss (en): that(aforementioned)    IC.tough/strong -3.S    IC.have.red.hair -3.S   White.person    ,   right.there     bar/saloon          .
 Part of Speech:      	det                     vai -infl               vai.incorp -infl        na              ,   part	        ni.loc              .
-Translation(English):	"That he is strong he has red hair white man right there in the saloon."
+Sentence Gloss (en): "That he is strong he has red hair white man right there in the saloon."
 
 # sentence level graph:
 (s11e / event
@@ -409,9 +409,9 @@ s11p2: 0-0
 Index:               	1	2
 Words:               	3oo3o'ohoenei'eet                  .
 Morphemes:           	3oo- 3o'ohoen -ei'eet
-Morphemes(English):  	REDUP- crush.s.o.'s.hand -3S/1PL
+Morpheme Gloss (en): REDUP- crush.s.o.'s.hand -3S/1PL
 Part of Speech:      	prefix- vta.INCORP -infl
-Translation(English):	"he is crushing our hands"
+Sentence Gloss (en): "he is crushing our hands"
 
 # sentence level graph:
 (s12e / event
@@ -452,9 +452,9 @@ s12p3: 0-0
 Index:               	1	2	3	4	5	6	7
 Words:               	"  niineniniixouht	                        xonou	        nonoohowoo3i	    3owo3neniteeno          ;   .
 Morphemes:           	"  nii- neniniixouhu -t	                xonou	        nonoohow -oo3i	    3owo3nenitee -no        ;   .
-Morphemes(English):  	"  IMPERF- shake.hands.with.people -3.S	immediately	    IC.see -3S/4.ITER	indian -OBV.PL          ;   .
+Morpheme Gloss (en): "  IMPERF- shake.hands.with.people -3.S	immediately	    IC.see -3S/4.ITER	indian -OBV.PL          ;   .
 Part of Speech:      	"  prefix- vai.SELFB -infl	                part	        vta -infl	        a -infl                 ;   .
-Translation(English):	"he shakes someone's hand right away whenever he sees them Indians;"
+Sentence Gloss (en): "he shakes someone's hand right away whenever he sees them Indians;"
 
 # sentence level graph:
 (s13e / event
@@ -462,7 +462,7 @@ Translation(English):	"he shakes someone's hand right away whenever he sees them
     :theme (s13n / neniniixouhu-00
         :actor (s13p / person
             :refer-person 3rd
-            :refer-number singular) 
+            :refer-number singular)
         :companion s13x2
         :temporal (s13x / xonou)
         :temporal (s13n2 / nonoohow-00
@@ -507,9 +507,9 @@ s13p3: 0-0
 Index:               	1	2	3	4	5	6	7
 Words:               	"  noh	    nee3ebciiteini3i	        xonou	        niiyihoonoot                        .   "
 Morphemes:           	"  noh	    nee3eb- ciitei -ni3i	    xonou	        nii- yihoon -oot                    .   "
-Morphemes(English):  	"  and	    IC.there- enter -4PL	    immediately	    IMPERF- go.to.where.s.o.is -3S/4    .   "
+Morpheme Gloss (en): "  and	    IC.there- enter -4PL	    immediately	    IMPERF- go.to.where.s.o.is -3S/4    .   "
 Part of Speech:      	"  part	prefix.IMPERF- vai -infl	part	        prefix- vta -infl                   .   "
-Translation(English):	"and the ones who go in there right away he goes to them."
+Sentence Gloss (en): "and the ones who go in there right away he goes to them."
 
 # sentence level graph:
 (s14e / event
@@ -562,9 +562,9 @@ s14p4: 0-0
 Index:               	1	2	3	4	5	6	7	8	9
 Words:               	"  niinouxonoot        ,   niitohoenoot                ,   niixoo	    nii3oo3o'ohoenei'it                         .   "
 Morphemes:           	"  nii- nouxon -oot	,   niitohoen -oot	            ,   niixoo	    nii- 3oo- 3o'ohoenei'i -t                   .   "
-Morphemes(English):  	"  IMPERF- meet -3S/4	,   take.s.o.'s.hand -3S/4	    ,   also/too	IMPERF- REDUP- crush.peoples'.hands -3.S    .   "
+Morpheme Gloss (en): "  IMPERF- meet -3S/4	,   take.s.o.'s.hand -3S/4	    ,   also/too	IMPERF- REDUP- crush.peoples'.hands -3.S    .   "
 Part of Speech:      	"  prefix- vta -infl	,   vta.IMPERF.INCORP -infl	    ,   part	    prefix- prefix- vai.o.INCORP -infl          .   "
-Translation(English):	"he meets them, he takes their hand, also he crushes their hands."
+Sentence Gloss (en): "he meets them, he takes their hand, also he crushes their hands."
 
 # sentence level graph:
 (s15e / event
@@ -625,9 +625,9 @@ s15p4: 0-0
 Index:               	1	2	3	4	5	6	7	8	9
 Words:               	"  hee     ,   hohkonee    heetnehnou'uukoheinoo                       ,   "   nih'iit         .
 Morphemes:           	"  hee     ,   hohkonee    heetn- eh- no'uukohei -noo                  ,   "   nih'iit         .
-Morphemes(English):  	"  yes     ,   finally     FUT- from.here- arrive.on.horseback -1S     ,   "   he/she.said     .
+Morpheme Gloss (en): "  yes     ,   finally     FUT- from.here- arrive.on.horseback -1S     ,   "   he/she.said     .
 Part of Speech:      	"  part    ,   part        prefix- prefix- vai -infl                   ,   "   (phrase)        .
-Translation(English):	"yes finally I will ride over to there he said."
+Sentence Gloss (en): "yes finally I will ride over to there he said."
 
 # sentence level graph:
 (s16h / hii-00
@@ -671,9 +671,9 @@ s16h4: 2-2
 Index:               	1	2
 Words:               	he'ihnouxonee          ;
 Morphemes:           	he'ih- nouxon -ee      ;
-Morphemes(English):  	NARRPAST- meet -3S/4   ;
+Morpheme Gloss (en): NARRPAST- meet -3S/4   ;
 Part of Speech:      	prefix- vta -infl      ;
-Translation(English):	he met them;
+Sentence Gloss (en): he met them;
 
 # sentence level graph:
 (s17n / nouxon-00
@@ -705,9 +705,9 @@ s17p3: 0-0
 Index:               	1	2	3
 Words:               	ci'he'ih'iitounowuu	            hitiicetino             .
 Morphemes:           	ci'- he'ih'ii- toun -owuu	        hi- icetino
-Morphemes(English):  	too- NARRPAST.IMPERF- hold -3PL    3S- hands
+Morpheme Gloss (en): too- NARRPAST.IMPERF- hold -3PL    3S- hands
 Part of Speech:      	proclitic/part- prefix- vti -infl	infl- ni.oblposs.pl
-Translation(English):	also they were holding them their hands.
+Sentence Gloss (en): also they were holding them their hands.
 
 # sentence level graph:
 (s18t / toun-00
@@ -736,9 +736,9 @@ s18h: 2-2
 Index:               	1	2	3	4	5	6
 Words:               	"  yeh     ,   heihtoustoobe                   ?   "
 Morphemes:           	"  yeh     ,   heih- toustoo -be               ?   "
-Morphemes(English):  	"  gee!    ,   2S.PAST- what.do? -2PL          ?   "
+Morpheme Gloss (en): "  gee!    ,   2S.PAST- what.do? -2PL          ?   "
 Part of Speech:      	"  part    ,   infl+prefix- vai.INTERR -infl   ?   "
-Translation(English):	"well what did you all do?"
+Sentence Gloss (en): "well what did you all do?"
 
 # sentence level graph:
 (s19e / event
@@ -780,9 +780,9 @@ s19y: 2-2
 Index:               	1	2	3	4	5	6
 Words:               	"  hinit           bee'e'eit               nih'oo3oo       "   ;
 Morphemes:           	"  hinit           bee'e'ei- t             nih'oo3oo       "   ;
-Morphemes(English):  	"  right.there     IC.have.red.hair -3.S   White.person    "   ;
+Morpheme Gloss (en): "  right.there     IC.have.red.hair -3.S   White.person    "   ;
 Part of Speech:      	"  part            vai.incorp- infl        na              "   ;
-Translation(English):	"right there he has red hair white man"
+Sentence Gloss (en): "right there he has red hair white man"
 
 # sentence level graph:
 (s20e / event
@@ -790,7 +790,7 @@ Translation(English):	"right there he has red hair white man"
     :theme (s20e2 / exist-91
         :ARG1 (s20h / hinit)
         :ARG2 (s20n / nih'oo3oo
-            :theme-of (s20b / be'e'ei-00        
+            :theme-of (s20b / be'e'ei-00
                 :aspect state)
             :aspect state)
         :aspect state
@@ -828,9 +828,9 @@ s20p2: 0-0
 Index:               	1	2	3	4
 Words:               	"  ciinoo'onbeesei3e'          ,   "
 Morphemes:           	"  ciinoo'on- beesei3e -'      ,   "
-Morphemes(English):  	"  fairly- have.big.body -3S   ,   "
+Morpheme Gloss (en): "  fairly- have.big.body -3S   ,   "
 Part of Speech:      	"  prefix- vai.incorp -infl    ,   "
-Translation(English):	"he's pretty big"
+Sentence Gloss (en): "he's pretty big"
 
 # sentence level graph:
 (s21e / event
@@ -870,9 +870,9 @@ s21p3: 0-0
 Index:               	1	2	3	4
 Words:               	"  3oo3o'ohoenei'eet                   .   "
 Morphemes:           	"  3oo- 3o'ohoen -ei'eet               .   "
-Morphemes(English):  	"  REDUP- crush.s.o.'s.hand -3S/1PL    .   "
+Morpheme Gloss (en): "  REDUP- crush.s.o.'s.hand -3S/1PL    .   "
 Part of Speech:      	"  prefix- vta.INCORP -infl            .   "
-Translation(English):	"he's crushing our hands."
+Sentence Gloss (en): "he's crushing our hands."
 
 # sentence level graph:
 (s22e / event
@@ -914,9 +914,9 @@ s22p3: 0-0
 Index:               	1	2	3	4
 Words:               	"  niineniniixouht                         ,   "
 Morphemes:           	"  nii- neniniixouhu -t                    ,   "
-Morphemes(English):  	"  IMPERF- shake.hands.with.people -3.S    ,   "
+Morpheme Gloss (en): "  IMPERF- shake.hands.with.people -3.S    ,   "
 Part of Speech:      	"  prefix- vai.SELFB -infl                 ,   "
-Translation(English):	"he shakes someone's hand"
+Sentence Gloss (en): "he shakes someone's hand"
 
 # sentence level graph:
 (s23e / event
@@ -956,9 +956,9 @@ s23p3: 0-0
 Index:               	1	2	3	4
 Words:               	"  nii3oo3o'ohoenei'eet                        .   "
 Morphemes:           	"  nii- 3oo- 3o'ohoen -ei'eet                  .   "
-Morphemes(English):  	"  IMPERF- REDUP- crush.s.o.'s.hand -3S/1PL    .   "
+Morpheme Gloss (en): "  IMPERF- REDUP- crush.s.o.'s.hand -3S/1PL    .   "
 Part of Speech:      	"  prefix- prefix- vta.INCORP -infl            .   "
-Translation(English):	"he crushes our hands."
+Sentence Gloss (en): "he crushes our hands."
 
 # sentence level graph:
 (s24e / event
@@ -1000,9 +1000,9 @@ s24p3: 0-0
 Index:               	1	2	3	4	5	6	7
 Words:               	"  hee     ,   hohkonee    heenehno'uukoheinoo                         .   "
 Morphemes:           	"  hee     ,   hohkonee    heeneh- no'uukohei -noo                     ,   "
-Morphemes(English):  	"  yes     ,   finally     FUT.from.here- arrive.on.horseback -1S      ,   "
+Morpheme Gloss (en): "  yes     ,   finally     FUT.from.here- arrive.on.horseback -1S      ,   "
 Part of Speech:      	"  part    ,   part        prefix+prefix- vai -infl                    ,   "
-Translation(English):	"yes finally I am going to ride over to there."
+Sentence Gloss (en): "yes finally I am going to ride over to there."
 
 # sentence level graph:
 (s25e / event
@@ -1046,9 +1046,9 @@ s25h4: 2-2
 Index:               	1	2
 Words:               	he'ne'yiisiikohe'                      ,
 Morphemes:           	he'ne'- yiisiikoh -e'                  ,
-Morphemes(English):  	then- carry.over.there.on.back -4/3S   ,
+Morpheme Gloss (en): then- carry.over.there.on.back -4/3S   ,
 Part of Speech:      	prefix- vta -infl                      ,
-Translation(English):	he rode away over in that direction
+Sentence Gloss (en): he rode away over in that direction
 
 # sentence level graph:
 (s26y / yiisiikoh-00
@@ -1082,9 +1082,9 @@ s26p2: 1-1
 Index:               	1	2
 Words:               	nee'ehno'uukoheit                                      .
 Morphemes:           	nee'eh- no'uukohei -t                                  .
-Morphemes(English):  	IC.then.from.here.to.there- arrive.on.horseback -3.S   .
+Morpheme Gloss (en): IC.then.from.here.to.there- arrive.on.horseback -3.S   .
 Part of Speech:      	proclitic+prefix- vai -infl                            .
-Translation(English):	then he arrived there by riding.
+Sentence Gloss (en): then he arrived there by riding.
 
 # sentence level graph:
 (s27n / no'uukohei-00
@@ -1116,9 +1116,9 @@ s27p3: 1-1
 Index:               	1	2	3	4	5	6
 Words:               	ceee3i'	niitoukutooxowootiini'                      ,   he'ihtouku3ee	                    hitoniho'               ;
 Morphemes:           	ceee3i'	niit- toukutooxowootiini -'	                ,   he'ih- touku3 -ee	                hi- toniho'             ;
-Morphemes(English):  	outside	where- hitching.post.for.horses -0S	        ,   NARRPAST- tie.s.t.to.s.t. -3S/4	    3S- domestic.animal     ;
+Morpheme Gloss (en): outside	where- hitching.post.for.horses -0S	        ,   NARRPAST- tie.s.t.to.s.t. -3S/4	    3S- domestic.animal     ;
 Part of Speech:      	part.loc	prefix.rel.IMPERF- vii.IMPERS.INCORP -infl	,   prefix- vta -infl	                infl- na.poss.obv       ;
-Translation(English):	outside where people tie up their horses he tied it up his horse;
+Sentence Gloss (en): outside where people tie up their horses he tied it up his horse;
 
 # sentence level graph:
 (s28t / touku3-00
@@ -1159,9 +1159,9 @@ s28t2: 2-2
 Index:               	1	2
 Words:               	nee'ehciiteit                              .
 Morphemes:           	nee'eh- ciitei -t                          .
-Morphemes(English):  	IC.then.from.here.to.there- enter -3.S     .
+Morpheme Gloss (en): IC.then.from.here.to.there- enter -3.S     .
 Part of Speech:      	proclitic+prefix- vai -infl                .
-Translation(English):	then he went inside there.
+Sentence Gloss (en): then he went inside there.
 
 # sentence level graph:
 (s29c / ciitei-00
@@ -1193,9 +1193,9 @@ s29p3: 1-1
 Index:               	1	2	3	4	5	6
 Words:               	'oh	    xonou	        he'ihnoohobe'	        hi'in	                bee'e'eini3             ;
 Morphemes:           	'oh	    xonou	        he'ih- noohob -e'	    hi'in	                bee'e'ei -ni3           ;
-Morphemes(English):  	but/and	immediately	    NARRPAST- see -4/3S	    that(aforementioned)	IC.have red hair -4S    ;
+Morpheme Gloss (en): but/and	immediately	    NARRPAST- see -4/3S	    that(aforementioned)	IC.have red hair -4S    ;
 Part of Speech:      	part	    part	        prefix- vta -infl	    det	                    vai.incorp -infl        ;
-Translation(English):	and right away that one saw him that he has red hair;
+Sentence Gloss (en): and right away that one saw him that he has red hair;
 
 # sentence level graph:
 (s30n / noohob-00
@@ -1234,9 +1234,9 @@ s30x: 2-2
 Index:               	1	2
 Words:               	he'ne'ceciito'oneit                .
 Morphemes:           	he'ne'- ceciito'on -eit            .
-Morphemes(English):  	then- go.over.to.greet.s.o. -4/3S  .
+Morpheme Gloss (en): then- go.over.to.greet.s.o. -4/3S  .
 Part of Speech:      	prefix- vta -infl                  .
-Translation(English):	Then he greeted him.
+Sentence Gloss (en): Then he greeted him.
 
 # sentence level graph:
 (s31c / ceciito'on-00
@@ -1267,9 +1267,9 @@ s31p2: 1-1
 Index:               	1	2	3	4	5	6	7	8
 Words:               	"  wohei   ,   heneeyeihno'useen               ,   heneeyeihno'useen               .   "
 Morphemes:           	"  wohei   ,   heeyeih- no'usee -n             ,   heneeyeih- no'usee -n           .   "
-Morphemes(English):  	"  okay    ,   IC.it.is.good.that- arrive -2S  ,   IC.it.is.good.that- arrive -2S  .   "
+Morpheme Gloss (en): "  okay    ,   IC.it.is.good.that- arrive -2S  ,   IC.it.is.good.that- arrive -2S  .   "
 Part of Speech:      	"  part    ,   prefix.PAST- vai -infl          ,   prefix.PAST- vai -infl          .   "
-Translation(English):	"wohei it's good that you've come it's good that you've come."
+Sentence Gloss (en): "wohei it's good that you've come it's good that you've come."
 
 # sentence level graph:
 (s32e / event
@@ -1319,9 +1319,9 @@ s32h2: 6-6
 Index:               	1	2	3	4
 Words:               	"  heetneniniixoo3e3en             .   "
 Morphemes:           	"  heet- neniniixoo3 -e3en         .   "
-Morphemes(English):  	"  FUT- shake.s.o.'s.hand -1S/2S   .   "
+Morpheme Gloss (en): "  FUT- shake.s.o.'s.hand -1S/2S   .   "
 Part of Speech:      	"  prefix- vta -infl               .   "
-Translation(English):	"I'm going to shake your hand."
+Sentence Gloss (en): "I'm going to shake your hand."
 
 # sentence level graph:
 (s33e / event
@@ -1361,9 +1361,9 @@ s33p2: 2-2
 Index:               	1	2	3	4	5	6
 Words:               	"  heneeyeihnoohobe3en             ,   "   he'ih'ii3e'                     .
 Morphemes:           	"  heneeyeih- noohob -e3en         ,   "   he'ih- 'ii3 -e'                 .
-Morphemes(English):  	"  IC.it.is.good.that- see -1S/2S  ,   "   NARRPAST- say.to.s.o. -4/3S     .
+Morpheme Gloss (en): "  IC.it.is.good.that- see -1S/2S  ,   "   NARRPAST- say.to.s.o. -4/3S     .
 Part of Speech:      	"  prefix.PAST- vta -infl          ,   "   prefix- vta -infl               .
-Translation(English):	"it's good that I see you, that one said to him."
+Sentence Gloss (en): "it's good that I see you, that one said to him."
 
 # sentence level graph:
 (s34h / hii3-00
@@ -1403,13 +1403,13 @@ s34p2: 5-5
 Index:               	1	2	3	4	5	6	7
 Words:               	"  hii3eti'    tohnoohobe3en       ;   heetneniniixooP                         .   "
 Morphemes:           	"  hii3eti'    toh- noohob -e3en   ;   heet- neniniixoo3 -P                    .   "
-Morphemes(English):  	"  IC.good     since- see -1S/2S   ;   FUT- shake.s.o.'s.hand -pause/break     .   "
+Morpheme Gloss (en): "  IC.good     since- see -1S/2S   ;   FUT- shake.s.o.'s.hand -pause/break     .   "
 Part of Speech:      	"  vii         prefix- vta -infl   ;   prefix- vta -P                          .   "
-Translation(English):	"it is good that I see you I am going to shake"
+Sentence Gloss (en): "it is good that I see you I am going to shake"
 
 # sentence level graph:
 (s35e / event
-    :actor s35p 
+    :actor s35p
     :theme (s35a / and
         :op1 (s35h / hi3eti'-00
             :theme (s35n / noohob-00
@@ -1457,16 +1457,16 @@ s35n2: 5-5
 Index:               	1	2	3	4	5	6	7	8
 Words:               	"  hee     ,   nohci'heetneniniixoo3e3en                   ,   "   hee3oohok       .
 Morphemes:           	"  hee     ,   noh- ci'- heet- neniniixoo3 -e3en           ,   "   hee3oohok       .
-Morphemes(English):  	"  yes     ,   and- too- FUT- shake.s.o.'s.hand -1S/2S     ,   "   said.to.s.o.    .
+Morpheme Gloss (en): "  yes     ,   and- too- FUT- shake.s.o.'s.hand -1S/2S     ,   "   said.to.s.o.    .
 Part of Speech:      	"  part    ,   part- proclitic/part- prefix- vta -infl     ,   "   vta.3S/4        .
-Translation(English):	"yes and I'm going to shake your hand," he said to him.
+Sentence Gloss (en): "yes and I'm going to shake your hand," he said to him.
 
 # sentence level graph:
 (s36h / hee3-00
     :actor (s36p / person
         :refer-person 3rd
         :refer-number singular)
-    :theme (s36a / and 
+    :theme (s36a / and
         :op1 (s36h2 / hee)
         :op2 (s36n / neniniixoo3-00
             :actor s36p
@@ -1504,9 +1504,9 @@ s36p2: 7-7
 Index:               	1	2
 Words:               	ne'iitohoeneit                 .
 Morphemes:           	ne'i- itohoen -eit             .
-Morphemes(English):  	then- take.s.o.'s.hand -4/3S   .
+Morpheme Gloss (en): then- take.s.o.'s.hand -4/3S   .
 Part of Speech:      	prefix- vta.INCORP -infl       .
-Translation(English):	then the white man took his hand.
+Sentence Gloss (en): then the white man took his hand.
 
 # sentence level graph:
 (s37h / hitohoen-00
@@ -1537,16 +1537,16 @@ s37p2: 1-1
 Index:               	1	2	3	4	5	6	7
 Words:               	ne'iiP	                        hoowP	                heniixoohok	                nehe'	nihii	    tei'oxuho'      .
 Morphemes:           	ne'- ii- -P	                hoow- -P	            heniix -oohok	            nehe'	nihii	    tei'oxuho'      .
-Morphemes(English):  	then- IMPERF- -pause/break     3.NEG- -pause/break	    IC.scared.of -3S/4.SUBJ	    this	well...     Strong.Bear     .
+Morpheme Gloss (en): then- IMPERF- -pause/break     3.NEG- -pause/break	    IC.scared.of -3S/4.SUBJ	    this	well...     Strong.Bear     .
 Part of Speech:      	prefix- prefix- -P	            infl+prefix- -P	        vta -infl	                det	    part	    persname.OBV    .
-Translation(English):	then, he isn't scared of him this, well, strong bear.
+Sentence Gloss (en): then, he isn't scared of him this, well, strong bear.
 
 # sentence level graph:
 (s38h / hiix-00
     :experiencer (s38p / person
         :refer-person 3rd
         :refer-number singular)
-    :stimulus (s38p2 / person 
+    :stimulus (s38p2 / person
         :name (s38n2 / name :op1 "tei'oxuho'"
                 :ARG1-of (s38m / mean-91
                     :ARG2 (s38t / tei'oxuho')))
@@ -1575,9 +1575,9 @@ s38n: 4-4
 Index:               	1	2	3	4	5	6
 Words:               	hee	hoowP	                he'ih'iicooniini	                he'ih'iicoon3o'enowun	            hiicet              .
 Morphemes:           	hee	hoow- -P	            he'ih'ii- coon- -iini	            he'ih'ii- coon- 3o'en -owun	        hi- icet            .
-Morphemes(English):  	yes	3.NEG- -pause/break	    NARRPAST.IMPERF- unable- -DETACH	NARRPAST.IMPERF- unable- crush -4S	3S- hand
+Morpheme Gloss (en): yes	3.NEG- -pause/break	    NARRPAST.IMPERF- unable- -DETACH	NARRPAST.IMPERF- unable- crush -4S	3S- hand
 Part of Speech:      	part	infl+prefix- -P	        prefix- prefix- -deriv	            prefix- prefix- vti -infl	        infl- ni.oblposs
-Translation(English):	yes not- he couldn't he couldn't crush it his hand.
+Sentence Gloss (en): yes not- he couldn't he couldn't crush it his hand.
 
 # sentence level graph:
 (s39x / 3o'en-00
@@ -1586,7 +1586,7 @@ Translation(English):	yes not- he couldn't he couldn't crush it his hand.
         :refer-number singular)
     :undergoer (s39h3 / hiicet
         :part-of (s39p2 / person
-            :refer-person 3rd   
+            :refer-person 3rd
             :refer-number singular))
     :mod (s39h2 / hee)
     :polarity -
@@ -1613,16 +1613,16 @@ s39h2: 1-1
 Index:               	1	2	3	4	5	6	7	8
 Words:               	wohei	nuhu'	heecisneyei3o'ohoeneit                  ,   ne'nii'ho'wohoe'et	                        nehe'	tei'ox          .
 Morphemes:           	wohei	nuhu'	heecis- neyei- 3o'ohoen -eit	        ,   ne'- nii'- ho'wohoe -t	                    nehe'	tei'ox          .
-Morphemes(English):  	okay	this	while- try- crush.s.o.'s.hand -4/3S	    ,   that- when.IMPERF- close.one's.hand -3.S	this	Strong Bear     .
+Morpheme Gloss (en): okay	this	while- try- crush.s.o.'s.hand -4/3S	    ,   that- when.IMPERF- close.one's.hand -3.S	this	Strong Bear     .
 Part of Speech:      	part	det	    prefix- prefix- vta.INCORP -infl	    ,   proclitic- prefix- vai.INCORP -infl	        det	    pers.name       .
-Translation(English):	woehi this while the white man was trying to crush his hand then that's when he closed his hand this strong bear.
+Sentence Gloss (en): woehi this while the white man was trying to crush his hand then that's when he closed his hand this strong bear.
 
 # sentence level graph:
 (s40h / ho'wohoe-00
     :actor (s40p / person
         :name (s40n / name :op1 "tei'ox"
                 :ARG1-of (s40m / mean-91
-                    :ARG2 (s40t2 / tei'oxuho')))        
+                    :ARG2 (s40t2 / tei'oxuho')))
         :mod (s40n2 / nehe'))
     :undergoer (s40t / thing
         :part-of s40p)
@@ -1662,9 +1662,9 @@ s40n4: 2-2
 Index:               	1	2	3	4	5
 Words:               	heihii	    he'ihco'oekuu	                        nehe'   nih'oo3oo       .
 Morphemes:           	heihii	    he'ih- co'oekuu	                        nehe'   nih'oo3oo       .
-Morphemes(English):  	soon	    NARRPAST- stand.scrunched.down/over     this    White person    .
+Morpheme Gloss (en): soon	    NARRPAST- stand.scrunched.down/over     this    White person    .
 Part of Speech:      	part	    prefix- vai	                            det     na              .
-Translation(English):	soon he was scrunched down this white man.
+Sentence Gloss (en): soon he was scrunched down this white man.
 
 # sentence level graph:
 (s41c / co'oekuu-00
@@ -1693,9 +1693,9 @@ s41h: 1-1
 Index:               	1	2
 Words:               	he'ihbeexbiibiiwoo                 .
 Morphemes:           	he'ih- beex- bii- biiwoohu         .
-Morphemes(English):  	NARRPAST- a.little- REDUP- cry     .
+Morpheme Gloss (en): NARRPAST- a.little- REDUP- cry     .
 Part of Speech:      	prefix- prefix- prefix- vai        .
-Translation(English):	he was just whimpering and crying pitifully;
+Sentence Gloss (en): he was just whimpering and crying pitifully;
 
 # sentence level graph:
 (s42b / biibiiwoohu-00
@@ -1722,9 +1722,9 @@ s42p: 1-1
 Index:               	1	2	3	4	5
 Words:               	kookoseinooni'i	                hixono	nuhu'	hiicetine'                  .
 Morphemes:           	koo- koseinooni -'i	            hixono	nuhu'	hi- icetin -e'              .
-Morphemes(English):  	REDUP- sound.of.crackling -0.PL	bones	this	3S- hand -LOC               .
+Morpheme Gloss (en): REDUP- sound.of.crackling -0.PL	bones	this	3S- hand -LOC               .
 Part of Speech:      	prefix- vii -infl	                ni.pl	det	    infl- ni.oblposs+loc -infl  .
-Translation(English):	they were crackling his bones this in his hand.
+Sentence Gloss (en): they were crackling his bones this in his hand.
 
 # sentence level graph:
 (s43k / kookoseinooni-00
@@ -1757,9 +1757,9 @@ s43n: 3-3
 Index:               	1	2	3
 Words:               	siihonoot	        he'ihtes3o'en[ow]       ;
 Morphemes:           	sii- honoot	    he'ih- tes- 3o'en
-Morphemes(English):  	INTENSE- until	    NARRPAST- very- crush
+Morpheme Gloss (en): INTENSE- until	    NARRPAST- very- crush
 Part of Speech:      	proclitic- part	prefix- prefix- vti
-Translation(English):	right up until he really crushed it;
+Sentence Gloss (en): right up until he really crushed it;
 
 # sentence level graph:
 (s44h / have-duration-91
@@ -1794,9 +1794,9 @@ s44t: 2-2
 Index:               	1	2
 Words:               	he'ihbeexbeebe'einin                       .
 Morphemes:           	he'ih- beex- bee- be'iini-ni               .
-Morphemes(English):  	NARRPAST- a.little- REDUP- bloody -04.S    .
+Morpheme Gloss (en): NARRPAST- a.little- REDUP- bloody -04.S    .
 Part of Speech:      	prefix- prefix- prefix- vii -INFL          .
-Translation(English):	his hand was just a little bloody pulp.
+Sentence Gloss (en): his hand was just a little bloody pulp.
 
 # sentence level graph:
 (s45b / beexbeebe'einini-00
@@ -1820,14 +1820,14 @@ s45t: 1-1
 Index:               	1	2	3	4	5	6	7	8	9	10	11	12
 Words:               	"  nehe'	tei'ox	        me	    glad	to	    see	    you     ,   "   nih'ii3oohok                    .
 Morphemes:           	"  nehe'	tei'ox	        me	    glad	to	    see	    you     ,   "   nih- 'ii3 -oohok                .
-Morphemes(English):  	"  this	Strong.Bear	    me	    glad	to	    see	    you     ,   "   PAST- say.to.s.o. -3S/4.SUBJ    .
+Morpheme Gloss (en): "  this	Strong.Bear	    me	    glad	to	    see	    you     ,   "   PAST- say.to.s.o. -3S/4.SUBJ    .
 Part of Speech:      	"  det	    pers.name	    ENGL	ENGL	ENGL	ENGL	ENG     ,   "   prefix- vta -infl               .
-Translation(English):	"this strong bear me glad to see you," he said to him.
+Sentence Gloss (en): "this strong bear me glad to see you," he said to him.
 
 # sentence level graph:
 (s47h / hii3-00
     :actor s47p
-    :theme (s47a / and  
+    :theme (s47a / and
         :op1 (s47h2 / have-name-91
             :ARG1 (s47p / person
                 :refer-person 1st
@@ -1880,9 +1880,9 @@ s47p2: 8-8
 Index:               	1	2	3	4	5	6	7	8
 Words:               	hoowP	                hoowP	                hoowP	                honoot  ,   hei'tesni'ee3o'[ow]ohoenoot	                            nuhu'   .
 Morphemes:           	hoow- -P	            hoow- -P	            hoow- -P	            honoot	,   hei'- tes- ni'ee- 3o'ohoen -oot	                        nuhu'   .
-Morphemes(English):  	3.NEG- -pause/break	3.NEG- -pause/break	    3.NEG- -pause/break	    until	,   when.PERF- very- really.well?- crush.s.o.'s.hand -3S/4	this    .
+Morpheme Gloss (en): 3.NEG- -pause/break	3.NEG- -pause/break	    3.NEG- -pause/break	    until	,   when.PERF- very- really.well?- crush.s.o.'s.hand -3S/4	this    .
 Part of Speech:      	infl+prefix- -	        infl+prefix- -P	        infl+prefix- -P	        part	,   prefix- prefix- prefix- vta.INCORP -infl	            det     .
-Translation(English):	[He] didn’t, didn’t, didn’t [let go] until he really crushed his hand, of this white man.
+Sentence Gloss (en): [He] didn’t, didn’t, didn’t [let go] until he really crushed his hand, of this white man.
 
 # sentence level graph:
 (s48h / have-duration-91
@@ -1929,9 +1929,9 @@ s48n: 7-7
 Index:               	1	2	3	4	5
 Words:               	he'ne'nih'iisiini	                    heetnoonoxon3o'eno'	                    nuhu'	hiicet              .
 Morphemes:           	he'ne'- nih'iisi- -ini	                heet- noo- noxon- 3o'en -o'	            nuhu'	hi- icet            .
-Morphemes(English):  	that- PAST.what/how- -DETACH	        FUT- REDUP- violent/hard- crush -3S	    this	3S- hand            .
+Morpheme Gloss (en): that- PAST.what/how- -DETACH	        FUT- REDUP- violent/hard- crush -3S	    this	3S- hand            .
 Part of Speech:      	proclitic- prefix+prefix.rel- -deriv	prefix- prefix- prefix- vti -infl	    det	    infl- ni.oblposs    .
-Translation(English):	that was how he will brutally crushed it this his hand.
+Sentence Gloss (en): that was how he will brutally crushed it this his hand.
 
 # sentence level graph:
 (s49n / noonoxon3o'en-00
@@ -1968,9 +1968,9 @@ s49m: 1-1
 Index:               	1	2	3	4
 Words:               	biibiiwoohu	nehe'	nih'oo3oo       .
 Morphemes:           	bii- biiwoohu	nehe'	nih'oo3oo       .
-Morphemes(English):  	REDUP- cry	    this	White.person    .
+Morpheme Gloss (en): REDUP- cry	    this	White.person    .
 Part of Speech:      	prefix- vai	det	    na              .
-Translation(English):	he was just crying and whimpering this white man.
+Sentence Gloss (en): he was just crying and whimpering this white man.
 
 # sentence level graph:
 (s50b / biibiiwoohu-00
@@ -1996,9 +1996,9 @@ s50n2: 3-3
 Index:               	1	2	3	4	5	6	7	8	9	10	11	12
 Words:               	noh	ne'nih'iisiini	                    ho3tonoot	                    nuhu'	nii3oo3o'ohoenee	                    hiniito'eino            ,   hei'neniniixouht	                        nuhu'	nehe'	nih'oo3oo       .
 Morphemes:           	noh	ne'nih'iisiini	                    ho3ton -oot	                    nuhu'	nii- 3oo- 3o'ohoen -ee	                hini- ito'ei -no	    ,   hei'- neniniixouhu -t	                    nuhu'	nehe'	nih'oo3oo       .
-Morphemes(English):  	and	that.was.how/what	                avenge,take.vengeance.on -3S/4  this	IMPERF- REDUP- crush.s.o.'s.hand -3S/4	3S- relative -OBV.PL	,   when.PERF- shake.hands.with.people -3.S	    this	this	White.person    .
+Morpheme Gloss (en): and	that.was.how/what	                avenge,take.vengeance.on -3S/4  this	IMPERF- REDUP- crush.s.o.'s.hand -3S/4	3S- relative -OBV.PL	,   when.PERF- shake.hands.with.people -3.S	    this	this	White.person    .
 Part of Speech:      	part	proclitic+prefix+prefix.rel+DET	    vta -infl	                    det	    prefix- prefix- vta.INCORP -infl	    infl- na.oblposs -infl	,   prefix- vai.SELFB -infl	                    det	    det	    na              .
-Translation(English):	and that's how he paid back this guy who was crushing his relatives' hands when he shook hands with him.
+Sentence Gloss (en): and that's how he paid back this guy who was crushing his relatives' hands when he shook hands with him.
 
 # sentence level graph:
 (s51h / ho3ton-00
@@ -2049,9 +2049,9 @@ s51n3: 8-8
 Index:               	1	2	3	4	5	6	7	8
 Words:               	he'ih'iiP	                    heenoo	    heeyowciiteini3i	            3owo3neniteeno	    he'ih'iiyihoonee                            ,   he'ih'ii3oo3o'ohoenee                               .
 Morphemes:           	he'ih'ii- -P	                heenoo	    heeyow- ciitei -ni3i	        3owo3nenitee -no	he'ih'ii- yihoon -ee	                    ,   he'ih'ii- 3oo- 3o'ohoen -ee                         .
-Morphemes(English):  	NARRPAST.IMPERF- -pause/break	oblig/rule	every.time- enter -4PL.ITER	    indian -OBV.PL	    NARRPAST.IMPERF- go.to.where.s.o..is -3S/4	,   NARRPAST.IMPERF- REDUP- crush.s.o.'s.hand -3S/4     .
+Morpheme Gloss (en): NARRPAST.IMPERF- -pause/break	oblig/rule	every.time- enter -4PL.ITER	    indian -OBV.PL	    NARRPAST.IMPERF- go.to.where.s.o..is -3S/4	,   NARRPAST.IMPERF- REDUP- crush.s.o.'s.hand -3S/4     .
 Part of Speech:      	prefix- -P	                    part	    proclitic- vai -infl	        na -infl	        prefix- vta -infl	                        ,   prefix- prefix- vta.INCORP -infl                    .
-Translation(English):	as a rule every and Indian entered, he went up to them he would crush their hands.
+Sentence Gloss (en): as a rule every and Indian entered, he went up to them he would crush their hands.
 
 # sentence level graph:
 (s52c / consecutive
@@ -2065,7 +2065,7 @@ Translation(English):	as a rule every and Indian entered, he went up to them he 
         :actor s52p
         :undergoer s52x2
         :aspect habitual)
-    :frequency (s52r / rate-entity-91 
+    :frequency (s52r / rate-entity-91
         :ARG4 (s52c2 / ciitei-00
             :actor (s52x2 / 3owo3nenitee
                 :refer-number plural)
@@ -2104,13 +2104,13 @@ s52p2: 5-5
 Index:               	1	2	3	4	5	6	7
 Words:               	hohkonee	sehno'uukohe'	                        nehe'	    tei'ox          ,	siine'3o'ohoeneit                       .
 Morphemes:           	hohkonee	seh- no'uukoh -e'	                    nehe'	    tei'ox	        ,   sii- ne'- 3o'ohoen -eit                 .
-Morphemes(English):  	finally	there(fr. here)- ride.to.place -4/3S	this	    Strong.Bear	    ,   INTENSE- then- crush.s.o.'s.hand -4/3S  .
+Morpheme Gloss (en): finally	there(fr. here)- ride.to.place -4/3S	this	    Strong.Bear	    ,   INTENSE- then- crush.s.o.'s.hand -4/3S  .
 Part of Speech:      	part	    prefix- vta - infl	                    det	        pers name	    ,   proclitic- prefix- vta.INCORP -infl     .
-Translation(English):	finally he rode back over here this strong bear then he really crushed his hand.
+Sentence Gloss (en): finally he rode back over here this strong bear then he really crushed his hand.
 
 # sentence level graph:
 (s53c / consecutive
-    :op1 (s53n3 / no'uukoh-00                                 
+    :op1 (s53n3 / no'uukoh-00
         :actor (s53p / person
         :name (s53n / name :op1 "tei'ox"
             :ARG1-of (s53m / mean-91
@@ -2158,9 +2158,9 @@ s53h: 1-1
 Index:               	1	2	3	4	5
 Words:               	noh	nee'eesise'	            nuhu'	hoo3itoo    .
 Morphemes:           	noh	nee'eesise -'	        nuhu'	hoo3itoo    .
-Morphemes(English):  	and	that.how(far)go -0S	    this	story       .
+Morpheme Gloss (en): and	that.how(far)go -0S	    this	story       .
 Part of Speech:      	part	vii.back -infl	        det	    ni          .
-Translation(English):	and thus it ends this story.
+Sentence Gloss (en): and thus it ends this story.
 
 # sentence level graph:
 (s54n / nee'eesise-00
