@@ -162,30 +162,51 @@ This section may include the following fields:
 
 ---
 
-### Language Coverage
+## Language Coverage
 
-This dataset includes annotated data from the following languages:
+This dataset includes annotated data from the following languages (ISO 639-3 codes):
 
-#### Unchanged from UMR 1.0 Release
+- Arapaho (arp)
+- Chinese (zho)
+- Czech (ces)
+- English (eng)
+- Italian (ita)
+- Kukama (cod)
+- Latin (lat)
+- Navajo (nav)
+- Portuguese (por)
+- Sanapaná (spn)
 
-- Arapaho
-- Kukama
-- Navajo
-- Sanapaná
+### Changelog
 
-#### Extended from UMR 1.0 Release
+#### UMR 3.0 Release
 
-- English
-- Chinese
-
-#### Added in UMR 2.0 Release
-
-- Czech
-- Latin
-
-#### Newly Added in UMR 3.0 Release
-
+- Added PUD dataset for Portuguese
 - More English and Chinese files
+- Format fixes in previously released data (now also in Kukama and Sanapaná)
+
+#### UMR 2.2 Release
+
+- Added parallel PUD datasets of Czech, English, and Italian
+- Numerous format fixes in English, Chinese, Arapaho, and Navajo
+- New annotated data in Chinese
+- Specific only to this release (not preserved in the subsequent one):
+  - Training-test splits as used in UMR Parsing Shared Task at DMR 2026
+  - System outputs on test data from the shared task
+
+#### UMR 2.1 Release
+
+- Improved annotation of Czech and Latin
+
+#### UMR 2.0 Release
+
+- Added Czech (converted from Prague Dependency Treebank) and Latin (manual annotation)
+- More English data (partial annotation, automatically converted from AMR)
+
+#### UMR 1.0 Release
+
+- Initial annotation of 6 languages: English, Chinese, Arapaho, Kukama, Navajo, Sanapaná
+
 ---
 
 ### Notes
