@@ -134,6 +134,7 @@ s1x9: 34-34
 		(author :full-affirmative s1x2)
 		(author :full-affirmative s1x15)))
 
+
 ################################################################################
 # meta-info
 # :: snt2
@@ -229,6 +230,7 @@ s2x9: 4-4
 		(author :full-affirmative s2x2)
 		(author :full-affirmative s2x5)))
 
+
 ################################################################################
 # meta-info
 # :: snt3
@@ -297,6 +299,7 @@ s3x9: 14-14
 	:modal ((root :modal author)
 		(author :full-affirmative s3x7)
 		(author :full-affirmative s3x2)))
+
 
 ################################################################################
 # meta-info
@@ -386,6 +389,7 @@ s4x9: 9-9
 		(author :full-affirmative s4x)
 		(author :full-affirmative s4i2)))
 
+
 ################################################################################
 # meta-info
 # :: snt5
@@ -443,6 +447,7 @@ s5x6: 22-22
 		(author :full-affirmative s5x5)
 		(author :full-affirmative s5x2)
 		(author :full-affirmative s5x)))
+
 
 ################################################################################
 # meta-info
@@ -537,6 +542,7 @@ s6x9: 8-8
 		(author :full-affirmative s6x18)
 		(author :full-affirmative s6x11)))
 
+
 ################################################################################
 # meta-info
 # :: snt7
@@ -603,6 +609,7 @@ s7x9: 6-6
 		(author :full-affirmative s7x4)
 		(author :full-affirmative s7x)))
 
+
 ################################################################################
 # meta-info
 # :: snt8
@@ -667,6 +674,7 @@ s8x5: 5-5
 		(author :full-affirmative s8x5)
 		(author :full-affirmative s8x)
 		(author :full-affirmative s8x16)))
+
 
 ################################################################################
 # meta-info
@@ -741,6 +749,7 @@ s9x5: 21-21
 		(author :full-affirmative s9l2)
 		(author :full-affirmative s9x)))
 
+
 ################################################################################
 # meta-info
 # :: snt10
@@ -798,6 +807,7 @@ s10x5: 14-14
 		(author :full-affirmative s10x10)
 		(author :full-affirmative s10x3)
 		(author :full-affirmative s10x)))
+
 
 ################################################################################
 # meta-info
@@ -916,6 +926,7 @@ s11x9: 40-40
 		(author :full-affirmative s11x16)
 		(author :full-affirmative s11x12)))
 
+
 ################################################################################
 # meta-info
 # :: snt12
@@ -958,6 +969,7 @@ s12x5: 9-9
 	:modal ((root :modal author)
 		(author :full-affirmative s12x3)
 		(author :full-affirmative s12x)))
+
 
 ################################################################################
 # meta-info
@@ -1021,6 +1033,7 @@ s13x9: 16-16
 		(author :full-affirmative s13x11)
 		(author :full-negative s13x8)))
 
+
 ################################################################################
 # meta-info
 # :: snt14
@@ -1049,6 +1062,7 @@ s14x3: 5-5
 	:temporal ((document-creation-time :before s14x))
 	:modal ((root :modal author)
 		(author :full-affirmative s14x)))
+
 
 ################################################################################
 # meta-info
@@ -1126,6 +1140,7 @@ s15x9: 16-16
 		(author :full-affirmative s15x12)
 		(author :full-affirmative s15x8)
 		(author :full-affirmative s15x14)))
+
 
 ################################################################################
 # meta-info
@@ -1205,6 +1220,7 @@ s16x8: 21-21
 		(author :full-affirmative s16x5)
 		(author :full-affirmative s16x)))
 
+
 ################################################################################
 # meta-info
 # :: snt17
@@ -1232,6 +1248,7 @@ s17x3: 3-3
 	:temporal ((document-creation-time :before s17x))
 	:modal ((root :modal author)
 		(author :full-affirmative s17x)))
+
 
 ################################################################################
 # meta-info
@@ -1312,6 +1329,7 @@ s18x9: 19-19
 		(author :full-affirmative s18x8)
 		(author :full-affirmative s18x6)))
 
+
 ################################################################################
 # meta-info
 # :: snt19
@@ -1377,6 +1395,7 @@ s19x9: 19-19
 		(author :full-affirmative s19x9)
 		(author :full-affirmative s19x7)))
 
+
 ################################################################################
 # meta-info
 # :: snt20
@@ -1428,6 +1447,7 @@ s20x9: 21-21
 		(author :full-affirmative s20x)
 		(author :full-affirmative s20x7)
 		(author :full-affirmative s20x9)))
+
 
 ################################################################################
 # meta-info
@@ -1493,6 +1513,7 @@ s21x8: 22-22
 		(author :full-affirmative s21x8)
 		(author :full-affirmative s21a)))
 
+
 ################################################################################
 # meta-info
 # :: snt22
@@ -1542,6 +1563,7 @@ s22x6: 15-15
 		(author :full-negative s22x6)
 		(author :full-affirmative s22x3)
 		(author :full-affirmative s22x)))
+
 
 ################################################################################
 # meta-info
@@ -1617,6 +1639,7 @@ s23x9: 18-18
 # document level annotation:
 (s23s0 / sentence
 	:modal ((root :modal author)))
+
 
 ################################################################################
 # meta-info
@@ -1702,6 +1725,7 @@ s24x6: 30-30
 	:modal ((root :modal author)
 		(author :full-affirmative s24x)))
 
+
 ################################################################################
 # meta-info
 # :: snt25
@@ -1735,6 +1759,7 @@ s25x7: 7-7
 	:temporal ((document-creation-time :before s25x))
 	:modal ((root :modal author)
 		(author :full-affirmative s25x)))
+
 
 ################################################################################
 # meta-info
@@ -1777,6 +1802,7 @@ s26x8: 11-11
 		(author :full-affirmative s26x3)
 		(author :full-affirmative s26x6)))
 
+
 ################################################################################
 # meta-info
 # :: snt27
@@ -1818,6 +1844,7 @@ s27x9: 10-10
 	:modal ((root :modal author)
 		(author :full-affirmative s27x10)
 		(author :full-affirmative s27x2)))
+
 
 ################################################################################
 # meta-info
@@ -1876,6 +1903,7 @@ s28x9: 16-16
 		(author :full-affirmative s28x12)
 		(author :full-affirmative s28x)
 		(author :full-affirmative s28x8)))
+
 
 ################################################################################
 # meta-info
@@ -1966,6 +1994,7 @@ s29x9: 18-18
 		(author :full-affirmative s29x9)
 		(author :full-affirmative s29x5)))
 
+
 ################################################################################
 # meta-info
 # :: snt30
@@ -2031,6 +2060,7 @@ s30x9: 22-22
 		(author :full-affirmative s30x)
 		(author :full-affirmative s30x9)
 		(author :full-affirmative s30x7)))
+
 
 ################################################################################
 # meta-info
@@ -2130,6 +2160,7 @@ s31x9: 21-21
 		(author :full-affirmative s31x6)
 		(author :full-affirmative s31x11)))
 
+
 ################################################################################
 # meta-info
 # :: snt32
@@ -2203,6 +2234,7 @@ s32x6: 2-2
 		(author :full-negative s32x3)
 		(author :full-negative s32x4)
 		(author :full-affirmative s32x6)))
+
 
 ################################################################################
 # meta-info
@@ -2327,6 +2359,7 @@ s33x9: 23-23
 		(author :full-negative s33x18)
 		(author :full-negative s33x21)))
 
+
 ################################################################################
 # meta-info
 # :: snt34
@@ -2386,6 +2419,7 @@ s34x7: 6-6
 		(author :full-affirmative s34x3)
 		(author :full-affirmative s34x4)
 		(author :full-affirmative s34x17)))
+
 
 ################################################################################
 # meta-info
@@ -2463,6 +2497,7 @@ s35x9: 24-24
 		(author :full-affirmative s35x)
 		(author :full-affirmative s35x6)))
 
+
 ################################################################################
 # meta-info
 # :: snt36
@@ -2508,4 +2543,5 @@ s36x8: 8-8
 		(author :full-affirmative s36x6)
 		(author :full-affirmative s36x4)
 		(author :full-affirmative s36x)))
+
 
