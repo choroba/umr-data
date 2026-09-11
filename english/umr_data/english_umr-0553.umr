@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.2 :: type = partial_conversion
 # :: snt2
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:1]
 
 # sentence level graph:
 (s2p / put-down-17
@@ -38,8 +38,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.3 :: type = partial_conversion
 # :: snt3
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:1]
 
 # sentence level graph:
 (s3p / pick-up-04
@@ -60,8 +60,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.4 :: type = partial_conversion
 # :: snt4
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s4p / put-down-17
@@ -82,8 +82,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.5 :: type = partial_conversion
 # :: snt5
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s5p / pick-up-04
@@ -104,8 +104,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.6 :: type = partial_conversion
 # :: snt6
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> so          we'll       need        room        for         a           5x7
+Index: 1           2  3     4    5    6   7 8
+Words: <Architect> so we'll need room for a 5x7
 
 # sentence level graph:
 (s6n / need-01
@@ -125,8 +125,8 @@ Words: <Architect> so          we'll       need        room        for         a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -147,8 +147,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.8 :: type = partial_conversion
 # :: snt8
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        yellow   block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a yellow block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s8p / pick-up-04
@@ -169,8 +169,8 @@ Words: [Builder picks    up       a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.9 :: type = partial_conversion
 # :: snt9
-Index: 1           2           3           4           5           6           7
-Words: <Architect> we'll       start       at          the         leftmost    end
+Index: 1           2     3     4  5   6        7
+Words: <Architect> we'll start at the leftmost end
 
 # sentence level graph:
 (s9s / start-01
@@ -192,8 +192,8 @@ Words: <Architect> we'll       start       at          the         leftmost    e
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.10 :: type = partial_conversion
 # :: snt10
-Index: 1           2           3
-Words: <Architect> in          red
+Index: 1           2  3
+Words: <Architect> in red
 
 # sentence level graph:
 (s10h / have-color-91
@@ -207,8 +207,8 @@ Words: <Architect> in          red
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> place       a           vertical    column      of          3           red
+Index: 1           2     3 4        5      6  7 8
+Words: <Architect> place a vertical column of 3 red
 
 # sentence level graph:
 (s11p / place-01
@@ -230,8 +230,8 @@ Words: <Architect> place       a           vertical    column      of          3
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:1 Z:0]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -252,8 +252,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:2 Z:0]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -274,8 +274,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.14 :: type = partial_conversion
 # :: snt14
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:3 Z:0]
 
 # sentence level graph:
 (s14p / put-down-17
@@ -296,8 +296,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.15 :: type = partial_conversion
 # :: snt15
-Index: 1           2           3           4           5           6
-Words: <Architect> now         break       the         bottom      two
+Index: 1           2   3     4   5      6
+Words: <Architect> now break the bottom two
 
 # sentence level graph:
 (s15b / break-01
@@ -318,8 +318,8 @@ Words: <Architect> now         break       the         bottom      two
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:1 Z:0]
 
 # sentence level graph:
 (s16p / pick-up-04
@@ -340,8 +340,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:2 Z:0]
 
 # sentence level graph:
 (s17p / pick-up-04
@@ -362,8 +362,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.18 :: type = partial_conversion
 # :: snt18
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> let's       switch      faces,      so          go          to          the         left        of          the         red         block
+Index: 1           2     3      4      5  6  7  8   9    10 11  12  13
+Words: <Architect> let's switch faces, so go to the left of the red block
 
 # sentence level graph:
 (s18c / cause-01
@@ -393,8 +393,8 @@ Words: <Architect> let's       switch      faces,      so          go          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.19 :: type = partial_conversion
 # :: snt19
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> this        is          a           diamond     shape       that's      4x4         in          terms       of          square
+Index: 1           2    3  4 5       6     7      8   9  10    11 12
+Words: <Architect> this is a diamond shape that's 4x4 in terms of square
 
 # sentence level graph:
 (s19t / thing
@@ -415,8 +415,8 @@ Words: <Architect> this        is          a           diamond     shape       t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.20 :: type = partial_conversion
 # :: snt20
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18
-Words: <Architect> so          place       a           red         on          the         ground      two         to          the         left        of          the         one         in          the         air
+Index: 1           2  3     4 5   6  7   8      9   10 11  12   13 14  15  16 17  18
+Words: <Architect> so place a red on the ground two to the left of the one in the air
 
 # sentence level graph:
 (s20c / cause-01
@@ -446,8 +446,8 @@ Words: <Architect> so          place       a           red         on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.21 :: type = partial_conversion
 # :: snt21
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:1      Z:2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:1 Z:2]
 
 # sentence level graph:
 (s21p / put-down-17
@@ -468,8 +468,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.22 :: type = partial_conversion
 # :: snt22
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> now         connect     those       two         reds        with        one         between     them
+Index: 1           2   3       4     5   6    7    8   9       10
+Words: <Architect> now connect those two reds with one between them
 
 # sentence level graph:
 (s22c / connect-01
@@ -492,8 +492,8 @@ Words: <Architect> now         connect     those       two         reds        w
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:1      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:1 Z:1]
 
 # sentence level graph:
 (s23p / put-down-17
@@ -514,8 +514,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:2      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:2 Z:1]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -536,8 +536,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:1      Z:1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:1 Z:1]
 
 # sentence level graph:
 (s25p / pick-up-04
@@ -558,8 +558,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.26 :: type = partial_conversion
 # :: snt26
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> now         do          another     diagonal    of          two         reds        to          the         left        of          the         bottom      block
+Index: 1           2   3  4       5        6  7   8    9  10  11   12 13  14     15
+Words: <Architect> now do another diagonal of two reds to the left of the bottom block
 
 # sentence level graph:
 (s26d / do-02
@@ -588,8 +588,8 @@ Words: <Architect> now         do          another     diagonal    of          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:1      Z:3]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:1 Z:3]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -610,8 +610,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:2      Z:3]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:2 Z:3]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -632,8 +632,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.29 :: type = partial_conversion
 # :: snt29
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:2      Z:4]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:2 Z:4]
 
 # sentence level graph:
 (s29p / put-down-17
@@ -654,8 +654,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:3      Z:4]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:3 Z:4]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -676,8 +676,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.31 :: type = partial_conversion
 # :: snt31
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:2      Z:4]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:2 Z:4]
 
 # sentence level graph:
 (s31p / pick-up-04
@@ -698,8 +698,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:1      Z:3]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:1 Z:3]
 
 # sentence level graph:
 (s32p / pick-up-04
@@ -720,8 +720,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.33 :: type = partial_conversion
 # :: snt33
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> make        a           diagonal    of          two         reds        to          the         left        of          the         rightmost   red
+Index: 1           2    3 4        5  6   7    8  9   10   11 12  13        14
+Words: <Architect> make a diagonal of two reds to the left of the rightmost red
 
 # sentence level graph:
 (s33m / make-01
@@ -754,8 +754,8 @@ Words: <Architect> make        a           diagonal    of          two         r
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.34 :: type = partial_conversion
 # :: snt34
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:3      Z:-1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:3 Z:-1]
 
 # sentence level graph:
 (s34p / put-down-17
@@ -776,8 +776,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:-1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:-1]
 
 # sentence level graph:
 (s35p / put-down-17
@@ -798,8 +798,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:3      Z:-1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:3 Z:-1]
 
 # sentence level graph:
 (s36p / pick-up-04
@@ -820,8 +820,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:-2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:-2]
 
 # sentence level graph:
 (s37p / put-down-17
@@ -842,8 +842,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.38 :: type = partial_conversion
 # :: snt38
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:5      Z:-2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:5 Z:-2]
 
 # sentence level graph:
 (s38p / put-down-17
@@ -864,8 +864,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.39 :: type = partial_conversion
 # :: snt39
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:4      Z:-2]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:4 Z:-2]
 
 # sentence level graph:
 (s39p / pick-up-04
@@ -886,8 +886,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.40 :: type = partial_conversion
 # :: snt40
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:4      Z:-1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:4 Z:-1]
 
 # sentence level graph:
 (s40p / pick-up-04
@@ -908,8 +908,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:5      Z:-2]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:5 Z:-2]
 
 # sentence level graph:
 (s41p / pick-up-04
@@ -930,8 +930,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.42 :: type = partial_conversion
 # :: snt42
-Index: 1           2           3           4
-Words: <Architect> the         left        please
+Index: 1           2   3    4
+Words: <Architect> the left please
 
 # sentence level graph:
 (s42h / have-place-91
@@ -950,8 +950,8 @@ Words: <Architect> the         left        please
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.43 :: type = partial_conversion
 # :: snt43
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:3      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:3 Z:1]
 
 # sentence level graph:
 (s43p / put-down-17
@@ -972,8 +972,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:1]
 
 # sentence level graph:
 (s44p / put-down-17
@@ -994,8 +994,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.45 :: type = partial_conversion
 # :: snt45
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:3      Z:1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:3 Z:1]
 
 # sentence level graph:
 (s45p / pick-up-04
@@ -1016,8 +1016,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.46 :: type = partial_conversion
 # :: snt46
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:2]
 
 # sentence level graph:
 (s46p / put-down-17
@@ -1038,8 +1038,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.47 :: type = partial_conversion
 # :: snt47
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:5      Z:2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:5 Z:2]
 
 # sentence level graph:
 (s47p / put-down-17
@@ -1060,8 +1060,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.48 :: type = partial_conversion
 # :: snt48
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:4      Z:2]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:4 Z:2]
 
 # sentence level graph:
 (s48p / pick-up-04
@@ -1082,8 +1082,8 @@ Words: [Builder picks    up       a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.49 :: type = partial_conversion
 # :: snt49
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:4]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:4]
 
 # sentence level graph:
 (s49p / put-down-17
@@ -1104,8 +1104,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.50 :: type = partial_conversion
 # :: snt50
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:4      Z:3]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:4 Z:3]
 
 # sentence level graph:
 (s50p / put-down-17
@@ -1126,8 +1126,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.51 :: type = partial_conversion
 # :: snt51
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:4      Y:4      Z:4]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:4 Y:4 Z:4]
 
 # sentence level graph:
 (s51p / pick-up-04
@@ -1162,8 +1162,8 @@ Words: <Architect> great!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.53 :: type = partial_conversion
 # :: snt53
-Index: 1           2           3           4           5
-Words: <Architect> now         let's       change      faces
+Index: 1           2   3     4      5
+Words: <Architect> now let's change faces
 
 # sentence level graph:
 (s53c / change-01
@@ -1185,8 +1185,8 @@ Words: <Architect> now         let's       change      faces
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.54 :: type = partial_conversion
 # :: snt54
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> please      go          to          the         right       of          the         structure
+Index: 1           2      3  4  5   6     7  8   9
+Words: <Architect> please go to the right of the structure
 
 # sentence level graph:
 (s54g / go-02
@@ -1207,8 +1207,8 @@ Words: <Architect> please      go          to          the         right       o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.55 :: type = partial_conversion
 # :: snt55
-Index: 1           2           3           4           5
-Words: <Architect> we'll       now         do          orange
+Index: 1           2     3   4  5
+Words: <Architect> we'll now do orange
 
 # sentence level graph:
 (s55d / do-02
@@ -1226,8 +1226,8 @@ Words: <Architect> we'll       now         do          orange
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.56 :: type = partial_conversion
 # :: snt56
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> place       on          orange      to          the         right       of          the         red         closest     to          you
+Index: 1           2     3  4      5  6   7     8  9   10  11      12 13
+Words: <Architect> place on orange to the right of the red closest to you
 
 # sentence level graph:
 (s56p / place-01
@@ -1255,8 +1255,8 @@ Words: <Architect> place       on          orange      to          the         r
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.57 :: type = partial_conversion
 # :: snt57
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:3 Z:0]
 
 # sentence level graph:
 (s57p / put-down-17
@@ -1277,8 +1277,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.58 :: type = partial_conversion
 # :: snt58
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16
-Words: <Architect> now         place       another     orange      under       and         to          the         right       of          the         one         you         just        placed
+Index: 1           2   3     4       5      6     7   8  9   10    11 12  13  14  15   16
+Words: <Architect> now place another orange under and to the right of the one you just placed
 
 # sentence level graph:
 (s58p / place-01
@@ -1309,8 +1309,8 @@ Words: <Architect> now         place       another     orange      under       a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.59 :: type = partial_conversion
 # :: snt59
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s59p / put-down-17
@@ -1331,8 +1331,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.60 :: type = partial_conversion
 # :: snt60
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:3 Z:0]
 
 # sentence level graph:
 (s60p / put-down-17
@@ -1353,8 +1353,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.61 :: type = partial_conversion
 # :: snt61
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18          19          20
-Words: <Architect> sorry       i           meant       to          place       one         orange      block       diagonally  down        and         to          the         right       of          the         orange      you         placed
+Index: 1           2     3 4     5  6     7   8      9     10         11   12  13 14  15    16 17  18     19  20
+Words: <Architect> sorry i meant to place one orange block diagonally down and to the right of the orange you placed
 
 # sentence level graph:
 (s61a / and
@@ -1390,8 +1390,8 @@ Words: <Architect> sorry       i           meant       to          place       o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.62 :: type = partial_conversion
 # :: snt62
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:2 Z:0]
 
 # sentence level graph:
 (s62p / put-down-17
@@ -1412,8 +1412,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.63 :: type = partial_conversion
 # :: snt63
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:3      Y:2      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s63p / pick-up-04
@@ -1434,8 +1434,8 @@ Words: [Builder picks    up       a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.64 :: type = partial_conversion
 # :: snt64
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:2      Y:3      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:2 Y:3 Z:0]
 
 # sentence level graph:
 (s64p / pick-up-04
@@ -1456,8 +1456,8 @@ Words: [Builder picks    up       a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.65 :: type = partial_conversion
 # :: snt65
-Index: 1           2           3
-Words: <Architect> great!      (:
+Index: 1           2      3
+Words: <Architect> great! (:
 
 # sentence level graph:
 (s65g / great-01
@@ -1472,8 +1472,8 @@ Words: <Architect> great!      (:
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.66 :: type = partial_conversion
 # :: snt66
-Index: 1         2         3         4         5         6         7         8         9         10        11
-Words: <Builder> does      the       orange    shape     look      similar   to        the       red       one?
+Index: 1         2    3   4      5     6    7       8  9   10  11
+Words: <Builder> does the orange shape look similar to the red one?
 
 # sentence level graph:
 (s66r / resemble-91
@@ -1506,8 +1506,8 @@ Words: <Architect> yes
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.68 :: type = partial_conversion
 # :: snt68
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s68p / put-down-17
@@ -1528,8 +1528,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.69 :: type = partial_conversion
 # :: snt69
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s69p / put-down-17
@@ -1550,8 +1550,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.70 :: type = partial_conversion
 # :: snt70
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s70p / put-down-17
@@ -1572,8 +1572,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.71 :: type = partial_conversion
 # :: snt71
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s71p / pick-up-04
@@ -1594,8 +1594,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.72 :: type = partial_conversion
 # :: snt72
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s72p / put-down-17
@@ -1616,8 +1616,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.73 :: type = partial_conversion
 # :: snt73
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s73p / put-down-17
@@ -1638,8 +1638,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.74 :: type = partial_conversion
 # :: snt74
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s74p / pick-up-04
@@ -1660,8 +1660,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.75 :: type = partial_conversion
 # :: snt75
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:4      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:4 Z:0]
 
 # sentence level graph:
 (s75p / put-down-17
@@ -1682,8 +1682,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.76 :: type = partial_conversion
 # :: snt76
-Index: 1           2           3           4
-Words: <Architect> o           wait        sorry
+Index: 1           2 3    4
+Words: <Architect> o wait sorry
 
 # sentence level graph:
 (s76a / and
@@ -1702,8 +1702,8 @@ Words: <Architect> o           wait        sorry
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.77 :: type = partial_conversion
 # :: snt77
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:4      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:4 Z:0]
 
 # sentence level graph:
 (s77p / put-down-17
@@ -1724,8 +1724,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.78 :: type = partial_conversion
 # :: snt78
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:3      Y:4      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:3 Y:4 Z:0]
 
 # sentence level graph:
 (s78p / pick-up-04
@@ -1746,8 +1746,8 @@ Words: [Builder picks    up       a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.79 :: type = partial_conversion
 # :: snt79
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:2      Y:4      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:2 Y:4 Z:0]
 
 # sentence level graph:
 (s79p / pick-up-04
@@ -1768,8 +1768,8 @@ Words: [Builder picks    up       a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.80 :: type = partial_conversion
 # :: snt80
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s80p / pick-up-04
@@ -1790,8 +1790,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.81 :: type = partial_conversion
 # :: snt81
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s81p / pick-up-04
@@ -1812,8 +1812,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.82 :: type = partial_conversion
 # :: snt82
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:1      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s82p / pick-up-04
@@ -1834,8 +1834,8 @@ Words: [Builder picks    up       a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.83 :: type = partial_conversion
 # :: snt83
-Index: 1           2           3           4           5
-Words: <Architect> it's        just        that        diagonal
+Index: 1           2    3    4    5
+Words: <Architect> it's just that diagonal
 
 # sentence level graph:
 (s83t / thing
@@ -1853,8 +1853,8 @@ Words: <Architect> it's        just        that        diagonal
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.84 :: type = partial_conversion
 # :: snt84
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s84p / put-down-17
@@ -1875,8 +1875,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.85 :: type = partial_conversion
 # :: snt85
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:2 Z:0]
 
 # sentence level graph:
 (s85p / put-down-17
@@ -1897,8 +1897,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.86 :: type = partial_conversion
 # :: snt86
-Index: 1           2           3           4           5           6
-Words: <Architect> a           diagonal    of          3           orange
+Index: 1           2 3        4  5 6
+Words: <Architect> a diagonal of 3 orange
 
 # sentence level graph:
 (s86t / thing
@@ -1915,8 +1915,8 @@ Words: <Architect> a           diagonal    of          3           orange
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.87 :: type = partial_conversion
 # :: snt87
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:3      Y:2      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s87p / pick-up-04
@@ -1937,8 +1937,8 @@ Words: [Builder picks    up       a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.88 :: type = partial_conversion
 # :: snt88
-Index: 1         2         3         4         5         6         7         8         9         10        11
-Words: <Builder> ok        nevermind lets      just      go        from      where     I         am        sorry
+Index: 1         2  3         4    5    6  7    8     9 10 11
+Words: <Builder> ok nevermind lets just go from where I am sorry
 
 # sentence level graph:
 (s88a / and
@@ -1965,8 +1965,8 @@ Words: <Builder> ok        nevermind lets      just      go        from      whe
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.89 :: type = partial_conversion
 # :: snt89
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> just        place       one         orange      on          the         ground      to          the         right       of          what        you         built
+Index: 1           2    3     4   5      6  7   8      9  10  11    12 13   14  15
+Words: <Architect> just place one orange on the ground to the right of what you built
 
 # sentence level graph:
 (s89p / place-01
@@ -1996,8 +1996,8 @@ Words: <Architect> just        place       one         orange      on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.90 :: type = partial_conversion
 # :: snt90
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s90p / put-down-17
@@ -2032,8 +2032,8 @@ Words: <Architect> great!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.92 :: type = partial_conversion
 # :: snt92
-Index: 1         2         3         4         5         6         7         8         9         10        11        12        13        14
-Words: <Builder> so        now       you'll    copy      that      on        the       opposite  face      from      where     you       are
+Index: 1         2  3   4      5    6    7  8   9        10   11   12    13  14
+Words: <Builder> so now you'll copy that on the opposite face from where you are
 
 # sentence level graph:
 (s92c / copy-01
@@ -2057,8 +2057,8 @@ Words: <Builder> so        now       you'll    copy      that      on        the
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.93 :: type = partial_conversion
 # :: snt93
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:3      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:3 Z:4]
 
 # sentence level graph:
 (s93p / put-down-17
@@ -2079,8 +2079,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.94 :: type = partial_conversion
 # :: snt94
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:1 Z:4]
 
 # sentence level graph:
 (s94p / put-down-17
@@ -2101,8 +2101,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.95 :: type = partial_conversion
 # :: snt95
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:1 Z:4]
 
 # sentence level graph:
 (s95p / put-down-17
@@ -2123,8 +2123,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.96 :: type = partial_conversion
 # :: snt96
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:2      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:2 Z:4]
 
 # sentence level graph:
 (s96p / put-down-17
@@ -2145,8 +2145,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.97 :: type = partial_conversion
 # :: snt97
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:2      Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:2 Y:1 Z:4]
 
 # sentence level graph:
 (s97p / pick-up-04
@@ -2167,8 +2167,8 @@ Words: [Builder picks    up       a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.98 :: type = partial_conversion
 # :: snt98
-Index: 1           2           3           4           5
-Words: <Architect> now         we'll       do          yellow
+Index: 1           2   3     4  5
+Words: <Architect> now we'll do yellow
 
 # sentence level graph:
 (s98d / do-02
@@ -2186,8 +2186,8 @@ Words: <Architect> now         we'll       do          yellow
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.99 :: type = partial_conversion
 # :: snt99
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> this        time        it'll       look        like        red         but         without     the         3           bottom      blocks
+Index: 1           2    3    4     5    6    7   8   9       10  11 12     13
+Words: <Architect> this time it'll look like red but without the 3  bottom blocks
 
 # sentence level graph:
 (s99l / look-02
@@ -2213,8 +2213,8 @@ Words: <Architect> this        time        it'll       look        like        r
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.100 :: type = partial_conversion
 # :: snt100
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> and         it'll       be          laying      on          the         ground
+Index: 1           2   3     4  5      6  7   8
+Words: <Architect> and it'll be laying on the ground
 
 # sentence level graph:
 (s100a / and
@@ -2236,8 +2236,8 @@ Words: <Architect> and         it'll       be          laying      on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.101 :: type = partial_conversion
 # :: snt101
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s101p / put-down-17
@@ -2258,8 +2258,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.102 :: type = partial_conversion
 # :: snt102
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        yellow   block    at       X:0      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a yellow block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s102p / pick-up-04
@@ -2280,8 +2280,8 @@ Words: [Builder picks    up       a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.103 :: type = partial_conversion
 # :: snt103
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> so          one         yellow      attached    to          each        orange      on          the         ground
+Index: 1           2  3   4      5        6  7    8      9  10  11
+Words: <Architect> so one yellow attached to each orange on the ground
 
 # sentence level graph:
 (s103c / cause-01
@@ -2316,8 +2316,8 @@ Words: <Architect> so          one         yellow      attached    to          e
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.104 :: type = partial_conversion
 # :: snt104
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s104p / put-down-17
@@ -2338,8 +2338,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.105 :: type = partial_conversion
 # :: snt105
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s105p / put-down-17
@@ -2360,8 +2360,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.106 :: type = partial_conversion
 # :: snt106
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:1      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:1 Z:3]
 
 # sentence level graph:
 (s106p / put-down-17
@@ -2382,8 +2382,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.107 :: type = partial_conversion
 # :: snt107
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-2     Y:1      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-2 Y:1 Z:2]
 
 # sentence level graph:
 (s107p / put-down-17
@@ -2404,8 +2404,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.108 :: type = partial_conversion
 # :: snt108
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:1 Z:1]
 
 # sentence level graph:
 (s108p / put-down-17
@@ -2440,8 +2440,8 @@ Words: <Architect> great!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.110 :: type = partial_conversion
 # :: snt110
-Index: 1           2           3
-Words: <Architect> that's      it
+Index: 1           2      3
+Words: <Architect> that's it
 
 # sentence level graph:
 (s110b / be-it-08
@@ -2455,8 +2455,8 @@ Words: <Architect> that's      it
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.111 :: type = partial_conversion
 # :: snt111
-Index: 1           2           3           4           5
-Words: <Architect> sorry       for         the         confusion
+Index: 1           2     3   4   5
+Words: <Architect> sorry for the confusion
 
 # sentence level graph:
 (s111s / sorry-01
@@ -2470,8 +2470,8 @@ Words: <Architect> sorry       for         the         confusion
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-chains-B44-A20_1280.112 :: type = partial_conversion
 # :: snt112
-Index: 1         2         3         4         5
-Words: <Builder> nah       it        was       me
+Index: 1         2   3  4   5
+Words: <Builder> nah it was me
 
 # sentence level graph:
 (s112a / and

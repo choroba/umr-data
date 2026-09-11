@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.2 :: type = partial_conversion
 # :: snt2
-Index: 1         2         3         4         5
-Words: <Builder> what      should    i         do?
+Index: 1         2    3      4 5
+Words: <Builder> what should i do?
 
 # sentence level graph:
 (s2d / do-02
@@ -50,8 +50,8 @@ Words: <Architect> ready
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4           5           6
-Words: <Architect> We          are         making      an          L
+Index: 1           2  3   4      5  6
+Words: <Architect> We are making an L
 
 # sentence level graph:
 (s4m / make-01
@@ -70,8 +70,8 @@ Words: <Architect> We          are         making      an          L
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.5 :: type = partial_conversion
 # :: snt5
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> it          is          orange      and         made        of          3           blocks
+Index: 1           2  3  4      5   6    7  8 9
+Words: <Architect> it is orange and made of 3 blocks
 
 # sentence level graph:
 (s5a / and
@@ -93,8 +93,8 @@ Words: <Architect> it          is          orange      and         made        o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.6 :: type = partial_conversion
 # :: snt6
-Index: 1         2         3         4         5         6
-Words: <Builder> how       big       and       what      color
+Index: 1         2   3   4   5    6
+Words: <Builder> how big and what color
 
 # sentence level graph:
 (s6a / and
@@ -141,8 +141,8 @@ Words: <Architect> O
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.9 :: type = partial_conversion
 # :: snt9
-Index: 1         2         3         4         5         6         7         8
-Words: <Builder> how       many      across    and       how       many      tall
+Index: 1         2   3    4      5   6   7    8
+Words: <Builder> how many across and how many tall
 
 # sentence level graph:
 (s9a / and
@@ -162,8 +162,8 @@ Words: <Builder> how       many      across    and       how       many      tal
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.10 :: type = partial_conversion
 # :: snt10
-Index: 1           2           3           4
-Words: <Architect> 3           total       blocks
+Index: 1           2 3     4
+Words: <Architect> 3 total blocks
 
 # sentence level graph:
 (s10b / block
@@ -178,8 +178,8 @@ Words: <Architect> 3           total       blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3
-Words: <Architect> 1           tall
+Index: 1           2 3
+Words: <Architect> 1 tall
 
 # sentence level graph:
 (s11t / tall-01
@@ -196,8 +196,8 @@ Words: <Architect> 1           tall
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -218,8 +218,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -240,8 +240,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.14 :: type = partial_conversion
 # :: snt14
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s14p / put-down-17
@@ -276,8 +276,8 @@ Words: <Architect> right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.16 :: type = partial_conversion
 # :: snt16
-Index: 1         2         3
-Words: <Builder> that      good
+Index: 1         2    3
+Words: <Builder> that good
 
 # sentence level graph:
 (s16g / good-02
@@ -291,8 +291,8 @@ Words: <Builder> that      good
 ################################################################################
 # meta-info :: sent_id = minecraft-4-9-orange-flat-original-L-B42-A12_1265.17 :: type = partial_conversion
 # :: snt17
-Index: 1         2         3
-Words: <Builder> thats     all?
+Index: 1         2     3
+Words: <Builder> thats all?
 
 # sentence level graph:
 (s17b / be-it-08

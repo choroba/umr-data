@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.2 :: type = partial_conversion
 # :: snt2
-Index: 1          2          3          4          5          6
-Words: <Builder>  hello      architect, my         only       friend
+Index: 1         2     3          4  5    6
+Words: <Builder> hello architect, my only friend
 
 # sentence level graph:
 (s2s / say-01
@@ -38,8 +38,8 @@ Words: <Builder>  hello      architect, my         only       friend
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.3 :: type = partial_conversion
 # :: snt3
-Index: 1           2           3
-Words: <Architect> what's      shakin
+Index: 1           2      3
+Words: <Architect> what's shakin
 
 # sentence level graph:
 (s3e / event
@@ -53,8 +53,8 @@ Words: <Architect> what's      shakin
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.4 :: type = partial_conversion
 # :: snt4
-Index: 1         2         3         4         5         6
-Words: <Builder> i         am        ready     to        build
+Index: 1         2 3  4     5  6
+Words: <Builder> i am ready to build
 
 # sentence level graph:
 (s4r / ready-02
@@ -72,8 +72,8 @@ Words: <Builder> i         am        ready     to        build
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.5 :: type = partial_conversion
 # :: snt5
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> ok          place       two         blue        blocks      on          the         ground
+Index: 1           2  3     4   5    6      7  8   9
+Words: <Architect> ok place two blue blocks on the ground
 
 # sentence level graph:
 (s5a / and
@@ -101,8 +101,8 @@ Words: <Architect> ok          place       two         blue        blocks      o
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.6 :: type = partial_conversion
 # :: snt6
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s6p / put-down-17
@@ -123,8 +123,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -145,8 +145,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.8 :: type = partial_conversion
 # :: snt8
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> cool,       now         put         two         more        blue        blocks      on          top         of          those
+Index: 1           2     3   4   5   6    7    8      9  10  11 12
+Words: <Architect> cool, now put two more blue blocks on top of those
 
 # sentence level graph:
 (s8a / and
@@ -177,8 +177,8 @@ Words: <Architect> cool,       now         put         two         more        b
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.9 :: type = partial_conversion
 # :: snt9
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s9p / put-down-17
@@ -199,8 +199,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.10 :: type = partial_conversion
 # :: snt10
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-1     Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s10p / put-down-17
@@ -221,8 +221,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> Now         attach      two         more        blue        blocks      to          the         top         two         parallel    to          the         ground
+Index: 1           2   3      4   5    6    7      8  9   10  11  12       13 14  15
+Words: <Architect> Now attach two more blue blocks to the top two parallel to the ground
 
 # sentence level graph:
 (s11a / attach-01
@@ -253,8 +253,8 @@ Words: <Architect> Now         attach      two         more        blue        b
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-2     Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -275,8 +275,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -297,8 +297,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.14 :: type = partial_conversion
 # :: snt14
-Index: 1         2         3
-Words: <Builder> like      so?
+Index: 1         2    3
+Words: <Builder> like so?
 
 # sentence level graph:
 (s14r / resemble-91
@@ -314,8 +314,8 @@ Words: <Builder> like      so?
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.15 :: type = partial_conversion
 # :: snt15
-Index: 1           2           3           4           5           6           7
-Words: <Architect> Move        them        to          the         longer      side
+Index: 1           2    3    4  5   6      7
+Words: <Architect> Move them to the longer side
 
 # sentence level graph:
 (s15m / move-01
@@ -341,8 +341,8 @@ Words: <Architect> Move        them        to          the         longer      s
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:-2     Y:2      Z:0]
+Index: 1        2     3  4 5    6     7  8    9   10
+Words: [Builder picks up a blue block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s16p / pick-up-04
@@ -363,8 +363,8 @@ Words: [Builder picks    up       a        blue     block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:2      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s17p / pick-up-04
@@ -385,8 +385,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.18 :: type = partial_conversion
 # :: snt18
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:2      Z:1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:2 Z:1]
 
 # sentence level graph:
 (s18p / put-down-17
@@ -407,8 +407,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.19 :: type = partial_conversion
 # :: snt19
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-1     Y:2      Z:1]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-1 Y:2 Z:1]
 
 # sentence level graph:
 (s19p / put-down-17
@@ -429,8 +429,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.20 :: type = partial_conversion
 # :: snt20
-Index: 1           2           3
-Words: <Architect> yeah        great
+Index: 1           2    3
+Words: <Architect> yeah great
 
 # sentence level graph:
 (s20c / confirm-01
@@ -444,8 +444,8 @@ Words: <Architect> yeah        great
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.21 :: type = partial_conversion
 # :: snt21
-Index: 1         2         3
-Words: <Builder> like      that?
+Index: 1         2    3
+Words: <Builder> like that?
 
 # sentence level graph:
 (s21r / resemble-91
@@ -475,8 +475,8 @@ Words: <Builder> ok
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.23 :: type = partial_conversion
 # :: snt23
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> On          top         of          the         blocks      you         just        placed,     put         down        two         red         blocks
+Index: 1           2  3   4  5   6      7   8    9       10  11   12  13  14
+Words: <Architect> On top of the blocks you just placed, put down two red blocks
 
 # sentence level graph:
 (s23p / put-down-17
@@ -506,8 +506,8 @@ Words: <Architect> On          top         of          the         blocks      y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:2      Z:2]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:2 Z:2]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -528,8 +528,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:2      Z:2]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:2 Z:2]
 
 # sentence level graph:
 (s25p / pick-up-04
@@ -550,8 +550,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:3      Z:1]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:3 Z:1]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -572,8 +572,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:3      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:3 Z:1]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -608,8 +608,8 @@ Words: <Architect> great
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.29 :: type = partial_conversion
 # :: snt29
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18
-Words: <Architect> Now         place       two         more        red         blocks      on          the         same        horizontal  plane       that        jut         out         to          the         left
+Index: 1           2   3     4   5    6   7      8  9   10   11         12    13   14  15  16 17  18
+Words: <Architect> Now place two more red blocks on the same horizontal plane that jut out to the left
 
 # sentence level graph:
 (s29p / place-01
@@ -642,8 +642,8 @@ Words: <Architect> Now         place       two         more        red         b
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:3      Z:2]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:3 Z:2]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -664,8 +664,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.31 :: type = partial_conversion
 # :: snt31
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:3      Z:2]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:3 Z:2]
 
 # sentence level graph:
 (s31p / put-down-17
@@ -686,8 +686,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.32 :: type = partial_conversion
 # :: snt32
-Index: 1         2         3
-Words: <Builder> like      that?
+Index: 1         2    3
+Words: <Builder> like that?
 
 # sentence level graph:
 (s32r / resemble-91
@@ -717,8 +717,8 @@ Words: <Architect> perfect
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.34 :: type = partial_conversion
 # :: snt34
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> On          top         of          the         ones        you         just        placed      add         two         purple      blocks
+Index: 1           2  3   4  5   6    7   8    9      10  11  12     13
+Words: <Architect> On top of the ones you just placed add two purple blocks
 
 # sentence level graph:
 (s34a / add-02
@@ -748,8 +748,8 @@ Words: <Architect> On          top         of          the         ones        y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:-1     Y:4      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a purple block at X:-1 Y:4 Z:2]
 
 # sentence level graph:
 (s35p / put-down-17
@@ -770,8 +770,8 @@ Words: [Builder puts     down     a        purple   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:0      Y:4      Z:2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:0 Y:4 Z:2]
 
 # sentence level graph:
 (s36p / put-down-17
@@ -792,8 +792,8 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.37 :: type = partial_conversion
 # :: snt37
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> then        do          the         same        thing       you         did         for         the         red         blocks
+Index: 1           2    3  4   5    6     7   8   9   10  11  12
+Words: <Architect> then do the same thing you did for the red blocks
 
 # sentence level graph:
 (s37d / do-02
@@ -819,8 +819,8 @@ Words: <Architect> then        do          the         same        thing       y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.38 :: type = partial_conversion
 # :: snt38
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:-1     Y:4      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a purple block at X:-1 Y:4 Z:3]
 
 # sentence level graph:
 (s38p / put-down-17
@@ -841,8 +841,8 @@ Words: [Builder puts     down     a        purple   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.39 :: type = partial_conversion
 # :: snt39
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:0      Y:4      Z:3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:0 Y:4 Z:3]
 
 # sentence level graph:
 (s39p / put-down-17
@@ -863,8 +863,8 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.40 :: type = partial_conversion
 # :: snt40
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> and         put         two         purple      blocks      on          top         of          those
+Index: 1           2   3   4   5      6      7  8   9  10
+Words: <Architect> and put two purple blocks on top of those
 
 # sentence level graph:
 (s40a / and
@@ -893,8 +893,8 @@ Words: <Architect> and         put         two         purple      blocks      o
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:-1     Y:5      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a purple block at X:-1 Y:5 Z:3]
 
 # sentence level graph:
 (s41p / put-down-17
@@ -915,8 +915,8 @@ Words: [Builder puts     down     a        purple   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.42 :: type = partial_conversion
 # :: snt42
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:0      Y:5      Z:3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:0 Y:5 Z:3]
 
 # sentence level graph:
 (s42p / put-down-17
@@ -937,8 +937,8 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.43 :: type = partial_conversion
 # :: snt43
-Index: 1         2         3
-Words: <Builder> like      that?
+Index: 1         2    3
+Words: <Builder> like that?
 
 # sentence level graph:
 (s43r / resemble-91
@@ -954,8 +954,8 @@ Words: <Builder> like      that?
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-diagonal-zigzag_1112.44 :: type = partial_conversion
 # :: snt44
-Index: 1           2           3
-Words: <Architect> yep         nice
+Index: 1           2   3
+Words: <Architect> yep nice
 
 # sentence level graph:
 (s44c / confirm-01

@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.2 :: type = partial_conversion
 # :: snt2
-Index: 1         2         3
-Words: <Builder> im        ready
+Index: 1         2  3
+Words: <Builder> im ready
 
 # sentence level graph:
 (s2r / ready-02
@@ -33,8 +33,8 @@ Words: <Builder> im        ready
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.3 :: type = partial_conversion
 # :: snt3
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> how         many        have        we          done        so          far         again?
+Index: 1           2   3    4    5  6    7  8   9
+Words: <Architect> how many have we done so far again?
 
 # sentence level graph:
 (s3b / be-done-08
@@ -70,8 +70,8 @@ Words: <Builder> 3
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.5 :: type = partial_conversion
 # :: snt5
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18
-Words: <Architect> ok          near        the         bottom      of          the         building    platform,   build       a           5x5         hollow      red         square      that        is          vertical
+Index: 1           2  3    4   5      6  7   8        9         10    11 12  13     14  15     16   17 18
+Words: <Architect> ok near the bottom of the building platform, build a  5x5 hollow red square that is vertical
 
 # sentence level graph:
 (s5a / and
@@ -109,8 +109,8 @@ Words: <Architect> ok          near        the         bottom      of          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.6 :: type = partial_conversion
 # :: snt6
-Index: 1         2         3         4
-Words: <Builder> 1         level     tall?
+Index: 1         2 3     4
+Words: <Builder> 1 level tall?
 
 # sentence level graph:
 (s6t / tall-01
@@ -130,8 +130,8 @@ Words: <Builder> 1         level     tall?
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.7 :: type = partial_conversion
 # :: snt7
-Index: 1         2         3         4         5
-Words: <Builder> bottom    left      or        right?
+Index: 1         2      3    4  5
+Words: <Builder> bottom left or right?
 
 # sentence level graph:
 (s7a / umr-choice
@@ -161,8 +161,8 @@ Words: <Builder> bottom    left      or        right?
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.8 :: type = partial_conversion
 # :: snt8
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> no          it          is          vertical    so          it          is          5           blocks      tall        and         5           blocks      wide.
+Index: 1           2  3  4  5        6  7  8  9 10     11   12  13 14     15
+Words: <Architect> no it is vertical so it is 5 blocks tall and 5  blocks wide.
 
 # sentence level graph:
 (s8a / and
@@ -197,8 +197,8 @@ Words: <Architect> no          it          is          vertical    so          i
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.9 :: type = partial_conversion
 # :: snt9
-Index: 1           2           3           4
-Words: <Architect> 1           block       depth
+Index: 1           2 3     4
+Words: <Architect> 1 block depth
 
 # sentence level graph:
 (s9d / deep-06
@@ -214,8 +214,8 @@ Words: <Architect> 1           block       depth
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.10 :: type = partial_conversion
 # :: snt10
-Index: 1           2           3
-Words: <Architect> center      bottom
+Index: 1           2      3
+Words: <Architect> center bottom
 
 # sentence level graph:
 (s10b / have-goal-91
@@ -235,8 +235,8 @@ Words: <Architect> center      bottom
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3           4           5
-Words: <Architect> and         it          is          hollow
+Index: 1           2   3  4  5
+Words: <Architect> and it is hollow
 
 # sentence level graph:
 (s11a / and
@@ -253,8 +253,8 @@ Words: <Architect> and         it          is          hollow
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:-5]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -275,8 +275,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:1      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:1 Z:-5]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -297,8 +297,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.14 :: type = partial_conversion
 # :: snt14
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:1      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:1 Z:-5]
 
 # sentence level graph:
 (s14p / put-down-17
@@ -319,8 +319,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.15 :: type = partial_conversion
 # :: snt15
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:2      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:2 Z:-5]
 
 # sentence level graph:
 (s15p / put-down-17
@@ -341,8 +341,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:3      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:3 Z:-5]
 
 # sentence level graph:
 (s16p / put-down-17
@@ -363,8 +363,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:4      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:4 Z:-5]
 
 # sentence level graph:
 (s17p / put-down-17
@@ -385,8 +385,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.18 :: type = partial_conversion
 # :: snt18
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:5      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:5 Z:-5]
 
 # sentence level graph:
 (s18p / put-down-17
@@ -407,8 +407,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.19 :: type = partial_conversion
 # :: snt19
-Index: 1         2         3         4         5         6         7         8         9         10
-Words: <Builder> is        this      looking   like      what      you       want      it        to?
+Index: 1         2  3    4       5    6    7   8    9  10
+Words: <Builder> is this looking like what you want it to?
 
 # sentence level graph:
 (s19l / look-02
@@ -431,8 +431,8 @@ Words: <Builder> is        this      looking   like      what      you       wan
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.20 :: type = partial_conversion
 # :: snt20
-Index: 1           2           3           4           5           6
-Words: <Architect> you're      done        fine        keep        going
+Index: 1           2      3    4    5    6
+Words: <Architect> you're done fine keep going
 
 # sentence level graph:
 (s20c / cause-01
@@ -454,8 +454,8 @@ Words: <Architect> you're      done        fine        keep        going
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.21 :: type = partial_conversion
 # :: snt21
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:2      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:2 Z:-5]
 
 # sentence level graph:
 (s21p / put-down-17
@@ -476,8 +476,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.22 :: type = partial_conversion
 # :: snt22
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:2      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:2 Z:-5]
 
 # sentence level graph:
 (s22p / put-down-17
@@ -498,8 +498,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:3      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:3 Z:-5]
 
 # sentence level graph:
 (s23p / put-down-17
@@ -520,8 +520,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:4      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:4 Z:-5]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -542,8 +542,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:5      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:5 Z:-5]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -564,8 +564,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:3      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:3 Z:-5]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -586,8 +586,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:4      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:4 Z:-5]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -608,8 +608,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:5      Z:-5]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:5 Z:-5]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -630,8 +630,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.29 :: type = partial_conversion
 # :: snt29
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:1      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:1 Z:-5]
 
 # sentence level graph:
 (s29p / put-down-17
@@ -652,8 +652,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:1      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:1 Z:-5]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -674,8 +674,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.31 :: type = partial_conversion
 # :: snt31
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:2      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:2 Z:-5]
 
 # sentence level graph:
 (s31p / put-down-17
@@ -696,8 +696,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:3      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:3 Z:-5]
 
 # sentence level graph:
 (s32p / put-down-17
@@ -718,8 +718,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.33 :: type = partial_conversion
 # :: snt33
-Index: 1         2         3         4         5         6
-Words: <Builder> i         dont      have      enought   blocks
+Index: 1         2 3    4    5       6
+Words: <Builder> i dont have enought blocks
 
 # sentence level graph:
 (s33h / have-03
@@ -739,8 +739,8 @@ Words: <Builder> i         dont      have      enought   blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.34 :: type = partial_conversion
 # :: snt34
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16
-Words: <Architect> the         center      is          hollow.     there       is          a           3x3         space       in          the         imddle      that        is          hollow
+Index: 1           2   3      4  5       6     7  8 9   10    11 12  13     14   15 16
+Words: <Architect> the center is hollow. there is a 3x3 space in the imddle that is hollow
 
 # sentence level graph:
 (s34a / and
@@ -780,8 +780,8 @@ Words: <Builder> gotcha
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:3      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:3 Z:-5]
 
 # sentence level graph:
 (s36p / pick-up-04
@@ -802,8 +802,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:3      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:3 Z:-5]
 
 # sentence level graph:
 (s37p / pick-up-04
@@ -824,8 +824,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.38 :: type = partial_conversion
 # :: snt38
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:3      Z:-5]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:3 Z:-5]
 
 # sentence level graph:
 (s38p / pick-up-04
@@ -846,8 +846,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.39 :: type = partial_conversion
 # :: snt39
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:4      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:4 Z:-5]
 
 # sentence level graph:
 (s39p / pick-up-04
@@ -868,8 +868,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.40 :: type = partial_conversion
 # :: snt40
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:4      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:4 Z:-5]
 
 # sentence level graph:
 (s40p / pick-up-04
@@ -890,8 +890,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:3      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:3 Z:-5]
 
 # sentence level graph:
 (s41p / put-down-17
@@ -912,8 +912,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.42 :: type = partial_conversion
 # :: snt42
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:2      Z:-5]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:2 Z:-5]
 
 # sentence level graph:
 (s42p / pick-up-04
@@ -934,8 +934,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.43 :: type = partial_conversion
 # :: snt43
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:2      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:2 Z:-5]
 
 # sentence level graph:
 (s43p / pick-up-04
@@ -956,8 +956,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:2      Z:-5]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:2 Z:-5]
 
 # sentence level graph:
 (s44p / pick-up-04
@@ -978,8 +978,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.45 :: type = partial_conversion
 # :: snt45
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:5      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:5 Z:-5]
 
 # sentence level graph:
 (s45p / put-down-17
@@ -1000,8 +1000,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.46 :: type = partial_conversion
 # :: snt46
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:5      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:5 Z:-5]
 
 # sentence level graph:
 (s46p / put-down-17
@@ -1022,8 +1022,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.47 :: type = partial_conversion
 # :: snt47
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:4      Z:-5]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:4 Z:-5]
 
 # sentence level graph:
 (s47p / put-down-17
@@ -1073,8 +1073,8 @@ Words: <Builder> okay*
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.50 :: type = partial_conversion
 # :: snt50
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> ok          now         place       an          orange      block       anywhere    in          the         red         ring
+Index: 1           2  3   4     5  6      7     8        9  10  11  12
+Words: <Architect> ok now place an orange block anywhere in the red ring
 
 # sentence level graph:
 (s50a / and
@@ -1099,8 +1099,8 @@ Words: <Architect> ok          now         place       an          orange      b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.51 :: type = partial_conversion
 # :: snt51
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-5]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-5]
 
 # sentence level graph:
 (s51p / put-down-17
@@ -1121,8 +1121,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.52 :: type = partial_conversion
 # :: snt52
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> and         keep        this        point       of          view        that        you         have
+Index: 1           2   3    4    5     6  7    8    9   10
+Words: <Architect> and keep this point of view that you have
 
 # sentence level graph:
 (s52a / and
@@ -1157,8 +1157,8 @@ Words: <Builder> okay
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.54 :: type = partial_conversion
 # :: snt54
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> ok          now         place       an          orange      block       in          front       of          that        one
+Index: 1           2  3   4     5  6      7     8  9     10 11   12
+Words: <Architect> ok now place an orange block in front of that one
 
 # sentence level graph:
 (s54a / and
@@ -1187,8 +1187,8 @@ Words: <Architect> ok          now         place       an          orange      b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.55 :: type = partial_conversion
 # :: snt55
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-4]
 
 # sentence level graph:
 (s55p / put-down-17
@@ -1209,8 +1209,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.56 :: type = partial_conversion
 # :: snt56
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18          19          20
-Words: <Architect> remove      the         first       orange      block       and         turn        the         second      orange      block       into        a           3x3         square      with        a           hollow      center.
+Index: 1           2      3   4     5      6     7   8    9   10     11     12    13   14 15  16     17   18 19     20
+Words: <Architect> remove the first orange block and turn the second orange block into a  3x3 square with a  hollow center.
 
 # sentence level graph:
 (s56a / and
@@ -1247,8 +1247,8 @@ Words: <Architect> remove      the         first       orange      block       a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.57 :: type = partial_conversion
 # :: snt57
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> the         second      orange      block       is          the         bottom      left        of          the         hollow      3x3         orange      square
+Index: 1           2   3      4      5     6  7   8      9    10 11  12     13  14     15
+Words: <Architect> the second orange block is the bottom left of the hollow 3x3 orange square
 
 # sentence level graph:
 (s57i / identity-91
@@ -1281,8 +1281,8 @@ Words: <Architect> the         second      orange      block       is          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.58 :: type = partial_conversion
 # :: snt58
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:-5]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:-5]
 
 # sentence level graph:
 (s58p / pick-up-04
@@ -1303,8 +1303,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.59 :: type = partial_conversion
 # :: snt59
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:-4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:-4]
 
 # sentence level graph:
 (s59p / put-down-17
@@ -1325,8 +1325,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.60 :: type = partial_conversion
 # :: snt60
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:4      Z:-4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:4 Z:-4]
 
 # sentence level graph:
 (s60p / put-down-17
@@ -1347,8 +1347,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.61 :: type = partial_conversion
 # :: snt61
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:4      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:4 Z:-4]
 
 # sentence level graph:
 (s61p / put-down-17
@@ -1369,8 +1369,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.62 :: type = partial_conversion
 # :: snt62
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:4      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:4 Z:-4]
 
 # sentence level graph:
 (s62p / put-down-17
@@ -1391,8 +1391,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.63 :: type = partial_conversion
 # :: snt63
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:-4]
 
 # sentence level graph:
 (s63p / put-down-17
@@ -1413,8 +1413,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.64 :: type = partial_conversion
 # :: snt64
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:2      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:2 Z:-4]
 
 # sentence level graph:
 (s64p / put-down-17
@@ -1435,8 +1435,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.65 :: type = partial_conversion
 # :: snt65
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:3      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:3 Z:-4]
 
 # sentence level graph:
 (s65p / put-down-17
@@ -1471,8 +1471,8 @@ Words: <Builder> okay
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.67 :: type = partial_conversion
 # :: snt67
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> create      the         orange      shape       except      its         yellow.
+Index: 1           2      3   4      5     6      7   8
+Words: <Architect> create the orange shape except its yellow.
 
 # sentence level graph:
 (s67c / create-01
@@ -1497,8 +1497,8 @@ Words: <Architect> create      the         orange      shape       except      i
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.68 :: type = partial_conversion
 # :: snt68
-Index: 1           2           3           4           5           6           7
-Words: <Architect> right       in          front       of          the         orange
+Index: 1           2     3  4     5  6   7
+Words: <Architect> right in front of the orange
 
 # sentence level graph:
 (s68b / have-goal-91
@@ -1520,8 +1520,8 @@ Words: <Architect> right       in          front       of          the         o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.69 :: type = partial_conversion
 # :: snt69
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:4      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:4 Z:-3]
 
 # sentence level graph:
 (s69p / put-down-17
@@ -1542,8 +1542,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.70 :: type = partial_conversion
 # :: snt70
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:4      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:4 Z:-3]
 
 # sentence level graph:
 (s70p / put-down-17
@@ -1564,8 +1564,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.71 :: type = partial_conversion
 # :: snt71
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:4      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:4 Z:-3]
 
 # sentence level graph:
 (s71p / put-down-17
@@ -1586,8 +1586,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.72 :: type = partial_conversion
 # :: snt72
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:3      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:3 Z:-3]
 
 # sentence level graph:
 (s72p / put-down-17
@@ -1608,8 +1608,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.73 :: type = partial_conversion
 # :: snt73
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:2 Z:-3]
 
 # sentence level graph:
 (s73p / put-down-17
@@ -1630,8 +1630,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.74 :: type = partial_conversion
 # :: snt74
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:2 Z:-3]
 
 # sentence level graph:
 (s74p / put-down-17
@@ -1652,8 +1652,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.75 :: type = partial_conversion
 # :: snt75
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:3      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:3 Z:-3]
 
 # sentence level graph:
 (s75p / put-down-17
@@ -1674,8 +1674,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.76 :: type = partial_conversion
 # :: snt76
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:2 Z:-3]
 
 # sentence level graph:
 (s76p / put-down-17
@@ -1710,8 +1710,8 @@ Words: <Builder> okay
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.78 :: type = partial_conversion
 # :: snt78
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18          19
-Words: <Architect> next        place       1           green       block       1           space       forward     of          the         empty       space       that        the         yellow      hollow      square      has
+Index: 1           2    3     4 5     6     7 8     9       10 11  12    13    14   15  16     17     18     19
+Words: <Architect> next place 1 green block 1 space forward of the empty space that the yellow hollow square has
 
 # sentence level graph:
 (s78p / place-01
@@ -1745,8 +1745,8 @@ Words: <Architect> next        place       1           green       block       1
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.79 :: type = partial_conversion
 # :: snt79
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:1      Y:3      Z:-2]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:1 Y:3 Z:-2]
 
 # sentence level graph:
 (s79p / put-down-17
@@ -1767,8 +1767,8 @@ Words: [Builder puts     down     a        green    block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.80 :: type = partial_conversion
 # :: snt80
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:0      Y:3      Z:-2]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:0 Y:3 Z:-2]
 
 # sentence level graph:
 (s80p / put-down-17
@@ -1789,8 +1789,8 @@ Words: [Builder puts     down     a        green    block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.81 :: type = partial_conversion
 # :: snt81
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        green    block    at       X:1      Y:3      Z:-2]
+Index: 1        2     3  4 5     6     7  8   9   10
+Words: [Builder picks up a green block at X:1 Y:3 Z:-2]
 
 # sentence level graph:
 (s81p / pick-up-04
@@ -1811,8 +1811,8 @@ Words: [Builder picks    up       a        green    block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.82 :: type = partial_conversion
 # :: snt82
-Index: 1           2           3           4           5
-Words: <Architect> then        blue        in          front
+Index: 1           2    3    4  5
+Words: <Architect> then blue in front
 
 # sentence level graph:
 (s82b / have-goal-91
@@ -1834,8 +1834,8 @@ Words: <Architect> then        blue        in          front
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.83 :: type = partial_conversion
 # :: snt83
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:3 Z:-1]
 
 # sentence level graph:
 (s83p / put-down-17
@@ -1856,8 +1856,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.84 :: type = partial_conversion
 # :: snt84
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> then        an          empty       space,      then        a           purple
+Index: 1           2    3  4     5      6    7 8
+Words: <Architect> then an empty space, then a purple
 
 # sentence level graph:
 (s84s2 / spatial-sequence-91
@@ -1876,8 +1876,8 @@ Words: <Architect> then        an          empty       space,      then        a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.85 :: type = partial_conversion
 # :: snt85
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:3      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s85p / put-down-17
@@ -1898,8 +1898,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.86 :: type = partial_conversion
 # :: snt86
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:0      Y:3      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:0 Y:3 Z:1]
 
 # sentence level graph:
 (s86p / put-down-17
@@ -1920,8 +1920,8 @@ Words: [Builder puts     down     a        purple   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.87 :: type = partial_conversion
 # :: snt87
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:0      Y:3      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s87p / pick-up-04
@@ -1942,8 +1942,8 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.88 :: type = partial_conversion
 # :: snt88
-Index: 1           2           3           4
-Words: <Architect> ok          good        job
+Index: 1           2  3    4
+Words: <Architect> ok good job
 
 # sentence level graph:
 (s88a / and
@@ -1959,8 +1959,8 @@ Words: <Architect> ok          good        job
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-disappearing-tunnel-B35-A44_1429.89 :: type = partial_conversion
 # :: snt89
-Index: 1         2         3
-Words: <Builder> that      it?
+Index: 1         2    3
+Words: <Builder> that it?
 
 # sentence level graph:
 (s89b / be-it-08

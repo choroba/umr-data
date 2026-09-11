@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.2 :: type = partial_conversion
 # :: snt2
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:-5     Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a purple block at X:-5 Y:1 Z:0]
 
 # sentence level graph:
 (s2p / put-down-17
@@ -38,8 +38,8 @@ Words: [Builder puts     down     a        purple   block    at       X:-5     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.3 :: type = partial_conversion
 # :: snt3
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:5      Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:5 Y:1 Z:0]
 
 # sentence level graph:
 (s3p / put-down-17
@@ -60,8 +60,8 @@ Words: [Builder puts     down     a        blue     block    at       X:5      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.4 :: type = partial_conversion
 # :: snt4
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:1      Z:-5]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:1 Z:-5]
 
 # sentence level graph:
 (s4p / put-down-17
@@ -82,8 +82,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.5 :: type = partial_conversion
 # :: snt5
-Index: 1         2         3         4
-Words: <Builder> lets      do        this
+Index: 1         2    3  4
+Words: <Builder> lets do this
 
 # sentence level graph:
 (s5d / do-02
@@ -100,8 +100,8 @@ Words: <Builder> lets      do        this
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.6 :: type = partial_conversion
 # :: snt6
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> place       a           red         block       in          front       of          the         blue        block
+Index: 1           2     3 4   5     6  7     8  9   10   11
+Words: <Architect> place a red block in front of the blue block
 
 # sentence level graph:
 (s6p / place-01
@@ -125,8 +125,8 @@ Words: <Architect> place       a           red         block       in          f
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.7 :: type = partial_conversion
 # :: snt7
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> along       the         line        toward      the         purple      block
+Index: 1           2     3   4    5      6   7      8
+Words: <Architect> along the line toward the purple block
 
 # sentence level graph:
 (s7a2 / along-01
@@ -143,8 +143,8 @@ Words: <Architect> along       the         line        toward      the         p
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.8 :: type = partial_conversion
 # :: snt8
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:4      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:4 Y:1 Z:0]
 
 # sentence level graph:
 (s8p / put-down-17
@@ -165,8 +165,8 @@ Words: [Builder puts     down     a        red      block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.9 :: type = partial_conversion
 # :: snt9
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> place       another     red         block       along       that        line
+Index: 1           2     3       4   5     6     7    8
+Words: <Architect> place another red block along that line
 
 # sentence level graph:
 (s9p / place-01
@@ -190,8 +190,8 @@ Words: <Architect> place       another     red         block       along       t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.10 :: type = partial_conversion
 # :: snt10
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:3      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:3 Y:1 Z:0]
 
 # sentence level graph:
 (s10p / put-down-17
@@ -212,8 +212,8 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> place       a           red         block       on          top         of          the         block       you         just        palce
+Index: 1           2     3 4   5     6  7   8  9   10    11  12   13
+Words: <Architect> place a red block on top of the block you just palce
 
 # sentence level graph:
 (s11p / place-01
@@ -240,8 +240,8 @@ Words: <Architect> place       a           red         block       on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:3      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -278,8 +278,8 @@ Words: <Architect> placed
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.14 :: type = partial_conversion
 # :: snt14
-Index: 1         2         3         4         5         6         7         8         9         10        11        12
-Words: <Builder> don't     worry     about     minor     typos     i         get       what      youre     going     for
+Index: 1         2     3     4     5     6     7 8   9    10    11    12
+Words: <Builder> don't worry about minor typos i get what youre going for
 
 # sentence level graph:
 (s14w / worry-02
@@ -308,8 +308,8 @@ Words: <Builder> don't     worry     about     minor     typos     i         get
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.15 :: type = partial_conversion
 # :: snt15
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> place       4           stacks      of          red         blocks      2           high
+Index: 1           2     3 4      5  6   7      8 9
+Words: <Architect> place 4 stacks of red blocks 2 high
 
 # sentence level graph:
 (s15p / place-01
@@ -336,8 +336,8 @@ Words: <Architect> place       4           stacks      of          red         b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.16 :: type = partial_conversion
 # :: snt16
-Index: 1           2           3           4           5
-Words: <Architect> along       the         same        line
+Index: 1           2     3   4    5
+Words: <Architect> along the same line
 
 # sentence level graph:
 (s16s2 / space
@@ -353,8 +353,8 @@ Words: <Architect> along       the         same        line
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.17 :: type = partial_conversion
 # :: snt17
-Index: 1           2           3
-Words: <Architect> 5           stacks
+Index: 1           2 3
+Words: <Architect> 5 stacks
 
 # sentence level graph:
 (s17s / stack
@@ -369,8 +369,8 @@ Words: <Architect> 5           stacks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.18 :: type = partial_conversion
 # :: snt18
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:1 Z:0]
 
 # sentence level graph:
 (s18p / put-down-17
@@ -391,8 +391,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.19 :: type = partial_conversion
 # :: snt19
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:2 Z:0]
 
 # sentence level graph:
 (s19p / put-down-17
@@ -413,8 +413,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.20 :: type = partial_conversion
 # :: snt20
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s20p / put-down-17
@@ -435,8 +435,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.21 :: type = partial_conversion
 # :: snt21
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s21p / put-down-17
@@ -457,8 +457,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.22 :: type = partial_conversion
 # :: snt22
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s22p / put-down-17
@@ -479,8 +479,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s23p / put-down-17
@@ -501,8 +501,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -523,8 +523,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -545,8 +545,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:1 Z:0]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -567,8 +567,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -589,8 +589,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.28 :: type = partial_conversion
 # :: snt28
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> place       1           more        red         block       on          the         2nd         and         third       stacks
+Index: 1           2     3 4    5   6     7  8   9   10  11    12
+Words: <Architect> place 1 more red block on the 2nd and third stacks
 
 # sentence level graph:
 (s28p / place-01
@@ -631,8 +631,8 @@ Words: <Architect> place       1           more        red         block       o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.29 :: type = partial_conversion
 # :: snt29
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:3 Z:0]
 
 # sentence level graph:
 (s29p / put-down-17
@@ -653,8 +653,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:3 Z:0]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -675,8 +675,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.31 :: type = partial_conversion
 # :: snt31
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> remove      the         bottom      block       from        the         first       3           high        stack
+Index: 1           2      3   4      5     6    7   8     9 10   11
+Words: <Architect> remove the bottom block from the first 3 high stack
 
 # sentence level graph:
 (s31r / remove-01
@@ -706,8 +706,8 @@ Words: <Architect> remove      the         bottom      block       from        t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:2      Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:2 Y:1 Z:0]
 
 # sentence level graph:
 (s32p / pick-up-04
@@ -728,8 +728,8 @@ Words: [Builder picks    up       a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.33 :: type = partial_conversion
 # :: snt33
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> remove      the         two         bottom      blocks      from        the         second      3           high        stack
+Index: 1           2      3   4   5      6      7    8   9      10 11   12
+Words: <Architect> remove the two bottom blocks from the second 3  high stack
 
 # sentence level graph:
 (s33r / remove-01
@@ -760,8 +760,8 @@ Words: <Architect> remove      the         two         bottom      blocks      f
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.34 :: type = partial_conversion
 # :: snt34
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s34p / pick-up-04
@@ -782,8 +782,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s35p / pick-up-04
@@ -804,8 +804,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.36 :: type = partial_conversion
 # :: snt36
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> remove      the         bottom      block       from        the         last        3           stacks
+Index: 1           2      3   4      5     6    7   8    9 10
+Words: <Architect> remove the bottom block from the last 3 stacks
 
 # sentence level graph:
 (s36r / remove-01
@@ -842,8 +842,8 @@ Words: <Architect> remove      the         bottom      block       from        t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s37p / put-down-17
@@ -864,8 +864,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.38 :: type = partial_conversion
 # :: snt38
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s38p / pick-up-04
@@ -886,8 +886,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.39 :: type = partial_conversion
 # :: snt39
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s39p / pick-up-04
@@ -908,8 +908,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.40 :: type = partial_conversion
 # :: snt40
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s40p / pick-up-04
@@ -930,8 +930,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:1 Z:0]
 
 # sentence level graph:
 (s41p / pick-up-04
@@ -952,8 +952,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.42 :: type = partial_conversion
 # :: snt42
-Index: 1           2           3           4           5           6
-Words: <Architect> build       an          orange      staircase   next
+Index: 1           2     3  4      5         6
+Words: <Architect> build an orange staircase next
 
 # sentence level graph:
 (s42b / build-01
@@ -973,8 +973,8 @@ Words: <Architect> build       an          orange      staircase   next
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.43 :: type = partial_conversion
 # :: snt43
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> starting    one         block       up          and         over        from        the         yellow      block
+Index: 1           2        3   4     5  6   7    8    9   10     11
+Words: <Architect> starting one block up and over from the yellow block
 
 # sentence level graph:
 (s43s / start-01
@@ -1001,8 +1001,8 @@ Words: <Architect> starting    one         block       up          and         o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-4]
 
 # sentence level graph:
 (s44p / put-down-17
@@ -1037,8 +1037,8 @@ Words: <Architect> yes
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.46 :: type = partial_conversion
 # :: snt46
-Index: 1           2           3           4           5
-Words: <Architect> toward      the         red         blocks
+Index: 1           2      3   4   5
+Words: <Architect> toward the red blocks
 
 # sentence level graph:
 (s46h / have-direction-91
@@ -1056,8 +1056,8 @@ Words: <Architect> toward      the         red         blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.47 :: type = partial_conversion
 # :: snt47
-Index: 1         2         3         4         5
-Words: <Builder> how       many      blocks    wide
+Index: 1         2   3    4      5
+Words: <Builder> how many blocks wide
 
 # sentence level graph:
 (s47w / wide-02
@@ -1076,8 +1076,8 @@ Words: <Builder> how       many      blocks    wide
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.48 :: type = partial_conversion
 # :: snt48
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-3]
 
 # sentence level graph:
 (s48p / put-down-17
@@ -1098,8 +1098,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.49 :: type = partial_conversion
 # :: snt49
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:-3]
 
 # sentence level graph:
 (s49p / put-down-17
@@ -1120,8 +1120,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.50 :: type = partial_conversion
 # :: snt50
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-2]
 
 # sentence level graph:
 (s50p / put-down-17
@@ -1142,8 +1142,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.51 :: type = partial_conversion
 # :: snt51
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:-2]
 
 # sentence level graph:
 (s51p / put-down-17
@@ -1164,8 +1164,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.52 :: type = partial_conversion
 # :: snt52
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s52p / put-down-17
@@ -1186,8 +1186,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.53 :: type = partial_conversion
 # :: snt53
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:-1]
 
 # sentence level graph:
 (s53p / put-down-17
@@ -1208,8 +1208,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.54 :: type = partial_conversion
 # :: snt54
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:-1]
 
 # sentence level graph:
 (s54p / put-down-17
@@ -1230,8 +1230,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.55 :: type = partial_conversion
 # :: snt55
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:-2]
 
 # sentence level graph:
 (s55p / put-down-17
@@ -1252,8 +1252,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.56 :: type = partial_conversion
 # :: snt56
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:4 Z:-1]
 
 # sentence level graph:
 (s56p / put-down-17
@@ -1274,8 +1274,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.57 :: type = partial_conversion
 # :: snt57
-Index: 1           2           3           4
-Words: <Architect> i           messed      up
+Index: 1           2 3      4
+Words: <Architect> i messed up
 
 # sentence level graph:
 (s57m / mess-up-02
@@ -1291,8 +1291,8 @@ Words: <Architect> i           messed      up
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.58 :: type = partial_conversion
 # :: snt58
-Index: 1         2         3         4         5         6         7         8         9
-Words: <Builder> thats     alright   what      do        i         need      to        fix
+Index: 1         2     3       4    5  6 7    8  9
+Words: <Builder> thats alright what do i need to fix
 
 # sentence level graph:
 (s58a / and
@@ -1316,8 +1316,8 @@ Words: <Builder> thats     alright   what      do        i         need      to 
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.59 :: type = partial_conversion
 # :: snt59
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> the         staircase   needs       to          be          shifted     over        one         block       away        from        the         yellow      block
+Index: 1           2   3         4     5  6  7       8    9   10    11   12   13  14     15
+Words: <Architect> the staircase needs to be shifted over one block away from the yellow block
 
 # sentence level graph:
 (s59n / need-01
@@ -1346,8 +1346,8 @@ Words: <Architect> the         staircase   needs       to          be          s
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.60 :: type = partial_conversion
 # :: snt60
-Index: 1         2         3         4         5         6         7         8
-Words: <Builder> this      doesn't   count     towards   our       GPA       :)
+Index: 1         2    3       4     5       6   7   8
+Words: <Builder> this doesn't count towards our GPA :)
 
 # sentence level graph:
 (s60c / count-04
@@ -1368,8 +1368,8 @@ Words: <Builder> this      doesn't   count     towards   our       GPA       :)
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.61 :: type = partial_conversion
 # :: snt61
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-4]
 
 # sentence level graph:
 (s61p / put-down-17
@@ -1390,8 +1390,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.62 :: type = partial_conversion
 # :: snt62
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s62p / put-down-17
@@ -1412,8 +1412,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.63 :: type = partial_conversion
 # :: snt63
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-3]
 
 # sentence level graph:
 (s63p / put-down-17
@@ -1434,8 +1434,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.64 :: type = partial_conversion
 # :: snt64
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-2]
 
 # sentence level graph:
 (s64p / put-down-17
@@ -1456,8 +1456,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.65 :: type = partial_conversion
 # :: snt65
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-2]
 
 # sentence level graph:
 (s65p / put-down-17
@@ -1478,8 +1478,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.66 :: type = partial_conversion
 # :: snt66
-Index: 1           2           3
-Words: <Architect> no          no
+Index: 1           2  3
+Words: <Architect> no no
 
 # sentence level graph:
 (s66c / confirm-01
@@ -1493,8 +1493,8 @@ Words: <Architect> no          no
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.67 :: type = partial_conversion
 # :: snt67
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-1]
 
 # sentence level graph:
 (s67p / put-down-17
@@ -1515,8 +1515,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.68 :: type = partial_conversion
 # :: snt68
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-1]
 
 # sentence level graph:
 (s68p / put-down-17
@@ -1537,8 +1537,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.69 :: type = partial_conversion
 # :: snt69
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:-1]
 
 # sentence level graph:
 (s69p / pick-up-04
@@ -1559,8 +1559,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.70 :: type = partial_conversion
 # :: snt70
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-1]
 
 # sentence level graph:
 (s70p / pick-up-04
@@ -1581,8 +1581,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.71 :: type = partial_conversion
 # :: snt71
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:-2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:-2]
 
 # sentence level graph:
 (s71p / pick-up-04
@@ -1603,8 +1603,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.72 :: type = partial_conversion
 # :: snt72
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-2]
 
 # sentence level graph:
 (s72p / pick-up-04
@@ -1639,8 +1639,8 @@ Words: <Architect> sorry
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.74 :: type = partial_conversion
 # :: snt74
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:-3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:-3]
 
 # sentence level graph:
 (s74p / pick-up-04
@@ -1661,8 +1661,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.75 :: type = partial_conversion
 # :: snt75
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s75p / pick-up-04
@@ -1683,8 +1683,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.76 :: type = partial_conversion
 # :: snt76
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-4]
 
 # sentence level graph:
 (s76p / pick-up-04
@@ -1705,8 +1705,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.77 :: type = partial_conversion
 # :: snt77
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> shift       along       the         line        it          is          on
+Index: 1           2     3     4   5    6  7  8
+Words: <Architect> shift along the line it is on
 
 # sentence level graph:
 (s77s / shift-01
@@ -1728,8 +1728,8 @@ Words: <Architect> shift       along       the         line        it          i
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.78 :: type = partial_conversion
 # :: snt78
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:4      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:4 Z:-2]
 
 # sentence level graph:
 (s78p / put-down-17
@@ -1750,8 +1750,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.79 :: type = partial_conversion
 # :: snt79
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:4      Z:-2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:4 Z:-2]
 
 # sentence level graph:
 (s79p / pick-up-04
@@ -1772,8 +1772,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.80 :: type = partial_conversion
 # :: snt80
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:4      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:4 Z:-1]
 
 # sentence level graph:
 (s80p / pick-up-04
@@ -1794,8 +1794,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.81 :: type = partial_conversion
 # :: snt81
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:-2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:-2]
 
 # sentence level graph:
 (s81p / pick-up-04
@@ -1816,8 +1816,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.82 :: type = partial_conversion
 # :: snt82
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:-3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:-3]
 
 # sentence level graph:
 (s82p / pick-up-04
@@ -1853,8 +1853,8 @@ Words: <Architect> perfect
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.84 :: type = partial_conversion
 # :: snt84
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-4]
 
 # sentence level graph:
 (s84p / pick-up-04
@@ -1875,8 +1875,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.85 :: type = partial_conversion
 # :: snt85
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> now         fill        in          the         line        with        orange      blocks
+Index: 1           2   3    4  5   6    7    8      9
+Words: <Architect> now fill in the line with orange blocks
 
 # sentence level graph:
 (s85f / fill-in-05
@@ -1898,8 +1898,8 @@ Words: <Architect> now         fill        in          the         line        w
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.86 :: type = partial_conversion
 # :: snt86
-Index: 1           2           3           4           5
-Words: <Architect> at          the         same        height
+Index: 1           2  3   4    5
+Words: <Architect> at the same height
 
 # sentence level graph:
 (s86b / have-goal-91
@@ -1918,8 +1918,8 @@ Words: <Architect> at          the         same        height
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.87 :: type = partial_conversion
 # :: snt87
-Index: 1         2         3
-Words: <Builder> which     line
+Index: 1         2     3
+Words: <Builder> which line
 
 # sentence level graph:
 (s87l / line
@@ -1933,8 +1933,8 @@ Words: <Builder> which     line
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.88 :: type = partial_conversion
 # :: snt88
-Index: 1           2           3           4           5
-Words: <Architect> the         orange      block       line
+Index: 1           2   3      4     5
+Words: <Architect> the orange block line
 
 # sentence level graph:
 (s88l / line
@@ -1950,8 +1950,8 @@ Words: <Architect> the         orange      block       line
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.89 :: type = partial_conversion
 # :: snt89
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:3]
 
 # sentence level graph:
 (s89p / put-down-17
@@ -1972,8 +1972,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.90 :: type = partial_conversion
 # :: snt90
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:2]
 
 # sentence level graph:
 (s90p / put-down-17
@@ -1994,8 +1994,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.91 :: type = partial_conversion
 # :: snt91
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s91p / put-down-17
@@ -2016,8 +2016,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.92 :: type = partial_conversion
 # :: snt92
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:1]
 
 # sentence level graph:
 (s92p / put-down-17
@@ -2038,8 +2038,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.93 :: type = partial_conversion
 # :: snt93
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:2]
 
 # sentence level graph:
 (s93p / put-down-17
@@ -2060,8 +2060,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.94 :: type = partial_conversion
 # :: snt94
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> we          need        them        all         the         way         to          four        blocks      past        the         red
+Index: 1           2  3    4    5   6   7   8  9    10     11   12  13
+Words: <Architect> we need them all the way to four blocks past the red
 
 # sentence level graph:
 (s94n / need-01
@@ -2089,8 +2089,8 @@ Words: <Architect> we          need        them        all         the         w
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.95 :: type = partial_conversion
 # :: snt95
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:5]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:5]
 
 # sentence level graph:
 (s95p / put-down-17
@@ -2111,8 +2111,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.96 :: type = partial_conversion
 # :: snt96
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s96p / put-down-17
@@ -2133,8 +2133,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.97 :: type = partial_conversion
 # :: snt97
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:5]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:5]
 
 # sentence level graph:
 (s97p / pick-up-04
@@ -2155,8 +2155,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.98 :: type = partial_conversion
 # :: snt98
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s98p / pick-up-04
@@ -2177,8 +2177,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.99 :: type = partial_conversion
 # :: snt99
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s99p / put-down-17
@@ -2199,8 +2199,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.100 :: type = partial_conversion
 # :: snt100
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s100p / pick-up-04
@@ -2221,8 +2221,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.101 :: type = partial_conversion
 # :: snt101
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s101p / put-down-17
@@ -2243,8 +2243,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.102 :: type = partial_conversion
 # :: snt102
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:4]
 
 # sentence level graph:
 (s102p / put-down-17
@@ -2265,8 +2265,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.103 :: type = partial_conversion
 # :: snt103
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:3]
 
 # sentence level graph:
 (s103p / put-down-17
@@ -2287,8 +2287,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.104 :: type = partial_conversion
 # :: snt104
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:1]
 
 # sentence level graph:
 (s104p / put-down-17
@@ -2309,8 +2309,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.105 :: type = partial_conversion
 # :: snt105
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s105p / put-down-17
@@ -2331,8 +2331,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.106 :: type = partial_conversion
 # :: snt106
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:1]
 
 # sentence level graph:
 (s106p / put-down-17
@@ -2353,8 +2353,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.107 :: type = partial_conversion
 # :: snt107
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:2]
 
 # sentence level graph:
 (s107p / put-down-17
@@ -2375,8 +2375,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.108 :: type = partial_conversion
 # :: snt108
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:4]
 
 # sentence level graph:
 (s108p / put-down-17
@@ -2397,8 +2397,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.109 :: type = partial_conversion
 # :: snt109
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:3      Z:3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:3 Z:3]
 
 # sentence level graph:
 (s109p / put-down-17
@@ -2419,8 +2419,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.110 :: type = partial_conversion
 # :: snt110
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> remove      the         bottom      orange      block       at          the         last        stair       on          the         yellow      block       side
+Index: 1           2      3   4      5      6     7  8   9    10    11 12  13     14    15
+Words: <Architect> remove the bottom orange block at the last stair on the yellow block side
 
 # sentence level graph:
 (s110r / remove-01
@@ -2448,8 +2448,8 @@ Words: <Architect> remove      the         bottom      orange      block       a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.111 :: type = partial_conversion
 # :: snt111
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-3]
 
 # sentence level graph:
 (s111p / pick-up-04
@@ -2470,8 +2470,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.112 :: type = partial_conversion
 # :: snt112
-Index: 1           2           3           4
-Words: <Architect> not         that        one
+Index: 1           2   3    4
+Words: <Architect> not that one
 
 # sentence level graph:
 (s112c / confirm-01
@@ -2487,8 +2487,8 @@ Words: <Architect> not         that        one
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.113 :: type = partial_conversion
 # :: snt113
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:-3]
 
 # sentence level graph:
 (s113p / put-down-17
@@ -2509,8 +2509,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.114 :: type = partial_conversion
 # :: snt114
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s114p / pick-up-04
@@ -2547,8 +2547,8 @@ Words: <Architect> exactly
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.116 :: type = partial_conversion
 # :: snt116
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> now         make        a           red         stack       4           high
+Index: 1           2   3    4 5   6     7 8
+Words: <Architect> now make a red stack 4 high
 
 # sentence level graph:
 (s116m / make-01
@@ -2572,8 +2572,8 @@ Words: <Architect> now         make        a           red         stack       4
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.117 :: type = partial_conversion
 # :: snt117
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> at          the         end         of          the         red         line
+Index: 1           2  3   4   5  6   7   8
+Words: <Architect> at the end of the red line
 
 # sentence level graph:
 (s117b / have-goal-91
@@ -2590,8 +2590,8 @@ Words: <Architect> at          the         end         of          the         r
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.118 :: type = partial_conversion
 # :: snt118
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:1 Z:0]
 
 # sentence level graph:
 (s118p / put-down-17
@@ -2612,8 +2612,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.119 :: type = partial_conversion
 # :: snt119
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:2 Z:0]
 
 # sentence level graph:
 (s119p / put-down-17
@@ -2634,8 +2634,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.120 :: type = partial_conversion
 # :: snt120
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:3 Z:0]
 
 # sentence level graph:
 (s120p / put-down-17
@@ -2656,8 +2656,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.121 :: type = partial_conversion
 # :: snt121
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:4 Z:0]
 
 # sentence level graph:
 (s121p / put-down-17
@@ -2678,8 +2678,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.122 :: type = partial_conversion
 # :: snt122
-Index: 1           2           3           4           5           6           7
-Words: <Architect> add         one         more        to          the         top
+Index: 1           2   3   4    5  6   7
+Words: <Architect> add one more to the top
 
 # sentence level graph:
 (s122a / add-02
@@ -2703,8 +2703,8 @@ Words: <Architect> add         one         more        to          the         t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.123 :: type = partial_conversion
 # :: snt123
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:5 Z:0]
 
 # sentence level graph:
 (s123p / put-down-17
@@ -2725,8 +2725,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.124 :: type = partial_conversion
 # :: snt124
-Index: 1           2           3           4           5
-Words: <Architect> remove      the         bottom      two
+Index: 1           2      3   4      5
+Words: <Architect> remove the bottom two
 
 # sentence level graph:
 (s124r / remove-01
@@ -2748,8 +2748,8 @@ Words: <Architect> remove      the         bottom      two
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.125 :: type = partial_conversion
 # :: snt125
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-3     Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-3 Y:2 Z:0]
 
 # sentence level graph:
 (s125p / pick-up-04
@@ -2770,8 +2770,8 @@ Words: [Builder picks    up       a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.126 :: type = partial_conversion
 # :: snt126
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-3     Y:1      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-3 Y:1 Z:0]
 
 # sentence level graph:
 (s126p / pick-up-04
@@ -2806,8 +2806,8 @@ Words: <Architect> ok
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.128 :: type = partial_conversion
 # :: snt128
-Index: 1           2           3           4           5           6
-Words: <Architect> now         for         some        bad         news
+Index: 1           2   3   4    5   6
+Words: <Architect> now for some bad news
 
 # sentence level graph:
 (s128h / have-topic-91
@@ -2824,8 +2824,8 @@ Words: <Architect> now         for         some        bad         news
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.129 :: type = partial_conversion
 # :: snt129
-Index: 1         2         3
-Words: <Builder> hit       me
+Index: 1         2   3
+Words: <Builder> hit me
 
 # sentence level graph:
 (s129h / hit-01
@@ -2845,8 +2845,8 @@ Words: <Builder> hit       me
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.130 :: type = partial_conversion
 # :: snt130
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17
-Words: <Architect> the         whole       orange      block       structure   needs       to          be          shifted     up          one         block       toward      the         purple      block
+Index: 1           2   3     4      5     6         7     8  9  10      11 12  13    14     15  16     17
+Words: <Architect> the whole orange block structure needs to be shifted up one block toward the purple block
 
 # sentence level graph:
 (s130n / need-01
@@ -2876,8 +2876,8 @@ Words: <Architect> the         whole       orange      block       structure   n
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.131 :: type = partial_conversion
 # :: snt131
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:1      Z:-3]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s131p / put-down-17
@@ -2898,8 +2898,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.132 :: type = partial_conversion
 # :: snt132
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:1      Z:-3]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s132p / pick-up-04
@@ -2920,8 +2920,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.133 :: type = partial_conversion
 # :: snt133
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:1      Z:-3]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s133p / put-down-17
@@ -2942,8 +2942,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.134 :: type = partial_conversion
 # :: snt134
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:1      Z:-3]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s134p / pick-up-04
@@ -2964,8 +2964,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.135 :: type = partial_conversion
 # :: snt135
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-3]
 
 # sentence level graph:
 (s135p / pick-up-04
@@ -2986,8 +2986,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.136 :: type = partial_conversion
 # :: snt136
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-3]
 
 # sentence level graph:
 (s136p / put-down-17
@@ -3008,8 +3008,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.137 :: type = partial_conversion
 # :: snt137
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-2]
 
 # sentence level graph:
 (s137p / put-down-17
@@ -3030,8 +3030,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.138 :: type = partial_conversion
 # :: snt138
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-2]
 
 # sentence level graph:
 (s138p / pick-up-04
@@ -3052,8 +3052,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.139 :: type = partial_conversion
 # :: snt139
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:-2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:-2]
 
 # sentence level graph:
 (s139p / pick-up-04
@@ -3074,8 +3074,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.140 :: type = partial_conversion
 # :: snt140
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:-2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:-2]
 
 # sentence level graph:
 (s140p / pick-up-04
@@ -3096,8 +3096,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.141 :: type = partial_conversion
 # :: snt141
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-2]
 
 # sentence level graph:
 (s141p / put-down-17
@@ -3118,8 +3118,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.142 :: type = partial_conversion
 # :: snt142
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-2]
 
 # sentence level graph:
 (s142p / put-down-17
@@ -3140,8 +3140,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.143 :: type = partial_conversion
 # :: snt143
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:-1]
 
 # sentence level graph:
 (s143p / pick-up-04
@@ -3162,8 +3162,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.144 :: type = partial_conversion
 # :: snt144
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:-1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:-1]
 
 # sentence level graph:
 (s144p / pick-up-04
@@ -3184,8 +3184,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.145 :: type = partial_conversion
 # :: snt145
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-1]
 
 # sentence level graph:
 (s145p / put-down-17
@@ -3206,8 +3206,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.146 :: type = partial_conversion
 # :: snt146
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:-1]
 
 # sentence level graph:
 (s146p / pick-up-04
@@ -3228,8 +3228,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.147 :: type = partial_conversion
 # :: snt147
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:-1]
 
 # sentence level graph:
 (s147p / put-down-17
@@ -3250,8 +3250,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.148 :: type = partial_conversion
 # :: snt148
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:-1]
 
 # sentence level graph:
 (s148p / put-down-17
@@ -3272,8 +3272,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.149 :: type = partial_conversion
 # :: snt149
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s149p / pick-up-04
@@ -3294,8 +3294,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.150 :: type = partial_conversion
 # :: snt150
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s150p / put-down-17
@@ -3316,8 +3316,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.151 :: type = partial_conversion
 # :: snt151
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:0]
 
 # sentence level graph:
 (s151p / pick-up-04
@@ -3338,8 +3338,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.152 :: type = partial_conversion
 # :: snt152
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:3      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:3 Z:0]
 
 # sentence level graph:
 (s152p / pick-up-04
@@ -3360,8 +3360,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.153 :: type = partial_conversion
 # :: snt153
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s153p / put-down-17
@@ -3382,8 +3382,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.154 :: type = partial_conversion
 # :: snt154
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s154p / put-down-17
@@ -3404,8 +3404,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.155 :: type = partial_conversion
 # :: snt155
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:1]
 
 # sentence level graph:
 (s155p / pick-up-04
@@ -3426,8 +3426,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.156 :: type = partial_conversion
 # :: snt156
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:1]
 
 # sentence level graph:
 (s156p / pick-up-04
@@ -3448,8 +3448,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.157 :: type = partial_conversion
 # :: snt157
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:1]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:1]
 
 # sentence level graph:
 (s157p / pick-up-04
@@ -3470,8 +3470,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.158 :: type = partial_conversion
 # :: snt158
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:2]
 
 # sentence level graph:
 (s158p / pick-up-04
@@ -3492,8 +3492,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.159 :: type = partial_conversion
 # :: snt159
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:2]
 
 # sentence level graph:
 (s159p / pick-up-04
@@ -3514,8 +3514,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.160 :: type = partial_conversion
 # :: snt160
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:2]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:2]
 
 # sentence level graph:
 (s160p / pick-up-04
@@ -3536,8 +3536,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.161 :: type = partial_conversion
 # :: snt161
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:3]
 
 # sentence level graph:
 (s161p / pick-up-04
@@ -3558,8 +3558,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.162 :: type = partial_conversion
 # :: snt162
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:3]
 
 # sentence level graph:
 (s162p / pick-up-04
@@ -3580,8 +3580,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.163 :: type = partial_conversion
 # :: snt163
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:3]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:3]
 
 # sentence level graph:
 (s163p / pick-up-04
@@ -3602,8 +3602,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.164 :: type = partial_conversion
 # :: snt164
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:3      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:3 Z:4]
 
 # sentence level graph:
 (s164p / pick-up-04
@@ -3624,8 +3624,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.165 :: type = partial_conversion
 # :: snt165
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:2      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:2 Z:4]
 
 # sentence level graph:
 (s165p / pick-up-04
@@ -3646,8 +3646,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.166 :: type = partial_conversion
 # :: snt166
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:4]
 
 # sentence level graph:
 (s166p / pick-up-04
@@ -3668,8 +3668,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.167 :: type = partial_conversion
 # :: snt167
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s167p / pick-up-04
@@ -3690,8 +3690,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.168 :: type = partial_conversion
 # :: snt168
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s168p / put-down-17
@@ -3712,8 +3712,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.169 :: type = partial_conversion
 # :: snt169
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:1]
 
 # sentence level graph:
 (s169p / put-down-17
@@ -3734,8 +3734,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.170 :: type = partial_conversion
 # :: snt170
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:1]
 
 # sentence level graph:
 (s170p / put-down-17
@@ -3756,8 +3756,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.171 :: type = partial_conversion
 # :: snt171
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:1]
 
 # sentence level graph:
 (s171p / put-down-17
@@ -3778,8 +3778,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.172 :: type = partial_conversion
 # :: snt172
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:2]
 
 # sentence level graph:
 (s172p / put-down-17
@@ -3800,8 +3800,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.173 :: type = partial_conversion
 # :: snt173
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:2]
 
 # sentence level graph:
 (s173p / put-down-17
@@ -3822,8 +3822,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.174 :: type = partial_conversion
 # :: snt174
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:2]
 
 # sentence level graph:
 (s174p / put-down-17
@@ -3844,8 +3844,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.175 :: type = partial_conversion
 # :: snt175
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:3]
 
 # sentence level graph:
 (s175p / put-down-17
@@ -3866,8 +3866,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.176 :: type = partial_conversion
 # :: snt176
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:3]
 
 # sentence level graph:
 (s176p / put-down-17
@@ -3888,8 +3888,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.177 :: type = partial_conversion
 # :: snt177
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:3]
 
 # sentence level graph:
 (s177p / put-down-17
@@ -3939,8 +3939,8 @@ Words: <Architect> now
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.180 :: type = partial_conversion
 # :: snt180
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18          19
-Words: <Architect> place       one         more        red         block       two         red         blocks      away        from        the         orange      blocks      on          the         blue        block       side
+Index: 1           2     3   4    5   6     7   8   9      10   11   12  13     14     15 16  17   18    19
+Words: <Architect> place one more red block two red blocks away from the orange blocks on the blue block side
 
 # sentence level graph:
 (s180p / place-01
@@ -3973,8 +3973,8 @@ Words: <Architect> place       one         more        red         block       t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.181 :: type = partial_conversion
 # :: snt181
-Index: 1         2         3         4
-Words: <Builder> which     orange    block
+Index: 1         2     3      4
+Words: <Builder> which orange block
 
 # sentence level graph:
 (s181b / block
@@ -3989,8 +3989,8 @@ Words: <Builder> which     orange    block
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.182 :: type = partial_conversion
 # :: snt182
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:1      Z:3]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:1 Z:3]
 
 # sentence level graph:
 (s182p / put-down-17
@@ -4025,8 +4025,8 @@ Words: <Architect> sorry
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.184 :: type = partial_conversion
 # :: snt184
-Index: 1           2           3           4           5           6
-Words: <Architect> on          the         red         block       line
+Index: 1           2  3   4   5     6
+Words: <Architect> on the red block line
 
 # sentence level graph:
 (s184o / on-top-03
@@ -4045,8 +4045,8 @@ Words: <Architect> on          the         red         block       line
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.185 :: type = partial_conversion
 # :: snt185
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> but         one         block       closer      to          the         orange      blocks
+Index: 1           2   3   4     5      6  7   8      9
+Words: <Architect> but one block closer to the orange blocks
 
 # sentence level graph:
 (s185c / contrast-91
@@ -4068,8 +4068,8 @@ Words: <Architect> but         one         block       closer      to          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.186 :: type = partial_conversion
 # :: snt186
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:1      Z:3]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:1 Z:3]
 
 # sentence level graph:
 (s186p / put-down-17
@@ -4090,8 +4090,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.187 :: type = partial_conversion
 # :: snt187
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:2      Y:1      Z:3]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:2 Y:1 Z:3]
 
 # sentence level graph:
 (s187p / pick-up-04
@@ -4112,8 +4112,8 @@ Words: [Builder picks    up       a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.188 :: type = partial_conversion
 # :: snt188
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> it          needs       to          go          no          top         of          the         red         blocks      that        are         already     there
+Index: 1           2  3     4  5  6  7   8  9   10  11     12   13  14      15
+Words: <Architect> it needs to go no top of the red blocks that are already there
 
 # sentence level graph:
 (s188n / need-01
@@ -4140,8 +4140,8 @@ Words: <Architect> it          needs       to          go          no          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.189 :: type = partial_conversion
 # :: snt189
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:4 Z:0]
 
 # sentence level graph:
 (s189p / put-down-17
@@ -4162,8 +4162,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.190 :: type = partial_conversion
 # :: snt190
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:1      Z:3]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:1 Z:3]
 
 # sentence level graph:
 (s190p / pick-up-04
@@ -4184,8 +4184,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.191 :: type = partial_conversion
 # :: snt191
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> one         more        closer      to          the         orange      blocks
+Index: 1           2   3    4      5  6   7      8
+Words: <Architect> one more closer to the orange blocks
 
 # sentence level graph:
 (s191c / close-10
@@ -4207,8 +4207,8 @@ Words: <Architect> one         more        closer      to          the         o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.192 :: type = partial_conversion
 # :: snt192
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:3 Z:0]
 
 # sentence level graph:
 (s192p / put-down-17
@@ -4229,8 +4229,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.193 :: type = partial_conversion
 # :: snt193
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:2      Y:4      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:2 Y:4 Z:0]
 
 # sentence level graph:
 (s193p / pick-up-04
@@ -4267,8 +4267,8 @@ Words: <Architect> exactly
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.195 :: type = partial_conversion
 # :: snt195
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> now         remove      the         red         block       beneath     the         one         you         just        placed
+Index: 1           2   3      4   5   6     7       8   9   10  11   12
+Words: <Architect> now remove the red block beneath the one you just placed
 
 # sentence level graph:
 (s195r / remove-01
@@ -4295,8 +4295,8 @@ Words: <Architect> now         remove      the         red         block       b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.196 :: type = partial_conversion
 # :: snt196
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:2      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:2 Z:1]
 
 # sentence level graph:
 (s196p / put-down-17
@@ -4317,8 +4317,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.197 :: type = partial_conversion
 # :: snt197
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:2      Z:1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:2 Z:1]
 
 # sentence level graph:
 (s197p / pick-up-04
@@ -4339,8 +4339,8 @@ Words: [Builder picks    up       a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.198 :: type = partial_conversion
 # :: snt198
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:1      Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s198p / pick-up-04
@@ -4376,8 +4376,8 @@ Words: <Architect> perfect
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.200 :: type = partial_conversion
 # :: snt200
-Index: 1           2           3           4           5           6
-Words: <Architect> now,        place       3           red         blocks
+Index: 1           2    3     4 5   6
+Words: <Architect> now, place 3 red blocks
 
 # sentence level graph:
 (s200p / place-01
@@ -4398,8 +4398,8 @@ Words: <Architect> now,        place       3           red         blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.201 :: type = partial_conversion
 # :: snt201
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> on          top         of          the         orange      block       that        is          on          the         red         block       line
+Index: 1           2  3   4  5   6      7     8    9  10 11  12  13    14
+Words: <Architect> on top of the orange block that is on the red block line
 
 # sentence level graph:
 (s201s / space
@@ -4423,8 +4423,8 @@ Words: <Architect> on          top         of          the         orange      b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.202 :: type = partial_conversion
 # :: snt202
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:4 Z:0]
 
 # sentence level graph:
 (s202p / put-down-17
@@ -4445,8 +4445,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.203 :: type = partial_conversion
 # :: snt203
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:5 Z:0]
 
 # sentence level graph:
 (s203p / put-down-17
@@ -4467,8 +4467,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.204 :: type = partial_conversion
 # :: snt204
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:6      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:6 Z:0]
 
 # sentence level graph:
 (s204p / put-down-17
@@ -4489,8 +4489,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.205 :: type = partial_conversion
 # :: snt205
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> great,      now         remove      the         bottom      two         you         just        placed
+Index: 1           2      3   4      5   6      7   8   9    10
+Words: <Architect> great, now remove the bottom two you just placed
 
 # sentence level graph:
 (s205a / and
@@ -4518,8 +4518,8 @@ Words: <Architect> great,      now         remove      the         bottom      t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.206 :: type = partial_conversion
 # :: snt206
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:4      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:4 Z:0]
 
 # sentence level graph:
 (s206p / pick-up-04
@@ -4540,8 +4540,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.207 :: type = partial_conversion
 # :: snt207
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:5      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:5 Z:0]
 
 # sentence level graph:
 (s207p / pick-up-04
@@ -4562,8 +4562,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.208 :: type = partial_conversion
 # :: snt208
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16
-Words: <Architect> on          top         of          the         red         block       that        is          one         block       closer      to          the         purple      block
+Index: 1           2  3   4  5   6   7     8    9  10  11    12     13 14  15     16
+Words: <Architect> on top of the red block that is one block closer to the purple block
 
 # sentence level graph:
 (s208o / on-top-03
@@ -4589,8 +4589,8 @@ Words: <Architect> on          top         of          the         red         b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.209 :: type = partial_conversion
 # :: snt209
-Index: 1           2           3           4           5           6
-Words: <Architect> place       4           more        red         blocks
+Index: 1           2     3 4    5   6
+Words: <Architect> place 4 more red blocks
 
 # sentence level graph:
 (s209p / place-01
@@ -4611,8 +4611,8 @@ Words: <Architect> place       4           more        red         blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.210 :: type = partial_conversion
 # :: snt210
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:3 Z:0]
 
 # sentence level graph:
 (s210p / put-down-17
@@ -4633,8 +4633,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.211 :: type = partial_conversion
 # :: snt211
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:4 Z:0]
 
 # sentence level graph:
 (s211p / put-down-17
@@ -4655,8 +4655,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.212 :: type = partial_conversion
 # :: snt212
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:5 Z:0]
 
 # sentence level graph:
 (s212p / put-down-17
@@ -4677,8 +4677,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.213 :: type = partial_conversion
 # :: snt213
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:6      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:6 Z:0]
 
 # sentence level graph:
 (s213p / put-down-17
@@ -4699,8 +4699,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.214 :: type = partial_conversion
 # :: snt214
-Index: 1           2           3           4           5
-Words: <Architect> remove      the         bottom      3
+Index: 1           2      3   4      5
+Words: <Architect> remove the bottom 3
 
 # sentence level graph:
 (s214r / remove-01
@@ -4722,8 +4722,8 @@ Words: <Architect> remove      the         bottom      3
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.215 :: type = partial_conversion
 # :: snt215
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:5      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:5 Z:0]
 
 # sentence level graph:
 (s215p / pick-up-04
@@ -4744,8 +4744,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.216 :: type = partial_conversion
 # :: snt216
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:4      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:4 Z:0]
 
 # sentence level graph:
 (s216p / pick-up-04
@@ -4766,8 +4766,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.217 :: type = partial_conversion
 # :: snt217
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:3      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:3 Z:0]
 
 # sentence level graph:
 (s217p / pick-up-04
@@ -4788,8 +4788,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.218 :: type = partial_conversion
 # :: snt218
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:6      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:6 Z:0]
 
 # sentence level graph:
 (s218p / pick-up-04
@@ -4810,8 +4810,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.219 :: type = partial_conversion
 # :: snt219
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:6      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:6 Z:0]
 
 # sentence level graph:
 (s219p / put-down-17
@@ -4832,8 +4832,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.220 :: type = partial_conversion
 # :: snt220
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:6      Z:1]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:6 Z:1]
 
 # sentence level graph:
 (s220p / put-down-17
@@ -4854,8 +4854,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.221 :: type = partial_conversion
 # :: snt221
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:6      Z:1]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:6 Z:1]
 
 # sentence level graph:
 (s221p / pick-up-04
@@ -4876,8 +4876,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.222 :: type = partial_conversion
 # :: snt222
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:6      Z:1]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:6 Z:1]
 
 # sentence level graph:
 (s222p / put-down-17
@@ -4898,8 +4898,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.223 :: type = partial_conversion
 # :: snt223
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:6      Z:1]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:6 Z:1]
 
 # sentence level graph:
 (s223p / pick-up-04
@@ -4920,8 +4920,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.224 :: type = partial_conversion
 # :: snt224
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:6      Z:1]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:6 Z:1]
 
 # sentence level graph:
 (s224p / put-down-17
@@ -4942,8 +4942,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.225 :: type = partial_conversion
 # :: snt225
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-3     Y:6      Z:1]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-3 Y:6 Z:1]
 
 # sentence level graph:
 (s225p / pick-up-04
@@ -4964,8 +4964,8 @@ Words: [Builder picks    up       a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.226 :: type = partial_conversion
 # :: snt226
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-2     Y:6      Z:1]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-2 Y:6 Z:1]
 
 # sentence level graph:
 (s226p / pick-up-04
@@ -4986,8 +4986,8 @@ Words: [Builder picks    up       a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.227 :: type = partial_conversion
 # :: snt227
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> now         we're       going       to          work        exclusively with        the         orange      blocks
+Index: 1           2   3     4     5  6    7           8    9   10     11
+Words: <Architect> now we're going to work exclusively with the orange blocks
 
 # sentence level graph:
 (s227w / work-01
@@ -5008,8 +5008,8 @@ Words: <Architect> now         we're       going       to          work        e
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.228 :: type = partial_conversion
 # :: snt228
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> on          the         opposite    side        of          the         yellow      block
+Index: 1           2  3   4        5    6  7   8      9
+Words: <Architect> on the opposite side of the yellow block
 
 # sentence level graph:
 (s228h / have-place-91
@@ -5026,8 +5026,8 @@ Words: <Architect> on          the         opposite    side        of          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.229 :: type = partial_conversion
 # :: snt229
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> place       a           5           stack       of          orange      blocks
+Index: 1           2     3 4 5     6  7      8
+Words: <Architect> place a 5 stack of orange blocks
 
 # sentence level graph:
 (s229p / place-01
@@ -5050,8 +5050,8 @@ Words: <Architect> place       a           5           stack       of          o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.230 :: type = partial_conversion
 # :: snt230
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> at          the         end         of          that        line        of          orange      blocks
+Index: 1           2  3   4   5  6    7    8  9      10
+Words: <Architect> at the end of that line of orange blocks
 
 # sentence level graph:
 (s230b / have-goal-91
@@ -5071,8 +5071,8 @@ Words: <Architect> at          the         end         of          that        l
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.231 :: type = partial_conversion
 # :: snt231
-Index: 1         2         3         4         5         6         7         8
-Words: <Builder> i         only      have      four      orange    blocks    left
+Index: 1         2 3    4    5    6      7      8
+Words: <Builder> i only have four orange blocks left
 
 # sentence level graph:
 (s231h / have-03
@@ -5093,8 +5093,8 @@ Words: <Builder> i         only      have      four      orange    blocks    lef
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.232 :: type = partial_conversion
 # :: snt232
-Index: 1           2           3
-Words: <Architect> i           see
+Index: 1           2 3
+Words: <Architect> i see
 
 # sentence level graph:
 (s232s / see-01
@@ -5110,8 +5110,8 @@ Words: <Architect> i           see
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.233 :: type = partial_conversion
 # :: snt233
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:4]
 
 # sentence level graph:
 (s233p / put-down-17
@@ -5132,8 +5132,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.234 :: type = partial_conversion
 # :: snt234
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:4]
 
 # sentence level graph:
 (s234p / put-down-17
@@ -5154,8 +5154,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.235 :: type = partial_conversion
 # :: snt235
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:4]
 
 # sentence level graph:
 (s235p / put-down-17
@@ -5176,8 +5176,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.236 :: type = partial_conversion
 # :: snt236
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:5]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:5]
 
 # sentence level graph:
 (s236p / pick-up-04
@@ -5198,8 +5198,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.237 :: type = partial_conversion
 # :: snt237
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:4]
 
 # sentence level graph:
 (s237p / pick-up-04
@@ -5220,8 +5220,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.238 :: type = partial_conversion
 # :: snt238
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:4]
 
 # sentence level graph:
 (s238p / pick-up-04
@@ -5242,8 +5242,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.239 :: type = partial_conversion
 # :: snt239
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:4]
 
 # sentence level graph:
 (s239p / pick-up-04
@@ -5264,8 +5264,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.240 :: type = partial_conversion
 # :: snt240
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:4]
 
 # sentence level graph:
 (s240p / put-down-17
@@ -5286,8 +5286,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.241 :: type = partial_conversion
 # :: snt241
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:4]
 
 # sentence level graph:
 (s241p / put-down-17
@@ -5308,8 +5308,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.242 :: type = partial_conversion
 # :: snt242
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:4]
 
 # sentence level graph:
 (s242p / put-down-17
@@ -5330,8 +5330,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.243 :: type = partial_conversion
 # :: snt243
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:4      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:4 Z:4]
 
 # sentence level graph:
 (s243p / put-down-17
@@ -5352,8 +5352,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.244 :: type = partial_conversion
 # :: snt244
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> remove      the         stack       adjacent    to          the         red         blocks
+Index: 1           2      3   4     5        6  7   8   9
+Words: <Architect> remove the stack adjacent to the red blocks
 
 # sentence level graph:
 (s244r / remove-01
@@ -5375,8 +5375,8 @@ Words: <Architect> remove      the         stack       adjacent    to          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.245 :: type = partial_conversion
 # :: snt245
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:2]
 
 # sentence level graph:
 (s245p / pick-up-04
@@ -5397,8 +5397,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.246 :: type = partial_conversion
 # :: snt246
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:2]
 
 # sentence level graph:
 (s246p / put-down-17
@@ -5419,8 +5419,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.247 :: type = partial_conversion
 # :: snt247
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:1]
 
 # sentence level graph:
 (s247p / pick-up-04
@@ -5441,8 +5441,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.248 :: type = partial_conversion
 # :: snt248
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:1]
 
 # sentence level graph:
 (s248p / pick-up-04
@@ -5463,8 +5463,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.249 :: type = partial_conversion
 # :: snt249
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:1]
 
 # sentence level graph:
 (s249p / pick-up-04
@@ -5485,8 +5485,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.250 :: type = partial_conversion
 # :: snt250
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> place       them        all         on          the         next        stack
+Index: 1           2     3    4   5  6   7    8
+Words: <Architect> place them all on the next stack
 
 # sentence level graph:
 (s250p / place-01
@@ -5510,8 +5510,8 @@ Words: <Architect> place       them        all         on          the         n
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.251 :: type = partial_conversion
 # :: snt251
-Index: 1           2           3           4           5           6           7
-Words: <Architect> so          it          will        be          6           high
+Index: 1           2  3  4    5  6 7
+Words: <Architect> so it will be 6 high
 
 # sentence level graph:
 (s251c / cause-01
@@ -5531,8 +5531,8 @@ Words: <Architect> so          it          will        be          6           h
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.252 :: type = partial_conversion
 # :: snt252
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:4      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:4 Z:2]
 
 # sentence level graph:
 (s252p / put-down-17
@@ -5553,8 +5553,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.253 :: type = partial_conversion
 # :: snt253
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:5      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:5 Z:2]
 
 # sentence level graph:
 (s253p / put-down-17
@@ -5575,8 +5575,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.254 :: type = partial_conversion
 # :: snt254
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:6      Z:2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:6 Z:2]
 
 # sentence level graph:
 (s254p / put-down-17
@@ -5597,8 +5597,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.255 :: type = partial_conversion
 # :: snt255
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> then        remove      the         1st,        3rd,        4th         and         5th         blocks
+Index: 1           2    3      4   5    6    7   8   9   10
+Words: <Architect> then remove the 1st, 3rd, 4th and 5th blocks
 
 # sentence level graph:
 (s255r / remove-01
@@ -5629,8 +5629,8 @@ Words: <Architect> then        remove      the         1st,        3rd,        4
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.256 :: type = partial_conversion
 # :: snt256
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:2]
 
 # sentence level graph:
 (s256p / pick-up-04
@@ -5651,8 +5651,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.257 :: type = partial_conversion
 # :: snt257
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:2]
 
 # sentence level graph:
 (s257p / pick-up-04
@@ -5673,8 +5673,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.258 :: type = partial_conversion
 # :: snt258
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:4      Z:2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:4 Z:2]
 
 # sentence level graph:
 (s258p / pick-up-04
@@ -5695,8 +5695,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.259 :: type = partial_conversion
 # :: snt259
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:5      Z:2]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:5 Z:2]
 
 # sentence level graph:
 (s259p / pick-up-04
@@ -5717,8 +5717,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.260 :: type = partial_conversion
 # :: snt260
-Index: 1           2           3           4           5           6           7
-Words: <Architect> now         completely  remove      the         next        stack
+Index: 1           2   3          4      5   6    7
+Words: <Architect> now completely remove the next stack
 
 # sentence level graph:
 (s260r / remove-01
@@ -5739,8 +5739,8 @@ Words: <Architect> now         completely  remove      the         next        s
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.261 :: type = partial_conversion
 # :: snt261
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-2     Y:3      Z:3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-2 Y:3 Z:3]
 
 # sentence level graph:
 (s261p / put-down-17
@@ -5761,8 +5761,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.262 :: type = partial_conversion
 # :: snt262
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-2     Y:3      Z:3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-2 Y:3 Z:3]
 
 # sentence level graph:
 (s262p / pick-up-04
@@ -5783,8 +5783,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.263 :: type = partial_conversion
 # :: snt263
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:3]
 
 # sentence level graph:
 (s263p / pick-up-04
@@ -5805,8 +5805,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.264 :: type = partial_conversion
 # :: snt264
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:3]
 
 # sentence level graph:
 (s264p / pick-up-04
@@ -5827,8 +5827,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.265 :: type = partial_conversion
 # :: snt265
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:3]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:3]
 
 # sentence level graph:
 (s265p / pick-up-04
@@ -5849,8 +5849,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.266 :: type = partial_conversion
 # :: snt266
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:5      Z:4]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:5 Z:4]
 
 # sentence level graph:
 (s266p / put-down-17
@@ -5871,8 +5871,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.267 :: type = partial_conversion
 # :: snt267
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> now         remove      the         1st,        2nd,        and         4th         from        the         last        stack
+Index: 1           2   3      4   5    6    7   8   9    10  11   12
+Words: <Architect> now remove the 1st, 2nd, and 4th from the last stack
 
 # sentence level graph:
 (s267r / remove-01
@@ -5903,8 +5903,8 @@ Words: <Architect> now         remove      the         1st,        2nd,        a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.268 :: type = partial_conversion
 # :: snt268
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:4]
 
 # sentence level graph:
 (s268p / pick-up-04
@@ -5925,8 +5925,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.269 :: type = partial_conversion
 # :: snt269
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:2      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:2 Z:4]
 
 # sentence level graph:
 (s269p / pick-up-04
@@ -5947,8 +5947,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.270 :: type = partial_conversion
 # :: snt270
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:4      Z:4]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:4 Z:4]
 
 # sentence level graph:
 (s270p / pick-up-04
@@ -5969,8 +5969,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.271 :: type = partial_conversion
 # :: snt271
-Index: 1           2           3           4           5
-Words: <Architect> now         remove      reference   blocks
+Index: 1           2   3      4         5
+Words: <Architect> now remove reference blocks
 
 # sentence level graph:
 (s271r / remove-01
@@ -5991,8 +5991,8 @@ Words: <Architect> now         remove      reference   blocks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.272 :: type = partial_conversion
 # :: snt272
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        purple   block    at       X:-5     Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a purple block at X:-5 Y:1 Z:0]
 
 # sentence level graph:
 (s272p / pick-up-04
@@ -6013,8 +6013,8 @@ Words: [Builder picks    up       a        purple   block    at       X:-5     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.273 :: type = partial_conversion
 # :: snt273
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        yellow   block    at       X:1      Y:1      Z:-5]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a yellow block at X:1 Y:1 Z:-5]
 
 # sentence level graph:
 (s273p / pick-up-04
@@ -6035,8 +6035,8 @@ Words: [Builder picks    up       a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.274 :: type = partial_conversion
 # :: snt274
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:5      Y:1      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:5 Y:1 Z:0]
 
 # sentence level graph:
 (s274p / pick-up-04
@@ -6057,8 +6057,8 @@ Words: [Builder picks    up       a        blue     block    at       X:5      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.275 :: type = partial_conversion
 # :: snt275
-Index: 1           2           3           4           5
-Words: <Architect> remove      the         orange      block
+Index: 1           2      3   4      5
+Words: <Architect> remove the orange block
 
 # sentence level graph:
 (s275r / remove-01
@@ -6077,8 +6077,8 @@ Words: <Architect> remove      the         orange      block
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.276 :: type = partial_conversion
 # :: snt276
-Index: 1           2           3           4           5
-Words: <Architect> beneath     the         red         ones
+Index: 1           2       3   4   5
+Words: <Architect> beneath the red ones
 
 # sentence level graph:
 (s276b / beneath-01
@@ -6096,8 +6096,8 @@ Words: <Architect> beneath     the         red         ones
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.277 :: type = partial_conversion
 # :: snt277
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s277p / pick-up-04
@@ -6118,8 +6118,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.278 :: type = partial_conversion
 # :: snt278
-Index: 1           2           3
-Words: <Architect> never       mind
+Index: 1           2     3
+Words: <Architect> never mind
 
 # sentence level graph:
 (s278m / mind-15
@@ -6138,8 +6138,8 @@ Words: <Architect> never       mind
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.279 :: type = partial_conversion
 # :: snt279
-Index: 1           2           3
-Words: <Architect> eye         tricks
+Index: 1           2   3
+Words: <Architect> eye tricks
 
 # sentence level graph:
 (s279t / trick-01
@@ -6153,8 +6153,8 @@ Words: <Architect> eye         tricks
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.280 :: type = partial_conversion
 # :: snt280
-Index: 1           2           3           4           5
-Words: <Architect> no          there       is          one
+Index: 1           2  3     4  5
+Words: <Architect> no there is one
 
 # sentence level graph:
 (s280a / and
@@ -6172,8 +6172,8 @@ Words: <Architect> no          there       is          one
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.281 :: type = partial_conversion
 # :: snt281
-Index: 1           2           3           4
-Words: <Architect> please      remove      it
+Index: 1           2      3      4
+Words: <Architect> please remove it
 
 # sentence level graph:
 (s281r / remove-01
@@ -6194,8 +6194,8 @@ Words: <Architect> please      remove      it
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.282 :: type = partial_conversion
 # :: snt282
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:1 Z:-1]
 
 # sentence level graph:
 (s282p / put-down-17
@@ -6216,8 +6216,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.283 :: type = partial_conversion
 # :: snt283
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:-1]
 
 # sentence level graph:
 (s283p / pick-up-04
@@ -6238,8 +6238,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.284 :: type = partial_conversion
 # :: snt284
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s284p / pick-up-04
@@ -6260,8 +6260,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-sickles-difficult_1121.285 :: type = partial_conversion
 # :: snt285
-Index: 1           2           3
-Words: <Architect> we're       done
+Index: 1           2     3
+Words: <Architect> we're done
 
 # sentence level graph:
 (s285b / be-done-08

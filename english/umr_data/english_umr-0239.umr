@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.2 :: type = partial_conversion
 # :: snt2
-Index: 1          2          3          4          5          6          7          8          9          10
-Words: <Builder>  hello      once       again      architect, my         only       friend     and        parent
+Index: 1         2     3    4     5          6  7    8      9   10
+Words: <Builder> hello once again architect, my only friend and parent
 
 # sentence level graph:
 (s2s / say-01
@@ -42,8 +42,8 @@ Words: <Builder>  hello      once       again      architect, my         only   
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.3 :: type = partial_conversion
 # :: snt3
-Index: 1         2         3         4         5         6
-Words: <Builder> what      are       we        building  today?
+Index: 1         2    3   4  5        6
+Words: <Builder> what are we building today?
 
 # sentence level graph:
 (s3b / build-01
@@ -62,8 +62,8 @@ Words: <Builder> what      are       we        building  today?
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4           5           6
-Words: <Architect> we          are         building    a           heart
+Index: 1           2  3   4        5 6
+Words: <Architect> we are building a heart
 
 # sentence level graph:
 (s4b / build-01
@@ -80,8 +80,8 @@ Words: <Architect> we          are         building    a           heart
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.5 :: type = partial_conversion
 # :: snt5
-Index: 1           2           3           4
-Words: <Builder>   anatomical  or          figurative?
+Index: 1         2          3  4
+Words: <Builder> anatomical or figurative?
 
 # sentence level graph:
 (s5h / have-mod-91
@@ -98,8 +98,8 @@ Words: <Builder>   anatomical  or          figurative?
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.6 :: type = partial_conversion
 # :: snt6
-Index: 1           2           3           4           5           6           7
-Words: <Architect> figurative, it          looks       diseased    as          well
+Index: 1           2           3  4     5        6  7
+Words: <Architect> figurative, it looks diseased as well
 
 # sentence level graph:
 (s6a / and
@@ -121,8 +121,8 @@ Words: <Architect> figurative, it          looks       diseased    as          w
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.7 :: type = partial_conversion
 # :: snt7
-Index: 1         2         3         4         5         6         7         8         9         10        11        12
-Words: <Builder> oh        my,       well      let's     see       what      we        can       do        about     that
+Index: 1         2  3   4    5     6   7    8  9   10 11    12
+Words: <Builder> oh my, well let's see what we can do about that
 
 # sentence level graph:
 (s7a / and
@@ -146,8 +146,8 @@ Words: <Builder> oh        my,       well      let's     see       what      we 
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.8 :: type = partial_conversion
 # :: snt8
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> ok          start       in          the         very        center      with        one         red         block
+Index: 1           2  3     4  5   6    7      8    9   10  11
+Words: <Architect> ok start in the very center with one red block
 
 # sentence level graph:
 (s8a / and
@@ -172,8 +172,8 @@ Words: <Architect> ok          start       in          the         very        c
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.9 :: type = partial_conversion
 # :: snt9
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s9p / put-down-17
@@ -194,8 +194,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.10 :: type = partial_conversion
 # :: snt10
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s10p / pick-up-04
@@ -216,8 +216,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.11 :: type = partial_conversion
 # :: snt11
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s11p / put-down-17
@@ -238,8 +238,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.12 :: type = partial_conversion
 # :: snt12
-Index: 1             2             3             4             5             6             7
-Words: <Architect>   heart         is            perpendicular to            the           ground
+Index: 1           2     3  4             5  6   7
+Words: <Architect> heart is perpendicular to the ground
 
 # sentence level graph:
 (s12p / perpendicular-01
@@ -254,8 +254,8 @@ Words: <Architect>   heart         is            perpendicular to            the
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -276,8 +276,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.14 :: type = partial_conversion
 # :: snt14
-Index: 1            2            3            4            5            6            7            8            9            10           11           12           13           14           15           16           17           18
-Words: <Architect>  so           we           are          going        to           need         blue         placeholders to           the          left         and          right        of           the          base         block
+Index: 1           2  3  4   5     6  7    8    9            10 11  12   13  14    15 16  17   18
+Words: <Architect> so we are going to need blue placeholders to the left and right of the base block
 
 # sentence level graph:
 (s14n / need-01
@@ -311,8 +311,8 @@ Words: <Architect>  so           we           are          going        to      
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.15 :: type = partial_conversion
 # :: snt15
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:0      Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8   9   10
+Words: [Builder picks up a red block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s15p / pick-up-04
@@ -333,8 +333,8 @@ Words: [Builder picks    up       a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s16p / put-down-17
@@ -355,8 +355,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s17p / put-down-17
@@ -377,8 +377,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.18 :: type = partial_conversion
 # :: snt18
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s18p / put-down-17
@@ -399,8 +399,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.19 :: type = partial_conversion
 # :: snt19
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s19p / put-down-17
@@ -421,8 +421,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.20 :: type = partial_conversion
 # :: snt20
-Index: 1         2         3
-Words: <Builder> like      that?
+Index: 1         2    3
+Words: <Builder> like that?
 
 # sentence level graph:
 (s20r / resemble-91
@@ -438,8 +438,8 @@ Words: <Builder> like      that?
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.21 :: type = partial_conversion
 # :: snt21
-Index: 1           2           3           4
-Words: <Architect> you         got         it
+Index: 1           2   3   4
+Words: <Architect> you got it
 
 # sentence level graph:
 (s21g / get-02
@@ -458,8 +458,8 @@ Words: <Architect> you         got         it
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.22 :: type = partial_conversion
 # :: snt22
-Index: 1           2           3           4           5
-Words: <Architect> do          that        twice       more
+Index: 1           2  3    4     5
+Words: <Architect> do that twice more
 
 # sentence level graph:
 (s22d / do-02
@@ -480,8 +480,8 @@ Words: <Architect> do          that        twice       more
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-2     Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s23p / put-down-17
@@ -502,8 +502,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:2      Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:2 Y:2 Z:0]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -524,8 +524,8 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:3 Z:0]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -546,8 +546,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:3      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:3 Z:0]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -568,8 +568,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-3     Y:3      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-3 Y:3 Z:0]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -590,8 +590,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:3      Y:3      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:3 Y:3 Z:0]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -612,8 +612,8 @@ Words: [Builder puts     down     a        blue     block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.29 :: type = partial_conversion
 # :: snt29
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:3      Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:3 Y:4 Z:0]
 
 # sentence level graph:
 (s29p / put-down-17
@@ -634,8 +634,8 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:4 Z:0]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -656,8 +656,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.31 :: type = partial_conversion
 # :: snt31
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> ok          now         you         can         get         rid         of          the         blue        blocks
+Index: 1           2  3   4   5   6   7   8  9   10   11
+Words: <Architect> ok now you can get rid of the blue blocks
 
 # sentence level graph:
 (s31a / and
@@ -680,8 +680,8 @@ Words: <Architect> ok          now         you         can         get         r
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:3      Y:3      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:3 Y:3 Z:0]
 
 # sentence level graph:
 (s32p / pick-up-04
@@ -702,8 +702,8 @@ Words: [Builder picks    up       a        blue     block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.33 :: type = partial_conversion
 # :: snt33
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:2      Y:2      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:2 Y:2 Z:0]
 
 # sentence level graph:
 (s33p / pick-up-04
@@ -724,8 +724,8 @@ Words: [Builder picks    up       a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.34 :: type = partial_conversion
 # :: snt34
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:1      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s34p / pick-up-04
@@ -746,8 +746,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:-1     Y:1      Z:0]
+Index: 1        2     3  4 5    6     7  8    9   10
+Words: [Builder picks up a blue block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s35p / pick-up-04
@@ -768,8 +768,8 @@ Words: [Builder picks    up       a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:-2     Y:2      Z:0]
+Index: 1        2     3  4 5    6     7  8    9   10
+Words: [Builder picks up a blue block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s36p / pick-up-04
@@ -790,8 +790,8 @@ Words: [Builder picks    up       a        blue     block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:-3     Y:3      Z:0]
+Index: 1        2     3  4 5    6     7  8    9   10
+Words: [Builder picks up a blue block at X:-3 Y:3 Z:0]
 
 # sentence level graph:
 (s37p / pick-up-04
@@ -826,8 +826,8 @@ Words: <Builder> ok
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.39 :: type = partial_conversion
 # :: snt39
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> build       a           red         block       on          top         of          each        of          the         top         red         blocks
+Index: 1           2     3 4   5     6  7   8  9    10 11  12  13  14
+Words: <Architect> build a red block on top of each of the top red blocks
 
 # sentence level graph:
 (s39b / build-01
@@ -865,8 +865,8 @@ Words: <Architect> build       a           red         block       on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.40 :: type = partial_conversion
 # :: snt40
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:3      Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:3 Y:5 Z:0]
 
 # sentence level graph:
 (s40p / put-down-17
@@ -887,8 +887,8 @@ Words: [Builder puts     down     a        red      block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-3     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-3 Y:5 Z:0]
 
 # sentence level graph:
 (s41p / put-down-17
@@ -909,8 +909,8 @@ Words: [Builder puts     down     a        red      block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.42 :: type = partial_conversion
 # :: snt42
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> now         build       towards     the         center      with        two         more        red         blocks      per         side
+Index: 1           2   3     4       5   6      7    8   9    10  11     12  13
+Words: <Architect> now build towards the center with two more red blocks per side
 
 # sentence level graph:
 (s42b / build-01
@@ -942,8 +942,8 @@ Words: <Architect> now         build       towards     the         center      w
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.43 :: type = partial_conversion
 # :: snt43
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:2 Y:5 Z:0]
 
 # sentence level graph:
 (s43p / put-down-17
@@ -964,8 +964,8 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:1      Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:1 Y:5 Z:0]
 
 # sentence level graph:
 (s44p / put-down-17
@@ -986,8 +986,8 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.45 :: type = partial_conversion
 # :: snt45
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:5 Z:0]
 
 # sentence level graph:
 (s45p / put-down-17
@@ -1008,8 +1008,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.46 :: type = partial_conversion
 # :: snt46
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:5      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:5 Z:0]
 
 # sentence level graph:
 (s46p / put-down-17
@@ -1030,8 +1030,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.47 :: type = partial_conversion
 # :: snt47
-Index: 1           2           3           4           5           6           7
-Words: <Architect> put         a           placeholder block       in          between
+Index: 1           2   3 4           5     6  7
+Words: <Architect> put a placeholder block in between
 
 # sentence level graph:
 (s47p / put-01
@@ -1053,8 +1053,8 @@ Words: <Architect> put         a           placeholder block       in          b
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.48 :: type = partial_conversion
 # :: snt48
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:5      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:5 Z:0]
 
 # sentence level graph:
 (s48p / put-down-17
@@ -1075,8 +1075,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.49 :: type = partial_conversion
 # :: snt49
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:4      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:4 Z:0]
 
 # sentence level graph:
 (s49p / put-down-17
@@ -1097,8 +1097,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.50 :: type = partial_conversion
 # :: snt50
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> and         then        another     red         one         below       that
+Index: 1           2   3    4       5   6   7     8
+Words: <Architect> and then another red one below that
 
 # sentence level graph:
 (s50a / and
@@ -1121,8 +1121,8 @@ Words: <Architect> and         then        another     red         one         b
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.51 :: type = partial_conversion
 # :: snt51
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:0      Y:5      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:0 Y:5 Z:0]
 
 # sentence level graph:
 (s51p / pick-up-04
@@ -1157,8 +1157,8 @@ Words: <Architect> yep
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.53 :: type = partial_conversion
 # :: snt53
-Index: 1           2           3           4           5           6           7
-Words: <Architect> ok          time        to          build       the         disease
+Index: 1           2  3    4  5     6   7
+Words: <Architect> ok time to build the disease
 
 # sentence level graph:
 (s53a / and
@@ -1175,8 +1175,8 @@ Words: <Architect> ok          time        to          build       the         d
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.54 :: type = partial_conversion
 # :: snt54
-Index: 1         2         3         4
-Words: <Builder> i         am        ready
+Index: 1         2 3  4
+Words: <Builder> i am ready
 
 # sentence level graph:
 (s54r / ready-02
@@ -1192,8 +1192,8 @@ Words: <Builder> i         am        ready
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.55 :: type = partial_conversion
 # :: snt55
-Index: 1           2           3           4
-Words: <Architect> switch      to          orange
+Index: 1           2      3  4
+Words: <Architect> switch to orange
 
 # sentence level graph:
 (s55s / switch-01
@@ -1212,8 +1212,8 @@ Words: <Architect> switch      to          orange
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.56 :: type = partial_conversion
 # :: snt56
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-2     Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-2 Y:5 Z:-1]
 
 # sentence level graph:
 (s56p / put-down-17
@@ -1234,8 +1234,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.57 :: type = partial_conversion
 # :: snt57
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-3     Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-3 Y:5 Z:-1]
 
 # sentence level graph:
 (s57p / put-down-17
@@ -1256,8 +1256,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.58 :: type = partial_conversion
 # :: snt58
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-3     Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-3 Y:4 Z:-1]
 
 # sentence level graph:
 (s58p / put-down-17
@@ -1278,8 +1278,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.59 :: type = partial_conversion
 # :: snt59
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-2     Y:5      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-2 Y:5 Z:-1]
 
 # sentence level graph:
 (s59p / pick-up-04
@@ -1300,8 +1300,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.60 :: type = partial_conversion
 # :: snt60
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-3     Y:5      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-3 Y:5 Z:-1]
 
 # sentence level graph:
 (s60p / pick-up-04
@@ -1322,8 +1322,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.61 :: type = partial_conversion
 # :: snt61
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-3     Y:4      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-3 Y:4 Z:-1]
 
 # sentence level graph:
 (s61p / pick-up-04
@@ -1344,8 +1344,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.62 :: type = partial_conversion
 # :: snt62
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18
-Words: <Architect> place       an          orange      block       to          the         right       of          the         base        red         block       with        two         spaces      in          between
+Index: 1           2     3  4      5     6  7   8     9  10  11   12  13    14   15  16     17 18
+Words: <Architect> place an orange block to the right of the base red block with two spaces in between
 
 # sentence level graph:
 (s62p / place-01
@@ -1378,8 +1378,8 @@ Words: <Architect> place       an          orange      block       to          t
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.63 :: type = partial_conversion
 # :: snt63
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-3     Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-3 Y:1 Z:0]
 
 # sentence level graph:
 (s63p / put-down-17
@@ -1414,8 +1414,8 @@ Words: <Architect> nice
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.65 :: type = partial_conversion
 # :: snt65
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> now         put         one         diagonally  above       to          the         left        of          that        orange      block
+Index: 1           2   3   4   5          6     7  8   9    10 11   12     13
+Words: <Architect> now put one diagonally above to the left of that orange block
 
 # sentence level graph:
 (s65p / put-01
@@ -1448,8 +1448,8 @@ Words: <Architect> now         put         one         diagonally  above       t
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.66 :: type = partial_conversion
 # :: snt66
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-2     Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s66p / put-down-17
@@ -1470,8 +1470,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.67 :: type = partial_conversion
 # :: snt67
-Index: 1           2           3           4           5           6
-Words: <Architect> and         then        do          it          again
+Index: 1           2   3    4  5  6
+Words: <Architect> and then do it again
 
 # sentence level graph:
 (s67a / and
@@ -1494,8 +1494,8 @@ Words: <Architect> and         then        do          it          again
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.68 :: type = partial_conversion
 # :: snt68
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s68p / put-down-17
@@ -1516,8 +1516,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.69 :: type = partial_conversion
 # :: snt69
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:6      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:6 Z:0]
 
 # sentence level graph:
 (s69p / put-down-17
@@ -1538,8 +1538,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.70 :: type = partial_conversion
 # :: snt70
-Index: 1           2           3
-Words: <Architect> yes         actually
+Index: 1           2   3
+Words: <Architect> yes actually
 
 # sentence level graph:
 (s70c / confirm-01
@@ -1553,8 +1553,8 @@ Words: <Architect> yes         actually
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.71 :: type = partial_conversion
 # :: snt71
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16          17          18          19          20
-Words: <Architect> ok          there       is          like        a           floating    l           to          the         upper       left        so          now         we          are         going       to          build       that
+Index: 1           2  3     4  5    6 7        8 9  10  11    12   13 14  15 16  17    18 19    20
+Words: <Architect> ok there is like a floating l to the upper left so now we are going to build that
 
 # sentence level graph:
 (s71a / and
@@ -1588,8 +1588,8 @@ Words: <Architect> ok          there       is          like        a           f
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.72 :: type = partial_conversion
 # :: snt72
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:6      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:6 Z:0]
 
 # sentence level graph:
 (s72p / put-down-17
@@ -1610,8 +1610,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.73 :: type = partial_conversion
 # :: snt73
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:3      Y:6      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:3 Y:6 Z:0]
 
 # sentence level graph:
 (s73p / pick-up-04
@@ -1646,8 +1646,8 @@ Words: <Builder> ok
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.75 :: type = partial_conversion
 # :: snt75
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> put         two         blue        blocks      on          top         of          the         upper       left        orange      block
+Index: 1           2   3   4    5      6  7   8  9   10    11   12     13
+Words: <Architect> put two blue blocks on top of the upper left orange block
 
 # sentence level graph:
 (s75p / put-01
@@ -1679,8 +1679,8 @@ Words: <Architect> put         two         blue        blocks      on          t
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.76 :: type = partial_conversion
 # :: snt76
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:2      Y:7      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:2 Y:7 Z:0]
 
 # sentence level graph:
 (s76p / put-down-17
@@ -1701,8 +1701,8 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.77 :: type = partial_conversion
 # :: snt77
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:2      Y:8      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:2 Y:8 Z:0]
 
 # sentence level graph:
 (s77p / put-down-17
@@ -1723,8 +1723,8 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.78 :: type = partial_conversion
 # :: snt78
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> now         put         two         orange      blocks      to          the         left
+Index: 1           2   3   4   5      6      7  8   9
+Words: <Architect> now put two orange blocks to the left
 
 # sentence level graph:
 (s78p / put-01
@@ -1750,8 +1750,8 @@ Words: <Architect> now         put         two         orange      blocks      t
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.79 :: type = partial_conversion
 # :: snt79
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:3      Y:8      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:3 Y:8 Z:0]
 
 # sentence level graph:
 (s79p / put-down-17
@@ -1772,8 +1772,8 @@ Words: [Builder puts     down     a        orange   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.80 :: type = partial_conversion
 # :: snt80
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:4      Y:8      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:4 Y:8 Z:0]
 
 # sentence level graph:
 (s80p / put-down-17
@@ -1794,8 +1794,8 @@ Words: [Builder puts     down     a        orange   block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.81 :: type = partial_conversion
 # :: snt81
-Index: 1           2           3           4           5           6           7
-Words: <Architect> and         one         under       the         second      one
+Index: 1           2   3   4     5   6      7
+Words: <Architect> and one under the second one
 
 # sentence level graph:
 (s81a / and
@@ -1819,8 +1819,8 @@ Words: <Architect> and         one         under       the         second      o
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.82 :: type = partial_conversion
 # :: snt82
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:4      Y:7      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:4 Y:7 Z:0]
 
 # sentence level graph:
 (s82p / put-down-17
@@ -1841,8 +1841,8 @@ Words: [Builder puts     down     a        orange   block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.83 :: type = partial_conversion
 # :: snt83
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> now         you         can         get         rid         of          blue
+Index: 1           2   3   4   5   6   7  8
+Words: <Architect> now you can get rid of blue
 
 # sentence level graph:
 (s83r / rid-01
@@ -1861,8 +1861,8 @@ Words: <Architect> now         you         can         get         rid         o
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.84 :: type = partial_conversion
 # :: snt84
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:2      Y:7      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:2 Y:7 Z:0]
 
 # sentence level graph:
 (s84p / pick-up-04
@@ -1883,8 +1883,8 @@ Words: [Builder picks    up       a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.85 :: type = partial_conversion
 # :: snt85
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:2      Y:8      Z:0]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:2 Y:8 Z:0]
 
 # sentence level graph:
 (s85p / pick-up-04
@@ -1905,8 +1905,8 @@ Words: [Builder picks    up       a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-3-30-broken-heart_1103.86 :: type = partial_conversion
 # :: snt86
-Index: 1           2           3           4
-Words: <Architect> nice,       that's      it
+Index: 1           2     3      4
+Words: <Architect> nice, that's it
 
 # sentence level graph:
 (s86a / and

@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.2 :: type = partial_conversion
 # :: snt2
-Index: 1           2           3           4           5           6
-Words: <Architect> this        is          a           2D          structure
+Index: 1           2    3  4 5  6
+Words: <Architect> this is a 2D structure
 
 # sentence level graph:
 (s2s / structure
@@ -32,8 +32,8 @@ Words: <Architect> this        is          a           2D          structure
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.3 :: type = partial_conversion
 # :: snt3
-Index: 1           2           3           4           5           6           7
-Words: <Architect> it          looks       like        a           tetris      game
+Index: 1           2  3     4    5 6      7
+Words: <Architect> it looks like a tetris game
 
 # sentence level graph:
 (s3l / look-02
@@ -50,8 +50,8 @@ Words: <Architect> it          looks       like        a           tetris      g
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4           5
-Words: <Architect> red         block       in          centere
+Index: 1           2   3     4  5
+Words: <Architect> red block in centere
 
 # sentence level graph:
 (s4b / be-destined-for-91
@@ -68,8 +68,8 @@ Words: <Architect> red         block       in          centere
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.5 :: type = partial_conversion
 # :: snt5
-Index: 1           2           3           4           5
-Words: <Architect> then        green       on          top
+Index: 1           2    3     4  5
+Words: <Architect> then green on top
 
 # sentence level graph:
 (s5b / be-destined-for-91
@@ -89,8 +89,8 @@ Words: <Architect> then        green       on          top
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.6 :: type = partial_conversion
 # :: snt6
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s6p / put-down-17
@@ -111,8 +111,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -133,8 +133,8 @@ Words: [Builder puts     down     a        green    block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.8 :: type = partial_conversion
 # :: snt8
-Index: 1           2           3           4           5           6
-Words: <Architect> green       tower       to          any         side
+Index: 1           2     3     4  5   6
+Words: <Architect> green tower to any side
 
 # sentence level graph:
 (s8b / be-destined-for-91
@@ -156,8 +156,8 @@ Words: <Architect> green       tower       to          any         side
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.9 :: type = partial_conversion
 # :: snt9
-Index: 1           2           3
-Words: <Architect> 2           tall
+Index: 1           2 3
+Words: <Architect> 2 tall
 
 # sentence level graph:
 (s9t / tall-01
@@ -174,8 +174,8 @@ Words: <Architect> 2           tall
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.10 :: type = partial_conversion
 # :: snt10
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:1      Y:2      Z:0]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:1 Y:2 Z:0]
 
 # sentence level graph:
 (s10p / put-down-17
@@ -196,8 +196,8 @@ Words: [Builder puts     down     a        green    block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.11 :: type = partial_conversion
 # :: snt11
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s11p / put-down-17
@@ -218,8 +218,8 @@ Words: [Builder puts     down     a        green    block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.12 :: type = partial_conversion
 # :: snt12
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> one         more        green       on          the         floor       in          that        direction
+Index: 1           2   3    4     5  6   7     8  9    10
+Words: <Architect> one more green on the floor in that direction
 
 # sentence level graph:
 (s12b / be-destined-for-91
@@ -243,8 +243,8 @@ Words: <Architect> one         more        green       on          the         f
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:2      Y:1      Z:0]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:2 Y:1 Z:0]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -265,8 +265,8 @@ Words: [Builder puts     down     a        green    block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.14 :: type = partial_conversion
 # :: snt14
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> two         red         on          the         floor       to          the         right
+Index: 1           2   3   4  5   6     7  8   9
+Words: <Architect> two red on the floor to the right
 
 # sentence level graph:
 (s14b / be-destined-for-91
@@ -291,8 +291,8 @@ Words: <Architect> two         red         on          the         floor       t
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.15 :: type = partial_conversion
 # :: snt15
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:1 Z:0]
 
 # sentence level graph:
 (s15p / put-down-17
@@ -313,8 +313,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-1     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s16p / put-down-17
@@ -335,8 +335,8 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        red      block    at       X:-1     Y:2      Z:0]
+Index: 1        2     3  4 5   6     7  8    9   10
+Words: [Builder picks up a red block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s17p / pick-up-04
@@ -357,8 +357,8 @@ Words: [Builder picks    up       a        red      block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.18 :: type = partial_conversion
 # :: snt18
-Index: 1           2           3           4
-Words: <Architect> both        on          floor
+Index: 1           2    3  4
+Words: <Architect> both on floor
 
 # sentence level graph:
 (s18b / be-destined-for-91
@@ -380,8 +380,8 @@ Words: <Architect> both        on          floor
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.19 :: type = partial_conversion
 # :: snt19
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:1      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:1 Z:0]
 
 # sentence level graph:
 (s19p / put-down-17
@@ -402,8 +402,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.20 :: type = partial_conversion
 # :: snt20
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> then        one         on          top         of          the         rightmost
+Index: 1           2    3   4  5   6  7   8
+Words: <Architect> then one on top of the rightmost
 
 # sentence level graph:
 (s20b / be-destined-for-91
@@ -429,8 +429,8 @@ Words: <Architect> then        one         on          top         of          t
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.21 :: type = partial_conversion
 # :: snt21
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:-2     Y:2      Z:0]
+Index: 1        2    3    4 5   6     7  8    9   10
+Words: [Builder puts down a red block at X:-2 Y:2 Z:0]
 
 # sentence level graph:
 (s21p / put-down-17
@@ -451,8 +451,8 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.22 :: type = partial_conversion
 # :: snt22
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> 4           tall        blue        pillar      to          the         right
+Index: 1           2 3    4    5      6  7   8
+Words: <Architect> 4 tall blue pillar to the right
 
 # sentence level graph:
 (s22b / be-destined-for-91
@@ -477,8 +477,8 @@ Words: <Architect> 4           tall        blue        pillar      to          t
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-3     Y:1      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-3 Y:1 Z:0]
 
 # sentence level graph:
 (s23p / put-down-17
@@ -499,8 +499,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-3     Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-3 Y:2 Z:0]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -521,8 +521,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-3     Y:3      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-3 Y:3 Z:0]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -543,8 +543,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-3     Y:4      Z:0]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-3 Y:4 Z:0]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -565,8 +565,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.27 :: type = partial_conversion
 # :: snt27
-Index: 1           2           3           4           5           6           7
-Words: <Architect> orange      between     the         red         and         green
+Index: 1           2      3       4   5   6   7
+Words: <Architect> orange between the red and green
 
 # sentence level graph:
 (s27b / be-destined-for-91
@@ -587,8 +587,8 @@ Words: <Architect> orange      between     the         red         and         g
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:2 Z:0]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -609,8 +609,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.29 :: type = partial_conversion
 # :: snt29
-Index: 1           2           3
-Words: <Architect> another     above
+Index: 1           2       3
+Words: <Architect> another above
 
 # sentence level graph:
 (s29b / be-destined-for-91
@@ -629,8 +629,8 @@ Words: <Architect> another     above
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:0]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -651,8 +651,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.31 :: type = partial_conversion
 # :: snt31
-Index: 1           2           3           4           5
-Words: <Architect> another     to          the         right
+Index: 1           2       3  4   5
+Words: <Architect> another to the right
 
 # sentence level graph:
 (s31b / be-destined-for-91
@@ -671,8 +671,8 @@ Words: <Architect> another     to          the         right
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-1     Y:3      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-1 Y:3 Z:-1]
 
 # sentence level graph:
 (s32p / put-down-17
@@ -693,8 +693,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.33 :: type = partial_conversion
 # :: snt33
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:-1     Y:3      Z:-1]
+Index: 1        2     3  4 5      6     7  8    9   10
+Words: [Builder picks up a orange block at X:-1 Y:3 Z:-1]
 
 # sentence level graph:
 (s33p / pick-up-04
@@ -715,8 +715,8 @@ Words: [Builder picks    up       a        orange   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.34 :: type = partial_conversion
 # :: snt34
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-2     Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-2 Y:3 Z:0]
 
 # sentence level graph:
 (s34p / put-down-17
@@ -737,8 +737,8 @@ Words: [Builder puts     down     a        orange   block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.35 :: type = partial_conversion
 # :: snt35
-Index: 1           2           3
-Words: <Architect> another     abover
+Index: 1           2       3
+Words: <Architect> another abover
 
 # sentence level graph:
 (s35b / be-destined-for-91
@@ -757,8 +757,8 @@ Words: <Architect> another     abover
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:-2     Y:4      Z:0]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a orange block at X:-2 Y:4 Z:0]
 
 # sentence level graph:
 (s36p / put-down-17
@@ -793,8 +793,8 @@ Words: <Architect> yes
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.38 :: type = partial_conversion
 # :: snt38
-Index: 1           2           3           4           5
-Words: <Architect> now         the         hard        part
+Index: 1           2   3   4    5
+Words: <Architect> now the hard part
 
 # sentence level graph:
 (s38p / part
@@ -809,8 +809,8 @@ Words: <Architect> now         the         hard        part
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.39 :: type = partial_conversion
 # :: snt39
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> a           falling     purple      block       in          the         tetris      game
+Index: 1           2 3       4      5     6  7   8      9
+Words: <Architect> a falling purple block in the tetris game
 
 # sentence level graph:
 (s39b / block
@@ -828,8 +828,8 @@ Words: <Architect> a           falling     purple      block       in          t
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.40 :: type = partial_conversion
 # :: snt40
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> off         to          the         left        make        a           purple      pillar      5           high
+Index: 1           2   3  4   5    6    7 8      9      10 11
+Words: <Architect> off to the left make a purple pillar 5  high
 
 # sentence level graph:
 (s40m / make-01
@@ -857,8 +857,8 @@ Words: <Architect> off         to          the         left        make        a
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.41 :: type = partial_conversion
 # :: snt41
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:3      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:3 Y:1 Z:0]
 
 # sentence level graph:
 (s41p / put-down-17
@@ -879,8 +879,8 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.42 :: type = partial_conversion
 # :: snt42
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:3      Y:2      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s42p / put-down-17
@@ -901,8 +901,8 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.43 :: type = partial_conversion
 # :: snt43
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:3      Y:3      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:3 Y:3 Z:0]
 
 # sentence level graph:
 (s43p / put-down-17
@@ -923,8 +923,8 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:3      Y:4      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:3 Y:4 Z:0]
 
 # sentence level graph:
 (s44p / put-down-17
@@ -945,8 +945,8 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.45 :: type = partial_conversion
 # :: snt45
-Index: 1           2           3           4           5           6
-Words: <Architect> chop        out         the         bottom      2
+Index: 1           2    3   4   5      6
+Words: <Architect> chop out the bottom 2
 
 # sentence level graph:
 (s45c / chop-out-04
@@ -966,8 +966,8 @@ Words: <Architect> chop        out         the         bottom      2
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.46 :: type = partial_conversion
 # :: snt46
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:3      Y:5      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:3 Y:5 Z:0]
 
 # sentence level graph:
 (s46p / put-down-17
@@ -988,8 +988,8 @@ Words: [Builder puts     down     a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.47 :: type = partial_conversion
 # :: snt47
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        purple   block    at       X:3      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a purple block at X:3 Y:1 Z:0]
 
 # sentence level graph:
 (s47p / pick-up-04
@@ -1010,8 +1010,8 @@ Words: [Builder picks    up       a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.48 :: type = partial_conversion
 # :: snt48
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        purple   block    at       X:3      Y:2      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a purple block at X:3 Y:2 Z:0]
 
 # sentence level graph:
 (s48p / pick-up-04
@@ -1032,8 +1032,8 @@ Words: [Builder picks    up       a        purple   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.49 :: type = partial_conversion
 # :: snt49
-Index: 1           2           3           4           5
-Words: <Architect> add         one         last        purple
+Index: 1           2   3   4    5
+Words: <Architect> add one last purple
 
 # sentence level graph:
 (s49a / add-02
@@ -1053,8 +1053,8 @@ Words: <Architect> add         one         last        purple
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.50 :: type = partial_conversion
 # :: snt50
-Index: 1           2           3           4           5
-Words: <Architect> to          make        a           t
+Index: 1           2  3    4 5
+Words: <Architect> to make a t
 
 # sentence level graph:
 (s50h / have-purpose-91
@@ -1071,8 +1071,8 @@ Words: <Architect> to          make        a           t
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.51 :: type = partial_conversion
 # :: snt51
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> on          the         side        where       all         else        is
+Index: 1           2  3   4    5     6   7    8
+Words: <Architect> on the side where all else is
 
 # sentence level graph:
 (s51h / have-place-91
@@ -1088,8 +1088,8 @@ Words: <Architect> on          the         side        where       all         e
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.52 :: type = partial_conversion
 # :: snt52
-Index: 1           2           3
-Words: <Architect> the         right
+Index: 1           2   3
+Words: <Architect> the right
 
 # sentence level graph:
 (s52i2 / infer-91
@@ -1105,8 +1105,8 @@ Words: <Architect> the         right
 ################################################################################
 # meta-info :: sent_id = 4-9-tetris-B42-A12_1267.53 :: type = partial_conversion
 # :: snt53
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:2      Y:4      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:2 Y:4 Z:0]
 
 # sentence level graph:
 (s53p / put-down-17

@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.2 :: type = partial_conversion
 # :: snt2
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> this        one         doesn't     really      look        like        anything,   it's        just        super       snakey
+Index: 1           2    3   4       5      6    7    8         9    10   11    12
+Words: <Architect> this one doesn't really look like anything, it's just super snakey
 
 # sentence level graph:
 (s2a / and
@@ -43,8 +43,8 @@ Words: <Architect> this        one         doesn't     really      look        l
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.3 :: type = partial_conversion
 # :: snt3
-Index: 1            2            3            4            5            6
-Words: <Builder>    ok.          maybe        back         to           coordinates?
+Index: 1         2   3     4    5  6
+Words: <Builder> ok. maybe back to coordinates?
 
 # sentence level graph:
 (s3a / and
@@ -64,8 +64,8 @@ Words: <Builder>    ok.          maybe        back         to           coordina
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> put         a           yellow      block       in          one         corner      of          the         square
+Index: 1           2   3 4      5     6  7   8      9  10  11
+Words: <Architect> put a yellow block in one corner of the square
 
 # sentence level graph:
 (s4p / put-01
@@ -87,8 +87,8 @@ Words: <Architect> put         a           yellow      block       in          o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.5 :: type = partial_conversion
 # :: snt5
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:5      Y:1      Z:-5]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:5 Y:1 Z:-5]
 
 # sentence level graph:
 (s5p / put-down-17
@@ -109,8 +109,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:5      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.6 :: type = partial_conversion
 # :: snt6
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> okay        let's       call        that        square      the         bottom      left        corner
+Index: 1           2    3     4    5    6      7   8      9    10
+Words: <Architect> okay let's call that square the bottom left corner
 
 # sentence level graph:
 (s6a / and
@@ -174,8 +174,8 @@ Words: <Architect> (0,0)
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.9 :: type = partial_conversion
 # :: snt9
-Index: 1         2         3         4         5         6         7         8         9
-Words: <Builder> does      the       whole     thing     stay      on        the       ground/
+Index: 1         2    3   4     5     6    7  8   9
+Words: <Builder> does the whole thing stay on the ground/
 
 # sentence level graph:
 (s9s / stay-01
@@ -196,8 +196,8 @@ Words: <Builder> does      the       whole     thing     stay      on        the
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.11 :: type = partial_conversion
 # :: snt11
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> yellow      blocks      at          (0,1),      (1,1),      and         (2,1)
+Index: 1           2      3      4  5      6      7   8
+Words: <Architect> yellow blocks at (0,1), (1,1), and (2,1)
 
 # sentence level graph:
 (s11b / have-goal-91
@@ -231,8 +231,8 @@ Words: <Architect> yellow      blocks      at          (0,1),      (1,1),      a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.12 :: type = partial_conversion
 # :: snt12
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:4      Y:1      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:4 Y:1 Z:-4]
 
 # sentence level graph:
 (s12p / put-down-17
@@ -253,8 +253,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:4      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:3      Y:1      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:3 Y:1 Z:-4]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -275,8 +275,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.14 :: type = partial_conversion
 # :: snt14
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:5      Y:1      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:5 Y:1 Z:-4]
 
 # sentence level graph:
 (s14p / put-down-17
@@ -297,8 +297,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:5      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.15 :: type = partial_conversion
 # :: snt15
-Index: 1             2             3
-Words: <Architect>   no            unfortunately
+Index: 1           2  3
+Words: <Architect> no unfortunately
 
 # sentence level graph:
 (s15c / confirm-01
@@ -314,8 +314,8 @@ Words: <Architect>   no            unfortunately
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.16 :: type = partial_conversion
 # :: snt16
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> on          the         right       most        block       put         a           yellow      block       on          top         of          that
+Index: 1           2  3   4     5    6     7   8 9      10    11 12  13 14
+Words: <Architect> on the right most block put a yellow block on top of that
 
 # sentence level graph:
 (s16p / put-01
@@ -344,8 +344,8 @@ Words: <Architect> on          the         right       most        block       p
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:3      Y:2      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:3 Y:2 Z:-4]
 
 # sentence level graph:
 (s17p / put-down-17
@@ -366,8 +366,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.18 :: type = partial_conversion
 # :: snt18
-Index: 1           2           3           4           5           6
-Words: <Architect> and         go          right       one         more
+Index: 1           2   3  4     5   6
+Words: <Architect> and go right one more
 
 # sentence level graph:
 (s18a / and
@@ -392,8 +392,8 @@ Words: <Architect> and         go          right       one         more
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.19 :: type = partial_conversion
 # :: snt19
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:2      Z:-4]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:2 Z:-4]
 
 # sentence level graph:
 (s19p / put-down-17
@@ -414,8 +414,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.20 :: type = partial_conversion
 # :: snt20
-Index: 1           2           3           4
-Words: <Architect> now         forward     one
+Index: 1           2   3       4
+Words: <Architect> now forward one
 
 # sentence level graph:
 (s20b / have-goal-91
@@ -435,8 +435,8 @@ Words: <Architect> now         forward     one
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.21 :: type = partial_conversion
 # :: snt21
-Index: 1          2          3          4          5          6          7          8          9          10         11         12         13         14         15
-Words: <Builder>  i'll       face       the        same       way        as         much       as         possible   so         relative   directions work       well
+Index: 1         2    3    4   5    6   7  8    9  10       11 12       13         14   15
+Words: <Builder> i'll face the same way as much as possible so relative directions work well
 
 # sentence level graph:
 (s21f / face-01
@@ -463,8 +463,8 @@ Words: <Builder>  i'll       face       the        same       way        as     
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.22 :: type = partial_conversion
 # :: snt22
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:2      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:2 Z:-3]
 
 # sentence level graph:
 (s22p / put-down-17
@@ -485,8 +485,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.23 :: type = partial_conversion
 # :: snt23
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> and         two         more        in          the         same        direction
+Index: 1           2   3   4    5  6   7    8
+Words: <Architect> and two more in the same direction
 
 # sentence level graph:
 (s23a / and
@@ -508,8 +508,8 @@ Words: <Architect> and         two         more        in          the         s
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:2      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:2 Z:-2]
 
 # sentence level graph:
 (s24p / put-down-17
@@ -530,8 +530,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:2      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:2 Z:-1]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -552,8 +552,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.26 :: type = partial_conversion
 # :: snt26
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> put         two         blocks      on          top         of          the         last        block       you         built
+Index: 1           2   3   4      5  6   7  8   9    10    11  12
+Words: <Architect> put two blocks on top of the last block you built
 
 # sentence level graph:
 (s26p / put-01
@@ -581,8 +581,8 @@ Words: <Architect> put         two         blocks      on          top         o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:3      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:3 Z:-1]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -603,8 +603,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:2      Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:2 Y:4 Z:-1]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -625,8 +625,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.29 :: type = partial_conversion
 # :: snt29
-Index: 1           2           3
-Words: <Architect> one         right
+Index: 1           2   3
+Words: <Architect> one right
 
 # sentence level graph:
 (s29b / have-goal-91
@@ -644,8 +644,8 @@ Words: <Architect> one         right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.30 :: type = partial_conversion
 # :: snt30
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:4 Z:-1]
 
 # sentence level graph:
 (s30p / put-down-17
@@ -666,8 +666,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.31 :: type = partial_conversion
 # :: snt31
-Index: 1           2           3
-Words: <Architect> one         up
+Index: 1           2   3
+Words: <Architect> one up
 
 # sentence level graph:
 (s31b / have-goal-91
@@ -686,8 +686,8 @@ Words: <Architect> one         up
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.32 :: type = partial_conversion
 # :: snt32
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:5 Z:-1]
 
 # sentence level graph:
 (s32p / put-down-17
@@ -708,8 +708,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.33 :: type = partial_conversion
 # :: snt33
-Index: 1           2           3
-Words: <Architect> on          right
+Index: 1           2  3
+Words: <Architect> on right
 
 # sentence level graph:
 (s33b / have-goal-91
@@ -728,8 +728,8 @@ Words: <Architect> on          right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.34 :: type = partial_conversion
 # :: snt34
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> one         right       from        the         last        thing       you         built
+Index: 1           2   3     4    5   6    7     8   9
+Words: <Architect> one right from the last thing you built
 
 # sentence level graph:
 (s34b2 / have-goal-91
@@ -754,8 +754,8 @@ Words: <Architect> one         right       from        the         last        t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:5 Z:-1]
 
 # sentence level graph:
 (s35p / put-down-17
@@ -776,8 +776,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.36 :: type = partial_conversion
 # :: snt36
-Index: 1           2           3
-Words: <Architect> one         up
+Index: 1           2   3
+Words: <Architect> one up
 
 # sentence level graph:
 (s36b / have-goal-91
@@ -796,8 +796,8 @@ Words: <Architect> one         up
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:6      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:6 Z:-1]
 
 # sentence level graph:
 (s37p / put-down-17
@@ -818,8 +818,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.38 :: type = partial_conversion
 # :: snt38
-Index: 1           2           3           4           5           6
-Words: <Architect> now         build       two         towards     you
+Index: 1           2   3     4   5       6
+Words: <Architect> now build two towards you
 
 # sentence level graph:
 (s38b / build-01
@@ -842,8 +842,8 @@ Words: <Architect> now         build       two         towards     you
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.39 :: type = partial_conversion
 # :: snt39
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:6      Z:-2]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:6 Z:-2]
 
 # sentence level graph:
 (s39p / put-down-17
@@ -864,8 +864,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.40 :: type = partial_conversion
 # :: snt40
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:6      Z:-3]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:6 Z:-3]
 
 # sentence level graph:
 (s40p / put-down-17
@@ -886,8 +886,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.41 :: type = partial_conversion
 # :: snt41
-Index: 1           2           3           4           5
-Words: <Architect> one         to          the         right
+Index: 1           2   3  4   5
+Words: <Architect> one to the right
 
 # sentence level graph:
 (s41b / have-goal-91
@@ -906,8 +906,8 @@ Words: <Architect> one         to          the         right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.42 :: type = partial_conversion
 # :: snt42
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:6      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:6 Z:-3]
 
 # sentence level graph:
 (s42p / put-down-17
@@ -928,8 +928,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.43 :: type = partial_conversion
 # :: snt43
-Index: 1           2           3
-Words: <Architect> one         up
+Index: 1           2   3
+Words: <Architect> one up
 
 # sentence level graph:
 (s43b / have-goal-91
@@ -948,8 +948,8 @@ Words: <Architect> one         up
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.44 :: type = partial_conversion
 # :: snt44
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:7      Z:-3]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:7 Z:-3]
 
 # sentence level graph:
 (s44p / put-down-17
@@ -970,8 +970,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.45 :: type = partial_conversion
 # :: snt45
-Index: 1           2           3           4           5
-Words: <Architect> one         away        from        you
+Index: 1           2   3    4    5
+Words: <Architect> one away from you
 
 # sentence level graph:
 (s45b / have-goal-91
@@ -991,8 +991,8 @@ Words: <Architect> one         away        from        you
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.46 :: type = partial_conversion
 # :: snt46
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:7      Z:-2]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:7 Z:-2]
 
 # sentence level graph:
 (s46p / put-down-17
@@ -1013,8 +1013,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.47 :: type = partial_conversion
 # :: snt47
-Index: 1         2         3         4         5
-Words: <Builder> that's    my        last      yellow
+Index: 1         2      3  4    5
+Words: <Builder> that's my last yellow
 
 # sentence level graph:
 (s47i2 / identity-91
@@ -1036,8 +1036,8 @@ Words: <Builder> that's    my        last      yellow
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.48 :: type = partial_conversion
 # :: snt48
-Index: 1           2           3           4           5           6           7           8
-Words: <Architect> now         we're       going       to          switch      to          green
+Index: 1           2   3     4     5  6      7  8
+Words: <Architect> now we're going to switch to green
 
 # sentence level graph:
 (s48s / switch-01
@@ -1071,8 +1071,8 @@ Words: <Builder> ready
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.50 :: type = partial_conversion
 # :: snt50
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13
-Words: <Architect> i           think       something   might       be          wrong,      give        me          a           second      to          check
+Index: 1           2 3     4         5     6  7      8    9  10 11     12 13
+Words: <Architect> i think something might be wrong, give me a  second to check
 
 # sentence level graph:
 (s50c / cause-01
@@ -1122,8 +1122,8 @@ Words: <Builder> ok.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.52 :: type = partial_conversion
 # :: snt52
-Index: 1           2           3           4           5           6
-Words: <Architect> okay        never       mind        it's        fine
+Index: 1           2    3     4    5    6
+Words: <Architect> okay never mind it's fine
 
 # sentence level graph:
 (s52a / and
@@ -1162,8 +1162,8 @@ Words: <Builder> great
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.54 :: type = partial_conversion
 # :: snt54
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> build       one         block       right       of          the         last        block       you         built
+Index: 1           2     3   4     5     6  7   8    9     10  11
+Words: <Architect> build one block right of the last block you built
 
 # sentence level graph:
 (s54b / build-01
@@ -1192,8 +1192,8 @@ Words: <Architect> build       one         block       right       of          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.55 :: type = partial_conversion
 # :: snt55
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-2     Y:7      Z:-2]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-2 Y:7 Z:-2]
 
 # sentence level graph:
 (s55p / put-down-17
@@ -1214,8 +1214,8 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.56 :: type = partial_conversion
 # :: snt56
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-2     Y:8      Z:-2]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-2 Y:8 Z:-2]
 
 # sentence level graph:
 (s56p / put-down-17
@@ -1236,8 +1236,8 @@ Words: [Builder puts     down     a        green    block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.57 :: type = partial_conversion
 # :: snt57
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        green    block    at       X:-2     Y:8      Z:-2]
+Index: 1        2     3  4 5     6     7  8    9   10
+Words: [Builder picks up a green block at X:-2 Y:8 Z:-2]
 
 # sentence level graph:
 (s57p / pick-up-04
@@ -1258,8 +1258,8 @@ Words: [Builder picks    up       a        green    block    at       X:-2     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.58 :: type = partial_conversion
 # :: snt58
-Index: 1           2           3           4
-Words: <Architect> another     block       right
+Index: 1           2       3     4
+Words: <Architect> another block right
 
 # sentence level graph:
 (s58b / have-goal-91
@@ -1278,8 +1278,8 @@ Words: <Architect> another     block       right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.59 :: type = partial_conversion
 # :: snt59
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Builder>   feel        free        to          give        more        than        one         direction   at          a           time        if          you're      comfortable
+Index: 1         2    3    4  5    6    7    8   9         10 11 12   13 14     15
+Words: <Builder> feel free to give more than one direction at a  time if you're comfortable
 
 # sentence level graph:
 (s59f / feel-01
@@ -1306,8 +1306,8 @@ Words: <Builder>   feel        free        to          give        more        t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.60 :: type = partial_conversion
 # :: snt60
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:7      Z:-2]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:7 Z:-2]
 
 # sentence level graph:
 (s60p / put-down-17
@@ -1328,8 +1328,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.61 :: type = partial_conversion
 # :: snt61
-Index: 1         2         3         4         5         6         7
-Words: <Builder> e.g.      one       right,    then      one       up
+Index: 1         2    3   4      5    6   7
+Words: <Builder> e.g. one right, then one up
 
 # sentence level graph:
 (s61h / have-example-91
@@ -1354,8 +1354,8 @@ Words: <Builder> e.g.      one       right,    then      one       up
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.62 :: type = partial_conversion
 # :: snt62
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> one         down,       and         then        i           have        to          check       to          see         whats       going       on
+Index: 1           2   3     4   5    6 7    8  9     10 11  12    13    14
+Words: <Architect> one down, and then i have to check to see whats going on
 
 # sentence level graph:
 (s62a / and
@@ -1384,8 +1384,8 @@ Words: <Architect> one         down,       and         then        i           h
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.63 :: type = partial_conversion
 # :: snt63
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:6      Z:-2]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:6 Z:-2]
 
 # sentence level graph:
 (s63p / put-down-17
@@ -1406,8 +1406,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.64 :: type = partial_conversion
 # :: snt64
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> one         more        down,       then        one         away        from        you
+Index: 1           2   3    4     5    6   7    8    9
+Words: <Architect> one more down, then one away from you
 
 # sentence level graph:
 (s64a / and
@@ -1437,8 +1437,8 @@ Words: <Architect> one         more        down,       then        one         a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.65 :: type = partial_conversion
 # :: snt65
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:5      Z:-2]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:5 Z:-2]
 
 # sentence level graph:
 (s65p / put-down-17
@@ -1459,8 +1459,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.66 :: type = partial_conversion
 # :: snt66
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:5      Z:-1]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:5 Z:-1]
 
 # sentence level graph:
 (s66p / put-down-17
@@ -1481,8 +1481,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.67 :: type = partial_conversion
 # :: snt67
-Index: 1           2           3           4           5           6           7
-Words: <Architect> down        and         away        from        you         again
+Index: 1           2    3   4    5    6   7
+Words: <Architect> down and away from you again
 
 # sentence level graph:
 (s67a / and
@@ -1507,8 +1507,8 @@ Words: <Architect> down        and         away        from        you         a
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.68 :: type = partial_conversion
 # :: snt68
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:4      Z:-1]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:4 Z:-1]
 
 # sentence level graph:
 (s68p / put-down-17
@@ -1529,8 +1529,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.69 :: type = partial_conversion
 # :: snt69
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:4      Z:0]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:4 Z:0]
 
 # sentence level graph:
 (s69p / put-down-17
@@ -1551,8 +1551,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.70 :: type = partial_conversion
 # :: snt70
-Index: 1           2           3           4           5
-Words: <Architect> then        down        and         right
+Index: 1           2    3    4   5
+Words: <Architect> then down and right
 
 # sentence level graph:
 (s70a / and
@@ -1576,8 +1576,8 @@ Words: <Architect> then        down        and         right
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.71 :: type = partial_conversion
 # :: snt71
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-3     Y:3      Z:0]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-3 Y:3 Z:0]
 
 # sentence level graph:
 (s71p / put-down-17
@@ -1598,8 +1598,8 @@ Words: [Builder puts     down     a        green    block    at       X:-3     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.72 :: type = partial_conversion
 # :: snt72
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-4     Y:3      Z:0]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-4 Y:3 Z:0]
 
 # sentence level graph:
 (s72p / put-down-17
@@ -1620,8 +1620,8 @@ Words: [Builder puts     down     a        green    block    at       X:-4     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.73 :: type = partial_conversion
 # :: snt73
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> i           think       that's      it,         i'm         going       to          check       really      quickly
+Index: 1           2 3     4      5   6   7     8  9     10     11
+Words: <Architect> i think that's it, i'm going to check really quickly
 
 # sentence level graph:
 (s73a / and
@@ -1646,8 +1646,8 @@ Words: <Architect> i           think       that's      it,         i'm         g
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.74 :: type = partial_conversion
 # :: snt74
-Index: 1         2         3
-Words: <Builder> sounds    good
+Index: 1         2      3
+Words: <Builder> sounds good
 
 # sentence level graph:
 (s74s / sound-01
@@ -1661,8 +1661,8 @@ Words: <Builder> sounds    good
 ################################################################################
 # meta-info :: sent_id = minecraft-4-4-random-snake_1149.75 :: type = partial_conversion
 # :: snt75
-Index: 1           2           3           4
-Words: <Architect> yeah        look        good
+Index: 1           2    3    4
+Words: <Architect> yeah look good
 
 # sentence level graph:
 (s75c / confirm-01

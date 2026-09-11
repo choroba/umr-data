@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.2 :: type = partial_conversion
 # :: snt2
-Index: 1           2           3           4           5           6
-Words: <Architect> this        one         is          more        complicated
+Index: 1           2    3   4  5    6
+Words: <Architect> this one is more complicated
 
 # sentence level graph:
 (s2h / have-degree-91
@@ -35,8 +35,8 @@ Words: <Architect> this        one         is          more        complicated
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.3 :: type = partial_conversion
 # :: snt3
-Index: 1           2           3           4           5           6
-Words: <Architect> start       with        one         red         block
+Index: 1           2     3    4   5   6
+Words: <Architect> start with one red block
 
 # sentence level graph:
 (s3s / start-01
@@ -56,8 +56,8 @@ Words: <Architect> start       with        one         red         block
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4
-Words: <Architect> place       it          down
+Index: 1           2     3  4
+Words: <Architect> place it down
 
 # sentence level graph:
 (s4p / place-down-04
@@ -77,8 +77,8 @@ Words: <Architect> place       it          down
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.5 :: type = partial_conversion
 # :: snt5
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:0      Y:1      Z:1]
+Index: 1        2    3    4 5   6     7  8   9   10
+Words: [Builder puts down a red block at X:0 Y:1 Z:1]
 
 # sentence level graph:
 (s5p / put-down-17
@@ -99,8 +99,8 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.6 :: type = partial_conversion
 # :: snt6
-Index: 1           2           3           4
-Words: <Architect> orange      on          top
+Index: 1           2      3  4
+Words: <Architect> orange on top
 
 # sentence level graph:
 (s6b2 / have-goal-91
@@ -119,8 +119,8 @@ Words: <Architect> orange      on          top
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -141,8 +141,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.8 :: type = partial_conversion
 # :: snt8
-Index: 1           2           3
-Words: <Architect> delete      that
+Index: 1           2      3
+Words: <Architect> delete that
 
 # sentence level graph:
 (s8d / delete-01
@@ -160,8 +160,8 @@ Words: <Architect> delete      that
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.9 :: type = partial_conversion
 # :: snt9
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        orange   block    at       X:0      Y:1      Z:0]
+Index: 1        2     3  4 5      6     7  8   9   10
+Words: [Builder picks up a orange block at X:0 Y:1 Z:0]
 
 # sentence level graph:
 (s9p / pick-up-04
@@ -182,8 +182,8 @@ Words: [Builder picks    up       a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.10 :: type = partial_conversion
 # :: snt10
-Index: 1           2           3           4           5           6
-Words: <Architect> literally   on          top         of          red
+Index: 1           2         3  4   5  6
+Words: <Architect> literally on top of red
 
 # sentence level graph:
 (s10b / have-goal-91
@@ -203,8 +203,8 @@ Words: <Architect> literally   on          top         of          red
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.11 :: type = partial_conversion
 # :: snt11
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:0      Y:2      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:0 Y:2 Z:1]
 
 # sentence level graph:
 (s11p / put-down-17
@@ -225,8 +225,8 @@ Words: [Builder puts     down     a        orange   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.12 :: type = partial_conversion
 # :: snt12
-Index: 1           2           3           4           5           6           7
-Words: <Architect> now         yellow      on          top         of          that
+Index: 1           2   3      4  5   6  7
+Words: <Architect> now yellow on top of that
 
 # sentence level graph:
 (s12b / have-goal-91
@@ -247,8 +247,8 @@ Words: <Architect> now         yellow      on          top         of          t
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:0      Y:3      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:0 Y:3 Z:1]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -269,8 +269,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.14 :: type = partial_conversion
 # :: snt14
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> put         one         green       on          one         side        of          yellow
+Index: 1           2   3   4     5  6   7    8  9
+Words: <Architect> put one green on one side of yellow
 
 # sentence level graph:
 (s14p / put-01
@@ -298,8 +298,8 @@ Words: <Architect> put         one         green       on          one         s
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.15 :: type = partial_conversion
 # :: snt15
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:1      Y:3      Z:1]
+Index: 1        2    3    4 5     6     7  8   9   10
+Words: [Builder puts down a green block at X:1 Y:3 Z:1]
 
 # sentence level graph:
 (s15p / put-down-17
@@ -320,8 +320,8 @@ Words: [Builder puts     down     a        green    block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.16 :: type = partial_conversion
 # :: snt16
-Index: 1           2           3           4           5           6           7
-Words: <Architect> one         on          opposite    side        of          yellow
+Index: 1           2   3  4        5    6  7
+Words: <Architect> one on opposite side of yellow
 
 # sentence level graph:
 (s16b / have-goal-91
@@ -344,8 +344,8 @@ Words: <Architect> one         on          opposite    side        of          y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        green    block    at       X:-1     Y:3      Z:1]
+Index: 1        2    3    4 5     6     7  8    9   10
+Words: [Builder puts down a green block at X:-1 Y:3 Z:1]
 
 # sentence level graph:
 (s17p / put-down-17
@@ -366,8 +366,8 @@ Words: [Builder puts     down     a        green    block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.18 :: type = partial_conversion
 # :: snt18
-Index: 1           2           3           4           5           6           7           8           9           10          11
-Words: <Architect> okay,       now         a           blue        block       will        be          attached    to          orange
+Index: 1           2     3   4 5    6     7    8  9        10 11
+Words: <Architect> okay, now a blue block will be attached to orange
 
 # sentence level graph:
 (s18a2 / and
@@ -387,8 +387,8 @@ Words: <Architect> okay,       now         a           blue        block       w
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.19 :: type = partial_conversion
 # :: snt19
-Index: 1           2           3           4
-Words: <Architect> NOT         under       green
+Index: 1           2   3     4
+Words: <Architect> NOT under green
 
 # sentence level graph:
 (s19u / under-01
@@ -406,8 +406,8 @@ Words: <Architect> NOT         under       green
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.20 :: type = partial_conversion
 # :: snt20
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:2      Z:2]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:2 Z:2]
 
 # sentence level graph:
 (s20p / put-down-17
@@ -428,8 +428,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.21 :: type = partial_conversion
 # :: snt21
-Index: 1           2           3           4           5           6
-Words: <Architect> one         on          the         other       side
+Index: 1           2   3  4   5     6
+Words: <Architect> one on the other side
 
 # sentence level graph:
 (s21b / have-goal-91
@@ -450,8 +450,8 @@ Words: <Architect> one         on          the         other       side
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.22 :: type = partial_conversion
 # :: snt22
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:2      Z:0]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:2 Z:0]
 
 # sentence level graph:
 (s22p / put-down-17
@@ -472,8 +472,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.23 :: type = partial_conversion
 # :: snt23
-Index: 1           2           3           4           5
-Words: <Architect> purple      attached    to          red
+Index: 1           2      3        4  5
+Words: <Architect> purple attached to red
 
 # sentence level graph:
 (s23a / attach-01
@@ -490,8 +490,8 @@ Words: <Architect> purple      attached    to          red
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.24 :: type = partial_conversion
 # :: snt24
-Index: 1           2           3           4
-Words: <Architect> NOT         under       blue
+Index: 1           2   3     4
+Words: <Architect> NOT under blue
 
 # sentence level graph:
 (s24u / under-01
@@ -509,8 +509,8 @@ Words: <Architect> NOT         under       blue
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:-1     Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a purple block at X:-1 Y:1 Z:1]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -531,8 +531,8 @@ Words: [Builder puts     down     a        purple   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        purple   block    at       X:1      Y:1      Z:1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a purple block at X:1 Y:1 Z:1]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -553,8 +553,8 @@ Words: [Builder puts     down     a        purple   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-3-cross-stack_1116.27 :: type = partial_conversion
 # :: snt27
-Index: 1           2           3           4
-Words: <Architect> we          got         it
+Index: 1           2  3   4
+Words: <Architect> we got it
 
 # sentence level graph:
 (s27g / get-04

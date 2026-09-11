@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -44,8 +44,8 @@ Words: <Builder> hello
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.4 :: type = partial_conversion
 # :: snt4
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15
-Words: <Architect> So          the         shape       is          three       orange      blocks      on          the         ground,     in          an          L           shape
+Index: 1           2  3   4     5  6     7      8      9  10  11      12 13 14 15
+Words: <Architect> So the shape is three orange blocks on the ground, in an L  shape
 
 # sentence level graph:
 (s4i / identity-91
@@ -70,8 +70,8 @@ Words: <Architect> So          the         shape       is          three       o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.5 :: type = partial_conversion
 # :: snt5
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:2      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:2 Y:1 Z:-1]
 
 # sentence level graph:
 (s5p / put-down-17
@@ -92,8 +92,8 @@ Words: [Builder puts     down     a        orange   block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.6 :: type = partial_conversion
 # :: snt6
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:1      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:1 Z:-1]
 
 # sentence level graph:
 (s6p / put-down-17
@@ -114,8 +114,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        orange   block    at       X:1      Y:1      Z:0]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a orange block at X:1 Y:1 Z:0]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -136,8 +136,8 @@ Words: [Builder puts     down     a        orange   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.8 :: type = partial_conversion
 # :: snt8
-Index: 1         2         3
-Words: <Builder> like      this?
+Index: 1         2    3
+Words: <Builder> like this?
 
 # sentence level graph:
 (s8r / resemble-91
@@ -153,8 +153,8 @@ Words: <Builder> like      this?
 ################################################################################
 # meta-info :: sent_id = minecraft-4-6-orange-flat-original-L-B31_1243.9 :: type = partial_conversion
 # :: snt9
-Index: 1           2           3
-Words: <Architect> Yep         perfect!
+Index: 1           2   3
+Words: <Architect> Yep perfect!
 
 # sentence level graph:
 (s9c / confirm-01

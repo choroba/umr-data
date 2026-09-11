@@ -1,8 +1,8 @@
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.1 :: type = partial_conversion
 # :: snt1
-Index: 1         2         3         4
-Words: <Builder> Mission   has       started.
+Index: 1         2       3   4
+Words: <Builder> Mission has started.
 
 # sentence level graph:
 (s1s / start-01
@@ -16,8 +16,8 @@ Words: <Builder> Mission   has       started.
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.2 :: type = partial_conversion
 # :: snt2
-Index: 1           2           3           4           5           6           7           8           9
-Words: <Architect> So          the         overall     structure   looks       liek        a           trident.
+Index: 1           2  3   4       5         6     7    8 9
+Words: <Architect> So the overall structure looks liek a trident.
 
 # sentence level graph:
 (s2l / look-02
@@ -33,8 +33,8 @@ Words: <Architect> So          the         overall     structure   looks       l
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.3 :: type = partial_conversion
 # :: snt3
-Index: 1           2           3           4           5           6           7           8           9           10          11          12
-Words: <Architect> the         base        starts      with        two         blocks      on          top         of          each        other
+Index: 1           2   3    4      5    6   7      8  9   10 11   12
+Words: <Architect> the base starts with two blocks on top of each other
 
 # sentence level graph:
 (s3s / start-01
@@ -61,8 +61,8 @@ Words: <Architect> the         base        starts      with        two         b
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.4 :: type = partial_conversion
 # :: snt4
-Index: 1         2         3
-Words: <Builder> which     color?
+Index: 1         2     3
+Words: <Builder> which color?
 
 # sentence level graph:
 (s4h / have-color-91
@@ -91,8 +91,8 @@ Words: <Architect> blue
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.6 :: type = partial_conversion
 # :: snt6
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:1      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:1 Z:-1]
 
 # sentence level graph:
 (s6p / put-down-17
@@ -113,8 +113,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.7 :: type = partial_conversion
 # :: snt7
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:1      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s7p / put-down-17
@@ -135,8 +135,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.8 :: type = partial_conversion
 # :: snt8
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:0      Y:1      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:0 Y:1 Z:-1]
 
 # sentence level graph:
 (s8p / pick-up-04
@@ -157,8 +157,8 @@ Words: [Builder picks    up       a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.9 :: type = partial_conversion
 # :: snt9
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:2      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:2 Z:-1]
 
 # sentence level graph:
 (s9p / put-down-17
@@ -179,8 +179,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.10 :: type = partial_conversion
 # :: snt10
-Index: 1         2         3
-Words: <Builder> like      this?
+Index: 1         2    3
+Words: <Builder> like this?
 
 # sentence level graph:
 (s10r / resemble-91
@@ -210,8 +210,8 @@ Words: <Architect> yep!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.12 :: type = partial_conversion
 # :: snt12
-Index: 1           2           3           4           5           6           7           8           9           10
-Words: <Architect> then        on          that,       a           line        of          5           blue        blocks
+Index: 1           2    3  4     5 6    7  8 9    10
+Words: <Architect> then on that, a line of 5 blue blocks
 
 # sentence level graph:
 (s12b / have-goal-91
@@ -236,8 +236,8 @@ Words: <Architect> then        on          that,       a           line        o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.13 :: type = partial_conversion
 # :: snt13
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:3 Z:-1]
 
 # sentence level graph:
 (s13p / put-down-17
@@ -258,8 +258,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.14 :: type = partial_conversion
 # :: snt14
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:4      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:4 Z:-1]
 
 # sentence level graph:
 (s14p / put-down-17
@@ -280,8 +280,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.15 :: type = partial_conversion
 # :: snt15
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:5      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:5 Z:-1]
 
 # sentence level graph:
 (s15p / put-down-17
@@ -302,8 +302,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.16 :: type = partial_conversion
 # :: snt16
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:6      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:6 Z:-1]
 
 # sentence level graph:
 (s16p / put-down-17
@@ -324,8 +324,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.17 :: type = partial_conversion
 # :: snt17
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:7      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:7 Z:-1]
 
 # sentence level graph:
 (s17p / put-down-17
@@ -360,8 +360,8 @@ Words: <Builder> ok
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.19 :: type = partial_conversion
 # :: snt19
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14          15          16
-Words: <Architect> sorry,      a           horizontal  line        of          5           blue        blocks,     centered    on          what        you         originally  put         down
+Index: 1           2      3 4          5    6  7 8    9       10       11 12   13  14         15  16
+Words: <Architect> sorry, a horizontal line of 5 blue blocks, centered on what you originally put down
 
 # sentence level graph:
 (s19a / and
@@ -390,8 +390,8 @@ Words: <Architect> sorry,      a           horizontal  line        of          5
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.20 :: type = partial_conversion
 # :: snt20
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:7      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:7 Z:-1]
 
 # sentence level graph:
 (s20p / pick-up-04
@@ -412,8 +412,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.21 :: type = partial_conversion
 # :: snt21
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:6      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:6 Z:-1]
 
 # sentence level graph:
 (s21p / pick-up-04
@@ -434,8 +434,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.22 :: type = partial_conversion
 # :: snt22
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:5      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:5 Z:-1]
 
 # sentence level graph:
 (s22p / pick-up-04
@@ -456,8 +456,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.23 :: type = partial_conversion
 # :: snt23
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:4      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:4 Z:-1]
 
 # sentence level graph:
 (s23p / pick-up-04
@@ -478,8 +478,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.24 :: type = partial_conversion
 # :: snt24
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder picks    up       a        blue     block    at       X:1      Y:3      Z:-1]
+Index: 1        2     3  4 5    6     7  8   9   10
+Words: [Builder picks up a blue block at X:1 Y:3 Z:-1]
 
 # sentence level graph:
 (s24p / pick-up-04
@@ -500,8 +500,8 @@ Words: [Builder picks    up       a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.25 :: type = partial_conversion
 # :: snt25
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:1      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:1 Y:3 Z:-1]
 
 # sentence level graph:
 (s25p / put-down-17
@@ -522,8 +522,8 @@ Words: [Builder puts     down     a        blue     block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.26 :: type = partial_conversion
 # :: snt26
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:2      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:2 Y:3 Z:-1]
 
 # sentence level graph:
 (s26p / put-down-17
@@ -544,8 +544,8 @@ Words: [Builder puts     down     a        blue     block    at       X:2      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.27 :: type = partial_conversion
 # :: snt27
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:0      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:0 Y:3 Z:-1]
 
 # sentence level graph:
 (s27p / put-down-17
@@ -566,8 +566,8 @@ Words: [Builder puts     down     a        blue     block    at       X:0      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.28 :: type = partial_conversion
 # :: snt28
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:-1     Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8    9   10
+Words: [Builder puts down a blue block at X:-1 Y:3 Z:-1]
 
 # sentence level graph:
 (s28p / put-down-17
@@ -588,8 +588,8 @@ Words: [Builder puts     down     a        blue     block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.29 :: type = partial_conversion
 # :: snt29
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        blue     block    at       X:3      Y:3      Z:-1]
+Index: 1        2    3    4 5    6     7  8   9   10
+Words: [Builder puts down a blue block at X:3 Y:3 Z:-1]
 
 # sentence level graph:
 (s29p / put-down-17
@@ -610,8 +610,8 @@ Words: [Builder puts     down     a        blue     block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.30 :: type = partial_conversion
 # :: snt30
-Index: 1         2         3         4
-Words: <Builder> there     we        go
+Index: 1         2     3  4
+Words: <Builder> there we go
 
 # sentence level graph:
 (s30g / go-24
@@ -642,8 +642,8 @@ Words: <Architect> yep!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.32 :: type = partial_conversion
 # :: snt32
-Index: 1           2           3           4           5           6           7           8           9           10          11          12          13          14
-Words: <Architect> and         now         the         three       prongs      of          the         pitchfork   are         two         yellow      blocks      each.
+Index: 1           2   3   4   5     6      7  8   9         10  11  12     13     14
+Words: <Architect> and now the three prongs of the pitchfork are two yellow blocks each.
 
 # sentence level graph:
 (s32a / and
@@ -673,8 +673,8 @@ Words: <Architect> and         now         the         three       prongs      o
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.33 :: type = partial_conversion
 # :: snt33
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:3      Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:3 Y:4 Z:-1]
 
 # sentence level graph:
 (s33p / put-down-17
@@ -695,8 +695,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.34 :: type = partial_conversion
 # :: snt34
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:3      Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:3 Y:5 Z:-1]
 
 # sentence level graph:
 (s34p / put-down-17
@@ -717,8 +717,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:3      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.35 :: type = partial_conversion
 # :: snt35
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:4 Z:-1]
 
 # sentence level graph:
 (s35p / put-down-17
@@ -739,8 +739,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.36 :: type = partial_conversion
 # :: snt36
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:1      Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8   9   10
+Words: [Builder puts down a yellow block at X:1 Y:5 Z:-1]
 
 # sentence level graph:
 (s36p / put-down-17
@@ -761,8 +761,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:1      Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.37 :: type = partial_conversion
 # :: snt37
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:4      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:4 Z:-1]
 
 # sentence level graph:
 (s37p / put-down-17
@@ -783,8 +783,8 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.38 :: type = partial_conversion
 # :: snt38
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        yellow   block    at       X:-1     Y:5      Z:-1]
+Index: 1        2    3    4 5      6     7  8    9   10
+Words: [Builder puts down a yellow block at X:-1 Y:5 Z:-1]
 
 # sentence level graph:
 (s38p / put-down-17
@@ -819,8 +819,8 @@ Words: <Architect> yep!
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.40 :: type = partial_conversion
 # :: snt40
-Index: 1         2         3         4
-Words: <Builder> is        that      it?
+Index: 1         2  3    4
+Words: <Builder> is that it?
 
 # sentence level graph:
 (s40b / be-it-08
@@ -836,8 +836,8 @@ Words: <Builder> is        that      it?
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.41 :: type = partial_conversion
 # :: snt41
-Index: 1           2           3           4
-Words: <Architect> cool        we're       done
+Index: 1           2    3     4
+Words: <Architect> cool we're done
 
 # sentence level graph:
 (s41a / and
@@ -855,8 +855,8 @@ Words: <Architect> cool        we're       done
 ################################################################################
 # meta-info :: sent_id = minecraft-4-11-trident-B25-A10_1355.42 :: type = partial_conversion
 # :: snt42
-Index: 1         2         3         4
-Words: <Builder> kk        kill      me
+Index: 1         2  3    4
+Words: <Builder> kk kill me
 
 # sentence level graph:
 (s42a / and
