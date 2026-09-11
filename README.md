@@ -112,6 +112,7 @@ Each sentence segment starts with a line of 80 hash signs and ends with two empt
 Within each sentence segment, there are **four parts**.
 Each of them starts with a comment line (a line whose first character is a hash sign)
 and ends with one empty line (except the last part of the sentence, which ends with two empty lines).
+The four parts are as follows:
 
 ---
 
@@ -123,8 +124,6 @@ and ends with one empty line (except the last part of the sentence, which ends w
 - Example entries:
   - `type = partial_conversion`: Indicates that the UMR annotation for this sentence was converted from AMR.
   - `sent_id = u_tree-cs-s1-root`: Maps to the original sentence ID from the source workset.
-
----
 
 #### Tokens, Morphemes, Translation
 
