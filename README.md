@@ -179,13 +179,13 @@ This dataset includes annotated data from the following languages (ISO 639-3 cod
 
 ### Changelog
 
-#### UMR 3.0 Release
+#### [UMR 3.0 Release](http://hdl.handle.net/11234/1-6224)
 
 - Added PUD dataset for Portuguese
 - More English and Chinese files
 - Format fixes in previously released data (now also in Kukama and Sanapaná)
 
-#### UMR 2.2 Release
+#### [UMR 2.2 Release](http://hdl.handle.net/11234/1-6132) (2026-04-01)
 
 - Added parallel PUD datasets of Czech, English, and Italian
 - Numerous format fixes in English, Chinese, Arapaho, and Navajo
@@ -194,16 +194,16 @@ This dataset includes annotated data from the following languages (ISO 639-3 cod
   - Training-test splits as used in UMR Parsing Shared Task at DMR 2026
   - System outputs on test data from the shared task
 
-#### UMR 2.1 Release
+#### [UMR 2.1 Release](http://hdl.handle.net/11234/1-5951) (2025-06-30)
 
 - Improved annotation of Czech and Latin
 
-#### UMR 2.0 Release
+#### [UMR 2.0 Release](http://hdl.handle.net/11234/1-5902) (2025-05-17)
 
 - Added Czech (converted from Prague Dependency Treebank) and Latin (manual annotation)
 - More English data (partial annotation, automatically converted from AMR)
 
-#### UMR 1.0 Release
+#### [UMR 1.0 Release](http://hdl.handle.net/11234/1-5198) (2023-07-31)
 
 - Initial annotation of 6 languages: English, Chinese, Arapaho, Kukama, Navajo, Sanapaná
 
