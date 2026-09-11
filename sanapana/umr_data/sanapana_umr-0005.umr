@@ -4,10 +4,10 @@
 Index:               	1	2	3
 Words:               	tenyonhan   mo'ok                         askenmahlnekama
 Morphemes:           	tenyo =nhan   mo'ok               ask- en- mahln -ek -am -a
-Morpheme Gloss(Spanish):	entonces =y  otro.f  1SG.I DISTR preguntar PST/HAB AMBL INF
+Morpheme Gloss (es): entonces =y  otro.f  1SG.I DISTR preguntar PST/HAB AMBL INF
 Morpheme Category:   	prt prt     pro         v:Any v:Any v v:Any v:Any v:Any
-Words(English):      	y entonces    otra                                pregunta
-Translation(Spanish):	Entonces tengo otra pregunta
+Word Gloss (en): y entonces    otra                                pregunta
+Sentence Gloss (es): Entonces tengo otra pregunta
 
 # sentence level graph:
 (s1t / thing
@@ -33,10 +33,10 @@ s1m: 2-2
 Index:               	1	2	3	4	5	6	7	8
 Words:               	hengkahlnanhan                    aktema         hlengkap                           ampay'avehla'                      apkehltoma        valayona                      a'toma      ha'e
 Morphemes:           	hengka =hlna =nhan              ak- t -em -a         hlengkap                   a- mp -ay' -av -ehla'              apk- ehl- t -om -a      valayo =na                a'- t -om -a      ha'e
-Morpheme Gloss(Spanish):	cómo? =REP =y  2/3F.III ser PST/HAB INF      2/3M.PL:PRO  2/3F.III empezar PST/HAB INTNS NOM.LOC  2/3M.I DISTR comer PST/HAB INF  paraguayo =DEF  2/3F.III comer PST/HAB INF  DEM.DIST
+Morpheme Gloss (es): cómo? =REP =y  2/3F.III ser PST/HAB INF      2/3M.PL:PRO  2/3F.III empezar PST/HAB INTNS NOM.LOC  2/3M.I DISTR comer PST/HAB INF  paraguayo =DEF  2/3F.III comer PST/HAB INF  DEM.DIST
 Morpheme Category:   	pro prt prt       v:Any v v:Any v:Any              pro               v:Any v v:Any v:Any v:Any       v:Any v:Any v v:Any v:Any         sus prt         v:Any v v:Any v:Any       pro
-Words(English):      	cómo                    manera  ustedes (masc.)                               al inicio                        comieron       paraguayo                   su comida      allá
-Translation(Spanish):	Cómo es que ustedes por primera vez comieron la comida de los paraguayos allá?
+Word Gloss (en): cómo                    manera  ustedes (masc.)                               al inicio                        comieron       paraguayo                   su comida      allá
+Sentence Gloss (es): Cómo es que ustedes por primera vez comieron la comida de los paraguayos allá?
 
 # sentence level graph:
 (s2h / have-manner-91
@@ -88,10 +88,10 @@ s2u: 0-0
 Index:               	1	2	3	4
 Words:               	hengkahlna                             ampay'avehlala'a                      apkehltoma                        apkelvetangvayam
 Morphemes:           	hengka =hlna                   a- mp -ay' -av -ehla =la'a              apk- ehl- t -om -a              apk- el- vet -angv -ay -am
-Morpheme Gloss(Spanish):	dónde? =REP  2/3F.III empezar PST/HAB INTNS NOM.LOC =HYP  2/3M.I DISTR comer PST/HAB INF  2/3M.I DISTR ver LOC PST/HAB INF.APPRX
+Morpheme Gloss (es): dónde? =REP  2/3F.III empezar PST/HAB INTNS NOM.LOC =HYP  2/3M.I DISTR comer PST/HAB INF  2/3M.I DISTR ver LOC PST/HAB INF.APPRX
 Morpheme Category:   	pro prt                v:Any v v:Any v:Any v:Any prt       v:Any v:Any v v:Any v:Any         v:Any v:Any v v:Any v:Any v:Any
-Words(English):      	dónde                                    al inicio                          comida                    llegaron a encontrar
-Translation(Spanish):	Dónde llegaron a encontrar al inicio esa comida?
+Word Gloss (en): dónde                                    al inicio                          comida                    llegaron a encontrar
+Sentence Gloss (es): Dónde llegaron a encontrar al inicio esa comida?
 
 # sentence level graph:
 (s3h / have-location-91
@@ -140,10 +140,10 @@ s3u: 0-0
 Index:               	1
 Words:               	vanhla'
 Morphemes:           	vanhla'
-Morpheme Gloss(Spanish):	solamente
+Morpheme Gloss (es): solamente
 Morpheme Category:   	adv
-Words(English):      	solamente
-Translation(Spanish):	Solamente
+Word Gloss (en): solamente
+Sentence Gloss (es): Solamente
 
 # sentence level graph:
 (s4v / vanhla')
@@ -161,10 +161,10 @@ s4v: 1-1
 Index:               	1	2	3
 Words:               	apkeyveskamke'       aptamnek            enyatav'a
 Morphemes:           	ap- keyv -es -kam -ke'     ap- tamnek        en- yata -v'a
-Morpheme Gloss(Spanish):	2/3M.I salir en fila APPL PST/HAB V1.NFUT  2/3M.I huella    1PL.POS abuelo PL
+Morpheme Gloss (es): 2/3M.I salir en fila APPL PST/HAB V1.NFUT  2/3M.I huella    1PL.POS abuelo PL
 Morpheme Category:   	v:Any v v>v v:Any v:Any      v:Any sus  sus:Any sus sus:Any
-Words(English):      	viajaron en fila    sus huellos     nuestros abuelos
-Translation(Spanish):	Nuestros abuelos viajaron en fila
+Word Gloss (en): viajaron en fila    sus huellos     nuestros abuelos
+Sentence Gloss (es): Nuestros abuelos viajaron en fila
 
 # sentence level graph:
 (s5e / enkeyveskama-00
@@ -176,7 +176,7 @@ Translation(Spanish):	Nuestros abuelos viajaron en fila
 			:ARG2 (s5e2 / enyatav'a))
 		:refer-number plural)
 	:theme (s5a / aptamnek
-		:poss s5p)
+		:possessor s5p)
 	:temporal (s5e3 / event)
 	:aspect performance)
 
@@ -206,10 +206,10 @@ s5p2: 0-0
 Index:               	1	2
 Words:               	apkenmongkahlnema  mokhoye'
 Morphemes:           	apk- en- mongkahln -em -a  mokhoye'
-Morpheme Gloss(Spanish):	2/3M.I DISTR buscar PST/HAB INF     lejos
+Morpheme Gloss (es): 2/3M.I DISTR buscar PST/HAB INF     lejos
 Morpheme Category:   	v:Any v:Any v v:Any v:Any       adj
-Words(English):      	buscando     lejos
-Translation(Spanish):	Buscando lejos
+Word Gloss (en): buscando     lejos
+Sentence Gloss (es): Buscando lejos
 
 # sentence level graph:
 (s6e / event
@@ -243,10 +243,10 @@ s6m: 2-2
 Index:               	1	2	3	4	5
 Words:               	apkelvaya'moye'       m'a  vassom                      akvesay'a  vassom
 Morphemes:           	apk- el- v -ay -a'm -oye'       m'a  vassom                ak- ves -ay' -a  vassom
-Morpheme Gloss(Spanish):	2/3M.I DISTR llegar PST/HAB APPRX INTNS.INF  DEM.DIST     río  2/3F.III llamarse PST/HAB INF     río
+Morpheme Gloss (es): 2/3M.I DISTR llegar PST/HAB APPRX INTNS.INF  DEM.DIST     río  2/3F.III llamarse PST/HAB INF     río
 Morpheme Category:   	v:Any v:Any v v:Any v:Any v:Any       adv     sus            v:Any v v:Any v:Any     sus
-Words(English):      	llegaron      allá     río                       se llama     río
-Translation(Spanish):	Llegaron allá lejos en el Río Paraguay, se llama "vassom"
+Word Gloss (en): llegaron      allá     río                       se llama     río
+Sentence Gloss (es): Llegaron allá lejos en el Río Paraguay, se llama "vassom"
 
 # sentence level graph:
 (s7e / elvay'a-00
@@ -282,10 +282,10 @@ s7v: 3-3
 Index:               	1	2
 Words:               	hlema     semana
 Morphemes:           	hlema     semana
-Morpheme Gloss(Spanish):	uno  semana.SP
+Morpheme Gloss (es): uno  semana.SP
 Morpheme Category:   	num         cs
-Words(English):      	una     semana
-Translation(Spanish):	Una semana (se quedaban)
+Word Gloss (en): una     semana
+Sentence Gloss (es): Una semana (se quedaban)
 
 # sentence level graph:
 (s8h / have-location-91
@@ -318,10 +318,10 @@ s8s: 2-2
 Index:               	1
 Words:               	elehlyemok
 Morphemes:           	e- l- ehly -em -ok
-Morpheme Gloss(Spanish):	2/3M.II DISTR volver APPRX FUT
+Morpheme Gloss (es): 2/3M.II DISTR volver APPRX FUT
 Morpheme Category:   	v:Any v:Any v v:Any v:Any
-Words(English):      	volvieron
-Translation(Spanish):	Y volvieron
+Word Gloss (en): volvieron
+Sentence Gloss (es): Y volvieron
 
 # sentence level graph:
 (s9e / elehlyayam-00
@@ -353,10 +353,10 @@ s9p3: 0-0
 Index:               	1	2
 Words:               	apkessante'                              entomatkok
 Morphemes:           	apk- es- sant -e'                      en- t -om -a =tkok
-Morpheme Gloss(Spanish):	2/3M.I DISTR traer V1.NFUT  1PL.I comer PST/HAB INF =pequeño, -ito
+Morpheme Gloss (es): 2/3M.I DISTR traer V1.NFUT  1PL.I comer PST/HAB INF =pequeño, -ito
 Morpheme Category:   	v:Any v:Any v v:Any                 v:Any v v:Any v:Any prt
-Words(English):      	trajeron                       cositas de comida
-Translation(Spanish):	Trajeron algunas cositas de comida
+Word Gloss (en): trajeron                       cositas de comida
+Sentence Gloss (es): Trajeron algunas cositas de comida
 
 # sentence level graph:
 (s10e / ensekanta'-00
@@ -395,10 +395,10 @@ s10p3: 0-0
 Index:               	1	2	3
 Words:               	have'                   entoma                      akta'manma
 Morphemes:           	have'             en- t -om -a                ak- ta'man -m -a
-Morpheme Gloss(Spanish):	NEG.PRED  1PL.I comer PST/HAB INF  2/3F.III ser lindo PST/HAB INF
+Morpheme Gloss (es): NEG.PRED  1PL.I comer PST/HAB INF  2/3F.III ser lindo PST/HAB INF
 Morpheme Category:   	prt      v:Any v v:Any v:Any             v:Any v v:Any v:Any
-Words(English):      	no era                   comida                           linda
-Translation(Spanish):	No era comida linda
+Word Gloss (en): no era                   comida                           linda
+Sentence Gloss (es): No era comida linda
 
 # sentence level graph:
 (s11i2 / identity-91
@@ -431,10 +431,10 @@ s11a: 3-3
 Index:               	1	2
 Words:               	ka'ak                 essanta'
 Morphemes:           	ka'ak           e- s- sant -a'
-Morpheme Gloss(Spanish):	yerba mate  2/3M.II DISTR traer FUT
+Morpheme Gloss (es): yerba mate  2/3M.II DISTR traer FUT
 Morpheme Category:   	sus      v:Any v:Any v v:Any
-Words(English):      	yerba mate                 trajeron
-Translation(Spanish):	Trajeron yerba
+Word Gloss (en): yerba mate                 trajeron
+Sentence Gloss (es): Trajeron yerba
 
 # sentence level graph:
 (s12e / ensekanta'-00
@@ -471,10 +471,10 @@ s12p3: 0-0
 Index:               	1
 Words:               	ala'mopay'a
 Morphemes:           	ala'mopay'a
-Morpheme Gloss(Spanish):	jabón
+Morpheme Gloss (es): jabón
 Morpheme Category:   	sus
-Words(English):      	jabón
-Translation(Spanish):	Y jabón
+Word Gloss (en): jabón
+Sentence Gloss (es): Y jabón
 
 # sentence level graph:
 (s13a / ala'mopay'a)
@@ -495,10 +495,10 @@ s13a2: 1-1
 Index:               	1	2
 Words:               	yaskeskamala'a                entahlnema
 Morphemes:           	yas -kes -kam -a =la'a          en- tahln -em -a
-Morpheme Gloss(Spanish):	lavar CAUS PST/HAB INF =HYP  1PL.I entrar PST/HAB INF
+Morpheme Gloss (es): lavar CAUS PST/HAB INF =HYP  1PL.I entrar PST/HAB INF
 Morpheme Category:   	v v>v v:Any v:Any prt       v:Any v v:Any v:Any
-Words(English):      	para lavar                      ropa
-Translation(Spanish):	Para lavar nuestra ropa
+Word Gloss (en): para lavar                      ropa
+Sentence Gloss (es): Para lavar nuestra ropa
 
 # sentence level graph:
 (s14t / thing
@@ -535,10 +535,10 @@ s14e2: 2-2
 Index:               	1
 Words:               	mokhoye'
 Morphemes:           	mokhoye'
-Morpheme Gloss(Spanish):	lejos
+Morpheme Gloss (es): lejos
 Morpheme Category:   	adj
-Words(English):      	lejos
-Translation(Spanish):	Era lejos
+Word Gloss (en): lejos
+Sentence Gloss (es): Era lejos
 
 # sentence level graph:
 (s15h / have-mod-91
@@ -565,10 +565,10 @@ s15m: 1-1
 Index:               	1
 Words:               	teyepe'
 Morphemes:           	teyepe'
-Morpheme Gloss(Spanish):	lejos
+Morpheme Gloss (es): lejos
 Morpheme Category:   	adj
-Words(English):      	lejos
-Translation(Spanish):	Era lejos
+Word Gloss (en): lejos
+Sentence Gloss (es): Era lejos
 
 # sentence level graph:
 (s16h / have-mod-91
@@ -595,10 +595,10 @@ s16t: 1-1
 Index:               	1	2
 Words:               	ahlea'me'     ko'o
 Morphemes:           	a- hle -a'm -e'     ko'o
-Morpheme Gloss(Spanish):	1SG.I viajar APPRX V1.NFUT  1SG:PRO
+Morpheme Gloss (es): 1SG.I viajar APPRX V1.NFUT  1SG:PRO
 Morpheme Category:   	v:Any v v:Any v:Any      pro
-Words(English):      	viajé       yo
-Translation(Spanish):	Yo viajé
+Word Gloss (en): viajé       yo
+Sentence Gloss (es): Yo viajé
 
 # sentence level graph:
 (s17e / enhleama-00
@@ -628,10 +628,10 @@ s17p2: 0-0
 Index:               	1	2	3
 Words:               	astahlnengvaya'me'     escuela  vassom
 Morphemes:           	as- tahln -engv -ay -a'm -e'     escuela  vassom
-Morpheme Gloss(Spanish):	1SG.I entrar LOC PST/HAB APPRX V1.NFUT  escuela.SP     río
+Morpheme Gloss (es): 1SG.I entrar LOC PST/HAB APPRX V1.NFUT  escuela.SP     río
 Morpheme Category:   	v:Any v v:Any v:Any v:Any v:Any          cs     sus
-Words(English):      	había entrado     escuela     río
-Translation(Spanish):	Había entrado en la escuela, al río
+Word Gloss (en): había entrado     escuela     río
+Sentence Gloss (es): Había entrado en la escuela, al río
 
 # sentence level graph:
 (s18e / entahlnema-00
@@ -667,10 +667,10 @@ s18n: 0-0
 Index:               	1	2
 Words:               	eyantengvakheye'        eyapong
 Morphemes:           	e- yant -engv -akh -eye'      e- yapong
-Morpheme Gloss(Spanish):	1SG.III traer LOC REP V1.NFUT  1SG.POS padre
+Morpheme Gloss (es): 1SG.III traer LOC REP V1.NFUT  1SG.POS padre
 Morpheme Category:   	v:Any v v:Any v:Any v:Any    sus:Any sus
-Words(English):      	se fue a traerme       mi padre
-Translation(Spanish):	Mi padre se fue a traerme
+Word Gloss (en): se fue a traerme       mi padre
+Sentence Gloss (es): Mi padre se fue a traerme
 
 # sentence level graph:
 (s19e / enyantengvakha'-00
@@ -711,10 +711,10 @@ s19p3: 0-0
 Index:               	1
 Words:               	nahlepop
 Morphemes:           	na- hlepop
-Morpheme Gloss(Spanish):	LOC tierra
+Morpheme Gloss (es): LOC tierra
 Morpheme Category:   	sus:Any sus
-Words(English):      	a pie
-Translation(Spanish):	A pie
+Word Gloss (en): a pie
+Sentence Gloss (es): A pie
 
 # sentence level graph:
 (s20e / event
@@ -736,10 +736,10 @@ s20n: 1-1
 Index:               	1	2
 Words:               	metkonhan  pelettav
 Morphemes:           	metko =nhan  pelettav
-Morpheme Gloss(Spanish):	NEG.EXT =y  cuchillo
+Morpheme Gloss (es): NEG.EXT =y  cuchillo
 Morpheme Category:   	v prt       sus
-Words(English):      	y no había  cuchillo
-Translation(Spanish):	Y no teníamos cuchillo
+Word Gloss (en): y no había  cuchillo
+Sentence Gloss (es): Y no teníamos cuchillo
 
 # sentence level graph:
 (s21h / have-91
@@ -767,10 +767,10 @@ s21p2: 2-2
 Index:               	1	2
 Words:               	metkonhan                   entoma
 Morphemes:           	metko =nhan             en- t -om -a
-Morpheme Gloss(Spanish):	NEG.EXT =y  1PL.I comer PST/HAB INF
+Morpheme Gloss (es): NEG.EXT =y  1PL.I comer PST/HAB INF
 Morpheme Category:   	v prt      v:Any v v:Any v:Any
-Words(English):      	y no había                   comida
-Translation(Spanish):	Ni teníamos comida
+Word Gloss (en): y no había                   comida
+Sentence Gloss (es): Ni teníamos comida
 
 # sentence level graph:
 (s22h / have-91
@@ -802,10 +802,10 @@ s22e: 2-2
 Index:               	1	2
 Words:               	antahlnengva'te'  a'nem
 Morphemes:           	an- tahln -engv -a't -e'  a'nem
-Morpheme Gloss(Spanish):	2/3F.I entrar LOC VENT V1.NFUT    sol
+Morpheme Gloss (es): 2/3F.I entrar LOC VENT V1.NFUT    sol
 Morpheme Category:   	v:Any v v:Any Verbo v:Any    sus
-Words(English):      	entró mientras venimos    sol
-Translation(Spanish):	Se bajó el sol mientras venimos
+Word Gloss (en): entró mientras venimos    sol
+Sentence Gloss (es): Se bajó el sol mientras venimos
 
 # sentence level graph:
 (s23e / entahlnema-00
@@ -830,10 +830,10 @@ s23a: 2-2
 Index:               	1
 Words:               	alvata'
 Morphemes:           	alvata'
-Morpheme Gloss(Spanish):	riacho
+Morpheme Gloss (es): riacho
 Morpheme Category:   	sus
-Words(English):      	riacho
-Translation(Spanish):	Cerca de un riacho
+Word Gloss (en): riacho
+Sentence Gloss (es): Cerca de un riacho
 
 # sentence level graph:
 (s24a / alvata')
@@ -853,10 +853,10 @@ s24a: 1-1
 Index:               	1
 Words:               	yetneyenhan
 Morphemes:           	yetn -eye =nhan
-Morpheme Gloss(Spanish):	existir V1.NFUT =y
+Morpheme Gloss (es): existir V1.NFUT =y
 Morpheme Category:   	v v:Any prt
-Words(English):      	y había
-Translation(Spanish):	Y había...
+Word Gloss (en): y había
+Sentence Gloss (es): Y había...
 
 # sentence level graph:
 (s25e / exist-91
@@ -883,10 +883,10 @@ s25p: 0-0
 Index:               	1	2	3	4
 Words:               	anmahametana    annav'a'ak       yatapeye'yav               vesay'a
 Morphemes:           	an- mahamet =ana  annav'a -'ak     yata- peye'yav           ves -ay' -a
-Morpheme Gloss(Spanish):	F filoso =DEF      punta PL  SIM tipo de pasto  llamarse PST/HAB INF
+Morpheme Gloss (es): F filoso =DEF      punta PL  SIM tipo de pasto  llamarse PST/HAB INF
 Morpheme Category:   	sus:Any adj prt   sus sus:Any        sus>sus sus         v v:Any v:Any
-Words(English):      	filoso        puntas      tipo de pasto              se llama
-Translation(Spanish):	Eso con puntas filosas, se llama "yatapeyekyav"
+Word Gloss (en): filoso        puntas      tipo de pasto              se llama
+Sentence Gloss (es): Eso con puntas filosas, se llama "yatapeyekyav"
 
 # sentence level graph:
 (s26h / have-mod-91
@@ -921,10 +921,10 @@ s26y: 3-3
 Index:               	1	2
 Words:               	alvana'tema           ava'
 Morphemes:           	al- vana't -em -a         a- va'
-Morpheme Gloss(Spanish):	2/3F.PL.III ser largo PST/HAB INF  2/3F.POS hoja
+Morpheme Gloss (es): 2/3F.PL.III ser largo PST/HAB INF  2/3F.POS hoja
 Morpheme Category:   	v:Any v v:Any v:Any    sus:Any sus
-Words(English):      	son largos      sus hojas
-Translation(Spanish):	Sus hojas son largas
+Word Gloss (en): son largos      sus hojas
+Sentence Gloss (es): Sus hojas son largas
 
 # sentence level graph:
 (s27h / have-mod-91
@@ -955,10 +955,10 @@ s27t2: 0-0
 Index:               	1	2
 Words:               	asyetneye'     ko'o
 Morphemes:           	as- yetn -eye'     ko'o
-Morpheme Gloss(Spanish):	1SG.I estar acostado V1.NFUT  1SG:PRO
+Morpheme Gloss (es): 1SG.I estar acostado V1.NFUT  1SG:PRO
 Morpheme Category:   	v:Any v v:Any      pro
-Words(English):      	estaba acostado       yo
-Translation(Spanish):	Yo estaba acostado (acá donde muestro)
+Word Gloss (en): estaba acostado       yo
+Sentence Gloss (es): Yo estaba acostado (acá donde muestro)
 
 # sentence level graph:
 (s28a / and
@@ -994,10 +994,10 @@ s28p2: 0-0
 Index:               	1	2
 Words:               	eyapoanhan  annav'a
 Morphemes:           	e- yapo =anhan  annav'a
-Morpheme Gloss(Spanish):	1SG.POS padre =y    punta
+Morpheme Gloss (es): 1SG.POS padre =y    punta
 Morpheme Category:   	sus:Any sus prt      sus
-Words(English):      	mi padre    punta
-Translation(Spanish):	Y mi padre en la punta
+Word Gloss (en): mi padre    punta
+Sentence Gloss (es): Y mi padre en la punta
 
 # sentence level graph:
 (s29e / event
@@ -1035,10 +1035,10 @@ s29a: 2-2
 Index:               	1	2	3
 Words:               	mahla                   ella'lammahlka'          akva'
 Morphemes:           	mahla           el- la'l -amm -ahlk -a'        ak- va'
-Morpheme Gloss(Spanish):	como  1PL.I cubrirse PST/HAB PAS.F INF  2/3M.POS hoja
+Morpheme Gloss (es): como  1PL.I cubrirse PST/HAB PAS.F INF  2/3M.POS hoja
 Morpheme Category:   	prt           v:Any v v:Any v>v v:Any    sus:Any sus
-Words(English):      	como                      nos cubrimos           hoja
-Translation(Spanish):	Parece que nos cubrimos con las hojas
+Word Gloss (en): como                      nos cubrimos           hoja
+Sentence Gloss (es): Parece que nos cubrimos con las hojas
 
 # sentence level graph:
 (s30e / ella'lammahlka'-00
@@ -1075,10 +1075,10 @@ s30t: 0-0
 Index:               	1	2
 Words:               	yatapeye'yav                      a'vesay'a
 Morphemes:           	yata- peye'yav                a'- ves -ay' -a
-Morpheme Gloss(Spanish):	SIM tipo de pasto  2/3F.III llamarse PST/HAB INF
+Morpheme Gloss (es): SIM tipo de pasto  2/3F.III llamarse PST/HAB INF
 Morpheme Category:   	sus>sus sus            v:Any v v:Any v:Any
-Words(English):      	tipo de pasto                       se llama
-Translation(Spanish):	Se llama "yatapeye'yav"
+Word Gloss (en): tipo de pasto                       se llama
+Sentence Gloss (es): Se llama "yatapeye'yav"
 
 # sentence level graph:
 (s31h / have-name-91
@@ -1105,10 +1105,10 @@ s31y: 1-1
 Index:               	1	2
 Words:               	teyepenhan     nahlepop
 Morphemes:           	teyepe =nhan   na- hlepop
-Morpheme Gloss(Spanish):	lejos =y   LOC tierra
+Morpheme Gloss (es): lejos =y   LOC tierra
 Morpheme Category:   	adj prt  sus:Any sus
-Words(English):      	lejos        a pie
-Translation(Spanish):	Y era lejos, a pie
+Word Gloss (en): lejos        a pie
+Sentence Gloss (es): Y era lejos, a pie
 
 # sentence level graph:
 (s32e / event
@@ -1133,10 +1133,10 @@ s32t: 1-1
 Index:               	1	2	3
 Words:               	enmeyaykanta'                ahltama seyana'
 Morphemes:           	en- mey -ayk -ant -a'                ahltama seyana'
-Morpheme Gloss(Spanish):	1PL.I ir PST/HAB VENT INF  anciano lugar de los sanapaná
+Morpheme Gloss (es): 1PL.I ir PST/HAB VENT INF  anciano lugar de los sanapaná
 Morpheme Category:   	v:Any v v:Any Verbo v:Any                            sus
-Words(English):      	venimos  anciano lugar de los sanapaná
-Translation(Spanish):	Venimos hasta ahltama seyana'
+Word Gloss (en): venimos  anciano lugar de los sanapaná
+Sentence Gloss (es): Venimos hasta ahltama seyana'
 
 # sentence level graph:
 (s33e / enmeyekanta'-00
@@ -1173,10 +1173,10 @@ s33p2: 0-0
 Index:               	1	2	3
 Words:               	yetnama   mata'a      ehaktek
 Morphemes:           	yetn -am -a   mata'a    eh- aktek
-Morpheme Gloss(Spanish):	existir AMBL V1.NFUT  siempre  1SG.POS ojo
+Morpheme Gloss (es): existir AMBL V1.NFUT  siempre  1SG.POS ojo
 Morpheme Category:   	v v:Any v:Any      prt  sus:Any sus
-Words(English):      	existir, hay  siempre          ojo
-Translation(Spanish):	Siempre pienso en eso
+Word Gloss (en): existir, hay  siempre          ojo
+Sentence Gloss (es): Siempre pienso en eso
 
 # sentence level graph:
 (s34e / enyetnema-00
@@ -1209,10 +1209,10 @@ s34p: 0-0
 Index:               	1	2	3	4
 Words:               	na                     antemak  ennengko'o                       eleyvoma
 Morphemes:           	na               an- t -em -ak  ennengko'o                 el- eyv -om -a
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT     1PL:PRO  1PL.I vivir (pl.) PST/HAB INF
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT     1PL:PRO  1PL.I vivir (pl.) PST/HAB INF
 Morpheme Category:   	prt         v:Any v v:Any v:Any         pro            v:Any v v:Any v:Any
-Words(English):      	así                         era     nostros                       vivíamos
-Translation(Spanish):	Así es que nosotros vivíamos
+Word Gloss (en): así                         era     nostros                       vivíamos
+Sentence Gloss (es): Así es que nosotros vivíamos
 
 # sentence level graph:
 (s35i2 / identity-91
@@ -1252,10 +1252,10 @@ s35p: 0-0
 Index:               	1
 Words:               	atsa'o
 Morphemes:           	a- tsa -'o
-Morpheme Gloss(Spanish):	2/3F.III amanecer SUBJ
+Morpheme Gloss (es): 2/3F.III amanecer SUBJ
 Morpheme Category:   	v:Any v v:Any
-Words(English):      	amaneció
-Translation(Spanish):	Amaneció
+Word Gloss (en): amaneció
+Sentence Gloss (es): Amaneció
 
 # sentence level graph:
 (s36a / atsay'a-00
@@ -1277,10 +1277,10 @@ s36a: 1-1
 Index:               	1
 Words:               	ngkehlya'me'
 Morphemes:           	ngk- ehly -a'm -e'
-Morpheme Gloss(Spanish):	2/3F.I volver APPRX V1.NFUT
+Morpheme Gloss (es): 2/3F.I volver APPRX V1.NFUT
 Morpheme Category:   	v:Any v v:Any v:Any
-Words(English):      	volvimos
-Translation(Spanish):	Volvimos
+Word Gloss (en): volvimos
+Sentence Gloss (es): Volvimos
 
 # sentence level graph:
 (s37e / elehlyayam-00
@@ -1308,10 +1308,10 @@ s37p2: 0-0
 Index:               	1	2
 Words:               	yamangkettoye'  temma
 Morphemes:           	yama- ng- kett -oye'  temma
-Morpheme Gloss(Spanish):	SIM F cerca INTNS   casa
+Morpheme Gloss (es): SIM F cerca INTNS   casa
 Morpheme Category:   	sus>sus sus:Any adj sus:Any    sus
-Words(English):      	bastante cerca   casa
-Translation(Spanish):	Bastante cerca de la casa
+Word Gloss (en): bastante cerca   casa
+Sentence Gloss (es): Bastante cerca de la casa
 
 # sentence level graph:
 (s38h / have-location-91
@@ -1340,10 +1340,10 @@ s38t: 2-2
 Index:               	1	2	3	4	5
 Words:               	metko                  may'ala         ontehek                      entomala     metko
 Morphemes:           	metko           ma -ay' -a =la     on- t -ehek              en- t -om -a =la     metko
-Morpheme Gloss(Spanish):	NEG.EXT  querer PST/HAB INF =HYP  1PL.II ser FUT  1PL.I comer PST/HAB INF =HYP   NEG.EXT
+Morpheme Gloss (es): NEG.EXT  querer PST/HAB INF =HYP  1PL.II ser FUT  1PL.I comer PST/HAB INF =HYP   NEG.EXT
 Morpheme Category:   	v        v v:Any v:Any prt   v:Any v v:Any       v:Any v v:Any v:Any prt         v
-Words(English):      	no había              para querer           hacer                    para comer  no había
-Translation(Spanish):	No había forma para hacer... para comer, no había nada
+Word Gloss (en): no había              para querer           hacer                    para comer  no había
+Sentence Gloss (es): No había forma para hacer... para comer, no había nada
 
 # sentence level graph:
 (s39e / exist-91
@@ -1392,10 +1392,10 @@ s39e4: 4-4
 Index:               	1
 Words:               	anteyepe'
 Morphemes:           	an- teyepe'
-Morpheme Gloss(Spanish):	2/3F.I lejos
+Morpheme Gloss (es): 2/3F.I lejos
 Morpheme Category:   	v:Any adj
-Words(English):      	lejos
-Translation(Spanish):	Era lejos
+Word Gloss (en): lejos
+Sentence Gloss (es): Era lejos
 
 # sentence level graph:
 (s40e / event
@@ -1418,10 +1418,10 @@ s40a: 1-1
 Index:               	1	2	3
 Words:               	ahltama seyana'  yevakhahlma'
 Morphemes:           	ahltama seyana'  yevakhahlma'
-Morpheme Gloss(Spanish):	anciano lugar de los sanapaná         lugar
+Morpheme Gloss (es): anciano lugar de los sanapaná         lugar
 Morpheme Category:   	sus           sus
-Words(English):      	anciano lugar de los sanapaná         lugar
-Translation(Spanish):	En el lugar de ahltama seyana'
+Word Gloss (en): anciano lugar de los sanapaná         lugar
+Sentence Gloss (es): En el lugar de ahltama seyana'
 
 # sentence level graph:
 (s41y / yevakhahlma’
@@ -1444,10 +1444,10 @@ s41s: 0-0
 Index:               	1	2
 Words:               	enmeyekamok     vassom
 Morphemes:           	en- mey -ek -am -ok     vassom
-Morpheme Gloss(Spanish):	1PL.I ir PST/HAB CPLX INF        río
+Morpheme Gloss (es): 1PL.I ir PST/HAB CPLX INF        río
 Morpheme Category:   	v:Any v v:Any v:Any v:Any        sus
-Words(English):      	fuimos  en el río
-Translation(Spanish):	Nos fuimos al Rio Paraguay
+Word Gloss (en): fuimos  en el río
+Sentence Gloss (es): Nos fuimos al Rio Paraguay
 
 # sentence level graph:
 (s42e / enmeyekamok-00
@@ -1481,10 +1481,10 @@ s42n: 0-0
 Index:               	1
 Words:               	teyepe'
 Morphemes:           	teyepe'
-Morpheme Gloss(Spanish):	lejos
+Morpheme Gloss (es): lejos
 Morpheme Category:   	adj
-Words(English):      	lejos
-Translation(Spanish):	Era lejos
+Word Gloss (en): lejos
+Sentence Gloss (es): Era lejos
 
 # sentence level graph:
 (s43h / have-location-91
@@ -1509,10 +1509,10 @@ s43t: 1-1
 Index:               	1	2	3	4	5
 Words:               	na                     antemak                       eleyvoma  ennengko'o  hlemmea
 Morphemes:           	na               an- t -em -ak                 el- eyv -om -a  ennengko'o  hlemmea
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I vivir (pl.) PST/HAB INF     1PL:PRO    antes
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I vivir (pl.) PST/HAB INF     1PL:PRO    antes
 Morpheme Category:   	prt         v:Any v v:Any v:Any            v:Any v v:Any v:Any         pro      adv
-Words(English):      	así                         era                       vivíamos     nostros    antes
-Translation(Spanish):	Así vivíamos antes
+Word Gloss (en): así                         era                       vivíamos     nostros    antes
+Sentence Gloss (es): Así vivíamos antes
 
 # sentence level graph:
 (s44i2 / identity-91
@@ -1552,9 +1552,9 @@ s44h: 5-5
 Index:               	1	2	3	4
 Words:               	na                     antemak                       eleyvoma  ennengko'o
 Morphemes:           	na               an- t -em -ak                 el- eyv -om -a  ennengko'o
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I vivir (pl.) PST/HAB INF     1PL:PRO
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I vivir (pl.) PST/HAB INF     1PL:PRO
 Morpheme Category:   	prt         v:Any v v:Any v:Any            v:Any v v:Any v:Any         pro
-Words(English):      	así                         era                       vivíamos     nostros
+Word Gloss (en): así                         era                       vivíamos     nostros
 
 # sentence level graph:
 (s45i2 / identity-91
@@ -1589,10 +1589,10 @@ s45p: 0-0
 Index:               	1	2
 Words:               	ammokhamennekhe'                   entoma
 Morphemes:           	am- mokham -e =nnekhe'             en- t -om -a
-Morpheme Gloss(Spanish):	2/3F.I existir todavía V1.NFUT =aunque  1PL.I comer PST/HAB INF
+Morpheme Gloss (es): 2/3F.I existir todavía V1.NFUT =aunque  1PL.I comer PST/HAB INF
 Morpheme Category:   	v:Any v v:Any prt      v:Any v v:Any v:Any
-Words(English):      	aunque existe todavía           nuestra comida
-Translation(Spanish):	Aunque existe todavia nuestra comida
+Word Gloss (en): aunque existe todavía           nuestra comida
+Sentence Gloss (es): Aunque existe todavia nuestra comida
 
 # sentence level graph:
 (s46e / event
@@ -1630,10 +1630,10 @@ s46p2: 0-0
 Index:               	1
 Words:               	hengka'e
 Morphemes:           	hengka'e
-Morpheme Gloss(Spanish):	acá
+Morpheme Gloss (es): acá
 Morpheme Category:   	adv
-Words(English):      	acá
-Translation(Spanish):	Acá
+Word Gloss (en): acá
+Sentence Gloss (es): Acá
 
 # sentence level graph:
 (s47h / hengka'e)
@@ -1652,10 +1652,10 @@ s47h: 1-1
 Index:               	1	2	3	4	5
 Words:               	mahla                      apkeleyveye'      apketko'ona                          melvetay'o                   entoma
 Morphemes:           	mahla                apk- el- eyv -eye'  ap- ketko'o =na                m- e- l- vet -ay' -o             en- t -om -a
-Morpheme Gloss(Spanish):	como  2/3M.I DISTR vivir (pl.) V1.NFUT  2/3M joven =DEF  NEG 2/3M.II DISTR ver PST/HAB SUBJ  1PL.I comer PST/HAB INF
+Morpheme Gloss (es): como  2/3M.I DISTR vivir (pl.) V1.NFUT  2/3M joven =DEF  NEG 2/3M.II DISTR ver PST/HAB SUBJ  1PL.I comer PST/HAB INF
 Morpheme Category:   	prt               v:Any v:Any v v:Any  sus:Any sus prt     v:Any v:Any v:Any v v:Any v:Any      v:Any v v:Any v:Any
-Words(English):      	como                             viven      los jóvenes                        no han visto           nuestra comida
-Translation(Spanish):	Los jóvenes parece que viven... no han visto nuestra comida
+Word Gloss (en): como                             viven      los jóvenes                        no han visto           nuestra comida
+Sentence Gloss (es): Los jóvenes parece que viven... no han visto nuestra comida
 
 # sentence level graph:
 (s48e / eleyvoma-00
@@ -1703,10 +1703,10 @@ s48m: 1-1
 Index:               	1	2
 Words:               	yetneye'   pa'ang
 Morphemes:           	yetn -eye'   pa'ang
-Morpheme Gloss(Spanish):	existir V1.NFUT  palmera
+Morpheme Gloss (es): existir V1.NFUT  palmera
 Morpheme Category:   	v v:Any      sus
-Words(English):      	hay  palmera
-Translation(Spanish):	Hay karandilla
+Word Gloss (en): hay  palmera
+Sentence Gloss (es): Hay karandilla
 
 # sentence level graph:
 (s49e / exist-91
@@ -1747,10 +1747,10 @@ s49t: 0-0
 Index:               	1
 Words:               	yavhan
 Morphemes:           	yavhan
-Morpheme Gloss(Spanish):	miel del "yavhan"
+Morpheme Gloss (es): miel del "yavhan"
 Morpheme Category:   	sus
-Words(English):      	miel
-Translation(Spanish):	Y miel de abeja
+Word Gloss (en): miel
+Sentence Gloss (es): Y miel de abeja
 
 # sentence level graph:
 (s50y / yavhan)
@@ -1769,10 +1769,10 @@ s50y: 1-1
 Index:               	1
 Words:               	nyalva'
 Morphemes:           	nyalva'
-Morpheme Gloss(Spanish):	tatú bolita
+Morpheme Gloss (es): tatú bolita
 Morpheme Category:   	sus
-Words(English):      	tatú bolita
-Translation(Spanish):	Y tatu bolita
+Word Gloss (en): tatú bolita
+Sentence Gloss (es): Y tatu bolita
 
 # sentence level graph:
 (s51n / nyalva')
@@ -1791,10 +1791,10 @@ s51n: 1-1
 Index:               	1	2
 Words:               	anhlanye'                              entomatkok
 Morphemes:           	an- hlanye'                      en- t -om -a =tkok
-Morpheme Gloss(Spanish):	2/3F.I ser muchos  1PL.I comer PST/HAB INF =pequeño, -ito
+Morpheme Gloss (es): 2/3F.I ser muchos  1PL.I comer PST/HAB INF =pequeño, -ito
 Morpheme Category:   	v:Any v                 v:Any v v:Any v:Any prt
-Words(English):      	hay muchas                         tipos de comida
-Translation(Spanish):	Hay muchos tipos de comida
+Word Gloss (en): hay muchas                         tipos de comida
+Sentence Gloss (es): Hay muchos tipos de comida
 
 # sentence level graph:
 (s52t / thing
@@ -1824,10 +1824,10 @@ s52a: 1-1
 Index:               	1
 Words:               	aykaha
 Morphemes:           	aykaha
-Morpheme Gloss(Spanish):	algarrobo
+Morpheme Gloss (es): algarrobo
 Morpheme Category:   	sus
-Words(English):      	algarrobo
-Translation(Spanish):	La fruta del "aykaha"
+Word Gloss (en): algarrobo
+Sentence Gloss (es): La fruta del "aykaha"
 
 # sentence level graph:
 (s53a / aykaha)
@@ -1846,10 +1846,10 @@ s53a: 1-1
 Index:               	1
 Words:               	tayet
 Morphemes:           	tayet
-Morpheme Gloss(Spanish):	tipo de árbol
+Morpheme Gloss (es): tipo de árbol
 Morpheme Category:   	sus
-Words(English):      	tipo de árbol
-Translation(Spanish):	La fruta del "tayet"
+Word Gloss (en): tipo de árbol
+Sentence Gloss (es): La fruta del "tayet"
 
 # sentence level graph:
 (s54t / tayet)
@@ -1868,10 +1868,10 @@ s54t: 1-1
 Index:               	1
 Words:               	teves
 Morphemes:           	teves
-Morpheme Gloss(Spanish):	algarrobo
+Morpheme Gloss (es): algarrobo
 Morpheme Category:   	sus
-Words(English):      	algarrobo
-Translation(Spanish):	La fruta del "teves"
+Word Gloss (en): algarrobo
+Sentence Gloss (es): La fruta del "teves"
 
 # sentence level graph:
 (s55t / teves)
@@ -1890,10 +1890,10 @@ s55t: 1-1
 Index:               	1	2	3
 Words:               	na                     antemak                   entoma
 Morphemes:           	na               an- t -em -ak             en- t -om -a
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I comer PST/HAB INF
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT  1PL.I comer PST/HAB INF
 Morpheme Category:   	prt         v:Any v v:Any v:Any      v:Any v v:Any v:Any
-Words(English):      	así                         era           nuestra comida
-Translation(Spanish):	Así era nuestra comida
+Word Gloss (en): así                         era           nuestra comida
+Sentence Gloss (es): Así era nuestra comida
 
 # sentence level graph:
 (s56i2 / identity-91
@@ -1928,10 +1928,10 @@ s56p: 0-0
 Index:               	1	2	3
 Words:               	mokham                   entoma   mokham
 Morphemes:           	mokham             en- t -om -a   mokham
-Morpheme Gloss(Spanish):	todavía  1PL.I comer PST/HAB INF  todavía
+Morpheme Gloss (es): todavía  1PL.I comer PST/HAB INF  todavía
 Morpheme Category:   	prt      v:Any v v:Any v:Any      prt
-Words(English):      	todavía           nuestra comida  todavía
-Translation(Spanish):	Todavía es nuestra comida, todavía
+Word Gloss (en): todavía           nuestra comida  todavía
+Sentence Gloss (es): Todavía es nuestra comida, todavía
 
 # sentence level graph:
 (s57e / enmokhamekamok-00
@@ -1963,10 +1963,10 @@ s57p: 0-0
 Index:               	1
 Words:               	antava
 Morphemes:           	antava
-Morpheme Gloss(Spanish):	poroto silvestre
+Morpheme Gloss (es): poroto silvestre
 Morpheme Category:   	sus
-Words(English):      	poroto silvestre
-Translation(Spanish):	Poroto silvestre
+Word Gloss (en): poroto silvestre
+Sentence Gloss (es): Poroto silvestre
 
 # sentence level graph:
 (s58a / antava)
@@ -1985,10 +1985,10 @@ s58a: 1-1
 Index:               	1	2	3	4	5
 Words:               	metko               ta'manma                   entoma  hlemmea     metko
 Morphemes:           	metko           ta'man -m -a             en- t -om -a  hlemmea     metko
-Morpheme Gloss(Spanish):	NEG.EXT  ser lindo PST/HAB INF  1PL.I comer PST/HAB INF    antes   NEG.EXT
+Morpheme Gloss (es): NEG.EXT  ser lindo PST/HAB INF  1PL.I comer PST/HAB INF    antes   NEG.EXT
 Morpheme Category:   	v          v v:Any v:Any      v:Any v v:Any v:Any      adv         v
-Words(English):      	no había                  linda                   comida    antes  no había
-Translation(Spanish):	No había comida linda antes, no había
+Word Gloss (en): no había                  linda                   comida    antes  no había
+Sentence Gloss (es): No había comida linda antes, no había
 
 # sentence level graph:
 (s59e / exist-91
@@ -2028,10 +2028,10 @@ s59h2: 4-4
 Index:               	1
 Words:               	entomana
 Morphemes:           	en- t -om -a =na
-Morpheme Gloss(Spanish):	1PL.I comer PST/HAB INF =DEF
+Morpheme Gloss (es): 1PL.I comer PST/HAB INF =DEF
 Morpheme Category:   	v:Any v v:Any v:Any prt
-Words(English):      	comida
-Translation(Spanish):	La comida...
+Word Gloss (en): comida
+Sentence Gloss (es): La comida...
 
 # sentence level graph:
 (s60t / thing
@@ -2057,10 +2057,10 @@ s60p: 0-0
 Index:               	1	2
 Words:               	na                     antemak
 Morphemes:           	na               an- t -em -ak
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT
 Morpheme Category:   	prt         v:Any v v:Any v:Any
-Words(English):      	así                         era
-Translation(Spanish):	Así era
+Word Gloss (en): así                         era
+Sentence Gloss (es): Así era
 
 # sentence level graph:
 (s61i2 / identity-91
@@ -2089,10 +2089,10 @@ s61t2: 0-0
 Index:               	1	2	3	4	5
 Words:               	na                     antemak              asvetay'a     ko'o  hlemmea
 Morphemes:           	na               an- t -em -ak        as- vet -ay' -a     ko'o  hlemmea
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT  1SG.I ver PST/HAB INF  1SG:PRO    antes
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT  1SG.I ver PST/HAB INF  1SG:PRO    antes
 Morpheme Category:   	prt         v:Any v v:Any v:Any    v:Any v v:Any v:Any      pro      adv
-Words(English):      	así                         era              lo que vi       yo    antes
-Translation(Spanish):	Eso es lo que vi antes
+Word Gloss (en): así                         era              lo que vi       yo    antes
+Sentence Gloss (es): Eso es lo que vi antes
 
 # sentence level graph:
 (s62i2 / identity-91
@@ -2135,10 +2135,10 @@ s62h: 5-5
 Index:               	1	2	3
 Words:               	olekvakhoho'   mata'a         nangka
 Morphemes:           	o- lekv -akh -oho'   mata'a       na= ngka
-Morpheme Gloss(Spanish):	1SG.II acordarse REP INTNS.FUT  siempre  DEF= DEM.PROX
+Morpheme Gloss (es): 1SG.II acordarse REP INTNS.FUT  siempre  DEF= DEM.PROX
 Morpheme Category:   	v:Any v v:Any v:Any      prt        prt pro
-Words(English):      	voy a recordar  siempre            eso
-Translation(Spanish):	Siempre voy a recordar eso
+Word Gloss (en): voy a recordar  siempre            eso
+Sentence Gloss (es): Siempre voy a recordar eso
 
 # sentence level graph:
 (s63e / ellekvekakha'-00
@@ -2169,10 +2169,10 @@ s63n: 3-3
 Index:               	1	2	3
 Words:               	yetnaykama      eya'tek  hlemmea
 Morphemes:           	yetn -ayk -am -a    ey- a'tek  hlemmea
-Morpheme Gloss(Spanish):	existir PST/HAB AMBL INF  1PL.POS ojo    antes
+Morpheme Gloss (es): existir PST/HAB AMBL INF  1PL.POS ojo    antes
 Morpheme Category:   	v v:Any v:Any v:Any  sus:Any sus      adv
-Words(English):      	lo que está       mi ojo    antes
-Translation(Spanish):	Mis pensamientos del pasado
+Word Gloss (en): lo que está       mi ojo    antes
+Sentence Gloss (es): Mis pensamientos del pasado
 
 # sentence level graph:
 (s64t / thing
@@ -2207,10 +2207,10 @@ s64t: 0-0
 Index:               	1	2
 Words:               	hengka    akyavakhahlma'
 Morphemes:           	hengka  ak- yavakhahlma'
-Morpheme Gloss(Spanish):	DEM.PROX        2/3F lugar
+Morpheme Gloss (es): DEM.PROX        2/3F lugar
 Morpheme Category:   	adv       sus:Any sus
-Words(English):      	acá             lugar
-Translation(Spanish):	Acá, este lugar
+Word Gloss (en): acá             lugar
+Sentence Gloss (es): Acá, este lugar
 
 # sentence level graph:
 (s65a / akyavakhahlma'
@@ -2231,10 +2231,10 @@ s65h: 1-1
 Index:               	1	2	3
 Words:               	have'                          apkehlhlakamo        nenhlet
 Morphemes:           	have'                  apk- ehl- hlak -am -o        nenhlet
-Morpheme Gloss(Spanish):	NEG.PRED  2/3M.I DISTR dejar (pl.) PST/HAB SUBJ        persona
+Morpheme Gloss (es): NEG.PRED  2/3M.I DISTR dejar (pl.) PST/HAB SUBJ        persona
 Morpheme Category:   	prt              v:Any v:Any v v:Any v:Any            sus
-Words(English):      	no es                                dejaron  los indígenas
-Translation(Spanish):	No es que los indígenas lo han dejado
+Word Gloss (en): no es                                dejaron  los indígenas
+Sentence Gloss (es): No es que los indígenas lo han dejado
 
 # sentence level graph:
 (s66e / ehlhlakama-00
@@ -2271,10 +2271,10 @@ s66t: 0-0
 Index:               	1	2
 Words:               	mokhamannennekhe'                        eleyvo'
 Morphemes:           	mokhama =nne =nnekhe'                  e- l- eyv -o'
-Morpheme Gloss(Spanish):	todavía =CTRFCT =ojalá  2/3M.II DISTR vivir (pl.) FUT
+Morpheme Gloss (es): todavía =CTRFCT =ojalá  2/3M.II DISTR vivir (pl.) FUT
 Morpheme Category:   	prt prt prt            v:Any v:Any v v:Any
-Words(English):      	todavía hubieran podido                          vivir
-Translation(Spanish):	Todavía hubieran podido vivir allá
+Word Gloss (en): todavía hubieran podido                          vivir
+Sentence Gloss (es): Todavía hubieran podido vivir allá
 
 # sentence level graph:
 (s67e / eleyvoma-00
@@ -2310,10 +2310,10 @@ s67e2: 0-0
 Index:               	1	2
 Words:               	ahltama seyana'
 Morphemes:           	ahltama seyana'
-Morpheme Gloss(Spanish):	anciano lugar de los sanapaná
+Morpheme Gloss (es): anciano lugar de los sanapaná
 Morpheme Category:   	sus
-Words(English):      	anciano lugar de los sanapaná
-Translation(Spanish):	En ahltama seyana'
+Word Gloss (en): anciano lugar de los sanapaná
+Sentence Gloss (es): En ahltama seyana'
 
 # sentence level graph:
 (s68t / territory
@@ -2336,10 +2336,10 @@ s68s: 0-0
 Index:               	1	2
 Words:               	avanhe'   sanga
 Morphemes:           	avanhe'   sanga
-Morpheme Gloss(Spanish):	grande  laguna
+Morpheme Gloss (es): grande  laguna
 Morpheme Category:   	adj     sus
-Words(English):      	grande  laguna
-Translation(Spanish):	La laguna era grande
+Word Gloss (en): grande  laguna
+Sentence Gloss (es): La laguna era grande
 
 # sentence level graph:
 (s69e / exist-91
@@ -2368,10 +2368,10 @@ s69a: 1-1
 Index:               	1	2	3	4
 Words:               	yetneye'       yataptomahang  mahla     yatapoma'ap
 Morphemes:           	yetn -eye'     yata- ptomahang  mahla   yata- poma'ap
-Morpheme Gloss(Spanish):	existir V1.NFUT  SIM mara del Chaco   como     SIM chancho
+Morpheme Gloss (es): existir V1.NFUT  SIM mara del Chaco   como     SIM chancho
 Morpheme Category:   	v v:Any         sus>sus sus    prt     sus>sus sus
-Words(English):      	había           carpincho   como  chancho casero
-Translation(Spanish):	Había carpinchos tan grande como chanchos caseros
+Word Gloss (en): había           carpincho   como  chancho casero
+Sentence Gloss (es): Había carpinchos tan grande como chanchos caseros
 
 # sentence level graph:
 (s70e / exist-91
@@ -2402,10 +2402,10 @@ s70y2: 4-4
 Index:               	1	2
 Words:               	avanhe'   sanga
 Morphemes:           	avanhe'   sanga
-Morpheme Gloss(Spanish):	grande  laguna
+Morpheme Gloss (es): grande  laguna
 Morpheme Category:   	adj     sus
-Words(English):      	grande  laguna
-Translation(Spanish):	La laguna era grande
+Word Gloss (en): grande  laguna
+Sentence Gloss (es): La laguna era grande
 
 # sentence level graph:
 (s71e / exist-91
@@ -2435,10 +2435,10 @@ s71a: 1-1
 Index:               	1	2
 Words:               	ne  kelasma
 Morphemes:           	ne  kelasma
-Morpheme Gloss(Spanish):	???      pez
+Morpheme Gloss (es): ???      pez
 Morpheme Category:   	<Not Sure>      sus
-Words(English):      	había?  pescado
-Translation(Spanish):	Había pescado
+Word Gloss (en): había?  pescado
+Sentence Gloss (es): Había pescado
 
 # sentence level graph:
 (s72e / exist-91
@@ -2465,10 +2465,10 @@ s72k: 2-2
 Index:               	1	2
 Words:               	alyavay'a    kelamayet
 Morphemes:           	al- yav -ay' -a    kelamayet
-Morpheme Gloss(Spanish):	2/3F.PL.III ser grande PST/HAB INF  tipo de pez
+Morpheme Gloss (es): 2/3F.PL.III ser grande PST/HAB INF  tipo de pez
 Morpheme Category:   	v:Any v v:Any v:Any          sus
-Words(English):      	grande  tipo de pez
-Translation(Spanish):	Los pescados "kelamayet" eran muy grandes
+Word Gloss (en): grande  tipo de pez
+Sentence Gloss (es): Los pescados "kelamayet" eran muy grandes
 
 # sentence level graph:
 (s73k / kelamayet
@@ -2492,10 +2492,10 @@ s73a: 1-1
 Index:               	1	2	3
 Words:               	angva'me'  kanet  yentehlkapa
 Morphemes:           	ang- v -a'm -e'  kanet  yentehlkapa
-Morpheme Gloss(Spanish):	2/3F.I llegar APPRX V1.NFUT    dos          año
+Morpheme Gloss (es): 2/3F.I llegar APPRX V1.NFUT    dos          año
 Morpheme Category:   	v:Any v v:Any v:Any    num          sus
-Words(English):      	llegó    dos          año
-Translation(Spanish):	Alcanzó dos años
+Word Gloss (en): llegó    dos          año
+Sentence Gloss (es): Alcanzó dos años
 
 # sentence level graph:
 (s74h / have-duration-91
@@ -2524,10 +2524,10 @@ s74y: 3-3
 Index:               	1
 Words:               	mangkoymaye'
 Morphemes:           	m- angko- ym -aye'
-Morpheme Gloss(Spanish):	NEG 2/3F.II ser seco FUT
+Morpheme Gloss (es): NEG 2/3F.II ser seco FUT
 Morpheme Category:   	v:Any v:Any v v:Any
-Words(English):      	no se secó
-Translation(Spanish):	No se secó
+Word Gloss (en): no se secó
+Sentence Gloss (es): No se secó
 
 # sentence level graph:
 (s75e / enyemay'a-00
@@ -2553,10 +2553,10 @@ s75t: 0-0
 Index:               	1	2	3	4
 Words:               	mokham  yemmen  kanet  yantehlkapa
 Morphemes:           	mokham  yemmen  kanet  yantehlkapa
-Morpheme Gloss(Spanish):	todavía    agua    dos          año
+Morpheme Gloss (es): todavía    agua    dos          año
 Morpheme Category:   	prt     sus    num          sus
-Words(English):      	todavía    agua    dos          año
-Translation(Spanish):	Todavía había agua, después de dos años
+Word Gloss (en): todavía    agua    dos          año
+Sentence Gloss (es): Todavía había agua, después de dos años
 
 # sentence level graph:
 (s76e / enmokhamekamok-00
@@ -2588,10 +2588,10 @@ s76p: 0-0
 Index:               	1	2	3
 Words:               	akvesay'ana                ahltama seyana'
 Morphemes:           	ak- ves -ay' -a =na                ahltama seyana'
-Morpheme Gloss(Spanish):	2/3F.III llamarse PST/HAB INF =DEF  anciano lugar de los sanapaná
+Morpheme Gloss (es): 2/3F.III llamarse PST/HAB INF =DEF  anciano lugar de los sanapaná
 Morpheme Category:   	v:Any v v:Any v:Any prt                            sus
-Words(English):      	se llama  anciano lugar de los sanapaná
-Translation(Spanish):	Se llamaba ahltama seyana'
+Word Gloss (en): se llama  anciano lugar de los sanapaná
+Sentence Gloss (es): Se llamaba ahltama seyana'
 
 # sentence level graph:
 (s77h / have-name-91
@@ -2620,10 +2620,10 @@ s77a: 2-2
 Index:               	1	2	3
 Words:               	na                     antemak                    ha'e
 Morphemes:           	na               an- t -em -ak                    ha'e
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB V2.NFUT  allá lejos de nosotros
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB V2.NFUT  allá lejos de nosotros
 Morpheme Category:   	prt         v:Any v v:Any v:Any                     adv
-Words(English):      	así                         era                    allá
-Translation(Spanish):	Así era allá
+Word Gloss (en): así                         era                    allá
+Sentence Gloss (es): Así era allá
 
 # sentence level graph:
 (s78h / have-mod-91
@@ -2655,10 +2655,10 @@ s78h: 3-3
 Index:               	1	2
 Words:               	sanga           to'sek
 Morphemes:           	sanga           to'sek
-Morpheme Gloss(Spanish):	laguna  bastante grande
+Morpheme Gloss (es): laguna  bastante grande
 Morpheme Category:   	sus              adj
-Words(English):      	laguna  bastante grande
-Translation(Spanish):	La laguna grande
+Word Gloss (en): laguna  bastante grande
+Sentence Gloss (es): La laguna grande
 
 # sentence level graph:
 (s79s / sanga
@@ -2679,10 +2679,10 @@ s79t: 2-2
 Index:               	1	2
 Words:               	na                    antemay'e
 Morphemes:           	na            an- t -em -a =y'e
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB INF =DEM
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB INF =DEM
 Morpheme Category:   	prt      v:Any v v:Any v:Any prt
-Words(English):      	así                          era
-Translation(Spanish):	De esa manera (gesto)
+Word Gloss (en): así                          era
+Sentence Gloss (es): De esa manera (gesto)
 
 # sentence level graph:
 (s80i2 / identity-91
@@ -2709,10 +2709,10 @@ s80t: 0-0
 Index:               	1	2
 Words:               	av'ahlvok  hengka'e
 Morphemes:           	av'ahlvok  hengka'e
-Morpheme Gloss(Spanish):	cañadón       acá
+Morpheme Gloss (es): cañadón       acá
 Morpheme Category:   	sus       adv
-Words(English):      	cañadón       acá
-Translation(Spanish):	Acá había un cañadón
+Word Gloss (en): cañadón       acá
+Sentence Gloss (es): Acá había un cañadón
 
 # sentence level graph:
 (s81e / exist-91
@@ -2739,10 +2739,10 @@ s81a: 1-1
 Index:               	1	2	3
 Words:               	na                     antaykakha'     sangay'e
 Morphemes:           	na             an- t -ayk -akh -a'   sanga =y'e
-Morpheme Gloss(Spanish):	DEF  2/3F.I ser PST/HAB REP V2.NFUT  laguna =DEM
+Morpheme Gloss (es): DEF  2/3F.I ser PST/HAB REP V2.NFUT  laguna =DEM
 Morpheme Category:   	prt       v:Any v v:Any v:Any v:Any      sus prt
-Words(English):      	así           era en manera zig-zag    la laguna
-Translation(Spanish):	La laguna se movía en zigzag acá
+Word Gloss (en): así           era en manera zig-zag    la laguna
+Sentence Gloss (es): La laguna se movía en zigzag acá
 
 # sentence level graph:
 (s82e / entaykakha’-00
@@ -2770,10 +2770,10 @@ s82n: 1-1
 Index:               	1	2
 Words:               	yavay'a      sanga
 Morphemes:           	yav -ay' -a      sanga
-Morpheme Gloss(Spanish):	ser grande PST/HAB INF     laguna
+Morpheme Gloss (es): ser grande PST/HAB INF     laguna
 Morpheme Category:   	v v:Any v:Any        sus
-Words(English):      	era grande  la laguna
-Translation(Spanish):	La laguna era grande
+Word Gloss (en): era grande  la laguna
+Sentence Gloss (es): La laguna era grande
 
 # sentence level graph:
 (s83h / have-mod-91
@@ -2800,10 +2800,10 @@ s83y: 1-1
 Index:               	1	2	3
 Words:               	apkelenmo'tema  nenhlet  hengka'e
 Morphemes:           	apk- elen- mo't -em -a  nenhlet  hengka'e
-Morpheme Gloss(Spanish):	2/3M.I DISTR sentarse (pl.) PST/HAB INF  persona       acá
+Morpheme Gloss (es): 2/3M.I DISTR sentarse (pl.) PST/HAB INF  persona       acá
 Morpheme Category:   	v:Any v:Any v v:Any v:Any      sus       adv
-Words(English):      	vivían  persona       acá
-Translation(Spanish):	La gente vivía acá
+Word Gloss (en): vivían  persona       acá
+Sentence Gloss (es): La gente vivía acá
 
 # sentence level graph:
 (s84e / elenmo'tema-00
@@ -2838,10 +2838,10 @@ s84h: 3-3
 Index:               	1	2
 Words:               	mahla     banco
 Morphemes:           	mahla     banco
-Morpheme Gloss(Spanish):	como  banco.SP
+Morpheme Gloss (es): como  banco.SP
 Morpheme Category:   	prt        cs
-Words(English):      	como     banco
-Translation(Spanish):	Como en el banco
+Word Gloss (en): como     banco
+Sentence Gloss (es): Como en el banco
 
 # sentence level graph:
 (s85t / thing
@@ -2864,10 +2864,10 @@ s85t: 0-0
 Index:               	1	2	3	4
 Words:               	angvakhemke'   sanga                temana      ha'e
 Morphemes:           	ang- vakh -em -ke'   sanga          t -em -a =na      ha'e
-Morpheme Gloss(Spanish):	2/3F.I rodear PST/HAB V1.NFUT  laguna  ser PST/HAB INF =DEF  DEM.DIST
+Morpheme Gloss (es): 2/3F.I rodear PST/HAB V1.NFUT  laguna  ser PST/HAB INF =DEF  DEM.DIST
 Morpheme Category:   	v:Any v v:Any v:Any     sus     v v:Any v:Any prt       pro
-Words(English):      	rodeaba  laguna                  tipo       eso
-Translation(Spanish):	La laguna los rodeaba, así
+Word Gloss (en): rodeaba  laguna                  tipo       eso
+Sentence Gloss (es): La laguna los rodeaba, así
 
 # sentence level graph:
 (s86e / engvakhema-00
@@ -2897,10 +2897,10 @@ s86h: 4-4
 Index:               	1	2	3	4
 Words:               	mahla     banco    hengka                           apkelenmo'temakha'
 Morphemes:           	mahla     banco    hengka                   apk- elen- mo't -em -akha'
-Morpheme Gloss(Spanish):	como  banco.SP  DEM.PROX  2/3M.I DISTR sentarse (pl.) PST/HAB NOM.LOC
+Morpheme Gloss (es): como  banco.SP  DEM.PROX  2/3M.I DISTR sentarse (pl.) PST/HAB NOM.LOC
 Morpheme Category:   	prt        cs       adv                    v:Any v:Any v v:Any v:Any
-Words(English):      	como     banco       acá                                 donde vivían
-Translation(Spanish):	Era como el banco, acá era donde vivían
+Word Gloss (en): como     banco       acá                                 donde vivían
+Sentence Gloss (es): Era como el banco, acá era donde vivían
 
 # sentence level graph:
 (s87r / resemble-91
@@ -2936,10 +2936,10 @@ s87b: 2-2
 Index:               	1	2
 Words:               	av'ahlvok    hengka
 Morphemes:           	av'ahlvok    hengka
-Morpheme Gloss(Spanish):	cañadón  DEM.PROX
+Morpheme Gloss (es): cañadón  DEM.PROX
 Morpheme Category:   	sus       adv
-Words(English):      	cañadón       acá
-Translation(Spanish):	Acá era el cañadón
+Word Gloss (en): cañadón       acá
+Sentence Gloss (es): Acá era el cañadón
 
 # sentence level graph:
 (s88e / exist-91
@@ -2967,10 +2967,10 @@ s88a: 1-1
 Index:               	1	2
 Words:               	maykamonhan                    ha'e
 Morphemes:           	m -ayk -am -o =nhan                    ha'e
-Morpheme Gloss(Spanish):	ir PST/HAB CPLX INF =y  allá lejos de nosotros
+Morpheme Gloss (es): ir PST/HAB CPLX INF =y  allá lejos de nosotros
 Morpheme Category:   	v v:Any v:Any v:Any prt                     adv
-Words(English):      	e iba                    allá
-Translation(Spanish):	Y pasaba por allá
+Word Gloss (en): e iba                    allá
+Sentence Gloss (es): Y pasaba por allá
 
 # sentence level graph:
 (s89a / and
@@ -3003,10 +3003,10 @@ s89h: 2-2
 Index:               	1	2
 Words:               	ta'manma    akyavakhahlma'
 Morphemes:           	ta'man -m -a  ak- yavakhahlma'
-Morpheme Gloss(Spanish):	ser lindo PST/HAB INF        2/3F lugar
+Morpheme Gloss (es): ser lindo PST/HAB INF        2/3F lugar
 Morpheme Category:   	v v:Any v:Any       sus:Any sus
-Words(English):      	lindo             lugar
-Translation(Spanish):	El lugar era muy lindo
+Word Gloss (en): lindo             lugar
+Sentence Gloss (es): El lugar era muy lindo
 
 # sentence level graph:
 (s90h / have-mod-91
@@ -3033,10 +3033,10 @@ s90t: 1-1
 Index:               	1	2	3	4
 Words:               	akvesay'ana                ahltama seyana'               ta'manma
 Morphemes:           	ak- ves -ay' -a =na                ahltama seyana'           ta'man -m -a
-Morpheme Gloss(Spanish):	2/3F.III llamarse PST/HAB INF =DEF  anciano lugar de los sanapaná  ser lindo PST/HAB INF
+Morpheme Gloss (es): 2/3F.III llamarse PST/HAB INF =DEF  anciano lugar de los sanapaná  ser lindo PST/HAB INF
 Morpheme Category:   	v:Any v v:Any v:Any prt                            sus          v v:Any v:Any
-Words(English):      	se llama  anciano lugar de los sanapaná                  lindo
-Translation(Spanish):	Se llamaba ahltama seyana', era muy lindo
+Word Gloss (en): se llama  anciano lugar de los sanapaná                  lindo
+Sentence Gloss (es): Se llamaba ahltama seyana', era muy lindo
 
 # sentence level graph:
 (s91a / and
@@ -3075,10 +3075,10 @@ s91t2: 3-3
 Index:               	1	2
 Words:               	kessepmeye'        akveske'
 Morphemes:           	k- essep -m -eye'      ak- veske'
-Morpheme Gloss(Spanish):	2/3M.I morir PST/HAB V1.NFUT  2/3M.POS líder
+Morpheme Gloss (es): 2/3M.I morir PST/HAB V1.NFUT  2/3M.POS líder
 Morpheme Category:   	v:Any v v:Any v:Any     sus:Any sus
-Words(English):      	murió  líder, cacique
-Translation(Spanish):	Murió su líder
+Word Gloss (en): murió  líder, cacique
+Sentence Gloss (es): Murió su líder
 
 # sentence level graph:
 (s92e / enyessepma-00
@@ -3111,10 +3111,10 @@ s92a: 2-2
 Index:               	1	2	3	4
 Words:               	cacique  monteño                    akvesay'a        akveske'
 Morphemes:           	cacique  monteño              ak- ves -ay' -a      ak- veske'
-Morpheme Gloss(Spanish):	cacique.SP  Monteño  2/3M.I llamarse PST/HAB INF  2/3M.POS líder
+Morpheme Gloss (es): cacique.SP  Monteño  2/3M.I llamarse PST/HAB INF  2/3M.POS líder
 Morpheme Category:   	cs      sus          v:Any v v:Any v:Any     sus:Any sus
-Words(English):      	cacique  Monteño                     se llama  líder, cacique
-Translation(Spanish):	Cacique Monteño se llamaba el líder
+Word Gloss (en): cacique  Monteño                     se llama  líder, cacique
+Sentence Gloss (es): Cacique Monteño se llamaba el líder
 
 # sentence level graph:
 (s93h / have-name-91
@@ -3151,10 +3151,10 @@ s93c: 1-2
 Index:               	1	2	3
 Words:               	have'                apkessepma           pangkoye'
 Morphemes:           	have'          apk- essep -m -a        p- =angkoye'
-Morpheme Gloss(Spanish):	NEG.PRED  2/3M.I morir PST/HAB INF         2/3M =INTNS
+Morpheme Gloss (es): NEG.PRED  2/3M.I morir PST/HAB INF         2/3M =INTNS
 Morpheme Category:   	prt       v:Any v v:Any v:Any  sus:Any <Not Sure>
-Words(English):      	no                     murió           realmente
-Translation(Spanish):	No es que se murió así nomás
+Word Gloss (en): no                     murió           realmente
+Sentence Gloss (es): No es que se murió así nomás
 
 # sentence level graph:
 (s94e / enyessepma-00
@@ -3183,10 +3183,10 @@ s94p2: 3-3
 Index:               	1	2
 Words:               	ka'hamma'pekha'                  pangkopangkoye'
 Morphemes:           	k- a'h -amm -a'p -ekh -a'          p- angko p- angko -oye'
-Morpheme Gloss(Spanish):	2/3M.I matar PST/HAB PAS.M REP INF          2/3M POS 2/3M POS INTNS
+Morpheme Gloss (es): 2/3M.I matar PST/HAB PAS.M REP INF          2/3M POS 2/3M POS INTNS
 Morpheme Category:   	v:Any v v:Any v>v v:Any v:Any  sus:Any prt sus:Any prt sus:Any
-Words(English):      	se mató                            mismo
-Translation(Spanish):	Se suicidió
+Word Gloss (en): se mató                            mismo
+Sentence Gloss (es): Se suicidió
 
 # sentence level graph:
 (s95e / enya'hamma'ap-00
@@ -3216,10 +3216,10 @@ s95p2: 2-2
 Index:               	1	2
 Words:               	may'a         enyetsepok
 Morphemes:           	ma -y' -a     eny- etsep -ok
-Morpheme Gloss(Spanish):	querer PST/HAB INF  2/3M.II morir FUT
+Morpheme Gloss (es): querer PST/HAB INF  2/3M.II morir FUT
 Morpheme Category:   	v v:Any v:Any      v:Any v v:Any
-Words(English):      	quería              morir
-Translation(Spanish):	Quería morirse
+Word Gloss (en): quería              morir
+Sentence Gloss (es): Quería morirse
 
 # sentence level graph:
 (s96m / may'a-00
@@ -3253,10 +3253,10 @@ s96e: 2-2
 Index:               	1	2
 Words:               	aveske'     apangkok
 Morphemes:           	a- veske'   ap- angkok
-Morpheme Gloss(Spanish):	2/3F.POS líder     2/3M POS
+Morpheme Gloss (es): 2/3F.POS líder     2/3M POS
 Morpheme Category:   	sus:Any sus  sus:Any prt
-Words(English):      	cacique         suyo
-Translation(Spanish):	Su líder
+Word Gloss (en): cacique         suyo
+Sentence Gloss (es): Su líder
 
 # sentence level graph:
 (s97p / person
@@ -3283,10 +3283,10 @@ s97a: 1-1
 Index:               	1	2
 Words:               	ahltama seyana'
 Morphemes:           	ahltama seyana'
-Morpheme Gloss(Spanish):	anciano lugar de los sanapaná
+Morpheme Gloss (es): anciano lugar de los sanapaná
 Morpheme Category:   	sus
-Words(English):      	anciano lugar de los sanapaná
-Translation(Spanish):	De ahltama seyana'
+Word Gloss (en): anciano lugar de los sanapaná
+Sentence Gloss (es): De ahltama seyana'
 
 # sentence level graph:
 (s98t / territory
@@ -3309,10 +3309,10 @@ s98s: 0-0
 Index:               	1	2
 Words:               	ma'a    nenhlet
 Morphemes:           	ma'a    nenhlet
-Morpheme Gloss(Spanish):	solamente    persona
+Morpheme Gloss (es): solamente    persona
 Morpheme Category:   	prt        sus
-Words(English):      	solamente  indígenas
-Translation(Spanish):	Solamente había sanapaná
+Word Gloss (en): solamente  indígenas
+Sentence Gloss (es): Solamente había sanapaná
 
 # sentence level graph:
 (s99e / exist-91
@@ -3349,10 +3349,10 @@ s99m: 1-1
 Index:               	1	2
 Words:               	vanhla'    nenhlet
 Morphemes:           	vanhla'    nenhlet
-Morpheme Gloss(Spanish):	solamente    persona
+Morpheme Gloss (es): solamente    persona
 Morpheme Category:   	adv        sus
-Words(English):      	solamente  indígenas
-Translation(Spanish):	Solamente había sanapaná
+Word Gloss (en): solamente  indígenas
+Sentence Gloss (es): Solamente había sanapaná
 
 # sentence level graph:
 (s100e / exist-91
@@ -3381,4 +3381,5 @@ s100v: 1-1
 	:coref ((s99e :same-event s100e)
 		(s99p2 :same-entity s100p2)
 		(s99p :same-entity s100p)))
+
 
