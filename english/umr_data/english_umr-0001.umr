@@ -20,7 +20,6 @@ Words: 200 dead , 1,500 feared missing in Philippines landslide .
     :place (s1c / country :wiki "Philippines"
         :name (s1n / name :op1 "Philippines"))))
 
-
 # alignment:
 s1p: 0-0
 s1l: 9-9
@@ -33,7 +32,6 @@ s1p2: 4-4
 s1c: 8-8
 s1n: 0-0
 
-
 # document level annotation:
 (s1s0 / sentence
     :temporal  ((document-creation-time :before s1l)
@@ -45,7 +43,6 @@ s1n: 0-0
             (author :full-affirmative s1d)
             (author :full-affirmative s1f)
             (author :partial-affirmative s1m)))
-
 
 
 ################################################################################
@@ -66,7 +63,6 @@ Words: TACLOBAN , Philippines , Feb 17 , 2006 .
         :day 17
         :year 2006))
 
-
 # alignment:
 s2p: 0-0
 s2t: 0-0
@@ -76,14 +72,12 @@ s2c2: 3-3
 s2n2: 0-0
 s2d: 5-8
 
-
 # document level annotation:
 (s2s0 / sentence
     :temporal ((document-creation-time :overlap s2d))
     :modal ((root :modal author)
             (author :full-affirmative s2p))
     :coref ((s1p :same-entity s2p)))
-
 
 
 ################################################################################
@@ -124,7 +118,6 @@ Words: About 200 people were believed killed and 1,500 others were missing in th
         :quote s3s)
     :aspect performance)
 
-
 # alignment:
 s3s: 29-29
 s3o2: 27-28
@@ -148,7 +141,6 @@ s3l: 20-20
 s3v: 24-24
 s3e: 23-23
 
-
 # document level annotation:
 (s3s0 / sentence
     :temporal ((document-creation-time :before s3d)
@@ -171,7 +163,6 @@ s3e: 23-23
             (s1p :same-entity s3p)
             (s1p2 :same-entity s3p2)
             (s1l :same-event s3l)))
-
 
 
 ################################################################################
@@ -208,7 +199,6 @@ Words: Eyewitnesses said only a few houses were left standing after the landslid
         :quote s4s)
     :aspect performance)
 
-
 # alignment:
 s4s: 2-2
 s4p: 1-1
@@ -229,7 +219,6 @@ s4h2: 6-6
 s4a: 4-5
 s4o: 3-3
 
-
 # document level annotation:
 (s4s0 / sentence
     :temporal ((s3b2 :overlap s4l)
@@ -243,7 +232,6 @@ s4o: 3-3
             (s4p :full-affirmative s4s3))
     :coref ((s2t :subset-of s4s)
             (s3l :same-event s4l)))
-
 
 
 ################################################################################
@@ -275,7 +263,6 @@ Words: " There are about 1,500 missing , 200 dead ,  "  Richard Gordon ,  the he
         :medium (s5r / radio))
     :aspect performance)
 
-
 # alignment:
 s5s: 22-22
 s5p: 11-12
@@ -291,7 +278,6 @@ s5p3: 0-0
 s5d: 8-8
 s5i2: 26-26
 s5r: 25-25
-
 
 # document level annotation:
 (s5s0 / sentence
@@ -310,7 +296,6 @@ s5r: 25-25
             (s3p2 :same-entity s5p2)
             (s3k :same-event s5d)
             (s3k :same-entity s5p3)))
-
 
 
 ################################################################################
@@ -339,7 +324,6 @@ Words: The first footage from the devastated village showed a sea of mud coverin
             :aspect state))
     :aspect state)
 
-
 # alignment:
 s6s: 8-8
 s6f: 3-3
@@ -356,7 +340,6 @@ s6l: 17-17
 s6g: 18-18
 s6v2: 19-19
 
-
 # document level annotation:
 (s6s0 / sentence
     :temporal ((document-creation-time :before s6s)
@@ -372,7 +355,6 @@ s6v2: 19-19
     :coref ((s2t :subset-of s6s)
             (s4h3 :same-entity s6v)
             (s4t :same-entity s6m)))
-
 
 
 ################################################################################
@@ -394,7 +376,6 @@ Words: Only a few sheets of tin roofing and the occasional coconut tree could be
         :mod (s7o2 / only))
     :aspect state)
 
-
 # alignment:
 s7s: 15-15
 s7a: 8-8
@@ -407,14 +388,12 @@ s7c: 11-11
 s7o: 10-10
 s7o2: 1-1
 
-
 # document level annotation:
 (s7s0 / sentence
     :temporal ((s7s :contains s6s))
     :modal ((root :modal author)
             (author :neutral-affirmative s7s))
     :coref ((s2t :subset-of s7s)))
-
 
 
 ################################################################################
@@ -446,7 +425,6 @@ Words: Tiny groups of mud - spattered survivors were also shown ,  walking throu
     :mod (s8a2 / also)
     :aspect performance)
 
-
 # alignment:
 s8s: 10-10
 s8g: 2-2
@@ -465,7 +443,6 @@ s8d: 24-24
 s8a: 17-17
 s8a2: 9-9
 
-
 # document level annotation:
 (s8s0 / sentence
     :temporal ((s8s :contains s6s)
@@ -482,7 +459,6 @@ s8a2: 9-9
     :coref ((s2t :subset-of s8s)
             (s8m :same-entity s8m2)
             (s6m :same-entity s8m)))
-
 
 
 ################################################################################
@@ -521,7 +497,6 @@ Words: In a televised address to the nation , President Gloria Arroyo said rescu
         :aspect performance)
     :aspect performance)
 
-
 # alignment:
 s9s: 12-12
 s9p: 10-11
@@ -542,7 +517,6 @@ s9a4: 4-4
 s9n2: 7-7
 s9t2: 3-3
 
-
 # document level annotation:
 (s9s0 / sentence
     :temporal ((document-creation-time :before s9s)
@@ -557,7 +531,6 @@ s9t2: 3-3
     :coref ((s2t :subset-of s9s)
             (s4l2 :same-entity s9c2)
             (s4c :same-entity s9n2)))
-
 
 
 ################################################################################
@@ -593,7 +566,6 @@ Words: " I have ordered the Coast Guard and our entire naval force in the (  cen
         :quote s10s)
     :aspect performance)
 
-
 # alignment:
 s10s: 26-26
 s10p: 2-2
@@ -611,7 +583,6 @@ s10n3: 0-0
 s10h: 20-20
 s10a3: 22-22
 
-
 # document level annotation:
 (s10s0 / sentence
     :temporal ((s9s :after s10s)
@@ -627,7 +598,6 @@ s10a3: 22-22
             (s6v :same-entity s10a3)
             (s9t :subset-of s10a)
             (s9r :subset-of s10h)))
-
 
 
 ################################################################################
@@ -662,7 +632,6 @@ Words: " Naval ships will be used as floating hospitals and command centres for 
         :quote s11s)
     :aspect performance)
 
-
 # alignment:
 s11s: 0-0
 s11p: 0-0
@@ -679,7 +648,6 @@ s11a2: 15-15
 s11r: 14-14
 s11p2: 0-0
 s11r2: 16-16
-
 
 # document level annotation:
 (s11s0 / sentence
@@ -700,7 +668,6 @@ s11r2: 16-16
             (s10p :same-entity s11p)
             (s9t :same-entity s11o)
             (s8p :same-entity s11p2)))
-
 
 
 ################################################################################
@@ -736,7 +703,6 @@ Words: Leyte Governor Rosette Lerias said the latest census indicated there were
         :quote s12s)
     :aspect performance)
 
-
 # alignment:
 s12s: 5-5
 s12p: 3-4
@@ -757,7 +723,6 @@ s12l2: 17-17
 s12p2: 16-16
 s12b: 20-20
 s12l3: 22-22
-
 
 # document level annotation:
 (s12s0 / sentence
@@ -780,7 +745,6 @@ s12l3: 22-22
             (s9c2 :same-event s12l3)))
 
 
-
 ################################################################################
 # meta-info :: sent_id = u_tree-cs-s13-root
 # :: snt13
@@ -801,7 +765,6 @@ Words: She described the village as totally flattened .
         :quote s13d)
     :aspect performance)
 
-
 # alignment:
 s13d: 2-2
 s13p: 1-1
@@ -809,7 +772,6 @@ s13v: 4-4
 s13f: 7-7
 s13e: 0-0
 s13t: 6-6
-
 
 # document level annotation:
 (s13s0 / sentence
@@ -823,7 +785,6 @@ s13t: 6-6
             (s12p :same-entity s13p)
             (s12h2 :same-entity s13v)
             (s12l3 :same-event s13e)))
-
 
 
 ################################################################################
@@ -870,7 +831,6 @@ Words: " It was like mud running down the mountain and it covered the village in
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s14s: 19-19
 s14p2: 18-18
@@ -891,11 +851,9 @@ s14p: 22-22
 s14s4: 0-0
 s14e: 0-0
 
-
 # document level annotation:
 (s14s0 / sentence
     :coref ((s2t :subset-of s14s)))
-
 
 
 ################################################################################
@@ -933,7 +891,6 @@ Words: Experts blamed deforestation for the tragedy , which came after days of r
     :aspect state
     :modal-strength full-affirmative)
 
-
 # alignment:
 s15b: 2-2
 s15p: 1-1
@@ -953,11 +910,9 @@ s15u: 20-20
 s15t3: 0-0
 s15d2: 0-0
 
-
 # document level annotation:
 (s15s0 / sentence
     :coref ((s2t :subset-of s15b)))
-
 
 
 ################################################################################
@@ -1013,7 +968,6 @@ Words: Lerias said that many Guinsaugon residents had been evacuated after lands
             :quote s16s))
     :aspect performance)
 
-
 # alignment:
 s16s: 2-2
 s16p: 1-1
@@ -1044,8 +998,7 @@ s16a2: 36-36
 s16r4: 33-33
 s16c2: 40-40
 s16c3: 38-38
-s16n4: -1--1
-
+s16n4: 0-0
 
 # document level annotation:
 (s16s0 / sentence
@@ -1076,7 +1029,6 @@ s16n4: -1--1
             (author :full-affirmative s16r2))
   :coref ((s16p2 :subset-of s16p4)
             (s2t :subset-of s16s)))
-
 
 
 ################################################################################
@@ -1126,7 +1078,6 @@ Words: A mild 2.6 - magnitude earthquake which struck before the landslide may a
         :quote s17s)
     :aspect performance)
 
-
 # alignment:
 s17s: 29-29
 s17p: 30-31
@@ -1152,7 +1103,6 @@ s17c: 23-23
 s17d: 24-24
 s17v2: 27-27
 
-
 # document level annotation:
 (s17s0 / sentence
     :temporal ((s16r :after s17l)
@@ -1172,7 +1122,6 @@ s17v2: 27-27
             (s17p :full-affirmative s17l)
             (s17p :full-affirmative s17c))
     :coref ((s2t :subset-of s17s)))
-
 
 
 ################################################################################
@@ -1209,7 +1158,6 @@ Words: " The area could have really been ready for a  landslide because of the a
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s18s: 34-34
 s18p: 33-33
@@ -1224,11 +1172,9 @@ s18h: 29-29
 s18e: 24-24
 s18m: 23-23
 
-
 # document level annotation:
 (s18s0 / sentence
     :coref ((s2t :subset-of s18s)))
-
 
 
 ################################################################################
@@ -1262,7 +1208,6 @@ Words: Army Colonel Nestor Sadirin , head of a rescue task force ,  said 16 dead
         :quote s19s)
     :aspect performance)
 
-
 # alignment:
 s19s: 13-13
 s19p: 3-4
@@ -1282,12 +1227,10 @@ s19s2: 20-21
 s19r3: 25-25
 s19p2: 24-24
 
-
 # document level annotation:
 (s19s0 / sentence
     :modal ((root :modal author))
     :coref ((s2t :subset-of s19s)))
-
 
 
 ################################################################################
@@ -1334,7 +1277,6 @@ Words: Leyte Congressman Roger Mercado said in a radio interview that the villag
         :aspect performance
         :modal-strength full-affirmative))
 
-
 # alignment:
 s20a: 20-20
 s20s: 5-5
@@ -1356,11 +1298,9 @@ s20i3: 9-9
 s20r: 8-8
 s20p4: 0-0
 
-
 # document level annotation:
 (s20s0 / sentence
     :coref ((s2t :subset-of s20a)))
-
 
 
 ################################################################################
@@ -1420,7 +1360,6 @@ Words: Lerias called for more rescuers to come to the site to help look for bodi
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s21c: 2-2
 s21p: 1-1
@@ -1451,11 +1390,9 @@ s21p4: 29-29
 s21h4: 0-0
 s21o: 0-0
 
-
 # document level annotation:
 (s21s0 / sentence
     :coref ((s2t :subset-of s21c)))
-
 
 
 ################################################################################
@@ -1503,7 +1440,6 @@ Words: Volunteer rescue teams from the country's mining companies , skilled in d
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s22s: 27-27
 s22p: 29-29
@@ -1526,11 +1462,9 @@ s22p3: 18-18
 s22a: 25-25
 s22a2: 21-21
 
-
 # document level annotation:
 (s22s0 / sentence
     :coref ((s2t :subset-of s22s)))
-
 
 
 ################################################################################
@@ -1572,7 +1506,6 @@ Words: Gordon said the Red Cross said was trying to dispatch sniffer dogs to hun
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s23s: 2-2
 s23p: 1-1
@@ -1588,11 +1521,9 @@ s23h: 14-14
 s23p2: 16-16
 s23s4: 0-0
 
-
 # document level annotation:
 (s23s0 / sentence
     :coref ((s2t :subset-of s23s)))
-
 
 
 ################################################################################
@@ -1632,7 +1563,6 @@ Words: Military helicopters were able to reach the area despite heavy clouds but
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s24r: 6-6
 s24h: 2-2
@@ -1652,11 +1582,9 @@ s24f2: 25-25
 s24d: 0-0
 s24n2: 24-24
 
-
 # document level annotation:
 (s24s0 / sentence
     :coref ((s2t :subset-of s24r)))
-
 
 
 ################################################################################
@@ -1694,7 +1622,6 @@ Words: Lerias said a smaller landslide later in the afternoon caused no damage b
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s25s: 2-2
 s25p: 1-1
@@ -1716,11 +1643,9 @@ s25m2: 15-15
 s25d3: 24-24
 s25n2: 23-23
 
-
 # document level annotation:
 (s25s0 / sentence
     :coref ((s2t :subset-of s25s)))
-
 
 
 ################################################################################
@@ -1752,7 +1677,6 @@ Words: Relief groups called for drinking water , food , blankets and body bags t
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s26c: 3-3
 s26g: 2-2
@@ -1767,11 +1691,9 @@ s26b3: 13-13
 s26b4: 12-12
 s26s: 19-19
 
-
 # document level annotation:
 (s26s0 / sentence
     :coref ((s2t :subset-of s26c)))
-
 
 
 ################################################################################
@@ -1813,7 +1735,6 @@ Words: Provincial board member Eva Dumol said in a radio interview that heavy eq
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s27s: 6-6
 s27p: 0-0
@@ -1838,11 +1759,9 @@ s27n2: 0-0
 s27i2: 10-10
 s27r: 9-9
 
-
 # document level annotation:
 (s27s0 / sentence
     :coref ((s2t :subset-of s27s)))
-
 
 
 ################################################################################
@@ -1872,7 +1791,6 @@ Words: More than 5,000 people were killed in a combined flood and mudslide on Le
     :aspect performance
     :modal-strength full-affirmative)
 
-
 # alignment:
 s28k: 6-6
 s28c: 9-9
@@ -1884,10 +1802,8 @@ s28i2: 14-14
 s28n: 0-0
 s28d: 16-17
 
-
 # document level annotation:
 (s28s0 / sentence
     :coref ((s2t :subset-of s28k)))
-
 
 

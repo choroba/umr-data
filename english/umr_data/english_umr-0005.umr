@@ -30,7 +30,6 @@ Words: The United States is hoping that Russia's President Vladimir Putin will f
             :aspect performance))
     :aspect state)
 
-
 # alignment:
 s1h: 5-5
 s1g: 2-3
@@ -51,7 +50,6 @@ s1p3: 20-20
 s1p4: 21-21
 s1n4: 0-0
 
-
 # document level annotation:
 (s1s0 / sentence
     :temporal ((document-creation-time :overlap s1h)
@@ -63,7 +61,6 @@ s1n4: 0-0
             (s1g :full-affirmative s1a2)
             (s1g :partial-affirmative s1f)
             (s1g :partial-affirmative s1p3)))
-
 
 
 ################################################################################
@@ -100,7 +97,6 @@ Words: This week the American businessman began serving a 20-year prison sentenc
         :aspect activity)
     :aspect performance)
 
-
 # alignment:
 s2b2: 6-6
 s2s: 7-7
@@ -121,7 +117,6 @@ s2s3: 18-18
 s2t3: 1-1
 s2w: 2-2
 
-
 # document level annotation:
 (s2s0 / sentence
     :temporal ((document-creation-time :overlap s2w)
@@ -134,7 +129,6 @@ s2w: 2-2
             (author :full-affirmative s2c3)
             (author :full-affirmative s2s3))
     :coref ((s1p4 :same-entity s2p2)))
-
 
 
 ################################################################################
@@ -166,7 +160,6 @@ Words: Specifically Russian prosecutors charged that Pope had stolen secrets rel
     :ARG1-of (s3s4 / specific-02)
     :aspect performance)
 
-
 # alignment:
 s3c: 4-4
 s3p: 3-3
@@ -182,7 +175,6 @@ s3s3: 15-15
 s3h2: 13-13
 s3s4: 1-1
 
-
 # document level annotation:
 (s3s0 / sentence
     :temporal ((s2c3 :before s3c)
@@ -192,7 +184,6 @@ s3s4: 1-1
             (s3p :full-affirmative s3s))
     :coref ((s2p2 :same-entity s3p3)
             (s2s3 :subset-of s3s)))
-
 
 
 ################################################################################
@@ -218,7 +209,6 @@ Words: Pope denied the charges and Washington backed him up .
         :topic s4d
         :aspect state))
 
-
 # alignment:
 s4a: 5-5
 s4d: 2-2
@@ -230,7 +220,6 @@ s4b: 7-9
 s4g: 6-6
 s4n: 0-0
 
-
 # document level annotation:
 (s4s0 / sentence
     :temporal ((s3c :after s4d)
@@ -241,7 +230,6 @@ s4n: 0-0
             (author :full-affirmative s4c2))
     :coref ((s3p3 :same-entity s4p2)
             (s3c :same-event s4c2)))
-
 
 
 ################################################################################
@@ -265,7 +253,6 @@ Words: Marsha Lipman is Editor of Moscow based news magazine '  Itogi '  .
         :ARG0-of (s5e / edit-01)))
     :aspect state)
 
-
 # alignment:
 s5h: 3-3
 s5p: 1-2
@@ -279,14 +266,12 @@ s5n4: 0-0
 s5p2: 4-4
 s5e: 0-0
 
-
 # document level annotation:
 (s5s0 / sentence
     :temporal ((document-creation-time :overlap s5h)
             (document-creation-time :contains s5b))
     :modal ((author :full-affirmative s5h)
             (author :full-affirmative s5b)))
-
 
 
 ################################################################################
@@ -315,7 +300,6 @@ Words: Marsha , did the Presidential Pardons Commission give any reason for thei
         :quote s6s)
     :ARG2 s6p)
 
-
 # alignment:
 s6g: 8-8
 s6g2: 5-7
@@ -330,7 +314,6 @@ s6s: 0-0
 s6p2: 0-0
 s6t: 0-0
 
-
 # document level annotation:
 (s6s0 / sentence
     :temporal ((document-creation-time :overlap s6s)
@@ -342,7 +325,6 @@ s6t: 0-0
     :coref ((s5p :same-entity s6p)
             (s1c :same-entity s6g2)
             (s1t :same-entity s6t)))
-
 
 
 ################################################################################
@@ -365,7 +347,6 @@ Words: It gave several reasons .
     :ARG2 (s7p2 / person)
     :aspect performance)
 
-
 # alignment:
 s7s: 0-0
 s7p: 0-0
@@ -373,7 +354,6 @@ s7g: 2-2
 s7g2: 1-1
 s7r: 4-4
 s7s2: 3-3
-
 
 # document level annotation:
 (s7s0 / sentence
@@ -386,7 +366,6 @@ s7s2: 3-3
             (s6g2 :same-entity s7g2)
             (s6g :same-event s7g)
             (s6p2 :same-entity s7p2)))
-
 
 
 ################################################################################
@@ -460,7 +439,6 @@ Words: I am not sure if those were the formal reasons but members of the commiss
     :ARG2 (s8p4 / person)
     :aspect performance)
 
-
 # alignment:
 s8s6: 0-0
 s8p3: 1-1
@@ -504,7 +482,6 @@ s8t8: 65-65
 s8y4: 0-0
 s8p4: 0-0
 
-
 # document level annotation:
 (s8s0 / sentence
     :temporal ((document-creation-time :overlap s8s6)
@@ -533,7 +510,6 @@ s8p4: 0-0
             (s7r :same-entity s8r)
             (s7g2 :subset-of s8p)
             (s2s2 :same-event s8s5)))
-
 
 
 ################################################################################
@@ -577,7 +553,6 @@ Words: He was sentenced to 20 , even though according to the members of the Pard
     :ARG2 (s9p6 / person)
     :aspect performance)
 
-
 # alignment:
 s9s3: 0-0
 s9p5: 0-0
@@ -602,7 +577,6 @@ s9p3: 0-0
 s9o: 0-0
 s9p6: 0-0
 
-
 # document level annotation:
 (s9s0 / sentence
     :temporal ((document-creation-time :overlap s9s3)
@@ -620,7 +594,6 @@ s9p6: 0-0
             (s8p4 :same-entity s9p6)
             (s8p :same-entity s9p4)
             (s8o :same-entity s9o)))
-
 
 
 ################################################################################
@@ -657,7 +630,6 @@ Words: They also said this court did not give the lawyers for the defense due pr
     :ARG2 (s10p4 / person)
     :aspect performance)
 
-
 # alignment:
 s10s3: 0-0
 s10p3: 0-0
@@ -677,7 +649,6 @@ s10o2: 0-0
 s10a2: 2-2
 s10p4: 0-0
 
-
 # document level annotation:
 (s10s0 / sentence
     :temporal ((document-creation-time :overlap s10s3)
@@ -692,7 +663,6 @@ s10p4: 0-0
             (s9p6 :same-entity s10p4)
             (s9p4 :same-entity s10p6)
             (s9o :same-entity s10o2)))
-
 
 
 ################################################################################
@@ -721,7 +691,6 @@ Words: The court listened to the defense much less than it did to the prosecutio
     :ARG2 (s11p2 / person)
     :aspect performance)
 
-
 # alignment:
 s11s: 0-0
 s11p3: 0-0
@@ -737,7 +706,6 @@ s11o2: 14-14
 s11p: 0-0
 s11p2: 0-0
 
-
 # document level annotation:
 (s11s0 / sentence
     :temporal ((document-creation-time :overlap s11s)
@@ -751,7 +719,6 @@ s11p2: 0-0
             (s10p4 :same-entity s11p2)
             (s10o :same-entity s11o)
             (s10c :same-entity s11c)))
-
 
 
 ################################################################################
@@ -806,7 +773,6 @@ Words: Much of this sounds less like a pardon and more like a  criticism of the 
     :ARG2 (s12p7 / person)
     :aspect performance)
 
-
 # alignment:
 s12s7: 0-0
 s12p6: 0-0
@@ -837,7 +803,6 @@ s12p5: 36-36
 s12p2: 39-39
 s12p3: 0-0
 
-
 # document level annotation:
 (s12s0 / sentence
     :temporal ((s11s :after s12s7)
@@ -857,7 +822,6 @@ s12p3: 0-0
             (s12t4 :subset-of s11l)
             (s1p :same-entity s12p)
             (s1p3 :same-event s12p4)))
-
 
 
 ################################################################################
@@ -888,7 +852,6 @@ Words: How is he going to respond to this and when ?
     :ARG2 (s13p3 / person)
     :aspect performance)
 
-
 # alignment:
 s13s: 0-0
 s13p2: 0-0
@@ -903,7 +866,6 @@ s13h3: 0-0
 s13u2: 10-10
 s13p3: 0-0
 
-
 # document level annotation:
 (s13s0 / sentence
     :temporal ((s12s7 :after s13s)
@@ -913,7 +875,6 @@ s13p3: 0-0
             (s13p2 :neutral-affirmative s13r))
     :coref ((s12p :same-entity s13p)
             (s12t4 :same-entity s13t)))
-
 
 
 ################################################################################
@@ -958,7 +919,6 @@ Words: I don't think anybody knows and I don't think anybody will know until Pre
     :ARG2 (s14p7 / person)
     :aspect performance)
 
-
 # alignment:
 s14s: 0-0
 s14p6: 0-0
@@ -979,7 +939,6 @@ s14h: 0-0
 s14p5: 14-14
 s14p7: 0-0
 
-
 # document level annotation:
 (s14s0 / sentence
     :temporal ((s13s :after s14s)
@@ -999,7 +958,6 @@ s14p7: 0-0
             (s13p3 :same-entity s14p7)
             (s13p :same-entity s14p4)
             (s13r :same-event s14r)))
-
 
 
 ################################################################################
@@ -1024,7 +982,6 @@ Words: It is his decision .
     :ARG2 (s15p3 / person)
     :aspect performance)
 
-
 # alignment:
 s15s: 0-0
 s15p: 0-0
@@ -1032,7 +989,6 @@ s15b: 2-2
 s15p2: 3-3
 s15d: 4-4
 s15p3: 0-0
-
 
 # document level annotation:
 (s15s0 / sentence
@@ -1047,7 +1003,6 @@ s15p3: 0-0
             (s14p7 :same-entity s15p3)
             (s14p4 :same-entity s15p2)
             (s1p3 :same-entity s15t)))
-
 
 
 ################################################################################
@@ -1100,7 +1055,6 @@ Words: According to the Russian law the Pardon Commission , after it has made it
     :ARG2 (s16p5 / person)
     :aspect performance)
 
-
 # alignment:
 s16s4: 0-0
 s16p4: 0-0
@@ -1126,7 +1080,6 @@ s16s3: 34-34
 s16h5: 35-35
 s16p5: 0-0
 
-
 # document level annotation:
 (s16s0 / sentence
     :temporal ((s15s :after s16s4)
@@ -1151,7 +1104,6 @@ s16p5: 0-0
             (s1p3 :same-entity s16t3)))
 
 
-
 ################################################################################
 # meta-info :: sent_id = u_tree-cs-s17-root
 # :: snt17
@@ -1174,7 +1126,6 @@ Words: One last question for you , Marsha .
     :ARG2 s17p2
     :aspect performance)
 
-
 # alignment:
 s17s: 0-0
 s17p: 0-0
@@ -1183,7 +1134,6 @@ s17o: 2-2
 s17q: 3-3
 s17p2: 7-7
 s17n: 7-7
-
 
 # document level annotation:
 (s17s0 / sentence
@@ -1194,7 +1144,6 @@ s17n: 7-7
             (s17p :full-affirmative s17o))
     :coref ((s16p5 :same-entity s17p)
             (s16p4 :same-entity s17p2)))
-
 
 
 ################################################################################
@@ -1222,7 +1171,6 @@ Words: He does have a lot to balance doesn't he ,  President Putin ?
     :ARG2 (s18p4 / person)
     :aspect performance)
 
-
 # alignment:
 s18s: 0-0
 s18p3: 0-0
@@ -1237,7 +1185,6 @@ s18b: 7-7
 s18r: 8-9
 s18p4: 0-0
 
-
 # document level annotation:
 (s18s0 / sentence
     :temporal ((s17s :after s18s)
@@ -1249,7 +1196,6 @@ s18p4: 0-0
     :coref ((s17p2 :same-entity s18p3)
             (s17p :same-entity s18p4)
             (s16p :same-entity s18n)))
-
 
 
 ################################################################################
@@ -1286,7 +1232,6 @@ Words: Not only the institutions I mentioned but the need to keep things somehow
     :ARG2 (s19p2 / person)
     :aspect performance)
 
-
 # alignment:
 s19s: 0-0
 s19a: 7-7
@@ -1301,7 +1246,6 @@ s19t2: 16-16
 s19t: 12-12
 s19s2: 13-13
 s19p2: 0-0
-
 
 # document level annotation:
 (s19s0 / sentence
@@ -1320,7 +1264,6 @@ s19p2: 0-0
             (s12s7 :same-event s19m)
             (s12i2 :same-entity s19i2)
             (s18p :same-entity s19p3)))
-
 
 
 ################################################################################
@@ -1347,7 +1290,6 @@ Words: Is this case likely to strain US - Russian relations ?
     :ARG2 (s20p2 / person)
     :aspect performance)
 
-
 # alignment:
 s20s: 0-0
 s20p: 0-0
@@ -1361,7 +1303,6 @@ s20n: 0-0
 s20c3: 9-9
 s20n2: 0-0
 s20p2: 0-0
-
 
 # document level annotation:
 (s20s0 / sentence
@@ -1377,7 +1318,6 @@ s20p2: 0-0
             (s2c :same-entity s20c2)
             (s16c :same-entity s20c3)
             (s2c3 :same-entity s20c)))
-
 
 
 ################################################################################
@@ -1401,7 +1341,6 @@ Words: I'm afraid it might .
     :ARG2 (s21p2 / person)
     :aspect performance)
 
-
 # alignment:
 s21s: 0-0
 s21f: 2-2
@@ -1409,7 +1348,6 @@ s21p: 1-1
 s21h: 4-4
 s21e: 3-3
 s21p2: 0-0
-
 
 # document level annotation:
 (s21s0 / sentence
@@ -1423,7 +1361,6 @@ s21p2: 0-0
     :coref ((s20p2 :same-entity s21p)
             (s20p :same-entity s21p2)
             (s20s2 :same-event s21e)))
-
 
 
 ################################################################################
@@ -1465,7 +1402,6 @@ Words: Recently the Russian policy toward the US has fallen into a  line where R
     :ARG2 (s22p3 / person)
     :aspect performance)
 
-
 # alignment:
 s22s: 0-0
 s22p: 0-0
@@ -1484,7 +1420,6 @@ s22n: 23-24
 s22o2: 20-20
 s22r: 1-1
 s22p3: 0-0
-
 
 # document level annotation:
 (s22s0 / sentence
@@ -1506,7 +1441,6 @@ s22p3: 0-0
             (s21p2 :same-entity s22p3)
             (s20c3 :same-entity s22c)
             (s20c2 :same-entity s22c2)))
-
 
 
 ################################################################################
@@ -1545,7 +1479,6 @@ Words: It wants to put an end to what is regarded by the current Russian governm
     :ARG2 (s23p3 / person)
     :aspect performance)
 
-
 # alignment:
 s23s: 0-0
 s23p: 0-0
@@ -1564,7 +1497,6 @@ s23t3: 21-21
 s23y: 0-0
 s23p2: 20-20
 s23p3: 0-0
-
 
 # document level annotation:
 (s23s0 / sentence
@@ -1587,7 +1519,6 @@ s23p3: 0-0
             (s22p3 :same-entity s23p3)
             (s22p2 :same-entity s23t)
             (s22c :same-entity s23c)))
-
 
 
 ################################################################################
@@ -1641,7 +1572,6 @@ Words: There were numerous attempts to be a source of minor troubles even though
     :ARG2 (s24p4 / person)
     :aspect performance)
 
-
 # alignment:
 s24s: 0-0
 s24p: 0-0
@@ -1675,7 +1605,6 @@ s24s4: 28-28
 s24s5: 32-32
 s24p4: 0-0
 
-
 # document level annotation:
 (s24s0 / sentence
     :temporal ((s23s :after s24s)
@@ -1692,7 +1621,6 @@ s24p4: 0-0
     :coref ((s23p :same-entity s24p)
             (s23p3 :same-entity s24p4)
             (s22t :subset-of s24a2)))
-
 
 
 ################################################################################
@@ -1732,7 +1660,6 @@ Words: There is also a scandal that erupted over Russia's declaration that it wi
     :ARG2 (s25p2 / person)
     :aspect performance)
 
-
 # alignment:
 s25s: 0-0
 s25p: 0-0
@@ -1751,7 +1678,6 @@ s25a2: 24-24
 s25b: 22-22
 s25n3: 0-0
 s25p2: 0-0
-
 
 # document level annotation:
 (s25s0 / sentence
@@ -1774,7 +1700,6 @@ s25p2: 0-0
             (s24p4 :same-entity s25p2)
             (s24i2 :subset-of s25e)
             (s24c :same-entity s25c)))
-
 
 
 ################################################################################
@@ -1814,7 +1739,6 @@ Words: Such examples are quite a few already , some of them are combined with ma
     :ARG2 (s26p3 / person)
     :aspect performance)
 
-
 # alignment:
 s26s: 0-0
 s26p: 0-0
@@ -1837,7 +1761,6 @@ s26c3: 19-19
 s26h2: 20-21
 s26p3: 0-0
 
-
 # document level annotation:
 (s26s0 / sentence
     :temporal ((s25s :after s26s)
@@ -1854,7 +1777,6 @@ s26p3: 0-0
             (s25e :contains s26t2)
             (s24f :contains s26t2)
             (s25c :same-entity s26c)))
-
 
 
 ################################################################################
@@ -1882,7 +1804,6 @@ Words: Marsha Lipman is Editor of the Moscow based news magazine '  Itogi '  .
         :quote s27s)
     :aspect performance)
 
-
 # alignment:
 s27s: 0-0
 s27p3: 0-0
@@ -1898,7 +1819,6 @@ s27n4: 0-0
 s27p2: 4-4
 s27e: 0-0
 
-
 # document level annotation:
 (s5s0 / sentence
     :temporal ((s26s :after s27s)
@@ -1911,7 +1831,6 @@ s27e: 0-0
     :coref ((s26p3 :same-entity s27p3)
             (s26p :same-entity s27p)
             (s5n2 :same-entity s27m)))
-
 
 
 ################################################################################
@@ -1943,7 +1862,6 @@ Words: Marsha , thank you very much for speaking with us .
     :ARG2 s28p
     :aspect performance)
 
-
 # alignment:
 s28s2: 0-0
 s28t: 3-3
@@ -1954,7 +1872,6 @@ s28m: 6-6
 s28v: 5-5
 s28p: 1-1
 s28n: 0-0
-
 
 # document level annotation:
 (s29s0 / sentence
@@ -1967,7 +1884,6 @@ s28n: 0-0
             (s28p2 :full-affirmative s28s))
     :coref ((s27p3 :same-entity s28p2)
             (s27n :same-entity s28p)))
-
 
 
 ################################################################################
@@ -1987,14 +1903,12 @@ Words: Pleasure .
     :ARG2 (s29p2 / person)
     :aspect performance)
 
-
 # alignment:
 s29s: 0-0
 s29p: 0-0
 s29p3: 1-1
 s29t: 0-0
 s29p2: 0-0
-
 
 # document level annotation:
 (s29s0 / sentence
@@ -2006,6 +1920,5 @@ s29p2: 0-0
     :coref ((s28p :same-entity s29p)
             (s28p2 :same-entity s29p2)
             (s28s :same-entity s29t)))
-
 
 

@@ -13,7 +13,6 @@ Words: <Builder> Mission   has       started.
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.2 :: type = partial_conversion
 # :: snt2
@@ -36,7 +35,6 @@ Words: <Architect> 4           red
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.3 :: type = partial_conversion
 # :: snt3
@@ -50,42 +48,6 @@ Words: <Architect> anywhere
 # alignment:
 
 # document level annotation:
-
-
-
-################################################################################
-# meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.5 :: type = not_in_release
-# :: snt4
-Index: 1        2        3        4        5        6        7        8        9        10
-Words: [Builder puts     down     a        red      block    at       X:2      Y:1      Z:1]
-
-# sentence level graph:
-(s4p / put-down-17
-     :ARG0 (s4b / builder)
-     :ARG1 (s4b2 / block
-                 :color (s4r / red))
-     :ARG2 (s4s / space
-                :place (s4c / cartesian-coordinate-entity
-                            :x 2
-                            :y 2
-                            :z 1)))
-
-# alignment:
-
-# document level annotation:
-
-
-
-################################################################################
-# meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.5 :: type = not_in_release
-# :: snt5
-# sentence level graph:
-(s5u / umr-empty)
-
-# alignment:
-
-# document level annotation:
-
 
 
 ################################################################################
@@ -110,7 +72,6 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.7 :: type = partial_conversion
 # :: snt7
@@ -131,7 +92,6 @@ Words: [Builder puts     down     a        red      block    at       X:2      Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -156,7 +116,6 @@ Words: <Architect> 3           empty       1           red
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.9 :: type = partial_conversion
 # :: snt9
@@ -177,7 +136,6 @@ Words: [Builder puts     down     a        red      block    at       X:1      Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -202,7 +160,6 @@ Words: <Architect> 1           empty       3           red
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.11 :: type = partial_conversion
 # :: snt11
@@ -223,7 +180,6 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -248,7 +204,6 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.13 :: type = partial_conversion
 # :: snt13
@@ -269,7 +224,6 @@ Words: [Builder puts     down     a        red      block    at       X:0      Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -294,7 +248,6 @@ Words: <Architect> 3           empty       1           red
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.15 :: type = partial_conversion
 # :: snt15
@@ -315,7 +268,6 @@ Words: [Builder puts     down     a        red      block    at       X:-1     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -340,7 +292,6 @@ Words: <Architect> 4           red
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.17 :: type = partial_conversion
 # :: snt17
@@ -361,7 +312,6 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -386,7 +336,6 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.19 :: type = partial_conversion
 # :: snt19
@@ -409,7 +358,6 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.20 :: type = partial_conversion
 # :: snt20
@@ -430,7 +378,6 @@ Words: [Builder puts     down     a        red      block    at       X:-2     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -476,7 +423,6 @@ Words: <Architect> ok          now         2           spaces      behind      t
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.22 :: type = partial_conversion
 # :: snt22
@@ -499,7 +445,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.23 :: type = partial_conversion
 # :: snt23
@@ -520,7 +465,6 @@ Words: <Builder> here      or        1         back
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -549,7 +493,6 @@ Words: <Architect> you         have        placed      a           yellow      b
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.25 :: type = partial_conversion
 # :: snt25
@@ -570,7 +513,6 @@ Words: <Architect> it's        2           spaces      behind
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -595,7 +537,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.27 :: type = partial_conversion
 # :: snt27
@@ -618,7 +559,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.28 :: type = partial_conversion
 # :: snt28
@@ -631,7 +571,6 @@ Words: <Builder> okay
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -655,7 +594,6 @@ Words: <Architect> it          needs       to          be          on          t
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.30 :: type = partial_conversion
 # :: snt30
@@ -671,7 +609,6 @@ Words: <Architect> behind
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -699,7 +636,6 @@ Words: <Builder> sorry     I've      been      thinking  about     it        as 
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.32 :: type = partial_conversion
 # :: snt32
@@ -715,7 +651,6 @@ Words: <Builder> my        B
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -748,7 +683,6 @@ Words: <Architect> yes,        you         need        to          move        t
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.34 :: type = partial_conversion
 # :: snt34
@@ -765,7 +699,6 @@ Words: <Architect> not         in          front
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -790,7 +723,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.36 :: type = partial_conversion
 # :: snt36
@@ -811,7 +743,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -840,7 +771,6 @@ Words: <Architect> ok          rotate      90          degrees     to          t
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -873,7 +803,6 @@ Words: <Architect> place       a           yellow      block       3           s
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.39 :: type = partial_conversion
 # :: snt39
@@ -889,7 +818,6 @@ Words: <Architect> (2          empty       between)
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -914,7 +842,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.41 :: type = partial_conversion
 # :: snt41
@@ -935,7 +862,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-2     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -960,7 +886,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-2     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.43 :: type = partial_conversion
 # :: snt43
@@ -980,7 +905,6 @@ Words: <Architect> ok          so          this        is          another     2
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1003,7 +927,6 @@ Words: <Architect> you         currentl    have        the         4th         c
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1034,7 +957,6 @@ Words: <Architect> the         5th         column      (to         the         r
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.46 :: type = partial_conversion
 # :: snt46
@@ -1057,7 +979,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.47 :: type = partial_conversion
 # :: snt47
@@ -1078,7 +999,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1105,7 +1025,6 @@ Words: <Architect> 1st         column:     empty       2           yellow
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.49 :: type = partial_conversion
 # :: snt49
@@ -1126,7 +1045,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-5     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1151,7 +1069,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-5     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.51 :: type = partial_conversion
 # :: snt51
@@ -1174,7 +1091,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-5     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.52 :: type = partial_conversion
 # :: snt52
@@ -1195,7 +1111,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-5     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1223,7 +1138,6 @@ Words: <Architect> the         5th         column      is          also        e
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.54 :: type = partial_conversion
 # :: snt54
@@ -1246,7 +1160,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-1     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.55 :: type = partial_conversion
 # :: snt55
@@ -1267,7 +1180,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-1     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1294,7 +1206,6 @@ Words: <Architect> 3rd         is          yellow,     2           empty,      y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.57 :: type = partial_conversion
 # :: snt57
@@ -1317,7 +1228,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.58 :: type = partial_conversion
 # :: snt58
@@ -1338,7 +1248,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1364,7 +1273,6 @@ Words: <Architect> my          bad         I           meant       second
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.60 :: type = partial_conversion
 # :: snt60
@@ -1385,7 +1293,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-3     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1410,7 +1317,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-4     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.62 :: type = partial_conversion
 # :: snt62
@@ -1431,7 +1337,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-3     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1456,7 +1361,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-4     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.64 :: type = partial_conversion
 # :: snt64
@@ -1477,7 +1381,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-4     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1502,7 +1405,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-4     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.66 :: type = partial_conversion
 # :: snt66
@@ -1525,7 +1427,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-4     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.67 :: type = partial_conversion
 # :: snt67
@@ -1546,7 +1447,6 @@ Words: [Builder picks    up       a        yellow   block    at       X:-4     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1575,7 +1475,6 @@ Words: <Architect> third       is          2           empty       2           y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.69 :: type = partial_conversion
 # :: snt69
@@ -1596,7 +1495,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
 # alignment:
 
 # document level annotation:
-
 
 
 ################################################################################
@@ -1621,7 +1519,6 @@ Words: [Builder puts     down     a        yellow   block    at       X:-3     Y
 # document level annotation:
 
 
-
 ################################################################################
 # meta-info :: sent_id = minecraft-4-13-m-and-m-B35-A44_1426.71 :: type = partial_conversion
 # :: snt71
@@ -1639,6 +1536,5 @@ Words: <Architect> ok          that's      it          good        job
 # alignment:
 
 # document level annotation:
-
 
 
