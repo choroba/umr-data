@@ -26,7 +26,7 @@ The `parse_umr_to_json.py` script extracts content from UMR files and converts i
   1. Meta info (with `::` separators)
   2. Sentence information (index, words, morphemes, etc.)
   3. Sentence level UMR annotation (after `# sentence level graph:`)
-  4. Alignment information (after `# alignment:`) 
+  4. Alignment information (after `# alignment:`)
   5. Document level annotation (after `# document level annotation:`)
 
 ### Usage
@@ -98,18 +98,26 @@ The script outputs a JSON file containing an array of UMR documents. Each docume
 }
 ```
 
-## UMR 3.0 Data format Description
+## UMR 3.0 Data Format Description
 
-This dataset is organized in **blocks**, each corresponding to a single sentence.  
-Blocks are separated by a line of 80 hash signs:
+(See also [here](https://ufal.mff.cuni.cz/umr-parsing/umr-file-format).)
 
-### Block Structure
+Each UMR file corresponds to one **document** (document-level annotation thus does not refer to other files).
 
-Within each block, there are **five parts**, separated by a single hash sign (`#`):
+The document is organized in **segments**, each corresponding to a single sentence.
+Each sentence segment starts with a line of 80 hash signs and ends with two empty lines.
+
+### Sentence Structure
+
+Within each sentence segment, there are **four parts**.
+Each of them starts with a comment line (a line whose first character is a hash sign)
+and ends with one empty line (except the last part of the sentence, which ends with two empty lines).
 
 ---
 
-### 1. Meta Information
+### 1. Sentence Information
+
+#### Meta Information
 
 - Entries are separated by two colons (`::`).
 - Example entries:
@@ -118,39 +126,39 @@ Within each block, there are **five parts**, separated by a single hash sign (`#
 
 ---
 
-### 2. Sentence Information
+#### Tokens, Morphemes, Translation
 
 This section may include the following fields:
 
-- **Index**: Token indices  
-- **Words**: Tokens of the sentence  
-- **Morphemes**: Morphological breakdown of words  
-- **Morpheme Gloss (English)**: English glosses of morphemes  
-- **Morpheme Gloss (Spanish)**: Spanish glosses of morphemes  
-- **Morpheme Category**: Categories or grammatical roles of morphemes  
-- **Words (English)**: English translation of the individual words  
-- **Part of Speech**: POS tags  
-- **Sentence**: Original sentence  
-- **Translation (English)**: English translation of the sentence  
-- **Translation (Spanish)**: Spanish translation of the sentence  
+- **Index**: Token indices
+- **Words**: Tokens of the sentence
+- **Morphemes**: Morphological breakdown of words
+- **Morpheme Gloss (English)**: English glosses of morphemes
+- **Morpheme Gloss (Spanish)**: Spanish glosses of morphemes
+- **Morpheme Category**: Categories or grammatical roles of morphemes
+- **Words (English)**: English translation of the individual words
+- **Part of Speech**: POS tags
+- **Sentence**: Original sentence
+- **Translation (English)**: English translation of the sentence
+- **Translation (Spanish)**: Spanish translation of the sentence
 
 ---
 
-### 3. Sentence-Level UMR Annotation
+### 2. Sentence-Level UMR Annotation
 
 - UMR structure is represented in **Penman notation**.
 
 ---
 
-### 4. Alignment Information
+### 3. Alignment Information
 
 - Alignments between UMR concepts and token indices.
 
 ---
 
-### 5. Document-Level Annotation
+### 4. Document-Level Annotation
 
-- UMR structure is represented by temporal/model/coreference relation triples. 
+- UMR structure is represented by temporal/model/coreference relation triples.
 
 
 ---
@@ -161,20 +169,20 @@ This dataset includes annotated data from the following languages:
 
 #### Unchanged from UMR 1.0 Release
 
-- Arapaho  
-- Kukama  
-- Navajo  
-- Sanapaná  
+- Arapaho
+- Kukama
+- Navajo
+- Sanapaná
 
 #### Extended from UMR 1.0 Release
 
-- English  
-- Chinese  
+- English
+- Chinese
 
 #### Added in UMR 2.0 Release
 
-- Czech  
-- Latin  
+- Czech
+- Latin
 
 #### Newly Added in UMR 3.0 Release
 
