@@ -2377,7 +2377,7 @@ Sentence Gloss (es): quizas esasos quiseron robarte
 				:refer-person 2nd
 				:refer-number singular)
 			:aspect performance
-			:modpred s60t)
+			:modal-predicate s60t)
 		:quote s60e)
 	:recipient s60p3)
 
@@ -2699,11 +2699,11 @@ s68e: 0-0
 ################################################################################
 # meta-info
 # :: snt69
-Index: 1   2      3    4           5          6 7             8 9           10
-Words: aka tuannu utsu inuayamiran chikariari , kusipuratukua , tsapapamuki None
-Morphemes: aka             tua -n -nu  utsu         inu -a -ya -mira -n     chikari -a -ri      kusi -pura -tu -ukua          tsa   papa -muki
-Morpheme Gloss (en): here     be.big -NMZR -PL.F    go   3PL.F -EV -CMP -PUR2 -REL  lookfor -EV -PROG  Jose -FOC -AUM -habitual          1sF  father -Com
-Morpheme Gloss (es): acá  sergrande -NMDR -PL.F    ir  3PL.F -VE -CMP -PROP2 -REL   buscar -VE -PROG  José -FOC -AUM -habitual          1sF    papá -Com
+Index: 1   2      3    4           5          6 7             8 9
+Words: aka tuannu utsu inuayamiran chikariari , kusipuratukua , tsapapamuki
+Morphemes:           aka  tua -n -nu            utsu   inu -a -ya -mira -n          chikari -a -ri      kusi -pura -tu -ukua          tsa   papa -muki
+Morpheme Gloss (en): here be.big -NMZR -PL.F    go     3PL.F -EV -CMP -PUR2 -REL    lookfor -EV -PROG   Jose -FOC -AUM -habitual      1sF  father -Com
+Morpheme Gloss (es): acá  sergrande -NMDR -PL.F ir     3PL.F -VE -CMP -PROP2 -REL   buscar -VE -PROG    José -FOC -AUM -habitual      1sF    papá -Com
 Sentence Gloss (en): they go looking for our food?, Jose goes with my father
 Sentence Gloss (es): ellos se van buscando nuestro mitayo, José anda con mi padre
 
@@ -2733,19 +2733,18 @@ s69c: 5-5
 s69d: 0-0
 s69h: 0-0
 s69n: 0-0
-s69p: 6-6
+s69p: 7-7
 s69p2: 0-0
 s69p3: 0-0
-s69p4: 7-7
-s69t: 0-0
+s69p4: 9-9
+s69t: 2-2
 s69u: 3-3
 s69u2: 0-0
 
 # document level annotation:
 (s69s0 / sentence
 	:temporal ((s67m :before s69u)
-		(s69u :overlap s69u2)
-		(s69u :after s69u2))
+		(s69u :overlap s69u2))
 	:modal ((root :modal author)
 		(author :full-affirmative s69c)
 		(author :full-affirmative s69u2)
