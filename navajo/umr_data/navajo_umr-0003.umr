@@ -3213,9 +3213,9 @@ s91p: 0-0
 ################################################################################
 # meta-info
 # :: snt87
-Index:           1        2      3        4         5          6   7        8           9      10         11         12                     13              14                                15       16             17              18                 19     20         21          22
-Words:           Ńt’ée’go nagháí dził     bine’jí   K’aabizhii dóó Tsé      Łichíí’     Dah    ’Azkání    nahós’a’gi diné                   kéédahat’ínígíí ’ólta’                            wolyéii  baa            ch’íhwiit’aahgo shį́į́               yik’ee dadiniihgo ntsídaakees lá
-Word Gloss (en): past     there  mountain behind.it Cove       and Red.Rock in.the.area people they.lived school     the.one.that.is.called about.it        a.series.of.statements.being.made probably on.its.account hurtful         they.were.thinking !
+Index:           1        2      3        4         5          6   7    8       9    10      11          12     13              14     15                     16       17                                18       19             20         21                 22
+Words:           Ńt’ée’go nagháí dził     bine’jí   K’aabizhii dóó Tsé  Łichíí’ Dah  ’Azkání nahós’a’gi  diné   kéédahat’ínígíí ’ólta’ wolyéii                baa      ch’íhwiit’aahgo                   shį́į́     yik’ee         dadiniihgo ntsídaakees        lá
+Word Gloss (en): past     there  mountain behind.it Cove       and Rock Red     Mesa Mesa    in.the.area people they.lived      school the.one.that.is.called about.it a.series.of.statements.being.made probably on.its.account hurtful    they.were.thinking !
 Morphemes: ńt’ée’ =go  nagháí      dził                        bi- ne’ =jí  K’aabizhii  dóó  Tsé Łichíí’ Dah ’Azkání  nahós’a’ =gi    diné           kéé- da- ha- t- ’ín =ígíí  ’ólta’                     wo- l- yé =ii                          b- aa              ch’í- hw- ii- t- ’aah =go    shį́į́                       yi- k’ee           da- di- niih =go      ntsí- daa- kees      lá
 Morpheme Gloss (en): PST =being   there  mountain                3.POSS behind =away        Cove  and                 Red.Rock      area =at  person  TH DISTR AR INTR do.DUR.IMPF =NMLZ  school  3.O.IMPF PAS call.NEU.IMPF =NMLZ                      3.POSS to  out IMPL SER PAS move.SRO.IMPF =being  probably       3.DIR.POSS on.account.of  DISTR TH hurt.IMPF =being  TH DISTR think.IMPF       !
 Morpheme Category: adv prt     adv         n  Attaches to any category post prt       nprop  prt                    nprop        n post       n    v:PRVB v:DISTR  v:AR v:VAL v prt       n                v:TAMS v:VAL v prt  Attaches to any category post         v:PRVB v:AR v:QUAL v:VAL v prt       adv  Attaches to any category post      v:DISTR  v:QUAL v prt    v:PRVB v:DISTR  v  interj
@@ -3235,12 +3235,10 @@ Sentence Gloss (en): But the people who live over beyond yonder mountain in the 
 		:refer-number plural
 		:actor-of (s92k / kéédahat’ínígíí
 			:place (s92b / bine’jí
-				:ARG1-of (s92h / have-location-91
-					:ARG1 s92p
-					:ARG2 (s92d2 / dził
-						:ARG0-of (s92h2 / have-location-91
-							:ARG1 (s92n3 / nahós’a’gi)
-							:ARG2 (s92a / and
+				:place (s92d2 / dził
+					:ARG1-of (s92h2 / have-place-91
+						:ARG2 (s92n3 / nahós’a’gi
+							:mod (s92a / and
 								:op1 (s92p2 / place
 									:name (s92k2 / k’aabizhii))
 								:op2 (s92p3 / place
@@ -3250,24 +3248,24 @@ Sentence Gloss (en): But the people who live over beyond yonder mountain in the 
 			:aspect activity)))
 
 # alignment:
-s92n: 18-18
-s92d: 17-17
-s92c: 14-14
+s92n: 21-21
+s92d: 20-20
+s92c: 17-17
 s92p: 0-0
-s92k: 10-10
+s92k: 13-13
 s92b: 4-4
 s92h: 0-0
 s92d2: 3-3
 s92n2: 2-2
 s92h2: 0-0
-s92n3: 8-8
+s92n3: 11-11
 s92a: 0-0
-s92p2: 0-0
-s92p3: 0-0
+s92p2: 5-5
+s92p3: 7-10
 s92k2: 5-5
-s92t: 7-7
-s92x: 11-11
-s92w: 12-12
+s92t: 7-10
+s92x: 14-14
+s92w: 15-15
 
 # document level annotation:
 (s87s0 / sentence)
@@ -3535,7 +3533,7 @@ Sentence Gloss (en): So they began to think of the matter with bitterness.
 	:manner (s99n / ndahodik’ǫǫshgo
 		:aspect process
 		:experiencer s99p
-		:mod (s99h / have-location-91
+		:mod (s99h / have-place-91
 			:ARG1 (s99h2 / hwii’
 				:ARG2 s99p))))
 
@@ -3729,7 +3727,7 @@ Sentence Gloss (en): Near the trading post there was a house which
 		:op1 (s105n / naalyéhé-bá-hooghan)
 		:op2 (s105k / kin
 			:refer-number singular
-			:ARG0-of (s105h / have-location-91
+			:ARG0-of (s105h / have-place-91
 				:ARG1 (s105t / t’áá-’áhánígi)
 				:ARG2 s105n))))
 
@@ -4578,7 +4576,7 @@ Sentence Gloss (en): South from the trading post there is a ruin which we call i
 			:medium (s126l / language
 				:name (s126d3 / dinék’ehjígo)
 				:wiki "Navajo_Language"))
-		:ARG0-of (s126h2 / have-location-91
+		:ARG0-of (s126h2 / have-place-91
 			:ARG1 (s126b / bich’ijígo
 				:mod (s126s / shádi’ááh))
 			:ARG2 (s126n / naalyéhé-ba-hooghanídóó))))
@@ -4807,7 +4805,7 @@ Sentence Gloss (en): Today we had been placed among children who were to be take
 		:refer-person 1st
 		:refer-number plural)
 	:goal (s133b / bitah
-		:ARG1-of (s133h / have-location-91
+		:ARG1-of (s133h / have-place-91
 			:ARG0 s133p
 			:ARG2 (s133x / ’áłchíní
 				:refer-number plural
