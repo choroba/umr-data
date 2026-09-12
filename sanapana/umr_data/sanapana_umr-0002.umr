@@ -414,7 +414,7 @@ Sentence Gloss (es): Solamente eso, el maleng
 
 # alignment:
 s12n: 0-0
-s12m2: 3-3
+s12d: 3-3
 s12m: 2-2
 s12v: 1-1
 
@@ -501,7 +501,7 @@ Sentence Gloss (es): Solamente eso, el maleng
 	:aspect state)
 
 # alignment:
-s15m2: 3-3
+s15d: 3-3
 s15n: 0-0
 
 # document level annotation:
@@ -2879,7 +2879,7 @@ Sentence Gloss (es): Las que tocaban la campanilla a ella la protegían
 	:undergoer s85p2)
 
 # alignment:
-s85a: 4-4
+s85e: 4-4
 s85k: 1-1
 s85m: 2-2
 s85p: 0-0
@@ -3029,7 +3029,6 @@ Sentence Gloss (es): Lo que dije
 # alignment:
 s89e: 0-0
 s89p: 0-0
-s89t: 0-0
 
 # document level annotation:
 (s89s0 / sentence
@@ -3102,7 +3101,7 @@ Sentence Gloss (es): El burro era otra clase de caballo
 s91h: 0-0
 s91a: 1-1
 s91y: 4-4
-s91m: 3-2
+s91m: 3-3
 
 # document level annotation:
 (s91s0 / sentence
