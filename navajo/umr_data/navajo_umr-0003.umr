@@ -2032,7 +2032,7 @@ Sentence Gloss (en): "Say, let's go to school," I said to my companion.
 	:aspect performance
 	:theme (s57c / command
 		:op1 (s57x / ’ashkihéi)
-		:op1 (s57x2 / ’íídíiltah
+		:op2 (s57x2 / ’íídíiltah
 			:aspect activity
 			:mode imperative
 			:actor (s57p2 / person
@@ -2386,9 +2386,9 @@ s68p: 0-0
 ################################################################################
 # meta-info
 # :: snt65
-Index:           1         2         3        4                   5             6                 7    8   9              10
-Words:           Háadish   dó’       baa      dáádidooh’ash       nihizhdííniid shidá’í           yę́ę  dóó shichei        yę́ę
-Word Gloss (en): somewhere also,.too about.it you.both.will.block he.said.to.us my.maternal.uncle PAST and my.grandfather PAST
+Index:           1         2        3        4                   5             6                 7    8   9              10
+Words:           Háadish   dó’      baa      dáádidooh’ash       nihizhdííniid shidá’í           yę́ę  dóó shichei        yę́ę
+Word Gloss (en): somewhere also,too about.it you.both.will.block he.said.to.us my.maternal.uncle PAST and my.grandfather PAST
 Morphemes: háadish        dó’                          b- aa                dáá- di- d- ooh- ’ash               nihi- zh- d- íí- niid                   shi- dá’í  =yę́ę  dóó                   shi- chei  =yę́ę
 Morpheme Gloss (en): somewhere       also                   3.POSS about  block TH FUT 2.DU/PL.PROG go.DU.FUT  1.DU/PL SPEC TH 3.YI.PERF say.PERF    1.SG.POSS maternal.uncle  =PAST  and       1.SG.POSS grandfather  =PAST
 Morpheme Category: adv        prt  Attaches to any category post        v:PRVB v:QUAL v:QUAL v:TAMS v        v:OBJ v:OSBJ v:QUAL v:TAMS v  Attaches to any category n    prt  prt  Attaches to any category n    prt
@@ -2413,7 +2413,7 @@ Sentence Gloss (en): You cannot escape them anyway," my uncle and my grandfather
 		:actor (s69p4 / person
 			:refer-person 2nd
 			:refer-number dual))
-	:theme s69p4
+	:recipient s69p4
 	:place (s69h / háadish))
 
 # alignment:
