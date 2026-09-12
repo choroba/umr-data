@@ -842,7 +842,8 @@ Sentence Gloss (es): Hasta que llegué al segundo grado de la escuela
 			:refer-number singular
 			:refer-person 1st)
 		:goal (s22g / grado
-			:ord 2
+			:ord (s22o / ordinal-entity
+				:value 2)
 			:part (s22e3 / escuela))
 		:aspect performance))
 
@@ -852,6 +853,7 @@ s22e2: 1-1
 s22p: 0-0
 s22g: 3-3
 s22e3: 4-4
+s22o: 2-2
 
 # document level annotation:
 (s22s0 / sentence
