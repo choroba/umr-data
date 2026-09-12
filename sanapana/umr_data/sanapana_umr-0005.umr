@@ -63,11 +63,11 @@ s2e: 5-5
 s2h: 0-0
 s2p: 0-0
 s2t: 0-0
-s2a: 7-7
+s2e2: 7-7
 s2p2: 0-0
 s2n: 0-0
 s2n2: 0-0
-s2a2: 4-4
+s2a: 4-4
 s2h2: 8-8
 s2u: 0-0
 
@@ -265,7 +265,7 @@ s7e: 1-1
 s7p: 0-0
 s7m: 2-2
 s7h: 0-0
-s7v: 3-3
+s7n: 3-3
 
 # document level annotation:
 (s7s0 / sentence
@@ -480,9 +480,7 @@ Sentence Gloss (es): Y jabón
 (s13a / ala'mopay'a)
 
 # alignment:
-s13a: 0-0
-s13t: 0-0
-s13a2: 1-1
+s13a: 1-1
 
 # document level annotation:
 (s13s0 / sentence
@@ -839,7 +837,6 @@ Sentence Gloss (es): Cerca de un riacho
 (s24a / alvata')
 
 # alignment:
-s24e: 0-0
 s24a: 1-1
 
 # document level annotation:
@@ -905,7 +902,7 @@ s26a2: 1-1
 s26h: 0-0
 s26h2: 0-0
 s26t: 0-0
-s26y: 3-3
+s26n: 3-3
 
 # document level annotation:
 (s26s0 / sentence
@@ -935,11 +932,9 @@ Sentence Gloss (es): Sus hojas son largas
 	:aspect state)
 
 # alignment:
-s27a: 0-0
-s27a2: 2-2
-s27a3: 1-1
+s27a2: 1-1
+s27a: 2-2
 s27h: 0-0
-s27t2: 0-0
 
 # document level annotation:
 (s27s0 / sentence
@@ -1430,8 +1425,8 @@ Sentence Gloss (es): En el lugar de ahltama seyana'
 		:op2 "seyana’"))
 
 # alignment:
-s41a: 1-1
-s41s: 0-0
+s41y: 3-3
+s41n: 1-2
 
 # document level annotation:
 (s41s0 / sentence
@@ -1493,7 +1488,6 @@ Sentence Gloss (es): Era lejos
 	:aspect state)
 
 # alignment:
-s43e: 0-0
 s43t: 1-1
 
 # document level annotation:
@@ -1727,7 +1721,6 @@ s49t2: 0-0
 s49t3: 0-0
 s49t4: 0-0
 s49t5: 0-0
-s49t6: 0-0
 s49a: 0-0
 s49p2: 2-2
 s49t: 0-0
@@ -1737,8 +1730,7 @@ s49t: 0-0
 	:temporal ((s48e :overlap s49e))
 	:modal ((root :modal author)
 		(author :full-affirmative s49e))
-	:coref ((s48t :subset-of s49a)
-		(s47h :same-entity s48p)))
+	:coref ((s48t :subset-of s49a)))
 
 
 ################################################################################
@@ -2322,8 +2314,7 @@ Sentence Gloss (es): En ahltama seyana'
 		:op2 "seyana’"))
 
 # alignment:
-s68a: 1-1
-s68s: 0-0
+s68n: 1-2
 
 # document level annotation:
 (s68s0 / sentence
@@ -2604,7 +2595,7 @@ Sentence Gloss (es): Se llamaba ahltama seyana'
 # alignment:
 s77h: 0-0
 s77t: 0-0
-s77a: 2-2
+s77n: 2-2
 
 # document level annotation:
 (s77s0 / sentence
@@ -2632,8 +2623,6 @@ Sentence Gloss (es): Así era allá
 	:aspect state)
 
 # alignment:
-s78i2: 0-0
-s78t: 0-0
 s78h: 3-3
 
 # document level annotation:
@@ -3055,7 +3044,7 @@ Sentence Gloss (es): Se llamaba ahltama seyana', era muy lindo
 s91a: 0-0
 s91h: 0-0
 s91t: 0-0
-s91a2: 2-2
+s91n: 2-2
 s91h2: 0-0
 s91t2: 3-3
 
@@ -3134,7 +3123,7 @@ s93p: 0-0
 s93h2: 0-0
 s93t: 0-0
 s93a: 4-4
-s93c: 1-2
+s93n: 1-2
 
 # document level annotation:
 (s93s0 / sentence
@@ -3290,13 +3279,12 @@ Sentence Gloss (es): De ahltama seyana'
 
 # sentence level graph:
 (s98t / territory
-	:name (s97n / name
+	:name (s98n / name
 		:op1 "ahltama"
 		:op2 "seyana’"))
 
 # alignment:
-s98a: 1-1
-s98s: 0-0
+s98t: 1-1
 
 # document level annotation:
 (s98s0 / sentence
