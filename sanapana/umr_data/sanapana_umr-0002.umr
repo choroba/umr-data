@@ -3184,8 +3184,8 @@ s93y: 2-2
 # document level annotation:
 (s93s0 / sentence
 	:temporal ((present-reference :overlap s93r))
-	:modal ((root :modal author2)
-		(author2 :full-affirmative s93r))
+	:modal ((root :modal author)
+		(author :full-affirmative s93r))
 	:coref ((s92t :same-entity s93t)
 		(s91y :same-entity s93y)))
 
