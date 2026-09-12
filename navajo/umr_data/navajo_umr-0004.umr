@@ -2733,12 +2733,12 @@ s68p: 0-0
 ################################################################################
 # meta-info
 # :: snt69
-Index:           1      2                             3        4                            5           6         7        8            9           10         11             12                      13          14      15        16    17
-Words:           Hastóí kódaalyéenii                  chidí    naat’a’í                     kóolyéhígíí ’akǫ́ǫ́     bił      yit’ah       ha’níigo    nihilą́ąjį’ níłch’i        bee                     dahane’ígíí bee     náhánihgo nihił ’ít’a’
-Word Gloss (en): men    the.ones.that.are.called.such airplane the.one.which.is.called.such there       with.them it.flies telling.them ahead.of.us radios     by.means.of.it while.they.were.telling with.us     it.flew
-Morphemes: hastóí              kó- daa- l- yée =nii  chidí naat’a’í                     kó- o- l- yé =hígíí  ’akǫ́ǫ́                          b- ił         yi- t’ah                   ha- ’a- ní =go  nihi- lą́ąjį’  níłch’i bee dahane’ígíí                          b- ee           ná- há- nih =go                        nih- ił                  ’- í- t’a’
-Morpheme Gloss (en): men  so DISTR PAS call.NEU.IMPF =NMLZ        airplane  so 3.YINI.IMPF PAS call.NEU.IMPF =NMLZ    there                    3.POSS with  3.PROG fly.PROG  TH NSP.SBJ say.NEU.IMPF =SUBORD  1.DU/PL ahead                    radio                    3.POSS with  REV AR tell.ITER =SUBORD              1.DU/PL.POSS with  NSP.SBJ 3.NI.PERF fly.PERF
-Morpheme Category: n       v:PRVB v:DISTR  v:VAL v prt               n               v:PRVB v:TAMS v:VAL v prt      adv  Attaches to any category post         v:TAMS v              v:PRVB v:OSBJ v prt      v:OBJ adv                        n  Attaches to any category post         v:PRVB v:AR v prt  Attaches to any category post             v:OSBJ v:TAMS v
+Index:           1      2                             3     4        5                            6      7         8        9            10          11      12  13          14    15                16      17
+Words:           Hastóí kódaalyéenii                  chidí naat’a’í kóolyéhígíí                  ’akǫ́ǫ́  bił       yit’ah   ha’níigo     nihilą́ąjį’  níłch’i bee dahane’ígíí bee   náhánihgo         nihił   ’ít’a’
+Word Gloss (en): men    the.ones.that.are.called.such air   plane    the.one.which.is.called.such there  with.them it.flies telling.them ahead.of.us radios  by  means.of.it while they.were.telling with.us it.flew
+Morphemes:           hastóí              kó- daa- l- yée =nii  chidí naat’a’í                     kó- o- l- yé =hígíí    ’akǫ́ǫ́                  b- ił         yi- t’ah          ha- ’a- ní =go                    nihi- lą́ąjį’    níłch’i                 bee           dahane’ígíí                    b- ee               ná- há- nih =go     nih- ił             ’- í- t’a’
+Morpheme Gloss (en): men     so DISTR PAS call.NEU.IMPF =NMLZ  air   plane     so 3.YINI.IMPF PAS call.NEU.IMPF =NMLZ    there                  3.POSS with   3.PROG fly.PROG   TH NSP.SBJ say.NEU.IMPF =SUBORD   1.DU/PL ahead   radio                   3.POSS with   REV AR tell.ITER =SUBORD                                               1.DU/PL.POSS with   NSP.SBJ 3.NI.PERF fly.PERF
+Morpheme Category:   n       v:PRVB v:DISTR  v:VAL v prt               n       v:PRVB v:TAMS v:VAL v prt                 adv  Attaches to any category post   v:TAMS v          v:PRVB v:OSBJ v prt      v:OBJ adv                n     Attaches to any category post   v:PRVB v:AR v prt                                          Attaches to any category post   v:OSBJ v:TAMS v
 Sentence Gloss (en): They radioed ahead that these men were aboard such and such a plane.
 
 # sentence level graph:
@@ -2776,19 +2776,19 @@ Sentence Gloss (en): They radioed ahead that these men were aboard such and such
 			:quote s69n)))
 
 # alignment:
-s69x: 13-14
+s69x: 17-17
 s69p: 0-0
-s69n: 0-0
+s69n: 15-15
 s69p2: 0-0
-s69n2: 10-10
-s69n3: 9-9
-s69h: 0-0
-s69y: 7-7
-s69c: 3-3
 s69h2: 1-1
 s69k: 2-2
-s69k2: 4-4
-s69x2: 5-5
+s69c: 3-4
+s69k2: 5-5
+s69x2: 6-6
+s69y: 8-8
+s69n2: 11-11
+s69n3: 10-10
+s69h: 0-0
 
 # document level annotation:
 (s69s0 / sentence
