@@ -5565,13 +5565,13 @@ Sentence Gloss (en): So there were three policemen.
 
 # sentence level graph:
 (s154h / have-quant-91
-	:ARG0 (s154s / siláago)
-	:ARG1 3
+	:ARG1 (s154s / siláago)
+	:ARG2 3
 	:aspect state
 	:mode expressive)
 
 # alignment:
-s154h: 0-0
+s154h: 2-2
 s154s: 4-4
 
 # document level annotation:
@@ -6433,7 +6433,6 @@ Sentence Gloss (en): He could be seen sitting out there silhouetted against the 
 # sentence level graph:
 (s178n / nahaltsaad
 	:aspect habitual
-	:aspect state
 	:actor (s178p / person
 		:refer-person 3rd
 		:refer-number singular)
