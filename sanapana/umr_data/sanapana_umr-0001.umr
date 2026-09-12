@@ -1960,8 +1960,8 @@ s48e2: 0-0
 	:temporal ((s48e2 :overlap s48e))
 	:modal ((root :modal author)
 		(author :full-affirmative s48e2)
-		(author :full-affirmative s47p)
-		(s47p :full-negative s48e))
+		(author :full-affirmative s48p)
+		(s48p :full-negative s48e))
 	:coref ((s47p3 :same-entity s48p)
 		(s47e :same-entity s48e2)))
 
@@ -2409,9 +2409,9 @@ Sentence Gloss (es): Es mi observación ahora
 # alignment:
 s60i2: 0-0
 s60t: 0-0
-s60t2: 0-0
 s60e: 0-0
-s60p: 0-0
+s60e2: 2-2
+s60p: 1-1
 s60k: 3-3
 
 # document level annotation:
@@ -2653,8 +2653,8 @@ Sentence Gloss (es): Es lo que veo ahora
 # alignment:
 s65i2: 1-1
 s65t: 0-0
-s65t2: 0-0
 s65e: 0-0
+s65e2: 1-1
 s65p: 0-0
 s65k: 2-2
 
