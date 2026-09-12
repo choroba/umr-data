@@ -2552,7 +2552,7 @@ Sentence Gloss (en): Nonetheless we hauled two loads again by the time the sun w
 		:actor (s65p / person
 			:refer-number plural
 			:refer-person 1st))
-	:ARG2-of (s65h / have-concession-91
+	:ARG1-of (s65h / have-concession-91
 		:ARG2 (s65x2 / ’ákót’ée
 			:aspect state)))
 
@@ -3009,8 +3009,7 @@ Sentence Gloss (en): As we flew over them we watched and saw people swarming abo
 		:refer-person 3rd
 		:part s74p)
 	:place (s74n2 / nihiyaadi
-		:mod (s74t / t’óó-))
-	:temporal "MISSING-VALUE")
+		:mod (s74t / t’óó-)))
 
 # alignment:
 s74n: 0-0
