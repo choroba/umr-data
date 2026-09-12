@@ -1975,9 +1975,8 @@ Sentence Gloss (es): Llegó otra vez una noticia
 
 # alignment:
 s57e: 1-1
-s57a2: 3-3
 s57m: 2-2
-s57e: 0-0
+s57a2: 3-3
 
 # document level annotation:
 (s57s0 / sentence
@@ -2026,8 +2025,7 @@ s58p2: 0-0
 
 # document level annotation:
 (s58s0 / sentence
-	:temporal ((s57e :before s58e2)
-		(s57e :overlap s58e))
+	:temporal ((s57e :overlap s58e))
 	:modal ((root :modal author)
 		(author :full-affirmative s58t)
 		(author :full-affirmative s58e)
@@ -2791,8 +2789,7 @@ s79p: 0-0
 
 # document level annotation:
 (s79s0 / sentence
-	:temporal ((past-reference :contained s79h)
-		(s79h :contained s79e))
+	:temporal ((s79h :contained s79e))
 	:modal ((root :modal author)
 		(author :full-negative s79e))
 	:coref ((s3p :same-entity s79p)
@@ -3318,8 +3315,7 @@ s94h: 5-5
 
 # document level annotation:
 (s94s0 / sentence
-	:temporal ((past-reference :contained s94h)
-		(s94h :contained s94i2))
+	:temporal ((s94h :contained s94i2))
 	:modal ((root :modal author)
 		(author :full-affirmative s94i2)
 		(author :full-affirmative s94e))
