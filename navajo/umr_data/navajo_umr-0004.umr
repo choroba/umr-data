@@ -2795,8 +2795,7 @@ s69h: 0-0
 	:temporal ((s69x :contained s69n)
 		(s69n :overlap s69h)
 		(s69k2 :contained s69x)
-		(s69k2 :overlap s69k)
-		(s69x :before s69n))
+		(s69k2 :overlap s69k))
 	:coref ((s69p :same-entity s68p)
 		(s69h2 :same-entity s68h)))
 
