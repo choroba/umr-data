@@ -233,9 +233,9 @@ s6t2: 0-0
 ################################################################################
 # meta-info
 # :: snt7
-Index:           1              2      3       4      5      6         7      8   9   10   11     12                13      14           15     16   17       18     19     20      21  22        23        24                          25              26         27    28        29
-Words:           Shichei        ńt’éé’ Naakai  Dine’é Łigaii wolyéé    ńt’éé’ dóó ła’ dó’  Diné   Táchéhéni’        Biye’   wolyéé       ńt’éé’ ’éí  shį́į́     t’éiyá diné   nilį́įgo dóó sáanii    dó’       díkwíí                      shį́į́            kwii       shaa  naanish   bííghą́ą́’
-Word Gloss (en): my.grandfather past   Mexican people white  is.called past   and one also people former.sweathouse his.son he.is.called past   that probably only   people being   and womenfolk also,.too several/.how.much,.how.many probably,.maybe here.about on.me they.work it.killed.them
+Index:           1              2      3       4      5      6         7      8   9   10   11     12                13      14           15     16   17       18     19     20      21  22        23       24                          25             26         27    28        29
+Words:           Shichei        ńt’éé’ Naakai  Dine’é Łigaii wolyéé    ńt’éé’ dóó ła’ dó’  Diné   Táchéhéni’        Biye’   wolyéé       ńt’éé’ ’éí  shį́į́     t’éiyá diné   nilį́įgo dóó sáanii    dó’      díkwíí                      shį́į́           kwii       shaa  naanish   bííghą́ą́’
+Word Gloss (en): my.grandfather past   Mexican people white  is.called past   and one also people former.sweathouse his.son he.is.called past   that probably only   people being   and womenfolk also.too several/.how.much,.how.many probably.maybe here.about on.me they.work it.killed.them
 Morphemes: shi- chei  ńt’éé’   Naakai  Dine’é  łigaii                  wo- l- yéé  ńt’éé’  dóó  ła’   dó’    diné         Táchéhéni’                     Bi- ye’                   wo- l- yéé  ńt’éé’   ’éí    shį́į́  t’éiyá    diné           ni- lį́į =go  dóó     sáanii        dó’                       díkwíí           shį́į́        kwii                         sh- aa              naa- nish                         b- íí- ghą́ą́’
 Morpheme Gloss (en): 1.SG.POSS grandfather     PST  Mexican  people   white  3.O.IMPF PAS call.NEU.IMPF     PST  and  one  also  person  Former.Sweathouse                  3.POSS son  3.O.IMPF INTR call.NEU.IMPF     PST  this  probably    only  person  TH be.NEU.IMPF =being  and  womenfolk       also                      several         probably  here.about                   1.SG.POSS to  around work.CONT.IMPF  3.INV 3.YI.PERF kill.ANIM.PL.OBJ.PERF
 Morpheme Category: Attaches to any category n     adv        n       n     adj              v:TAMS v:VAL v     adv  prt  prt   prt       n              nprop  Attaches to any category n               v:TAMS v:VAL v     adv   prt       adv     adv       n           v:QUAL v prt  prt          n        prt                          adv              adv         adv  Attaches to any category post               v:PRVB v                         v:OBJ v:TAMS v
@@ -262,8 +262,8 @@ Sentence Gloss (en): My gradnfather, a man by the name of White Mexican Clansman
 				:undergoer-of (s7w4 / wolyéé
 					:theme (s7d2 / diné-táchéhéni’-biye’)))
 			:mod (s7t / t’éiyá))
-		:op3 (s7s / sáanii)
-		:op4 (s7d / díkwíí
+		:op2 (s7s / sáanii)
+		:op3 (s7d / díkwíí
 			:op1 (s7h / have-quant-91
 				:unit (s7p2 / person))))
 	:place (s7h2 / here))
@@ -272,13 +272,13 @@ Sentence Gloss (en): My gradnfather, a man by the name of White Mexican Clansman
 s7n: 28-28
 s7p: 0-0
 s7p6: 0-0
-s7n3: 0-0
-s7w3: 0-0
-s7s2: 0-0
+s7n3: 3-5
+s7w3: 6-6
+s7s2: 1-1
 s7k2: 0-0
 s7p5: 0-0
-s7d2: 0-0
-s7w4: 0-0
+s7d2: 11-13
+s7w4: 14-14
 s7p7: 0-0
 s7t: 18-18
 s7a2: 24-24
