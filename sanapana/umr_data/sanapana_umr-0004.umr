@@ -27,8 +27,7 @@ s1t: 1-1
 
 # document level annotation:
 (s1s0 / sentence
-	:temporal ((root :depends-on past-reference)
-		(past-reference :contained s1e))
+	:temporal ((past-reference :contained s1e))
 	:modal ((root :modal author)
 		(author :full-affirmative s1e)))
 
