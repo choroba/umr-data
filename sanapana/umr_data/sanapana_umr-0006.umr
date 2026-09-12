@@ -1,12 +1,12 @@
 ################################################################################
 # meta-info
 # :: snt1
-Index:               	1	2	3
-Words:               	la     costumbre     cultura
-Morphemes:           	la     costumbre     cultura
-Morpheme Gloss (es): la.SP  costumbre.SP  cultura.SP
-Morpheme Category:   	cs            cs          cs
+Index:           1  2            3
+Words:           la costumbre    cultura
 Word Gloss (es): la costumbre.SP cultura.SP
+Morphemes: la     costumbre     cultura
+Morpheme Gloss (es): la.SP  costumbre.SP  cultura.SP
+Morpheme Category: cs            cs          cs
 Sentence Gloss (es): Las costumbres, la cultura
 
 # sentence level graph:
@@ -26,12 +26,12 @@ s1c2: 3-3
 ################################################################################
 # meta-info
 # :: snt2
-Index:               	1	2
-Words:               	anyetnemke'   mokham
-Morphemes:           	an- yetn -em -ke'   mokham
+Index:           1           2
+Words:           anyetnemke' mokham
+Word Gloss (es): hay         todavía
+Morphemes: an- yetn -em -ke'   mokham
 Morpheme Gloss (es): 2/3F.I existir PST/HAB V1.NFUT  todavía
-Morpheme Category:   	v:Any v v:Any v:Any      prt
-Word Gloss (es): hay todavía
+Morpheme Category: v:Any v v:Any v:Any      prt
 Sentence Gloss (es): Todavía existen (algunos)
 
 # sentence level graph:
@@ -58,12 +58,12 @@ s2p: 0-0
 ################################################################################
 # meta-info
 # :: snt3
-Index:               	1
-Words:               	enyese'savonak
-Morphemes:           	en- yese'sek -ao- =nak
-Morpheme Gloss (es): 1PL.POS medio PL =LOC
-Morpheme Category:   	sus:Any sus sus:Any sus:Any
+Index:           1
+Words:           enyese'savonak
 Word Gloss (es): en.el.medio.de
+Morphemes: en- yese'sek -ao- =nak
+Morpheme Gloss (es): 1PL.POS medio PL =LOC
+Morpheme Category: sus:Any sus sus:Any sus:Any
 Sentence Gloss (es): Entre nosotros
 
 # sentence level graph:
@@ -84,12 +84,12 @@ s3p: 0-0
 ################################################################################
 # meta-info
 # :: snt4
-Index:               	1	2	3	4
-Words:               	na           onyetkesek  ennengko'o    angkelvana
-Morphemes:           	na       on- yetkes -ek  ennengko'o  ang- kelvana
+Index:           1   2          3          4
+Words:           na  onyetkesek ennengko'o angkelvana
+Word Gloss (es): emm comparar   nostros    mujer
+Morphemes: na       on- yetkes -ek  ennengko'o  ang- kelvana
 Morpheme Gloss (es): emm  1PL.II comparar FUT     1PL:PRO  2/3F.I mujer
-Morpheme Category:   	interj        v:Any v v:Any         pro     v:Any sus
-Word Gloss (es): emm comparar nostros mujer
+Morpheme Category: interj        v:Any v v:Any         pro     v:Any sus
 Sentence Gloss (es): Ponemos por ejemplo una señora
 
 # sentence level graph:
@@ -120,12 +120,12 @@ s4t: 0-0
 ################################################################################
 # meta-info
 # :: snt5
-Index:               	1	2	3	4
-Words:               	angkelvana        kehlvala                        akteyayam                            ayka
-Morphemes:           	ang- kelvana      kehlva =la                  ak- tey -ay -am                          ay- ka
+Index:           1          2        3         4
+Words:           angkelvana kehlvala akteyayam ayka
+Word Gloss (es): mujer      recién   caer      su.hijo
+Morphemes: ang- kelvana      kehlva =la                  ak- tey -ay -am                          ay- ka
 Morpheme Gloss (es): 2/3F.I mujer     recién =HYP  2/3F.III caer PST/HAB INF.APPRX  2/3F.III hijo/a (de una mujer)
-Morpheme Category:   	v:Any sus  <Not Sure> prt              v:Any v v:Any v:Any                       v:Any sus
-Word Gloss (es): mujer recién caer su.hijo
+Morpheme Category: v:Any sus  <Not Sure> prt              v:Any v v:Any v:Any                       v:Any sus
 Sentence Gloss (es): Una señora, si recién ha dado a luz un bebé
 
 # sentence level graph:
@@ -159,12 +159,12 @@ s5k: 2-2
 ################################################################################
 # meta-info
 # :: snt6
-Index:               	1	2	3
-Words:               	ayasemmahlkahlta            angkotahlnengvomok  yemmen
-Morphemes:           	ay- as -emm -ahlk -a =hlta    angko- tahln -engv -om -ok  yemmen
+Index:           1                2                  3
+Words:           ayasemmahlkahlta angkotahlnengvomok yemmen
+Word Gloss (es): prohibir         entrar             agua
+Morphemes: ay- as -emm -ahlk -a =hlta    angko- tahln -engv -om -ok  yemmen
 Morpheme Gloss (es): 2/3F.III prohibir PST/HAB PAS.F INF =PHOD  2/3F.II entrar LOC APPRX FUT    agua
-Morpheme Category:   	v:Any v v:Any v>v v:Any prt     v:Any v v:Any v:Any v:Any     sus
-Word Gloss (es): prohibir entrar agua
+Morpheme Category: v:Any v v:Any v>v v:Any prt     v:Any v v:Any v:Any v:Any     sus
 Sentence Gloss (es): Se la prohibía entrar en el agua
 
 # sentence level graph:
@@ -202,12 +202,12 @@ s6y: 3-3
 ################################################################################
 # meta-info
 # :: snt7
-Index:               	1	2
-Words:               	o         sanga
-Morphemes:           	o         sanga
-Morpheme Gloss (es): o.SP        laguna
-Morpheme Category:   	cs           sus
+Index:           1 2
+Words:           o sanga
 Word Gloss (es): o en.la.laguna
+Morphemes: o         sanga
+Morpheme Gloss (es): o.SP        laguna
+Morpheme Category: cs           sus
 Sentence Gloss (es): O en una laguna
 
 # sentence level graph:
@@ -224,12 +224,12 @@ s7s: 2-2
 ################################################################################
 # meta-info
 # :: snt8
-Index:               	1	2	3	4	5	6	7	8
-Words:               	ese     es     la     cultura     de     los     pueblo  sanapana
-Morphemes:           	ese     es     la     cultura     de     los     pueblo  sanapana
-Morpheme Gloss (es): esa.SP  es.SP  la.SP  cultura.SP  de.SP  los.SP  pueblo.SP  sanapaná
-Morpheme Category:   	cs     cs     cs          cs     cs      cs         cs       sus
+Index:           1   2     3  4          5  6   7         8
+Words:           ese es    la cultura    de los pueblo    sanapana
 Word Gloss (es): esa es.SP la cultura.SP de los pueblo.SP sanapaná
+Morphemes: ese     es     la     cultura     de     los     pueblo  sanapana
+Morpheme Gloss (es): esa.SP  es.SP  la.SP  cultura.SP  de.SP  los.SP  pueblo.SP  sanapaná
+Morpheme Category: cs     cs     cs          cs     cs      cs         cs       sus
 Sentence Gloss (es): Eso es la cultura del pueblo sanapaná
 
 # sentence level graph:
@@ -262,12 +262,12 @@ s8t: 0-0
 ################################################################################
 # meta-info
 # :: snt9
-Index:               	1	2
-Words:               	vaya'moho              kehlvoyena
-Morphemes:           	v -ay -a'm -oho          kehlv -oye =na
+Index:           1         2
+Words:           vaya'moho kehlvoyena
+Word Gloss (es): llegar    ahora
+Morphemes: v -ay -a'm -oho          kehlv -oye =na
 Morpheme Gloss (es): llegar PST/HAB APPRX SUBJ    enseguida INTNS =DEF
-Morpheme Category:   	v v:Any v:Any v:Any  <Not Sure> sus:Any prt
-Word Gloss (es): llegar ahora
+Morpheme Category: v v:Any v:Any v:Any  <Not Sure> sus:Any prt
 Sentence Gloss (es): Hasta hoy en día
 
 # sentence level graph:
@@ -287,12 +287,12 @@ s9k: 2-2
 ################################################################################
 # meta-info
 # :: snt10
-Index:               	1	2	3
-Words:               	se     mantiene     todavía
-Morphemes:           	se     mantiene     todavía
-Morpheme Gloss (es): se.SP  mantiene.SP  todavía.SP
-Morpheme Category:   	cs           cs          cs
+Index:           1     2           3
+Words:           se    mantiene    todavía
 Word Gloss (es): se.SP mantiene.SP todavía.SP
+Morphemes: se     mantiene     todavía
+Morpheme Gloss (es): se.SP  mantiene.SP  todavía.SP
+Morpheme Category: cs           cs          cs
 Sentence Gloss (es): Se mantiene todavía
 
 # sentence level graph:
@@ -317,12 +317,12 @@ s10t2: 3-3
 ################################################################################
 # meta-info
 # :: snt11
-Index:               	1	2	3	4	5
-Words:               	onyetkesek  ennengko'o            kehlvoye'                    a'teyayam                            ayka
-Morphemes:           	on- yetkes -ek  ennengko'o          kehlv -oye'              a'- tey -ay -am                          ay- ka
+Index:           1          2          3         4         5
+Words:           onyetkesek ennengko'o kehlvoye' a'teyayam ayka
+Word Gloss (es): comparar   nostros    ahora     caer      su.hijo
+Morphemes: on- yetkes -ek  ennengko'o          kehlv -oye'              a'- tey -ay -am                          ay- ka
 Morpheme Gloss (es): 1PL.II comparar FUT     1PL:PRO  enseguida INTNS.INF  2/3F.III caer PST/HAB APPRX  2/3F.III hijo/a (de una mujer)
-Morpheme Category:   	v:Any v v:Any         pro     <Not Sure> v:Any          v:Any v v:Any v:Any                       v:Any sus
-Word Gloss (es): comparar nostros ahora caer su.hijo
+Morpheme Category: v:Any v v:Any         pro     <Not Sure> v:Any          v:Any v v:Any v:Any                       v:Any sus
 Sentence Gloss (es): Por ejemplo alguién que recién ha dado a luz un bebé
 
 # sentence level graph:
@@ -369,12 +369,12 @@ s11k: 3-3
 ################################################################################
 # meta-info
 # :: snt12
-Index:               	1	2	3	4	5	6
-Words:               	ma'ala         angkonyakha'      nekha'  yemmen     o  payhavehla'
-Morphemes:           	ma'a =la   angko- ny -akh -a'      nekha'  yemmen     o  payhavehla'
+Index:           1          2            3          4      5 6
+Words:           ma'ala     angkonyakha' nekha'     yemmen o payhavehla'
+Word Gloss (es): si.querían ir           al.lado.de agua   o cualquier
+Morphemes: ma'a =la   angko- ny -akh -a'      nekha'  yemmen     o  payhavehla'
 Morpheme Gloss (es): querer =HYP   2/3F.II ir REP FUT  al lado de    agua  o.SP    cualquier
-Morpheme Category:   	v prt  v:Any v v:Any v:Any         sus     sus    cs   <Not Sure>
-Word Gloss (es): si.querían ir al.lado.de agua o cualquier
+Morpheme Category: v prt  v:Any v v:Any v:Any         sus     sus    cs   <Not Sure>
 Sentence Gloss (es): Si se quiere ir al lado del agua, o cualquier cosa
 
 # sentence level graph:
@@ -418,12 +418,12 @@ s12p2: 6-6
 ################################################################################
 # meta-info
 # :: snt13
-Index:               	1
-Words:               	ayasemmahlka'
-Morphemes:           	ay- as -emm -ahlk -a'
-Morpheme Gloss (es): 2/3F.III prohibir PST/HAB PAS.F INF
-Morpheme Category:   	v:Any v v:Any v>v v:Any
+Index:           1
+Words:           ayasemmahlka'
 Word Gloss (es): prohibir
+Morphemes: ay- as -emm -ahlk -a'
+Morpheme Gloss (es): 2/3F.III prohibir PST/HAB PAS.F INF
+Morpheme Category: v:Any v v:Any v>v v:Any
 Sentence Gloss (es): Se la prohibe
 
 # sentence level graph:
@@ -459,12 +459,12 @@ s13p: 0-0
 ################################################################################
 # meta-info
 # :: snt14
-Index:               	1	2
-Words:               	no               mangkavanke'
-Morphemes:           	no         m- angk- avan -ke'
-Morpheme Gloss (es): no.SP  NEG 2/3F.II poder V1.NFUT
-Morpheme Category:   	cs        v:Any v:Any v v:Any
+Index:           1  2
+Words:           no mangkavanke'
 Word Gloss (es): no poder
+Morphemes: no         m- angk- avan -ke'
+Morpheme Gloss (es): no.SP  NEG 2/3F.II poder V1.NFUT
+Morpheme Category: cs        v:Any v:Any v v:Any
 Sentence Gloss (es): No, no puede
 
 # sentence level graph:
@@ -495,12 +495,12 @@ s14e2: 0-0
 ################################################################################
 # meta-info
 # :: snt15
-Index:               	1	2	3
-Words:               	mangkavankenhan           angkotok             yavhan
-Morphemes:           	m- angk- avan -ke' =nhan       angko- t -ok             yavhan
+Index:           1               2        3
+Words:           mangkavankenhan angkotok yavhan
+Word Gloss (es): poder           comer    miel
+Morphemes: m- angk- avan -ke' =nhan       angko- t -ok             yavhan
 Morpheme Gloss (es): NEG 2/3F.II poder V1.NFUT =y  2/3F.II comer FUT  miel del "yavhan"
-Morpheme Category:   	v:Any v:Any v v:Any prt      v:Any v v:Any                sus
-Word Gloss (es): poder comer miel
+Morpheme Category: v:Any v:Any v v:Any prt      v:Any v v:Any                sus
 Sentence Gloss (es): Tampoco puede comer miel
 
 # sentence level graph:
@@ -542,12 +542,12 @@ s15t: 0-0
 ################################################################################
 # meta-info
 # :: snt16
-Index:               	1	2
-Words:               	akvaya'moho              kehlvoyena
-Morphemes:           	ak- v -ay -a'm -oho          kehlv -oye =na
+Index:           1           2
+Words:           akvaya'moho kehlvoyena
+Word Gloss (es): llegar      ahora
+Morphemes: ak- v -ay -a'm -oho          kehlv -oye =na
 Morpheme Gloss (es): 2/3F.III llegar PST/HAB APPRX SUBJ    enseguida INTNS =DEF
-Morpheme Category:   	v:Any v v:Any v:Any v:Any  <Not Sure> sus:Any prt
-Word Gloss (es): llegar ahora
+Morpheme Category: v:Any v v:Any v:Any v:Any  <Not Sure> sus:Any prt
 Sentence Gloss (es): Hasta ahora
 
 # sentence level graph:
@@ -566,12 +566,12 @@ s16k: 2-2
 ################################################################################
 # meta-info
 # :: snt17
-Index:               	1
-Words:               	tenyo
-Morphemes:           	tenyo
-Morpheme Gloss (es): entonces
-Morpheme Category:   	prt
+Index:           1
+Words:           tenyo
 Word Gloss (es): entonces
+Morphemes: tenyo
+Morpheme Gloss (es): entonces
+Morpheme Category: prt
 Sentence Gloss (es): Entonces...
 
 # sentence level graph:
@@ -587,12 +587,12 @@ s17t: 1-1
 ################################################################################
 # meta-info
 # :: snt18
-Index:               	1	2	3	4	5	6	7	8	9	10	11	12	13
-Words:               	taye'             aktoho     qué     va     a     pasar     si         una      persona     no     sigue     esa     regla
-Morphemes:           	taye'         ak- t -oho     qué     va     a     pasar     si         una      persona     no     sigue     esa     regla
+Index:           1     2      3      4     5 6        7     8      9           10 11       12     13
+Words:           taye' aktoho qué    va    a pasar    si    una    persona     no sigue    esa    regla
+Word Gloss (es): qué?  ser    qué.SP va.SP a pasar.SP si.SP una.SP personas.SP no sigue.SP esa.SP regla.SP
+Morphemes: taye'         ak- t -oho     qué     va     a     pasar     si         una      persona     no     sigue     esa     regla
 Morpheme Gloss (es): INTER  2/3F.III ser SUBJ  qué.SP  va.SP  a.SP  pasar.SP  si.SP      una.SP   persona.SP  no.SP  sigue.SP  esa.SP  regla.SP
-Morpheme Category:   	pro      v:Any v v:Any      cs     cs    cs        cs     cs  <Not Sure>           cs     cs        cs      cs        cs
-Word Gloss (es): qué? ser qué.SP va.SP a pasar.SP si.SP una.SP personas.SP no sigue.SP esa.SP regla.SP
+Morpheme Category: pro      v:Any v v:Any      cs     cs    cs        cs     cs  <Not Sure>           cs     cs        cs      cs        cs
 Sentence Gloss (es): Por qué... qué va a pasar si una persona no sigue esa regla?
 
 # sentence level graph:
@@ -629,12 +629,12 @@ s18e: 12-12
 ################################################################################
 # meta-info
 # :: snt19
-Index:               	1
-Words:               	na
-Morphemes:           	na
-Morpheme Gloss (es): emm
-Morpheme Category:   	interj
+Index:           1
+Words:           na
 Word Gloss (es): emm
+Morphemes: na
+Morpheme Gloss (es): emm
+Morpheme Category: interj
 Sentence Gloss (es): Emm
 
 # sentence level graph:
@@ -650,12 +650,12 @@ s19n: 1-1
 ################################################################################
 # meta-info
 # :: snt20
-Index:               	1	2	3	4	5	6
-Words:               	tola                     mangkomay'a      le'lavkesek                 temakhana   ennengko'o                       eleyvoma
-Morphemes:           	t -o =la             m- angko- ma -y' -a  le'lav -kes -ek           t -em -akha =na   ennengko'o                 el- eyv -om -a
+Index:           1         2           3           4         5           6
+Words:           tola      mangkomay'a le'lavkesek temakhana ennengko'o  eleyvoma
+Word Gloss (es): si.es.que querer      seguir      nostros   vivir.(pl.) None
+Morphemes: t -o =la             m- angko- ma -y' -a  le'lav -kes -ek           t -em -akha =na   ennengko'o                 el- eyv -om -a
 Morpheme Gloss (es): ser SUBJ =HYP  NEG 2/3F.II querer PST/HAB INF  seguir CAUS FUT  ser PST/HAB NOM.LOC =DEF      1PL:PRO  1PL.I vivir (pl.) PST/HAB INF
-Morpheme Category:   	v v:Any prt       v:Any v:Any v v:Any v:Any      v v>v v:Any         v v:Any v:Any prt          pro            v:Any v v:Any v:Any
-Word Gloss (es): si.es.que querer seguir nostros vivir.(pl.) None
+Morpheme Category: v v:Any prt       v:Any v:Any v v:Any v:Any      v v>v v:Any         v v:Any v:Any prt          pro            v:Any v v:Any v:Any
 Sentence Gloss (es): Si alguién no quiere seguir a nuestra cultura
 
 # sentence level graph:
@@ -705,12 +705,12 @@ s20p2: 0-0
 ################################################################################
 # meta-info
 # :: snt21
-Index:               	1	2
-Words:               	kopehlkaye'      na
-Morphemes:           	kopehlkaye'      na
-Morpheme Gloss (es): posiblemente     emm
-Morpheme Category:   	<Not Sure>  interj
+Index:           1            2
+Words:           kopehlkaye'  na
 Word Gloss (es): posiblemente emm
+Morphemes: kopehlkaye'      na
+Morpheme Gloss (es): posiblemente     emm
+Morpheme Category: <Not Sure>  interj
 Sentence Gloss (es): Posiblemente...
 
 # sentence level graph:
@@ -726,12 +726,12 @@ s21k: 1-1
 ################################################################################
 # meta-info
 # :: snt22
-Index:               	1	2	3
-Words:               	ompahlkangvomok       mo'ona     cultura
-Morphemes:           	om- pahlk -angv -om -ok     mo'o =na     cultura
+Index:           1               2          3
+Words:           ompahlkangvomok mo'ona     cultura
+Word Gloss (es): mezclarse       cultura.SP None
+Morphemes: om- pahlk -angv -om -ok     mo'o =na     cultura
 Morpheme Gloss (es): 1PL.II mezclarse LOC APPRX FUT  otro.f =DEF  cultura.SP
-Morpheme Category:   	v:Any v v:Any v:Any v:Any      pro prt          cs
-Word Gloss (es): mezclarse cultura.SP None
+Morpheme Category: v:Any v v:Any v:Any v:Any      pro prt          cs
 Sentence Gloss (es): Vamos a entremeternos en otra cultura
 
 # sentence level graph:
@@ -767,12 +767,12 @@ s22t: 0-0
 ################################################################################
 # meta-info
 # :: snt23
-Index:               	1	2	3
-Words:               	na                 askehltennasohlkek      na
-Morphemes:           	na=       ask- ehl- tenn -as -o =hlkek      na
+Index:           1   2                  3
+Words:           na  askehltennasohlkek na
+Word Gloss (es): emm emm                None
+Morphemes: na=       ask- ehl- tenn -as -o =hlkek      na
 Morpheme Gloss (es): DEF=  1SG.I DISTR hablar APPL SUBJ =HOD     emm
-Morpheme Category:   	prt        v:Any v:Any v v>v v:Any prt  interj
-Word Gloss (es): emm emm None
+Morpheme Category: prt        v:Any v:Any v v>v v:Any prt  interj
 Sentence Gloss (es): Como te dije...
 
 # sentence level graph:
@@ -804,12 +804,12 @@ s23t: 0-0
 ################################################################################
 # meta-info
 # :: snt24
-Index:               	1	2	3	4
-Words:               	kaymahlke'              onyenna'te'sek  ennengko'o    hengka
-Morphemes:           	k- aym -ahlk -e'        on- yenna't -e's -ek  ennengko'o    hengka
+Index:           1              2              3          4
+Words:           kaymahlke'     onyenna'te'sek ennengko'o hengka
+Word Gloss (es): dejar.de.sobra ser.fuerte     nostros    acá
+Morphemes: k- aym -ahlk -e'        on- yenna't -e's -ek  ennengko'o    hengka
 Morpheme Gloss (es): 2/3F.I dejar de sobra PAS.F V1.NFUT  1PL.II ser fuerte CAUS FUT     1PL:PRO  DEM.PROX
-Morpheme Category:   	v:Any v v>v v:Any           v:Any v v>v v:Any         pro       adv
-Word Gloss (es): dejar.de.sobra ser.fuerte nostros acá
+Morpheme Category: v:Any v v>v v:Any           v:Any v v>v v:Any         pro       adv
 Sentence Gloss (es): Tenemos que fortalecer esto
 
 # sentence level graph:
@@ -846,12 +846,12 @@ s24h: 4-4
 ################################################################################
 # meta-info
 # :: snt25
-Index:               	1	2	3	4	5	6
-Words:               	lo     pueblo  sanapana            hay     que     mantener
-Morphemes:           	lo     pueblo  sanapana            hay     que     mantener
-Morpheme Gloss (es): el.SP  pueblo.SP  sanapaná            hay  que.SP  mantener.SP
-Morpheme Category:   	cs         cs       sus             cs      cs           cs
+Index:           1      2         3        4             5      6
+Words:           lo     pueblo    sanapana hay           que    mantener
 Word Gloss (es): los.SP pueblo.SP sanapaná sí,.está.bien que.SP mantener.SP
+Morphemes: lo     pueblo  sanapana            hay     que     mantener
+Morpheme Gloss (es): el.SP  pueblo.SP  sanapaná            hay  que.SP  mantener.SP
+Morpheme Category: cs         cs       sus             cs      cs           cs
 Sentence Gloss (es): El pueblo sanapaná tiene que mantener
 
 # sentence level graph:
@@ -888,12 +888,12 @@ s25t: 0-0
 ################################################################################
 # meta-info
 # :: snt26
-Index:               	1
-Words:               	yenna'te'sek
-Morphemes:           	yenna't -e's -ek
-Morpheme Gloss (es): ser fuerte CAUS FUT
-Morpheme Category:   	v v>v v:Any
+Index:           1
+Words:           yenna'te'sek
 Word Gloss (es): ser.fuerte
+Morphemes: yenna't -e's -ek
+Morpheme Gloss (es): ser fuerte CAUS FUT
+Morpheme Category: v v>v v:Any
 Sentence Gloss (es): Fortalecer
 
 # sentence level graph:
@@ -917,12 +917,12 @@ s26t: 0-0
 ################################################################################
 # meta-info
 # :: snt27
-Index:               	1	2	3
-Words:               	anyetneye'     mo'ok    anya'a
-Morphemes:           	an- yetn -eye'     mo'ok    anya'a
+Index:           1          2        3
+Words:           anyetneye' mo'ok    anya'a
+Word Gloss (es): otra       historia None
+Morphemes: an- yetn -eye'     mo'ok    anya'a
 Morpheme Gloss (es): 2/3F.I existir V1.NFUT    otro.f  historia
-Morpheme Category:   	v:Any v v:Any       pro       sus
-Word Gloss (es): otra historia None
+Morpheme Category: v:Any v v:Any       pro       sus
 Sentence Gloss (es): Hay otra historia?
 
 # sentence level graph:
@@ -946,12 +946,12 @@ s27m: 2-2
 ################################################################################
 # meta-info
 # :: snt28
-Index:               	1	2
-Words:               	asneyay'ahlta      kayvak
-Morphemes:           	as- ney -ay' -a =hlta      kayvak
+Index:           1             2
+Words:           asneyay'ahlta kayvak
+Word Gloss (es): yo.también    None
+Morphemes: as- ney -ay' -a =hlta      kayvak
 Morpheme Gloss (es): 1SG.I oír PST/HAB INF =PHOD  yo también
-Morpheme Category:   	v:Any v v:Any v:Any prt         pro
-Word Gloss (es): yo.también None
+Morpheme Category: v:Any v v:Any v:Any prt         pro
 Sentence Gloss (es): Yo también escuché que...
 
 # sentence level graph:
@@ -979,12 +979,12 @@ s28p: 0-0
 ################################################################################
 # meta-info
 # :: snt29
-Index:               	1	2
-Words:               	kehlvoyena               yamakehlvoye'
-Morphemes:           	kehlv -oye =na           yama- kehlv -oye'
+Index:           1          2
+Words:           kehlvoyena yamakehlvoye'
+Word Gloss (es): ahora      recién
+Morphemes: kehlv -oye =na           yama- kehlv -oye'
 Morpheme Gloss (es): recién INTNS =DEF            SIM recién INTNS
-Morpheme Category:   	<Not Sure> sus:Any prt  sus>sus <Not Sure> sus:Any
-Word Gloss (es): ahora recién
+Morpheme Category: <Not Sure> sus:Any prt  sus>sus <Not Sure> sus:Any
 Sentence Gloss (es): Recién, bastante recién
 
 # sentence level graph:
@@ -1010,12 +1010,12 @@ s29y: 2-2
 ################################################################################
 # meta-info
 # :: snt30
-Index:               	1	2	3
-Words:               	ehltennasekamahlta        tatahlta       memehltanhan
-Morphemes:           	e- hl- tenn -as -ek -am -a =hlta      tata =hlta   meme =hlta =nhan
+Index:           1                  2        3
+Words:           ehltennasekamahlta tatahlta memehltanhan
+Word Gloss (es): hablar             None     None
+Morphemes: e- hl- tenn -as -ek -am -a =hlta      tata =hlta   meme =hlta =nhan
 Morpheme Gloss (es): 1SG.III DISTR hablar APPL PST/HAB AMBL INF =PHOD  mi padre =PHOD  mi madre =PHOD =y
-Morpheme Category:   	v:Any v:Any v v>v v:Any v:Any v:Any prt         sus prt        sus prt prt
-Word Gloss (es): hablar None None
+Morpheme Category: v:Any v:Any v v>v v:Any v:Any v:Any prt         sus prt        sus prt prt
 Sentence Gloss (es): Me contaban mi papá, y mi mamá
 
 # sentence level graph:
@@ -1067,12 +1067,12 @@ s30t: 2-2
 ################################################################################
 # meta-info
 # :: snt31
-Index:               	1	2
-Words:               	kaha'              aphlenonak
-Morphemes:           	ka- ha'        ap- hlen -o =nak
+Index:           1     2
+Words:           kaha' aphlenonak
+Word Gloss (es): allá  de.lo.que.dijiste
+Morphemes: ka- ha'        ap- hlen -o =nak
 Morpheme Gloss (es): REF DEM.DIST  2/3M.I decir SUBJ =DEF
-Morpheme Category:   	Pro-form pro       v:Any v v:Any prt
-Word Gloss (es): allá de.lo.que.dijiste
+Morpheme Category: Pro-form pro       v:Any v v:Any prt
 Sentence Gloss (es): Lo que él comentó
 
 # sentence level graph:
@@ -1106,12 +1106,12 @@ s31k: 1-1
 ################################################################################
 # meta-info
 # :: snt32
-Index:               	1	2
-Words:               	aktemana               angkelvanatkok
-Morphemes:           	ak- t -em -a =na           ang- kelvana =tkok
+Index:           1        2
+Words:           aktemana angkelvanatkok
+Word Gloss (es): tipo     chica
+Morphemes: ak- t -em -a =na           ang- kelvana =tkok
 Morpheme Gloss (es): 2/3F.III ser PST/HAB INF =DEF  2/3F.I mujer =pequeño, -ito
-Morpheme Category:   	v:Any v v:Any v:Any prt                v:Any sus prt
-Word Gloss (es): tipo chica
+Morpheme Category: v:Any v v:Any v:Any prt                v:Any sus prt
 Sentence Gloss (es): Sobre una chica
 
 # sentence level graph:
@@ -1134,12 +1134,12 @@ s32t: 2-2
 ################################################################################
 # meta-info
 # :: snt33
-Index:               	1	2
-Words:               	angkelvanatkok                     mangkotoma
-Morphemes:           	ang- kelvana =tkok             m- angko- t -om -a
+Index:           1              2
+Words:           angkelvanatkok mangkotoma
+Word Gloss (es): chica          comer
+Morphemes: ang- kelvana =tkok             m- angko- t -om -a
 Morpheme Gloss (es): 2/3F.I mujer =pequeño, -ito  NEG 2/3F.II comer PST/HAB INF
-Morpheme Category:   	v:Any sus prt      v:Any v:Any v v:Any v:Any
-Word Gloss (es): chica comer
+Morpheme Category: v:Any sus prt      v:Any v:Any v v:Any v:Any
 Sentence Gloss (es): Una chica que no puede comer
 
 # sentence level graph:
@@ -1165,12 +1165,12 @@ s33e: 2-2
 ################################################################################
 # meta-info
 # :: snt34
-Index:               	1	2	3
-Words:               	vos     entendís     eso
-Morphemes:           	vos     entendís     eso
-Morpheme Gloss (es): vos.SP  entendís.SP  eso.SP
-Morpheme Category:   	cs           cs      cs
+Index:           1      2           3
+Words:           vos    entendís    eso
 Word Gloss (es): vos.SP entendís.SP esa.SP
+Morphemes: vos     entendís     eso
+Morpheme Gloss (es): vos.SP  entendís.SP  eso.SP
+Morpheme Category: cs           cs      cs
 Sentence Gloss (es): Vos entendís eso?
 
 # sentence level graph:
@@ -1200,12 +1200,12 @@ s34e2: 3-3
 ################################################################################
 # meta-info
 # :: snt35
-Index:               	1	2
-Words:               	angkelvanatkok                     mangkotoma
-Morphemes:           	ang- kelvana =tkok             m- angko- t -om -a
+Index:           1              2
+Words:           angkelvanatkok mangkotoma
+Word Gloss (es): chica          comer
+Morphemes: ang- kelvana =tkok             m- angko- t -om -a
 Morpheme Gloss (es): 2/3F.I mujer =pequeño, -ito  NEG 2/3F.II comer PST/HAB INF
-Morpheme Category:   	v:Any sus prt      v:Any v:Any v v:Any v:Any
-Word Gloss (es): chica comer
+Morpheme Category: v:Any sus prt      v:Any v:Any v v:Any v:Any
 Sentence Gloss (es): Una chica que tiene su menstruación
 
 # sentence level graph:
@@ -1231,12 +1231,12 @@ s35e: 2-2
 ################################################################################
 # meta-info
 # :: snt36
-Index:               	1	2	3
-Words:               	entendías     eso      he
-Morphemes:           	entendías     eso      he
-Morpheme Gloss (es): entendías.SP  eso.SP      sí
-Morpheme Category:   	cs      cs  interj
+Index:           1            2      3
+Words:           entendías    eso    he
 Word Gloss (es): entendías.SP esa.SP sí
+Morphemes: entendías     eso      he
+Morpheme Gloss (es): entendías.SP  eso.SP      sí
+Morpheme Category: cs      cs  interj
 Sentence Gloss (es): Entendías eso, verdad?
 
 # sentence level graph:
@@ -1266,12 +1266,12 @@ s36e2: 2-2
 ################################################################################
 # meta-info
 # :: snt37
-Index:               	1	2
-Words:               	este     cuando
-Morphemes:           	este     cuando
-Morpheme Gloss (es): este.SP  cuando.SP
-Morpheme Category:   	cs         cs
+Index:           1       2
+Words:           este    cuando
 Word Gloss (es): este.SP cuando.SP
+Morphemes: este     cuando
+Morpheme Gloss (es): este.SP  cuando.SP
+Morpheme Category: cs         cs
 Sentence Gloss (es): Este cuando...
 
 # sentence level graph:
@@ -1291,12 +1291,12 @@ s37t: 0-0
 ################################################################################
 # meta-info
 # :: snt38
-Index:               	1	2
-Words:               	ese     era
-Morphemes:           	ese     era
-Morpheme Gloss (es): esa.SP  era.SP
-Morpheme Category:   	cs      cs
+Index:           1   2
+Words:           ese era
 Word Gloss (es): esa era.SP
+Morphemes: ese     era
+Morpheme Gloss (es): esa.SP  era.SP
+Morpheme Category: cs      cs
 Sentence Gloss (es): Eso era...
 
 # sentence level graph:
@@ -1313,12 +1313,12 @@ s38e: 1-1
 ################################################################################
 # meta-info
 # :: snt39
-Index:               	1	2	3	4
-Words:               	tienen     reglamento     la     cultura
-Morphemes:           	tienen     reglamento     la     cultura
-Morpheme Gloss (es): tienen.SP  reglamento.SP  la.SP  cultura.SP
-Morpheme Category:   	cs             cs     cs          cs
+Index:           1         2             3  4
+Words:           tienen    reglamento    la cultura
 Word Gloss (es): tienen.SP reglamento.SP la cultura.SP
+Morphemes: tienen     reglamento     la     cultura
+Morpheme Gloss (es): tienen.SP  reglamento.SP  la.SP  cultura.SP
+Morpheme Category: cs             cs     cs          cs
 Sentence Gloss (es): Tienen reglamento, en la cultura
 
 # sentence level graph:
@@ -1343,12 +1343,12 @@ s39r: 2-2
 ################################################################################
 # meta-info
 # :: snt40
-Index:               	1	2
-Words:               	cuando     la
-Morphemes:           	cuando     la
-Morpheme Gloss (es): cuando.SP  la.SP
-Morpheme Category:   	cs     cs
+Index:           1         2
+Words:           cuando    la
 Word Gloss (es): cuando.SP la
+Morphemes: cuando     la
+Morpheme Gloss (es): cuando.SP  la.SP
+Morpheme Category: cs     cs
 Sentence Gloss (es): Cuando la...
 
 # sentence level graph:
@@ -1368,12 +1368,12 @@ s40t: 0-0
 ################################################################################
 # meta-info
 # :: snt41
-Index:               	1	2	3	4	5
-Words:               	allá     dice     que     pasó     algo
-Morphemes:           	allá     dice     que     pasó     algo
-Morpheme Gloss (es): allá.SP  dice.SP  que.SP  pasó.SP  algo.SP
-Morpheme Category:   	cs       cs      cs       cs       cs
+Index:           1       2       3      4       5
+Words:           allá    dice    que    pasó    algo
 Word Gloss (es): allá.SP dice.SP que.SP pasó.SP algo.SP
+Morphemes: allá     dice     que     pasó     algo
+Morpheme Gloss (es): allá.SP  dice.SP  que.SP  pasó.SP  algo.SP
+Morpheme Category: cs       cs      cs       cs       cs
 Sentence Gloss (es): Allá dicen que pasó algo
 
 # sentence level graph:
@@ -1409,12 +1409,12 @@ s41a2: 1-1
 ################################################################################
 # meta-info
 # :: snt42
-Index:               	1	2	3	4	5	6
-Words:               	esa     parte     donde     vivían     la     gente
-Morphemes:           	esa     parte     donde     vivían     la     gente
-Morpheme Gloss (es): esa.SP  parte.SP  donde.SP  vivían.SP  la.SP  gente.SP
-Morpheme Category:   	cs        cs        cs         cs     cs        cs
+Index:           1      2        3        4      5  6
+Words:           esa    parte    donde    vivían la gente
 Word Gloss (es): esa.SP parte.SP donde.SP vivían la gente
+Morphemes: esa     parte     donde     vivían     la     gente
+Morpheme Gloss (es): esa.SP  parte.SP  donde.SP  vivían.SP  la.SP  gente.SP
+Morpheme Category: cs        cs        cs         cs     cs        cs
 Sentence Gloss (es): En esa parte donde vivía la gente
 
 # sentence level graph:
@@ -1443,12 +1443,12 @@ s42g: 6-6
 ################################################################################
 # meta-info
 # :: snt43
-Index:               	1	2	3	4	5
-Words:               	y     salieron     en     un     lugar
-Morphemes:           	y     salieron     en     un     lugar
-Morpheme Gloss (es): y.SP  salieron.SP  en.SP  un.SP  lugar.SP
-Morpheme Category:   	cs           cs     cs     cs        cs
+Index:           1 2           3     4     5
+Words:           y salieron    en    un    lugar
 Word Gloss (es): y salieron.SP en.SP un.SP lugar.SP
+Morphemes: y     salieron     en     un     lugar
+Morpheme Gloss (es): y.SP  salieron.SP  en.SP  un.SP  lugar.SP
+Morpheme Category: cs           cs     cs     cs        cs
 Sentence Gloss (es): Y salieron en un lugar
 
 # sentence level graph:
@@ -1479,12 +1479,12 @@ s43e: 0-0
 ################################################################################
 # meta-info
 # :: snt44
-Index:               	1
-Words:               	angkenmeyakheyehlta
-Morphemes:           	angk- en- mey -akh -eye =hlta
-Morpheme Gloss (es): 2/3F.I DISTR ir REP V1.NFUT =PHOD
-Morpheme Category:   	v:Any v:Any v v:Any v:Any prt
+Index:           1
+Words:           angkenmeyakheyehlta
 Word Gloss (es): None
+Morphemes: angk- en- mey -akh -eye =hlta
+Morpheme Gloss (es): 2/3F.I DISTR ir REP V1.NFUT =PHOD
+Morpheme Category: v:Any v:Any v v:Any v:Any prt
 Sentence Gloss (es): Se fueron
 
 # sentence level graph:
@@ -1514,12 +1514,12 @@ s44e2: 0-0
 ################################################################################
 # meta-info
 # :: snt45
-Index:               	1	2	3	4	5
-Words:               	may'a           angkohltehek    mayka'a    mo'o  nekha'
-Morphemes:           	ma -y' -a     angko- hl- t -ehek    mayka'a    mo'o  nekha'
+Index:           1       2            3       4    5
+Words:           may'a   angkohltehek mayka'a mo'o nekha'
+Word Gloss (es): querían visitante    otro    lado None
+Morphemes: ma -y' -a     angko- hl- t -ehek    mayka'a    mo'o  nekha'
 Morpheme Gloss (es): querer PST/HAB INF  2/3F.II DISTR ser FUT  visitante  otro.f    lado
-Morpheme Category:   	v v:Any v:Any    v:Any v:Any v v:Any        sus     pro     sus
-Word Gloss (es): querían visitante otro lado None
+Morpheme Category: v v:Any v:Any    v:Any v:Any v v:Any        sus     pro     sus
 Sentence Gloss (es): Querían visitar a otro lugar
 
 # sentence level graph:
@@ -1563,12 +1563,12 @@ s45e: 0-0
 ################################################################################
 # meta-info
 # :: snt46
-Index:               	1	2	3
-Words:               	apkeleyvomakhanhan     hlema     grupo
-Morphemes:           	apk- el- eyv -om -akha =nhan     hlema     grupo
+Index:           1                  2        3
+Words:           apkeleyvomakhanhan hlema    grupo
+Word Gloss (es): un                 grupo.SP None
+Morphemes: apk- el- eyv -om -akha =nhan     hlema     grupo
 Morpheme Gloss (es): 2/3M.I DISTR vivir (pl.) PST/HAB NOM.LOC =y       uno  grupo.SP
-Morpheme Category:   	v:Any v:Any v v:Any v:Any prt       num        cs
-Word Gloss (es): un grupo.SP None
+Morpheme Category: v:Any v:Any v v:Any v:Any prt       num        cs
 Sentence Gloss (es): También el lugar de vivencia de un grupo
 
 # sentence level graph:
@@ -1595,12 +1595,12 @@ s46g: 3-3
 ################################################################################
 # meta-info
 # :: snt47
-Index:               	1
-Words:               	angkehlta'akheyehlta
-Morphemes:           	angk- ehl- ta' -akh -eye =hlta
-Morpheme Gloss (es): 2/3F.I DISTR irse REP V1.NFUT =PHOD
-Morpheme Category:   	v:Any v:Any v v:Any v:Any prt
+Index:           1
+Words:           angkehlta'akheyehlta
 Word Gloss (es): None
+Morphemes: angk- ehl- ta' -akh -eye =hlta
+Morpheme Gloss (es): 2/3F.I DISTR irse REP V1.NFUT =PHOD
+Morpheme Category: v:Any v:Any v v:Any v:Any prt
 Sentence Gloss (es): Se fueron
 
 # sentence level graph:
@@ -1630,12 +1630,12 @@ s47e2: 0-0
 ################################################################################
 # meta-info
 # :: snt48
-Index:               	1	2	3
-Words:               	angkelvanatkohltanhan                         akyenyoma                      aktoma
-Morphemes:           	ang- kelvana =tko =hlta =nhan                   ak- yeny -om -a                ak- t -om -a
+Index:           1                     2         3
+Words:           angkelvanatkohltanhan akyenyoma aktoma
+Word Gloss (es): comer                 None      None
+Morphemes: ang- kelvana =tko =hlta =nhan                   ak- yeny -om -a                ak- t -om -a
 Morpheme Gloss (es): 2/3F.I mujer =pequeño, -ito =PHOD =y  2/3F.III dejar (sg.) PST/HAB INF  2/3F.III comer PST/HAB INF
-Morpheme Category:   	v:Any sus prt prt prt               v:Any v v:Any v:Any         v:Any v v:Any v:Any
-Word Gloss (es): comer None None
+Morpheme Category: v:Any sus prt prt prt               v:Any v v:Any v:Any         v:Any v v:Any v:Any
 
 # sentence level graph:
 (s48e / exist-91
@@ -1677,12 +1677,12 @@ s48e4: 0-0
 ################################################################################
 # meta-info
 # :: snt49
-Index:               	1	2	3
-Words:               	angkehltama'ayehlta  hlema       naymen
-Morphemes:           	angk- ehl- tama -'aye =hlta  hlema     na- ymen
+Index:           1                   2     3
+Words:           angkehltama'ayehlta hlema naymen
+Word Gloss (es): piola               un    agua
+Morphemes: angk- ehl- tama -'aye =hlta  hlema     na- ymen
 Morpheme Gloss (es): 2/3F.I DISTR entrar en agua V1.NFUT =PHOD    uno     LOC agua
-Morpheme Category:   	v:Any v:Any v v:Any prt    num  sus:Any sus
-Word Gloss (es): piola un agua
+Morpheme Category: v:Any v:Any v v:Any prt    num  sus:Any sus
 Sentence Gloss (es): Entraron en un lugar con agua
 
 # sentence level graph:
@@ -1716,12 +1716,12 @@ s49e2: 0-0
 ################################################################################
 # meta-info
 # :: snt50
-Index:               	1
-Words:               	sanga
-Morphemes:           	sanga
-Morpheme Gloss (es): laguna
-Morpheme Category:   	sus
+Index:           1
+Words:           sanga
 Word Gloss (es): en.la.laguna
+Morphemes: sanga
+Morpheme Gloss (es): laguna
+Morpheme Category: sus
 Sentence Gloss (es): Una laguna
 
 # sentence level graph:
@@ -1738,12 +1738,12 @@ s50s: 1-1
 ################################################################################
 # meta-info
 # :: snt51
-Index:               	1
-Words:               	yemmenahlta
-Morphemes:           	yemmen =ahlta
-Morpheme Gloss (es): agua =PHOD
-Morpheme Category:   	sus prt
+Index:           1
+Words:           yemmenahlta
 Word Gloss (es): None
+Morphemes: yemmen =ahlta
+Morpheme Gloss (es): agua =PHOD
+Morpheme Category: sus prt
 Sentence Gloss (es): Un cuerpo de agua
 
 # sentence level graph:
@@ -1760,12 +1760,12 @@ s51y: 1-1
 ################################################################################
 # meta-info
 # :: snt52
-Index:               	1	2	3
-Words:               	antama'ayehltanhan                angkelvanatkohlkek       naymen
-Morphemes:           	an- tama -'aye =hlta =nhan          ang- kelvana =tko =hlkek     na- ymen
+Index:           1                  2                  3
+Words:           antama'ayehltanhan angkelvanatkohlkek naymen
+Word Gloss (es): entrar.en.agua     agua               None
+Morphemes: an- tama -'aye =hlta =nhan          ang- kelvana =tko =hlkek     na- ymen
 Morpheme Gloss (es): 2/3F.I entrar en agua V1.NFUT =PHOD =y  2/3F.I mujer =pequeño, -ito =HOD     LOC agua
-Morpheme Category:   	v:Any v v:Any prt prt                 v:Any sus prt prt  sus:Any sus
-Word Gloss (es): entrar.en.agua agua None
+Morpheme Category: v:Any v v:Any prt prt                 v:Any sus prt prt  sus:Any sus
 Sentence Gloss (es): Entró también en el agua esta chica
 
 # sentence level graph:
@@ -1805,12 +1805,12 @@ s52e3: 0-0
 ################################################################################
 # meta-info
 # :: snt53
-Index:               	1	2	3
-Words:               	ayseksehlta                              ahltamay'a       ham'e
-Morphemes:           	ay- sekse =hlta                        ahl- tama -y' -a       ham'e
-Morpheme Gloss (es): 2/3F.POS medio =PHOD  2/3F.PL.III entrar en agua PST/HAB INF  DEM.INTERL
-Morpheme Category:   	sus:Any sus prt                     v:Any v v:Any v:Any         pro
+Index:           1           2              3
+Words:           ayseksehlta ahltamay'a     ham'e
 Word Gloss (es): en.el.medio entrar.en.agua eso
+Morphemes: ay- sekse =hlta                        ahl- tama -y' -a       ham'e
+Morpheme Gloss (es): 2/3F.POS medio =PHOD  2/3F.PL.III entrar en agua PST/HAB INF  DEM.INTERL
+Morpheme Category: sus:Any sus prt                     v:Any v v:Any v:Any         pro
 Sentence Gloss (es): Estaba en el medio de cruzar
 
 # sentence level graph:
@@ -1850,12 +1850,12 @@ s53e2: 0-0
 ################################################################################
 # meta-info
 # :: snt54
-Index:               	1
-Words:               	netamen
-Morphemes:           	netamen
-Morpheme Gloss (es): después
-Morpheme Category:   	sus
+Index:           1
+Words:           netamen
 Word Gloss (es): detrás
+Morphemes: netamen
+Morpheme Gloss (es): después
+Morpheme Category: sus
 Sentence Gloss (es): Después
 
 # sentence level graph:
@@ -1877,12 +1877,12 @@ s54e2: 0-0
 ################################################################################
 # meta-info
 # :: snt55
-Index:               	1	2	3	4	5	6
-Words:               	anyetneyehlta                     akhlamakma     asek       ham'e       konnenak       naymen
-Morphemes:           	an- yetn -eye =hlta               ak- hlam -akm -a     asek       ham'e     konne =nak     na- ymen
+Index:           1             2          3       4     5        6
+Words:           anyetneyehlta akhlamakma asek    ham'e konnenak naymen
+Word Gloss (es): cosa          eso        adentro agua  None     None
+Morphemes: an- yetn -eye =hlta               ak- hlam -akm -a     asek       ham'e     konne =nak     na- ymen
 Morpheme Gloss (es): 2/3F.I existir V1.NFUT =PHOD  2/3F.III ser muchos APPRX INF     cosa  DEM.INTERL   adentro =LOC     LOC agua
-Morpheme Category:   	v:Any v v:Any prt            v:Any v v:Any v:Any      sus         pro  adpos sus:Any  sus:Any sus
-Word Gloss (es): cosa eso adentro agua None None
+Morpheme Category: v:Any v v:Any prt            v:Any v v:Any v:Any      sus         pro  adpos sus:Any  sus:Any sus
 Sentence Gloss (es): Había muchas cosas allá, adentro del agua
 
 # sentence level graph:
@@ -1921,12 +1921,12 @@ s55e2: 0-0
 ################################################################################
 # meta-info
 # :: snt56
-Index:               	1
-Words:               	sanga
-Morphemes:           	sanga
-Morpheme Gloss (es): laguna
-Morpheme Category:   	sus
+Index:           1
+Words:           sanga
 Word Gloss (es): en.la.laguna
+Morphemes: sanga
+Morpheme Gloss (es): laguna
+Morpheme Category: sus
 Sentence Gloss (es): En la laguna
 
 # sentence level graph:
@@ -1943,12 +1943,12 @@ s56s: 1-1
 ################################################################################
 # meta-info
 # :: snt57
-Index:               	1
-Words:               	yatapeyem
-Morphemes:           	yata- peyem
-Morpheme Gloss (es): SIM iguana
-Morpheme Category:   	sus>sus sus
+Index:           1
+Words:           yatapeyem
 Word Gloss (es): yacaré
+Morphemes: yata- peyem
+Morpheme Gloss (es): SIM iguana
+Morpheme Category: sus>sus sus
 Sentence Gloss (es): Había yacaré
 
 # sentence level graph:
@@ -1965,12 +1965,12 @@ s57y: 1-1
 ################################################################################
 # meta-info
 # :: snt58
-Index:               	1	2
-Words:               	mo'onhan  asek
-Morphemes:           	mo'o =nhan  asek
+Index:           1        2
+Words:           mo'onhan asek
+Word Gloss (es): cosa     None
+Morphemes: mo'o =nhan  asek
 Morpheme Gloss (es): otro.f =y  cosa
-Morpheme Category:   	pro prt   sus
-Word Gloss (es): cosa None
+Morpheme Category: pro prt   sus
 Sentence Gloss (es): Y otras cosas
 
 # sentence level graph:
@@ -1994,12 +1994,12 @@ s58m: 1-1
 ################################################################################
 # meta-info
 # :: snt59
-Index:               	1	2
-Words:               	mo'o                    aktemakha'
-Morphemes:           	mo'o              ak- t -em -akha'
-Morpheme Gloss (es): otro.f  2/3F.III ser PST/HAB NOM.LOC
-Morpheme Category:   	pro           v:Any v v:Any v:Any
+Index:           1    2
+Words:           mo'o aktemakha'
 Word Gloss (es): otro tipo
+Morphemes: mo'o              ak- t -em -akha'
+Morpheme Gloss (es): otro.f  2/3F.III ser PST/HAB NOM.LOC
+Morpheme Category: pro           v:Any v v:Any v:Any
 Sentence Gloss (es): Otra clase
 
 # sentence level graph:
@@ -2018,12 +2018,12 @@ s59m: 1-2
 ################################################################################
 # meta-info
 # :: snt60
-Index:               	1
-Words:               	kelamen
-Morphemes:           	kelamen
-Morpheme Gloss (es): cangrejo
-Morpheme Category:   	sus
+Index:           1
+Words:           kelamen
 Word Gloss (es): cangrejo
+Morphemes: kelamen
+Morpheme Gloss (es): cangrejo
+Morpheme Category: sus
 Sentence Gloss (es): Cangrejos
 
 # sentence level graph:
@@ -2040,12 +2040,12 @@ s60k: 1-1
 ################################################################################
 # meta-info
 # :: snt61
-Index:               	1
-Words:               	apyasangke'
-Morphemes:           	ap- yas -angk -e'
-Morpheme Gloss (es): 2/3M.I saber CPLX V1.NFUT
-Morpheme Category:   	v:Any v v:Any v:Any
+Index:           1
+Words:           apyasangke'
 Word Gloss (es): sabes
+Morphemes: ap- yas -angk -e'
+Morpheme Gloss (es): 2/3M.I saber CPLX V1.NFUT
+Morpheme Category: v:Any v v:Any v:Any
 Sentence Gloss (es): Conoces?
 
 # sentence level graph:
@@ -2075,12 +2075,12 @@ s61t: 0-0
 ################################################################################
 # meta-info
 # :: snt62
-Index:               	1	2	3
-Words:               	hla'                      nemana      ha'e
-Morphemes:           	hla'                n -em -a =na      ha'e
+Index:           1    2      3
+Words:           hla' nemana ha'e
+Word Gloss (es): ???  allá   None
+Morphemes: hla'                n -em -a =na      ha'e
 Morpheme Gloss (es): ???  sentarse  PST/HAB INF =DEF  DEM.DIST
-Morpheme Category:   	<Not Sure>           v v:Any v:Any prt       pro
-Word Gloss (es): ??? allá None
+Morpheme Category: <Not Sure>           v v:Any v:Any prt       pro
 Sentence Gloss (es): Estaba allá
 
 # sentence level graph:
@@ -2107,12 +2107,12 @@ s62t: 0-0
 ################################################################################
 # meta-info
 # :: snt63
-Index:               	1
-Words:               	kelamen
-Morphemes:           	kelamen
-Morpheme Gloss (es): cangrejo
-Morpheme Category:   	sus
+Index:           1
+Words:           kelamen
 Word Gloss (es): cangrejo
+Morphemes: kelamen
+Morpheme Gloss (es): cangrejo
+Morpheme Category: sus
 Sentence Gloss (es): Cangrejos
 
 # sentence level graph:
@@ -2129,12 +2129,12 @@ s63k: 1-1
 ################################################################################
 # meta-info
 # :: snt64
-Index:               	1	2	3
-Words:               	angva'mehlta         kam'a    akhlay'ena'ak
-Morphemes:           	ang- v -a'm -e =hlta       ka- m'a  akhlay'e =na'ak
+Index:           1            2      3
+Words:           angva'mehlta kam'a  akhlay'ena'ak
+Word Gloss (es): eso          orilla None
+Morphemes: ang- v -a'm -e =hlta       ka- m'a  akhlay'e =na'ak
 Morpheme Gloss (es): 2/3F.I llegar APPRX V1.NFUT =PHOD  REF DEM.DIST      orilla =LOC
-Morpheme Category:   	v:Any v v:Any v:Any prt  Pro-form adv      sus sus:Any
-Word Gloss (es): eso orilla None
+Morpheme Category: v:Any v v:Any v:Any prt  Pro-form adv      sus sus:Any
 Sentence Gloss (es): Llegó allá en la orilla
 
 # sentence level graph:
@@ -2174,12 +2174,12 @@ s64t: 0-0
 ################################################################################
 # meta-info
 # :: snt65
-Index:               	1
-Words:               	naha'e
-Morphemes:           	na- ha'e
-Morpheme Gloss (es): LOC DEM.DIST
-Morpheme Category:   	sus:Any pro
+Index:           1
+Words:           naha'e
 Word Gloss (es): None
+Morphemes: na- ha'e
+Morpheme Gloss (es): LOC DEM.DIST
+Morpheme Category: sus:Any pro
 Sentence Gloss (es): Allá
 
 # sentence level graph:
@@ -2196,12 +2196,12 @@ s65n: 1-1
 ################################################################################
 # meta-info
 # :: snt66
-Index:               	1	2
-Words:               	mo'o  akhlay'e
-Morphemes:           	mo'o  akhlay'e
-Morpheme Gloss (es): otro.f    orilla
-Morpheme Category:   	pro       sus
+Index:           1    2
+Words:           mo'o akhlay'e
 Word Gloss (es): otro orilla
+Morphemes: mo'o  akhlay'e
+Morpheme Gloss (es): otro.f    orilla
+Morpheme Category: pro       sus
 Sentence Gloss (es): En la otra orilla
 
 # sentence level graph:
@@ -2223,12 +2223,12 @@ s66t: 0-0
 ################################################################################
 # meta-info
 # :: snt67
-Index:               	1
-Words:               	akyavakhahlma'
-Morphemes:           	ak- yavakhahlma'
-Morpheme Gloss (es): 2/3F.III afuera
-Morpheme Category:   	v:Any <Not Sure>
+Index:           1
+Words:           akyavakhahlma'
 Word Gloss (es): afuera
+Morphemes: ak- yavakhahlma'
+Morpheme Gloss (es): 2/3F.III afuera
+Morpheme Category: v:Any <Not Sure>
 Sentence Gloss (es): Afuera
 
 # sentence level graph:
@@ -2245,12 +2245,12 @@ s67a: 1-1
 ################################################################################
 # meta-info
 # :: snt68
-Index:               	1	2	3	4
-Words:               	apkelentepkehlta    yatapeyem                hlamakmahlta    yatapeyem
-Morphemes:           	apk- elen- tep -ke =hlta  yata- peyem          hlam -akm -a =hlta  yata- peyem
+Index:           1                2         3            4
+Words:           apkelentepkehlta yatapeyem hlamakmahlta yatapeyem
+Word Gloss (es): yacaré           yacaré    None         None
+Morphemes: apk- elen- tep -ke =hlta  yata- peyem          hlam -akm -a =hlta  yata- peyem
 Morpheme Gloss (es): 2/3M.I DISTR salir V1.NFUT =PHOD   SIM iguana  ser muchos APPRX INF =PHOD   SIM iguana
-Morpheme Category:   	v:Any v:Any v v:Any prt  sus>sus sus           v v:Any v:Any prt  sus>sus sus
-Word Gloss (es): yacaré yacaré None None
+Morpheme Category: v:Any v:Any v v:Any prt  sus>sus sus           v v:Any v:Any prt  sus>sus sus
 Sentence Gloss (es): Salieron los yacaré, muchos yacaré
 
 # sentence level graph:
@@ -2283,12 +2283,12 @@ s68e2: 0-0
 ################################################################################
 # meta-info
 # :: snt69
-Index:               	1
-Words:               	apkennayveskehlta
-Morphemes:           	apk- en- nayv -es -ke =hlta
-Morpheme Gloss (es): 2/3M.I DISTR gritar (animales) APPL V1.NFUT =PHOD
-Morpheme Category:   	v:Any v:Any v v>v v:Any prt
+Index:           1
+Words:           apkennayveskehlta
 Word Gloss (es): gritar.(animales)
+Morphemes: apk- en- nayv -es -ke =hlta
+Morpheme Gloss (es): 2/3M.I DISTR gritar (animales) APPL V1.NFUT =PHOD
+Morpheme Category: v:Any v:Any v v>v v:Any prt
 Sentence Gloss (es): Hicieron ruido
 
 # sentence level graph:
@@ -2317,12 +2317,12 @@ s69e2: 0-0
 ################################################################################
 # meta-info
 # :: snt70
-Index:               	1	2	3	4	5
-Words:               	apkehlpayveyehlta     yavokhohona  asek                             annaykamona       naymen
-Morphemes:           	apk- ehl- payv -eye =hlta   yavokhoho =na  asek                   an- n -ayk -am -o =na     na- ymen
+Index:           1                 2              3    4           5
+Words:           apkehlpayveyehlta yavokhohona    asek annaykamona naymen
+Word Gloss (es): cosa              sentarse.(sg.) agua None        None
+Morphemes: apk- ehl- payv -eye =hlta   yavokhoho =na  asek                   an- n -ayk -am -o =na     na- ymen
 Morpheme Gloss (es): 2/3M.I DISTR hablar V1.NFUT =PHOD       todo =DEF  cosa  2/3F.I sentarse  PST/HAB CPLX INF =DEF     LOC agua
-Morpheme Category:   	v:Any v:Any v v:Any prt         pro prt   sus           v:Any v v:Any v:Any v:Any prt  sus:Any sus
-Word Gloss (es): cosa sentarse.(sg.) agua None None
+Morpheme Category: v:Any v:Any v v:Any prt         pro prt   sus           v:Any v v:Any v:Any v:Any prt  sus:Any sus
 Sentence Gloss (es): Gritaron todas las cosas que estaban en el agua
 
 # sentence level graph:
@@ -2361,12 +2361,12 @@ s70e3: 0-0
 ################################################################################
 # meta-info
 # :: snt71
-Index:               	1	2	3
-Words:               	ahlta                asneyay'ahlta       ham'e
-Morphemes:           	=ahlta        as- ney -ay' -a =hlta       ham'e
+Index:           1     2             3
+Words:           ahlta asneyay'ahlta ham'e
+Word Gloss (es): antes eso           None
+Morphemes: =ahlta        as- ney -ay' -a =hlta       ham'e
 Morpheme Gloss (es): =PHOD  1SG.I oír PST/HAB INF =PHOD  DEM.INTERL
-Morpheme Category:   	prt      v:Any v v:Any v:Any prt         pro
-Word Gloss (es): antes eso None
+Morpheme Category: prt      v:Any v v:Any v:Any prt         pro
 Sentence Gloss (es): Es lo que escuché antes
 
 # sentence level graph:
@@ -2396,12 +2396,12 @@ s71h: 3-3
 ################################################################################
 # meta-info
 # :: snt72
-Index:               	1
-Words:               	ehltennaskama
-Morphemes:           	e- hl- tenn -as -kam -a
-Morpheme Gloss (es): 1SG.III DISTR hablar APPL PST/HAB INF
-Morpheme Category:   	v:Any v:Any v v>v v:Any v:Any
+Index:           1
+Words:           ehltennaskama
 Word Gloss (es): hablar
+Morphemes: e- hl- tenn -as -kam -a
+Morpheme Gloss (es): 1SG.III DISTR hablar APPL PST/HAB INF
+Morpheme Category: v:Any v:Any v v>v v:Any v:Any
 Sentence Gloss (es): Lo que me comentaban
 
 # sentence level graph:
@@ -2438,12 +2438,12 @@ s72p2: 0-0
 ################################################################################
 # meta-info
 # :: snt73
-Index:               	1	2
-Words:               	mo'ok                temakhahlta
-Morphemes:           	mo'ok          t -em -akha =hlta
+Index:           1     2
+Words:           mo'ok temakhahlta
+Word Gloss (es): otra  None
+Morphemes: mo'ok          t -em -akha =hlta
 Morpheme Gloss (es): otro.f  ser PST/HAB NOM.LOC =PHOD
-Morpheme Category:   	pro          v v:Any v:Any prt
-Word Gloss (es): otra None
+Morpheme Category: pro          v v:Any v:Any prt
 Sentence Gloss (es): Qué cosa era!
 
 # sentence level graph:
@@ -2468,12 +2468,12 @@ s73t: 0-0
 ################################################################################
 # meta-info
 # :: snt74
-Index:               	1	2	3	4	5	6	7
-Words:               	mahla     cultura         metkohltanne'     permiso                   angkelvanatkona                   angkotama       naymen
-Morphemes:           	mahla     cultura     metko =hlta =nne'     permiso             ang- kelvana =tko =na              angko- tama -ø     na- ymen
+Index:           1     2          3             4          5               6         7
+Words:           mahla cultura    metkohltanne' permiso    angkelvanatkona angkotama naymen
+Word Gloss (es): como  cultura.SP NEG.EXT       permiso.SP entrar.en.agua  agua      None
+Morphemes: mahla     cultura     metko =hlta =nne'     permiso             ang- kelvana =tko =na              angko- tama -ø     na- ymen
 Morpheme Gloss (es): como  cultura.SP  NEG.EXT =PHOD =FRUST  permiso.SP  2/3F.I mujer =pequeño, -ito =DEF  2/3F.II entrar en agua FUT     LOC agua
-Morpheme Category:   	prt          cs             v prt prt          cs                 v:Any sus prt prt               v:Any v v:Any  sus:Any sus
-Word Gloss (es): como cultura.SP NEG.EXT permiso.SP entrar.en.agua agua None
+Morpheme Category: prt          cs             v prt prt          cs                 v:Any sus prt prt               v:Any v v:Any  sus:Any sus
 Sentence Gloss (es): Parece la cultura, la chica no tenía permiso de entrar el agua
 
 # sentence level graph:
@@ -2515,12 +2515,12 @@ s74m: 1-1
 ################################################################################
 # meta-info
 # :: snt75
-Index:               	1
-Words:               	prohibido
-Morphemes:           	prohibido
-Morpheme Gloss (es): prohibido.SP
-Morpheme Category:   	cs
+Index:           1
+Words:           prohibido
 Word Gloss (es): prohibido.SP
+Morphemes: prohibido
+Morpheme Gloss (es): prohibido.SP
+Morpheme Category: cs
 Sentence Gloss (es): Era prohibido
 
 # sentence level graph:
@@ -2545,12 +2545,12 @@ s75e: 0-0
 ################################################################################
 # meta-info
 # :: snt76
-Index:               	1	2	3	4
-Words:               	kopmehehlnahlta                       aktemana       ham'e  mahla
-Morphemes:           	ko- pm -ehe =hlna =hlta               ak- t -em -a =na       ham'e  mahla
+Index:           1               2        3     4
+Words:           kopmehehlnahlta aktemana ham'e mahla
+Word Gloss (es): ser             tipo     eso   como
+Morphemes: ko- pm -ehe =hlna =hlta               ak- t -em -a =na       ham'e  mahla
 Morpheme Gloss (es): 2/3F.II ser FUT =REP =PHOD  2/3F.III ser PST/HAB INF =DEF  DEM.INTERL   como
-Morpheme Category:   	v:Any v v:Any prt prt        v:Any v v:Any v:Any prt         pro    prt
-Word Gloss (es): ser tipo eso como
+Morpheme Category: v:Any v v:Any prt prt        v:Any v v:Any v:Any prt         pro    prt
 Sentence Gloss (es): Hacer eso (era prohibido), parece...
 
 # sentence level graph:
@@ -2575,12 +2575,12 @@ s76t: 0-0
 ################################################################################
 # meta-info
 # :: snt77
-Index:               	1	2	3	4
-Words:               	mahla     ema  angkok          aymes
-Morphemes:           	mahla     ema  angkok        a- ymes
+Index:           1     2      3      4
+Words:           mahla ema    angkok aymes
+Word Gloss (es): como  sangre suya   sudor
+Morphemes: mahla     ema  angkok        a- ymes
 Morpheme Gloss (es): como  sangre     POS  2/3F.POS olor
-Morpheme Category:   	prt     sus     prt    sus:Any sus
-Word Gloss (es): como sangre suya sudor
+Morpheme Category: prt     sus     prt    sus:Any sus
 Sentence Gloss (es): Parece por el olor de su sangre
 
 # sentence level graph:
@@ -2604,12 +2604,12 @@ s77p: 0-0
 ################################################################################
 # meta-info
 # :: snt78
-Index:               	1	2	3
-Words:               	apkenneng'ayehlta       ham'e      yatapeyemanak
-Morphemes:           	apk- en- neng -'aye =hlta       ham'e  yata- peyem =anak
+Index:           1                 2     3
+Words:           apkenneng'ayehlta ham'e yatapeyemanak
+Word Gloss (es): oír               eso   None
+Morphemes: apk- en- neng -'aye =hlta       ham'e  yata- peyem =anak
 Morpheme Gloss (es): 2/3M.I DISTR sentir V1.NFUT =PHOD  DEM.INTERL    SIM iguana =DEF
-Morpheme Category:   	v:Any v:Any v v:Any prt         pro    sus>sus sus prt
-Word Gloss (es): oír eso None
+Morpheme Category: v:Any v:Any v v:Any prt         pro    sus>sus sus prt
 Sentence Gloss (es): Los yacaré sintieron eso
 
 # sentence level graph:
@@ -2636,12 +2636,12 @@ s78h: 2-2
 ################################################################################
 # meta-info
 # :: snt79
-Index:               	1	2
-Words:               	annayveskehlta                   annayveskehlta
-Morphemes:           	an- nayv -es -ke =hlta           an- nayv -es -ke =hlta
+Index:           1              2
+Words:           annayveskehlta annayveskehlta
+Word Gloss (es): None           None
+Morphemes: an- nayv -es -ke =hlta           an- nayv -es -ke =hlta
 Morpheme Gloss (es): 2/3F.I jugar APPL V1.NFUT =PHOD  2/3F.I jugar APPL V1.NFUT =PHOD
-Morpheme Category:   	v:Any v v>v v:Any prt            v:Any v v>v v:Any prt
-Word Gloss (es): None None
+Morpheme Category: v:Any v v>v v:Any prt            v:Any v v>v v:Any prt
 Sentence Gloss (es): Gritaron, gritaron
 
 # sentence level graph:
@@ -2671,12 +2671,12 @@ s79e2: 0-0
 ################################################################################
 # meta-info
 # :: snt80
-Index:               	1
-Words:               	apkelakmaskama
-Morphemes:           	apk- el- akm -as -kam -a
-Morpheme Gloss (es): 2/3M.I DISTR cantar APPL PST/HAB INF
-Morpheme Category:   	v:Any v:Any v v>v v:Any v:Any
+Index:           1
+Words:           apkelakmaskama
 Word Gloss (es): cantar
+Morphemes: apk- el- akm -as -kam -a
+Morpheme Gloss (es): 2/3M.I DISTR cantar APPL PST/HAB INF
+Morpheme Category: v:Any v:Any v v>v v:Any v:Any
 Sentence Gloss (es): Cantaron
 
 # sentence level graph:
@@ -2705,12 +2705,12 @@ s80e2: 0-0
 ################################################################################
 # meta-info
 # :: snt81
-Index:               	1	2	3	4	5
-Words:               	extraña     extraña     algo     pasa     acá
-Morphemes:           	extraña     extraña     algo     pasa     acá
-Morpheme Gloss (es): extraña.SP  extraña.SP  algo.SP  pasa.SP  acá.SP
-Morpheme Category:   	cs          cs       cs       cs      cs
+Index:           1       2       3       4       5
+Words:           extraña extraña algo    pasa    acá
 Word Gloss (es): extraña extraña algo.SP pasa.SP acá
+Morphemes: extraña     extraña     algo     pasa     acá
+Morpheme Gloss (es): extraña.SP  extraña.SP  algo.SP  pasa.SP  acá.SP
+Morpheme Category: cs          cs       cs       cs      cs
 Sentence Gloss (es): Extraño, algo pasó acá
 
 # sentence level graph:
@@ -2749,12 +2749,12 @@ s81e2: 0-0
 ################################################################################
 # meta-info
 # :: snt82
-Index:               	1
-Words:               	peligro
-Morphemes:           	peligro
-Morpheme Gloss (es): peligro.SP
-Morpheme Category:   	cs
+Index:           1
+Words:           peligro
 Word Gloss (es): peligro.SP
+Morphemes: peligro
+Morpheme Gloss (es): peligro.SP
+Morpheme Category: cs
 Sentence Gloss (es): Peligro
 
 # sentence level graph:
@@ -2776,12 +2776,12 @@ s82p: 1-1
 ################################################################################
 # meta-info
 # :: snt83
-Index:               	1	2
-Words:               	mahla     señal
-Morphemes:           	mahla     señal
+Index:           1     2
+Words:           mahla señal
+Word Gloss (es): como  señal
+Morphemes: mahla     señal
 Morpheme Gloss (es): como  señal.SP
-Morpheme Category:   	prt        cs
-Word Gloss (es): como señal
+Morpheme Category: prt        cs
 Sentence Gloss (es): Como un señal
 
 # sentence level graph:
@@ -2806,12 +2806,12 @@ s83s: 2-2
 ################################################################################
 # meta-info
 # :: snt84
-Index:               	1	2	3
-Words:               	netamen              ata'lahlta                   angvaktak
-Morphemes:           	netamen          a- ta'la =hlta             ang- v -akt -ak
+Index:           1       2          3
+Words:           netamen ata'lahlta angvaktak
+Word Gloss (es): detrás  2/3F.POS   None
+Morphemes: netamen          a- ta'la =hlta             ang- v -akt -ak
 Morpheme Gloss (es): detrás    2/3F.POS atrás =PHOD  2/3F.I llegar VENT V2.NFUT
-Morpheme Category:   	sus  sus:Any <Not Sure> prt         v:Any v v:Any v:Any
-Word Gloss (es): detrás 2/3F.POS None
+Morpheme Category: sus  sus:Any <Not Sure> prt         v:Any v v:Any v:Any
 Sentence Gloss (es): Después... después vino...
 
 # sentence level graph:
@@ -2847,12 +2847,12 @@ s85e: 0-0
 ################################################################################
 # meta-info
 # :: snt85
-Index:               	1	2	3
-Words:               	angvaktehlta  yephopay'a                        akyavay'a
-Morphemes:           	ang- v -akt -e =hlta  yephopay'a                  ak- yav -ay' -a
+Index:           1            2          3
+Words:           angvaktehlta yephopay'a akyavay'a
+Word Gloss (es): nube         grande     None
+Morphemes: ang- v -akt -e =hlta  yephopay'a                  ak- yav -ay' -a
 Morpheme Gloss (es): 2/3F.I llegar VENT V1.NFUT =PHOD        nube  2/3F.III ser grande PST/HAB INF
-Morpheme Category:   	v:Any v v:Any v:Any prt         sus              v:Any v v:Any v:Any
-Word Gloss (es): nube grande None
+Morpheme Category: v:Any v v:Any v:Any prt         sus              v:Any v v:Any v:Any
 Sentence Gloss (es): Llegó una nube grande
 
 # sentence level graph:
@@ -2885,12 +2885,12 @@ s85e2: 0-0
 ################################################################################
 # meta-info
 # :: snt86
-Index:               	1
-Words:               	ahleayam
-Morphemes:           	a- hle -ay -am
-Morpheme Gloss (es): 2/3F.III viajar PST/HAB INF.APPRX
-Morpheme Category:   	v:Any v v:Any v:Any
+Index:           1
+Words:           ahleayam
 Word Gloss (es): viajar
+Morphemes: a- hle -ay -am
+Morpheme Gloss (es): 2/3F.III viajar PST/HAB INF.APPRX
+Morpheme Category: v:Any v v:Any v:Any
 Sentence Gloss (es): Acercándose
 
 # sentence level graph:
@@ -2918,12 +2918,12 @@ s86e2: 0-0
 ################################################################################
 # meta-info
 # :: snt87
-Index:               	1	2
-Words:               	mahla  tormenta
-Morphemes:           	mahla  tormenta
+Index:           1     2
+Words:           mahla tormenta
+Word Gloss (es): como  tormenta
+Morphemes: mahla  tormenta
 Morpheme Gloss (es): como  tormenta
-Morpheme Category:   	prt        cs
-Word Gloss (es): como tormenta
+Morpheme Category: prt        cs
 Sentence Gloss (es): Como una tormenta
 
 # sentence level graph:
@@ -2953,12 +2953,12 @@ s87e: 0-0
 ################################################################################
 # meta-info
 # :: snt88
-Index:               	1	2	3
-Words:               	tormenta                              akyavayakta       ham'e
-Morphemes:           	tormenta                      ak- yav -ay -akt -a       ham'e
+Index:           1        2           3
+Words:           tormenta akyavayakta ham'e
+Word Gloss (es): tormenta acercarse   eso
+Morphemes: tormenta                      ak- yav -ay -akt -a       ham'e
 Morpheme Gloss (es): tormenta  2/3F.III acercarse PST/HAB VENT V2.NFUT  DEM.INTERL
-Morpheme Category:   	cs                v:Any v v:Any v:Any v:Any         pro
-Word Gloss (es): tormenta acercarse eso
+Morpheme Category: cs                v:Any v v:Any v:Any v:Any         pro
 Sentence Gloss (es): Una tormenta se acercaba para esto
 
 # sentence level graph:
@@ -2989,12 +2989,12 @@ s88e2: 0-0
 ################################################################################
 # meta-info
 # :: snt89
-Index:               	1	2	3	4
-Words:               	mahla          aymes     ema  angkok
-Morphemes:           	mahla        a- ymes     ema  angkok
+Index:           1     2     3      4
+Words:           mahla aymes ema    angkok
+Word Gloss (es): como  sudor sangre suya
+Morphemes: mahla        a- ymes     ema  angkok
 Morpheme Gloss (es): como  2/3F.POS olor  sangre     POS
-Morpheme Category:   	prt    sus:Any sus     sus     prt
-Word Gloss (es): como sudor sangre suya
+Morpheme Category: prt    sus:Any sus     sus     prt
 Sentence Gloss (es): Parece por el olor de su sangre
 
 # sentence level graph:
@@ -3028,12 +3028,12 @@ s89p: 0-0
 ################################################################################
 # meta-info
 # :: snt90
-Index:               	1	2	3
-Words:               	antepkehlta  ahlkayam                     akyenna'tema
-Morphemes:           	an- tep -ke =hlta  ahlkayam               ak- yenna't -em -a
+Index:           1           2        3
+Words:           antepkehlta ahlkayam akyenna'tema
+Word Gloss (es): viento      None     None
+Morphemes: an- tep -ke =hlta  ahlkayam               ak- yenna't -em -a
 Morpheme Gloss (es): 2/3F.I salir V1.NFUT =PHOD    viento  2/3F.III ser fuerte PST/HAB INF
-Morpheme Category:   	v:Any v v:Any prt       sus              v:Any v v:Any v:Any
-Word Gloss (es): viento None None
+Morpheme Category: v:Any v v:Any prt       sus              v:Any v v:Any v:Any
 Sentence Gloss (es): Salió un viento muy fuerte
 
 # sentence level graph:
@@ -3065,12 +3065,12 @@ s90e2: 0-0
 ################################################################################
 # meta-info
 # :: snt91
-Index:               	1	2	3
-Words:               	ahlkayam  mahla          yatapyayam
-Morphemes:           	ahlkayam  mahla        yata- pyayam
+Index:           1        2     3
+Words:           ahlkayam mahla yatapyayam
+Word Gloss (es): viento   como  sur
+Morphemes: ahlkayam  mahla        yata- pyayam
 Morpheme Gloss (es): viento   como             SIM sur
-Morpheme Category:   	sus    prt  sus>sus <Not Sure>
-Word Gloss (es): viento como sur
+Morpheme Category: sus    prt  sus>sus <Not Sure>
 Sentence Gloss (es): Un viento como un torbellino
 
 # sentence level graph:
@@ -3091,12 +3091,12 @@ s91y: 3-3
 ################################################################################
 # meta-info
 # :: snt92
-Index:               	1	2
-Words:               	akyepetkay'a  yemmen
-Morphemes:           	ak- yepetk -ay' -a  yemmen
+Index:           1            2
+Words:           akyepetkay'a yemmen
+Word Gloss (es): agua         None
+Morphemes: ak- yepetk -ay' -a  yemmen
 Morpheme Gloss (es): 2/3F.III mezclar PST/HAB INF    agua
-Morpheme Category:   	v:Any v v:Any v:Any     sus
-Word Gloss (es): agua None
+Morpheme Category: v:Any v v:Any v:Any     sus
 Sentence Gloss (es): Junto con lluvia
 
 # sentence level graph:
@@ -3126,12 +3126,12 @@ s92e2: 0-0
 ################################################################################
 # meta-info
 # :: snt93
-Index:               	1
-Words:               	tormenta
-Morphemes:           	tormenta
-Morpheme Gloss (es): tormenta
-Morpheme Category:   	cs
+Index:           1
+Words:           tormenta
 Word Gloss (es): tormenta
+Morphemes: tormenta
+Morpheme Gloss (es): tormenta
+Morpheme Category: cs
 Sentence Gloss (es): Una tormenta
 
 # sentence level graph:
@@ -3148,12 +3148,12 @@ s93t: 1-1
 ################################################################################
 # meta-info
 # :: snt94
-Index:               	1	2
-Words:               	tormenta     puro
-Morphemes:           	tormenta     puro
-Morpheme Gloss (es): tormenta  puro.SP
-Morpheme Category:   	cs       cs
+Index:           1        2
+Words:           tormenta puro
 Word Gloss (es): tormenta puro.SP
+Morphemes: tormenta     puro
+Morpheme Gloss (es): tormenta  puro.SP
+Morpheme Category: cs       cs
 Sentence Gloss (es): Una tormenta pura
 
 # sentence level graph:
@@ -3172,12 +3172,12 @@ s94p: 2-2
 ################################################################################
 # meta-info
 # :: snt95
-Index:               	1	2	3
-Words:               	mahla     motivo       ham'e
-Morphemes:           	mahla     motivo       ham'e
+Index:           1     2         3
+Words:           mahla motivo    ham'e
+Word Gloss (es): como  motivo.SP eso
+Morphemes: mahla     motivo       ham'e
 Morpheme Gloss (es): como  motivo.SP  DEM.INTERL
-Morpheme Category:   	prt         cs         pro
-Word Gloss (es): como motivo.SP eso
+Morpheme Category: prt         cs         pro
 Sentence Gloss (es): Parece que eso era el motivo
 
 # sentence level graph:
@@ -3203,12 +3203,12 @@ s95h2: 3-3
 ################################################################################
 # meta-info
 # :: snt96
-Index:               	1	2	3
-Words:               	nahlta                asneyay'ahlta       ha'
-Morphemes:           	na= =hlta        as- ney -ay' -a =hlta       ha'
+Index:           1      2             3
+Words:           nahlta asneyay'ahlta ha'
+Word Gloss (es): DEF    eso           None
+Morphemes: na= =hlta        as- ney -ay' -a =hlta       ha'
 Morpheme Gloss (es): DEF= =PHOD  1SG.I oír PST/HAB INF =PHOD  DEM.DIST
-Morpheme Category:   	prt prt      v:Any v v:Any v:Any prt       pro
-Word Gloss (es): DEF eso None
+Morpheme Category: prt prt      v:Any v v:Any v:Any prt       pro
 Sentence Gloss (es): Eso es lo que escuché antes
 
 # sentence level graph:
@@ -3238,12 +3238,12 @@ s96h: 3-3
 ################################################################################
 # meta-info
 # :: snt97
-Index:               	1	2
-Words:               	historia     real
-Morphemes:           	historia     real
-Morpheme Gloss (es): historia.SP  real.SP
-Morpheme Category:   	sus       cs
+Index:           1           2
+Words:           historia    real
 Word Gloss (es): la.historia real.SP
+Morphemes: historia     real
+Morpheme Gloss (es): historia.SP  real.SP
+Morpheme Category: sus       cs
 Sentence Gloss (es): ES historia real
 
 # sentence level graph:
@@ -3270,12 +3270,12 @@ s97e: 0-0
 ################################################################################
 # meta-info
 # :: snt98
-Index:               	1	2
-Words:               	have'  mokvankoho
-Morphemes:           	have'  mokvankoho
+Index:           1     2
+Words:           have' mokvankoho
+Word Gloss (es): no    mentira
+Morphemes: have'  mokvankoho
 Morpheme Gloss (es): NEG.PRED     mentira
-Morpheme Category:   	prt  <Not Sure>
-Word Gloss (es): no mentira
+Morpheme Category: prt  <Not Sure>
 Sentence Gloss (es): No es mentira
 
 # sentence level graph:
@@ -3300,12 +3300,12 @@ s98m: 2-2
 ################################################################################
 # meta-info
 # :: snt99
-Index:               	1	2
-Words:               	na'hoyehlta      na'hoyehlnahlta
-Morphemes:           	na'hoye =hlta  na'hoye =hlna =hlta
+Index:           1           2
+Words:           na'hoyehlta na'hoyehlnahlta
+Word Gloss (es): verdad      None
+Morphemes: na'hoye =hlta  na'hoye =hlna =hlta
 Morpheme Gloss (es): verdad =PHOD    verdad =REP =PHOD
-Morpheme Category:   	adv prt          adv prt prt
-Word Gloss (es): verdad None
+Morpheme Category: adv prt          adv prt prt
 Sentence Gloss (es): Era la verdad, se dice que era la verdad
 
 # sentence level graph:
@@ -3341,12 +3341,12 @@ s99n: 1-1
 ################################################################################
 # meta-info
 # :: snt100
-Index:               	1	2	3
-Words:               	ta             antahak                          ehltennaskama
-Morphemes:           	=ta         an- t -ahak                e- hl- tenn -as -kam -a
+Index:           1     2       3
+Words:           ta    antahak ehltennaskama
+Word Gloss (es): antes es      hablar
+Morphemes: =ta         an- t -ahak                e- hl- tenn -as -kam -a
 Morpheme Gloss (es): =PHOD  2/3F.I ser V2.NFUT  1SG.III DISTR hablar APPL PST/HAB INF
-Morpheme Category:   	prt       v:Any v v:Any          v:Any v:Any v v>v v:Any v:Any
-Word Gloss (es): antes es hablar
+Morpheme Category: prt       v:Any v v:Any          v:Any v:Any v v>v v:Any v:Any
 Sentence Gloss (es): Eso es lo que me contaban
 
 # sentence level graph:
