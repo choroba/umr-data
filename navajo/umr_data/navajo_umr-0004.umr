@@ -6578,19 +6578,18 @@ Sentence Gloss (en): There is a passage where God says that the people will be p
 (s159x / ’ákónihi’diilyaa
 	:aspect performance
 	:temporal (s159k / k’ad)
-	:theme (s159t / thing
-		:theme-of (s159n / nihíłnínę́ęni’
+	:theme (s159x3 / ’atínihidi’doolnííł
+		:aspect performance
+		:experiencer s159p
+		:theme-of (s159x2 / ’ání
 			:aspect activity
-			:recipient s159p
-			:theme (s159x2 / ’ání
+			:actor (s159g / god)
+			:theme-of (s159n / nihíłnínę́ęni’
 				:aspect activity
-				:actor (s159g / god)
-				:theme (s159x3 / ’atínihidi’doolnííł
-					:aspect performance
-					:experiencer s159p
-					:quote s159x2)
-				:quote s159n)
-			:place (s159h / háadi-)))
+				:recipient s159p
+				:place (s159h / háadi-))
+			:quote (s159n))
+		:quote s159x2)
 	:undergoer (s159p / person
 		:refer-number plural
 		:refer-person 1st))
@@ -6598,10 +6597,9 @@ Sentence Gloss (en): There is a passage where God says that the people will be p
 # alignment:
 s159x: 9-9
 s159k: 8-8
-s159t: 0-0
-s159n: 0-0
+s159n: 6-6
 s159p: 0-0
-s159x2: 0-0
+s159x2: 4-4
 s159g: 3-3
 s159x3: 5-5
 s159h: 1-1
