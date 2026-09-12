@@ -619,8 +619,8 @@ s18e: 12-12
 (s18s0 / sentence
 	:temporal ((future-reference :overlap s18p)
 		(s18p :before s18s))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative have-condition-91)
+	:modal ((root :modal author)
+		(author :neutral-affirmative have-condition-91)
 		(have-condition-91 :full-affirmative s18p)
 		(have-condition-91 :full-negative s18s))
 	:coref ((s15e2 :same-event s18r)))
