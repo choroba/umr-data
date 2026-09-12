@@ -533,7 +533,7 @@ Sentence Gloss (es): Entonces viajabamos a una estancia si querían celebrar, y 
 		:goal (s16t / tansya)
 		:temporal (s16m / may’a-00
 			:stimulus (s16e2 / ennayvoma-00
-				:modpred s16m
+				:modal-predicate s16m
 				:actor s16p2
 				:aspect activity)
 			:experiencer (s16p2 / person
@@ -1045,8 +1045,8 @@ Sentence Gloss (es): El "anyamenana" era para una chica?
 # document level annotation:
 (s31s0 / sentence
 	:temporal ((past-reference :contained s31h))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s31h))
+	:modal ((root :modal author)
+		(author :neutral-affirmative s31h))
 	:coref ((s20e :same-event s31f)))
 
 
@@ -1107,8 +1107,8 @@ Sentence Gloss (es): Usted hizo?
 # document level annotation:
 (s33s0 / sentence
 	:temporal ((past-reference :contained s33h))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s33h))
+	:modal ((root :modal author)
+		(author :neutral-affirmative s33h))
 	:coref ((s30p :subset-of s33p)
 		(s31f :same-event s33t)))
 
