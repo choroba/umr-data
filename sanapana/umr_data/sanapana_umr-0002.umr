@@ -2912,10 +2912,6 @@ Sentence Gloss (es): Se tiraban en el suelo unos a otros
 	:actor (s86p / person
 		:refer-person 3rd
 		:refer-number plural)
-	:theme (s86p2 / person
-		:refer-person 3rd
-		:refer-number plural)
-	:actor s86p2
 	:theme s86p
 	:goal (s86h / hlepop)
 	:aspect habitual)
@@ -2923,7 +2919,6 @@ Sentence Gloss (es): Se tiraban en el suelo unos a otros
 # alignment:
 s86e: 1-1
 s86p: 0-0
-s86p2: 0-0
 s86h: 2-2
 
 # document level annotation:
@@ -2931,8 +2926,8 @@ s86h: 2-2
 	:temporal ((s81e :overlap s86e))
 	:modal ((root :modal author)
 		(author :full-affirmative s86e))
-	:coref ((s85p :same-entity s86p)
-		(s84a3 :same-entity s86p2)))
+	:coref ((s86p :subset s85p)
+		(s86p :subset s84a3)))
 
 
 ################################################################################
