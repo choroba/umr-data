@@ -2833,17 +2833,15 @@ Sentence Gloss (en): When the rams would attack and butt each other we would eac
 			:condition (s70d2 / da’ahógeehgo
 				:aspect habitual
 				:modal-strength neutral-affirmative
-				:actor s70p2
+				:actor (s70p2 / person
+					:refer-number plural
+					:refer-person 3rd)
 				:manner (s70n3 / náánéilwo’go
 					:aspect habitual
 					:modal-strength neutral-affirmative
 					:actor s70p2
 					:direction (s70x2 / ’ałk’i)
 					:place (s70x3 / ńléí)))))
-	:causer (s70p2 / person
-		:refer-number plural
-		:refer-person 3rd
-		:quant 1)
 	:actor s70p)
 
 # alignment:
