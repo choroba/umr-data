@@ -170,8 +170,7 @@ s5p: 0-0
 
 # document level annotation:
 (s5s0 / sentence
-	:temporal ((s5e :after s5e2)
-		(s5e :overlap s5e2))
+	:temporal ((s5e :overlap s5e2))
 	:modal ((root :modal author)
 		(author :full-negative s5e2)
 		(author :full-affirmative s5h))
@@ -2797,8 +2796,8 @@ s68e2: 3-3
 (s68s0 / sentence
 	:temporal ((s68e2 :after s68e))
 	:modal ((root :modal author)
-		(author :full-affirmative s67p)
-		(s67p :full-affirmative s68e2)
+		(author :full-affirmative s68p)
+		(s68p :full-affirmative s68e2)
 		(s68e2 :unspecified s68e))
 	:coref ((s67e3 :same-event s68e)
 		(s67p2 :same-entity s68p)
