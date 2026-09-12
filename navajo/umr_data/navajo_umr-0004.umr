@@ -3473,10 +3473,10 @@ Sentence Gloss (en): That happened to two of us.
 	:aspect performance
 	:mode expressive
 	:temporal (s85h / have-quant-91
-		:ARG0 (s85p / person
+		:ARG1 (s85p / person
 			:refer-person 1st
 			:refer-number dual)
-		:ARG1 2))
+		:ARG2 2))
 
 # alignment:
 s85x: 2-2
@@ -4025,14 +4025,12 @@ Sentence Gloss (en): “Look what happened?”
 	:modal-strength full-affirmative
 	:mode expressive
 	:theme (s98h2 / haa)
-	:place (s98x / ńléí)
-	:quote s98s)
+	:place (s98x / ńléí))
 
 # alignment:
 s98h: 5-5
 s98h2: 4-4
 s98x: 2-2
-s98s: 0-0
 
 # document level annotation:
 (s98s0 / sentence
