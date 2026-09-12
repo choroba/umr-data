@@ -976,7 +976,7 @@ Word Gloss (en): so   over.there there.is.a.dense.vegetation inside away.from.us
 Morphemes: ’áko        ńléi           ho- d- í- ł- ch’il   góne’  nihi- ts’ą́ą́’                   ’- ee- kai =go    ’áa =di                            h- ó- teel =go                        ń- d- oo- kai =go  t’óó                       bi- kéé’                   tá- d- iit- ’aash
 Morpheme Gloss (en): so  over.there     AR TH 3.NI.PERF TH plant  inside    1.DU/PL away  TH 3.NI.PERF go.PL.PERF =SUBORD  there =at  AR 2.SG.ZERO.IMPF broad.NEU.IMPF =SUBORD  TH TH 3.YI.ZERO.PERF go.PL.PERF =SUBORD  just                  3.POSS behind  TH TH 1.DU/PL.ZERO.IMPF go.DU.IMPF
 Morpheme Category: adv         adv   v:AR v:QUAL v:TAMS v:VAL n     adv      v:OBJ post              v:PRVB v:TAMS v prt    adv prt                         v:AR v:TAMS v prt               v:PRVB v:QUAL v:TAMS v prt   adv  Attaches to any category post              v:PRVB v:QUAL v:TAMS v
-Sentence Gloss (en): When they spread out into the brush we would just let them go and follow them.
+Sentence Gloss (en): When they spread out into the bush we would just let them go and follow them.
 
 # sentence level graph:
 (s26t / tádiit’aash
@@ -986,7 +986,7 @@ Sentence Gloss (en): When they spread out into the brush we would just let them 
 		:refer-number dual
 		:refer-person 1st)
 	:direction (s26b / bikéé’
-		:ARG1-of (s26h / have-place-91
+		:ARG2-of (s26h / have-place-91
 			:ARG1 (s26p2 / person
 				:refer-number plural
 				:refer-person 3rd)
@@ -1217,20 +1217,19 @@ Sentence Gloss (en): I used to go around wondering why under the sun a person sh
 			:actor (s30p2 / person
 				:refer-number plural
 				:refer-person 3rd)
-			:modal-predicate (s30s / shash
+			:theme (s30s / shash
 				:quote s30j)
 			:quote (s30h / ha’át’éego
-				:degree intensifier)))
-	:aspect activity)
+				:degree intensifier))))
 
 # alignment:
-s30h: 0-0
-s30j: 0-0
-s30n: 0-0
+s30h: 1-1
+s30j: 5-5
+s30n: 8-8
 s30p: 0-0
 s30p2: 0-0
 s30s: 3-3
-s30t: 8-9
+s30t: 9-9
 s30x: 10-10
 
 # document level annotation:
