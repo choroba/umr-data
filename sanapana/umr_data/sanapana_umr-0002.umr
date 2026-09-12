@@ -1802,8 +1802,8 @@ Sentence Gloss (es): Qué tipo de colorete?
 # document level annotation:
 (s54s0 / sentence
 	:temporal ((s51e :overlap s54h))
-	:modal ((root :modal author2)
-		(author2 :full-affirmative s54h))
+	:modal ((root :modal author)
+		(author :full-affirmative s54h))
 	:coref ((s53c :same-entity s54c)))
 
 
@@ -1897,8 +1897,8 @@ Sentence Gloss (es): De dónde viene?
 # document level annotation:
 (s57s0 / sentence
 	:temporal ((present-reference :overlap s57v))
-	:modal ((root :modal author2)
-		(author2 :full-affirmative s57v))
+	:modal ((root :modal author)
+		(author :full-affirmative s57v))
 	:coref ((s54c :same-entity s57t)))
 
 
