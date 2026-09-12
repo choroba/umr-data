@@ -1048,10 +1048,7 @@ s30t2: 0-0
 (s30s0 / sentence
 	:temporal ((s30e :after s30e2))
 	:modal ((root :modal author)
-		(author :full-affirmative s30e)
-		(author :full-affirmative s29p)
-		(s29p :partial-affirmative have-purpose-91)
-		(have-purpose-91 :full-affirmative s30e2))
+		(author :full-affirmative s30e))
 	:coref ((s29e :same-event s30e)
 		(s29e2 :same-event s30e2)
 		(s29p :same-entity s30p)))
