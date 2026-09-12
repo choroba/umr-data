@@ -5898,12 +5898,9 @@ Sentence Gloss (en): So this is my experience up above the land of my people.
 	:place (s142b / bikáá’góó
 		:part (s142b2 / bikéyah
 			:possessor (s142p2 / person
-				:ARG0-of (s142h / have-rel-role-91
-					:ARG1 (s142p3 / person
-						:refer-number singular
-						:refer-person 1st)
-					:ARG2 "MISSING-VALUE")
-				:possessor (s142r / rel))))
+				:possessor (s142p3 / person
+					:refer-number singular
+					:refer-person 1st))))
 	:manner (s142k / kót’éego))
 
 # alignment:
@@ -5911,10 +5908,9 @@ s142t: 4-5
 s142p: 0-0
 s142b: 4-4
 s142b2: 3-3
-s142p2: 0-0
+s142p2: 2-2
 s142p3: 0-0
 s142k: 1-1
-s142r: 0-0
 
 # document level annotation:
 (s142s0 / sentence
