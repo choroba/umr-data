@@ -2774,7 +2774,7 @@ Sentence Gloss (es): Así es que vivían nuestros abuelos antes
 # sentence level graph:
 (s78i2 / identity-91
 	:ARG0 (s78e / event)
-	:ARG1 (s782 / eleyvoma-00
+	:ARG1 (s78e3 / eleyvoma-00
 		:actor (s78p / person
 			:ARG0-of (s78h / have-rel-role-91
 				:ARG1 (s78p2 / person
@@ -2787,12 +2787,12 @@ Sentence Gloss (es): Así es que vivían nuestros abuelos antes
 
 # alignment:
 s78e: 3-3
+s78e3: 3-3
 s78e2: 5-5
 s78i2: 0-0
 s78p: 0-0
 s78p2: 0-0
 s78s: 4-4
-s78t: 0-0
 
 # document level annotation:
 (s78s0 / sentence
@@ -3128,8 +3128,6 @@ s87m: 3-3
 s87n: 0-0
 s87p: 0-0
 s87p2: 1-1
-s87r: 0-0
-s88h: 2-2
 
 # document level annotation:
 (s87s0 / sentence
@@ -3223,7 +3221,6 @@ Sentence Gloss (es): Siempre estudiando
 		:aspect activity))
 
 # alignment:
-s91t: 0-0
 s90e2: 1-2
 
 # document level annotation:
@@ -3440,7 +3437,6 @@ Sentence Gloss (es): Solamente les mostraban el camino
 # alignment:
 s96a: 0-0
 s96e: 2-2
-s96e2: 0-0
 s96p: 0-0
 s96p2: 0-0
 s96p3: 0-0
