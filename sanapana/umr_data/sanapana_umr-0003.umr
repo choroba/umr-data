@@ -704,8 +704,8 @@ s20r: 9-9
 (s20s0 / sentence
 	:temporal ((present-reference :overlap s20e)
 		(s20e :before s20e2))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s20p)
+	:modal ((root :modal author)
+		(author :neutral-affirmative s20p)
 		(s20p :full-affirmative s20e)
 		(s20e :unspecified s20e2))
 	:coref ((s19p2 :same-entity s20p4)
@@ -1136,8 +1136,8 @@ s32r: 2-2
 
 # document level annotation:
 (s32s0 / sentence
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s32e))
+	:modal ((root :modal author)
+		(author :neutral-affirmative s32e))
 	:coref ((s21e :same-event s32e)
 		(s21p :same-entity s32r)))
 
@@ -1209,8 +1209,8 @@ s34p2: 0-0
 (s34s0 / sentence
 	:temporal ((s34d :contained s34e)
 		(past-reference :contained s34d))
-	:modal ((root :modal author2)
-		(author2 :full-affirmative s34e))
+	:modal ((root :modal author)
+		(author :full-affirmative s34e))
 	:coref ((s32e :same-event s34e)
 		(s31p :same-entity s34p2)))
 
@@ -1487,7 +1487,6 @@ Sentence Gloss (es): Justo en ese momento llegaron los menonitas en Paraguay
 # alignment:
 s41c: 4-4
 s41e: 2-2
-s41e2: 0-0
 s41e3: 1-1
 s41n2: 0-0
 s41n3: 0-0
@@ -2901,9 +2900,9 @@ s81p: 0-0
 (s81s0 / sentence
 	:temporal ((past-reference :contained s81d)
 		(s81d :before s81e))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s81p)
-		(author2 :neutral-affirmative s81d)
+	:modal ((root :modal author)
+		(author :neutral-affirmative s81p)
+		(author :neutral-affirmative s81d)
 		(s81p :full-affirmative s81e))
 	:coref ((s20p :same-entity s81p)
 		(s76e :same-event s81e)))
@@ -3309,8 +3308,8 @@ s93w: 4-4
 # document level annotation:
 (s93s0 / sentence
 	:temporal ((s93w :contained s93p))
-	:modal ((root :modal author2)
-		(author2 :neutral-affirmative s93p))
+	:modal ((root :modal author)
+		(author :neutral-affirmative s93p))
 	:coref ((s63t2 :same-event s93w)
 		(s88h :same-entity s93a)))
 
