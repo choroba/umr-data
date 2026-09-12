@@ -5627,8 +5627,7 @@ s136x2: 7-7
 
 # document level annotation:
 (s136s0 / sentence
-	:temporal ((s136x2 :after s136x)
-		(s136x :after s136x2))
+	:temporal ((s136x2 :overlap s136x))
 	:modal ((root :modal author)
 		(author :full-affirmative s136x)
 		(author :full-affirmative s136x2))
