@@ -1260,9 +1260,9 @@ s32k: 1-1
 ################################################################################
 # meta-info
 # :: snt33
-Index:           1        2          3     4        5      6      7       8       9
-Words:           ’Aadóó   ńléí       tooh  ńlínígíí t’áá   bikáá’ gódeg   nihił   ’ít’a’
-Word Gloss (en): and.then over.there river right    on.top on.top with.us it.flew
+Index:           1        2          3     4        5     6      7      8       9
+Words:           ’Aadóó   ńléí       tooh  ńlínígíí t’áá  bikáá’ gódeg  nihił   ’ít’a’
+Word Gloss (en): and.then over.there river flowing  right on.top on.top with.us it.flew
 Morphemes: ’aadóó        ńléí  tooh ńlínígíí   t’áá                       bi- káá’   gódeg                        nih- ił                  ’- í- t’a’
 Morpheme Gloss (en): and.then  over.there          river  right                  3.POSS on.top  on.top              1.DU/PL.POSS with  NSP.SBJ 3.NI.PERF fly.PERF
 Morpheme Category: prt         adv              n    adv  Attaches to any category post     adv  Attaches to any category post             v:OSBJ v:TAMS v
@@ -1274,21 +1274,19 @@ Sentence Gloss (en): And then we flew up along the San Juan River.
 	:place (s33g / gódeg)
 	:path (s33b / bikáá’
 		:degree intensifier
-		:degree (s33h / have-part-91)
-		:degree (s33t / tooh-ńlínígíí)
+		:mod (s33t / tooh-ńlínígíí)
 		:mod (s33x2 / ńléí))
 	:actor (s33p / person
 		:refer-number plural
 		:refer-person 1st))
 
 # alignment:
-s33b: 5-5
-s33g: 6-6
-s33h: 3-3
-s33t: 0-0
-s33x: 8-8
+s33b: 5-6
+s33g: 7-7
+s33t: 3-4
+s33x: 9-9
 s33x2: 2-2
-s33p: 0-0
+s33p: 8-8
 
 # document level annotation:
 (s33s0 / sentence
