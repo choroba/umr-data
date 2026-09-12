@@ -1305,9 +1305,9 @@ s37t2: 0-0
 ################################################################################
 # meta-info
 # :: snt36
-Index:           1                 2               3              4               5                  6        7            8                  9           10      11      12         13   14   15       16
-Words:           Ts’ídá            tseebííts’áadah shinááhaigo    Bis             Dootł’izh          Deez’áhí hoolyéegi    k’ad               naalyéhé    bá      hooghan ninínáanii t’áá shił bééhózin ńt’éé’
-Word Gloss (en): really,.extremely eighteen        I.am.years.old Blue.Clay.Point where.it.is.called now      trading.post the.one.that.moved exact,.very with.me know    past
+Index:           1                2               3              4    5         6        7                  8    9        10      11      12                 13         14      15       16
+Words:           Ts’ídá           tseebííts’áadah shinááhaigo    Bis  Dootł’izh Deez’áhí hoolyéegi          k’ad naalyéhé bá      hooghan ninínáanii         t’áá       shił    bééhózin ńt’éé’
+Word Gloss (en): really,extremely eighteen        I.am.years.old Clay Blue      Point    where.it.is.called now  trading  trading post    the.one.that.moved exact,very with.me know     past
 Morphemes: ts’ídá  tseebííts’áadah                          shi- náá hai =go  Bis Dootł’izh Deez’áhí                  h- oo- l- yée =gi  k’ad  naalyéhé bá hooghan                ni- ní- náa =nii         t’áá                         sh- ił                          b- éé- hó- zin  ńt’éé’
 Morpheme Gloss (en): really         eighteen  1.SG.POSS around year.passes.PERF =being         Blue.Clay.Point  AR 3.O.IMPF PAS call.NEU.IMPF =at   now         trading.post  TERM 3.NI.PERF move.PERF =NMLZ         very                 1.SG.POSS with  3.POSS against.around TH know.NEU.PERF     PST
 Morpheme Category: adv              adv       Attaches to any category post v prt                       n           v:AR v:TAMS v:VAL v post   adv                    n             v:QUAL v:TAMS v prt          adv  Attaches to any category post  Attaches to any category v:PRVB v:AR v     adv
@@ -1325,32 +1325,30 @@ Sentence Gloss (en): At the time I was about eighteen years old the person who s
 			:temporal (s38k / k’ad)
 			:place (s38p3 / place
 				:undergoer-of (s38h / hoolyéegi
-					:theme (s38n3 / name)
 					:theme (s38c / city
 						:name (s38n4 / name
 							:op1 "Bis"
 							:op2 "Dootł’izh"
 							:op3 "Deez’áhí"))))))
 	:stimulus (s38a / age-01
-		:ARG1 s38p2
+		:ARG1 s38p
 		:ARG2 (s38t / temporal-quantity
 			:quant (s38a2 / approximately
 				:op1 18)
 			:unit (s38y / year))))
 
 # alignment:
-s38b: 11-11
+s38b: 15-15
 s38p: 0-0
 s38p2: 0-0
-s38n: 8-8
-s38n2: 7-7
-s38k: 6-6
+s38n: 12-12
+s38n2: 9-11
+s38k: 8-8
 s38p3: 0-0
-s38h: 5-5
-s38n3: 0-0
-s38c: 0-0
+s38h: 7-7
+s38c: 4-6
 s38n4: 0-0
-s38a: 0-0
+s38a: 1-3
 s38t: 0-0
 s38a2: 0-0
 s38y: 0-0
