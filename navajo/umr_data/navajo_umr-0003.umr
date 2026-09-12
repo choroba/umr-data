@@ -2505,9 +2505,8 @@ Sentence Gloss (en): It was reported that the children from Chinle who were bein
 			:aspect activity
 			:destination (s71k / kwii)
 			:actor (s71x / ’áłchíní)
-			:extent (s71y / year
-				:mod (s71h4 / have
-					:ARG2 2))))
+			:extent (s71y / day
+				:quant 2)))
 	:companion (s71n / nihinááł
 		:part-of (s71p / person
 			:refer-person 2nd
@@ -2515,11 +2514,12 @@ Sentence Gloss (en): It was reported that the children from Chinle who were bein
 
 # alignment:
 s71h: 15-15
+s71h2: 11-11
 s71h3: 10-10
 s71b: 8-9
 s71k: 7-7
 s71x: 4-4
-s71y: 0-0
+s71y: 1-2
 s71n: 12-12
 s71p: 0-0
 
