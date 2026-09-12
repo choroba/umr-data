@@ -1515,15 +1515,12 @@ Sentence Gloss (es): Cuando había estallado la guerra
 # sentence level graph:
 (s42e / elenteyapma-00
 	:actor (s42w / war
-		:name (s42n / name
-			:op1 (s42g / guerra))
 		:wiki "Chaco_War")
 	:aspect performance)
 
 # alignment:
+s42e: 1-1
 s42w: 2-2
-s42g: 2-2
-s42n: 0-0
 
 # document level annotation:
 (s42s0 / sentence
