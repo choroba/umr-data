@@ -1734,14 +1734,14 @@ Sentence Gloss (es): No es que hablaban mal unos de otros
 
 # sentence level graph:
 (s51e / elyamenammahlka'-00
-	:actor (s51p2 / person
-		:refer-person 3rd
-		:refer-number plural)
-	:undergoer (s51p3 / person
-		:refer-number plural
-		:refer-person 3rd)
-	:actor s51p3
-	:undergoer s51p2
+	:actor (s51a / and
+		:op1 (s51p2 / person
+			:refer-person 3rd
+			:refer-number plural)
+		:op2 (s51p3 / person
+			:refer-number plural
+			:refer-person 3rd))
+	:undergoer s51a
 	:aspect habitual)
 
 # alignment:
