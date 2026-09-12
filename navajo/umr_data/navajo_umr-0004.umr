@@ -1,9 +1,9 @@
 ################################################################################
 # meta-info
 # :: snt1
-Index:           1         2        3        4               5         6             7                       8         9   10               11             12            13
-Words:           Kodóó     ’ániid   February wolyéego        ńdeezidę́ę naakigóó      yoołkáłę́ędą́ą́’           kodóó     dah dadiikai         Tó             Naneesdizídóó dį́niiltéego
-Word Gloss (en): from.here recently February which.is.called month     at.the.second after.the.night.passing from.here off we.started.to.go from.Tuba.City four.of.us
+Index:           1         2        3        4               5         6             7                       8         9   10               11        12            13
+Words:           Kodóó     ’ániid   February wolyéego        ńdeezidę́ę naakigóó      yoołkáłę́ędą́ą́’           kodóó     dah dadiikai         Tó        Naneesdizídóó dį́niiltéego
+Word Gloss (en): from.here recently February which.is.called month     at.the.second after.the.night.passing from.here off we.started.to.go from.Tuba City          four.of.us
 Morphemes: kodóó    ’ániid  February                         wo- l- yée =go  ńdeezid =ę́ę     naaki =góó                  y- oo- ł- káł =ę́ę =dą́ą́’      kodóó  dah                             da- d- ii- kai  Tó Naneesdizí =dóó                         dį́ nii- l- t’ée =go
 Morpheme Gloss (en): from.here  recently  February  3.YINI.IMPF PAS call.NEU.IMPF =SUBORD   month =when   two =towards  TRNSL 3.PROG TH pass.night.PROG =when =PST  from.here  off  DISTR INC 1.DU/PL.YI.ZERO.PERF go.PL.PERF     Tuba.City =from  four 1.DU/PL.NI.IMPF TH be.NEU.IMPF =SUBORD
 Morpheme Category: adv         v     nprop                     v:TAMS v:VAL v prt         n prt        adv prt               v:QUAL v:TAMS v:VAL v prt adv        adv  adv                   v:DISTR  v:QUAL v:TAMS v           nprop prt                       adv v:TAMS v:VAL v prt
@@ -15,8 +15,8 @@ Sentence Gloss (en): On February 2, four of us set out from Tuba City.
 	:actor (s1p / person
 		:refer-person 1st
 		:refer-number plural
-		:ARG0-of (s1h / have-quant-91
-			:ARG1 4))
+		:ARG1-of (s1h / have-quant-91
+			:ARG2 4))
 	:start (s1c / city
 		:name (s1n / name
 			:op1 "Tó"
@@ -30,14 +30,14 @@ Sentence Gloss (en): On February 2, four of us set out from Tuba City.
 	:mod (s1d3 / dah))
 
 # alignment:
-s1c: 11-11
+s1c: 11-12
 s1d: 10-10
 s1d2: 0-0
 s1d3: 9-9
 s1h: 0-0
 s1k: 8-8
 s1n: 0-0
-s1p: 0-0
+s1p: 13-13
 s1x: 2-2
 
 # document level annotation:
@@ -373,9 +373,9 @@ s10p: 0-0
 ################################################################################
 # meta-info
 # :: snt11
-Index:           1        2        3                 4      5
-Words:           Chidí    naat’a’í dį́į́’              naazį́į́ lá
-Word Gloss (en): airplane four     they.stood.around !
+Index:           1     2        3    4                 5
+Words:           Chidí naat’a’í dį́į́’ naazį́į́            lá
+Word Gloss (en): air   plane    four they.stood.around !
 Morphemes: chidí naat’a’í  dį́į́’                naa- zį́į́      lá
 Morpheme Gloss (en): airplane    four  around stand.SG.NEU.PERF       !
 Morpheme Category: n     adv                  v:PRVB v  interj
@@ -383,13 +383,13 @@ Sentence Gloss (en): There were four planes.
 
 # sentence level graph:
 (s11h / have-quant-91
-	:ARG0 (s11c / chidí-naat’a’í)
-	:ARG1 4
+	:ARG1 (s11c / chidí-naat’a’í)
+	:ARG2 4
 	:aspect state)
 
 # alignment:
-s11h: 0-0
-s11c: 1-1
+s11h: 3-4
+s11c: 1-2
 
 # document level annotation:
 (s11s0 / sentence
@@ -896,25 +896,25 @@ s23p: 0-0
 ################################################################################
 # meta-info
 # :: snt24
-Index:           1        2    3        4    5    6                 7   8          9           10
-Words:           ’Aadóó   ’eii dził     t’áá yaa  ndaaz’áágóó       dóó ńléí       Béégashii   Bito’jį’
-Word Gloss (en): and.then that mountain just down towards.the.peaks and over.there Cow.Springs
+Index:           1        2    3        4    5    6                 7   8          9         10
+Words:           ’Aadóó   ’eii dził     t’áá yaa  ndaaz’áágóó       dóó ńléí       Béégashii Bito’jį’
+Word Gloss (en): and.then that mountain just down towards.the.peaks and over.there Cow       Springs
 Morphemes: ’aadóó  ’eii      dził  t’áá   yaa                                    n- daa- z- ’áá =góó  dóó        ńléí  Béégashii Bito’jį’
 Morpheme Gloss (en): and.then  that  mountain  just  down  around DISTR 3.SI.PERF extend.SlRiO.NEU.PERF =towards  and  over.there         Cow.Springs
 Morpheme Category: prt   adv         n   adv   adv                           v:PRVB v:DISTR  v:TAMS v prt  prt         adv               nprop
 Sentence Gloss (en): And then over the lower end of the mountains and over Cow Springs.
 
 # sentence level graph:
-(s24s / s23a
-	:op3 (s24d / dził
+(s24s / and
+	:op1 (s24d / dził
 		:ARG1-of (s24n / ndaaz’áágóó
 			:aspect state
 			:manner (s24y / yaa
 				:manner (s24t / t’áá-))))
-	:op4 (s24t2 / trading_post
+	:op2 (s24t2 / trading_post
 		:name (s24n2 / name
-			:op2 "Béégashii"
-			:op3 "Bito’jį’")
+			:op1 "Béégashii"
+			:op2 "Bito’jį’")
 		:wiki "Cow-Springs,-Arizona"))
 
 # alignment:
@@ -922,8 +922,8 @@ s24s: 0-0
 s24d: 3-3
 s24n: 6-6
 s24y: 5-5
-s24t: 3-3
-s24t2: 9-9
+s24t: 4-4
+s24t2: 9-10
 s24n2: 0-0
 
 # document level annotation:
@@ -946,14 +946,14 @@ Morpheme Category: prt        adv post         nprop                    v:AR v:T
 Sentence Gloss (en): And then on over Shonto and over the ridge.
 
 # sentence level graph:
-(s25s / s23a
-	:op5 (s25p / place
+(s25s / and
+	:op1 (s25p / place
 		:name (s25n / name
 			:op1 "Shą́ą́’"
 			:op2 "Tóhí")
 		:wiki "Shonto,-Arizona"
 		:mod (s25n2 / níwohjį’))
-	:op6 (s25b / báátis))
+	:op2 (s25b / báátis))
 
 # alignment:
 s25s: 0-0
@@ -970,17 +970,17 @@ s25b: 6-6
 ################################################################################
 # meta-info
 # :: snt26
-Index:           1        2           3        4            5          6
-Words:           ’Aadóó   níwohjį’    ’Ooljéé’ Tó           hoolyé     ’ákóyaa
-Word Gloss (en): and.then up.that.far Oljato   it.is.called down.there
+Index:           1        2           3        4      5            6
+Words:           ’Aadóó   níwohjį’    ’Ooljéé’ Tó     hoolyé       ’ákóyaa
+Word Gloss (en): and.then up.that.far Oljato   Oljato it.is.called down.there
 Morphemes: ’aadóó      níwoh =jį’  ’Ooljéé’ Tó                      h- oo- l- yé     ’ákóyaa
 Morpheme Gloss (en): and.then  farther =up.to       Oljato  AR 3.YINI.IMPF PAS call.NEU.IMPF  down.there
 Morpheme Category: prt        adv post        nprop               v:AR v:TAMS v:VAL v         adv
 Sentence Gloss (en): And then on down to Oljato.
 
 # sentence level graph:
-(s26s / s23a
-	:op7 (s26p / place
+(s26s / and
+	:op1 (s26p / place
 		:name (s26n / name
 			:op1 "’Ooljéé’"
 			:op2 "Tó")
