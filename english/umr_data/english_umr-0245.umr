@@ -754,7 +754,7 @@ Words: <Builder> or perpendicular?
 
 # sentence level graph:
 (s35a / umr-choice
-      :op2 (s35p / perpendicular-01))
+      :op1 (s35p / perpendicular-01))
 
 # alignment:
 
@@ -1203,7 +1203,7 @@ Words: <Architect> its as if they were laying side by side and the purple one ge
                                            :ARG3 (s55c2 / cartesian-framework-91
                                                         :ARG1 s55o
                                                         :FR (s55i3 / intrinsic))
-                                           :ARG3 (s55c3 / cartesian-framework-91
+                                           :ARG4 (s55c3 / cartesian-framework-91
                                                         :ARG1 s55t3
                                                         :FR (s55i4 / intrinsic))))
                   :op2 (s55t2 / tilt-01

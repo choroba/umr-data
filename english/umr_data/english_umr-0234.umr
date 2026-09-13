@@ -225,7 +225,7 @@ Words: <Builder> sorry i keep moving
 # sentence level graph:
 (s11s / sorry-01
       :ARG1 (s11i / i)
-      :ARG1 (s11k / keep-02
+      :ARG2 (s11k / keep-02
                   :ARG0 s11i
                   :ARG1 (s11m / move-01
                               :ARG0 s11i)))
@@ -243,7 +243,7 @@ Words: <Architect> and basically lift that one place off the ground
 
 # sentence level graph:
 (s12a / and
-      :op2 (s12l / lift-01
+      :op1 (s12l / lift-01
                  :ARG0 (s12y / you)
                  :ARG1 (s12t / thing
                              :mod (s12t2 / that))
@@ -1760,7 +1760,7 @@ Words: <Architect> and make that end have the middle touching the orange and one
 
 # sentence level graph:
 (s84a / and
-      :op2 (s84m / make-02
+      :op1 (s84m / make-02
                  :ARG0 (s84y / you)
                  :ARG1 (s84h2 / have-03
                               :ARG0 (s84t2 / thing
@@ -2334,7 +2334,7 @@ Words: <Architect> and remove the second one to the left of the yellow
 
 # sentence level graph:
 (s110a / and
-       :op2 (s110r / remove-01
+       :op1 (s110r / remove-01
                    :ARG0 (s110y / you)
                    :ARG1 (s110o2 / one
                                  :ord (s110o / ordinal-entity
@@ -2610,7 +2610,7 @@ Words: <Architect> and one red on top
 
 # sentence level graph:
 (s122a / and
-       :op2 (s122b / be-destined-for-91
+       :op1 (s122b / be-destined-for-91
                    :ARG1 (s122t / thing
                                 :color (s122r / red)
                                 :quant 1)

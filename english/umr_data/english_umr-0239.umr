@@ -1102,7 +1102,7 @@ Words: <Architect> and then another red one below that
 
 # sentence level graph:
 (s50a / and
-      :op2 (s50b2 / have-goal-91
+      :op1 (s50b2 / have-goal-91
                   :ARG1 (s50o / one
                               :mod (s50a2 / another)
                               :color (s50r / red))
@@ -1475,7 +1475,7 @@ Words: <Architect> and then do it again
 
 # sentence level graph:
 (s67a / and
-    :op2 (s67d / do-02
+    :op1 (s67d / do-02
         :ARG0 (s67y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1799,7 +1799,7 @@ Words: <Architect> and one under the second one
 
 # sentence level graph:
 (s81a / and
-      :op2 (s81b / have-goal-91
+      :op1 (s81b / have-goal-91
                  :ARG1 (s81t / thing
                              :quant 1)
                  :ARG2 (s81s / space
