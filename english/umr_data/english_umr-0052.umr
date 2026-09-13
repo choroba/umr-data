@@ -34,7 +34,7 @@ Words: First off, the fact that health care costs so much and that so many peopl
                                          :place (s1o / office
                                                      :possessor (s1d / doctor))
                                          :mod (s1j / just))))
-     :li 1)
+     :list-item 1)
 
 # alignment:
 
@@ -426,7 +426,7 @@ Words: this being said, government regulation of this can provide a  framework t
                                                           :ARG0 (s17p3 / person
                                                                        :quant (s17m2 / more))
                                                           :ARG1 (s17i / it)
-                                                          :ARG1-of s17p
+                                                          :ARG1-of (s17p4 / possible-01)
                                                           :ARG1-of (s17c2 / compare-01
                                                                           :ARG2 (s17a2 / access-01
                                                                                        :ARG0 s17p3
@@ -596,7 +596,7 @@ Words: And if you or anyone else thinks Obamacare's mandate that pre existing co
 
 # sentence level graph:
 (s24a2 / and
-       :op2 (s24n / nuts
+       :op1 (s24n / nuts
                   :domain (s24y / you)
                   :condition (s24t / think-01
                                    :ARG0 (s24o2 / or
@@ -723,7 +723,7 @@ Words: And we get shitty rationed care by doctors who are from third world count
 
 # sentence level graph:
 (s29a / and
-      :op2 (s29g / get-01
+      :op1 (s29g / get-01
                  :ARG0 (s29w / we)
                  :ARG1 (s29c2 / care-03
                               :ARG0 (s29d / doctor

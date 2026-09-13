@@ -137,7 +137,7 @@ Words: And a lot of those Tories participate right here in this forum.
 
 # sentence level graph:
 (s5a / and
-     :op2 (s5p / participate-01
+     :op1 (s5p / participate-01
                :ARG0 (s5p2 / person
                            :ARG1-of (s5h3 / have-org-role-92
                                           :ARG2 (s5p5 / political-organization
@@ -198,7 +198,7 @@ Words: And while Obama had promised to veto the bill he recently withdrew that p
 
 # sentence level graph:
 (s7a / and
-     :op2 (s7w / withdraw-01
+     :op1 (s7w / withdraw-01
                :ARG0 (s7p / person
                           :name (s7n / name
                                      :op1 "Obama")

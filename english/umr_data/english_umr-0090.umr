@@ -165,7 +165,7 @@ Words: And the weenie obviously overrules the brain more often than it should.
 
 # sentence level graph:
 (s8a / and
-     :op2 (s8o / overrule-01
+     :op1 (s8o / overrule-01
                :ARG0 (s8w / weenie)
                :ARG1 (s8b / brain)
                :ARG1-of (s8o2 / obvious-01)
@@ -264,7 +264,7 @@ Words: And I really don't think now is the time to be quibbling about trivial bu
 
 # sentence level graph:
 (s11a / and
-    :op2 (s11t / think-01
+    :op1 (s11t / think-01
         :ARG0 (s11i / person
             :refer-person 1st
             :refer-number singular)
@@ -807,7 +807,7 @@ Words: Furthermore, please refer back to what I said earlier: if you're worried 
 
 # sentence level graph:
 (s31a2 / and
-    :op2 (s31r / refer-01
+    :op1 (s31r / refer-01
         :ARG0 (s31y / person
             :refer-person 2nd
             :refer-definiteness class)

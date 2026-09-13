@@ -83,7 +83,6 @@ Words: i didnt know they church sold insurance now?
                   :ARG0 (s34c / church)
                   :ARG1 (s34i2 / insure-02)
                   :temporal (s34n / now))
-      :polarity (s34a / umr-unknown)
       :polarity -)
 
 # alignment:
@@ -120,7 +119,7 @@ Words: you do realize that there is a difference between an insurance company an
       :ARG1 (s36d / differ-02
                   :ARG1 (s36c / company
                               :ARG0-of (s36i / insure-02))
-                  :ARG1 (s36c3 / company
+                  :ARG2 (s36c3 / company
                                :ARG0-of (s36p / provide-01
                                               :ARG1 (s36c2 / care-03
                                                            :ARG1 (s36h / health)))))

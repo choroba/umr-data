@@ -295,7 +295,7 @@ Words: And weapons launched from the former Soviet Union would hit the US FIRST 
 
 # sentence level graph:
 (s13a / and
-      :op2 (s13h / hit-01
+      :op1 (s13h / hit-01
                  :ARG1 (s13c / country
                              :name (s13n2 / name
                                           :op1 "US")
@@ -575,7 +575,7 @@ Words: Or have someone read about recent technology to you.
 
 # sentence level graph:
 (s22o / or
-    :op2 (s22h / have-04
+    :op1 (s22h / have-04
         :ARG0 (s22y / person
             :refer-person 2nd
             :refer-number singular)

@@ -39,7 +39,7 @@ Words: Here are a couple of examples of " marriage "  in Civil Law ,  abolish Ci
                                           :ARG2 (s5t2 / thing)
                                           :aspect state
                                           :modal-strength full-negative)
-                            :li 1
+                            :list-item 1
                             :aspect state
                             :modal-strength full-negative)
                   :op2 (s5e / event))
@@ -115,7 +115,7 @@ Words: 2 . It would eliminate the exemption form the Estate Tax applicable to th
                                :ARG1 s7e2
                                :aspect habitual
                                :modal-strength full-affirmative))
-     :li 2
+     :list-item 2
      :aspect performance
      :modal-strength full-affirmative)
 
@@ -232,7 +232,7 @@ Words: 3. No spousal privilege in the case of a criminal prosecution.
       :condition (s11p2 / prosecute-01
                         :ARG2 (s11c2 / crime-02))
       :polarity -
-      :li 3)
+      :list-item 3)
 
 # alignment:
 
@@ -251,7 +251,7 @@ Words: 4. Since there would be no "spouse", they could not be buried in a  Natio
                   :ARG1 (s12p / person
                               :ARG1-of (s12h2 / have-rel-role-92
                                               :ARG3 (s12s / spouse)
-                                              :ARG1 (s12p3 / person
+                                              :ARG2 (s12p3 / person
                                                            :ARG0-of (s12s3 / serve-01
                                                                            :ARG1 (s12v / veteran)
                                                                            :ARG2 (s12c2 / country
@@ -273,7 +273,7 @@ Words: 4. Since there would be no "spouse", they could not be buried in a  Natio
                                            :wiki "United_States_National_Cemetery_System")
                                :polarity -)
                    :polarity -)
-      :li 4)
+      :list-item 4)
 
 # alignment:
 
@@ -304,7 +304,7 @@ Words: 5. Without the legal recognition of "spouse" there would not be automatic
                                     :ARG1 (s13c6 / child)))
        :mod (s13a2 / automatic)
        :polarity -
-       :li 5)
+       :list-item 5)
 
 # alignment:
 
@@ -349,7 +349,7 @@ Words: 6. Since there would be no spouse, there would be no establish family rel
                                                           :ARG0 s14p3
                                                           :ARG1 s14p2)))
                    :polarity -)
-      :li 6)
+      :list-item 6)
 
 # alignment:
 
@@ -373,7 +373,7 @@ Words: 7. Since there would be no "spouse", employees would become liable for em
                   :ARG1 (s15p6 / person
                                :ARG1-of (s15e2 / employ-01
                                                :ARG0 (s15p7 / person)
-                                               :ARG0 (s15p8 / person
+                                               :ARG1 (s15p8 / person
                                                             :ARG0-of (s15p5 / provide-01
                                                                             :ARG1 (s15i2 / insure-02
                                                                                          :mod (s15h2 / health))
@@ -390,7 +390,7 @@ Words: 7. Since there would be no "spouse", employees would become liable for em
                                                                         :mod (s15t / tax-01))
                                                            :ARG2 s15p8)
                                                :polarity -)))
-      :li 7)
+      :list-item 7)
 
 # alignment:
 
@@ -523,7 +523,7 @@ Words: 9. No "spouse" means no established a family relationship where a  spouse
                                                                            :ARG3 s19s))
                                               :purpose (s19i / immigrate-01)))
                   :polarity -)
-      :li 9)
+      :list-item 9)
 
 # alignment:
 
@@ -538,7 +538,7 @@ Words: and to just round it out to 10...
 
 # sentence level graph:
 (s20a / and
-      :op2 (s20r / round-out-01
+      :op1 (s20r / round-out-01
                  :ARG1 (s20i / it)
                  :mod (s20j / just)
                  :manner (s20n / number-01
@@ -575,7 +575,7 @@ Words: No "spouse" means that military members will not be able to draw pay and 
       :ARG1 (s22p4 / person
                    :ARG1-of (s22h2 / have-rel-role-92
                                    :ARG3 (s22s / spouse)
-                                   :ARG1 (s22p5 / person))
+                                   :ARG2 (s22p5 / person))
                    :polarity -)
       :ARG2 (s22p / possible-01
                   :ARG1 (s22d / draw-02

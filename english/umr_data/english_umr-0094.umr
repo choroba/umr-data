@@ -93,7 +93,7 @@ Words: And if the population of the US had risen by the same percentage, that wo
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19h / have-condition-91
+      :op1 (s19h / have-condition-91
                  :ARG1 (s19e / explain-01
                              :ARG0 (s19r / rise-01
                                          :ARG1 (s19p / population
@@ -141,7 +141,7 @@ Words: And no combination of a higher population and an increase of the crime ra
 
 # sentence level graph:
 (s21a / and
-      :op2 (s21a2 / account-01
+      :op1 (s21a2 / account-01
                   :ARG0 (s21c / combine-01
                               :ARG2 (s21p2 / population
                                            :ARG1-of (s21h2 / have-degree-91

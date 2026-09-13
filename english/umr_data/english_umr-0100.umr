@@ -7,7 +7,7 @@ Words: Low cost loans , credit not a problem .
 # sentence level graph:
 (s16l / loan-01
       :ARG1-of (s16c / cost-01
-                     :ARG1 (s16m / monetary-quantity
+                     :ARG2 (s16m / monetary-quantity
                                  :ARG1-of (s16l2 / low-04))))
 
 # alignment:
