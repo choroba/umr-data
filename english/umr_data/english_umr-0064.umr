@@ -481,7 +481,7 @@ Words: No "spouse" means no family relationship under Social Security whereby th
                                                   :ARG1 (s18b / benefit-01)
                                                   :ARG2 (s18p3 / person
                                                                :ARG0-of (s18w / work-01)
-                                                               :ARG1-of s18h2)
+                                                               :ARG2-of s18h2)
                                                   :condition (s18h / high-02
                                                                    :ARG1 (s18r3 / rate
                                                                                 :possessor s18p3)

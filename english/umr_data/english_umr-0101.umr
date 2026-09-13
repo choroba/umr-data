@@ -59,7 +59,7 @@ Words: And cab drivers too!
 
 # sentence level graph:
 (s20a / and
-      :op2 (s20p / person
+      :op1 (s20p / person
                  :ARG0-of (s20d / drive-01
                                 :ARG1 (s20c / cab))
                  :mod (s20t / too)))

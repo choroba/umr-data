@@ -124,7 +124,7 @@ Words: and there is always sympathy for the one making the claim.
 
 # sentence level graph:
 (s21a / and
-      :op2 (s21s / sympathy
+      :op1 (s21s / sympathy
                  :temporal (s21a2 / always)
                  :affectee (s21o / one
                                  :ARG0-of (s21c / claim-02))))
@@ -173,7 +173,7 @@ Words: And we document every event.
 
 # sentence level graph:
 (s23a / and
-    :op2 (s23d / document-01
+    :op1 (s23d / document-01
         :ARG0 (s23w / person
             :refer-person 1st
             :refer-number plural)

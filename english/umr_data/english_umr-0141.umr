@@ -369,7 +369,7 @@ Words: If you live in an area with relatively inexpensive health plans, low- and
                                                            :mod (s27h3 / health)
                                                            :mod (s27e / expensive
                                                                       :polarity -)
-                                                           :ARG2-of s27r)))))
+                                                           :ARG2-of (s27r2 / relative-05))))))
 
 # alignment:
 
@@ -463,7 +463,7 @@ Words: This higher health spending is a function of different prices and differe
       :ARG0 (s30a / and
                   :op1 (s30p / price
                              :ARG1-of (s30d / differ-02
-                                            :ARG1 (s30u / use-01
+                                            :ARG2 (s30u / use-01
                                                         :ARG1 (s30c / care-03
                                                                     :mod (s30m2 / medicine)))))
                   :op2 s30u)

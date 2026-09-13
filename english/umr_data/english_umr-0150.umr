@@ -6,7 +6,7 @@ Words: And I disagree.
 
 # sentence level graph:
 (s1a / and
-    :op2 (s1d / disagree-01
+    :op1 (s1d / disagree-01
         :ARG0 (s1i / person
             :refer-person 1st
             :refer-number singular)))
