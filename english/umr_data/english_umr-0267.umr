@@ -698,7 +698,7 @@ Words: <Architect> And the sides should go towards the center.
 
 # sentence level graph:
 (s33a / and
-      :op2 (s33g / go-35
+      :op1 (s33g / go-35
                  :ARG1 (s33s / side
                              :refer-number plural)
                  :direction (s33t / toward-01
@@ -3021,7 +3021,7 @@ Words: <Builder> and up against the edge, or right here?
 
 # sentence level graph:
 (s140a / and
-       :op2 (s140b / have-goal-91
+       :op1 (s140b / have-goal-91
                    :ARG2 (s140a2 / umr-choice
                                  :op1 (s140s / space
                                              :ARG1-of (s140a3 / against-01
@@ -4882,7 +4882,7 @@ Words: <Architect> And punch out the one right above it.
 
 # sentence level graph:
 (s224a / and
-    :op2 (s224p / punch-out-02
+    :op1 (s224p / punch-out-02
         :ARG0 (s224y / person
             :refer-person 2nd
             :refer-number singular)

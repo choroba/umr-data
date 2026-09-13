@@ -1953,7 +1953,7 @@ Words: <Architect> and add a blue brick in front of the top middle red brick
 
 # sentence level graph:
 (s90a / and
-    :op2 (s90a2 / add-02
+    :op1 (s90a2 / add-02
         :ARG0 (s90y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2160,7 +2160,7 @@ Words: <Architect> and add one more blue brick up and behind the most recently a
 
 # sentence level graph:
 (s99a / and
-    :op2 (s99a2 / add-02
+    :op1 (s99a2 / add-02
         :ARG0 (s99y / person
             :refer-person 2nd
             :refer-number singular)

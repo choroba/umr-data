@@ -2184,7 +2184,7 @@ Words: <Architect> and we're good! great job!
 # sentence level graph:
 (s100a2 / and
     :op1 (s100a / and
-        :op2 (s100g / good-02
+        :op1 (s100g / good-02
             :ARG1 (s100w / person
                 :refer-person 1st
                 :refer-number plural)))

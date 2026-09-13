@@ -382,7 +382,7 @@ Words: <Builder> and next?
 
 # sentence level graph:
 (s21a / and
-      :op2 (s21a2 / umr-unknown
+      :op1 (s21a2 / umr-unknown
                   :mod (s21n / next))
       :mode interrogative)
 
@@ -827,7 +827,7 @@ Words: <Builder> Or above where it was?
 
 # sentence level graph:
 (s42o / or
-    :op2 (s42b / have-goal-91
+    :op1 (s42b / have-goal-91
         :ARG2 (s42s / space
             :ARG1-of (s42a / above-01
                 :ARG2 (s42s2 / space
@@ -2378,7 +2378,7 @@ Words: <Architect> and then one going diagonally up
 
 # sentence level graph:
 (s115a / and
-       :op2 (s115b / have-goal-91
+       :op1 (s115b / have-goal-91
                    :ARG1 (s115t / thing
                                 :quant 1)
                    :manner (s115g / go-35
@@ -2690,7 +2690,7 @@ Words: <Architect> and then remove the first yellow block
 
 # sentence level graph:
 (s130a / and
-    :op2 (s130r / remove-01
+    :op1 (s130r / remove-01
         :ARG0 (s130y / person
             :refer-person 2nd
             :refer-number singular)

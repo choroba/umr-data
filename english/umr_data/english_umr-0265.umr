@@ -428,7 +428,7 @@ Words: <Builder> or like that?
 
 # sentence level graph:
 (s22a / umr-choice
-      :op2 (s22r / resemble-91
+      :op1 (s22r / resemble-91
                  :ARG1 (s22t / that)))
 
 # alignment:
@@ -591,7 +591,7 @@ Words: <Builder> or stacked on top of the red ones?
 
 # sentence level graph:
 (s31a / umr-choice
-      :op2 (s31s / stack-01
+      :op1 (s31s / stack-01
                  :ARG2 (s31o2 / one
                               :color (s31r / red)
                               :refer-number plural)
@@ -635,7 +635,7 @@ Words: <Builder> or here?
 
 # sentence level graph:
 (s33a / umr-choice
-      :op3 (s33b / be-destined-for-91
+      :op1 (s33b / be-destined-for-91
                  :ARG2 (s33h / here)))
 
 # alignment:

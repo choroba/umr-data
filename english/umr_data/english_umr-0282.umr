@@ -988,7 +988,7 @@ Words: <Architect> and one above the most recently added brick
 
 # sentence level graph:
 (s44a / and
-      :op2 (s44b / have-goal-91
+      :op1 (s44b / have-goal-91
                  :ARG1 (s44t / thing
                              :quant 1)
                  :ARG2 (s44s / space
@@ -1425,7 +1425,7 @@ Words: <Architect> and remove the brick underneath the one you just added
 
 # sentence level graph:
 (s62a / and
-    :op2 (s62r / remove-01
+    :op1 (s62r / remove-01
         :ARG0 (s62y / person
             :refer-person 2nd
             :refer-number singular)

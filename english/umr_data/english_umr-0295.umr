@@ -195,7 +195,7 @@ Words: <Architect> and then from the top block towards the far end of the space,
 
 # sentence level graph:
 (s10a / and
-    :op2 (s10b / build-01
+    :op1 (s10b / build-01
         :ARG0 (s10y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1172,7 +1172,7 @@ Words: <Architect> and delete the lower yellow block
 
 # sentence level graph:
 (s52a / and
-    :op2 (s52d / delete-01
+    :op1 (s52d / delete-01
         :ARG0 (s52y / person
             :refer-person 2nd
             :refer-number singular)

@@ -527,7 +527,7 @@ Words: <Architect> and 1 purple block on top of the top red block too
 
 # sentence level graph:
 (s24a / and
-      :op2 (s24b / have-goal-91
+      :op1 (s24b / have-goal-91
                  :ARG1 (s24b2 / block
                               :color (s24p / purple)
                               :quant 1)
@@ -1854,7 +1854,7 @@ Words: <Builder> or gex
 
 # sentence level graph:
 (s83o / or
-      :op2 (s83s / string-entity
+      :op1 (s83s / string-entity
                  :value "gex"))
 
 # alignment:

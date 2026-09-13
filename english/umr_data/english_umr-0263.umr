@@ -161,7 +161,7 @@ Words: <Architect> and lets use purple blocks as placeholders
 
 # sentence level graph:
 (s8a / and
-    :op2 (s8u / use-01
+    :op1 (s8u / use-01
         :ARG0 (s8w / person
             :refer-person 1st
             :refer-number plural)
@@ -3000,7 +3000,7 @@ Words: <Builder> or like that
 
 # sentence level graph:
 (s132o / or
-       :op2 (s132r / resemble-91
+       :op1 (s132r / resemble-91
                    :ARG2 (s132t / that)))
 
 # alignment:
