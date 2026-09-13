@@ -544,7 +544,8 @@ Words: It's been almost 17 months since the coalition has been in now, not 15 mo
                                               :ARG1-of (s18s3 / say-01
                                                               :ARG0 (s18o3 / one
                                                                            :mod (s18a2 / another)
-                                                                           :ARG1-of s18i))
+                                                                           :ARG1-of (s18i2 / include-91
+                                                                                          :ARG2 s18y)))
                                               :quant 6))))
 
 # alignment:
@@ -1319,7 +1320,7 @@ Words: And failing.
 
 # sentence level graph:
 (s42a / and
-      :op2 (s42f / fail-01))
+      :op1 (s42f / fail-01))
 
 # alignment:
 
@@ -1696,7 +1697,6 @@ Words: How about a doctor or nurse that doesn't actually have any patients?
                                   :ARG2 s56o
                                   :ARG3 (s56p2 / patient)))
       :ARG1-of (s56a3 / actual-02)
-      :polarity (s56a2 / umr-unknown)
       :polarity -)
 
 # alignment:

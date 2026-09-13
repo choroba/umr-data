@@ -300,7 +300,7 @@ Words: And Obama as a figure head and his popularity proves that.
 
 # sentence level graph:
 (s9a2 / and
-      :op2 (s9p / prove-01
+      :op1 (s9p / prove-01
                 :ARG0 (s9a / and
                            :op1 (s9p2 / person
                                       :name (s9n / name
@@ -378,7 +378,7 @@ Words: And maybe one day too we will have our own Obama.
 
 # sentence level graph:
 (s12a / and
-    :op2 (s12h / have-org-role-92
+    :op1 (s12h / have-org-role-92
         :ARG2 (s12w / person
             :refer-person 1st
             :refer-number plural)

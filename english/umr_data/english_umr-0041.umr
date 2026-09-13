@@ -691,11 +691,12 @@ Words: That is those who develop the best and most efficient renewable/readily a
                     :ARG0-of (s22d / develop-02
                                    :ARG1 (s22s / source
                                                :mod (s22p / power)
-                                               :ARG1-of (s22a / access-01
-                                                              :ARG1-of (s22p2 / possible-01
-                                                                              :ARG1 (s22r / renew-01
-                                                                                          :ARG1 s22s))
+                                               :ARG1-of (s22a2 / and
+							:op1 (s22a / access-01
                                                               :ARG1-of (s22r2 / ready-02))
+							:op2 (s22r / renew-01
+								:ARG1 s22s)
+                                                        :ARG1-of (s22p2 / possible-01))
                                                :ARG1-of (s22h / have-degree-91
                                                               :ARG2 (s22e / efficient-01
                                                                           :ARG1 s22s)
