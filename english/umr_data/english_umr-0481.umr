@@ -129,7 +129,7 @@ Words: <Architect> and place one of them down
 
 # sentence level graph:
 (s8a / and
-    :op2 (s8p / place-down-04
+    :op1 (s8p / place-down-04
         :ARG0 (s8y / person
             :refer-person 2nd
             :refer-number singular)
@@ -233,7 +233,7 @@ Words: <Architect> and place one right next to that one
 
 # sentence level graph:
 (s13a / and
-    :op3 (s13p / place-01
+    :op1 (s13p / place-01
         :ARG0 (s13y / person
             :refer-person 2nd
             :refer-number singular)
@@ -297,7 +297,7 @@ Words: <Architect> and then place a blue block on top of either one
 
 # sentence level graph:
 (s16a / and
-    :op4 (s16p / place-01
+    :op1 (s16p / place-01
         :ARG0 (s16y / person
             :refer-person 2nd
             :refer-number singular)

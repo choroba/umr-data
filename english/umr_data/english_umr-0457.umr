@@ -1143,7 +1143,7 @@ Words: <Architect> and yes, filled in
 
 # sentence level graph:
 (s53a / and
-      :op2 (s53c / confirm-01
+      :op1 (s53c / confirm-01
                  :ARG1 (s53f / fill-in-05)))
 
 # alignment:
@@ -1564,7 +1564,7 @@ Words: <Architect> and a green in the middle
 
 # sentence level graph:
 (s71a / and
-      :op2 (s71b / have-goal-91
+      :op1 (s71b / have-goal-91
                  :ARG1 (s71t / thing
                              :color (s71g / green))
                  :ARG2 (s71s / space
@@ -1945,7 +1945,7 @@ Words: <Architect> and put three red blocks on top of the middle row
 
 # sentence level graph:
 (s89a / and
-    :op2 (s89p / put-01
+    :op1 (s89p / put-01
         :ARG0 (s89y / person
             :refer-person 2nd
             :refer-number singular)

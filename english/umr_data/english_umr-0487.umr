@@ -679,7 +679,7 @@ Words: <Architect> and then anothre layer of yellow
 
 # sentence level graph:
 (s33a / and
-      :op2 (s33b2 / have-goal-91
+      :op1 (s33b2 / have-goal-91
                   :ARG1 (s33l / layer
                               :mod (s33a2 / another)
                               :color (s33y2 / yellow)
@@ -831,7 +831,7 @@ Words: <Architect> and then orange and then red
 
 # sentence level graph:
 (s40a / and
-      :op2 (s40s / spatial-sequence-91
+      :op1 (s40s / spatial-sequence-91
                  :ARG5 (s40t3 / thing
                               :color (s40o2 / orange))
                  :ARG6 (s40t4 / thing
@@ -1710,7 +1710,7 @@ Words: <Architect> and there's a center orange block on the bottom too
 
 # sentence level graph:
 (s80a / and
-      :op2 (s80b2 / block
+      :op1 (s80b2 / block
                   :color (s80o / orange)
                   :ARG1-of (s80c / center-03
                                  :ARG2 (s80t / thing
@@ -2151,7 +2151,7 @@ Words: <Architect> and then up again
 
 # sentence level graph:
 (s101a / and
-       :op4 (s101b / have-goal-91
+       :op1 (s101b / have-goal-91
                    :ARG2 (s101s / space
                                 :ARG1-of (s101u / up-03
                                                 :ARG5 (s101c / cartesian-framework-91
@@ -2217,7 +2217,7 @@ Words: <Architect> and then one last one to make it like a  handle
 
 # sentence level graph:
 (s104a / and
-    :op6 (s104b / have-goal-91
+    :op1 (s104b / have-goal-91
         :ARG1 (s104o / one
             :ord (s104o2 / ordinal-entity
                 :value "-1")
@@ -2401,7 +2401,7 @@ Words: <Architect> and i gave you the wrong colors too haha
 
 # sentence level graph:
 (s113a / and
-    :op3 (s113g / give-01
+    :op1 (s113g / give-01
         :ARG0 (s113i / person
             :refer-person 1st
             :refer-number singular)

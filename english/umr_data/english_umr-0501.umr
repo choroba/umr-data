@@ -169,7 +169,7 @@ Words: <Architect> now make an l with another orange block
         :configuration (s8s / string-entity
             :value "L"))
     :ARG2 (s8a2 / and
-        :op2 (s8b / block
+        :op1 (s8b / block
             :color (s8o / orange)
             :mod (s8a / another)))
     :temporal (s8n / now)

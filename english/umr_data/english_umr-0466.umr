@@ -170,7 +170,7 @@ Words: <Builder> or head?
 
 # sentence level graph:
 (s9o / or
-     :op2 (s9h / head
+     :op1 (s9h / head
                :polarity (s9a / umr-unknown))
      :mode interrogative)
 
@@ -936,7 +936,7 @@ Words: <Architect> and orange on top of that
 
 # sentence level graph:
 (s45a / and
-      :op2 (s45b / have-goal-91
+      :op1 (s45b / have-goal-91
                  :ARG1 (s45t / thing
                              :color (s45o / orange))
                  :ARG2 (s45s / space

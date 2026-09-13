@@ -225,7 +225,7 @@ Words: <Architect> and 3 more red blocks on top of that
 
 # sentence level graph:
 (s11a / and
-      :op2 (s11b2 / have-goal-91
+      :op1 (s11b2 / have-goal-91
                   :ARG1 (s11b / block
                               :color (s11r / red)
                               :ARG1-of (s11h / have-quant-91
@@ -343,7 +343,7 @@ Words: <Architect> and then the next layer is all purple
 
 # sentence level graph:
 (s16a / and
-      :op3 (s16p / purple
+      :op1 (s16p / purple
                  :color-of (s16l / layer
                                  :mod (s16n / next)
                                  :mod (s16a2 / all)

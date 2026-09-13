@@ -277,7 +277,7 @@ Words: <Builder> or there?
 
 # sentence level graph:
 (s14a / umr-choice
-      :op2 (s14b / be-destined-for-91
+      :op1 (s14b / be-destined-for-91
                  :ARG2 (s14t / there)))
 
 # alignment:
@@ -505,7 +505,7 @@ Words: <Builder> or there?
 
 # sentence level graph:
 (s25a / umr-choice
-      :op2 (s25b / be-destined-for-91
+      :op1 (s25b / be-destined-for-91
                  :ARG2 (s25t / there)))
 
 # alignment:
@@ -1773,7 +1773,7 @@ Words: <Architect> and one to the right of that
 
 # sentence level graph:
 (s83a / and
-      :op2 (s83b / be-destined-for-91
+      :op1 (s83b / be-destined-for-91
                  :ARG1 (s83t2 / thing
                               :quant 1)
                  :ARG2 (s83s / space
@@ -2030,7 +2030,7 @@ Words: <Architect> and fill it in so there is only one empty block in the 5  sha
 
 # sentence level graph:
 (s94a / and
-      :op3 (s94f / fill-in-05
+      :op1 (s94f / fill-in-05
                  :ARG0 (s94y / you)
                  :ARG1 (s94i2 / it)
                  :ARG0-of (s94c / cause-01

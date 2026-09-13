@@ -603,7 +603,7 @@ Words: <Architect> and one right
 
 # sentence level graph:
 (s28a / and
-      :op2 (s28r / right-04
+      :op1 (s28r / right-04
                  :ARG3 (s28c / cartesian-framework-91
                              :ARG1 (s28b / builder))
                  :quant (s28d / distance-quantity
@@ -1214,7 +1214,7 @@ Words: <Architect> and purple on top of that
 
 # sentence level graph:
 (s55a / and
-      :op2 (s55b2 / have-goal-91
+      :op1 (s55b2 / have-goal-91
                   :ARG1 (s55t / thing
                               :color (s55p2 / purple))
                   :ARG2 (s55s / space
@@ -1258,7 +1258,7 @@ Words: <Architect> and red on top of the (5,3) blue
 
 # sentence level graph:
 (s57a / and
-      :op3 (s57b3 / have-goal-91
+      :op1 (s57b3 / have-goal-91
                   :ARG1 (s57t / thing
                               :color (s57r / red))
                   :ARG2 (s57s / space

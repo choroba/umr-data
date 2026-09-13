@@ -489,7 +489,7 @@ Words: <Architect> and another on top of that then remove the ground one
 
 # sentence level graph:
 (s22a / and
-    :op2 (s22b / have-goal-91
+    :op1 (s22b / have-goal-91
         :ARG1 (s22t / thing
             :mod (s22a2 / another))
         :ARG2 (s22s / space
@@ -1850,7 +1850,7 @@ Words: <Architect> and the two middle sides
 
 # sentence level graph:
 (s80a / and
-      :op2 (s80s / side
+      :op1 (s80s / side
                  :ARG1-of (s80m / middle-01)
                  :quant 2))
 

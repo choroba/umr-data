@@ -394,7 +394,7 @@ Words: <Architect> and it will be symmetric
 
 # sentence level graph:
 (s19a / and
-    :op2 (s19s / symmetric-01
+    :op1 (s19s / symmetric-01
         :ARG1 (s19i2 / thing
             :refer-person 3rd
             :refer-number singular)))
@@ -456,7 +456,7 @@ Words: <Architect> and yeah@!!
 
 # sentence level graph:
 (s22a / and
-      :op3 (s22c / confirm-01))
+      :op1 (s22c / confirm-01))
 
 # alignment:
 
@@ -907,7 +907,7 @@ Words: <Architect> yup! and the same again
 (s42a3 / and
        :op1 (s42c / confirm-01)
        :op2 (s42a / and
-                  :op2 (s42t / thing
+                  :op1 (s42t / thing
                              :ARG1-of (s42s / same-01)
                              :mod (s42a2 / again))))
 

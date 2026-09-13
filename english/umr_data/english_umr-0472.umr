@@ -1301,7 +1301,7 @@ Words: <Architect> and then delete all the boxes under the steps
 
 # sentence level graph:
 (s56a / and
-    :op2 (s56d / delete-01
+    :op1 (s56d / delete-01
         :ARG0 (s56y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1761,7 +1761,7 @@ Words: <Architect> and then delete everything but the steps
 
 # sentence level graph:
 (s76a / and
-    :op2 (s76d / delete-01
+    :op1 (s76d / delete-01
         :ARG0 (s76y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1920,7 +1920,7 @@ Words: <Architect> and then delete the bottom orange stair
 
 # sentence level graph:
 (s83a / and
-    :op3 (s83d / delete-01
+    :op1 (s83d / delete-01
         :ARG0 (s83y / person
             :refer-person 2nd
             :refer-number singular)

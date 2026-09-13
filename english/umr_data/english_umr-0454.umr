@@ -47,7 +47,7 @@ Words: <Architect> and they're floating
 
 # sentence level graph:
 (s3a / and
-    :op2 (s3f / float-01
+    :op1 (s3f / float-01
         :ARG1 (s3t / person
             :refer-person 3rd
             :refer-number plural)))
@@ -106,7 +106,7 @@ Words: <Architect> and three units up
 
 # sentence level graph:
 (s6a / and
-     :op2 (s6u / up-03
+     :op1 (s6u / up-03
                :ARG5 (s6c / cartesian-framework-91
                           :ARG1 (s6w / white-square))
                :quant (s6d / distance-quantity
@@ -367,7 +367,7 @@ Words: <Architect> and they start one unit up, not two units up
 
 # sentence level graph:
 (s18a / and
-    :op2 (s18s / start-01
+    :op1 (s18s / start-01
         :ARG1 (s18t / person
             :refer-person 3rd
             :refer-number plural)

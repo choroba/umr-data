@@ -369,7 +369,7 @@ Words: <Architect> and put two more orange blocks in front of the top two
 
 # sentence level graph:
 (s17a / and
-    :op2 (s17p / put-01
+    :op1 (s17p / put-01
         :ARG0 (s17y / person
             :refer-person 2nd
             :refer-number singular)
@@ -447,7 +447,7 @@ Words: <Architect> and connect them with one more orange block
 
 # sentence level graph:
 (s20a / and
-    :op3 (s20c / connect-01
+    :op1 (s20c / connect-01
         :ARG0 (s20y / person
             :refer-person 2nd
             :refer-number singular)
@@ -545,7 +545,7 @@ Words: <Architect> and another green block up and forward, like a  staircase
 
 # sentence level graph:
 (s24a / and
-      :op2 (s24b3 / have-goal-91
+      :op1 (s24b3 / have-goal-91
                   :ARG1 (s24b / block
                               :mod (s24a2 / another)
                               :color (s24g / green))
@@ -639,7 +639,7 @@ Words: <Architect> and one more up and forward
 
 # sentence level graph:
 (s28a / and
-      :op3 (s28b2 / have-goal-91
+      :op1 (s28b2 / have-goal-91
                   :ARG1 (s28t / thing
                               :mod (s28m / more)
                               :quant 1)
@@ -1221,7 +1221,7 @@ Words: <Architect> and one more purple block to make a staircase in the opposite
 
 # sentence level graph:
 (s53a / and
-      :op2 (s53b / have-goal-91
+      :op1 (s53b / have-goal-91
                  :ARG1 (s53b2 / block
                               :color (s53p / purple)
                               :mod (s53m / more)
@@ -1352,7 +1352,7 @@ Words: <Architect> good work! and sorry for the confusion
        :op1 (s59w / work-01
                   :ARG1-of (s59g / good-02))
        :op2 (s59a / and
-                  :op2 (s59s / sorry-01
+                  :op1 (s59s / sorry-01
                              :ARG2 (s59c / confuse-01))))
 
 # alignment:

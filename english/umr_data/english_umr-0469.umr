@@ -85,7 +85,7 @@ Words: <Architect> and build six red blocks in a line upwards
 
 # sentence level graph:
 (s5a / and
-    :op2 (s5b / build-01
+    :op1 (s5b / build-01
         :ARG0 (s5y / person
             :refer-person 2nd
             :refer-number singular)
@@ -652,7 +652,7 @@ Words: <Architect> and then one more orange block on the top right
 
 # sentence level graph:
 (s29a / and
-      :op2 (s29b2 / have-goal-91
+      :op1 (s29b2 / have-goal-91
                   :ARG1 (s29b / block
                               :color (s29o / orange)
                               :mod (s29m / more)
