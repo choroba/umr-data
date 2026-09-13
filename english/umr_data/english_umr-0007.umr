@@ -598,8 +598,7 @@ s9p6: 0-0
             (s9p4 :full-negative s9h))
     :coref ((s8p3 :same-entity s9p5)
             (s8p4 :same-entity s9p6)
-            (s8p :same-entity s9p4)
-            (s8o :same-entity s9o)))
+            (s8p :same-entity s9p4)))
 
 
 ################################################################################
