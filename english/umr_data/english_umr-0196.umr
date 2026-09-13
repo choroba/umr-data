@@ -5895,7 +5895,7 @@ Words: and the crowds have exacerbated the city 's severe water shortage .
 
 # sentence level graph:
 (s189a / and
-       :op2 (s189e / exacerbate-01
+       :op1 (s189e / exacerbate-01
                    :ARG0 (s189c / crowd)
                    :ARG1 (s189s / short-06
                                 :ARG1 (s189c2 / city)
@@ -5959,7 +5959,7 @@ Words: and their parents can not legally work ;
 
 # sentence level graph:
 (s192a / and
-       :op2 (s192p / possible-01
+       :op1 (s192p / possible-01
                    :ARG1 (s192w / work-01
                                 :ARG0 (s192p2 / person
                                               :ARG1-of (s192h / have-rel-role-92
@@ -6372,7 +6372,7 @@ Words: and to keep the baby from playing with the colorful cups ,  Abather suspe
 
 # sentence level graph:
 (s204a2 / and
-        :op2 (s204s / suspend-02
+        :op1 (s204s / suspend-02
                     :ARG0 (s204p2 / person
                                   :name (s204n / name
                                                :op1 "Abather")
@@ -6589,7 +6589,7 @@ Words: and I 'm very happy .
 
 # sentence level graph:
 (s214a / and
-       :op2 (s214h / happy-01
+       :op1 (s214h / happy-01
                    :ARG1 (s214i / i)
                    :degree (s214v / very)))
 
