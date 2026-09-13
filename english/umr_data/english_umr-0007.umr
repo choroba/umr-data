@@ -667,8 +667,7 @@ s10p4: 0-0
             (s10p6 :full-negative s10g))
     :coref ((s9p5 :same-entity s10p3)
             (s9p6 :same-entity s10p4)
-            (s9p4 :same-entity s10p6)
-            (s9o :same-entity s10o2)))
+            (s9p4 :same-entity s10p6)))
 
 
 ################################################################################
