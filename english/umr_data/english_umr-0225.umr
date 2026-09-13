@@ -412,7 +412,7 @@ Words: And this time everybody accepted his report .
 
 # sentence level graph:
 (s160a / and
-       :op2 (s160a2 / accept-01
+       :op1 (s160a2 / accept-01
                     :ARG0 (s160e / everybody)
                     :ARG1 (s160t3 / thing
                                   :ARG1-of (s160r / report-01
@@ -789,7 +789,7 @@ Words: And what good would it do to tell them that ?
 
 # sentence level graph:
 (s176a / and
-       :op2 (s176d / do-02
+       :op1 (s176d / do-02
                    :ARG0 (s176t / tell-01
                                 :ARG1 (s176t3 / that)
                                 :ARG2 (s176t2 / they))
@@ -1178,7 +1178,7 @@ Words: And if I forget him , I may become like the grown -  ups who are no longe
 
 # sentence level graph:
 (s192a / and
-       :op2 (s192p / possible-01
+       :op1 (s192p / possible-01
                    :ARG1 (s192r / resemble-91
                                 :ARG1 (s192i / i)
                                 :ARG2 (s192g / grown-up
@@ -1377,7 +1377,7 @@ Words: And I feel some doubts about the color of his costume .
 
 # sentence level graph:
 (s199a / and
-       :op2 (s199f / feel-01
+       :op1 (s199f / feel-01
                    :ARG0 (s199i / i)
                    :ARG1 (s199d / doubt-01
                                 :ARG0 s199i

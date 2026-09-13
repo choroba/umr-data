@@ -21,7 +21,7 @@ Words: And now six years have already gone by ...
 
 # sentence level graph:
 (s1527a / and
-        :op2 (s1527g / go-on-15
+        :op1 (s1527g / go-on-15
                      :ARG1 (s1527t / temporal-quantity
                                    :unit (s1527y / year)
                                    :quant 6)
@@ -366,7 +366,7 @@ Words: And there is sweetness in the laughter of all the stars .
 
 # sentence level graph:
 (s1543a / and
-        :op2 (s1543s / sweet-05
+        :op1 (s1543s / sweet-05
                      :ARG1 (s1543l / laugh-01
                                    :ARG0 (s1543s2 / star
                                                   :mod (s1543a2 / all)))))
@@ -442,7 +442,7 @@ Words: And then the little bells are changed to tears ...
 
 # sentence level graph:
 (s1546a / and
-        :op2 (s1546c / change-01
+        :op1 (s1546c / change-01
                      :ARG1 (s1546b / bell
                                    :mod (s1546l / little))
                      :ARG2 (s1546t2 / tear-03)
@@ -569,7 +569,7 @@ Words: And you will see how everything changes ...
 
 # sentence level graph:
 (s1552a / and
-        :op2 (s1552s / see-01
+        :op1 (s1552s / see-01
                      :ARG0 (s1552y / you)
                      :ARG1 (s1552h / have-manner-91
                                    :ARG2 (s1552c / change-01
@@ -588,7 +588,7 @@ Words: And no grown - up will ever understand that this is a  matter of so much 
 
 # sentence level graph:
 (s1553a / and
-        :op2 (s1553u / understand-01
+        :op1 (s1553u / understand-01
                      :ARG0 (s1553g / grown-up)
                      :ARG1 (s1553t / this
                                    :ARG1-of (s1553m / matter-01
@@ -716,7 +716,7 @@ Words: And , if you should come upon this spot ,  please do not hurry on .
 
 # sentence level graph:
 (s1558a / and
-        :op2 (s1558h / hurry-01
+        :op1 (s1558h / hurry-01
                      :ARG0 (s1558y / you)
                      :ARG1 s1558y
                      :condition (s1558c / come-upon-26

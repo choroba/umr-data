@@ -225,7 +225,7 @@ Words: And I was proud to have him learn that I  could fly .
 
 # sentence level graph:
 (s112a / and
-    :op2 (s112p / pride-01
+    :op1 (s112p / pride-01
         :ARG0 (s112i / person
             :refer-person 1st
             :refer-number singular)
@@ -347,7 +347,7 @@ Words: And the little prince broke into a lovely peal of laughter ,  which irrit
 
 # sentence level graph:
 (s119a / and
-    :op2 (s119b / break-in-17
+    :op1 (s119b / break-in-17
         :ARG0 (s119p / prince
             :mod (s119l / little))
         :ARG1 (s119l2 / laugh-01
@@ -550,7 +550,7 @@ Words: And he sank into a reverie , which lasted a  long time .
 
 # sentence level graph:
 (s126a / and
-    :op2 (s126s / sink-01
+    :op1 (s126s / sink-01
         :ARG0 (s126h / person
             :refer-person 3rd
             :refer-number singular)
@@ -794,7 +794,7 @@ Words: And if you are good I will give you a  string ,  too ,  so that you can t
 
 # sentence level graph:
 (s135a / and
-    :op2 (s135g / give-01
+    :op1 (s135g / give-01
         :ARG0 (s135i / person
             :refer-person 1st
             :refer-number singular)
@@ -1038,7 +1038,7 @@ Words: And , with perhaps a hint of sadness , he added :  "  Straight ahead of h
 
 # sentence level graph:
 (s145a / and
-    :op2 (s145a2 / add-01
+    :op1 (s145a2 / add-01
         :ARG0 (s145h / person
             :refer-person 3rd
             :refer-number singular)

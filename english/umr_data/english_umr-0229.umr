@@ -609,7 +609,7 @@ Words: " And I was born at the same moment as the sun ... "
 
 # sentence level graph:
 (s392a / and
-    :op2 (s392b / bear-02
+    :op1 (s392b / bear-02
         :ARG1 (s392i / person
             :refer-person 1st
             :refer-number singular)
@@ -845,7 +845,7 @@ Words: " And , anyway , tigers do not eat weeds .  "
 
 # sentence level graph:
 (s401a / and
-       :op2 (s401e / eat-01
+       :op1 (s401e / eat-01
                    :ARG0 (s401t / tiger)
                    :ARG1 (s401w / weed)
                    :mod (s401a2 / anyway)
