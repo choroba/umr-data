@@ -124,7 +124,7 @@ Words: <Architect> and then you'll want to put two more blue blocks on top of th
 
 # sentence level graph:
 (s7a / and
-    :op2 (s7w / want-01
+    :op1 (s7w / want-01
         :ARG0 (s7y / person
             :refer-person 2nd
             :refer-number singular)
@@ -412,7 +412,7 @@ Words: <Architect> and two red blocks in front of those in a  staircase shape
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19b / have-goal-91
+      :op1 (s19b / have-goal-91
                  :ARG1 (s19b2 / block
                               :color (s19r / red)
                               :quant 2)
@@ -572,7 +572,7 @@ Words: <Architect> and two more purple ones in front of the others
 
 # sentence level graph:
 (s26a / and
-      :op2 (s26b / have-goal-91
+      :op1 (s26b / have-goal-91
                  :ARG1 (s26o2 / one
                               :color (s26p / purple)
                               :mod (s26m / more)

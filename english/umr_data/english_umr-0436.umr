@@ -643,7 +643,7 @@ Words: <Architect> and a red tower below the other side
 
 # sentence level graph:
 (s31a / and
-      :op2 (s31b / have-goal-91
+      :op1 (s31b / have-goal-91
                  :ARG1 (s31t / tower
                              :color (s31r / red))
                  :ARG2 (s31s / space
@@ -1585,7 +1585,7 @@ Words: <Architect> and one final yellow block
 
 # sentence level graph:
 (s75a / and
-      :op2 (s75b2 / have-goal-91
+      :op1 (s75b2 / have-goal-91
                   :ARG1 (s75b / block
                               :ord (s75o / ordinal-entity
                                          :value "-1")

@@ -288,7 +288,7 @@ Words: <Architect> and then put an additional red block at the midpoints of each
 
 # sentence level graph:
 (s14a / and
-      :op2 (s14p / put-01
+      :op1 (s14p / put-01
                  :ARG0 (s14y / you)
                  :ARG1 (s14b / block
                              :mod (s14a2 / additional)
@@ -390,7 +390,7 @@ Words: <Architect> and one more red block in the center
 
 # sentence level graph:
 (s18a / and
-      :op2 (s18b / be-destined-for-91
+      :op1 (s18b / be-destined-for-91
                  :ARG1 (s18b2 / block
                               :color (s18r / red)
                               :mod (s18m / more)
@@ -674,7 +674,7 @@ Words: <Architect> and when you're done, remove the bottom block from each of th
 
 # sentence level graph:
 (s30a / and
-      :op2 (s30r / remove-01
+      :op1 (s30r / remove-01
                  :ARG0 (s30y / you)
                  :ARG1 (s30b / block
                              :ARG1-of (s30b2 / bottom-03
@@ -992,7 +992,7 @@ Words: <Architect> and remove the bottom green block when you're done
 
 # sentence level graph:
 (s43a / and
-      :op2 (s43r / remove-01
+      :op1 (s43r / remove-01
                  :ARG0 (s43y / you)
                  :ARG1 (s43b / block
                              :color (s43g / green)

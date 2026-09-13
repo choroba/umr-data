@@ -71,7 +71,7 @@ Words: <Architect> and then another above and behind
 
 # sentence level graph:
 (s4a / and
-     :op2 (s4b / have-goal-91
+     :op1 (s4b / have-goal-91
                :ARG1 (s4t / thing
                           :mod (s4a2 / another))
                :ARG2 (s4s / space
@@ -1395,7 +1395,7 @@ Words: <Architect> and two purple legs extending in the opposite direction
 
 # sentence level graph:
 (s67a / and
-      :op2 (s67e / extend-01
+      :op1 (s67e / extend-01
                  :ARG1 (s67l / leg
                              :color (s67p / purple)
                              :quant 2)

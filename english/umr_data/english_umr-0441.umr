@@ -376,7 +376,7 @@ Words: <Architect> and then two more blocks up and diagonally inwards from those
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19b / have-goal-91
+      :op1 (s19b / have-goal-91
                  :ARG1 (s19b2 / block
                               :mod (s19m / more)
                               :quant 2)
@@ -538,7 +538,7 @@ Words: <Architect> and one more to complete it!
 
 # sentence level graph:
 (s26a / and
-    :op2 (s26b / have-goal-91
+    :op1 (s26b / have-goal-91
         :ARG1 (s26t / thing
             :mod (s26m / more)
             :quant 1)
@@ -2685,7 +2685,7 @@ Words: <Architect> and one space down
 
 # sentence level graph:
 (s124a / and
-       :op2 (s124b / have-goal-91
+       :op1 (s124b / have-goal-91
                    :ARG2 (s124s / space
                                 :ARG1-of (s124d / down-03
                                                 :ARG5 (s124c / cartesian-framework-91

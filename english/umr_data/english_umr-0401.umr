@@ -1081,7 +1081,7 @@ Words: <Architect> yep! and extend that bottom row with one more block
 (s47a2 / and
       :op1 (s47c / confirm-01)
       :op2 (s47a / and
-                  :op2 (s47e / extend-01
+                  :op1 (s47e / extend-01
                              :ARG0 (s47y / you)
                              :ARG1 (s47r / row
                                          :mod (s47t / that)
@@ -1197,7 +1197,7 @@ Words: <Architect> and diagonal, so one space to the right of that
 
 # sentence level graph:
 (s52a / and
-      :op2 (s52d / diagonal-01
+      :op1 (s52d / diagonal-01
                  :ARG2-of (s52i2 / infer-91
                                  :ARG1 (s52b / be-destined-for-91
                                              :ARG2 (s52s / space

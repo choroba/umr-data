@@ -456,7 +456,7 @@ Words: <Architect> and i think maybe go one more up?
 
 # sentence level graph:
 (s22a / and
-      :op2 (s22t / think-01
+      :op1 (s22t / think-01
                  :ARG0 (s22i / i)
                  :ARG1 (s22g / go-02
                              :ARG1 (s22y / you)
@@ -595,7 +595,7 @@ Words: <Architect> and yes, sounds good
 
 # sentence level graph:
 (s28a / and
-      :op2 (s28c / confirm-01
+      :op1 (s28c / confirm-01
                  :ARG1 (s28s / sound-01
                              :ARG2 (s28g / good-02))))
 
@@ -1888,7 +1888,7 @@ Words: <Architect> and then symmetric on the left
 
 # sentence level graph:
 (s86a / and
-      :op2 (s86b / be-destined-for-91
+      :op1 (s86b / be-destined-for-91
                  :ARG1 (s86t3 / thing
                               :ARG1-of (s86s / symmetric-01))
                  :ARG2 (s86s2 / space

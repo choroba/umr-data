@@ -489,7 +489,7 @@ Words: <Architect> and fourth block to the right on your side is yellow
 
 # sentence level graph:
 (s23a / and
-    :op2 (s23y / yellow
+    :op1 (s23y / yellow
         :color-of (s23b / block
             :ord (s23o / ordinal-entity
                 :range-trajectory (s23t / trajectory
@@ -636,7 +636,7 @@ Words: <Architect> and the rest of the middle is blue
 
 # sentence level graph:
 (s29a / and
-      :op2 (s29b / blue
+      :op1 (s29b / blue
                  :color-of (s29r2 / rest
                                   :part-of (s29t / thing
                                                  :ARG1-of (s29m / middle-01)))))
@@ -867,7 +867,7 @@ Words: <Architect> and then a yellow block out of the rectangle next to each of 
 
 # sentence level graph:
 (s39a / and
-      :op2 (s39b / have-goal-91
+      :op1 (s39b / have-goal-91
                  :ARG1 (s39b2 / block
                               :color (s39y2 / yellow)
                               :refer-number plural)

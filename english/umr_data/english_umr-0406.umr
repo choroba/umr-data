@@ -430,7 +430,7 @@ Words: <Architect> and another green block underneath the rightmost one
 
 # sentence level graph:
 (s20a / and
-      :op2 (s20b / have-goal-91
+      :op1 (s20b / have-goal-91
                  :ARG1 (s20b2 / block
                               :mod (s20a2 / another)
                               :color (s20g / green))
@@ -701,7 +701,7 @@ Words: <Architect> and finally, make a + sign on the top portion of the yellow b
 
 # sentence level graph:
 (s31a / and
-    :op2 (s31m / make-01
+    :op1 (s31m / make-01
         :ARG0 (s31y / person
             :refer-person 2nd
             :refer-number singular)

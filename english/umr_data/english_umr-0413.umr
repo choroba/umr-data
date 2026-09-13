@@ -1498,7 +1498,7 @@ Words: <Builder> or do you want me to connect the columns
 
 # sentence level graph:
 (s78a / umr-choice
-      :op2 (s78w / want-01
+      :op1 (s78w / want-01
                  :ARG0 (s78y / you)
                  :ARG1 (s78c / connect-01
                              :ARG0 (s78i / i)
@@ -4016,7 +4016,7 @@ Words: <Architect> and 1 block that hangs of the edge on each of them
 
 # sentence level graph:
 (s202a / and
-       :op2 (s202b / be-destined-for-91
+       :op1 (s202b / be-destined-for-91
                    :ARG1 (s202b2 / block
                                  :refer-number plural)
                    :ARG2 (s202s / space

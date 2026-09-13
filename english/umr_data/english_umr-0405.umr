@@ -709,7 +709,7 @@ Words: <Architect> and extend that row outwards to build a 4x4 square parallel t
 
 # sentence level graph:
 (s32a / and
-    :op2 (s32e / extend-01
+    :op1 (s32e / extend-01
         :ARG0 (s32y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1043,7 +1043,7 @@ Words: <Architect> and remove the two purple blocks on the corners
 
 # sentence level graph:
 (s46a / and
-    :op2 (s46r / remove-01
+    :op1 (s46r / remove-01
         :ARG0 (s46y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1111,7 +1111,7 @@ Words: <Architect> and replace them with blue blocks
 
 # sentence level graph:
 (s49a / and
-    :op2 (s49r / replace-01
+    :op1 (s49r / replace-01
         :ARG0 (s49y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2003,7 +2003,7 @@ Words: <Architect> and then one more blue block on each side, one tile above and
 
 # sentence level graph:
 (s86a / and
-      :op2 (s86b / have-goal-91
+      :op1 (s86b / have-goal-91
                  :ARG1 (s86b2 / block
                               :color (s86b3 / blue)
                               :refer-number plural)
@@ -2418,7 +2418,7 @@ Words: <Architect> and extend those one more green block on either side, so they
 
 # sentence level graph:
 (s103a / and
-    :op2 (s103e / extend-01
+    :op1 (s103e / extend-01
         :ARG0 (s103y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2510,7 +2510,7 @@ Words: <Architect> and stack a green block on top of those last two
 
 # sentence level graph:
 (s106a / and
-    :op2 (s106s / stack-01
+    :op1 (s106s / stack-01
         :ARG0 (s106y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2594,7 +2594,7 @@ Words: <Architect> and remove the bottom two green blocks
 
 # sentence level graph:
 (s109a / and
-    :op2 (s109r / remove-01
+    :op1 (s109r / remove-01
         :ARG0 (s109y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2663,7 +2663,7 @@ Words: <Architect> and finally, connect the outermost green blocks with two more
 
 # sentence level graph:
 (s112a / and
-    :op2 (s112c / connect-01
+    :op1 (s112c / connect-01
         :ARG0 (s112y / person
             :refer-person 2nd
             :refer-number singular)

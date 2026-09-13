@@ -177,7 +177,7 @@ Words: <Architect> and empty in the middle
 
 # sentence level graph:
 (s10a / and
-      :op2 (s10e / empty-02
+      :op1 (s10e / empty-02
                  :place (s10s / space
                               :ARG1-of (s10m / middle-01))))
 
@@ -1868,7 +1868,7 @@ Words: <Architect> and we're done
 
 # sentence level graph:
 (s91a / and
-    :op2 (s91b / be-done-08
+    :op1 (s91b / be-done-08
         :ARG0 (s91w / person
             :refer-person 1st
             :refer-number plural)))

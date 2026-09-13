@@ -619,7 +619,7 @@ Words: <Architect> and connect the topmost row of red blocks with two more red b
 
 # sentence level graph:
 (s29a / and
-    :op2 (s29c / connect-01
+    :op1 (s29c / connect-01
         :ARG0 (s29y / person
             :refer-person 2nd
             :refer-number singular)
@@ -947,7 +947,7 @@ Words: <Architect> and two more yellow blocks underneath those :)
 
 # sentence level graph:
 (s43a / and
-      :op2 (s43b / have-goal-91
+      :op1 (s43b / have-goal-91
                  :ARG1 (s43b2 / block
                               :color (s43y / yellow)
                               :mod (s43m / more)

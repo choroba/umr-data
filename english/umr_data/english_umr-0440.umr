@@ -231,7 +231,7 @@ Words: <Architect> and put another green block on top of each of those!
 
 # sentence level graph:
 (s11a / and
-    :op2 (s11p / put-01
+    :op1 (s11p / put-01
         :ARG0 (s11y / person
             :refer-person 2nd
             :refer-number singular)
@@ -617,7 +617,7 @@ Words: <Architect> and put another yellow block in front of it, towards your cur
 
 # sentence level graph:
 (s27a / and
-    :op2 (s27p / put-01
+    :op1 (s27p / put-01
         :ARG0 (s27y / person
             :refer-person 2nd
             :refer-number singular)
@@ -674,7 +674,7 @@ Words: <Architect> and delete the first yellow block
 
 # sentence level graph:
 (s29a / and
-    :op3 (s29d / delete-01
+    :op1 (s29d / delete-01
         :ARG0 (s29y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1249,7 +1249,7 @@ Words: <Architect> and make a 1-gap row of three orange blocks, perpendicular to
 
 # sentence level graph:
 (s54a / and
-    :op2 (s54m / make-01
+    :op1 (s54m / make-01
         :ARG0 (s54y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1626,7 +1626,7 @@ Words: <Architect> and three more below it so it touches the ground
 
 # sentence level graph:
 (s71a / and
-    :op2 (s71b2 / have-goal-91
+    :op1 (s71b2 / have-goal-91
         :ARG1 (s71t / thing
             :mod (s71m / more)
             :quant 3)
@@ -1747,7 +1747,7 @@ Words: <Architect> and the 2nd from the top
 
 # sentence level graph:
 (s76a / and
-      :op2 (s76t / thing
+      :op1 (s76t / thing
                  :ord (s76o / ordinal-entity
                             :range-start (s76t2 / thing
                                                 :ARG1-of (s76t3 / top-06

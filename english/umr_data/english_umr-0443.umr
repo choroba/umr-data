@@ -346,7 +346,7 @@ Words: <Architect> or i mean stacked
 
 # sentence level graph:
 (s17o / or
-    :op2 (s17m / mean-01
+    :op1 (s17m / mean-01
         :ARG0 (s17i / person
             :refer-person 1st
             :refer-number singular)
@@ -382,7 +382,7 @@ Words: <Architect> and then another purple stacked
 
 # sentence level graph:
 (s19a2 / and
-       :op2 (s19s / stack-01
+       :op1 (s19s / stack-01
                   :ARG1 (s19t2 / thing
                                :color (s19p / purple)
                                :mod (s19a / another))
