@@ -72,11 +72,9 @@ Words: I was nominated as UNIQUE Artist of the Year, UNIQUE Album of the Year fo
                                               :ARG1-of (s2p / possible-01)
                                               :place (s2a5 / and
                                                            :op1 (s2u / url-entity
-                                                                     :ARG3-of (s2h / hyperlink-91
-                                                                                   :ARG3 (s2u2 / url-entity
-                                                                                               :value "http://www.cdbaby.com/cd/artpaul31"))
                                                                      :value "http://www.broadjam.com/artpaul")
-                                                           :op2 s2u2
+                                                           :op2 (s2u2 / url-entity
+                                                                     :value "http://www.cdbaby.com/cd/artpaul31")
                                                            :op3 (s2c3 / computer-program
                                                                       :name (s2n5 / name
                                                                                   :op1 "Apple"
@@ -106,7 +104,7 @@ Words: And the song No Women No Fries on the Album was nominated for a  MAMA in 
 
 # sentence level graph:
 (s3a3 / and
-      :op2 (s3h / hope-01
+      :op1 (s3h / hope-01
                 :ARG0 (s3p / person
                            :refer-person 1st
                            :refer-number singular)

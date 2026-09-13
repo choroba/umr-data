@@ -1097,7 +1097,7 @@ Words: [2] His private military contracting companyBlackwater Worldwideis na
                   :ARG1-of (s33c4 / color-01
                                   :ARG2 (s33p2 / peat))
                   :part-of (s33s / swamp))
-      :li 2)
+      :list-item 2)
 
 # alignment:
 
@@ -1114,15 +1114,16 @@ Words: Also nearby are SEAL and Delta Force bases and the Blackwater facilities 
 (s34a / and
       :op1 (s34n / near-02
                  :ARG1 (s34b / base
-                             :affectee (s34m / armed-organization
-                                             :name (s34n2 / name
-                                                          :op1 "SEAL")
-                                             :wiki "United_States_Navy_SEALs")
-                             :affectee (s34m2 / armed-organization
-                                              :name (s34n3 / name
-                                                           :op1 "Delta"
-                                                           :op2 "Force")
-                                              :wiki "Delta_Force"))
+                             :affectee (s34a6 / and
+                                 :op1 (s34m / armed-organization
+                                                 :name (s34n2 / name
+                                                              :op1 "SEAL")
+                                                 :wiki "United_States_Navy_SEALs")
+                                 :op2 (s34m2 / armed-organization
+                                                  :name (s34n3 / name
+                                                               :op1 "Delta"
+                                                               :op2 "Force")
+                                                  :wiki "Delta_Force")))
                  :mod (s34a2 / also))
       :op2 (s34r / rent-out-04
                  :ARG1 (s34f / facility

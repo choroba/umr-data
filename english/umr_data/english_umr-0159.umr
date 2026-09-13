@@ -148,12 +148,11 @@ Words: I have not read what she said beyond this site nor do I  care what she sa
                                             :ARG0 (s11s2 / she)
                                             :place (s11b / beyond
                                                          :medium (s11s3 / site
-                                                                        :mod (s11t2 / this)))
-                                            :ARG1 (s11t3 / thing)))
+                                                                        :mod (s11t2 / this)))))
                  :polarity -)
       :op2 (s11c / care-01
                  :ARG0 s11i
-                 :ARG1 s11t3
+                 :ARG1 s11t
                  :polarity -))
 
 # alignment:

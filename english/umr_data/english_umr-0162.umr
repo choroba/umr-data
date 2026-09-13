@@ -6,7 +6,7 @@ Words: The Christian Church also had a propensity to build Churches on lands tha
 
 # sentence level graph:
 (s10a3 / and
-       :op2 (s10b / build-01
+       :op1 (s10b / build-01
                   :ARG0 (s10r / religious-organization
                               :wiki "Christianity"
                               :name (s10n2 / name
@@ -24,7 +24,7 @@ Words: The Christian Church also had a propensity to build Churches on lands tha
                   :aspect habitual
                   :modal-strength partial-affirmative
                   :mod (s10a / also))
-       :op3 (s10e / et-cetera))
+       :op2 (s10e / et-cetera))
 
 # alignment:
 

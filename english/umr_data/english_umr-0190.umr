@@ -98,7 +98,7 @@ Words: And the city decided to treat its guests more like royalty or rock stars 
 
 # sentence level graph:
 (s4a / and
-     :op2 (s4d / decide-01
+     :op1 (s4d / decide-01
                :ARG0 (s4c / city)
                :ARG1 (s4h / have-degree-91
                          :ARG1 (s4t / treat-01
@@ -403,7 +403,7 @@ Words: Then , in the guests ' honor , the speedway hauled out four drivers ,  cr
                               :mod (s12g2 / game
                                           :name (s12i / name
                                                       :op1 "Indianapolis"
-                                                      :op2 500)
+                                                      :op2 "500")
                                           :wiki "Indianapolis_500")
                               :mod (s12o / official)
                               :mod (s12e3 / even)))
@@ -434,7 +434,7 @@ Words: After the race , Fortune 500 executives drooled like schoolboys over the 
                                                :mod (s13p3 / publication
                                                            :name (s13n / name
                                                                        :op1 "Fortune"
-                                                                       :op2 500)
+                                                                       :op2 "500")
                                                            :wiki "Fortune_500"))
                                   :ARG3 (s13e / executive)))
       :ARG1 (s13a / and

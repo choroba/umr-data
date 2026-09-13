@@ -38,7 +38,7 @@ Words: and I spent $ 48 filling up the gas tank of my Jeep --
 
 # sentence level graph:
 (s2a / and
-     :op2 (s2s / spend-01
+     :op1 (s2s / spend-01
                :ARG0 (s2i / i)
                :ARG1 (s2f / fill-up-02
                           :ARG0 s2i
@@ -246,12 +246,12 @@ Words: ( 1 ) If you confiscate Exxon Mobil 's profits ,  you reduce the capital 
                                                                         :purpose (s10e2 / explore-01))
                                                              :op2 (s10w2 / well
                                                                          :mod s10o3
-                                                                         :ARG1-of (s10n2 / new-01
-                                                                                         :ARG1 (s10p2 / pipeline)))
-                                                             :op3 s10p2
+                                                                         :ARG1-of (s10n2 / new-01))
+                                                             :op3 (s10p2 / pipeline
+                                                                         :ARG1-of (s10n21 / new-01))
                                                              :op4 (s10t / thing
                                                                         :ARG0-of (s10r2 / refine-01)
-                                                                        :ARG1-of s10n2)
+                                                                        :ARG1-of (s10n22 / new-01))
                                                              :op5 (s10e / et-cetera)
                                                              :mod (s10m2 / more)))))
       :condition (s10c2 / confiscate-01
@@ -262,7 +262,7 @@ Words: ( 1 ) If you confiscate Exxon Mobil 's profits ,  you reduce the capital 
                                                              :op1 "Exxon"
                                                              :op2 "Mobil")
                                                  :wiki "ExxonMobil")))
-      :li 1)
+      :list-item 1)
 
 # alignment:
 
@@ -294,7 +294,7 @@ Words: ( 2 ) If you tax oil industry profits ,  you also reduce the incentive fo
                        :ARG3 (s11p2 / profit-01
                                     :ARG0 s11i3))
       :mod (s11a / also)
-      :li 2)
+      :list-item 2)
 
 # alignment:
 
@@ -660,7 +660,7 @@ Words: This shift is driven by the combination of ( a  )  escalating world consu
                                                                             :ARG1-of (s23d2 / develop-02
                                                                                             :manner (s23r / rapid))
                                                                             :mod (s23e3 / especially)))
-                                               :li "a")
+                                               :list-item "a")
                                   :ARG2 (s23a3 / and
                                                :op1 (s23p2 / peak-01
                                                            :ARG1 (s23c8 / capacity
@@ -686,7 +686,7 @@ Words: This shift is driven by the combination of ( a  )  escalating world consu
                                                            :place (s23c9 / country
                                                                          :ARG0-of (s23p5 / produce-01
                                                                                          :ARG1 (s23o4 / oil))))
-                                               :li "b")))
+                                               :list-item "b")))
       :ARG1 (s23s / shift-01
                   :mod (s23t2 / this)))
 
@@ -3997,11 +3997,11 @@ Words: I drone on about costs and benefits , but a  )  that 's not everything , 
                      :op1 (s146e / everything
                                  :domain (s146t / that)
                                  :polarity -
-                                 :li "a")
+                                 :list-item "a")
                      :op2 (s146c3 / change-01
                                   :ARG1 (s146c4 / circumstance)
                                   :temporal (s146s / sometimes)
-                                  :li "b"))
+                                  :list-item "b"))
        :ARG2 (s146d / drone-01
                     :ARG0 (s146i / i)
                     :topic (s146a / and
