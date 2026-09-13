@@ -824,7 +824,7 @@ Words: and politicians can help them by speaking honestly and forthrightly about
 
 # sentence level graph:
 (s30a3 / and
-       :op2 (s30p / possible-01
+       :op1 (s30p / possible-01
                   :ARG1 (s30h / help-01
                               :ARG0 (s30p2 / politician)
                               :ARG1 (s30t / they)
@@ -1286,7 +1286,7 @@ Words: AND , you can work to increase supply .
 
 # sentence level graph:
 (s45a / and
-      :op2 (s45p / possible-01
+      :op1 (s45p / possible-01
                  :ARG1 (s45w / work-01
                              :ARG0 (s45y / you)
                              :ARG1 (s45i / increase-01
@@ -1546,7 +1546,7 @@ Words: and who can afford a car payment what with mortgage rates being what they
 
 # sentence level graph:
 (s57a5 / and
-       :op2 (s57a / afford-01
+       :op1 (s57a / afford-01
                   :ARG0 (s57u / umr-unknown)
                   :ARG1 (s57t / thing
                               :ARG1-of (s57p2 / pay-01
@@ -1663,7 +1663,7 @@ Words: Or , the GA could actually cut the sales tax
 
 # sentence level graph:
 (s61o2 / or
-       :op2 (s61c / cut-02
+       :op1 (s61c / cut-02
                   :ARG0 (s61g2 / government-organization
                                :name (s61n / name
                                            :op1 "GA")
@@ -1688,7 +1688,7 @@ Words: and you would keep some more of your money .
 
 # sentence level graph:
 (s62a / and
-      :op2 (s62k / keep-01
+      :op1 (s62k / keep-01
                  :ARG0 (s62y / you)
                  :ARG1 (s62m / money
                              :possessor s62y
@@ -2033,7 +2033,6 @@ Words: Did n't she fight Robert Moses because he thought he had too much control
                                               :ARG1-of (s74h / have-quant-91
                                                              :ARG2 (s74m / much)
                                                              :ARG3 (s74t2 / too)))))
-      :polarity (s74a / umr-unknown)
       :polarity -)
 
 # alignment:
@@ -2743,7 +2742,7 @@ Words: and their cost of fuel adjusted for inflation chart demonstates that we h
 
 # sentence level graph:
 (s100a2 / and
-        :op2 (s100d3 / demonstrate-01
+        :op1 (s100d3 / demonstrate-01
                      :ARG0 (s100c / chart-01
                                   :ARG0 (s100t2 / they)
                                   :ARG1 (s100c2 / cost-01
@@ -2857,7 +2856,7 @@ Words: and that is not a bad outcome at all .
 
 # sentence level graph:
 (s104a / and
-       :op2 (s104o / outcome
+       :op1 (s104o / outcome
                    :domain (s104t / that)
                    :ARG1-of (s104b / bad-07
                                    :polarity -)
@@ -3329,7 +3328,7 @@ Words: and he is n't worried about the price of gas because he travels less than
 
 # sentence level graph:
 (s121a / and
-       :op2 (s121w / worry-02
+       :op1 (s121w / worry-02
                    :ARG0 (s121h / he)
                    :ARG1 (s121t2 / thing
                                  :ARG2-of (s121p / price-01
@@ -3549,7 +3548,7 @@ Words: and as bad as it is now - this is not as bad as then -  though if $  3  a
 
 # sentence level graph:
 (s129a / and
-       :op2 (s129h2 / have-degree-91
+       :op1 (s129h2 / have-degree-91
                     :ARG1 (s129t3 / this)
                     :ARG2 (s129b / bad-07
                                  :ARG1 s129t3)
@@ -3736,7 +3735,7 @@ Words: ... and today .. I paid $ 68 bucks to fill up my 89 Ford Van .
 
 # sentence level graph:
 (s135a / and
-       :op2 (s135p / pay-01
+       :op1 (s135p / pay-01
                    :ARG0 (s135i / i)
                    :ARG1 (s135m2 / monetary-quantity
                                  :unit (s135d2 / dollar)
@@ -4243,7 +4242,6 @@ Words: Businesses are `` tax positive '' do n't cha know .
        :ARG1 (s156p / positive
                     :mod (s156t / tax-01)
                     :domain (s156b / business))
-       :polarity (s156a / umr-unknown)
        :polarity -)
 
 # alignment:

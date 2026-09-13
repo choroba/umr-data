@@ -253,7 +253,7 @@ Words: Next to the towering monument that the unedited Michael Jackson is we are
                       :ARG2 (s10m2 / monument
                                    :ARG0-of (s10t2 / tower-01)
                                    :ARG1-of (s10i / identity-91
-                                                  :ARG1 (s10p2 / person
+                                                  :ARG2 (s10p2 / person
                                                                :name (s10n / name
                                                                            :op1 "Michael"
                                                                            :op2 "Jackson")
@@ -498,7 +498,7 @@ Words: and to such an unsuspected extent I propose he deserves to be considered 
 
 # sentence level graph:
 (s16a6 / and
-       :op2 (s16p5 / propose-01
+       :op1 (s16p5 / propose-01
                    :ARG0 (s16p / person
                                :refer-person 1st
                                :refer-number singular)
@@ -795,7 +795,7 @@ Words: and he intuitively understood that he was developmentally under -  equipp
 
 # sentence level graph:
 (s24a2 / and
-       :op2 (s24u / understand-01
+       :op1 (s24u / understand-01
                   :ARG0 (s24h / he)
                   :ARG1 (s24e / equip-01
                               :ARG1 s24h
@@ -1093,7 +1093,7 @@ Words: and like Oskar , who found respite in the beating of his tin drum ,  Mich
 
 # sentence level graph:
 (s32a / and
-      :op2 (s32r / resemble-91
+      :op1 (s32r / resemble-91
                  :ARG1 (s32f / find-01
                              :ARG0 (s32p3 / person
                                           :name (s32n / name
@@ -1321,7 +1321,7 @@ Words: and from this point on , Michael would reduce the project of his life to 
 
 # sentence level graph:
 (s38a2 / and
-       :op2 (s38r / reduce-01
+       :op1 (s38r / reduce-01
                   :ARG0 (s38p2 / person
                                :wiki "Michael_Jackson"
                                :name (s38n / name
@@ -1741,7 +1741,7 @@ Words: And to the never - ending suspicion that Michael is a  child abuser ,  wh
 
 # sentence level graph:
 (s47a4 / and
-       :op2 (s47c / commit-02
+       :op1 (s47c / commit-02
                   :ARG1 (s47c3 / crime-02
                                :ARG1 (s47a / umr-unknown))
                   :condition (s47f / fool-around-02
@@ -2051,7 +2051,7 @@ Words: And if we grant him the mental age of an 11 -  year -  old ,  who has non
 
 # sentence level graph:
 (s55a3 / and
-       :op2 (s55h / have-condition-91
+       :op1 (s55h / have-condition-91
                   :ARG1 (s55c / child
                               :ARG1-of (s55t2 / trap-01
                                               :ARG2 (s55b2 / body
@@ -2292,7 +2292,7 @@ Words: And I say this to you , Michael Jackson ,  may your tribe increase .
 
 # sentence level graph:
 (s62a / and
-      :op2 (s62s / say-01
+      :op1 (s62s / say-01
                  :ARG0 (s62i / i)
                  :ARG1 (s62w / wish-01
                              :ARG1 (s62i2 / increase-01

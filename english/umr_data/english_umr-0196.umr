@@ -1100,7 +1100,7 @@ Words: and tempers flared .
 
 # sentence level graph:
 (s36a / and
-      :op2 (s36f / flare-02
+      :op1 (s36f / flare-02
                  :ARG1 (s36t / temper)))
 
 # alignment:
@@ -2033,7 +2033,7 @@ Words: and a few times shots were fired at his car .
 
 # sentence level graph:
 (s66a / and
-      :op2 (s66f / fire-01
+      :op1 (s66f / fire-01
                  :ARG1 (s66s / shoot-02)
                  :destination (s66c / car
                                     :possessor (s66h / he))
@@ -2255,7 +2255,7 @@ Words: and then a U.S. patrol appeared
 
 # sentence level graph:
 (s75a / and
-      :op2 (s75a2 / appear-01
+      :op1 (s75a2 / appear-01
                   :ARG1 (s75p / person
                               :ARG0-of (s75p2 / patrol-01)
                               :mod (s75c / country
@@ -2277,7 +2277,7 @@ Words: and the assailants vanished into traffic .
 
 # sentence level graph:
 (s76a / and
-      :op2 (s76v / vanish-01
+      :op1 (s76v / vanish-01
                  :ARG1 (s76p / person
                              :ARG0-of (s76a2 / assail-01))
                  :place (s76t / traffic)))
@@ -2409,7 +2409,7 @@ Words: and the view is so phenomenal that you can imagine your gaze reaching all
 
 # sentence level graph:
 (s81a / and
-      :op2 (s81p / phenomenal
+      :op1 (s81p / phenomenal
                  :domain (s81v / view-01)
                  :ARG0-of (s81c / cause-01
                                 :ARG1 (s81p2 / possible-01
@@ -2603,7 +2603,7 @@ Words: and more than half of those have ended up abroad .
 
 # sentence level graph:
 (s87a / and
-      :op2 (s87e / end-up-03
+      :op1 (s87e / end-up-03
                  :ARG1 (s87p / person
                              :ARG1-of (s87i / include-91
                                             :ARG2 (s87t / that)
@@ -3110,7 +3110,7 @@ Words: and Abather and Balqes quickly filed their application along with the $  
 
 # sentence level graph:
 (s102a2 / and
-        :op2 (s102f / file-01
+        :op1 (s102f / file-01
                     :ARG0 (s102a3 / and
                                   :op1 (s102p3 / person
                                                :name (s102n / name
@@ -3349,7 +3349,7 @@ Words: and the emergency surgery , for an intestinal obstruction ,  cost $  2,10
 
 # sentence level graph:
 (s110a / and
-       :op2 (s110c / cost-01
+       :op1 (s110c / cost-01
                    :ARG1 (s110s / surgery-01
                                 :ARG2 (s110o / obstruct-01
                                              :ARG1 (s110i / intestine))
@@ -4094,7 +4094,7 @@ Words: and everything went black .
 
 # sentence level graph:
 (s138a / and
-       :op2 (s138g / go-08
+       :op1 (s138g / go-08
                    :ARG1 (s138e / everything)
                    :ARG2 (s138b / black-04)))
 
@@ -4308,7 +4308,7 @@ Words: and this time the guards took pity .
 
 # sentence level graph:
 (s146a / and
-       :op2 (s146p / pity-01
+       :op1 (s146p / pity-01
                    :ARG0 (s146p2 / person
                                  :ARG0-of (s146g / guard-01))
                    :temporal (s146t / this)))
@@ -4763,7 +4763,7 @@ Words: and most of them had fled persecution under Saddam before the war .
 
 # sentence level graph:
 (s159a / and
-       :op2 (s159f / flee-05
+       :op1 (s159f / flee-05
                    :ARG0 (s159t / they
                                 :quant (s159m / most))
                    :ARG1 (s159p2 / persecute-01
@@ -5102,7 +5102,7 @@ Words: and the wait for an interview stands at five months .
 
 # sentence level graph:
 (s166a / and
-       :op2 (s166s / stand-04
+       :op1 (s166s / stand-04
                    :ARG1 (s166w / wait-01
                                 :ARG2 (s166i / interview-01))
                    :ARG2 (s166t2 / temporal-quantity
