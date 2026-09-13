@@ -1068,7 +1068,6 @@ s12x9: 38-38
 		(s12x30 :after s12x)
 		(s12x30 :after s12x4)
 		(s12x9 :after s12x7)
-		(s12x11 :overlap s12x2)
 		(s12x23 :after s12h3))
 	:modal ((root :modal author)
 		(author :full-affirmative s12x29)

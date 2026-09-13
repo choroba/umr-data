@@ -325,8 +325,7 @@ s5x5: 3-3
 
 # document level annotation:
 (s5s0 / sentence
-    :temporal ((s4x4 :overlap s5x5)
-        (s5x5 :contained s5x))
+    :temporal ((s5x5 :contained s5x))
     :modal ((root :modal author)
         (author :full-affirmative s5x5)
         (author :full-affirmative s5x))
@@ -406,8 +405,7 @@ s6x9: 14-14
 
 # document level annotation:
 (s6s0 / sentence
-    :temporal ((s3x2 :overlap s6x3)
-        (s6x3 :contained s6x)
+    :temporal ((s6x3 :contained s6x)
         (s6x :overlap s6x5)
         (s6x5 :overlap s6i2)
         (s6i2 :overlap s6x9)
@@ -538,8 +536,7 @@ s8x3: 14-14
 # document level annotation:
 (s8s0 / sentence
     :temporal ((document-creation-time :before s8x)
-        (s8x :before s8x2)
-        (s8x :overlap s8x3))
+        (s8x :before s8x2))
     :modal ((root :modal author)
         (author :full-affirmative s8x3)
         (author :full-affirmative s8x2)
@@ -1393,8 +1390,7 @@ s21x9: 8-8
 
 # document level annotation:
 (s21s0 / sentence
-    :temporal ((s14x5 :overlap s21x12)
-        (s21x :overlap s21x4)
+    :temporal ((s21x :overlap s21x4)
         (s21x4 :overlap s21x5)
         (s21x5 :before s21x10)
         (s21x :before s21x12)

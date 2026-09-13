@@ -1022,7 +1022,6 @@ s17x8: 7-7
 	:temporal ((document-creation-time :before s17x)
 		(document-creation-time :before s17x6)
                 (document-creation-time :before s17x4)
-		(document-creation-time :depends-on s17x4)
 		(s17x4 :before s17x6)
 		(s17x :before s17x6)
 		(s17x :before s17x4))
@@ -1595,7 +1594,6 @@ s25x9: 26-26
 (s25s0 / sentence
 	:temporal ((document-creation-time :overlap s25x)
 		(document-creation-time :overlap s25i2)
-		(document-creation-time :before s25i2)
 		(document-creation-time :before s25x9))
 	:modal ((root :modal author)
 		(author :full-affirmative s25x17)

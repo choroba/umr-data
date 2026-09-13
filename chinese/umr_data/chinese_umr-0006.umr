@@ -2644,7 +2644,6 @@ s32x9: 19-19
         (s32x9 :overlap s32i2)
         (s32x9 :before s32x15)
         (s32x :overlap s32x5)
-        (s32x :after s32x5)
         (s32x5 :overlap s32x7))
     :modal ((root :modal author)
         (author :full-affirmative s32x16)
