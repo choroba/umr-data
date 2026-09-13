@@ -1660,7 +1660,7 @@ Words: or only two?
 
 # sentence level graph:
 (s74a / umr-choice
-      :op2 (s74t / thing
+      :op1 (s74t / thing
                  :mod (s74o / only)
                  :quant 2)
       :mode interrogative)
@@ -2531,7 +2531,7 @@ Words: and add 2 beneath it in the middle
 
 # sentence level graph:
 (s113a / and
-    :op2 (s113a2 / add-02
+    :op1 (s113a2 / add-02
         :ARG0 (s113y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2648,7 +2648,7 @@ Words: you can delete the middle of the second row as well leaving the end peice
 
 # sentence level graph:
 (s118a / and
-    :op2 (s118d / delete-01
+    :op1 (s118d / delete-01
         :ARG0 (s118y / person
             :refer-person 2nd
             :refer-number singular)

@@ -675,7 +675,7 @@ Words: and then 3 on top of the 3 you just put down
 
 # sentence level graph:
 (s30a / and
-    :op2 (s30b / have-goal-91
+    :op1 (s30b / have-goal-91
         :ARG1 (s30t / thing
             :quant 3)
         :ARG2 (s30s / space
@@ -803,7 +803,7 @@ Words: and then one on top of the left and right block you just down
 
 # sentence level graph:
 (s35a / and
-    :op3 (s35a2 / and
+    :op1 (s35a2 / and
         :op1 (s35b / have-goal-91
             :ARG1 (s35t2 / thing
                 :quant 1)

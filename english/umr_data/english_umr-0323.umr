@@ -1108,7 +1108,7 @@ Words: and now build a 3x3 orange square, where the rightmost corner of the 3x3 
 
 # sentence level graph:
 (s51a / and
-    :op2 (s51b / build-01
+    :op1 (s51b / build-01
         :ARG0 (s51y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1147,7 +1147,7 @@ Words: and when you're done you can break the placeholder block
 
 # sentence level graph:
 (s52a / and
-    :op2 (s52b / break-01
+    :op1 (s52b / break-01
         :ARG0 (s52y / person
             :ARG0-of (s52b3 / be-done-08)
             :refer-person 2nd
@@ -1990,7 +1990,7 @@ Words: and put a blue block on top of the green block, one block towards you
 
 # sentence level graph:
 (s89a / and
-    :op2 (s89p / put-01
+    :op1 (s89p / put-01
         :ARG0 (s89y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2058,7 +2058,7 @@ Words: and two blocks towards you put a purple block that's linear with the gree
 
 # sentence level graph:
 (s92a / and
-    :op2 (s92p / put-01
+    :op1 (s92p / put-01
         :ARG0 (s92y / person
             :refer-person 2nd
             :refer-number singular)

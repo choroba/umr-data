@@ -544,7 +544,7 @@ Words: and then the two blocks in the 3rd column
 
 # sentence level graph:
 (s26a / and
-    :op2 (s26r / remove-01
+    :op1 (s26r / remove-01
         :ARG0 (s26y / person
             :refer-person 2nd
             :refer-number singular)
@@ -613,7 +613,7 @@ Words: and then the top two blocks on the top right
 
 # sentence level graph:
 (s29a / and
-    :op3 (s29r2 / remove-01
+    :op1 (s29r2 / remove-01
         :ARG0 (s29y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1651,7 +1651,7 @@ Words: and the two blocks to the right of the leftmost corner block you just bro
 
 # sentence level graph:
 (s72a / and
-    :op2 (s72r2 / remove-01
+    :op1 (s72r2 / remove-01
         :ARG0 (s72y / person
             :refer-person 2nd
             :refer-number singular)

@@ -574,7 +574,7 @@ Words: <Architect> and two orange on top of that (the right two)
 
 # sentence level graph:
 (s25a / and
-      :op2 (s25b / have-goal-91
+      :op1 (s25b / have-goal-91
                  :ARG1 (s25t / thing
                              :color (s25o / orange)
                              :quant 2)
@@ -649,7 +649,7 @@ Words: <Architect> and then one orange on top (the right)
 
 # sentence level graph:
 (s28a / and
-      :op3 (s28b / have-goal-91
+      :op1 (s28b / have-goal-91
                  :ARG1 (s28t / thing
                              :color (s28o / orange)
                              :quant 1)
@@ -754,7 +754,7 @@ Words: <Architect> and yup that's it
 
 # sentence level graph:
 (s33a / and
-      :op3 (s33c / confirm-01
+      :op1 (s33c / confirm-01
                  :ARG1 (s33b / be-it-08
                              :ARG1 (s33t / that))))
 

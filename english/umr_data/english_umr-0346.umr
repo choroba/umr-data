@@ -294,7 +294,7 @@ Words: <Architect> and remove the initial orange block.
 
 # sentence level graph:
 (s14a / and
-    :op2 (s14r / remove-01
+    :op1 (s14r / remove-01
         :ARG0 (s14y / person
             :refer-person 2nd
             :refer-number singular)

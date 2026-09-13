@@ -311,7 +311,7 @@ Words: and then a yellow block to the left of that one
 
 # sentence level graph:
 (s15a / and
-      :op2 (s15b / have-goal-91
+      :op1 (s15b / have-goal-91
                  :ARG1 (s15b2 / block
                               :color (s15y / yellow))
                  :ARG2 (s15s / space
@@ -401,7 +401,7 @@ Words: and then two below that one
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19b / have-goal-91
+      :op1 (s19b / have-goal-91
                  :ARG1 (s19t / thing
                              :quant 2)
                  :ARG2 (s19s / space

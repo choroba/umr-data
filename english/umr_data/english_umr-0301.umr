@@ -360,7 +360,7 @@ Words: <Architect> and one outward from that top block
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19b / be-destined-for-91
+      :op1 (s19b / be-destined-for-91
                  :ARG1 (s19t / thing
                              :quant 1)
                  :ARG2 (s19s / space
@@ -925,7 +925,7 @@ Words: <Architect> and remove the block in front of you
 
 # sentence level graph:
 (s47a / and
-      :op2 (s47r / remove-01
+      :op1 (s47r / remove-01
                  :ARG0 (s47y / you)
                  :ARG1 (s47b / block
                              :ARG1-of (s47f / front-03

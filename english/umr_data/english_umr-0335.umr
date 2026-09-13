@@ -479,7 +479,7 @@ Words: and then make that into a 2x3 rectangle perpendicular with the way the gr
 
 # sentence level graph:
 (s21a / and
-    :op2 (s21m / make-01
+    :op1 (s21m / make-01
         :ARG0 (s21y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1690,7 +1690,7 @@ Words: and then build the yellow structure again.
 
 # sentence level graph:
 (s75a / and
-    :op2 (s75b / build-01
+    :op1 (s75b / build-01
         :ARG0 (s75y / person
             :refer-person 2nd
             :refer-number singular)

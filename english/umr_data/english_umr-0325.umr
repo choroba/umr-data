@@ -2274,7 +2274,7 @@ Words: and 3 wide, like the rest?
 
 # sentence level graph:
 (s101a / and
-       :op2 (s101w / wide-02
+       :op1 (s101w / wide-02
                    :ARG3 (s101d / distance-quantity
                                 :unit (s101b / block)
                                 :quant 3)

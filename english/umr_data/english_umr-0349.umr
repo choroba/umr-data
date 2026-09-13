@@ -312,7 +312,7 @@ Words: <Architect> and four on top of that
 
 # sentence level graph:
 (s14a / and
-      :op2 (s14b / have-goal-91
+      :op1 (s14b / have-goal-91
                  :ARG1 (s14t / thing
                              :quant 4)
                  :ARG2 (s14s / space
@@ -438,7 +438,7 @@ Words: <Architect> and connect the two towers
 
 # sentence level graph:
 (s20a / and
-    :op2 (s20c / connect-01
+    :op1 (s20c / connect-01
         :ARG0 (s20y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1529,7 +1529,7 @@ Words: <Architect> and one below the far left orange and far right orange
 
 # sentence level graph:
 (s69a / and
-      :op2 (s69a2 / and
+      :op1 (s69a2 / and
                   :op1 (s69b / have-goal-91
                              :ARG1 (s69t / thing
                                          :quant 1)
@@ -1708,7 +1708,7 @@ Words: <Architect> and place another on the outer sides of those blocks
 
 # sentence level graph:
 (s76a / and
-    :op2 (s76p / place-01
+    :op1 (s76p / place-01
         :ARG0 (s76y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1794,7 +1794,7 @@ Words: <Architect> and break the bottom middle orange
 
 # sentence level graph:
 (s79a / and
-    :op2 (s79b / break-01
+    :op1 (s79b / break-01
         :ARG0 (s79y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2002,7 +2002,7 @@ Words: <Architect> and three on top of those
 
 # sentence level graph:
 (s88a / and
-      :op2 (s88b / have-goal-91
+      :op1 (s88b / have-goal-91
                  :ARG1 (s88t / thing
                              :quant 3)
                  :ARG2 (s88s / space

@@ -648,7 +648,7 @@ Words: <Architect> and make them all one diagonal longer
 
 # sentence level graph:
 (s31a / and
-    :op2 (s31m / make-02
+    :op1 (s31m / make-02
         :ARG0 (s31y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2644,7 +2644,7 @@ Words: <Architect> and make a yellow part on this one like you did the purple.
 
 # sentence level graph:
 (s122a / and
-    :op2 (s122m / make-01
+    :op1 (s122m / make-01
         :ARG0 (s122y / person
             :refer-person 2nd
             :refer-number singular)

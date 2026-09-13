@@ -1524,7 +1524,7 @@ Words: and then place a purple block on the ground
 
 # sentence level graph:
 (s69a / and
-      :op2 (s69p / place-01
+      :op1 (s69p / place-01
                  :ARG0 (s69y / you)
                  :ARG1 (s69b / block
                              :color (s69p2 / purple))
@@ -1661,7 +1661,7 @@ Words: and get rid of the bottom purple block after you do that
 
 # sentence level graph:
 (s75a / and
-      :op2 (s75r / rid-01
+      :op1 (s75r / rid-01
                  :ARG0 (s75y / you)
                  :ARG1 (s75b / block
                              :color (s75p / purple)

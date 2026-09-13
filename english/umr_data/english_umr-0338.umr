@@ -223,7 +223,7 @@ Words: and then add a purple on top of that
 
 # sentence level graph:
 (s11a / and
-    :op2 (s11a2 / add-02
+    :op1 (s11a2 / add-02
         :ARG0 (s11y / person
             :refer-person 2nd
             :refer-number singular)
@@ -445,7 +445,7 @@ Words: and how large?
 
 # sentence level graph:
 (s21a / and
-      :op2 (s21h / have-size-91
+      :op1 (s21h / have-size-91
                  :ARG2 (s21a2 / umr-unknown))
       :mode interrogative)
 
@@ -1058,7 +1058,7 @@ Words: or more like this?
 
 # sentence level graph:
 (s49o / or
-      :op2 (s49r / resemble-91
+      :op1 (s49r / resemble-91
                  :ARG2 (s49t / this)
                  :ARG2-of (s49h / have-degree-91
                                 :ARG3 (s49m / more))

@@ -1176,7 +1176,7 @@ Words: <Architect> and we will only be working on this side for the rest
 
 # sentence level graph:
 (s54a / and
-    :op2 (s54w / work-01
+    :op1 (s54w / work-01
         :ARG0 (s54w2 / person
             :refer-person 1st
             :refer-number plural)
@@ -1302,7 +1302,7 @@ Words: <Architect> and then add a hanging row of five across
 
 # sentence level graph:
 (s60a / and
-    :op2 (s60a2 / add-02
+    :op1 (s60a2 / add-02
         :ARG0 (s60y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1411,7 +1411,7 @@ Words: <Architect> and the middle three blocks of the row youre about to add.
 
 # sentence level graph:
 (s65a / and
-    :op2 (s65r / remove-01
+    :op1 (s65r / remove-01
         :ARG0 (s65y / person
             :refer-person 2nd
             :refer-number singular)
