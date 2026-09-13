@@ -1192,7 +1192,7 @@ Words: " And the stars obey you ? "
 
 # sentence level graph:
 (s531a / and
-    :op2 (s531o / obey-01
+    :op1 (s531o / obey-01
         :ARG0 (s531s / star)
         :ARG1 (s531y / person
             :refer-person 2nd
@@ -1880,7 +1880,7 @@ Words: And then , too , he was already beginning to be a  little bored .
 
 # sentence level graph:
 (s560a2 / and
-    :op2 (s560b / begin-01
+    :op1 (s560b / begin-01
         :ARG1 (s560b4 / bore-02
             :ARG1 (s560h2 / person
                 :refer-person 3rd

@@ -49,7 +49,7 @@ Words: And all roads lead to the abodes of men .
 
 # sentence level graph:
 (s1026a / and
-        :op2 (s1026l / lead-01
+        :op1 (s1026l / lead-01
                      :ARG0 (s1026r / road
                                    :mod (s1026a2 / all))
                      :ARG4 (s1026a3 / abode
@@ -195,7 +195,7 @@ Words: And he was overcome with sadness .
 
 # sentence level graph:
 (s1034a / and
-        :op2 (s1034o / overcome-01
+        :op1 (s1034o / overcome-01
                      :ARG0 (s1034s / sad-02)
                      :ARG1 (s1034h / he)))
 
@@ -292,7 +292,7 @@ Words: And I should be obliged to pretend that I was nursing her back to life - 
 
 # sentence level graph:
 (s1038a / and
-        :op2 (s1038o / oblige-02
+        :op1 (s1038o / oblige-02
                      :ARG1 (s1038i / i)
                      :ARG2 (s1038p / pretend-01
                                    :ARG0 s1038i
@@ -407,7 +407,7 @@ Words: And he lay down in the grass and cried .
 
 # sentence level graph:
 (s1041a2 / and
-         :op2 (s1041a / and
+         :op1 (s1041a / and
                       :op1 (s1041l / lie-07
                                    :ARG1 (s1041h / he)
                                    :ARG2 (s1041g / grass)

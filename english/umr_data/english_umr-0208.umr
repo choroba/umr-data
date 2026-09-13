@@ -995,7 +995,7 @@ Words: " And what do you do with five - hundred millions of stars ?  "
 
 # sentence level graph:
 (s696a / and
-    :op2 (s696d / do-02
+    :op1 (s696d / do-02
         :ARG0 (s696y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1055,7 +1055,7 @@ Words: " And what do you do with these stars ?  "
 
 # sentence level graph:
 (s699a / and
-    :op2 (s699d / do-02
+    :op1 (s699d / do-02
         :ARG0 (s699y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1246,7 +1246,7 @@ Words: " And what good does it do you to own the stars ?  "
 
 # sentence level graph:
 (s709a / and
-    :op2 (s709g / good-04
+    :op1 (s709g / good-04
         :ARG1 (s709o / own-01
             :ARG1 (s709s / star))
         :ARG2 (s709y / person
@@ -1291,7 +1291,7 @@ Words: " And what good does it do you to be rich ?  "
 
 # sentence level graph:
 (s711a / and
-    :op2 (s711g / good-04
+    :op1 (s711g / good-04
         :ARG1 (s711r / rich-01
             :ARG1 (s711y / person
                 :refer-person 2nd
@@ -1673,7 +1673,7 @@ Words: " And what do you do with them ? "
 
 # sentence level graph:
 (s727a / and
-    :op2 (s727d / do-02
+    :op1 (s727d / do-02
         :ARG0 (s727y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1967,7 +1967,7 @@ Words: And then I put this paper in a drawer and lock it with a  key .  "
 
 # sentence level graph:
 (s740a / and
-    :op2 (s740a2 / and
+    :op1 (s740a2 / and
         :op1 (s740p / put-01
             :ARG0 (s740i / person
                 :refer-person 1st
@@ -1996,7 +1996,7 @@ Words: " And that is all ? "
 (s741s / say-91
        :ARG0 (s741p / person)
        :ARG1 (s741a / and
-                    :op2 (s741b / be-it-08
+                    :op1 (s741b / be-it-08
                                 :ARG1 (s741t / that)
                                 :ARG1-of (s741r / request-confirmation-91)))
        :ARG2 (s741p2 / person))
@@ -2261,7 +2261,7 @@ Words: And the little prince went away .
 
 # sentence level graph:
 (s752a / and
-       :op2 (s752g / go-02
+       :op1 (s752g / go-02
                    :ARG0 (s752p / prince
                                 :mod (s752l / little))
                    :direction (s752a2 / away)))

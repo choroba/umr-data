@@ -69,7 +69,7 @@ Words: And he used the extinct volcano as a footstool .
 
 # sentence level graph:
 (s1009a / and
-    :op2 (s1009u / use-01
+    :op1 (s1009u / use-01
         :ARG0 (s1009h / person
             :refer-person 3rd
             :refer-number singular)
@@ -371,7 +371,7 @@ Words: And the people have no imagination .
 
 # sentence level graph:
 (s1021a / and
-        :op2 (s1021i2 / imagine-01
+        :op1 (s1021i2 / imagine-01
                       :ARG0 (s1021p / person)
                       :polarity -
                       :modal-strength neutral-negative))

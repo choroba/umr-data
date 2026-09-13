@@ -73,7 +73,7 @@ Words: And I heard him say : " Then you do n't remember .
 
 # sentence level graph:
 (s1363a / and
-        :op2 (s1363h / hear-01
+        :op1 (s1363h / hear-01
                      :ARG0 (s1363i / i)
                      :ARG1 (s1363s / say-01
                                    :ARG0 (s1363h2 / he)
@@ -580,7 +580,7 @@ Words: " What does this mean ? " I demanded .
         :ARG1 (s1384m / mean-01
                       :ARG1 (s1384t / this)
                       :ARG2 (s1384a / umr-unknown)
-                      :quote s))
+                      :quote s1384d))
 
 # alignment:
 
@@ -658,7 +658,7 @@ Words: And now I did not dare ask him any more questions .
 
 # sentence level graph:
 (s1389a / and
-        :op2 (s1389d / dare-01
+        :op1 (s1389d / dare-01
                      :ARG1 (s1389i / i)
                      :ARG2 (s1389q2 / question-01
                                     :ARG0 s1389i
@@ -971,7 +971,7 @@ Words: And I have the sheep 's box .
 
 # sentence level graph:
 (s1402a / and
-        :op2 (s1402h / have-03
+        :op1 (s1402h / have-03
                      :ARG0 (s1402i / i)
                      :ARG1 (s1402b / box
                                    :possessor (s1402s / sheep))))
@@ -989,7 +989,7 @@ Words: And I have the muzzle ... "
 
 # sentence level graph:
 (s1403a / and
-        :op2 (s1403h / have-03
+        :op1 (s1403h / have-03
                      :ARG0 (s1403i / i)
                      :ARG1 (s1403m / muzzle)))
 
@@ -1006,7 +1006,7 @@ Words: And he gave me a sad smile .
 
 # sentence level graph:
 (s1404a / and
-        :op2 (s1404s / smile-01
+        :op1 (s1404s / smile-01
                      :ARG0 (s1404h / he)
                      :ARG2 (s1404i / i)
                      :ARG1-of (s1404s2 / sad-02)))
@@ -1161,7 +1161,7 @@ Words: And I knew that I could not bear the thought of never hearing that laught
 
 # sentence level graph:
 (s1413a / and
-        :op2 (s1413k / know-01
+        :op1 (s1413k / know-01
                      :ARG0 (s1413i / i)
                      :ARG1 (s1413p / possible-01
                                    :ARG1 (s1413b / bear-01
@@ -1517,7 +1517,7 @@ Words: " And at night you will look up at the stars .
 
 # sentence level graph:
 (s1431a / and
-        :op2 (s1431l / look-01
+        :op1 (s1431l / look-01
                      :ARG0 (s1431y / you)
                      :ARG1 (s1431s / star)
                      :direction (s1431u / up)
@@ -1612,7 +1612,7 @@ Words: And so you will love to watch all the stars in the heavens ... they will 
 # sentence level graph:
 (s1435s2 / say-91
          :ARG1 (s1435a / and
-                       :op2 (s1435l / love-01
+                       :op1 (s1435l / love-01
                                     :ARG0 (s1435y / you)
                                     :ARG1 (s1435w / watch-01
                                                   :ARG0 s1435y
@@ -1987,7 +1987,7 @@ Words: And so it will be as if all the stars were laughing ,  when you look at t
 
 # sentence level graph:
 (s1454a / and
-        :op2 (s1454r / resemble-91
+        :op1 (s1454r / resemble-91
                      :ARG1 (s1454i2 / it)
                      :ARG2 (s1454l2 / laugh-01
                                     :ARG0 (s1454s / star
@@ -2017,7 +2017,7 @@ Words: And he laughed again .
 
 # sentence level graph:
 (s1455a / and
-        :op2 (s1455l / laugh-01
+        :op1 (s1455l / laugh-01
                      :ARG0 (s1455h / he)
                      :mod (s1455a2 / again)))
 
@@ -2034,7 +2034,7 @@ Words: " And when your sorrow is comforted ( time soothes all sorrows )  you wil
 
 # sentence level graph:
 (s1456a / and
-        :op2 (s1456c / content-01
+        :op1 (s1456c / content-01
                      :ARG1 (s1456y / you)
                      :ARG2 (s1456k / know-02
                                    :ARG0 s1456y
@@ -2179,7 +2179,7 @@ Words: And he laughed again .
 
 # sentence level graph:
 (s1462a / and
-        :op2 (s1462l / laugh-01
+        :op1 (s1462l / laugh-01
                      :ARG0 (s1462h / he)
                      :mod (s1462a2 / again)))
 
@@ -2223,7 +2223,7 @@ Words: And he laughed again .
 
 # sentence level graph:
 (s1464a / and
-        :op2 (s1464l / laugh-01
+        :op1 (s1464l / laugh-01
                      :ARG0 (s1464h / he)
                      :mod (s1464a2 / again)))
 
@@ -2644,7 +2644,7 @@ Words: And he took me by the hand .
 
 # sentence level graph:
 (s1486a / and
-        :op2 (s1486t / take-01
+        :op1 (s1486t / take-01
                      :ARG0 (s1486h / he)
                      :ARG1 (s1486i / i)
                      :manner (s1486h2 / hand)))
@@ -3030,7 +3030,7 @@ Words: And he too said nothing more , because he was crying ...
 
 # sentence level graph:
 (s1507a / and
-        :op2 (s1507s / say-01
+        :op1 (s1507s / say-01
                      :ARG0 (s1507h / he
                                    :mod (s1507t / too))
                      :ARG1 (s1507n / nothing
@@ -3088,7 +3088,7 @@ Words: And he sat down , because he was afraid .
 
 # sentence level graph:
 (s1510a / and
-        :op2 (s1510s / sit-down-02
+        :op1 (s1510s / sit-down-02
                      :ARG1 (s1510h / he)
                      :ARG1-of (s1510c / cause-01
                                       :ARG0 (s1510f / fear-01

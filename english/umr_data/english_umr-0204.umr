@@ -214,7 +214,7 @@ Words: And after some work with a colored pencil I succeeded in making my first 
 
 # sentence level graph:
 (s8a2 / and
-      :op2 (s8s / succeed-01
+      :op1 (s8s / succeed-01
                 :ARG0 (s8p3 / person
                             :refer-person 1st
                             :refer-number singular)
@@ -849,7 +849,7 @@ Words: And that has n't much improved my opinion of them .
 
 # sentence level graph:
 (s28a / and
-    :op2 (s28i / improve-01
+    :op1 (s28i / improve-01
         :ARG0 (s28t / that)
         :ARG1 (s28t3 / thing
             :ARG1-of (s28o2 / opine-01
@@ -1043,7 +1043,7 @@ Words: And the grown - up would be greatly pleased to have met such a  sensible 
 
 # sentence level graph:
 (s35a / and
-      :op2 (s35p / please-01
+      :op1 (s35p / please-01
                  :ARG0 (s35m / meet-02
                              :ARG0 (s35g / grown-up)
                              :ARG1 (s35m2 / man

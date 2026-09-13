@@ -134,7 +134,7 @@ Words: And a brilliantly lighted express train shook the switchman 's cabin as i
 
 # sentence level graph:
 (s1188a / and
-        :op2 (s1188s / shake-01
+        :op1 (s1188s / shake-01
                      :ARG0 (s1188t / train
                                    :mod (s1188e / express-02)
                                    :ARG1-of (s1188l / light-04
@@ -224,7 +224,7 @@ Words: And a second brilliantly lighted express thundered by , in the opposite d
 
 # sentence level graph:
 (s1192a / and
-        :op2 (s1192t / thunder-01
+        :op1 (s1192t / thunder-01
                      :ARG0 (s1192t2 / train
                                     :mod (s1192e / express-02)
                                     :ARG1-of (s1192l / light-04
@@ -357,7 +357,7 @@ Words: And they heard the roaring thunder of a third brilliantly lighted express
 
 # sentence level graph:
 (s1198a / and
-    :op2 (s1198h / hear-01
+    :op1 (s1198h / hear-01
         :ARG0 (s1198t / person
             :refer-person 3rd
             :refer-number plural)

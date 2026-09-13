@@ -338,7 +338,7 @@ Words: And he cast a look around him at the planet of the geographer .
 
 # sentence level graph:
 (s840a / and
-    :op2 (s840l / look-01
+    :op1 (s840l / look-01
         :ARG0 (s840h / person
             :refer-person 3rd
             :refer-number singular)
@@ -526,7 +526,7 @@ Words: " And towns , and rivers , and deserts ?  "
 
 # sentence level graph:
 (s849a3 / and
-        :op2 (s849a4 / and
+        :op1 (s849a4 / and
                      :op1 (s849t2 / town)
                      :op2 (s849r2 / river)
                      :op3 (s849d2 / desert)
@@ -788,7 +788,7 @@ Words: And if the recollections of any one among them seem interesting to him , 
 
 # sentence level graph:
 (s860a3 / and
-    :op2 (s860o / order-02
+    :op1 (s860o / order-02
         :ARG0 (s860g / geographer)
         :ARG1 (s860i / inquire-01
             :ARG1 (s860c / character
@@ -1201,7 +1201,7 @@ Words: And , having opened his big register , the geographer sharpened his penci
 
 # sentence level graph:
 (s879a / and
-       :op2 (s879s / sharpen-01
+       :op1 (s879s / sharpen-01
                    :ARG0 (s879g / geographer)
                    :ARG1 (s879p / pencil
                                 :possessor s879g)
@@ -1886,7 +1886,7 @@ Words: And I have left her on my planet , all alone !  "
 
 # sentence level graph:
 (s910a4 / and
-    :op2 (s910l / leave-12
+    :op1 (s910l / leave-12
         :ARG0 (s910i / person
             :source (s910p / planet)
             :refer-person 1st
@@ -2031,7 +2031,7 @@ Words: And the little prince went away , thinking of his flower .
 
 # sentence level graph:
 (s916a / and
-       :op2 (s916a2 / and
+       :op1 (s916a2 / and
                     :op1 (s916g / go-02
                                 :ARG0 (s916p / prince
                                              :mod (s916l / little))

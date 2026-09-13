@@ -713,7 +713,7 @@ Words: And , after a little silence , he spoke again :  "  The stars are beautif
 
 # sentence level graph:
 (s1248a / and
-    :op2 (s1248s / speak-01
+    :op1 (s1248s / speak-01
         :ARG0 (s1248h / person
             :refer-person 3rd
             :refer-number singular)
@@ -766,7 +766,7 @@ Words: And , without saying anything more , I looked across the ridges of sand t
 
 # sentence level graph:
 (s1250a / and
-    :op2 (s1250l / look-01
+    :op1 (s1250l / look-01
         :ARG0 (s1250i / person
             :refer-person 1st
             :refer-number singular)
@@ -821,7 +821,7 @@ Words: And that was true .
 
 # sentence level graph:
 (s1252a / and
-        :op2 (s1252t / true-01
+        :op1 (s1252t / true-01
                      :ARG1 (s1252t2 / that)))
 
 # alignment:
@@ -1346,7 +1346,7 @@ Words: And I felt him to be more fragile still .
 
 # sentence level graph:
 (s1273a / and
-    :op2 (s1273f / feel-02
+    :op1 (s1273f / feel-02
         :ARG0 (s1273i / person
             :refer-person 1st
             :refer-number singular)
@@ -1402,7 +1402,7 @@ Words: And , as I walked on so , I found the well ,  at daybreak .
 
 # sentence level graph:
 (s1275a / and
-    :op2 (s1275f / find-01
+    :op1 (s1275f / find-01
         :ARG0 (s1275i / person
             :refer-person 1st
             :refer-number singular)

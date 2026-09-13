@@ -77,7 +77,7 @@ Words: And as I had with me neither a mechanic nor any passengers ,  I  set myse
 
 # sentence level graph:
 (s39a / and
-      :op2 (s39h2 / have-reason-91
+      :op1 (s39h2 / have-reason-91
                   :ARG1 (s39a2 / attempt-01
                                :ARG0 (s39i / i)
                                :ARG1 (s39r / repair-01
@@ -325,7 +325,7 @@ Words: And I saw a most extraordinary small person , who stood there examining m
 
 # sentence level graph:
 (s50a / and
-      :op2 (s50s / see-01
+      :op1 (s50s / see-01
                  :ARG0 (s50i / i)
                  :ARG1 (s50p / person
                              :ARG1-of (s50h / have-degree-91
@@ -608,7 +608,7 @@ Words: And in answer he repeated , very slowly , as if he were speaking of a  ma
 
 # sentence level graph:
 (s60a / and
-      :op2 (s60r / repeat-01
+      :op1 (s60r / repeat-01
                  :ARG0 (s60h / he)
                  :ARG1 (s60d / draw-01
                              :ARG0 (s60y2 / you)
@@ -839,7 +839,7 @@ Words: And I was astounded to hear the little fellow greet it with ,  "  No ,  n
 
 # sentence level graph:
 (s69a / and
-      :op2 (s69a2 / astound-01
+      :op1 (s69a2 / astound-01
                   :ARG0 (s69h / hear-01
                               :ARG0 (s69i / i)
                               :ARG1 (s69g / greet-01
@@ -1258,7 +1258,7 @@ Words: And I threw out an explanation with it .
 
 # sentence level graph:
 (s90a / and
-      :op2 (s90e / explain-01
+      :op1 (s90e / explain-01
                  :ARG0 (s90i / i)
                  :ARG1 (s90i3 / it)))
 
@@ -1510,7 +1510,7 @@ Words: And that is how I made the acquaintance of the little prince .
 
 # sentence level graph:
 (s102a / and
-       :op2 (s102a2 / acquaint-01
+       :op1 (s102a2 / acquaint-01
                     :ARG1 (s102i / i)
                     :ARG2 (s102p / prince
                                  :mod (s102l / little))

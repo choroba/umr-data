@@ -78,7 +78,7 @@ Words: And he added : " It is not worth the trouble ... "
 
 # sentence level graph:
 (s1279a / and
-    :op2 (s1279a2 / add-01
+    :op1 (s1279a2 / add-01
         :ARG0 (s1279h / person
             :refer-person 3rd
             :refer-number singular)
@@ -272,7 +272,7 @@ Words: And the pulley moaned , like an old weathervane which the wind has long s
 
 # sentence level graph:
 (s1288a / and
-        :op2 (s1288m / moan-01
+        :op1 (s1288m / moan-01
                      :ARG0 (s1288p / pulley)
                      :ARG1-of (s1288r / resemble-91
                                       :ARG2 (s1288m2 / moan-01
@@ -532,7 +532,7 @@ Words: And I understood what he had been looking for .
 
 # sentence level graph:
 (s1299a / and
-    :op2 (s1299u / understand-01
+    :op1 (s1299u / understand-01
         :ARG0 (s1299i / person
             :refer-person 1st
             :refer-number singular)
@@ -848,7 +848,7 @@ Words: And the little prince added : " But the eyes are blind .
 
 # sentence level graph:
 (s1313a / and
-        :op2 (s1313a2 / add-01
+        :op1 (s1313a2 / add-01
                       :ARG0 (s1313p / prince
                                     :mod (s1313l / little))
                       :ARG1 (s1313c / contrast-91
@@ -942,7 +942,7 @@ Words: And that honey color was making me happy , too .
 
 # sentence level graph:
 (s1318a / and
-    :op2 (s1318m / make-02
+    :op1 (s1318m / make-02
         :ARG0 (s1318c / color
             :mod (s1318h / honey))
         :ARG1 (s1318h2 / happy-01
@@ -1198,7 +1198,7 @@ Words: And he laughed again .
 
 # sentence level graph:
 (s1329a / and
-    :op2 (s1329l / laugh-01
+    :op1 (s1329l / laugh-01
         :ARG0 (s1329h / person
             :refer-person 3rd
             :refer-number singular)
@@ -1308,7 +1308,7 @@ Words: And as I gave it to him my heart was torn .
 
 # sentence level graph:
 (s1335a / and
-    :op2 (s1335t / tear-01
+    :op1 (s1335t / tear-01
         :ARG1 (s1335h / heart
             :part-of (s1335i / person
                 :refer-person 1st
@@ -1455,7 +1455,7 @@ Words: And he flushed .
 
 # sentence level graph:
 (s1342a / and
-    :op2 (s1342f / flush-03
+    :op1 (s1342f / flush-03
         :ARG1 (s1342h / person
             :refer-person 3rd
             :refer-number singular)))
@@ -1473,7 +1473,7 @@ Words: And once again , without understanding why , I had a  queer sense of sorr
 
 # sentence level graph:
 (s1343a2 / and
-    :op2 (s1343s / sense-01
+    :op1 (s1343s / sense-01
         :ARG0 (s1343i / person
             :refer-person 1st
             :refer-number singular)
@@ -1604,7 +1604,7 @@ Words: And I added , with some hesitancy : " Perhaps it was because of the anniv
 
 # sentence level graph:
 (s1347a4 / and
-    :op2 (s1347a / add-01
+    :op1 (s1347a / add-01
         :ARG0 (s1347i / person
             :refer-person 1st
             :refer-number singular)

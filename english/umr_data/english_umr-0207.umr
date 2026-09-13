@@ -289,7 +289,7 @@ Words: And the little prince went away , puzzled .
 
 # sentence level graph:
 (s646a / and
-       :op2 (s646g / go-02
+       :op1 (s646g / go-02
                    :ARG0 (s646p / prince
                                 :mod (s646l / little)
                                 :ARG1-of (s646p2 / puzzle-01))

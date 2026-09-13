@@ -704,7 +704,7 @@ Words: And the little prince went away .
 
 # sentence level graph:
 (s632a / and
-       :op2 (s632g / go-02
+       :op1 (s632g / go-02
                    :ARG0 (s632p / prince
                                 :mod (s632l / little))
                    :direction (s632a2 / away)))

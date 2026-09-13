@@ -625,7 +625,7 @@ Words: And I have no need of you .
 
 # sentence level graph:
 (s1074a / and
-        :op2 (s1074n / need-01
+        :op1 (s1074n / need-01
                      :ARG0 (s1074i / i)
                      :ARG1 (s1074y / you)
                      :polarity -))
@@ -1118,7 +1118,7 @@ Words: And , in consequence , I am a little bored .
 
 # sentence level graph:
 (s1099a / and
-        :op2 (s1099c / consequence-03
+        :op1 (s1099c / consequence-03
                      :ARG2 (s1099b / bore-02
                                    :ARG1 (s1099i / i)
                                    :degree downtoner)))
@@ -1229,11 +1229,11 @@ Words: And then look : you see the grain - fields down yonder ?
 
 # sentence level graph:
 (s1104a / and
-        :op2 (s1104l / look-01
+        :op1 (s1104l / look-01
                      :ARG0 (s1104y / you)
                      :temporal (s1104t / then)
                      :mode imperative)
-        :op3 (s1104s / see-01
+        :op2 (s1104s / see-01
                      :ARG0 s1104y
                      :ARG1 (s1104f / field
                                    :mod (s1104g / grain)
@@ -1309,7 +1309,7 @@ Words: And that is sad .
 
 # sentence level graph:
 (s1108a / and
-        :op2 (s1108s / sad-02
+        :op1 (s1108s / sad-02
                      :ARG0 (s1108t2 / that)))
 
 # alignment:
@@ -1388,7 +1388,7 @@ Words: And I shall love to listen to the wind in the wheat ... "
 
 # sentence level graph:
 (s1112a / and
-        :op2 (s1112l / love-02
+        :op1 (s1112l / love-02
                      :ARG0 (s1112i / i)
                      :ARG1 (s1112l2 / listen-01
                                     :ARG0 s1112i
@@ -2817,7 +2817,7 @@ Words: " And now here is my secret , a very simple secret :  It is only with the
                         :refer-person 1st
                         :refer-number singular)
          :ARG1 (s1173a / and
-                       :op2 (s1173e3 / exist-91
+                       :op1 (s1173e3 / exist-91
                                      :ARG1 (s1173h / here)
                                      :ARG2 (s1173t2 / thing
                                                     :ARG1-of (s1173s / secret-01

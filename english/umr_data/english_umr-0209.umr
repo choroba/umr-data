@@ -268,7 +268,7 @@ Words: And since it is beautiful , it is truly useful .  "
 
 # sentence level graph:
 (s765a / and
-    :op2 (s765h / have-reason-91
+    :op1 (s765h / have-reason-91
         :ARG1 (s765u / useful-05
             :ARG1 (s765i / thing
                 :refer-person 3rd
@@ -436,7 +436,7 @@ Words: And he lighted his lamp again .
 
 # sentence level graph:
 (s774a / and
-    :op2 (s774l / light-04
+    :op1 (s774l / light-04
         :ARG0 (s774h / person
             :refer-person 3rd
             :refer-number singular)
@@ -579,7 +579,7 @@ Words: And he put out his lamp .
 
 # sentence level graph:
 (s781a / and
-    :op2 (s781p / put-out-09
+    :op1 (s781p / put-out-09
         :ARG0 (s781h / person
             :refer-person 3rd
             :refer-number singular)
@@ -712,7 +712,7 @@ Words: " And the orders have been changed since that time ?  "
 
 # sentence level graph:
 (s787a / and
-       :op2 (s787c / change-01
+       :op1 (s787c / change-01
                    :polarity (s787a2 / umr-unknown)
                    :ARG1 (s787o / order-01)
                    :temporal (s787s / since
@@ -1034,7 +1034,7 @@ Words: And he lighted his lamp again .
 
 # sentence level graph:
 (s803a / and
-    :op2 (s803l / light-04
+    :op1 (s803l / light-04
         :ARG0 (s803h / person
             :refer-person 3rd
             :refer-number singular)
@@ -1405,7 +1405,7 @@ Words: And he put out his lamp .
 
 # sentence level graph:
 (s817a / and
-    :op2 (s817p / put-out-09
+    :op1 (s817p / put-out-09
         :ARG0 (s817h / person
             :refer-person 3rd
             :refer-number singular)

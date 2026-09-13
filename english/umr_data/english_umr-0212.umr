@@ -72,7 +72,7 @@ Words: And I realize that I run the risk of giving a  false idea of our planet t
 
 # sentence level graph:
 (s934a / and
-    :op2 (s934r / realize-01
+    :op1 (s934r / realize-01
         :ARG0 (s934i / person
             :refer-person 1st
             :refer-number singular)
@@ -827,7 +827,7 @@ Words: And they were both silent .
 
 # sentence level graph:
 (s966a / and
-    :op2 (s966s / silent
+    :op1 (s966s / silent
         :domain (s966t / person
             :mod (s966b / both)
             :refer-person 3rd
@@ -1367,7 +1367,7 @@ Words: And they were both silent .
 
 # sentence level graph:
 (s990a / and
-    :op2 (s990s / silent
+    :op1 (s990s / silent
         :domain (s990t / person
             :mod (s990b / both)
             :refer-person 3rd
