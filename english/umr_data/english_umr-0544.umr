@@ -1904,7 +1904,7 @@ Words: <Architect> and then another blue block one unit up and one unit towards 
 
 # sentence level graph:
 (s86a / and
-    :op2 (s86b4 / have-goal-91
+    :op1 (s86b4 / have-goal-91
         :ARG1 (s86b / block
             :color (s86b2 / blue)
             :mod (s86a2 / another))
@@ -2727,7 +2727,7 @@ Words: <Architect> and then move the purple one back
 
 # sentence level graph:
 (s122a / and
-    :op2 (s122m / move-01
+    :op1 (s122m / move-01
         :ARG0 (s122y / person
             :refer-person 2nd
             :refer-number singular)

@@ -815,7 +815,7 @@ Words: <Architect> and remove the inner corner of the square you just built
 
 # sentence level graph:
 (s38a / and
-    :op2 (s38r / remove-01
+    :op1 (s38r / remove-01
         :ARG0 (s38y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1213,7 +1213,7 @@ Words: <Architect> and then repeat that outward twice more
 
 # sentence level graph:
 (s54a / and
-    :op2 (s54r / repeat-01
+    :op1 (s54r / repeat-01
         :ARG0 (s54y / person
             :refer-person 2nd
             :refer-number singular)

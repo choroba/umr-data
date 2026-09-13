@@ -473,7 +473,7 @@ Words: <Architect> and now two orange on top of the second red
 
 # sentence level graph:
 (s23a / and
-      :op2 (s23b / have-goal-91
+      :op1 (s23b / have-goal-91
                  :ARG1 (s23t / thing
                              :color (s23o / orange)
                              :quant 2)
@@ -702,7 +702,7 @@ Words: <Architect> and one green on the bottome next to that
 
 # sentence level graph:
 (s33a / and
-      :op2 (s33b / have-goal-91
+      :op1 (s33b / have-goal-91
                  :ARG1 (s33t / thing
                              :color (s33g / green)
                              :quant 1)
@@ -1037,7 +1037,7 @@ Words: <Architect> and now two blocks of purple, one above and below the one you
 
 # sentence level graph:
 (s48a / and
-    :op2 (s48b / block
+    :op1 (s48b / block
         :color (s48p / purple)
         :ARG2-of (s48i2 / include-91
             :ARG1 (s48a2 / and

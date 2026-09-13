@@ -477,7 +477,7 @@ Words: <Architect> and then one on the left of the left green
 
 # sentence level graph:
 (s23a / and
-      :op2 (s23b / have-goal-91
+      :op1 (s23b / have-goal-91
                  :ARG1 (s23o / one)
                  :ARG2 (s23s / space
                              :ARG1-of (s23l / left-20
@@ -902,7 +902,7 @@ Words: <Architect> and repeat with orange
 
 # sentence level graph:
 (s42a / and
-    :op2 (s42r / repeat-01
+    :op1 (s42r / repeat-01
         :ARG0 (s42y / person
             :refer-person 2nd
             :refer-number singular)

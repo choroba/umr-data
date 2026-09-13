@@ -3909,7 +3909,7 @@ Words: <Architect> And this one is 8 blocks high.
 
 # sentence level graph:
 (s172a / and
-       :op2 (s172h / high-05
+       :op1 (s172h / high-05
                    :ARG1 (s172o / one
                                 :mod (s172t / this))
                    :ARG2 (s172d / distance-quantity
@@ -3997,7 +3997,7 @@ Words: <Architect> And it has one more blue block in between the top and the yel
 
 # sentence level graph:
 (s176a / and
-       :op3 (s176h / have-part-91
+       :op1 (s176h / have-part-91
                    :ARG1 (s176i2 / it
                                  :part (s176p / part
                                               :color (s176y / yellow)))

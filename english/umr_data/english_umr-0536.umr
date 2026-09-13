@@ -651,7 +651,7 @@ Words: <Architect> and face the structure
 
 # sentence level graph:
 (s30a / and
-    :op2 (s30f / face-01
+    :op1 (s30f / face-01
         :ARG0 (s30y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1350,7 +1350,7 @@ Words: <Architect> and rotate 90 degrees
 
 # sentence level graph:
 (s61a / and
-    :op2 (s61r / rotate-01
+    :op1 (s61r / rotate-01
         :ARG0 (s61y / person
             :refer-person 2nd
             :refer-number singular)

@@ -359,7 +359,7 @@ Words: <Architect> And then place one right below the one you just placed
 
 # sentence level graph:
 (s17a / and
-      :op2 (s17p / place-01
+      :op1 (s17p / place-01
                  :ARG0 (s17y / you)
                  :ARG1 (s17o / one)
                  :ARG2 (s17s / space
@@ -1189,7 +1189,7 @@ Words: <Builder> or is the plus bigger?
 
 # sentence level graph:
 (s56a / umr-choice
-      :op2 (s56h / have-degree-91
+      :op1 (s56h / have-degree-91
                  :ARG1 (s56t / thing
                              :mod (s56p / plus))
                  :ARG2 (s56b / big)
@@ -2209,7 +2209,7 @@ Words: <Architect> And place a blue block two squares above the one directly nex
 
 # sentence level graph:
 (s101a / and
-       :op2 (s101p / place-01
+       :op1 (s101p / place-01
                    :ARG0 (s101y / you)
                    :ARG1 (s101b / block
                                 :color (s101b2 / blue))
@@ -2998,7 +2998,7 @@ Words: <Architect> and we're done! phew
 # sentence level graph:
 (s136a2 / and
        :op1 (s136a / and
-                    :op2 (s136b / be-done-08
+                    :op1 (s136b / be-done-08
                                 :ARG0 (s136w / we)))
        :op2 (s136p / phew
                     :mode expressive))

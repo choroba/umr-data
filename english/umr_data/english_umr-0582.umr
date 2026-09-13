@@ -252,7 +252,7 @@ Words: <Architect> and basically lift that one place off the ground
 
 # sentence level graph:
 (s12a / and
-    :op2 (s12l / lift-01
+    :op1 (s12l / lift-01
         :ARG0 (s12y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1796,7 +1796,7 @@ Words: <Architect> and make that end have the middle touching the orange and one
 
 # sentence level graph:
 (s84a / and
-    :op2 (s84m / make-02
+    :op1 (s84m / make-02
         :ARG0 (s84y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2380,7 +2380,7 @@ Words: <Architect> and remove the second one to the left of the yellow
 
 # sentence level graph:
 (s110a / and
-    :op2 (s110r / remove-01
+    :op1 (s110r / remove-01
         :ARG0 (s110y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2665,7 +2665,7 @@ Words: <Architect> and one red on top
 
 # sentence level graph:
 (s122a / and
-       :op2 (s122b / have-goal-91
+       :op1 (s122b / have-goal-91
                    :ARG1 (s122t / thing
                                 :color (s122r / red)
                                 :quant 1)

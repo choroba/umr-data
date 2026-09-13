@@ -941,7 +941,7 @@ Words: <Architect> and then
 
 # sentence level graph:
 (s46a / and
-      :op2 (s46h / have-temporal-91
+      :op1 (s46h / have-temporal-91
                  :ARG2 (s46t / then)))
 
 # alignment:
@@ -1047,7 +1047,7 @@ Words: <Architect> and then one more coming out
 
 # sentence level graph:
 (s51a / and
-      :op2 (s51b / have-goal-91
+      :op1 (s51b / have-goal-91
                  :ARG1 (s51t / thing
                              :mod (s51m / more)
                              :quant 1)
@@ -1092,7 +1092,7 @@ Words: <Architect> and then one going up
 
 # sentence level graph:
 (s53a / and
-      :op4 (s53b / have-goal-91
+      :op1 (s53b / have-goal-91
                  :ARG1 (s53t2 / thing
                               :quant 1)
                  :ARG2 (s53s / space
@@ -1185,7 +1185,7 @@ Words: <Architect> and then two to the left
 
 # sentence level graph:
 (s57a / and
-      :op2 (s57b / have-goal-91
+      :op1 (s57b / have-goal-91
                  :ARG1 (s57t / thing
                              :quant 2)
                  :ARG2 (s57s / space

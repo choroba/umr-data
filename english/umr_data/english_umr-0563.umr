@@ -269,7 +269,7 @@ Words: <Architect> and a green under the other
 
 # sentence level graph:
 (s14a / and
-    :op2 (s14p / put-01
+    :op1 (s14p / put-01
         :ARG0 (s14y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1275,7 +1275,7 @@ Words: <Builder> or 4?
 
 # sentence level graph:
 (s61a / umr-choice
-      :op2 (s61s / suppose-02
+      :op1 (s61s / suppose-02
                  :ARG2 (s61l / long-03
                              :ARG2 (s61d / distance-quantity
                                          :quant 4)))

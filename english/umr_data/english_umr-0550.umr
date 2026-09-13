@@ -595,7 +595,7 @@ Words: <Architect> first put down a blue block
       :ARG0 (s29y / you)
       :ARG1 (s29b / block
                   :color (s29b2 / blue))
-      :li 1
+      :list-item 1
       :mode imperative)
 
 # alignment:
@@ -764,7 +764,7 @@ Words: <Architect> and the same thing on the other side
 
 # sentence level graph:
 (s36a / and
-      :op2 (s36b / be-destined-for-91
+      :op1 (s36b / be-destined-for-91
                  :ARG1 (s36t / thing
                              :ARG1-of (s36s / same-01))
                  :ARG2 (s36s2 / side
@@ -1607,7 +1607,7 @@ Words: <Architect> and then fill the gaps on that plane with 4  orange blocks
 
 # sentence level graph:
 (s73a / and
-      :op2 (s73f / fill-01
+      :op1 (s73f / fill-01
                  :ARG0 (s73y / you)
                  :ARG1 (s73g / gap
                              :place (s73p / plane

@@ -559,7 +559,7 @@ Words: <Architect> And now remove the three blocks below the top block on one si
 
 # sentence level graph:
 (s25a / and
-    :op3 (s25r / remove-01
+    :op1 (s25r / remove-01
         :ARG0 (s25y / person
             :refer-person 2nd
             :refer-number singular)

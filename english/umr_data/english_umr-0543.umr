@@ -677,7 +677,7 @@ Words: <Builder> or towards me?
 
 # sentence level graph:
 (s31a / umr-choice
-    :op2 (s31t / toward-01
+    :op1 (s31t / toward-01
         :ARG2 (s31i / person
             :refer-person 1st
             :refer-number singular))

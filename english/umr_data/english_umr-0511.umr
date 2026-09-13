@@ -85,7 +85,7 @@ Words: <Architect> and move a little back so we have some space
 
 # sentence level graph:
 (s5a / and
-     :op2 (s5m / move-01
+     :op1 (s5m / move-01
                :ARG0 (s5y / you)
                :ARG1 s5y
                :direction (s5t / trajectory
@@ -1846,7 +1846,7 @@ Words: <Architect> and then can you put three red blocks across from the other r
 
 # sentence level graph:
 (s89a / and
-      :op3 (s89p / put-01
+      :op1 (s89p / put-01
                  :ARG0 (s89y / you)
                  :ARG1 (s89b / block
                              :color (s89r / red)
@@ -2152,7 +2152,7 @@ Words: <Architect> and same with the other side
 
 # sentence level graph:
 (s103a / and
-       :op3 (s103s / same-01
+       :op1 (s103s / same-01
                    :ARG1 (s103s2 / side
                                  :ARG1-of (s103o / other-01))))
 
@@ -2809,7 +2809,7 @@ Words: <Architect> and then build down from those
 
 # sentence level graph:
 (s136a / and
-       :op2 (s136b / build-01
+       :op1 (s136b / build-01
                    :ARG0 (s136y / you)
                    :temporal (s136t / then)
                    :direction (s136t2 / trajectory
@@ -2950,7 +2950,7 @@ Words: <Architect> and then put 3 blocks up on each side
 
 # sentence level graph:
 (s143a / and
-       :op3 (s143p / put-01
+       :op1 (s143p / put-01
                    :ARG0 (s143y / you)
                    :ARG1 (s143b / block
                                 :refer-number plural)
@@ -3138,7 +3138,7 @@ Words: <Architect> and then connect them
 
 # sentence level graph:
 (s151a / and
-       :op4 (s151c / connect-01
+       :op1 (s151c / connect-01
                    :ARG0 (s151y / you)
                    :ARG1 (s151t / they)
                    :temporal (s151t2 / then)

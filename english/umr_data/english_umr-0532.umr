@@ -799,7 +799,7 @@ Words: <Architect> and place another toward you on the block you just placed
 
 # sentence level graph:
 (s36a / and
-    :op2 (s36p / place-01
+    :op1 (s36p / place-01
         :ARG0 (s36y / person
             :refer-person 2nd
             :refer-number singular)
@@ -873,7 +873,7 @@ Words: <Architect> and put a yellow block on the one on the edge
 
 # sentence level graph:
 (s39a / and
-    :op2 (s39p / put-01
+    :op1 (s39p / put-01
         :ARG0 (s39y / person
             :refer-person 2nd
             :refer-number singular)
@@ -922,7 +922,7 @@ Words: <Architect> and one towards you
 
 # sentence level graph:
 (s41a / and
-    :op3 (s41b / have-goal-91
+    :op1 (s41b / have-goal-91
         :ARG1 (s41o / one)
         :ARG2 (s41s / space
             :ARG1-of (s41t / toward-01

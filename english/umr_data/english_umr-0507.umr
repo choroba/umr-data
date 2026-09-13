@@ -45,7 +45,7 @@ Words: <Architect> First, we'll make a line of three blue bricks
      :ARG2 (s3b / brick
                 :color (s3b2 / blue)
                 :quant 3)
-     :li 1)
+     :list-item 1)
 
 # alignment:
 
@@ -292,7 +292,7 @@ Words: <Architect> Last, a line of three purple bricks
       :ARG2 (s14b / brick
                   :color (s14p / purple)
                   :quant 3)
-      :li "-1"
+      :list-item "-1"
       :mode imperative)
 
 # alignment:
@@ -757,7 +757,7 @@ Words: <Architect> And blue on top of the two blue bricks
 
 # sentence level graph:
 (s34a / and
-      :op2 (s34b4 / be-destined-for-91
+      :op1 (s34b4 / be-destined-for-91
                   :ARG1 (s34t / thing
                               :color (s34b / blue))
                   :ARG2 (s34s / space

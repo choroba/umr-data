@@ -103,7 +103,7 @@ Words: <Architect> and go the the very edge of the square
 
 # sentence level graph:
 (s7a / and
-    :op2 (s7g / go-02
+    :op1 (s7g / go-02
         :ARG0 (s7y / person
             :refer-person 2nd
             :refer-number singular)
@@ -436,7 +436,7 @@ Words: <Architect> and then can you make one step up
 
 # sentence level graph:
 (s24a / and
-    :op2 (s24m / make-01
+    :op1 (s24m / make-01
         :ARG0 (s24y / person
             :refer-person 2nd
             :refer-number singular)
@@ -726,7 +726,7 @@ Words: <Architect> and then can you go three red blocks across the top step to m
 
 # sentence level graph:
 (s37a / and
-    :op2 (s37c / cause-01
+    :op1 (s37c / cause-01
         :ARG0 (s37y / person
             :refer-person 2nd
             :refer-number singular)
@@ -845,7 +845,7 @@ Words: <Builder> or on the same level?
 
 # sentence level graph:
 (s42a / umr-choice
-      :op2 (s42b / have-goal-91
+      :op1 (s42b / have-goal-91
                  :ARG2 (s42l / level
                              :ARG3-of (s42s / same-01)))
       :mode interrogative)
@@ -1559,7 +1559,7 @@ Words: <Architect> and then connect them
 
 # sentence level graph:
 (s76a / and
-    :op2 (s76c / connect-01
+    :op1 (s76c / connect-01
         :ARG0 (s76y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1706,7 +1706,7 @@ Words: <Architect> and then build down from the left most and right most purple 
 
 # sentence level graph:
 (s83a / and
-    :op3 (s83b / build-01
+    :op1 (s83b / build-01
         :ARG0 (s83y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1868,7 +1868,7 @@ Words: <Architect> and then from the second block from the left and the second b
 
 # sentence level graph:
 (s90a / and
-    :op4 (s90b / build-01
+    :op1 (s90b / build-01
         :ARG0 (s90y / person
             :refer-person 2nd
             :refer-number singular)

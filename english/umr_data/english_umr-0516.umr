@@ -414,7 +414,7 @@ Words: <Architect> and then a red block to the right of that one
 
 # sentence level graph:
 (s22a / and
-      :op2 (s22b / have-goal-91
+      :op1 (s22b / have-goal-91
                  :ARG1 (s22b2 / block
                               :color (s22r / red))
                  :ARG2 (s22s / space
@@ -478,7 +478,7 @@ Words: <Architect> and then two purple ones on top of those red ones
 
 # sentence level graph:
 (s25a / and
-      :op3 (s25b / have-goal-91
+      :op1 (s25b / have-goal-91
                  :ARG1 (s25o / one
                              :color (s25p / purple)
                              :quant 2)
@@ -1498,7 +1498,7 @@ Words: <Architect> and then can you put two red blocks down from the end of the 
 
 # sentence level graph:
 (s72a / and
-    :op2 (s72p / put-01
+    :op1 (s72p / put-01
         :ARG0 (s72y / person
             :refer-person 2nd
             :refer-number singular)

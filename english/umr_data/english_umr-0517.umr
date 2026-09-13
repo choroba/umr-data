@@ -691,7 +691,7 @@ Words: <Architect> and placed next to it
 
 # sentence level graph:
 (s34a / and
-    :op2 (s34p / place-01
+    :op1 (s34p / place-01
         :ARG2 (s34s / space
             :ARG1-of (s34n / next-to-02
                 :ARG2 (s34i2 / thing
@@ -862,7 +862,7 @@ Words: <Architect> and put one in the middle so theres no gap
 
 # sentence level graph:
 (s42a / and
-    :op3 (s42p / put-01
+    :op1 (s42p / put-01
         :ARG0 (s42y / person
             :refer-person 2nd
             :refer-number singular)

@@ -1663,7 +1663,7 @@ Words: <Architect> And one space over
 
 # sentence level graph:
 (s72a / and
-      :op2 (s72o / over-04
+      :op1 (s72o / over-04
                  :ARG5 (s72c / cartesian-framework-91
                              :ARG1 (s72b2 / builder))
                  :quant (s72d / distance-quantity
@@ -2155,7 +2155,7 @@ Words: <Architect> And remove the top middle orange block
 
 # sentence level graph:
 (s94a / and
-      :op2 (s94r / remove-01
+      :op1 (s94r / remove-01
                  :ARG0 (s94y / you)
                  :ARG1 (s94b / block
                              :color (s94o / orange)
@@ -2200,7 +2200,7 @@ Words: <Architect> And the bottom row of orange blocks
 
 # sentence level graph:
 (s96a / and
-      :op3 (s96r / remove-01
+      :op1 (s96r / remove-01
                  :ARG0 (s96y / you)
                  :ARG1 (s96r2 / row
                               :ARG1-of (s96b / bottom-03

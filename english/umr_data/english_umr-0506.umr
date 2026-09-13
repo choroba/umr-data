@@ -408,7 +408,7 @@ Words: <Architect> and another row on top of that of purple
 
 # sentence level graph:
 (s19a / and
-      :op2 (s19b / have-goal-91
+      :op1 (s19b / have-goal-91
                  :ARG1 (s19r / row
                              :mod (s19a2 / another)
                              :configuration-of (s19t / thing
@@ -523,7 +523,7 @@ Words: <Architect> and you can remove taht other one
 
 # sentence level graph:
 (s24a / and
-    :op3 (s24r / remove-01
+    :op1 (s24r / remove-01
         :ARG0 (s24y / person
             :refer-person 2nd
             :refer-number singular)
@@ -846,7 +846,7 @@ Words: <Architect> and two more wrapping around the purple
 
 # sentence level graph:
 (s37a / and
-      :op2 (s37b / have-goal-91
+      :op1 (s37b / have-goal-91
                  :ARG1 (s37t / thing
                              :mod (s37m / more)
                              :quant 2)
@@ -1351,7 +1351,7 @@ Words: <Architect> or, morethey should be replaced with red and green to continu
 
 # sentence level graph:
 (s59o / or
-    :op2 (s59r2 / replace-01
+    :op1 (s59r2 / replace-01
         :ARG1-of (s59h / have-degree-91
             :ARG3 (s59m / more))
         :ARG1 (s59t / person
@@ -1861,7 +1861,7 @@ Words: <Architect> and then connect itwith three more back toward the start
 
 # sentence level graph:
 (s82a / and
-    :op2 (s82c / connect-01
+    :op1 (s82c / connect-01
         :ARG0 (s82y / person
             :refer-person 2nd
             :refer-number singular)

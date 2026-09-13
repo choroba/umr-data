@@ -220,7 +220,7 @@ Words: <Architect> and then place an orange block to the diagonal top right of i
 
 # sentence level graph:
 (s12a / and
-    :op2 (s12p / place-01
+    :op1 (s12p / place-01
         :ARG0 (s12y / person
             :refer-person 2nd
             :refer-number singular)
@@ -437,7 +437,7 @@ Words: <Architect> and then one more on the right
 
 # sentence level graph:
 (s21a / and
-      :op3 (s21b / have-goal-91
+      :op1 (s21b / have-goal-91
                  :ARG1 (s21t / thing
                              :mod (s21m / more)
                              :quant 1)
@@ -538,7 +538,7 @@ Words: <Architect> and then put a purple block on top of the green one
 
 # sentence level graph:
 (s25a / and
-    :op3 (s25p / put-01
+    :op1 (s25p / put-01
         :ARG0 (s25y / person
             :refer-person 2nd
             :refer-number singular)
@@ -588,7 +588,7 @@ Words: <Architect> and then put a red block on the fourth blue block
 
 # sentence level graph:
 (s27a / and
-    :op4 (s27p / put-01
+    :op1 (s27p / put-01
         :ARG0 (s27y / person
             :refer-person 2nd
             :refer-number singular)
@@ -640,7 +640,7 @@ Words: <Architect> and an orange one on top of that
 
 # sentence level graph:
 (s29a / and
-      :op5 (s29b2 / have-goal-91
+      :op1 (s29b2 / have-goal-91
                   :ARG1 (s29o / one
                               :color (s29o2 / orange))
                   :ARG2 (s29s / space
@@ -684,7 +684,7 @@ Words: <Architect> and then a yellow one on top of that one
 
 # sentence level graph:
 (s31a / and
-      :op6 (s31b2 / have-goal-91
+      :op1 (s31b2 / have-goal-91
                   :ARG1 (s31o / one
                               :color (s31y2 / yellow))
                   :ARG2 (s31s / space

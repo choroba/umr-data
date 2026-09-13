@@ -185,7 +185,7 @@ Words: <Builder> and what color?
 
 # sentence level graph:
 (s10a / and
-      :op2 (s10h / have-color-91
+      :op1 (s10h / have-color-91
                  :ARG2 (s10a2 / umr-unknown))
       :mode interrogative)
 
@@ -616,7 +616,7 @@ Words: <Architect> and a green one on the opposite end
 
 # sentence level graph:
 (s33a / and
-      :op2 (s33b / have-goal-91
+      :op1 (s33b / have-goal-91
                  :ARG1 (s33o / one
                              :color (s33g / green))
                  :ARG2 (s33e / end
@@ -1337,7 +1337,7 @@ Words: <Architect> and then turn it into a vertical plus
 
 # sentence level graph:
 (s68a / and
-    :op2 (s68t / turn-02
+    :op1 (s68t / turn-02
         :ARG0 (s68y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1408,7 +1408,7 @@ Words: <Architect> and you win
 
 # sentence level graph:
 (s71a / and
-    :op3 (s71w / win-01
+    :op1 (s71w / win-01
         :ARG0 (s71y / person
             :refer-person 2nd
             :refer-number singular)))

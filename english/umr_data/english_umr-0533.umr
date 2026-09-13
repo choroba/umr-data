@@ -102,7 +102,7 @@ Words: <Architect> first, put down 4 purple blocks in a line
                   :ARG1 s5b
                   :ARG2 (s5l / line))
      :mode imperative
-     :li 1)
+     :list-item 1)
 
 # alignment:
 
@@ -929,7 +929,7 @@ Words: <Architect> and a blue block next to that one
 
 # sentence level graph:
 (s41a / and
-      :op2 (s41p / put-01
+      :op1 (s41p / put-01
                  :ARG0 (s41y / you)
                  :ARG1 (s41b / block
                              :color (s41b2 / blue))
@@ -2076,7 +2076,7 @@ Words: <Architect> and the final row is on top of that one
 
 # sentence level graph:
 (s91a / and
-      :op3 (s91b / be-destined-for-91
+      :op1 (s91b / be-destined-for-91
                  :ARG1 (s91r / row
                              :ord (s91o / ordinal-entity
                                         :value "-1")
