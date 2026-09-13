@@ -478,7 +478,6 @@ s7x9: 17-17
 (s7s0 / sentence
     :temporal ((s7x :before s7x4)
         (s7x4 :after s7x5)
-        (s7x4 :overlap s7x5)
         (s7x :before s7x2)
         (s6x :after s7x))
     :modal ((root :modal author)
@@ -1080,8 +1079,7 @@ s15x9: 20-20
 
 # document level annotation:
 (s15s0 / sentence
-    :temporal ((s14x3 :after s15x)
-        (s15x :overlap s15x2)
+    :temporal ((s15x :overlap s15x2)
         (s15x2 :overlap s15x5)
         (s15x :overlap s15x6)
         (s15x6 :after s15x7)
@@ -2477,7 +2475,6 @@ s34x9: 35-35
         (s34x :before s34x5)
         (s34x :overlap s34x4)
         (s34x :overlap s34x2)
-        (s34x7 :overlap s34x10)
         (s34x2 :before s34x7))
     :modal ((root :modal author)
         (author :full-affirmative s34x5)

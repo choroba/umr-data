@@ -830,8 +830,8 @@ Words: 其中 最大宗 可 算是 外星人 地球 活动 。
 (s14x / 算是-01
     :ARG0 (s14i2 / implicit-argument
         :ARG1-of (s14h / have-degree-91
-            :ARG1 (s14x3 / 大)
-            :ARG2 (s14x4 / 最)
+            :ARG2 (s14x3 / 大)
+            :ARG3 (s14x4 / 最)
             :ARG5 (s14x5 / 其中))
         :unit (s14x2 / 宗))
     :ARG1 (s14x6 / 活动-01
@@ -3905,7 +3905,6 @@ s49x9: 50-50
 # document level annotation:
 (s49s0 / sentence
     :temporal ((document-creation-time :after s49x)
-        (s49x2 :before s49x2)
         (s49x2 :overlap s49x20)
         (s49x20 :overlap s49x21)
         (s49x21 :overlap s49x3)
