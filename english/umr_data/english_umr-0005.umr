@@ -378,7 +378,7 @@ Words: I am not sure if those were the formal reasons but members of the commiss
 (s8s6 / say-01
     :ARG0 (s8p3 / person
         :refer-person 1st
-        :refer-person singular)
+        :refer-number singular)
     :ARG1 (s8h3 / have-concession-91
         :ARG1 (s8f / formalize-01
             :ARG1 (s8r / reason
@@ -526,7 +526,7 @@ Words: He was sentenced to 20 , even though according to the members of the Pard
             :ARG1-of (s9h3 / have-org-role-92
                 :ARG2 (s9g / government-organization :wiki "Office_of_the_Pardon_Attorney"
                     :name (s9n / name :op1 "Pardon" :op2 "Commission"))
-                :ARG2 (s9m / member)))
+                :ARG3 (s9m / member)))
         :ARG1 (s9h4 / have-concessive-condition-91
             :ARG1 (s9s / sentence-01
                 :ARG1 (s9p7 / person
@@ -992,8 +992,7 @@ s15p3: 0-0
 
 # document level annotation:
 (s15s0 / sentence
-    :temporal ((s15s :after s15s)
-            (s15s :overlap s15b)
+    :temporal ((s15s :overlap s15b)
             (s15s :after s15d))
     :modal ((author :full-affirmative s15s)
             (author :full-affirmative s15p)
@@ -1820,7 +1819,7 @@ s27p2: 4-4
 s27e: 0-0
 
 # document level annotation:
-(s5s0 / sentence
+(s27s0 / sentence
     :temporal ((s26s :after s27s)
             (s27s :overlap s27h)
             (s27s :contains s27b))
@@ -1874,7 +1873,7 @@ s28p: 1-1
 s28n: 0-0
 
 # document level annotation:
-(s29s0 / sentence
+(s28s0 / sentence
     :temporal ((s27s :after s28s2)
             (s28s2 :overlap s28t)
             (s28s2 :contains s28s))
