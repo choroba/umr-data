@@ -588,7 +588,7 @@ Words: <Architect> And to the left of that, put another yellow one
 
 # sentence level graph:
 (s27a / and
-    :op2 (s27p / put-01
+    :op1 (s27p / put-01
         :ARG0 (s27y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1266,7 +1266,7 @@ Words: <Architect> And place a yellow on top of the right-most
 
 # sentence level graph:
 (s57a / and
-    :op2 (s57p / place-01
+    :op1 (s57p / place-01
         :ARG0 (s57y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1590,7 +1590,7 @@ Words: <Architect> And one down
 
 # sentence level graph:
 (s71a / and
-      :op2 (s71b / have-goal-91
+      :op1 (s71b / have-goal-91
                  :ARG1 (s71o / one)
                  :ARG2 (s71s / space
                              :ARG1-of (s71d / down-03
@@ -1680,7 +1680,7 @@ Words: <Architect> And an orange below the red
 
 # sentence level graph:
 (s75a / and
-      :op2 (s75b / have-goal-91
+      :op1 (s75b / have-goal-91
                  :ARG1 (s75t / thing
                              :color (s75o / orange))
                  :ARG2 (s75s / space

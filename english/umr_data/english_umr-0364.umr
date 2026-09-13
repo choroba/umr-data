@@ -1891,7 +1891,7 @@ Words: <Architect> And blue ears
 
 # sentence level graph:
 (s87a / and
-      :op2 (s87e / ear
+      :op1 (s87e / ear
                  :color (s87b / blue)
                  :refer-number plural))
 
@@ -2353,7 +2353,7 @@ Words: <Architect> And let me just double check these
 
 # sentence level graph:
 (s108a / and
-    :op2 (s108l / let-01
+    :op1 (s108l / let-01
         :ARG0 (s108y / person
             :refer-person 2nd
             :refer-number singular)

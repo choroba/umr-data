@@ -352,7 +352,7 @@ Words: <Architect> and then bring one across, attached to the top block.
 
 # sentence level graph:
 (s16a / and
-    :op2 (s16b / bring-01
+    :op1 (s16b / bring-01
         :ARG0 (s16y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1139,7 +1139,7 @@ Words: <Architect> and off the top side of that, going left, place three more or
 
 # sentence level graph:
 (s48a / and
-    :op2 (s48p / place-01
+    :op1 (s48p / place-01
         :ARG0 (s48y / person
             :refer-person 2nd
             :refer-number singular)

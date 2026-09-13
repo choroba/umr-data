@@ -1307,7 +1307,7 @@ Words: <Architect> finally, we're going to make another of those checkerboard 2x
                                                                             :color (s60r / red))
                                                                :ARG3 s60c2)))
                    :refer-number plural)
-      :li "-1")
+      :list-item "-1")
 
 # alignment:
 
@@ -1345,7 +1345,7 @@ Words: <Architect> and the checkerboard colors will be reversed
 
 # sentence level graph:
 (s62a / and
-      :op2 (s62r / reverse-01
+      :op1 (s62r / reverse-01
                  :ARG1 (s62t / thing
                              :ARG2-of (s62c / color-01
                                             :ARG1 (s62c2 / checkerboard))

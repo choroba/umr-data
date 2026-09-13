@@ -1346,7 +1346,7 @@ Words: <Architect> and build 4 high.
 
 # sentence level graph:
 (s66a / and
-      :op2 (s66b / build-01
+      :op1 (s66b / build-01
                  :ARG0 (s66y / you)
                  :extent (s66d / distance-quantity
                                :ARG2-of (s66h / high-05
@@ -2067,7 +2067,7 @@ Words: <Architect> and then 1 to the right of that
 
 # sentence level graph:
 (s99a / and
-      :op2 (s99b / be-destined-for-91
+      :op1 (s99b / be-destined-for-91
                  :ARG1 (s99t / thing
                              :quant 1)
                  :ARG2 (s99s / space
@@ -2559,7 +2559,7 @@ Words: <Architect> and then go left towards the other purple leg
 
 # sentence level graph:
 (s124a / and
-       :op2 (s124g / go-02
+       :op1 (s124g / go-02
                    :ARG0 (s124y / you)
                    :temporal (s124t / then)
                    :direction (s124t2 / trajectory

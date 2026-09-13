@@ -267,7 +267,7 @@ Words: <Architect> and remove the middle block
 
 # sentence level graph:
 (s13a / and
-    :op2 (s13r / remove-01
+    :op1 (s13r / remove-01
         :ARG0 (s13y / person
             :refer-person 2nd
             :refer-number singular)

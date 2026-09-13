@@ -1387,7 +1387,7 @@ Words: <Architect> and do the same on the other 2x2 of yellow
 
 # sentence level graph:
 (s62a / and
-    :op2 (s62d / do-02
+    :op1 (s62d / do-02
         :ARG0 (s62y / person
             :refer-person 2nd
             :refer-number singular)
@@ -1648,7 +1648,7 @@ Words: <Builder> or up and down too?
 
 # sentence level graph:
 (s73a / umr-choice
-      :op2 (s73a2 / and
+      :op1 (s73a2 / and
                   :op1 (s73t2 / thing
                               :ARG1-of (s73u / up-03
                                              :ARG5 (s73c / cartesian-framework-91

@@ -201,7 +201,7 @@ Words: <Architect> and a 3x3 vertical square of orange blocks on top of those
 
 # sentence level graph:
 (s10a / and
-    :op2 (s10b / have-goal-91
+    :op1 (s10b / have-goal-91
         :ARG1 (s10s / square
             :size (s10d / dimension-entity
                 :value 3)
@@ -537,7 +537,7 @@ Words: <Architect> okay, and one more orange block diagonally down from that
 (s24a / and
       :op1 (s24o / okay-04)
       :op2 (s24a2 / and
-                  :op2 (s24b / have-goal-91
+                  :op1 (s24b / have-goal-91
                              :ARG1 (s24b2 / block
                                           :color (s24o2 / orange)
                                           :mod (s24m / more)
@@ -748,7 +748,7 @@ Words: <Architect> yep! and extend that staircase with two more orange blocks
 (s33a2 / and
     :op1 (s33c / confirm-01)
     :op2 (s33a / and
-        :op2 (s33e / extend-01
+        :op1 (s33e / extend-01
             :ARG0 (s33y / person
                 :refer-person 2nd
                 :refer-number singular)

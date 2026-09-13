@@ -240,7 +240,7 @@ Words: <Architect> and it is hollow
 
 # sentence level graph:
 (s11a / and
-    :op2 (s11h / hollow-03
+    :op1 (s11h / hollow-03
         :ARG1 (s11i2 / thing
             :refer-person 3rd
             :refer-number singular)))
@@ -1126,7 +1126,7 @@ Words: <Architect> and keep this point of view that you have
 
 # sentence level graph:
 (s52a / and
-    :op2 (s52k / keep-01
+    :op1 (s52k / keep-01
         :ARG0 (s52y / person
             :refer-person 2nd
             :refer-number singular)

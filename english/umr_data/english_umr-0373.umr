@@ -1567,7 +1567,7 @@ Words: <Architect> or square
 
 # sentence level graph:
 (s74o / or
-      :op2 (s74s / square))
+      :op1 (s74s / square))
 
 # alignment:
 
@@ -1582,7 +1582,7 @@ Words: <Architect> and using the last green block you placed as one of the corne
 
 # sentence level graph:
 (s75a / and
-    :op2 (s75u / use-01
+    :op1 (s75u / use-01
         :ARG1 (s75b / block
             :color (s75g / green)
             :mod (s75l / last)
@@ -2016,7 +2016,7 @@ Words: <Architect> and the other is on the right side
 
 # sentence level graph:
 (s95a / and
-      :op2 (s95b / have-goal-91
+      :op1 (s95b / have-goal-91
                  :ARG1 (s95t / thing
                              :ARG1-of (s95o / other-01))
                  :ARG2 (s95s / space
@@ -2113,7 +2113,7 @@ Words: <Builder> and this one?
 
 # sentence level graph:
 (s100a / and
-       :op2 (s100o / one
+       :op1 (s100o / one
                    :mod (s100t / this)
                    :ARG1-of (s100r / request-confirmation-91))
        :mode interrogative)

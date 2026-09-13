@@ -141,7 +141,7 @@ Words: <Builder> or like the st louis arch
 
 # sentence level graph:
 (s7o / or
-     :op2 (s7r / resemble-91
+     :op1 (s7r / resemble-91
                :ARG2 (s7c / cultural-facility
                           :name (s7n / name
                                      :op1 "St."
@@ -1352,7 +1352,7 @@ Words: <Builder> or this
 
 # sentence level graph:
 (s65o / or
-      :op2 (s65t / this
+      :op1 (s65t / this
                  :ARG1-of (s65r / request-confirmation-91)))
 
 # alignment:

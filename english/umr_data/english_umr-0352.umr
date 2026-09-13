@@ -203,7 +203,7 @@ Words: <Architect> And then two more blue blocks on top of the back-most blue bl
 
 # sentence level graph:
 (s10a / and
-      :op2 (s10b / have-goal-91
+      :op1 (s10b / have-goal-91
                  :ARG1 (s10b2 / block
                               :color (s10b3 / blue)
                               :mod (s10m / more)
@@ -1048,7 +1048,7 @@ Words: <Architect> And one yellow block moving down from that
 
 # sentence level graph:
 (s46a / and
-    :op2 (s46b / have-goal-91
+    :op1 (s46b / have-goal-91
         :ARG1 (s46b2 / block
             :color (s46y / yellow)
             :quant 1)
@@ -1266,7 +1266,7 @@ Words: <Architect> And two up
 
 # sentence level graph:
 (s56a / and
-      :op2 (s56b / have-goal-91
+      :op1 (s56b / have-goal-91
                  :ARG1 (s56t / thing
                              :quant 2)
                  :ARG2 (s56s / space
@@ -1659,7 +1659,7 @@ Words: <Architect> And back
 
 # sentence level graph:
 (s74a / and
-      :op2 (s74b / have-goal-91
+      :op1 (s74b / have-goal-91
                  :ARG2 (s74s / space
                              :ARG1-of (s74b2 / back-12
                                              :ARG3 (s74c / cartesian-framework-91

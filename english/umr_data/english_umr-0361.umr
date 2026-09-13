@@ -658,7 +658,7 @@ Words: <Architect> and break the one below that
 
 # sentence level graph:
 (s30a / and
-    :op2 (s30b / break-01
+    :op1 (s30b / break-01
         :ARG0 (s30y / person
             :refer-person 2nd
             :refer-number singular)
@@ -2369,7 +2369,7 @@ Words: <Architect> and break the middle two of the row closest to the blue
 
 # sentence level graph:
 (s106a / and
-    :op2 (s106b / break-01
+    :op1 (s106b / break-01
         :ARG0 (s106y / person
             :refer-person 2nd
             :refer-number singular)
