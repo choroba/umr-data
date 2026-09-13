@@ -1157,8 +1157,7 @@ s17x9: 14-14
 
 # document level annotation:
 (s17s0 / sentence
-	:temporal ((s17x12 :overlap s17x5)
-		(s17x12 :depends-on s17x5))
+	:temporal ((s17x12 :overlap s17x5))
 	:modal ((root :modal author)
 		(author :full-affirmative s17x9)
 		(author :full-affirmative s17x19)
