@@ -699,7 +699,6 @@ Words: and places it in in the basket which is very full .
 # alignment:
 s22b: 7-7
 s22f: 11-11
-s22h: 0-0
 s22p: 2-2
 s22p2: 0-0
 s22t: 3-3
@@ -2502,7 +2501,7 @@ s79s: 9-9
   :temporal ((s78f :after s79s))
   :modal ((root :modal author)
           (author :full-affirmative s79s))
-  :coref ((s62p3 :same-entity s69p)))
+  :coref ((s62p3 :same-entity s79p)))
 
 
 ################################################################################
@@ -2692,10 +2691,9 @@ Words: ten or something ?
   :op1 (s85t4 / temporal-quantity
          :unit (s85y3 / year)
          :quant 10)
-  :op3 (s85t / temporal-quantity))
+  :op2 (s85t / temporal-quantity))
 
 # alignment:
-s85a3: 0-0
 s85o2: 2-2
 s85t4: 1-1
 s85y3: 0-0
