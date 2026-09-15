@@ -1844,11 +1844,11 @@ Words: Spodní prádlo se v  průzkumu věrnosti značce umístilo na průměrn�
             :ARG1 (s36p1 / prádlo
                 :refer-number singular
                 :mod (s36s1 / spodní))
-            :ARGm-EXT (s36p2 / průzkum
+            :extent (s36p2 / průzkum
                 :refer-number singular
                 :mod (s36v1 / věrnost
                     :mod (s36z1 / značka)))
-            :ARGm-EXT (s36p3 / percentage-entity
+            :extent (s36p3 / percentage-entity
                 :value "36"
                 :mod (s36p4 / průměrný)))
         :ARG2 (s36t1 / tvrdit-002

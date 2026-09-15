@@ -373,7 +373,7 @@ Words: Když jsme se umístili do třetího místa ,  tak to ve skupině ,  kter
         :condition (s9u1 / umístit-se-001
             :aspect performance
             :ARG1 (s9e1 / entity)
-            :ARGm-EXT (s9m1 / místo
+            :extent (s9m1 / místo
                 :refer-number singular
                 :mod (s9t1 / třetí)))
         :clausal-marker (s9t2 / tak)

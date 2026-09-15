@@ -276,14 +276,14 @@ Words: Podněty k  tomu ,  aby vojáci na vycházce opět chodili v  uniformách
                 :ARG1 (s7a2 / and
                     :op1 (s7m2 / město
                         :refer-number plural
-                        :ARGm-LOC-of (s7s1 / sídlit-001
+                        :place-of (s7s1 / sídlit-001
                             :aspect activity
                             :ARG0 (s7u2 / útvar
                                 :refer-number plural
                                 :mod (s7v3 / vojenský))))
                     :op2 (s7o3 / obec
                         :refer-number plural
-                        :ARGm-LOC-of s7s1)))
+                        :place-of s7s1)))
             :clausal-marker (s7t1 / také)
             :op2 (s7p2 / policie
                 :refer-number singular

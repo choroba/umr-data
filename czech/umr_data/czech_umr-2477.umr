@@ -402,7 +402,7 @@ Words: Obviněný byl umístěn v  policejní cele s  návrhem na vzetí do vazb
         :ARG1 (s10o1 / obviněný
             :refer-number singular)
         :ARG0 (s10e1 / entity)
-        :ARGm-LOC (s10c1 / cela
+        :place (s10c1 / cela
             :refer-number singular
             :mod (s10p1 / policejní))
         :companion (s10n1 / návrh

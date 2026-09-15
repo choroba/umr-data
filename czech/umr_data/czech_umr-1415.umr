@@ -281,7 +281,7 @@ Words: V  kasárnách Jiřího z  Poděbrad ,  kde mimo jiné sloužil Josef Kaj
 # sentence level graph:
 (s7s1 / sídlit-001
         :aspect activity
-        :ARGm-LOC (s7k1 / kasárna
+        :place (s7k1 / kasárna
             :refer-number plural
             :possessor (s7j1 / Jiří
                 :refer-number singular
@@ -571,7 +571,7 @@ Words: Ústav pro českou literaturu sídlil dříve na Strahově společně s  
                 :refer-number singular
                 :mod (s12c1 / český)))
         :temporal (s12b1 / brzy)
-        :ARGm-LOC (s12s2 / Strahov
+        :place (s12s2 / Strahov
             :refer-number singular)
         :companion (s12p1 / Památník
             :refer-number singular

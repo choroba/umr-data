@@ -249,8 +249,8 @@ Words: V  Giardini v  Benátkách jsou umístěny jednotlivé národní pavilony
 # sentence level graph:
 (s8u1 / umístit-001
         :aspect performance
-        :ARGm-LOC (s8g1 / Giardini)
-        :ARGm-LOC (s8b1 / Benátky
+        :place (s8g1 / Giardini)
+        :place (s8b1 / Benátky
             :refer-number singular)
         :ARG0 (s8e1 / entity)
         :ARG1 (s8p1 / pavilon

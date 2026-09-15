@@ -945,7 +945,7 @@ Words: Neúnavný je zájem o  akcie ČEZ i  v  přímých obchodech ,  kde se ,
         :place (s20o1 / obchod
             :refer-number plural
             :mod (s20p1 / přímý)
-            :ARGm-EXT-of (s20u1 / umístit-se-001
+            :extent-of (s20u1 / umístit-se-001
                 :aspect performance
                 :regard (s20o2 / objem
                     :refer-number singular)
@@ -953,7 +953,7 @@ Words: Neúnavný je zájem o  akcie ČEZ i  v  přímých obchodech ,  kde se ,
                 :companion (s20m1 / milión
                     :mod (s20k1 / Kč)
                     :mod (s20x2 / 15837))
-                :ARGm-EXT (s20m2 / místo
+                :extent (s20m2 / místo
                     :refer-number singular
                     :mod (s20p2 / první)))))
 
@@ -990,7 +990,7 @@ Words: Na druhém místě žebříčku se umístily už zmíněné akcie České
 # sentence level graph:
 (s21u1 / umístit-se-001
         :aspect performance
-        :ARGm-EXT (s21m1 / místo
+        :extent (s21m1 / místo
             :refer-number singular
             :mod (s21d1 / druhý)
             :possessor (s21z1 / žebříček

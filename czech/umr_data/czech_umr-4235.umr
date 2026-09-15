@@ -1061,7 +1061,7 @@ Words: Pak těžce onemocněla a  byla dokonce dlouho umístěna v  nemocnici , 
                 :duration (s24d2 / dlouho)
                 :ARG1 s24e1
                 :ARG0 (s24e2 / entity)
-                :ARGm-LOC (s24n1 / nemocnice
+                :place (s24n1 / nemocnice
                     :refer-number singular)))
         :op2 (s24p2 / pomáhat-003
             :aspect activity

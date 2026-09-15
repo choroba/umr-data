@@ -191,7 +191,7 @@ Words: Společnost Gold Texas sídlí ve Vancouveru v  Britské Kolumbii a  spol
                 :refer-number singular
                 :name (s4n1 / name
                     :op1 "Gold" :op2 "Texas"))
-            :ARGm-LOC (s4v1 / Vancouver
+            :place (s4v1 / Vancouver
                 :refer-number singular
                 :place (s4k1 / Kolumbie
                     :refer-number singular
@@ -202,7 +202,7 @@ Words: Společnost Gold Texas sídlí ve Vancouveru v  Britské Kolumbii a  spol
                 :refer-number singular
                 :name (s4n2 / name
                     :op1 "Crown" :op2 "Resources"))
-            :ARGm-LOC (s4d1 / Denver
+            :place (s4d1 / Denver
                 :refer-number singular)))
 
 # alignment:

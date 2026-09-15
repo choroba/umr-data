@@ -394,7 +394,7 @@ Words: Hotel je umístěn ve středu obce .
         :ARG1 (s13h1 / hotel
             :refer-number singular)
         :ARG0 (s13e1 / entity)
-        :ARGm-LOC (s13s1 / střed
+        :place (s13s1 / střed
             :refer-number singular
             :possessor (s13o1 / obec
                 :refer-number singular)))

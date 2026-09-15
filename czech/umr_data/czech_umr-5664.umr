@@ -400,7 +400,7 @@ Words: Ve většině z nich sídlí prodejna K mart .
 # sentence level graph:
 (s8s1 / sídlit-001
         :aspect activity
-        :ARGm-LOC (s8v1 / většina
+        :place (s8v1 / většina
             :refer-number singular
             :start (s8e1 / entity
                 :refer-number plural
@@ -524,7 +524,7 @@ Words: Rozkládají se po celé zemi včetně lokalit v  Kalifornii ,  na Florid
         :ARG1 (s11e1 / entity
             :refer-number plural
             :refer-person 3rd)
-        :ARGm-LOC (s11z1 / země
+        :place (s11z1 / země
             :refer-number singular
             :mod (s11c1 / celý)
             :companion (s11l1 / lokalita

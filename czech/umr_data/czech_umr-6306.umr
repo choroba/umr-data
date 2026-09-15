@@ -234,7 +234,7 @@ Words: V  budově sídlí asi 4500 zaměstnanců společnosti Chase ,  z  nichž
 # sentence level graph:
 (s5s1 / sídlit-001
         :aspect activity
-        :ARGm-LOC (s5b1 / budova
+        :place (s5b1 / budova
             :refer-number singular)
         :ARG0 (s5z1 / zaměstnanec
             :refer-number plural
@@ -366,10 +366,10 @@ Words: Vedení sídlí o  pár bloků dále na Chase Manhattan Plaza č  .  1  .
         :aspect activity
         :ARG0 (s7v1 / vedení
             :refer-number singular)
-        :ARGm-LOC (s7d1 / daleko
+        :place (s7d1 / daleko
             :extent (s7p1 / pár
                 :mod (s7b1 / blok)))
-        :ARGm-LOC (s7f1 / foreign-phrase
+        :place (s7f1 / foreign-phrase
             :op1 "Chase" :op2 "Manhattan" :op3 "Plaza"
             :mod (s7c1 / č
                 :name (s7x1 / 1))))

@@ -634,7 +634,7 @@ Words: Mužský hlas telefonicky oznámil ,  že ve čtvrté řadě sálu ,  kde
         :manner (s16t1 / telefonicky)
         :ARG1 (s16u1 / umístit-001
             :aspect performance
-            :ARGm-LOC (s16r1 / řada
+            :place (s16r1 / řada
                 :refer-number singular
                 :mod (s16c1 / čtvrtý)
                 :possessor (s16s1 / sál

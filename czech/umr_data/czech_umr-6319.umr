@@ -1284,7 +1284,7 @@ Words: Dostat se z  budovy ,  která se může zhroutit ,  ven na parkoviště .
 (s29d1 / dostat-se-006
         :aspect performance
         :ARG0 (s29e1 / entity)
-        :ARGm-MNR (s29b1 / budova
+        :manner (s29b1 / budova
             :refer-number singular
             :ARG1-of (s29z1 / zhroutit-se-003
                 :aspect performance))

@@ -260,7 +260,7 @@ Words: Společnost United Illuminating sídlí v  New Haven ve státě Connectic
                 :refer-number singular
                 :name (s4n1 / name
                     :op1 "United" :op2 "Illuminating"))
-            :ARGm-LOC (s4f1 / foreign-phrase
+            :place (s4f1 / foreign-phrase
                 :op1 "New" :op2 "Haven"
                 :place (s4s3 / stát
                     :refer-number singular
@@ -272,7 +272,7 @@ Words: Společnost United Illuminating sídlí v  New Haven ve státě Connectic
                 :refer-number singular
                 :name (s4n2 / Northeast
                     :refer-number singular))
-            :ARGm-LOC (s4h1 / Hartford
+            :place (s4h1 / Hartford
                 :refer-number singular
                 :place (s4s6 / stát
                     :refer-number singular
@@ -628,7 +628,7 @@ Words: Řekl ,  že ať už je vlastníkem společnosti PS of New Hampshire kdok
             :temporal (s10d1 / dostat-se-006
                 :aspect performance
                 :ARG0 s10s1
-                :ARGm-MNR (s10r2 / řízení
+                :manner (s10r2 / řízení
                     :refer-number singular
                     :mod (s10k2 / konkurzní)))
             :ARG1 (s10s2 / sazba

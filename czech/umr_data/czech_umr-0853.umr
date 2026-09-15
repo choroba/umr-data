@@ -553,7 +553,7 @@ Words: V  hodnocení chuti a  vůně se všechny vzorky umístily jako velmi dob
         :ARG1 (s12v2 / vzorek
             :refer-number plural
             :mod (s12v3 / všechen))
-        :ARGm-EXT (s12c2 / concept)
+        :extent (s12c2 / concept)
         :manner (s12a2 / and
             :op1 (s12d1 / dobrý
                 :mod-of s12v2
@@ -774,7 +774,7 @@ Words: Z  18 tuzemských se 10 umístilo ve skupině velmi dobrých a  dobrých 
             :ARG1 (s16x1 / 10
                 :start (s16x2 / 18
                     :mod (s16t1 / tuzemský)))
-            :ARGm-EXT (s16s1 / skupina
+            :extent (s16s1 / skupina
                 :refer-number singular
                 :mod (s16v1 / výrobek
                     :refer-number plural
@@ -784,7 +784,7 @@ Words: Z  18 tuzemských se 10 umístilo ve skupině velmi dobrých a  dobrých 
                         :op2 (s16d2 / dobrý)))))
         :op2 (s16u2 / umístit-se-001
             :aspect performance
-            :ARGm-EXT (s16c1 / concept)
+            :extent (s16c1 / concept)
             :clausal-marker (s16p1 / pouze)
             :ARG1 (s16d3 / dva
                 :start (s16t2 / thing

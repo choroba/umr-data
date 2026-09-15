@@ -547,7 +547,7 @@ Words: Pokud by se štafety na seniorském šampionátu umístily do 8  .  míst
             :aspect performance
             :ARG1 (s13s1 / štafeta
                 :refer-number plural)
-            :ARGm-EXT (s13s2 / šampionát
+            :extent (s13s2 / šampionát
                 :refer-number singular
                 :mod (s13s3 / seniorský))
             :goal (s13m1 / místo

@@ -473,13 +473,13 @@ Words: Jinak řečeno -  vpravo sídlí pocity ,  vlevo rozum .
                 :ARG2 (s11e2 / entity)
                 :ARG1 (s11e3 / entity)
                 :manner (s11j1 / jinak))
-            :ARGm-LOC (s11v1 / vpravo)
+            :place (s11v1 / vpravo)
             :ARG0 (s11p1 / pocit
                 :refer-number plural))
         :op2 (s11s2 / sídlit-001
             :aspect activity
             :parenthesis s11r1
-            :ARGm-LOC (s11v2 / vlevo)
+            :place (s11v2 / vlevo)
             :ARG0 (s11r2 / rozum
                 :refer-number singular)))
 

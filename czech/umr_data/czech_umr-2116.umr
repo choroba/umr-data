@@ -1143,12 +1143,12 @@ Words: Tady byli umístěni v prostoru cisterciáckého kláštera .
 # sentence level graph:
 (s21u1 / umístit-001
         :aspect performance
-        :ARGm-LOC (s21t1 / tady)
+        :place (s21t1 / tady)
         :ARG0 (s21e1 / entity)
         :ARG1 (s21e2 / entity
             :refer-number plural
             :refer-person 3rd)
-        :ARGm-LOC (s21p1 / prostor
+        :place (s21p1 / prostor
             :refer-number singular
             :possessor (s21k1 / klášter
                 :refer-number singular

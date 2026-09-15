@@ -777,7 +777,7 @@ Words: Za společností Morgan Stanley se umístily společnosti Kidder ,  Peabo
 # sentence level graph:
 (s14u1 / umístit-se-001
         :aspect performance
-        :ARGm-EXT (s14s1 / společnost
+        :extent (s14s1 / společnost
             :refer-number singular
             :name (s14n1 / name
                 :op1 "Morgan" :op2 "Stanley"))

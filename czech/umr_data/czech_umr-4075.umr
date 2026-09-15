@@ -159,7 +159,7 @@ Words: Měla jsem veliké štěstí ,  že jsem to zvládla ,  že jsem se z  to
                     :ARG0 s6e1
                     :ARG1 (s6d2 / dostat-se-006
                         :aspect performance
-                        :ARGm-MNR (s6e2 / entity
+                        :manner (s6e2 / entity
                             :refer-number singular
                             :refer-person 3rd)
                         :ARG0 s6e1)))))
@@ -335,7 +335,7 @@ Words: Až na několikátý pokus se mi z  toho teda podařilo dostat ven .
         :clausal-marker (s10t1 / teda)
         :ARG1 (s10d1 / dostat-se-006
             :aspect performance
-            :ARGm-MNR (s10t2 / ten
+            :manner (s10t2 / ten
                 :refer-number singular)
             :ARG0 s10p3
             :goal (s10v1 / ven)))

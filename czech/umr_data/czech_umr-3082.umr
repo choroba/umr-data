@@ -125,14 +125,14 @@ Words: Druhé se umístilo Chorvatsko , třetí Itálie .
 (s4a1 / and
         :op1 (s4u1 / umístit-se-001
             :aspect performance
-            :ARGm-EXT (s4c1 / concept)
+            :extent (s4c1 / concept)
             :manner (s4d1 / druhý
                 :mod-of s4c2)
             :ARG1 (s4c2 / Chorvatsko
                 :refer-number singular))
         :op2 (s4u2 / umístit-se-001
             :aspect performance
-            :ARGm-EXT s4c1
+            :extent s4c1
             :manner (s4t1 / třetí
                 :mod-of s4i1)
             :ARG1 (s4i1 / Itálie

@@ -580,13 +580,13 @@ Words: Za prvních devět měsíců roku se podle společnosti Securities Data C
             :refer-number singular
             :name (s11k1 / Kidder
                 :refer-number singular))
-        :ARGm-EXT (s11u2 / upisovatel
+        :extent (s11u2 / upisovatel
             :refer-number plural
             :mod (s11a1 / and
                 :op1 (s11a2 / akcie
                     :mod (s11f1 / federální))
                 :op2 (s11d2 / dluhopis)))
-        :ARGm-EXT (s11m2 / místo
+        :extent (s11m2 / místo
             :refer-number singular
             :clausal-marker (s11a3 / až)
             :mod (s11x1 / 10))

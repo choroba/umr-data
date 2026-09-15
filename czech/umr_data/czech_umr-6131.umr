@@ -1453,10 +1453,10 @@ Words: McDonough se narodil v  Tokiu jako syn vedoucího pracovníka společnost
                     :ARG1-of (s30u1 / umístit-001
                         :aspect performance
                         :ARG0 s30s2
-                        :ARGm-LOC (s30z1 / země
+                        :place (s30z1 / země
                             :refer-number plural
                             :mod (s30m2 / mnoho))
-                        :ARGm-LOC (s30s4 / svět
+                        :place (s30s4 / svět
                             :refer-number singular
                             :mod (s30c1 / celý))))))
         :op2 (s30n2 / navštěvovat-001
@@ -3230,7 +3230,7 @@ Words: Muniakova společnost Balag Ltd .  souhlasila ,  že dá stranou peníze 
                     :op1 (s66u2 / umístit-001
                         :aspect performance
                         :ARG0 (s66e3 / entity)
-                        :ARGm-LOC (s66k1 / kde)
+                        :place (s66k1 / kde)
                         :ARG1 s66e1)
                     :op2 (s66z1 / zajistit-001
                         :aspect performance

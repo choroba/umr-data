@@ -1893,9 +1893,9 @@ Words: Dole v jedné místnosti sídlila noční Kanada .
 # sentence level graph:
 (s44s1 / sídlit-001
         :aspect activity
-        :ARGm-LOC (s44d1 / Dole
+        :place (s44d1 / Dole
             :refer-number singular)
-        :ARGm-LOC (s44m1 / místnost
+        :place (s44m1 / místnost
             :refer-number singular
             :mod (s44j1 / jeden))
         :ARG0 (s44k1 / Kanada

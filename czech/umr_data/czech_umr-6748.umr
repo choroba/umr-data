@@ -110,7 +110,7 @@ Words: V  hodnocení sestaveném společností A  .  C  .  Nielsen Co .  se spol
 # sentence level graph:
 (s3u1 / umístit-se-001
         :aspect performance
-        :ARGm-EXT (s3h1 / hodnocení
+        :extent (s3h1 / hodnocení
             :refer-number singular
             :ARG1 (s3e1 / entity)
             :ARG0 s3s1
@@ -127,7 +127,7 @@ Words: V  hodnocení sestaveném společností A  .  C  .  Nielsen Co .  se spol
                 :ARG1 (s3s4 / série
                     :refer-number singular
                     :mod (s3s5 / Světový))))
-        :ARGm-EXT (s3p1 / příčka
+        :extent (s3p1 / příčka
             :refer-number singular
             :mod (s3v2 / vysoký))
         :companion (s3a2 / and
@@ -311,7 +311,7 @@ Words: První dva zápasy Světové série mezi týmy Oakland Athletics a  San F
                         :op2 (s6f2 / foreign-phrase
                             :op1 "San" :op2 "Francisco" :op3 "Giants"))))
             :clausal-marker (s6v1 / však)
-            :ARGm-EXT (s6d2 / desítka
+            :extent (s6d2 / desítka
                 :refer-number singular
                 :mod (s6p2 / první)))
         :ARG2 (s6o1 / obsadit-003
