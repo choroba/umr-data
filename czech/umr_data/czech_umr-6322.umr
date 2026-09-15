@@ -130,7 +130,7 @@ Words: Maloobchodní prodej prudce klesá ,  zatímco spotřebitelské ceny stá
             :refer-number singular
             :mod (s3m1 / maloobchodní))
         :manner (s3p2 / prudce)
-        :contrast-91 (s3r1 / růst-002
+        :contrast (s3r1 / růst-002
             :aspect activity
             :ARG1 (s3c1 / cena
                 :refer-number plural
@@ -524,7 +524,7 @@ Words: (  Průmyslová výroba vzrostla za rok 1988 o  21 %  ,  zatímco inflace
             :name (s11x1 / 1988))
         :extent (s11p2 / percentage-entity
             :value "21")
-        :contrast-91 (s11d1 / dosáhnout-002
+        :contrast (s11d1 / dosáhnout-002
             :aspect performance
             :ARG0 (s11i1 / inflace
                 :refer-number singular)

@@ -50,7 +50,7 @@ Words: Jenže zatímco si trh jako celek polepšil ,  trh nově emitovaných riz
 (s2p1 / počítat-002
         :aspect activity
         :clausal-marker (s2j1 / jenže)
-        :contrast-91 (s2p2 / polepšit-si-001
+        :contrast (s2p2 / polepšit-si-001
             :aspect performance
             :ARG1 (s2t1 / trh
                 :refer-number singular)
@@ -2367,7 +2367,7 @@ Words: Diskontní sazba tříměsíčních krátkodobých státních obligací s
             :mod (s43s4 / středeční))
         :ARG1 (s43p2 / percentage-entity
             :value "7.56")
-        :contrast-91 (s43s5 / stoupnout-001
+        :contrast (s43s5 / stoupnout-001
             :aspect performance
             :ARG0 (s43s6 / sazba
                 :refer-number singular
@@ -2617,7 +2617,7 @@ Words: Vyšší nabídka tak snižuje investorův výnos ,  zatímco nižší na
             :refer-number singular
             :mod (s49i1 / investorův
                 :refer-number singular))
-        :contrast-91 (s49z1 / zvyšovat-001
+        :contrast (s49z1 / zvyšovat-001
             :aspect activity
             :ARG0 (s49n2 / nabídka
                 :refer-number singular
@@ -4562,7 +4562,7 @@ Words: 11 3  /  4  %  dlouhodobé státní obligace se splatností 2003 /  2007 
             :refer-number singular
             :extent (s82p2 / percentage-entity
                 :value "10.09"))
-        :contrast-91 (s82z1 / zůstat-006
+        :contrast (s82z1 / zůstat-006
             :aspect performance
             :ARG0 (s82o2 / obligace
                 :refer-number plural

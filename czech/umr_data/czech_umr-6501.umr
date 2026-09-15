@@ -287,7 +287,7 @@ Words: Ekonomové očekávají ,  že spotřebitelské ceny potravin letos stoup
                     :temporal (s7r1 / rok
                         :refer-number singular
                         :name (s7x1 / 1980))))
-            :contrast-91 (s7s3 / stoupnout-001
+            :contrast (s7s3 / stoupnout-001
                 :aspect performance
                 :ARG0 s7c1
                 :temporal (s7v2 / vloni)
@@ -887,7 +887,7 @@ Words: Příspěvek v  časopise New England Journal of Medicine poznamenává ,
                     :op1 "New" :op2 "England" :op3 "Journal" :op4 "of" :op5 "Medicine")))
         :effect (s19s1 / stávat-se-001
             :aspect activity
-            :contrast-91 (s19n2 / nabízet-001
+            :contrast (s19n2 / nabízet-001
                 :aspect activity
                 :ARG3 (s19e1 / entity)
                 :ARG0 (s19t1 / technologie
@@ -1753,7 +1753,7 @@ Words: Společnost Detroit Edison ,  průkopník tohoto projektu ,  letos na sro
         :ARG1 (s35d1 / dolar
             :refer-number plural
             :mod (s35x1 / 54000))
-        :contrast-91 (s35b1 / být-007
+        :contrast (s35b1 / být-007
             :aspect activity
             :temporal (s35r1 / rok
                 :refer-number singular

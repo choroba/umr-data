@@ -3795,7 +3795,7 @@ Words: Zatímco Roderick vyrostl ve stínu kouřících továrních komínů v  
 # sentence level graph:
 (s62b1 / být-011
         :aspect activity
-        :contrast-91 (s62v1 / vyrůst-003
+        :contrast (s62v1 / vyrůst-003
             :aspect performance
             :ARG1 (s62r1 / Roderick
                 :refer-number singular)
@@ -4995,7 +4995,7 @@ Words: Jedna věc je však jistá :  Corry ,  zatímco bude zkoumat další mož
             :polarity -
             :ARG0 (s80c1 / Corry
                 :refer-number singular)
-            :contrast-91 (s80z1 / zkoumat-001
+            :contrast (s80z1 / zkoumat-001
                 :aspect activity
                 :ARG0 s80c1
                 :ARG1 (s80m1 / možnost

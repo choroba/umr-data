@@ -1950,7 +1950,7 @@ Words: Akcie Philip Morris uzavíraly na 41 tedy se ztrátou 3  3  /  8  ,  zat�
                     :op2 (s35m1 / math-entity
                         :op1 (s35x3 / 3)
                         :op2 (s35x4 / 8)))))
-        :contrast-91 (s35u2 / uzavírat-003
+        :contrast (s35u2 / uzavírat-003
             :aspect activity
             :ARG1 (s35e2 / entity)
             :ARG0 (s35a3 / akcie
@@ -2961,7 +2961,7 @@ Words: Mezitím ,  během přerušení obchodování indexu S  &  P  ,  se nabí
         :ARG1 (s53h1 / hromadit-se-001
             :aspect activity
             :ARG1 s53n1)
-        :contrast-91 (s53z2 / ztrácet-002
+        :contrast (s53z2 / ztrácet-002
             :aspect activity
             :ARG0 (s53a1 / akcie
                 :refer-number plural
@@ -4093,7 +4093,7 @@ Words: Zatímco Dow -  Jonesův index stáhl v  pátek svou ztrátu na konečný
 # sentence level graph:
 (s73z1 / zůstat-002
         :aspect performance
-        :contrast-91 (s73s1 / stáhnout-001
+        :contrast (s73s1 / stáhnout-001
             :aspect performance
             :ARG0 (s73i1 / index
                 :refer-number singular

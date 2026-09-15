@@ -1019,7 +1019,7 @@ Words: Hospodárná letadla Airbus se použijí zejména jako náhrada za stárn
                         :purpose (s17l3 / let
                             :refer-number plural
                             :mod (s17m1 / místní))))))
-        :contrast-91 (s17p2 / používat-001
+        :contrast (s17p2 / používat-001
             :aspect activity
             :ARG0 (s17e2 / entity)
             :ARG1 (s17l4 / letadlo
@@ -1157,7 +1157,7 @@ Words: Vysoké nabídky za mladé zaměstnance v  Hongkongu zvyšují ročně n�
         :regard (s19p3 / personál
             :refer-number singular
             :mod (s19r2 / řadový))
-        :contrast-91 (s19o1 / opouštět-001
+        :contrast (s19o1 / opouštět-001
             :aspect activity
             :ARG0 (s19z3 / zaměstnanec
                 :refer-number plural
@@ -2397,7 +2397,7 @@ Words: Zatímco velký počet hongkongských společností se nově registruje p
 (s40b1 / být-021
         :aspect activity
         :polarity -
-        :contrast-91 (s40r1 / registrovat-002
+        :contrast (s40r1 / registrovat-002
             :aspect process
             :ARG0 (s40p1 / počet
                 :refer-number singular

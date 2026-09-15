@@ -1346,7 +1346,7 @@ Words: Zatímco se asijské trhy snažily zvládnout nejistotu způsobenou propa
 
 # sentence level graph:
 (s25a1 / and
-        :contrast-91 (s25s1 / snažit-se-001
+        :contrast (s25s1 / snažit-se-001
             :aspect activity
             :ARG0 (s25t1 / trh
                 :refer-number plural
@@ -1914,7 +1914,7 @@ Words: Jen před několika měsíci byla tříměsíční úroková sazba Eurodo
             :mod (s34e1 / Eurodollar))
         :ARG2 (s34p1 / percentage-entity
             :value "9.5")
-        :contrast-91 (s34d1 / dosáhnout-002
+        :contrast (s34d1 / dosáhnout-002
             :aspect performance
             :ARG0 (s34s2 / sazba
                 :refer-number singular

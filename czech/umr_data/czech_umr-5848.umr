@@ -310,7 +310,7 @@ Words: Z  1224 společností ,  které se zúčastnily průzkumu ,  jich 31 %  p
                     :op1 (s5z2 / zařízení
                         :mod (s5p4 / podnikový))
                     :op2 (s5s3 / stroj))))
-        :contrast-91 (s5p5 / plánovat-001
+        :contrast (s5p5 / plánovat-001
             :aspect activity
             :ARG0 (s5p6 / percentage-entity
                 :value "28"
@@ -1191,7 +1191,7 @@ Words: Ale zatímco zářijový vývoz vzrostl na 8.43 miliardy liber ,  dovoz v
 (s20v1 / vyskočit-001
         :aspect performance
         :clausal-marker (s20a1 / ale)
-        :contrast-91 (s20v2 / vzrůst-001
+        :contrast (s20v2 / vzrůst-001
             :aspect performance
             :ARG1 (s20v3 / vývoz
                 :refer-number singular

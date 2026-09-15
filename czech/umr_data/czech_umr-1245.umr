@@ -354,7 +354,7 @@ Words: Prezidentovo venkovské sídlo ,  chalupa v  zákrutu silnice ,  která p
                             :ARG2 (s10e1 / entity)
                             :ARG1 (s10b2 / být-007
                                 :aspect activity
-                                :contrast-91 (s10b3 / být-007
+                                :contrast (s10b3 / být-007
                                     :aspect activity
                                     :ARG2 (s10s4 / sídlo
                                         :refer-number singular
@@ -9120,7 +9120,7 @@ Words: Říkala jsem jim ,  že demokrati věří ,  že vláda musí být na je
                 :place (s160s1 / strana
                     :refer-number singular
                     :possessor s160d1))
-            :contrast-91 (s160v3 / věřit-001
+            :contrast (s160v3 / věřit-001
                 :aspect state
                 :ARG0 (s160r2 / republikán
                     :refer-number plural)

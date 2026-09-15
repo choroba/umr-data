@@ -1178,7 +1178,7 @@ Words: V  pátek dolar na londýnském trhu v  závěru kotoval na 1.4735 DEM a 
                 :mod (s19x1 / 14735))
             :op2 (s19j1 / JPY
                 :mod (s19x2 / 97.10)))
-        :contrast-91 (s19k2 / kótovat-002
+        :contrast (s19k2 / kótovat-002
             :aspect activity
             :temporal (s19t2 / týden
                 :refer-number singular)
@@ -1924,7 +1924,7 @@ Words: V  Londýně zlato uzavřelo týden na 376.00 USD za troyskou unci ,  zat
                 :refer-number singular
                 :mod (s32t2 / trojský))
             :mod (s32x1 / 376.00))
-        :contrast-91 (s32p1 / prodávat-001
+        :contrast (s32p1 / prodávat-001
             :aspect habitual
             :temporal (s32p2 / pátek
                 :refer-number singular

@@ -607,7 +607,7 @@ Words: Avšak zatímco zahraniční společnosti koupily japonských společnost
 (s10k1 / koupit-001
         :aspect performance
         :clausal-marker (s10a1 / avšak)
-        :contrast-91 (s10k2 / koupit-001
+        :contrast (s10k2 / koupit-001
             :aspect performance
             :ARG0 (s10s1 / společnost
                 :refer-number plural
@@ -1217,7 +1217,7 @@ Words: Zatímco konkurenti v  reakci na polevující konkurenceschopnost japonsk
 # sentence level graph:
 (s19c1 / chybět-001
         :aspect activity
-        :contrast-91 (s19p1 / přesunout-003
+        :contrast (s19p1 / přesunout-003
             :aspect performance
             :start (s19c2 / concept)
             :ARG0 (s19k1 / konkurent

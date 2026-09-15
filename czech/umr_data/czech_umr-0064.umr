@@ -263,7 +263,7 @@ Words: Zatímco se rozchod loni promítl v  české ekonomice snížením oček�
 # sentence level graph:
 (s7z1 / ztratit-004
         :aspect performance
-        :contrast-91 (s7p1 / promítnout-se-001
+        :contrast (s7p1 / promítnout-se-001
             :aspect performance
             :ARG1 (s7r1 / rozchod
                 :refer-number singular)
@@ -1770,7 +1770,7 @@ Words: Loňský zákon o  bankrotech přivedl k  úpadku pouze tři desítky pod
                 :mod (s39p3 / podnik
                     :refer-number plural)
                 :mod (s39t2 / tři))
-            :contrast-91 (s39b2 / být-011
+            :contrast (s39b2 / být-011
                 :aspect activity
                 :place (s39n1 / neschopnost
                     :refer-number singular

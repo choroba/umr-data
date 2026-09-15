@@ -190,7 +190,7 @@ Words: Japonský podnik má 40 %  podíl ,  zatímco místní partner má 60 %  
             :refer-number singular
             :mod (s4p3 / percentage-entity
                 :value "40"))
-        :contrast-91 (s4m2 / mít-002
+        :contrast (s4m2 / mít-002
             :aspect state
             :ARG0 (s4p4 / partner
                 :refer-number singular

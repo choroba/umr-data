@@ -559,7 +559,7 @@ Words: Za tři poslední roky největší propad zaznamenal polský zlotý (  as
         :ARG0 (s11z2 / zlotý
             :refer-number singular
             :mod (s11p4 / polský))
-        :contrast-91 (s11p5 / poklesnout-001
+        :contrast (s11p5 / poklesnout-001
             :aspect performance
             :ARG1 (s11f1 / forint
                 :refer-number singular
@@ -1445,7 +1445,7 @@ Words: V  Maďarsku se zastavila na 12 %  ,  zatímco v  České republice se na
             :refer-person 3rd)
         :place (s30p1 / percentage-entity
             :value "12")
-        :contrast-91 (s30u1 / udržovat-003
+        :contrast (s30u1 / udržovat-003
             :aspect activity
             :place (s30r1 / republika
                 :refer-number singular

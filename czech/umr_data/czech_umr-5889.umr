@@ -563,7 +563,7 @@ Words: Zatímco neočekávají ,  že ústřední banka zareaguje ihned ,  uvád
 (s11u1 / uvádět-008
         :aspect activity
         :ARG0 s11e1
-        :contrast-91 (s11o1 / očekávat-002
+        :contrast (s11o1 / očekávat-002
             :aspect activity
             :polarity -
             :ARG0 (s11e1 / entity
@@ -635,7 +635,7 @@ Words: Například včera Ministerstvo obchodu oznámilo ,  že nové příkazy 
                         :mod (s12d1 / dlouhodobý))))
             :extent (s12p2 / percentage-entity
                 :value "0.1"))
-        :contrast-91 (s12o3 / oznámit-001
+        :contrast (s12o3 / oznámit-001
             :aspect performance
             :ARG0 (s12v2 / výrobce
                 :refer-number plural
@@ -2751,7 +2751,7 @@ Words: Diskontní sazba tříměsíčních státních pokladničních poukázek 
                     :mod (s50d2 / dluhopis)
                     :extent (s50p3 / percentage-entity
                         :value "7.75"))))
-        :contrast-91 (s50u2 / uvádět-011
+        :contrast (s50u2 / uvádět-011
             :aspect activity
             :ARG0 (s50e2 / entity)
             :ARG1 (s50s3 / sazba
@@ -2850,7 +2850,7 @@ Words: Takže vyšší nabídky snižují návratnost pro investora ,  zatímco 
             :refer-number singular
             :affectee (s52i1 / investor
                 :refer-number singular))
-        :contrast-91 (s52z1 / zvyšovat-001
+        :contrast (s52z1 / zvyšovat-001
             :aspect activity
             :ARG0 (s52n3 / nabídka
                 :refer-number plural
@@ -4637,7 +4637,7 @@ Words: Ceny evropských státních dluhopisů rovněž stouply ,  zatímco ameri
                 :mod (s85e1 / evropský)
                 :mod (s85s2 / státní)))
         :clausal-marker (s85r1 / rovněž)
-        :contrast-91 (s85k1 / klesnout-001
+        :contrast (s85k1 / klesnout-001
             :aspect performance
             :ARG0 (s85a1 / akcie
                 :refer-number plural
@@ -4684,7 +4684,7 @@ Words: Západoněmecká 7  %  emise splatná v  říjnu 1999 stoupla o  0.13 bod
             :refer-number singular
             :extent (s86p2 / percentage-entity
                 :value "7.01"))
-        :contrast-91 (s86s3 / stoupnout-001
+        :contrast (s86s3 / stoupnout-001
             :aspect performance
             :ARG0 (s86e2 / emise
                 :refer-number singular
@@ -4760,7 +4760,7 @@ Words: Britský 11 3  /  4  %  státní dluhopis splatný 2003 /  2007 stoupl o 
             :refer-number singular
             :extent (s87p2 / percentage-entity
                 :value "10.05"))
-        :contrast-91 (s87s4 / stoupnout-001
+        :contrast (s87s4 / stoupnout-001
             :aspect performance
             :ARG0 (s87p3 / poukázka
                 :refer-number plural

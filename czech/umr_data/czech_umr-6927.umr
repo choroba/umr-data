@@ -146,7 +146,7 @@ Words: Zatímco se první z  více než 1300 východních Němců ,  pokoušejí
 # sentence level graph:
 (s4p1 / přinést-001
         :aspect performance
-        :contrast-91 (s4z1 / zřeknout-se-001
+        :contrast (s4z1 / zřeknout-se-001
             :aspect performance
             :ARG0 (s4p2 / první
                 :start (s4h1 / hodně
@@ -949,7 +949,7 @@ Words: Zatímco protipotratové skupiny se staví proti takovému výzkumu ,  v�
 # sentence level graph:
 (s16p1 / prohlásit-003
         :aspect performance
-        :contrast-91 (s16s1 / stavit-se-001
+        :contrast (s16s1 / stavit-se-001
             :aspect activity
             :ARG0 (s16s2 / skupina
                 :refer-number plural

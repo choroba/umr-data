@@ -876,7 +876,7 @@ Words: Za prvních 7  měsíců roku 1989 klesl vývoz domácích produktů o  2
             :mod (s17x3 / 3.87)
             :mod (s17d2 / dolar
                 :mod (s17h1 / hongkongský)))
-        :contrast-91 (s17z1 / zvýšit-se-001
+        :contrast (s17z1 / zvýšit-se-001
             :aspect performance
             :ARG1 (s17r2 / reexport
                 :refer-number singular)
@@ -1069,7 +1069,7 @@ Words: Zatímco výrobci a  nákupčí hledají nová místa ,  soustřeďují s
 (s20s1 / soustřeďovat-se-001
         :aspect activity
         :ARG0 s20a1
-        :contrast-91 (s20h1 / hledat-003
+        :contrast (s20h1 / hledat-003
             :aspect activity
             :ARG0 (s20a1 / and
                 :op1 (s20v1 / výrobce

@@ -2573,7 +2573,7 @@ Words: Zatímco většina amerických zaměstnanců má své soukromí ,  japon�
 
 # sentence level graph:
 (s50a1 / and
-        :contrast-91 (s50m1 / mít-008
+        :contrast (s50m1 / mít-008
             :aspect state
             :ARG0 (s50v1 / většina
                 :refer-number singular
@@ -3784,7 +3784,7 @@ Words: Zatímco v  USA jsou k  dispozici desítky tisíc softwarových balíků 
         :aspect activity
         :ARG2 (s72e1 / entity)
         :ARG0 (s72e2 / entity)
-        :contrast-91 (s72b1 / být-041
+        :contrast (s72b1 / být-041
             :aspect activity
             :place (s72x1 / %Idph
                 :name (s72u1 / USA))

@@ -455,7 +455,7 @@ Words: Pouze 10 %  z  dotázaných 250 dopravců očekává pokles nákladů na 
             :mod (s7n1 / náklad
                 :mod (s7d3 / doprava
                     :mod (s7z1 / zboží))))
-        :contrast-91 (s7o2 / očekávat-001
+        :contrast (s7o2 / očekávat-001
             :aspect activity
             :temporal (s7r1 / rok
                 :refer-number plural

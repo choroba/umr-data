@@ -768,7 +768,7 @@ Words: Nyní je na trhu zvýšené množství zásob ,  zatímco dolar je silně
             :refer-number singular
             :mod (s15z1 / zvýšený)
             :mod (s15z2 / zásoba))
-        :contrast-91 (s15a1 / and
+        :contrast (s15a1 / and
             :op1 (s15b2 / být-007
                 :aspect activity
                 :ARG1 (s15d1 / dolar
@@ -1453,7 +1453,7 @@ Words: Zatímco ceny ropy jsou lepší ,  než se očekávalo ,  ceny zemního p
 # sentence level graph:
 (s28b1 / být-007
         :aspect activity
-        :contrast-91 (s28b2 / být-007
+        :contrast (s28b2 / být-007
             :aspect activity
             :ARG1 (s28c1 / cena
                 :refer-number plural

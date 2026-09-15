@@ -53,7 +53,7 @@ Words: S  odkazem na váš článek na první straně "  Barbara Bushová získ�
                 :refer-number singular
                 :mod s1b2
                 :mod (s1k1 / kladný))
-            :contrast-91 (s1s2 / schvalovat-002
+            :contrast (s1s2 / schvalovat-002
                 :aspect activity
                 :ARG1 (s1v3 / výkon
                     :refer-number singular
@@ -224,7 +224,7 @@ Words: Zatímco s  výkonem pana Bushe v  jeho úřadě nesouhlasí čtvrtina č
 # sentence level graph:
 (s4m1 / mít-024
         :aspect state
-        :contrast-91 (s4s1 / souhlasit-003
+        :contrast (s4s1 / souhlasit-003
             :aspect state
             :polarity -
             :ARG1 (s4v1 / výkon

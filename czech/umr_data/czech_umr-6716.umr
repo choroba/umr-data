@@ -425,7 +425,7 @@ Words: Společnost Citicorp včera oznámila pokles zisku za třetí čtvrtletí
                     :ARG0 s8s1
                     :ARG1 (s8e2 / entity)
                     :manner (s8u1 / určitý))))
-        :contrast-91 (s8v2 / vykázat-001
+        :contrast (s8v2 / vykázat-001
             :aspect performance
             :ARG0 (s8s2 / společnost
                 :refer-number singular
@@ -594,7 +594,7 @@ Words: Společnost PNC Financial Corp .  ,  mateřská společnost banky Pittsbu
                 :mod (s11c1 / čistý))
             :extent (s11p1 / percentage-entity
                 :value "9.8")
-            :contrast-91 (s11v1 / vzrůst-001
+            :contrast (s11v1 / vzrůst-001
                 :aspect performance
                 :ARG1 (s11z2 / zisk
                     :refer-number singular
@@ -974,7 +974,7 @@ Words: Přeshraniční úvěrové portfolio odráželo "  problémy s  přizpůs
                     :mod (s18z2 / žádný)
                     :start (s18b2 / Brazílie
                         :refer-number singular)))
-            :contrast-91 (s18s1 / stát-se-001
+            :contrast (s18s1 / stát-se-001
                 :aspect performance
                 :ARG1 (s18v2 / Venezuela
                     :refer-number singular)
@@ -1642,7 +1642,7 @@ Words: Neúrokový příjem lehce poklesl z  193.3 milionu na 191.9 milionu dola
         :ARG3 (s29m2 / milión
             :mod (s29x2 / 191.9)
             :mod (s29d1 / dolar))
-        :contrast-91 (s29k1 / kontrolovat-001
+        :contrast (s29k1 / kontrolovat-001
             :aspect activity
             :ARG0 (s29b1 / banka
                 :refer-number singular)

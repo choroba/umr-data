@@ -224,7 +224,7 @@ Words: Ceny brojlerů v  říjnu klesly o  6.5 centu na 30.6 centu za libru ,  z
             :mod (s4x2 / 30.6)
             :regard (s4l1 / libra
                 :refer-number singular))
-        :contrast-91 (s4v1 / vzrůst-001
+        :contrast (s4v1 / vzrůst-001
             :aspect performance
             :ARG1 (s4c4 / cena
                 :refer-number plural
@@ -340,7 +340,7 @@ Words: Vepřové v  říjnu vzrostlo o  3.40 dolaru na 46.80 dolaru za sto liber
             :mod (s6x2 / 46.80)
             :regard (s6s1 / sto
                 :mod (s6l1 / libra)))
-        :contrast-91 (s6a1 / and
+        :contrast (s6a1 / and
             :op1 (s6k1 / klesnout-001
                 :aspect performance
                 :ARG0 (s6h1 / hovězí

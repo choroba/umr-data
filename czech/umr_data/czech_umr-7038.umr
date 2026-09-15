@@ -389,7 +389,7 @@ Words: Zatímco Rádio může svobodně vysílat v  Budapešti ,  stejně tak mo
 # sentence level graph:
 (s8v1 / vysílat-003
         :aspect activity
-        :contrast-91 (s8v2 / vysílat-003
+        :contrast (s8v2 / vysílat-003
             :aspect activity
             :ARG1 (s8e1 / entity)
             :ARG0 (s8r1 / rádio
@@ -866,7 +866,7 @@ Words: Australský tiskový magnát Rupert Murdoch koupil 50 %  podílu ve dvou 
                     :mod (s18p3 / populární)
                     :mod (s18s1 / společenský)
                     :mod (s18m3 / maďarský))))
-        :contrast-91 (s18n2 / nechat-015
+        :contrast (s18n2 / nechat-015
             :aspect performance
             :ARG0 (s18m4 / Maxwell
                 :refer-number singular

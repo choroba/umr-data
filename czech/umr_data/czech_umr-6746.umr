@@ -83,7 +83,7 @@ Words: Zatímco trh pečlivě hlídal víření na Wall Street ,  nevšímal si 
         :aspect activity
         :polarity -
         :ARG0 s2t1
-        :contrast-91 (s2h1 / hlídat-001
+        :contrast (s2h1 / hlídat-001
             :aspect activity
             :ARG0 (s2t1 / trh
                 :refer-number singular)
@@ -611,7 +611,7 @@ Words: Řekl ,  že zatímco schodek USA v  zahraničním obchodě s  Kanadou se
         :ARG0 (s12e2 / entity)
         :ARG1 (s12z1 / zmenšovat-se-001
             :aspect activity
-            :contrast-91 (s12z2 / zvýšit-se-001
+            :contrast (s12z2 / zvýšit-se-001
                 :aspect performance
                 :ARG1 (s12s1 / schodek
                     :refer-number singular

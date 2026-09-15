@@ -871,7 +871,7 @@ Words: Zmíněná nabídka ,  v  hodnotě mezi 225 a  240 dolary na akcii ,  by 
             :mod (s12v2 / většinový))
         :ARG2 (s12z2 / zaměstnanec
             :refer-number plural)
-        :contrast-91 (s12p2 / ponechat-006
+        :contrast (s12p2 / ponechat-006
             :aspect performance
             :ARG0 s12n1
             :ARG1 (s12a3 / akcie
@@ -2166,7 +2166,7 @@ Words: Avšak on a  jeho finanční ředitel John Pope zaseli některá ze semen
                     :op2 (s35s3 / sazba
                         :refer-number plural
                         :mod (s35u1 / úrokový))))
-            :contrast-91 (s35i1 / investovat-001
+            :contrast (s35i1 / investovat-001
                 :aspect process
                 :ARG0 (s35e4 / entity
                     :refer-number plural

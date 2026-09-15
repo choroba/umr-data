@@ -532,7 +532,7 @@ Words: Dlouhodobé standardní státní obligace s  třicetiletou splatností sk
                             :mod (s11k1 / každý))
                         :mod (s11c1 / částka
                             :mod (s11n1 / nominální))))))
-        :contrast-91 (s11k2 / klesnout-001
+        :contrast (s11k2 / klesnout-001
             :aspect performance
             :ARG0 (s11v2 / výnos
                 :refer-number singular)
@@ -588,7 +588,7 @@ Words: Komunální dluhopisy skončily smíšeně ,  zatímco dluhopisy zajišt�
             :refer-number plural
             :mod (s12k1 / komunální))
         :manner (s12s2 / smíšeně)
-        :contrast-91 (s12r1 / růst-002
+        :contrast (s12r1 / růst-002
             :aspect activity
             :ARG0 (s12a1 / and
                 :op1 (s12d2 / dluhopis
@@ -696,7 +696,7 @@ Words: Dalším důkazem rostoucího rozdělení "  dobrých "  a  "  špatných
             :ARG0 (s14i1 / investor
                 :refer-number plural)
             :manner (s14r5 / rychle)
-            :contrast-91 (s14u1 / uvažovat-002
+            :contrast (s14u1 / uvažovat-002
                 :aspect activity
                 :ARG0 (s14u2 / upisovatel
                     :refer-number plural
@@ -1194,7 +1194,7 @@ Words: Zatímco někteří říkají ,  že by aukce měla probíhat hladce ,  j
 (s23p1 / přít-se-001
         :aspect activity
         :ARG1 (s23e1 / entity)
-        :contrast-91 (s23r1 / říkat-007
+        :contrast (s23r1 / říkat-007
             :aspect activity
             :ARG2 (s23e2 / entity)
             :ARG0 (s23t1 / thing
@@ -2133,7 +2133,7 @@ Words: Vyšší nabídky tím snižují výnos investora ,  zatímco nižší na
         :ARG1 (s41v2 / výnos
             :refer-number singular
             :mod (s41i1 / investor))
-        :contrast-91 (s41z1 / zvyšovat-001
+        :contrast (s41z1 / zvyšovat-001
             :aspect activity
             :ARG0 (s41n2 / nabídka
                 :refer-number plural
@@ -2173,7 +2173,7 @@ Words: Procentní sazby jsou vypočítávány z  roku o  360 dnech ,  zatímco v
             :refer-number singular
             :mod (s42d1 / den
                 :mod (s42x1 / 360)))
-        :contrast-91 (s42v2 / vycházet-007
+        :contrast (s42v2 / vycházet-007
             :aspect activity
             :ARG1 (s42v3 / výnos
                 :refer-number singular
@@ -4232,7 +4232,7 @@ Words: Standardní 7  %  dluhopis splatný v  říjnu 1999 klesl o  0.20 bodu na
             :refer-number singular
             :extent (s80p2 / percentage-entity
                 :value "7.03"))
-        :contrast-91 (s80k2 / klesnout-001
+        :contrast (s80k2 / klesnout-001
             :aspect performance
             :ARG0 (s80d2 / dluhopis
                 :refer-number plural
@@ -4365,7 +4365,7 @@ Words: Standardní 11 3  /  4  %  dlouhodobá státní obligace splatná v  lete
             :refer-number singular
             :extent (s82p2 / percentage-entity
                 :value "10.11"))
-        :contrast-91 (s82v3 / vzrůst-001
+        :contrast (s82v3 / vzrůst-001
             :aspect performance
             :ARG1 (s82e1 / emise
                 :refer-number singular

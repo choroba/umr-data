@@ -193,7 +193,7 @@ Words: Zatímco dolar se odrazil ode dna ,  ceny obligací prudce klesly a  ceny
 
 # sentence level graph:
 (s4a1 / and
-        :contrast-91 (s4o1 / odrazit-se-003
+        :contrast (s4o1 / odrazit-se-003
             :aspect performance
             :ARG0 (s4d1 / dolar
                 :refer-number singular)
@@ -1205,7 +1205,7 @@ Words: Zatímco společnost Bear Stearns vykázala 7.5 %  zisk ,  společnost Pa
 # sentence level graph:
 (s27z1 / zaznamenat-005
         :aspect performance
-        :contrast-91 (s27v1 / vykázat-001
+        :contrast (s27v1 / vykázat-001
             :aspect performance
             :ARG0 (s27s1 / společnost
                 :refer-number singular

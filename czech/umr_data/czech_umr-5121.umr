@@ -426,7 +426,7 @@ Words: Zatímco obyvatelé vyhlásili vítězství ,  armádní orgány oznámil
 # sentence level graph:
 (s8o1 / oznámit-001
         :aspect performance
-        :contrast-91 (s8v1 / vyhlásit-002
+        :contrast (s8v1 / vyhlásit-002
             :aspect performance
             :ARG0 (s8o2 / obyvatel
                 :refer-number plural)
@@ -545,7 +545,7 @@ Words: Ve východním Berlíně jednali komunističtí předáci o  ustanovení 
                         :place (s10z1 / země
                             :refer-number singular))
                     :mod (s10o1 / opoziční))))
-        :contrast-91 (s10p2 / protestovat-001
+        :contrast (s10p2 / protestovat-001
             :aspect activity
             :ARG0 (s10d1 / demonstrant
                 :refer-number plural

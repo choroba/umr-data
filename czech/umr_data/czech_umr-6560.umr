@@ -333,7 +333,7 @@ Words: U  asi 822 emisí na Newyorské burze cenných papírů cena vzrostla ,  
                     :mod (s7c1 / cenný))))
         :ARG1 (s7c2 / cena
             :refer-number singular)
-        :contrast-91 (s7p2 / poklesnout-001
+        :contrast (s7p2 / poklesnout-001
             :aspect performance
             :ARG1 (s7e2 / entity
                 :refer-number plural
@@ -2947,7 +2947,7 @@ Words: Zatímco společnost UAL oslabovala ,  společnost AMR ,  mateřská spol
 # sentence level graph:
 (s40v1 / vyrovnat-005
         :aspect performance
-        :contrast-91 (s40o1 / oslabovat-003
+        :contrast (s40o1 / oslabovat-003
             :aspect activity
             :ARG1 (s40s1 / společnost
                 :refer-number singular

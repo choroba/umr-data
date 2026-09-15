@@ -28,7 +28,7 @@ Words: Mzdové náklady v  soukromém sektoru vzrostly ve třetím čtvrtletí o
                 :ARG1 (s1c2 / čtvrtletí
                     :refer-number singular
                     :mod (s1d1 / druhý)))
-            :contrast-91 (s1p2 / přestat-001
+            :contrast (s1p2 / přestat-001
                 :aspect performance
                 :polarity -
                 :ARG0 (s1n2 / náklad
@@ -353,7 +353,7 @@ Words: Ve dvanáctiměsíčním období ukončeném v  září vzrostly mzdy a  
                         :mod (s7s2 / soukromý)))))
         :extent (s7p3 / percentage-entity
             :value "4.4")
-        :contrast-91 (s7z2 / zvýšit-se-001
+        :contrast (s7z2 / zvýšit-se-001
             :aspect performance
             :ARG1 (s7n1 / náklad
                 :refer-number plural

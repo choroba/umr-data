@@ -623,7 +623,7 @@ Words: Hodnota pod 50 %  značí ,  že výrobní průmysl zpomaluje ,  zatímco
             :ARG1 (s12p2 / průmysl
                 :refer-number singular
                 :mod (s12v1 / výrobní)))
-        :contrast-91 (s12z3 / značit-001
+        :contrast (s12z3 / značit-001
             :aspect activity
             :ARG0 (s12h2 / hodnota
                 :refer-number singular
@@ -839,7 +839,7 @@ Words: Obecní dluhopisy zakončily beze změny až o  1  /  2  bodu výše ,  z
                         :extent (s17a1 / až))
                     :op2 (s17x2 / 2
                         :extent s17a1))))
-        :contrast-91 (s17s1 / stoupnout-001
+        :contrast (s17s1 / stoupnout-001
             :aspect performance
             :ARG0 (s17l1 / list
                 :refer-number plural
@@ -2133,7 +2133,7 @@ Words: V  této nabídce ,  která má dvě části ,  byly prioritní podříze
                 :refer-number singular
                 :extent (s42p3 / percentage-entity
                     :value "13_3_/_4")))
-        :contrast-91 (s42o2 / ocenit-001
+        :contrast (s42o2 / ocenit-001
             :aspect performance
             :ARG0 (s42e1 / entity
                 :refer-number singular

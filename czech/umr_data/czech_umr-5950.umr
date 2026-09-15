@@ -10,7 +10,7 @@ Words: Američané pijí méně ,  zato mladí profesionálové z  Austrálie a�
         :ARG0 (s1a1 / Američan
             :refer-number plural)
         :extent (s1m1 / málo)
-        :contrast-91 (s1n1 / nakupovat-001
+        :contrast (s1n1 / nakupovat-001
             :aspect activity
             :ARG0 (s1p2 / profesionál
                 :refer-number plural
@@ -542,7 +542,7 @@ Words: Zatímco luxusní značkové lihoviny ,  jako je vodka Smirnoff a  whisky
 # sentence level graph:
 (s11k1 / klesnout-001
         :aspect performance
-        :contrast-91 (s11d1 / držet-se-003
+        :contrast (s11d1 / držet-se-003
             :aspect activity
             :ARG0 (s11i1 / identity-91
                 :ARG1 (s11l1 / lihovina
@@ -1153,7 +1153,7 @@ Words: Zatímco američtí výrobci vodky ,  rumu a  jiných lihovin soutěží 
 (s22z1 / zakázat-001
         :aspect performance
         :ARG2 (s22e1 / entity)
-        :contrast-91 (s22s1 / soutěžit-001
+        :contrast (s22s1 / soutěžit-001
             :aspect activity
             :ARG0 (s22v1 / výrobce
                 :refer-number plural

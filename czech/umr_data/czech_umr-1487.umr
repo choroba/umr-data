@@ -409,7 +409,7 @@ Words: Zatímco MSG zahrála bez playbacků ,  hausová pěvecko -  taneční pr
 # sentence level graph:
 (s8p1 / postavit-001
         :aspect performance
-        :contrast-91 (s8z1 / zahrát-002
+        :contrast (s8z1 / zahrát-002
             :aspect performance
             :ARG0 (s8m1 / MSG)
             :ARG1 (s8e1 / entity)
@@ -603,7 +603,7 @@ Words: Zatímco v  pravěku lidé tančili podle primitivních rytmů a  dívali
 
 # sentence level graph:
 (s12a1 / and
-        :contrast-91 (s12a2 / and
+        :contrast (s12a2 / and
             :op1 (s12t1 / tančit-001
                 :aspect activity
                 :ARG0 (s12c1 / člověk

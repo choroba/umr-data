@@ -532,7 +532,7 @@ Words: Nadšení bylo takové ,  že investoři reagovali na zprávy o  dobrých
                                 :ARG1 (s13s1 / společnost)
                                 :ARG2 (s13f1 / foreign-phrase
                                     :op1 "American" :op2 "Express"))))
-                    :contrast-91 (s13i3 / ignorovat-001
+                    :contrast (s13i3 / ignorovat-001
                         :aspect activity
                         :ARG0 s13i1
                         :ARG1 (s13z3 / zisk
@@ -3475,7 +3475,7 @@ Words: Mattel zvýšil o  1  1  /  4  na 19 5  /  8  ,  společnost Tonka zpevni
                     :op2 (s57x15 / 8)))
             :place (s57x16 / %Idph
                 :name (s57n2 / NYSE)))
-        :contrast-91 (s57z3 / získat-003
+        :contrast (s57z3 / získat-003
             :aspect performance
             :ARG0 (s57s3 / společnost
                 :refer-number singular

@@ -81,7 +81,7 @@ Words: Zatímco obnovený optimismus o  vyhlídkách na skupovací činnost vyhn
 # sentence level graph:
 (s2k1 / konstatovat-002
         :aspect process
-        :contrast-91 (s2v1 / vyhnat-001
+        :contrast (s2v1 / vyhnat-001
             :aspect performance
             :ARG0 (s2o1 / optimizmus
                 :refer-number singular
@@ -107,7 +107,7 @@ Words: Zatímco obnovený optimismus o  vyhlídkách na skupovací činnost vyhn
                 :mod (s2z1 / zisk))
             :ARG1 (s2t1 / trh
                 :refer-number singular)
-            :contrast-91 (s2n2 / nést-003
+            :contrast (s2n2 / nést-003
                 :aspect activity
                 :ARG0 (s2f1 / firma
                     :refer-number plural
@@ -872,7 +872,7 @@ Words: Předpokládá se ,  že obchod zůstane v  útlumu ,  zatímco trh oček
                 :refer-number singular)
             :place (s15u1 / útlum
                 :refer-number singular)
-            :contrast-91 (s15o2 / očekávat-002
+            :contrast (s15o2 / očekávat-002
                 :aspect activity
                 :ARG0 (s15t1 / trh
                     :refer-number singular)
@@ -2067,7 +2067,7 @@ Words: Společnost Mead vzrostla o  3  /  4  na 39 1  /  2  ,  společnost Feder
                 :op2 (s31m7 / math-entity
                     :op1 (s31x14 / 3)
                     :op2 (s31x15 / 8))))
-        :contrast-91 (s31a5 / and
+        :contrast (s31a5 / and
             :op1 (s31s3 / spadnout-001
                 :aspect performance
                 :ARG0 (s31f2 / firma

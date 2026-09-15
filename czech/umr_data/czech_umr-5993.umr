@@ -2804,7 +2804,7 @@ Words: Zatímco si agentura v  mnoha částech světa vedla dobře ,  její vlaj
 # sentence level graph:
 (s50v1 / vykazovat-001
         :aspect activity
-        :contrast-91 (s50v2 / vést-si-001
+        :contrast (s50v2 / vést-si-001
             :aspect activity
             :ARG0 (s50a1 / agentura
                 :refer-number singular)
@@ -2834,7 +2834,7 @@ Words: Zatímco si agentura v  mnoha částech světa vedla dobře ,  její vlaj
                     :clausal-marker (s50j1 / jen))
                 :mod (s50n2 / nový)
                 :mod (s50r2 / reklama))
-            :contrast-91 (s50p2 / přijít-006
+            :contrast (s50p2 / přijít-006
                 :aspect performance
                 :ARG0 s50k1
                 :ARG1 (s50z3 / zakázka

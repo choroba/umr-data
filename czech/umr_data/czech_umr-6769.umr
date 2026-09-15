@@ -348,7 +348,7 @@ Words: Ceny dluhopisů po počátečním úprku skončily níže ,  zatímco vý
                 :refer-number singular
                 :mod (s6p1 / počáteční)))
         :place (s6n1 / nízko)
-        :contrast-91 (s6b1 / být-007
+        :contrast (s6b1 / být-007
             :aspect activity
             :ARG1 (s6v1 / vývoj
                 :refer-number singular
@@ -443,7 +443,7 @@ Words: Vývoz klesá již dva měsíce za sebou ,  zatímco dovoz dosahuje rekor
             :clausal-marker (s8j1 / již)
             :mod (s8d1 / dva)
             :manner s8m1)
-        :contrast-91 (s8d2 / dosahovat-002
+        :contrast (s8d2 / dosahovat-002
             :aspect activity
             :ARG1 (s8d3 / dovoz
                 :refer-number singular)

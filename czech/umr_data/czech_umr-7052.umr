@@ -222,7 +222,7 @@ Words: Bankovní skupina Societe Generale spravuje 18.2 %  akcií ,  zatímco So
         :ARG1 (s5p1 / percentage-entity
             :value "18.2"
             :mod (s5a1 / akcie))
-        :contrast-91 (s5a2 / and
+        :contrast (s5a2 / and
             :op1 (s5v1 / vlastnit-001
                 :aspect state
                 :ARG1 (s5f1 / foreign-phrase

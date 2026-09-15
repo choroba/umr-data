@@ -30,7 +30,7 @@ Words: Počet akcií prodaných nakrátko na Newyorské burze cenných papírů 
             :frequency (s1t1 / tentokrát)
             :ARG3 (s1p6 / percentage-entity
                 :value "4.2"))
-        :contrast-91 (s1o1 / ohlásit-001
+        :contrast (s1o1 / ohlásit-001
             :aspect performance
             :ARG2 (s1e1 / entity)
             :ARG0 (s1b2 / burza
@@ -220,7 +220,7 @@ Words: Ve shodném měsíci minulého roku Newyorská burza oznámila 461539056 
                     :mod (s4m3 / meziroční)
                     :extent (s4p1 / percentage-entity
                         :value "13.5"))))
-        :contrast-91 (s4h1 / hlásit-001
+        :contrast (s4h1 / hlásit-001
             :aspect activity
             :ARG0 (s4b2 / burza
                 :refer-number singular

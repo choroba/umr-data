@@ -971,7 +971,7 @@ Words: Analytici říkají ,  že zotavení ve skupině vždy v  minulosti trh p
                 :refer-number singular)
             :ARG1 (s20t1 / trh
                 :refer-number singular)
-            :contrast-91 (s20p2 / potopit-002
+            :contrast (s20p2 / potopit-002
                 :aspect performance
                 :ARG0 (s20p3 / propad
                     :refer-number plural
@@ -1178,7 +1178,7 @@ Words: Sektor technologických společností v  Dow -  Jonesově indexu trhu kme
             :value "6.24"
             :clausal-marker (s24j2 / jen)
             :degree (s24a2 / asi))
-        :contrast-91 (s24s3 / stoupnout-001
+        :contrast (s24s3 / stoupnout-001
             :aspect performance
             :ARG0 (s24i2 / index
                 :refer-number singular
@@ -1351,7 +1351,7 @@ Words: Zatímco počítačové akcie byly ochabnutím v  odvětví zasaženy nej
 # sentence level graph:
 (s28z1 / zlepšovat-se-002
         :aspect activity
-        :contrast-91 (s28z2 / zasáhnout-001
+        :contrast (s28z2 / zasáhnout-001
             :aspect performance
             :ARG1 (s28a1 / akcie
                 :refer-number plural
@@ -1411,7 +1411,7 @@ Words: Společnost Microsoft letos vzrostla o  více než 50 %  ,  zatímco spol
         :extent (s29h1 / hodně
             :comparison (s29p1 / percentage-entity
                 :value "50"))
-        :contrast-91 (s29v2 / vzrůst-001
+        :contrast (s29v2 / vzrůst-001
             :aspect performance
             :ARG1 (s29s2 / společnost
                 :refer-number singular
@@ -1481,7 +1481,7 @@ Words: Analytici říkají ,  že skupina technologických společností je tak�
                     :place (s30t3 / trh
                         :refer-number singular
                         :mod (s30i1 / institucionální))
-                    :contrast-91 (s30k1 / kolísat-001
+                    :contrast (s30k1 / kolísat-001
                         :aspect activity
                         :ARG1 (s30a4 / akcie
                             :refer-number plural

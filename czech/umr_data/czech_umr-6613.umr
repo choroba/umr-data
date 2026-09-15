@@ -164,7 +164,7 @@ Words: U  větších akcií stoupl index Nasdaq 100 o  1  %  ,  neboli 4.56 ,  n
                 :value "1")
             :ARG2 (s4x1 / 4.56))
         :ARG1 (s4x2 / 453.05)
-        :contrast-91 (s4v2 / vzrůst-001
+        :contrast (s4v2 / vzrůst-001
             :aspect performance
             :ARG1 (s4i3 / index
                 :refer-number singular
@@ -281,7 +281,7 @@ Words: Zatímco index akcií průmyslových společností se v  pondělí z  pá
 # sentence level graph:
 (s6p1 / propadnout-se-001
         :aspect performance
-        :contrast-91 (s6z1 / zotavit-se-001
+        :contrast (s6z1 / zotavit-se-001
             :aspect performance
             :ARG1 (s6i1 / index
                 :refer-number singular
@@ -595,7 +595,7 @@ Words: Zatímco investoři spekulovali o  dlouhodobých a  krátkodobých důsle
         :aspect activity
         :ARG2 (s13e1 / entity)
         :ARG0 (s13e2 / entity)
-        :contrast-91 (s13s1 / spekulovat-001
+        :contrast (s13s1 / spekulovat-001
             :aspect activity
             :ARG0 (s13i1 / investor
                 :refer-number plural)
@@ -700,7 +700,7 @@ Words: Akcie související s  pojišťovnictvím si vedly smíšeně ,  zatímco
                 :ARG1 (s15p1 / pojišťovnictví
                     :refer-number singular)))
         :manner (s15s2 / smíšeně)
-        :contrast-91 (s15s3 / snažit-se-001
+        :contrast (s15s3 / snažit-se-001
             :aspect activity
             :ARG0 (s15i1 / investor
                 :refer-number plural)
@@ -1436,7 +1436,7 @@ Words: Index pojišťoven Nasdaq během dne vyskočil o  4.15 na 529.32 ,  zatí
             :refer-number singular)
         :extent (s29x1 / 4.15)
         :ARG1 (s29x2 / 529.32)
-        :contrast-91 (s29v2 / vyšplhat-se-001
+        :contrast (s29v2 / vyšplhat-se-001
             :aspect performance
             :ARG0 (s29u1 / ukazatel
                 :refer-number singular

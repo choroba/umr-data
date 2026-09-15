@@ -205,7 +205,7 @@ Words: Dovoz se v  září oproti loňskému roku zvýšil o  11 %  na 18443 bil
         :ARG2 (s5b1 / bilión
             :mod (s5x1 / 18443)
             :mod (s5l2 / lira))
-        :contrast-91 (s5v1 / vzrůst-001
+        :contrast (s5v1 / vzrůst-001
             :aspect performance
             :ARG1 (s5v2 / vývoz
                 :refer-number singular)
@@ -257,7 +257,7 @@ Words: Za devět měsíců se dovoz zvýšil o  20 %  na 155039 bilionu lir ,  z
         :ARG2 (s6b1 / bilión
             :mod (s6x1 / 155039)
             :mod (s6l1 / lira))
-        :contrast-91 (s6v1 / vzrůst-001
+        :contrast (s6v1 / vzrůst-001
             :aspect performance
             :ARG1 (s6v2 / vývoz
                 :refer-number singular)
@@ -315,7 +315,7 @@ Words: Dovozní hodnoty jsou spočítány na základě dodací doložky náklady
                     :op3 (s7p2 / přepravné
                         :refer-number singular))
                 :ARG2 (s7c1 / CIF)))
-        :contrast-91 (s7u1 / účtovat-001
+        :contrast (s7u1 / účtovat-001
             :aspect activity
             :ARG2 (s7e4 / entity)
             :ARG1 (s7v1 / vývoz

@@ -715,7 +715,7 @@ Words: Vláda oznámila ,  že se v  září zakázky na výrobu zboží v  pods
                 :mod (s11v2 / výroba
                     :mod (s11z4 / zboží)))
             :clausal-marker (s11v3 / v_podstatě)
-            :contrast-91 (s11b1 / být-007
+            :contrast (s11b1 / být-007
                 :aspect activity
                 :ARG1 (s11v4 / výdaj
                     :refer-number plural
@@ -1010,7 +1010,7 @@ Words: Například ,  kraje Philadelphia a  Cleveland ohlásily poklesy ve výro
             :place (s16a2 / aktivita
                 :refer-number singular
                 :mod (s16v1 / výrobní)))
-        :contrast-91 (s16z1 / zaznamenat-001
+        :contrast (s16z1 / zaznamenat-001
             :aspect performance
             :ARG0 (s16b1 / banka
                 :refer-number plural
@@ -1112,7 +1112,7 @@ Words: Hodnota pod 50 %  indikuje ,  že výrobní sektor zpomaluje ,  zatímco 
             :ARG1 (s18s1 / sektor
                 :refer-number singular
                 :mod (s18v1 / výrobní)))
-        :contrast-91 (s18n1 / naznačovat-002
+        :contrast (s18n1 / naznačovat-002
             :aspect activity
             :ARG0 (s18h2 / hodnota
                 :refer-number singular
@@ -2123,7 +2123,7 @@ Words: Diskontní sazba tříměsíčních státních pokladničních poukázek 
         :clausal-marker (s35v1 / v_podstatě)
         :place (s35p3 / percentage-entity
             :value "7.79")
-        :contrast-91 (s35b1 / být-007
+        :contrast (s35b1 / být-007
             :aspect activity
             :ARG1 (s35s3 / sazba
                 :refer-number singular
@@ -2310,7 +2310,7 @@ Words: Ve svém posledním souboru výkonnostních statistik firma Moody '  s  I
                 :mod (s39c1 / celkový)
                 :mod (s39p2 / percentage-entity
                     :value "2.7"))
-            :contrast-91 (s39v3 / vykázat-001
+            :contrast (s39v3 / vykázat-001
                 :aspect performance
                 :ARG0 (s39d3 / dluhopis
                     :refer-number plural

@@ -110,7 +110,7 @@ Words: Zatímco znovu potvrdil podporu voleb v  zemi ,  které mají proběhnout
 # sentence level graph:
 (s3n1 / naznačit-001
         :aspect performance
-        :contrast-91 (s3p1 / potvrdit-001
+        :contrast (s3p1 / potvrdit-001
             :aspect performance
             :ARG0 (s3e1 / entity
                 :refer-number singular
@@ -681,7 +681,7 @@ Words: Zatímco výzkumníci věří ,  že takové transplantace by mohly pomoc
 # sentence level graph:
 (s14s1 / stavět-se-002
         :aspect activity
-        :contrast-91 (s14v1 / věřit-001
+        :contrast (s14v1 / věřit-001
             :aspect state
             :ARG0 (s14v2 / výzkumník
                 :refer-number plural)

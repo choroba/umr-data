@@ -767,7 +767,7 @@ Words: Zatímco mnoho problémů by se dalo vyřešit restrukturalizací Columbi
 # sentence level graph:
 (s13r1 / říkat-007
         :aspect activity
-        :contrast-91 (s13v1 / vyřešit-001
+        :contrast (s13v1 / vyřešit-001
             :aspect performance
             :ARG1 (s13p1 / problém
                 :refer-number plural
@@ -1648,7 +1648,7 @@ Words: Ovšem hodná banka Columbie by byla regulovaná záložna ,  zatímco zl
         :ARG2 (s27z1 / záložna
             :refer-number singular
             :mod (s27r1 / regulovaný))
-        :contrast-91 (s27b3 / být-007
+        :contrast (s27b3 / být-007
             :aspect activity
             :ARG1 (s27b4 / banka
                 :refer-number singular

@@ -530,7 +530,7 @@ Words: Zatímco provozovatelé licence měli s  udržením prodeje obtíže ,  o
 # sentence level graph:
 (s10u1 / uvést-007
         :aspect performance
-        :contrast-91 (s10m1 / mít-038
+        :contrast (s10m1 / mít-038
             :aspect state
             :ARG0 (s10p1 / provozovatel
                 :refer-number plural
@@ -1327,7 +1327,7 @@ Words: Při vědomí lepších vyhlídek v  zahraničí společnost McDonald '  
                         :ARG1 s22o1
                         :temporal (s22r1 / rok
                             :refer-number singular))))
-            :contrast-91 (s22p2 / platit-009
+            :contrast (s22p2 / platit-009
                 :aspect activity
                 :affectee (s22e1 / expanze
                     :refer-number singular

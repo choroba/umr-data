@@ -981,7 +981,7 @@ Words: Zatímco burzovní akciová hala v  San Franciscu zůstala otevřená s  
 
 # sentence level graph:
 (s15a1 / and
-        :contrast-91 (s15z1 / zůstat-002
+        :contrast (s15z1 / zůstat-002
             :aspect performance
             :ARG1 (s15h1 / hala
                 :refer-number singular
@@ -2451,7 +2451,7 @@ Words: (  Opce s  právem prodeje udělují držitelům právo ,  nikoli povinno
                         :mod (s39f1 / finanční)
                         :mod (s39c1 / cena
                             :mod (s39s1 / stanovený))))))
-        :contrast-91 (s39b2 / but-91
+        :contrast (s39b2 / but-91
             :ARG1 (s39u3 / udělovat-002
                 :aspect activity
                 :ARG0 (s39o2 / opce

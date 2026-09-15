@@ -761,7 +761,7 @@ Words: Ovšem zatímco analytici tvrdí ,  že obecní dluhopisy stále nabízej
 (s16v1 / vypadat-004
         :aspect activity
         :polarity -
-        :contrast-91 (s16t1 / tvrdit-002
+        :contrast (s16t1 / tvrdit-002
             :aspect activity
             :clausal-marker (s16o1 / ovšem)
             :ARG0 (s16a1 / analytik
@@ -1553,7 +1553,7 @@ Words: Protože výnosy z  obecních dluhopisů stouply ,  zatímco úrokové sa
                 :refer-number plural
                 :mod (s30d1 / dluhopis
                     :mod (s30o1 / obecní)))
-            :contrast-91 (s30k1 / klesnout-001
+            :contrast (s30k1 / klesnout-001
                 :aspect performance
                 :ARG0 (s30s2 / sazba
                     :refer-number plural

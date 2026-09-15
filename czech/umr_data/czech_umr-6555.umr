@@ -946,7 +946,7 @@ Words: Poslední období zahrnovalo odpisy na nezastavěnou půdu ve výši 9  m
                 :extent (s16m1 / milion
                     :mod (s16x1 / 9)
                     :mod (s16d1 / dolar))))
-        :contrast-91 (s16z3 / zahrnovat-003
+        :contrast (s16z3 / zahrnovat-003
             :aspect activity
             :ARG0 (s16o3 / období
                 :refer-number singular

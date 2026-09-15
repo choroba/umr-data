@@ -734,7 +734,7 @@ Words: A  zatímco dnešní energeticky nezávislé čipy -  jako například el
 (s14p1 / přijímat-006
         :aspect activity
         :clausal-marker (s14a1 / a)
-        :contrast-91 (s14p2 / použít-001
+        :contrast (s14p2 / použít-001
             :aspect performance
             :polarity -
             :ARG1 (s14i1 / identity-91
@@ -1280,7 +1280,7 @@ Words: Zatímco právníci dříve zřizovali individuální připojení ,  tato
 
 # sentence level graph:
 (s24a1 / and
-        :contrast-91 (s24z1 / zřizovat-001
+        :contrast (s24z1 / zřizovat-001
             :aspect activity
             :ARG0 (s24p1 / právník
                 :refer-number plural)

@@ -406,7 +406,7 @@ Words: Zatímco mnozí dostali majetek zpět bez velkých diskusí ,  církve js
 # sentence level graph:
 (s10b1 / být-011
         :aspect activity
-        :contrast-91 (s10d1 / dostat-001
+        :contrast (s10d1 / dostat-001
             :aspect performance
             :ARG0 (s10m1 / mnohý
                 :refer-number plural)
@@ -785,7 +785,7 @@ Words: Výsledkem tohoto systému bude toto :  zatímco v  případě asignací 
                 :refer-number singular)
             :ARG2 (s21d1 / dojít-005
                 :aspect performance
-                :contrast-91 (s21p1 / přispět-002
+                :contrast (s21p1 / přispět-002
                     :aspect performance
                     :condition (s21a1 / asignace
                         :refer-number plural)

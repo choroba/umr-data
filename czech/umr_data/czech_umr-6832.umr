@@ -796,7 +796,7 @@ Words: Objem vyrobeného občerstvení vzrostl o  celých 7  %  ve třetím kvar
             :temporal (s15k1 / kvartál
                 :refer-number singular
                 :mod (s15t1 / třetí))
-            :contrast-91 (s15s1 / stoupnout-001
+            :contrast (s15s1 / stoupnout-001
                 :aspect performance
                 :ARG0 (s15v3 / výnos
                     :refer-number plural
@@ -999,7 +999,7 @@ Words: Tržby při porovnání vždy týchž restaurací vzrostly u  firmy Pizza
             :extent (s19p2 / percentage-entity
                 :value "13"
                 :degree (s19a2 / asi))
-            :contrast-91 (s19v3 / vzrůst-001
+            :contrast (s19v3 / vzrůst-001
                 :aspect performance
                 :ARG1 s19t1
                 :place (s19f2 / firma

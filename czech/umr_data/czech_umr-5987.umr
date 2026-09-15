@@ -127,7 +127,7 @@ Words: Společnosti Phillips Petroleum Co .  a  Atlantic Richfield Co .  také o
             :refer-number singular
             :mod (s3z1 / zisk
                 :mod (s3c1 / čtvrtletní)))
-        :contrast-91 (s3o2 / oznámit-001
+        :contrast (s3o2 / oznámit-001
             :aspect performance
             :ARG0 (s3s2 / společnost
                 :refer-number singular
@@ -715,7 +715,7 @@ Words: Výdělek společnosti Exxon z  chemických provozů spadl o  90 milionů
         :ARG1 (s14m2 / milion
             :mod (s14x2 / 254)
             :mod (s14d2 / dolar))
-        :contrast-91 (s14k1 / klesnout-001
+        :contrast (s14k1 / klesnout-001
             :aspect performance
             :ARG0 (s14z1 / zisk
                 :refer-number plural

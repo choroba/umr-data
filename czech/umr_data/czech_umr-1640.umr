@@ -151,7 +151,7 @@ Words: Zatímco podíl recidivistů na trestné činnosti poklesl o  15.2 %  ,  
 # sentence level graph:
 (s5s1 / stoupnout-001
         :aspect performance
-        :contrast-91 (s5p1 / poklesnout-001
+        :contrast (s5p1 / poklesnout-001
             :aspect performance
             :ARG1 (s5p2 / podíl
                 :refer-number singular

@@ -118,7 +118,7 @@ Words: Istat uvedl ,  že domácí velkoobchodní prodej vzrostl oproti předcho
                 :mod (s3p2 / předchozí))
             :extent (s3p3 / percentage-entity
                 :value "11.9")
-            :contrast-91 (s3v3 / vyskočit-001
+            :contrast (s3v3 / vyskočit-001
                 :aspect performance
                 :ARG0 (s3p4 / prodej
                     :refer-number singular
@@ -291,7 +291,7 @@ Words: Prodej spotřebního zboží za stejné období vzrostl o  6.9 %  ,  zat�
             :mod (s6s2 / stejný))
         :extent (s6p2 / percentage-entity
             :value "6.9")
-        :contrast-91 (s6b1 / být-007
+        :contrast (s6b1 / být-007
             :aspect activity
             :ARG1 (s6p3 / prodej
                 :refer-number singular

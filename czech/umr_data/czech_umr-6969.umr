@@ -171,7 +171,7 @@ Words: Obchodní domy Bonwit Teller a  B  .  Altman &  Co .  se v  New Yorku spo
             :mod (s3z1 / zákon
                 :mod (s3f4 / federální)
                 :mod (s3k1 / konkurs)))
-        :contrast-91 (s3b1 / být-011
+        :contrast (s3b1 / být-011
             :aspect activity
             :ARG1 (s3r1 / řetězec
                 :refer-number plural
@@ -522,7 +522,7 @@ Words: Například společnost Ganett Co .  zveřejnila 11 %  nárůst svých č
             :mod (s9p2 / příjem
                 :mod s9s1
                 :mod (s9c1 / čistý)))
-        :contrast-91 (s9b1 / but-91
+        :contrast (s9b1 / but-91
             :ARG1 (s9p3 / poklesnout-001
                 :aspect performance
                 :ARG1 (s9o1 / objem
@@ -811,7 +811,7 @@ Words: Zatímco za celý rok až k  dnešnímu dni dosáhl v  USA Today celkový
 
 # sentence level graph:
 (s13a1 / and
-        :contrast-91 (s13d1 / dosáhnout-002
+        :contrast (s13d1 / dosáhnout-002
             :aspect performance
             :duration (s13r1 / rok
                 :refer-number singular

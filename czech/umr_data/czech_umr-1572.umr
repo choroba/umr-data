@@ -121,7 +121,7 @@ Words: Zatímco průměrná výška členů ODS činí 196 cm ,  průměrná vý
 # sentence level graph:
 (s4c1 / činit-007
         :aspect activity
-        :contrast-91 (s4c2 / činit-007
+        :contrast (s4c2 / činit-007
             :aspect activity
             :ARG1 (s4v1 / výška
                 :refer-number singular
@@ -330,7 +330,7 @@ Words: Lze tedy uzavřít ,  že zatímco občané nižšího vzrůstu budou vol
             :instrument (s7j1 / jít-022
                 :aspect activity
                 :polarity -
-                :contrast-91 (s7a1 / and
+                :contrast (s7a1 / and
                     :op1 (s7v1 / volit-001
                         :aspect activity
                         :ARG0 (s7o1 / občan

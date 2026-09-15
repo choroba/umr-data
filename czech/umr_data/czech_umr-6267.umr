@@ -1010,7 +1010,7 @@ Words: Čip Intel 486 může zpracovat 15 milionů příkazů za sekundu ,  nebo
             :ARG2 (s16x2 / %Idph
                 :mod s16x1
                 :name (s16m2 / MIPS)))
-        :contrast-91 (s16z2 / zvládnout-001
+        :contrast (s16z2 / zvládnout-001
             :aspect performance
             :ARG0 (s16c2 / čip
                 :refer-number singular

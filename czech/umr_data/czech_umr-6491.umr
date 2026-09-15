@@ -51,7 +51,7 @@ Words: Zatímco loňské údaje byly nižší než 13.4 %  v  roce 1987 a  zname
 # sentence level graph:
 (s2u1 / uvést-007
         :aspect performance
-        :contrast-91 (s2a1 / and
+        :contrast (s2a1 / and
             :op1 (s2b1 / být-007
                 :aspect activity
                 :ARG1 (s2u2 / údaj
@@ -148,7 +148,7 @@ Words: Zpráva úřadu také ukázala ,  že zatímco se některá měřítka n�
             :aspect activity
             :ARG2 (s3e2 / entity)
             :ARG0 (s3e3 / entity)
-            :contrast-91 (s3z2 / zlepšit-se-001
+            :contrast (s3z2 / zlepšit-se-001
                 :aspect performance
                 :ARG0 (s3m1 / měřítko
                     :refer-number plural
@@ -1946,7 +1946,7 @@ Words: -  Mezi sezdanými páry se propast mezi černošskou a  bělošskou popu
             :manner (s34p5 / prudce)
             :extent (s34p6 / percentage-entity
                 :value "6.8")
-            :contrast-91 (s34z2 / zůstat-006
+            :contrast (s34z2 / zůstat-006
                 :aspect performance
                 :ARG0 (s34p7 / příjem
                     :refer-number singular

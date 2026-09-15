@@ -1440,7 +1440,7 @@ Words: Steve Milunovich ,  analytik cenných papírů společnosti First Boston 
                         :op1 "First" :op2 "Boston"))))
         :effect (s25h1 / hledat-002
             :aspect activity
-            :contrast-91 (s25h2 / hledat-002
+            :contrast (s25h2 / hledat-002
                 :aspect activity
                 :ARG0 (s25i2 / investor
                     :refer-number plural)

@@ -122,7 +122,7 @@ Words: Zatímco toto představuje malé procento veřejného nesplaceného dluhu
 # sentence level graph:
 (s3n1 / následovat-002
         :aspect activity
-        :contrast-91 (s3p1 / představovat-003
+        :contrast (s3p1 / představovat-003
             :aspect activity
             :ARG0 (s3t1 / tento
                 :refer-number singular)
@@ -749,7 +749,7 @@ Words: Mezitím klesají příjmy z  daní ,  zatímco potřeby výdajů města 
         :ARG1 (s14p1 / příjem
             :refer-number plural
             :mod (s14d1 / daň))
-        :contrast-91 (s14r1 / růst-002
+        :contrast (s14r1 / růst-002
             :aspect activity
             :ARG1 (s14p2 / potřeba
                 :refer-number plural

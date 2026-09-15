@@ -7,7 +7,7 @@ Words: Zatímco páteční padající burza vyvolala nové obavy o  vyhlídky ek
 # sentence level graph:
 (s1u1 / ukazovat-002
         :aspect activity
-        :contrast-91 (s1v1 / vyvolat-004
+        :contrast (s1v1 / vyvolat-004
             :aspect performance
             :ARG0 (s1b1 / burza
                 :refer-number singular
@@ -1263,7 +1263,7 @@ Words: Minulý pátek také vzrostla , zatímco burza poklesla .
             :refer-number singular
             :mod (s21m1 / minulý))
         :clausal-marker (s21t1 / také)
-        :contrast-91 (s21p2 / poklesnout-001
+        :contrast (s21p2 / poklesnout-001
             :aspect performance
             :ARG1 (s21b1 / burza
                 :refer-number singular)))

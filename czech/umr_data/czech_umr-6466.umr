@@ -940,7 +940,7 @@ Words: ZDE JE DALŠÍ vysvětlení toho ,  proč je Japonsko tvrdým průmyslov�
                         :refer-number plural
                         :mod (s16t2 / tři)
                         :mod (s16j2 / japonský)))
-                :contrast-91 (s16c1 / činit-005
+                :contrast (s16c1 / činit-005
                     :aspect activity
                     :manner (s16s1 / stejně)
                     :ARG1 s16p3
@@ -1080,7 +1080,7 @@ Words: Údaje za rok 1987 získané od Národní asociace metod návrhů a  Japo
                 :start (s18n3 / návrh
                     :refer-number plural
                     :mod (s18p1 / pět)))
-            :contrast-91 (s18p2 / přijímat-004
+            :contrast (s18p2 / přijímat-004
                 :aspect activity
                 :ARG0 (s18k1 / kolega
                     :refer-number plural
@@ -1296,7 +1296,7 @@ Words: To pomáhá vysvětlit ,  proč američtí zaměstnavatelé udělí odmě
                             :mod (s22x2 / 604.72)
                             :regard (s22n1 / návrh
                                 :refer-number singular))))
-                :contrast-91 (s22z2 / zaplatit-002
+                :contrast (s22z2 / zaplatit-002
                     :aspect performance
                     :ARG0 (s22j1 / Japonec
                         :refer-number plural)

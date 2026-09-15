@@ -946,7 +946,7 @@ Words: Tato dělba je částečně diktována ekonomicky :  západní Německo j
                 :refer-number singular
                 :mod (s14c2 / čistý)
                 :mod (s14k1 / kapitál))
-            :contrast-91 (s14b2 / být-007
+            :contrast (s14b2 / být-007
                 :aspect activity
                 :ARG2 (s14x1 / %Some)
                 :ARG1 (s14x2 / %Idph
@@ -989,7 +989,7 @@ Words: Zatímco americká snaha pomoci je omezena rozpočtovými problémy ,  Fr
 # sentence level graph:
 (s15o1 / oznámit-001
         :aspect performance
-        :contrast-91 (s15o2 / omezit-001
+        :contrast (s15o2 / omezit-001
             :aspect performance
             :ARG1 (s15s1 / snaha
                 :refer-number singular
@@ -2015,7 +2015,7 @@ Words: Zatímco se mnoho komentátorů ,  zvláště francouzských ,  obává ,
 # sentence level graph:
 (s30v1 / vidět-007
         :aspect state
-        :contrast-91 (s30o1 / obávat-se-001
+        :contrast (s30o1 / obávat-se-001
             :aspect activity
             :ARG0 (s30i1 / identity-91
                 :ARG1 (s30k1 / komentátor
