@@ -74,8 +74,8 @@ s2t: 1-1
 ################################################################################
 # meta-info
 # :: snt3
-Index: 1     2      3       4         5          6       7
-Words: peka, petsui yatuanu tsapukiay wɨwɨtakari yayutin ukaka
+Index: 1    2 3      4       5         6          7       8
+Words: peka , petsui yatuanu tsapukiay wɨwɨtakari yayutin ukaka
 Morphemes: pe -ka     pe -tsui       ya -tua -nu  tsapuki -ay          wɨwɨta -ka -ri             ya- yuti -n     uka -ka
 Morpheme Gloss (en): port -LOC    port -ABL  3F.SF -AUM -PL.F    call -3OF         move -REI -PROG        3F.SF- stay -REL  house -LOC
 Morpheme Gloss (es): puerto -LOC  puerto -ABL  3F.FC -AUM -PL.F  llamar -3OF  mover.mecer -REI -PROG  3F.FC- permanecer -REL   casa -LOC
@@ -103,10 +103,10 @@ Sentence Gloss (es): en el puerto, del puerto esos grandotes la llaman (mientras
 s3p: 0-0
 s3p2: 0-0
 s3p3: 1-1
-s3t: 4-4
-s3u: 7-7
-s3w: 5-5
-s3y: 6-6
+s3t: 5-5
+s3u: 8-8
+s3w: 6-6
+s3y: 7-7
 
 # document level annotation:
 (s3s0 / sentence
@@ -125,8 +125,8 @@ s3y: 6-6
 ################################################################################
 # meta-info
 # :: snt4
-Index: 1    2      3              4        5
-Words: tɨma amutse penukatsuriay, amiyanan None
+Index: 1    2      3             4 5        6
+Words: tɨma amutse penukatsuriay , amiyanan None
 Morphemes: tɨma  amutse            penu  uka -tsuriay        amiya -nan
 Morpheme Gloss (en): Neg     far        1PL.F.EX   house -PAS3       close -only
 Morpheme Gloss (es): Neg   lejos        1PL.F.EX    casa -PAS3  cerca -solamente
@@ -151,11 +151,11 @@ Sentence Gloss (es): no habíamos ido lejos de nuestra casa, ahí nomas
 # alignment:
 s4a: 0-0
 s4a2: 2-2
-s4a3: 4-4
+s4a3: 5-5
 s4h: 0-0
 s4h2: 0-0
 s4p: 0-0
-s4u2: 4-4
+s4u2: 5-5
 
 # document level annotation:
 (s4s0 / sentence
@@ -172,7 +172,7 @@ s4u2: 4-4
 # meta-info
 # :: snt5
 Index: 1      2         3 4    5     6         7
-Words: parana tsɨmatsui, peka tuanu tsapukita yuti
+Words: parana tsɨmatsui , peka tuanu tsapukita yuti
 Morphemes: parana  tsɨma -tsui       pe -ka         tua -nu  tsapuki -ta        yuti
 Morpheme Gloss (en): river   side? -ABL    port -LOC    spirit -PL.F    call -Cau     to.stay
 Morpheme Gloss (es): río   borde -ABL  puerto -LOC  espíritu -PL.F  llamar -Cau  permanecer
@@ -192,10 +192,10 @@ Sentence Gloss (es): desde la orilla del río, en el puerto esos grandotes conti
 
 # alignment:
 s5n: 1-1
-s5p: 3-3
+s5p: 4-4
 s5r: 1-1
-s5t: 5-5
-s5t2: 4-4
+s5t: 6-6
+s5t2: 5-5
 s5t3: 2-2
 
 # document level annotation:
@@ -246,7 +246,7 @@ s6y: 1-1
 # meta-info
 # :: snt7
 Index: 1       2    3     4 5     6       7
-Words: akarupe mama utsuy, awatu tsapuki yuti
+Words: akarupe mama utsuy , awatu tsapuki yuti
 Morphemes: aka -rupe    mama  utsu -uy       awa -tu  tsapuki        yuti
 Morpheme Gloss (en): here -FIN  mother  go -PAS1   person -AUM     call     to.stay
 Morpheme Gloss (es): acá -FIN    mama  ir -PAS1  persona -AUM   llamar  permanecer
@@ -274,7 +274,7 @@ s7a2: 1-1
 s7m: 2-2
 s7p: 0-0
 s7p2: 0-0
-s7t: 5-5
+s7t: 6-6
 s7u: 3-3
 
 # document level annotation:
@@ -333,8 +333,8 @@ s8x: 2-2
 ################################################################################
 # meta-info
 # :: snt9
-Index: 1       2
-Words: mamaaa, mamaaa
+Index: 1      2 3
+Words: mamaaa , mamaaa
 Morphemes: mama    mama
 Morpheme Gloss (en): mother  mother
 Morpheme Gloss (es): mamá    mamá
@@ -510,7 +510,7 @@ s13y2: 1-1
 # meta-info
 # :: snt14
 Index: 1                2          3 4           5            6    7           8 9       10
-Words: tsamɨmɨrakunianu tsapukiari. karuarapura unikuaratsui yatu tsapukiyuti, kumitsa.
+Words: tsamɨmɨrakunianu tsapukiari . karuarapura unikuaratsui yatu tsapukiyuti , kumitsa .
 Morphemes: tsa- mɨmɨrakunia -nu  tsapuki -ari  karuara -pura  uni -kuara -tsui      ya -tu       tsapuki - yuti   kumitsa
 Morpheme Gloss (en): 1F.SF- daugther.woman -PL.F    call -PROG  aquatic being   -FOC water -INE  -ABL 3F.SF       call - to.stay     speak
 Morpheme Gloss (es): 1F.SF- hijademujer -PL.F  llamar -PROG   ser acuático    -FOC agua -INE  -ABL 3F.FC  llamar - permanecer    hABLar
@@ -541,15 +541,15 @@ Sentence Gloss (es): mis hijas están llamando, los yacurunas están llamando de
 
 # alignment:
 s14a: 0-0
-s14k: 3-3
+s14k: 4-4
 s14k3: 0-0
 s14p: 0-0
 s14p2: 0-0
 s14t: 2-2
 s14t2: 1-1
-s14t3: 6-6
-s14u: 4-4
-s14y: 5-5
+s14t3: 7-7
+s14u: 5-5
+s14y: 6-6
 
 # document level annotation:
 (s14s0 / sentence
@@ -642,7 +642,7 @@ s16t2: 1-1
 # meta-info
 # :: snt17
 Index: 1               2     3           4 5    6
-Words: ɨkɨratsenpuranu ukaka yutinpuranu, yatu tsapuki
+Words: ɨkɨratsenpuranu ukaka yutinpuranu , yatu tsapuki
 Morphemes: ɨkɨratsen -pura -nu     uka -ka            yuti -n -pura -nu      ya -tu  tsapuki
 Morpheme Gloss (en): child -FOC -PL.F  house -LOC     to.stay -NMZR -FOC -PL.F  3F.SF -AUM     call
 Morpheme Gloss (es): niÒo -FOC -PL.F   casa -LOC  permanecer -NMDR -FOC -PL.F  3F.FC -AUM   llamar
@@ -664,8 +664,8 @@ Sentence Gloss (es): a los niños que permanecen en la casa esaso les llama
 
 # alignment:
 s17p: 0-0
-s17t: 5-5
-s17t2: 4-4
+s17t: 6-6
+s17t2: 5-5
 s17u: 2-2
 s17x: 1-1
 s17y: 3-3
@@ -798,7 +798,7 @@ s20y: 3-3
 # meta-info
 # :: snt21
 Index: 1      2 3      4 5        6
-Words: mamaaa, mamaaa, yapuranu tsapuki
+Words: mamaaa , mamaaa , yapuranu tsapuki
 Morphemes: mama     mama      ya -pura -nu  tsapuki
 Morpheme Gloss (en): mother   mother  3F.SF -FOC -PL.F     call
 Morpheme Gloss (es): mamá     mamá  3F.FC -FOC -PL.F   llamar
@@ -819,7 +819,7 @@ Sentence Gloss (es): mamaaa, mamaaa, ellos llaman
 
 # alignment:
 s21p: 0-0
-s21t: 4-4
+s21t: 6-6
 s21p2: 0-0
 s21h: 0-0
 s21m: 1-1
@@ -938,7 +938,7 @@ s24p3: 0-0
 # meta-info
 # :: snt25
 Index: 1    2       3        4 5    6 7
-Words: penu tsawiti yapuranu, uuuu, uuuu
+Words: penu tsawiti yapuranu , uuuu , uuuu
 Morphemes: penu    tsawiti      ya -pura -nu    ***   ***
 Morpheme Gloss (en): 1PL.F.EX     answer  3F.SF -FOC -PL.F    ***   ***
 Morpheme Gloss (es): 1PL.F.EX  contestar  3F.FC -FOC -PL.F    ***   ***
@@ -1004,7 +1004,7 @@ s26t: 2-2
 # meta-info
 # :: snt27
 Index: 1    2    3 4   5        6
-Words: penu utsu, era yapuranu putseru
+Words: penu utsu , era yapuranu putseru
 Morphemes: penu   utsu   era    ya -pura -nu    putseru
 Morpheme Gloss (en): 1PL.F.EX     go  well  3sF -FOC -PL.F  turn.pale
 Morpheme Gloss (es): 1PL.F.EX     ir  bien  3sF -FOC -PL.F  palidecer
@@ -1030,7 +1030,7 @@ Sentence Gloss (es): nosotros vamos, ellos están bien pálidos
 s27a: 0-0
 s27p: 0-0
 s27p2: 0-0
-s27p3: 5-5
+s27p3: 6-6
 s27u: 2-2
 
 # document level annotation:
@@ -1120,7 +1120,7 @@ s29p3: 0-0
 # meta-info
 # :: snt30
 Index: 1         2 3        4    5
-Words: maritipuy, yaepenan penu piyata
+Words: maritipuy , yaepenan penu piyata
 Morphemes: mari -tipa -uy      yaepe -nan      penu   piyata
 Morpheme Gloss (en): thing -Q -PST1     there -only  1PL.F.EX  ask.for
 Morpheme Gloss (es): cosa -Q -PST1  ahí -solamente  1PL.F.EX    pedir
@@ -1143,7 +1143,7 @@ Sentence Gloss (es): qué pasó, entonces preguntamos
 s30e: 0-0
 s30p: 0-0
 s30p2: 0-0
-s30y: 2-2
+s30y: 3-3
 
 # document level annotation:
 (s30s0 / sentence
@@ -1336,7 +1336,7 @@ s34u: 0-0
 # meta-info
 # :: snt35
 Index: 1    2 3    4 5             6   7   8
-Words: weee, weee, ipirawirapura era ipu peka
+Words: weee , weee , ipirawirapura era ipu peka
 Morphemes: ***    ***  ipirawira -pura   era     ipu       pe -ka
 Morpheme Gloss (en): ***    ***     dolphin -FOC  well   sound    port -LOC
 Morpheme Gloss (es): ***    ***      delfín -FOC  bien  sonido  puerto -LOC
@@ -1353,8 +1353,8 @@ Sentence Gloss (es): weee, weee, el bufeo suena fuerte en el puerto
 	:aspect endeavor)
 
 # alignment:
-s35i2: 5-5
-s35i3: 3-3
+s35i2: 7-7
+s35i3: 5-5
 
 # document level annotation:
 (s35s0 / sentence
@@ -1550,7 +1550,7 @@ s40k: 1-1
 # meta-info
 # :: snt41
 Index: 1      2    3     4      5    6 7  8      9
-Words: ajanka yatu ipama yutiuy mama, na yapura kumitsa
+Words: ajanka yatu ipama yutiuy mama , na yapura kumitsa
 Morphemes: ajan -ka      ya -tu      ipama          yuti -uy    mama         na    ya -pura  kumitsa
 Morpheme Gloss (en): this -LOC  3F.SF -AUM       stop     to.stay -PAS1  mother  like.this  3F.SF -FOC    speak
 Morpheme Gloss (es): este -LOC  3F.FC -AUM  detenerse  permanecer -PAS1    mama        así  3F.FC -FOC   hABLar
@@ -1719,7 +1719,7 @@ s44k: 1-1
 # meta-info
 # :: snt45
 Index: 1             2 3
-Words: ɨtsɨkakanpura, senior
+Words: ɨtsɨkakanpura , senior
 Morphemes: itsika -ka -n -pura  senior
 Morpheme Gloss (en): scare -REI -NMZR -FOC    lord
 Morpheme Gloss (es): asustarse -REI -NMDR -FOC  senior
@@ -1736,7 +1736,7 @@ Sentence Gloss (es): (estoy) asustada, ay seÒor!
 
 # alignment:
 s45h: 0-0
-s45s: 2-2
+s45s: 3-3
 s45x: 1-1
 s45p: 0-0
 
@@ -1831,7 +1831,7 @@ s47u2: 5-5
 # meta-info
 # :: snt48
 Index: 1         2    3     4     5 6
-Words: karuaratu muna maria iyara, maama
+Words: karuaratu muna maria iyara , maama
 Morphemes: karuara -tu   muna  maria   iyara    mama
 Morpheme Gloss (en): aquatic.being -AUM  steal  Maria  almost  mother
 Morpheme Gloss (es): ser.acuático -AUM  robar  María    casi    mama
@@ -1858,7 +1858,7 @@ Sentence Gloss (es): el yacuruna casi roba a María, mamá
 s48i2: 4-4
 s48k: 1-1
 s48m: 2-2
-s48m2: 5-5
+s48m2: 6-6
 s48n: 0-0
 s48p: 0-0
 s48t: 1-1
@@ -2017,7 +2017,7 @@ s51p3: 0-0
 # meta-info
 # :: snt52
 Index: 1      2    3      4 5
-Words: ajanka yatu yutiuy, mama
+Words: ajanka yatu yutiuy , mama
 Morphemes: ajan -ka      ya -tu          yuti -uy    mama
 Morpheme Gloss (en): this -LOC  3F.SF -AUM     to.stay -PAS1  mother
 Morpheme Gloss (es): este -LOC  3F.FC -AUM  permanecer -PAS1    mama
@@ -2040,7 +2040,7 @@ Sentence Gloss (es): aquí estuvo ese, mamá
 
 # alignment:
 s52a: 1-1
-s52m: 4-4
+s52m: 5-5
 s52p: 0-0
 s52t: 2-2
 s52y: 3-3
@@ -2065,7 +2065,7 @@ s52p3: 0-0
 # meta-info
 # :: snt53
 Index: 1       2    3      4 5
-Words: ipamawa yatu yutiuy, mama
+Words: ipamawa yatu yutiuy , mama
 Morphemes: ipama -wa      ya -tu          yuti -uy    mama
 Morpheme Gloss (en): stand -GER  3F.SF -AUM     to.stay -PAS1  mother
 Morpheme Gloss (es): pararse -GER  3F.FC -AUM  permanecer -PAS1    mama
@@ -2088,7 +2088,7 @@ Sentence Gloss (es): estuvo parado, mamá
 
 # alignment:
 s53i2: 1-1
-s53m: 4-4
+s53m: 5-5
 s53p: 0-0
 s53t: 2-2
 s53e: 0-0
@@ -2293,7 +2293,7 @@ s57p: 3-3
 # meta-info
 # :: snt58
 Index: 1         2   3    4 5
-Words: ipirawira ipu weee, weee
+Words: ipirawira ipu weee , weee
 Morphemes: ipirawira       ipu    ***   ***
 Morpheme Gloss (en): dolphin  to.sound    ***   ***
 Morpheme Gloss (es): delfín     sonar    ***   ***
@@ -2471,7 +2471,7 @@ s62t: 1-1
 # meta-info
 # :: snt63
 Index: 1  2     3    4       5       6 7
-Words: ni mania penu yankata karuara, zutsu
+Words: ni mania penu yankata karuara , zutsu
 Morphemes: ni  mania      penu  yankata   karuara          y- utsu
 Morpheme Gloss (en): Neg    how  1PL.F.EX      put   aquatic     being 3F.CL-
 Morpheme Gloss (es): Neg   como  1PL.F.EX    poner       ser  acuático 3F.CL-
@@ -2512,7 +2512,7 @@ s63y: 4-4
 # meta-info
 # :: snt64
 Index: 1       2      3     4 5
-Words: karuara yapana unipu, zutsu
+Words: karuara yapana unipu , zutsu
 Morphemes: karuara    yapana      uni -pu      y- utsu
 Morpheme Gloss (en): aquatic     being    run water  -INS 3F.CL-
 Morpheme Gloss (es): ser  acuático  correr agua  -INS 3F.CL-
@@ -2699,8 +2699,8 @@ s68e: 0-0
 ################################################################################
 # meta-info
 # :: snt69
-Index: 1   2      3    4           5          6 7             8 9
-Words: aka tuannu utsu inuayamiran chikariari, kusipuratukua, tsapapamuki None
+Index: 1   2      3    4           5          6 7             8 9           10
+Words: aka tuannu utsu inuayamiran chikariari , kusipuratukua , tsapapamuki None
 Morphemes:           aka  tua -n -nu            utsu   inu -a -ya -mira -n          chikari -a -ri      kusi -pura -tu -ukua          tsa   papa -muki
 Morpheme Gloss (en): here be.big -NMZR -PL.F    go     3PL.F -EV -CMP -PUR2 -REL    lookfor -EV -PROG   Jose -FOC -AUM -habitual      1sF  father -Com
 Morpheme Gloss (es): acá  sergrande -NMDR -PL.F ir     3PL.F -VE -CMP -PROP2 -REL   buscar -VE -PROG    José -FOC -AUM -habitual      1sF    papá -Com
@@ -2733,10 +2733,10 @@ s69c: 5-5
 s69d: 0-0
 s69h: 0-0
 s69n: 0-0
-s69p: 6-6
+s69p: 7-7
 s69p2: 0-0
 s69p3: 0-0
-s69p4: 7-7
+s69p4: 9-9
 s69t: 2-2
 s69u: 3-3
 s69u2: 0-0
@@ -3206,7 +3206,7 @@ s81p2: 0-0
 # meta-info
 # :: snt82
 Index: 1       2 3
-Words: mukuika, inumanu
+Words: mukuika , inumanu
 Morphemes: mukuika    inu - umanu
 Morpheme Gloss (en): two    3PL.F - die
 Morpheme Gloss (es): dos  3PL.F - morir
