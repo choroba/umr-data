@@ -1,3 +1,4 @@
+################################################################################
 # sent_id = n01001011
 # :: snt1
 Index: 1 2 3     4       5         6    7  8  9         10      11    12   13     14 15  16 17   18        19          20         21 22    23         24        25   26 27       28 29 30      31      32       33         34   35       36 37      38 39   40    41
@@ -1064,7 +1065,7 @@ Sentence Gloss (en): Greece was divided into many small, self-governing communit
 	:aspect state
 	:ARG1 (s23r / rozdělit
 		:modal-strength full-affirmative
-		:aspect perfomance
+		:aspect performance
 		:undergoer (s23c / country
 			:name (s23n / name
 				:op1 "Řecko"))
@@ -1083,7 +1084,7 @@ Sentence Gloss (en): Greece was divided into many small, self-governing communit
 			:mod (s23s / samosprávný)))
 	:ARG2 (s23o / odříznout
 		:modal-strength full-affirmative
-		:aspect perfomance
+		:aspect performance
 		:undergoer (s23a / and
 			:op1 (s23o2 / ostrov)
 			:op2 (s23ú / údolí)
@@ -1300,8 +1301,8 @@ Sentence Gloss (en): The man told him that a war between the two universes is co
 	:actor (s27m / muž
 		:refer-number singular)
 	:recipient (s27p / person
-		:refer-number 3
-		:refer-person singular)
+		:refer-person 3
+		:refer-number singular)
 	:theme (s27v / válčit
 		:actor (s27s / svět
 			:refer-number plural
@@ -1330,7 +1331,7 @@ Sentence Gloss (en): The man told him that a war between the two universes is co
 				:temporal (s27h / have-role-91
 					:ARG1 s27p4
 					:ARG2 (s27d / dítě
-						:refer-number singulat)
+						:refer-number singular)
 					:modal-strength full-affirmative
 					:aspect state)))))
 
@@ -3990,7 +3991,7 @@ Sentence Gloss (en): The Viguier and La Conte districts contain the majority of 
         :quant (s80v / většina)
         :mod (s80m / městské)
         :mod (s80s / sociální)
-        :poss-of (s80o / obyvatelstvo
+        :possessor-of (s80o / obyvatelstvo
              :refer-number singular
              :ARG1-of (s80i / identity-91
                 :ARG2 (s80o2 / or
