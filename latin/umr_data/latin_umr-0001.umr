@@ -14,13 +14,13 @@ Sentence Gloss (en): It is suitable that all men, who desire to excel other anim
             :quant (s1o / omnis)
             :ARG0-of (s1s / studeo-NEW-07
                 :ARG1 (s1p / praesto2-06
-                    :ARG0 s1h
                     :ARG1 (s1a / animal
                         :refer-number plural
                         :mod (s1c / ceterus))
                     :aspect state
                     :modal-predicate s1s)
-                :aspect state))
+                :aspect state)
+            :ARG0-of s1p)
             :manner (s1o2 / ops
                 :refer-number singular
                 :mod (s1s2 / superus :degree intensifier))
@@ -39,10 +39,10 @@ Sentence Gloss (en): It is suitable that all men, who desire to excel other anim
                             :ARG2 (s1a2 / and
                                 :op1 (s1p3 / pronus)
                                 :op2 (s1o3 / oboedio-NEW-01
-                                    :ARG0 s1p2
                                     :ARG1 (s1v2 / venter)
                                     :aspect state))
-                            :aspect performance))
+                            :aspect performance)
+                        :ARG0-of s1o3)
                     :aspect state)
                 :aspect activity)
             :aspect activity)
@@ -557,8 +557,8 @@ Sentence Gloss (en): Thus each of these, being incomplete in itself, requires th
         :refer-number singular
         :quant (s9u / uterque)
         :ARG0-of (s9i / indigeo-03
-            :extent s9t
-            :aspect state))
+            :aspect state)
+        :extent-of s9i)
     :ARG1 (s9a / auxilior-03
         :ARG0 (s9t2 / thing
             :refer-number singular
@@ -1438,12 +1438,12 @@ Sentence Gloss (en): but he only, indeed, seems to me to live, and to enjoy life
                         :refer-number singular
                         :mod (s22b / bonus))))
                 :manner (s22i / intendo-06
-                    :ARG0 s22p
                     :ARG1 (s22n / negotium
                         :refer-number singular
                         :mod (s22a4 / aliquus))
                     :aspect state)
-                :aspect activity))
+                :aspect activity)
+        :ARG0-of s22i)
     :ARG2 (s22a / and
         :op1 (s22v2 / vivo-NEW-02
             :ARG0 s22p
@@ -2769,8 +2769,8 @@ Sentence Gloss (en): his constitution could endure hunger, want of sleep, and co
             :ARG0 (s41p3 / person
                 :refer-number singular
                 :refer-person 3rd)
-            :ARG1 s41p
             :aspect state))
+    :ARG1-of s41c2
     :aspect state)
 
 # alignment:
@@ -3058,7 +3058,8 @@ s46r: 10-10
 # document level annotation:
 (s46s0 / sentence
     :temporal ((s45i :after s46p)
-            (s45i :after s46p3))
+            (s45i :after s46p3)
+            (s45i :after s46a))
     :modal ((root :modal author)
             (author :neutral-affirmative have-condition-91)
             (have-condition-91 :full-negative s46p)
@@ -3163,16 +3164,16 @@ Sentence Gloss (en): the corrupt morals of the state, too, which extravagance an
             :ARG0 (s48a / and
                 :op1 (s48l / luxuria :refer-number singular)
                 :op2 (s48a2 / avaritia :refer-number singular)
-            :ARG1-of (s48h / have-identity-91
-                :ARG2 (s48m2 / malum
-                    :refer-number plural
-                    :mod (s48a3 / and
-                        :op1 (s48m3 / malus :degree intensifier)
-                        :op2 (s48d / differo-13
-                            :ARG1 s48a
-                            :ARG2 s48a
-                            :aspect state)))
-                :aspect state))
+                :ARG1-of (s48h / have-identity-91
+                    :ARG2 (s48m2 / malum
+                        :refer-number plural
+                        :mod (s48a3 / and
+                            :op1 (s48m3 / malus :degree intensifier)
+                            :op2 (s48d / differo-13
+                                :aspect state)))
+                    :aspect state)
+                :ARG1-of s48d
+                :ARG2-of s48d)
             :aspect activity))
     :ARG1 (s48p / person
         :refer-number singular
@@ -3370,7 +3371,6 @@ Sentence Gloss (en): Of the city of Rome, as I understood, the founders and earl
                         :refer-number plural
                         :mod (s50i / incertus))
                     :manner (s50h5 / have-mod-91
-                        :ARG1 s50p
                         :ARG2 (s50p3 / profugus)
                         :aspect state)
                     :companion (s50p2 / person
@@ -3379,7 +3379,8 @@ Sentence Gloss (en): Of the city of Rome, as I understood, the founders and earl
                         :ARG1-of (s50h2 / have-role-91
                             :ARG3 (s50d / dux)
                             :aspect state))
-                    :aspect performance))
+                    :aspect performance)
+                :ARG1-of s50h5)
             :op2 (s50e / ethnic-group
                 :refer-number plural
                 :wiki "Q322971"
