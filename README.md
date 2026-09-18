@@ -122,7 +122,7 @@ The four parts are as follows:
 
 - Entries are separated by two colons (`::`).
 - Example entries:
-  - `type = partial_conversion`: Indicates that the UMR annotation for this sentence was converted from AMR.
+  - `type = partial_conversion`: Indicates that the UMR annotation for this sentence was converted from AMR or from PDT.
   - `sent_id = u_tree-cs-s1-root`: Maps to the original sentence ID from the source workset.
 
 #### Tokens, Morphemes, Translation
@@ -219,7 +219,7 @@ Run `statistics.py` to generate the `umr_statistics.txt` file, which contains su
 
 ### Notes:
 - The following descriptions explain the metrics used in the three types of tables.
-- **Partial-conversion data** refers to data that have been partially converted from AMR.
+- **Partial-conversion data** refers to data that have been partially converted from AMR or PDT.
 - **Non-partial-conversion data** includes data that were manually annotated.
 
 
