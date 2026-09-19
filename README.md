@@ -213,6 +213,20 @@ This dataset includes annotated data from the following languages (ISO 639-3 cod
 
 For detailed mapping between the current file names and their original workset names, refer to the provided **umr_file_name_mapping.txt**.
 
+The file **validation.log** contains output of the [UMR validation script](https://github.com/ufal/umrtools),
+invoked as follows:
+
+```bash
+for i in */umr_data/*.umr ; do \
+    echo $i ; \
+    /net/work/people/zeman/umr/umrtools/validate.py \
+        --no-check-ilg --allow-forward-references --allow-cycles --allow-duplicate-roles \
+        --optional-aspect-modstr --no-check-wiki --optional-alignments --no-warn-unaligned-token \
+        --allow-coref-entity-event-mismatch \
+        $i ; \
+done 2>&1 | tee validation.log
+```
+
 ## Statistics Tables Description
 
 Run `statistics.py` to generate the `umr_statistics.txt` file, which contains summary tables.
