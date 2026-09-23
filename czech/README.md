@@ -21,6 +21,7 @@ cover coreference only; there are no temporal relations.
 
 The following table shows how many sentences of each file have been annotated manually.
 
+```
 | original                      | conv file | man file | # of sentences | manually |
 +-------------------------------+-----------+----------+----------------+----------|
 | dtest/ln94210_111.umr         |      1544 |     7091 |             14 |       14 |
@@ -33,6 +34,7 @@ The following table shows how many sentences of each file have been annotated ma
 | etest/ln94211_89.umr          |      1795 |     7098 |             43 |       43 |
 | etest/pdtsc_038_1.00.umr      |      3495 |     7099 |             50 |     ! 25 |
 | etest/wsj2350.cz.umr          |      6982 |     7100 |             24 |       24 |
+```
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
