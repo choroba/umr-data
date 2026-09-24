@@ -129,17 +129,18 @@ The four parts are as follows:
 
 This section may include the following fields:
 
-- **Index**: Token indices
-- **Words**: Tokens of the sentence
+- **Index**: Token indices (to be used in the alignment block below)
+- **Words**: Tokens of the sentence (separated by one or more spaces, same number of elements as in Index)
+- **Word Gloss (en)**: English translation of the individual words
+- **Word Gloss (es)**: Spanish translation of the individual words
 - **Morphemes**: Morphological breakdown of words
-- **Morpheme Gloss (English)**: English glosses of morphemes
-- **Morpheme Gloss (Spanish)**: Spanish glosses of morphemes
+- **Morpheme Gloss (en)**: English glosses of morphemes
+- **Morpheme Gloss (es)**: Spanish glosses of morphemes
 - **Morpheme Category**: Categories or grammatical roles of morphemes
-- **Words (English)**: English translation of the individual words
-- **Part of Speech**: POS tags
-- **Sentence**: Original sentence
-- **Translation (English)**: English translation of the sentence
-- **Translation (Spanish)**: Spanish translation of the sentence
+- **Part of Speech**: Part-of-speech tags
+- **Sentence**: Original untokenized sentence
+- **Translation (en)**: English translation of the sentence
+- **Translation (es)**: Spanish translation of the sentence
 
 ---
 
